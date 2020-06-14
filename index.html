@@ -8,19 +8,19 @@
     <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-database.js"></script>
     <script>
         var firebaseConfig = {
-            apiKey: "AIzaSyDr94cgRwmo3glVTirQ9LPAA4HI9cyYUCg",
-            authDomain: "chunkpicker.firebaseapp.com",
-            databaseURL: "https://chunkpicker.firebaseio.com",
-            projectId: "chunkpicker",
-            storageBucket: "chunkpicker.appspot.com",
-            messagingSenderId: "149349257281",
-            appId: "1:149349257281:web:eb9aa70aec5e8ad6e7b6c0"
+          apiKey: "AIzaSyAiqvRtnf0N2y9DC-uuNXudsc7xNoDRryI",
+          authDomain: "chunkpickerrs3.firebaseapp.com",
+          databaseURL: "https://chunkpickerrs3.firebaseio.com",
+          projectId: "chunkpickerrs3",
+          storageBucket: "chunkpickerrs3.appspot.com",
+          messagingSenderId: "374193749553",
+          appId: "1:374193749553:web:1d00c90aa5c63cbc939f10"
         };
         firebase.initializeApp(firebaseConfig);
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
-    <title>Chunk Picker V2</title>
+    <title>Chunk Picker RS3</title>
 </head>
 
 <img class='background-img' draggable="false" src='./Background-chunk.PNG' />
@@ -31,18 +31,19 @@
   <script src="./index.js"></script>
   <div class='escape-hint'>Press escape to exit screenshot mode</div>
   <div class='topnav'>
-      <div><a href='https://source-chunk.github.io/chunk-picker-v2/'><i class="gohome zmdi zmdi-home zmdi-hc-3x"></i></a></div>
+      <div><a href='https://source-chunk.github.io/chunk-picker-rs3/'><i class="gohome zmdi zmdi-home zmdi-hc-3x"></i></a></div>
+      <div><a href='https://source-chunk.github.io/chunk-picker-rs3/?leaderboard'><i class="goleaderboard zmdi zmdi-equalizer zmdi-hc-3x"></i></a></div>
       <div class='toptitle2'>---</div>
       <div><i class="settings zmdi zmdi-settings zmdi-hc-3x" onclick='settings()'></i></div>
   </div>
   <div id='entry-menu'>
     <div class='entry-content'>
       <div class='block'>
-        <div class='title'>Chunk Picker V2</div>
+        <div class='title'>Chunk Picker RS3</div>
       </div>
       <div class='block'>
         <div>Enter PIN to unlock:</div>
-        <input class='pin entry' placeholder='PIN' />
+        <input class='pin entry' placeholder='PIN' type='password' />
         <button id='unlock-entry' class='button' onclick='unlockEntry()' disabled>Unlock map</button>
       </div>
       <div class='block'>
@@ -53,23 +54,25 @@
       </div>
     </div>
   </div>
-  <div id='import-menu'>
-    <div class='import-content'>
-      <span class='exit' onclick='exitImportMenu()'><i class="zmdi zmdi-close zmdi-hc-lg"></i></span>
-      <div class='block'>
-        <div class='title'>Import from URL</div>
-      </div>
-      <div class='block'>
-        <p class='description'>
-          If you have a chunk map from <a class='gitgeddes' target='_blank' href='https://gitgeddes.github.io/ChunkPicker/'>https://gitgeddes.github.io/ChunkPicker/</a> and wish to import your chunks into this map, click on the 'Generate and copy URL' button, and paste your URL below.
-        </p>
-        <div class='warning'><b>Warning: This action will replace your entire current map with the map from the url.</b></div>
-        <input class='url' placeholder='Enter URL' />
-        <div class='url-err'>URL is formatted incorrectly.</div>
-        <button id='import2' class='button' onclick='importFromURL()' disabled>Import</button>
+  <!--
+    <div id='import-menu'>
+      <div class='import-content'>
+        <span class='exit' onclick='exitImportMenu()'><i class="zmdi zmdi-close zmdi-hc-lg"></i></span>
+        <div class='block'>
+          <div class='title'>Import from URL</div>
+        </div>
+        <div class='block'>
+          <p class='description'>
+            If you have a chunk map from <a class='gitgeddes' target='_blank' href='https://gitgeddes.github.io/ChunkPicker/'>https://gitgeddes.github.io/ChunkPicker/</a> and wish to import your chunks into this map, click on the 'Generate and copy URL' button, and paste your URL below.
+          </p>
+          <div class='warning'><b>Warning: This action will replace your entire current map with the map from the url.</b></div>
+          <input class='url' placeholder='Enter URL' />
+          <div class='url-err'>URL is formatted incorrectly.</div>
+          <button id='import2' class='button' onclick='importFromURL()' disabled>Import</button>
+        </div>
       </div>
     </div>
-  </div>
+  -->
   <div class='menu' data-type="header">
     <button class='pick' onclick="pick()">Pick Chunk</button>
     <button class='roll2' onclick="roll2()">Roll 2</button>
@@ -95,30 +98,33 @@
     </div>
     <div class='lock-box'>
       <div class='inner-lock'>
-        <input class='lock-pin' placeholder='PIN' />
+        <input class='lock-pin' placeholder='PIN' type='password' />
         <button id='lock-unlock' onclick='checkPin()'>Unlock</button>
       </div>
     </div>
   </div>
-  <div class='menu6'>
-    <button class='import' onclick="importFunc()">Import from URL</button>
-  </div>
-    <div class='menu7'>
-        <div id='recentChunksTitle' class='text'><b>Recently Unlocked</b></div>
-        <div id='recentChunks1' class='text'></div>
-        <div id='recentChunks2' class='text'></div>
-        <div id='recentChunks3' class='text'></div>
-        <div id='recentChunks4' class='text'></div>
-        <div id='recentChunks5' class='text'></div>
-  </div>
+  <!--
+    <div class='menu6'>
+      <button class='import' onclick="importFunc()">Import from URL</button>
+    </div>
+      <div class='menu7'>
+          <div id='recentChunksTitle' class='text'><b>Recently Unlocked</b></div>
+          <div id='recentChunks1' class='text'></div>
+          <div id='recentChunks2' class='text'></div>
+          <div id='recentChunks3' class='text'></div>
+          <div id='recentChunks4' class='text'></div>
+          <div id='recentChunks5' class='text'></div>
+    </div>
+  -->
   <div>
     <div class="imgDiv" id="imgDiv">
-      <img class="map" id="map" src="osrs_world_map_may20_2019.png">
+      <img class="map" id="map" src="RuneScape_Worldmap.png">
       <div class="btnDiv" id="btnDiv"></div>
     </div>
   </div>
   <div class='settings-menu'>
-    <a class='none' href='https://source-chunk.github.io/chunk-picker-v2/?change-pin'><div class='item'>Change PIN<i class="pic zmdi zmdi-edit zmdi-hc-lg"></i></div></a>
+    <div class='item leaderboardtoggle' onclick="enableLeaderboard()">Opt-in to leaderboard<i class="pic zmdi zmdi-equalizer zmdi-hc-lg"></i></div>
+    <a class='none' href='https://source-chunk.github.io/chunk-picker-rs3/?change-pin'><div class='item'>Change PIN<i class="pic zmdi zmdi-edit zmdi-hc-lg"></i></div></a>
     <div class='item' onclick="enableScreenshotMode()">Screenshot mode<i class="pic zmdi zmdi-camera zmdi-hc-lg"></i></div>
     <div class='item visibilitytoggle item-off' onclick="toggleVisibility()">High visibility mode<i class="pic zmdi zmdi-brightness-7 zmdi-hc-lg"></i></div>
     <div class='item roll2toggle item-off' onclick="toggleRoll2()">Roll 2<i class="pic zmdi zmdi-plus zmdi-hc-lg"></i></div>
@@ -130,7 +136,7 @@
 <div id='home-menu'>
   <div id='page1' class='content'>
     <div class='block'>
-      <div class='title'>Chunk Picker V2</div>
+      <div class='title'>Chunk Picker RS3</div>
     </div>
     <div class='block'>
       <button id='create' class='button' onclick='nextPage(this.id)'>Create a new map</button>
@@ -142,6 +148,11 @@
       <button id='mid' class='button' onclick='nextPage(this.id)'>Enter your map ID</button>
     </div>
   </div>
+  <div id='page1extra' class='content'>
+    <div class='block'>
+      <a href='https://source-chunk.github.io/chunk-picker-rs3/?leaderboard' target='_blank'><button id='leader' class='button'>Leaderboard</button></a>
+    </div>
+  </div>
   <div id='page2a' class='content2a' style="display:none">
     <div class='block'>
       <div class='title back' onclick='prevPage("create2")'><i class="zmdi zmdi-long-arrow-left zmdi-hc-lg"></i></div>
@@ -150,16 +161,16 @@
         Your map PIN will allow you to roll new chunks and make changes to your map, and give you the ability to share your map with others without allowing them to edit it.
       </p>
       <br />
-      <div>PIN (4 digits):</div>
+      <div>Alphanumeric PIN:</div>
       <input class='pin new' placeholder='PIN' />
       <button id='create2' class='button' onclick='nextPage(this.id)' disabled>Create map</button>
     </div>
   </div>
   <div id='page3a' class='content3a' style="display:none">
     <div class='block'>
-      <div class='title' >Chunk Picker V2</div>
-      <div class='home text'>Your 3-letter map ID code is:</div>
-      <div id='newmid'>---</div>
+      <div class='title' >Chunk Picker RS3</div>
+      <div class='home text'>Your unique map ID code is:</div>
+      <div id='newmid'></div>
       <div class='home text'>You can access your map at:</div>
       <div class='link-outer'><a class='a link'></a></div>
     </div>
@@ -172,7 +183,7 @@
     <input class='mid' spellcheck='false' placeholder='Map ID' />
     <div class='mid-err'>Map ID does not exist.</div>
     <div class='home text2'>PIN (optional):</div>
-    <input class='pin old' placeholder='PIN' />
+    <input class='pin old' placeholder='PIN' type='password' />
     <div class='pin-err'>PIN is incorrect.</div>
     <button id='access' class='button' onclick='accessMap()' disabled>Access my map</button>
   </div>
@@ -192,5 +203,20 @@
     <div class='home text2'>New PIN:</div>
     <input class='pin old2 second' placeholder='PIN' />
     <button id='change-pin' class='button' onclick='changePin()' disabled>Change PIN</button>
+  </div>
+</div>
+
+<div id='leaderboard-menu' style="display:none">
+  <div id='page9' class='content9'>
+    <div class='block'>
+      <div class='title'>Leaderboard</div>
+      <table class='rank-rows'>
+        <tr>
+          <th>Rank</th>
+          <th>Map ID</th>
+          <th># of Chunks</th>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>

@@ -2,10 +2,11 @@
  * Created by Source Link AKA Source Chunk
  * Revision of an idea by Amehzyn
  * With help from Slay to Stay for chunk Id's and Amehzyn for smoother zooming/url decoding
- * 1/26/2019
+ * 6/14/2020
  */
 
 var onMobile = typeof window.orientation !== 'undefined';                       // Is user on a mobile device
+var viewOnly = false;                                                           // View only mode active
 var isPicking = false;                                                          // Has the user just rolled 2 chunks and is currently picking
 var autoSelectNeighbors = false;                                                // Toggle state for select neighbors button
 var autoRemoveSelected = false;                                                 // Toggle state for remove selected button
@@ -16,6 +17,7 @@ var settingsOpen = false;                                                       
 var roll2On = false;                                                            // Is the roll2 button enabled
 var unpickOn = false;                                                           // Is the unpick button enabled
 var recentOn = false;                                                           // Is the recent chunks section enabled
+var leaderboardEnabled = false;                                                 // Is leaderboard tracking enabled
 var highVisibilityMode = false;                                                 // Is high visibility mode enabled
 var recent = [];                                                                // Recently picked chunks
 var zoom = 350;                                                                 // Starting zoom value
@@ -24,20 +26,20 @@ var minZoom = onMobile ? 275 : 100;                                             
 var fontZoom = 16;                                                              // Font size zoom
 var labelZoom = 96;                                                             // Selected label font size zoom
 var scale = 30;                                                                 // Amount zoomed every 'zoom' action
-var fullSize = 1075;                                                            // Amount of chunks present
-var rowSize = 43;                                                               // Amount of chunks per row
+var fullSize = 1254;                                                            // Amount of chunks present
+var rowSize = 38;                                                               // Amount of chunks per row
 var scrollLeft = 0;                                                             // Amount the board is scrolled left offscreen
 var prevScrollLeft = 0;                                                         // Amount the board was previously scrolled left offscreen
 var scrollTop = 0;                                                              // Amount the board is scrolled up offscreen
 var prevScrollTop = 0;                                                          // Amount the board was previously scrolled up offscreen
 
-var ratio = 4800 / 8256;                                                        // Image ratio
+var ratio = 4217 / 4849;                                                        // Image ratio
 var movedNum = 0;                                                               // Amount of times mouse is moved while dragging
 var selectedNum = 1;                                                            // Current index of selected chunks
 var unlockedChunks = 0;                                                         // Number of unlocked chunks
 var selectedChunks = 0;                                                         // Number of selected chunks
-var startingIndex = 4671;                                                       // Index to start chunk numbering at (based on ChunkLite numbers)
-var skip = 213;                                                                 // Number of indices to skip between columns for chunk numbering
+var startingIndex = 7495;                                                       // Index to start chunk numbering at
+var skip = 218;                                                                 // Number of indices to skip between columns for chunk numbering
 
 var prevValueMid = '';                                                          // Previous value of map id at login
 var prevValuePinNew = '';                                                       // Previous value of pin at signup
@@ -146,12 +148,12 @@ $(document).ready(function() {
     checkMID(window.location.href.split('?')[1]);
 
     $('.mid').on('input', function(e) {
-        if ((!/^[a-zA-Z]+$/.test(e.target.value) && e.target.value !== '') || e.target.value.length > 3) {
+        if ((!/^[a-zA-Z]+$/.test(e.target.value) && e.target.value !== '') || e.target.value.length > 4) {
             $(this).val(prevValueMid);
         } else {
             $(this).val(e.target.value.toUpperCase());
             prevValueMid = e.target.value;
-            if (e.target.value.length === 3) {
+            if (e.target.value.length === 3 || e.target.value.length === 4) {
                 midGood = true;
                 checkIfGood();
             } else {
@@ -162,7 +164,7 @@ $(document).ready(function() {
     });
     
     $('.pin.new').on('input', function(e) {
-        if (isNaN(e.target.value) || e.target.value.length > 4) {
+        if (!e.target.value.match(/^[a-z0-9]*$/i) || e.target.value.length > 4) {
             $(this).val(prevValuePinNew);
         } else {
             prevValuePinNew = e.target.value;
@@ -175,7 +177,7 @@ $(document).ready(function() {
     });
     
     $('.pin.old').on('input', function(e) {
-        if (isNaN(e.target.value) || e.target.value.length > 4) {
+        if (!e.target.value.match(/^[a-z0-9]*$/i) || e.target.value.length > 4) {
             $(this).val(prevValuePinOld);
         } else {
             prevValuePinOld = e.target.value;
@@ -190,7 +192,7 @@ $(document).ready(function() {
     });
     
     $('.lock-pin').on('input', function(e) {
-        if (isNaN(e.target.value) || e.target.value.length > 4) {
+        if (!e.target.value.match(/^[a-z0-9]*$/i) || e.target.value.length > 4) {
             $(this).val(prevValueLockPin);
         } else {
             prevValueLockPin = e.target.value;
@@ -204,7 +206,7 @@ $(document).ready(function() {
     });
 
     $('.pin.entry').on('input', function(e) {
-        if (isNaN(e.target.value) || e.target.value.length > 4) {
+        if (!e.target.value.match(/^[a-z0-9]*$/i) || e.target.value.length > 4) {
             $(this).val(prevValueLockPin);
         } else {
             prevValueLockPin = e.target.value;
@@ -218,12 +220,12 @@ $(document).ready(function() {
     });
 
     $('.mid-old').on('input', function(e) {
-        if ((!/^[a-zA-Z]+$/.test(e.target.value) && e.target.value !== '') || e.target.value.length > 3) {
+        if ((!/^[a-zA-Z]+$/.test(e.target.value) && e.target.value !== '') || e.target.value.length > 4) {
             $(this).val(prevValueMid2);
         } else {
             $(this).val(e.target.value.toUpperCase());
             prevValueMid2 = e.target.value;
-            if (e.target.value.length === 3) {
+            if (e.target.value.length === 3 || e.target.value.length === 4) {
                 mid2Good = true;
                 checkIfGood2();
             } else {
@@ -234,7 +236,7 @@ $(document).ready(function() {
     });
     
     $('.pin.old2.first').on('input', function(e) {
-        if (isNaN(e.target.value) || e.target.value.length > 4) {
+        if (!e.target.value.match(/^[a-z0-9]*$/i) || e.target.value.length > 4) {
             $(this).val(prevValuePinOld2);
         } else {
             prevValuePinOld2 = e.target.value;
@@ -249,7 +251,7 @@ $(document).ready(function() {
     });
 
     $('.pin.old2.second').on('input', function(e) {
-        if (isNaN(e.target.value) || e.target.value.length > 4) {
+        if (!e.target.value.match(/^[a-z0-9]*$/i) || e.target.value.length > 4) {
             $(this).val(prevValuePinOld2Second);
         } else {
             prevValuePinOld2Second = e.target.value;
@@ -407,7 +409,7 @@ $(document).on({
         if (e.keyCode === 27 && screenshotMode) {
             screenshotMode = false;
             $('.escape-hint').hide();
-            $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .topnav, #beta').show();
+            $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .topnav, #beta').show();
             settings();
         } else if ((e.keyCode === 37 || e.keyCode === 38 || e.keyCode === 39 || e.keyCode === 40 || e.keyCode === 32)) {
             e.preventDefault();
@@ -664,7 +666,7 @@ var toggleRemove = function(extra) {
 // Toggle functionality for showing chunk ids
 var toggleIds = function() {
     showChunkIds = !showChunkIds;
-    document.cookie = "ids=" + showChunkIds;
+    setCookies();
     $('#toggleIds').toggleClass('on off');
     if ($('#toggleIds').hasClass('on')) {
         $('.chunkId').show();
@@ -817,14 +819,14 @@ var unlockEntry = function() {
             } else {
                 firebase.auth().signInAnonymously().catch(function(error) {console.log(error)});
                 $('.center').css('top', '15vw');
-                $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle').css('opacity', 0).show();
+                $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle, .leaderboardtoggle').css('opacity', 0).show();
                 !isPicking && roll2On && $('.roll2').css('opacity', 0).show();
                 !isPicking && unpickOn && $('.unpick').css('opacity', 0).show();
                 $('#entry-menu').animate({'opacity': 0});
                 setTimeout(function() {
                     $('#entry-menu').css('opacity', 1).hide();
                     $('.pin.entry').val('');
-                    $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle').animate({'opacity': 1});
+                    $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle, .leaderboardtoggle').animate({'opacity': 1});
                     !isPicking && roll2On && $('.roll2').animate({'opacity': 1});
                     !isPicking && unpickOn && $('.unpick').animate({'opacity': 1});
                     $('#unlock-entry').prop('disabled', false).html('Unlock');
@@ -845,7 +847,7 @@ var proceed = function() {
     $('.lock-closed').css('opacity', 0).show();
     setTimeout(function() {
         $('#entry-menu').css('opacity', 1).hide();
-        $('.lock-closed').animate({'opacity': 1});
+        !viewOnly ? $('.lock-closed').animate({'opacity': 1}) : $('.lock-closed').hide();
         $('#unlock-entry').prop('disabled', false).html('Unlock');
         locked = true;
         inEntry = false;
@@ -856,7 +858,7 @@ var proceed = function() {
 var nextPage = function(page) {
     if (page === 'create') {
         $('#create2').prop('disabled', true);
-        $('#page1').hide();
+        $('#page1, #page1extra').hide();
         $('#page2a').show();
         $('.pin').focus();
     } else if (page === 'create2') {
@@ -871,7 +873,7 @@ var nextPage = function(page) {
         midGood = false;
         pinGood = true;
         $('#access').prop('disabled', true);
-        $('#page1').hide();
+        $('#page1, #page1extra').hide();
         $('#page2b').show();
         $('.mid').focus();
     }
@@ -881,7 +883,7 @@ var nextPage = function(page) {
 var prevPage = function(page) {
     if (page === 'create2') {
         $('#page2a').hide();
-        $('#page1').show();
+        $('#page1, #page1extra').show();
         pin = '';
         $('.pin').val('');
     } else if (page === 'create3') {
@@ -890,7 +892,7 @@ var prevPage = function(page) {
         $('.pin').focus();
     } else if (page === 'mid') {
         $('#page2b').hide();
-        $('#page1').show();
+        $('#page1, #page1extra').show();
         $('.mid').removeClass('wrong').val('');
         $('.pin.old').removeClass('wrong').val('');
         $('.mid-err').css('visibility', 'hidden');
@@ -922,15 +924,15 @@ var accessMap = function() {
         }
         if (pin) {
             firebase.auth().signInAnonymously().catch(function(error) {console.log(error)});
-            window.history.replaceState(window.location.href.split('?')[0], mid.toUpperCase() + ' - Chunk Picker V2', '?' + mid);
-            document.title = mid.toUpperCase() + ' - Chunk Picker V2';
+            window.history.replaceState(window.location.href.split('?')[0], mid.toUpperCase() + ' - Chunk Picker RS3', '?' + mid);
+            document.title = mid.split('-')[0].toUpperCase() + ' - Chunk Picker RS3';
             $('#entry-menu').hide();
             $('.lock-opened').show();
             $('.lock-closed').hide();
             locked = false;
         } else {
-            window.history.replaceState(window.location.href.split('?')[0], mid.toUpperCase() + ' - Chunk Picker V2', '?' + mid);
-            document.title = mid.toUpperCase() + ' - Chunk Picker V2';
+            window.history.replaceState(window.location.href.split('?')[0], mid.toUpperCase() + ' - Chunk Picker RS3', '?' + mid);
+            document.title = mid.split('-')[0].toUpperCase() + ' - Chunk Picker RS3';
             $('.lock-closed, .lock-opened').hide();
             locked = true;
             inEntry = true;
@@ -970,8 +972,8 @@ var changePin = function() {
         firebase.auth().signInAnonymously().then(function() {
             myRef = firebase.database().ref('maps/' + mid);
             myRef.child('pin').set(pinNew);
-            window.history.replaceState(window.location.href.split('?')[0], mid.toUpperCase() + ' - Chunk Picker V2', '?' + mid);
-            document.title = mid.toUpperCase() + ' - Chunk Picker V2';
+            window.history.replaceState(window.location.href.split('?')[0], mid.toUpperCase() + ' - Chunk Picker RS3', '?' + mid);
+            document.title = mid.split('-')[0].toUpperCase() + ' - Chunk Picker RS3';
             $('.lock-closed, .lock-opened').hide();
             locked = true;
             inEntry = true;
@@ -1025,7 +1027,7 @@ var settings = function() {
 
 // Enables screenshot mode
 var enableScreenshotMode = function() {
-    $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .settings-menu, .topnav, #beta').hide();
+    $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .settings-menu, .topnav, #beta').hide();
     screenshotMode = true;
     $('.escape-hint').css('opacity', 1).show();
     setTimeout(function() {
@@ -1037,11 +1039,11 @@ var enableScreenshotMode = function() {
 }
 
 // Toggles high visibility mode
-var toggleVisibility = function(extra) {
+var toggleVisibility = function() {
     highVisibilityMode = !highVisibilityMode;
+    setCookies();
     highVisibilityMode ? $('.box').addClass('visible') : $('.box').removeClass('visible');
     $('.visibilitytoggle').toggleClass('item-off item-on');
-    extra !== 'startup' && !locked && setData();
 }
 
 // Toggles the visibility of the roll2 button
@@ -1072,6 +1074,15 @@ var toggleRecent = function(extra) {
     $('.recenttoggle').toggleClass('item-off item-on');
     $('.recenttoggle > .pic').toggleClass('zmdi-plus zmdi-minus');
     extra !== 'startup' && !locked && setData();
+}
+
+// Enabled leaderboard tracking
+var enableLeaderboard = function(extra) {
+    if (!leaderboardEnabled) {
+        leaderboardEnabled = true;
+        $('.leaderboardtoggle').text('Leaderboard enabled').addClass('blank');
+        extra !== 'startup' && !locked && setData();
+    }
 }
 
 // Centers on the clicked recent chunk and highlights it
@@ -1112,9 +1123,9 @@ var setupMap = function() {
     if (!atHome) {
         setTimeout(doneLoading, 1500);
         $('.body').show();
-        $('#page1, #import-menu').hide();
+        $('#page1, #page1extra, #import-menu').hide();
         if (locked) {
-            $('.pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle').css('opacity', 0).hide();
+            $('.pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle, .leaderboardtoggle').css('opacity', 0).hide();
             !isPicking && $('.roll2, .unpick').css('opacity', 0).hide();
             $('.center').css('top', '0vw');
             $('.center, #toggleIds, .toggleIds.text').css('opacity', 1).show();
@@ -1125,7 +1136,7 @@ var setupMap = function() {
         if (locked === undefined) {
             locked = true;
             $('.lock-closed, .lock-opened').hide();
-            $('.pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle').css('opacity', 0).hide();
+            $('.pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle, .leaderboardtoggle').css('opacity', 0).hide();
             $('.center').css('top', '0vw');
             !isPicking && $('.roll2, .unpick').css('opacity', 0).hide();
             $('.center, #toggleIds, .toggleIds.text').css('opacity', 1).show();
@@ -1137,8 +1148,8 @@ var setupMap = function() {
         $('.box').css('font-size', fontZoom + 'px');
         $('.label').css('font-size', labelZoom + 'px');
         !mid && (mid = window.location.href.split('?')[1]);
-        document.title = mid.toUpperCase() + ' - Chunk Picker V2';
-        $('.toptitle2').text(mid.toUpperCase());
+        document.title = mid.split('-')[0].toUpperCase() + ' - Chunk Picker RS3';
+        $('.toptitle2').text(mid.split('-')[0].toUpperCase());
         loadData();
     }
 }
@@ -1227,6 +1238,23 @@ var fixNums = function(num) {
     selectedNum--;
 }
 
+// Gets data from all maps and creates leaderboard
+var createLeaderboard = function() {
+    databaseRef.child('leaderboard').once('value', function(snap) {
+        let result = [];
+        for (var i in snap.val()) {
+            result.push({...snap.val()[i], id: i});
+        }
+        result.sort((a, b) => b.chunks - a.chunks);
+        let rank = 0;
+        result.forEach((d) => {
+            rank++;
+            $('.rank-rows').append('<tr><th>' + rank + '.</th><th><a href=\'https://source-chunk.github.io/chunk-picker-rs3/?' + d.id + '\'>' + d.id.toUpperCase() + '</a></th> <th>' + d.chunks + '</th></tr>')
+        });
+        $('.loading, .ui-loader-header').remove();
+    });
+}
+
 // Checks the MID from the url
 var checkMID = function(mid) {
     if (mid === 'change-pin') {
@@ -1235,7 +1263,17 @@ var checkMID = function(mid) {
         $('#home-menu').hide();
         $('#pin-menu').show();
         $('.mid-old').focus();
+    } else if (mid === 'leaderboard') {
+        atHome = true;
+        $('#home-menu').hide();
+        $('#leaderboard-menu').show();
+        createLeaderboard();
     } else if (mid) {
+        if (mid.split('-')[1] === 'view') {
+            mid = mid.split('-')[0];
+            viewOnly = true;
+            proceed();
+        }
         databaseRef.child('maps/' + mid).once('value', function(snap) {
             if (snap.val()) {
                 myRef = firebase.database().ref('maps/' + mid);
@@ -1243,7 +1281,7 @@ var checkMID = function(mid) {
                 $('.background-img').hide();
                 inEntry = true;
             } else {
-                window.history.replaceState(window.location.href.split('?')[0], 'Chunk Picker V2', window.location.href.split('?')[0]);
+                window.history.replaceState(window.location.href.split('?')[0], 'Chunk Picker RS3', window.location.href.split('?')[0]);
                 atHome = true;
                 $('.loading, .ui-loader-header').remove();
             }
@@ -1266,6 +1304,9 @@ var loadData = function() {
         settings['ids'] = document.cookie.split(';').filter(function(item) {
             return item.indexOf('ids=true') >= 0
         }).length > 0;
+        settings['highvis'] = document.cookie.split(';').filter(function(item) {
+            return item.indexOf('highvis=true') >= 0
+        }).length > 0;
         
         for (let count = 1; count <= 5; count++) {
             !recent[count - 1] && (recent[count - 1] = null);
@@ -1274,7 +1315,9 @@ var loadData = function() {
 
         settings['neighbors'] && toggleNeighbors('startup');
         settings['remove'] && toggleRemove('startup');
+        settings['leaderboardEnabled'] && enableLeaderboard('startup');
         settings['ids'] && toggleIds() && $('.box').addClass('quality');
+        settings['highvis'] && toggleVisibility();
         !settings['ids'] && $('.chunkId').hide();
         settings['roll2'] && toggleRoll2('startup');
         settings['unpick'] && toggleUnpick('startup');
@@ -1285,19 +1328,19 @@ var loadData = function() {
 
         chunks && chunks['potential'] && Object.keys(chunks['potential']).sort(function(a, b){return b-a}).forEach(function(id) {
             picking = true;
-            $('.box:contains(' + id + ')').addClass('potential').removeClass('gray selected unlocked').append('<span class="label">' + selectedNum++ + '</span>');
+            $('.box > .chunkId:contains(' + id + ')').parent().addClass('potential').removeClass('gray selected unlocked').append('<span class="label">' + selectedNum++ + '</span>');
             $('.label').css('font-size', labelZoom + 'px');
             $('#chunkInfo2').text('Selected chunks: ' + ++selectedChunks);
         });
 
         chunks && chunks['selected'] && Object.keys(chunks['selected']).sort(function(a, b){return b-a}).forEach(function(id) {
-            $('.box:contains(' + id + ')').addClass('selected').removeClass('gray potential unlocked').append('<span class="label">' + selectedNum++ + '</span>');
+            $('.box > .chunkId:contains(' + id + ')').parent().addClass('selected').removeClass('gray potential unlocked').append('<span class="label">' + selectedNum++ + '</span>');
             $('.label').css('font-size', labelZoom + 'px');
             $('#chunkInfo2').text('Selected chunks: ' + ++selectedChunks);
         });
 
         chunks && chunks['unlocked'] && Object.keys(chunks['unlocked']).forEach(function(id) {
-            $('.box:contains(' + id + ')').addClass('unlocked').removeClass('gray selected potential');
+            $('.box > .chunkId:contains(' + id + ')').parent().addClass('unlocked').removeClass('gray selected potential');
             $('#chunkInfo1').text('Unlocked chunks: ' + ++unlockedChunks);
         });
 
@@ -1311,11 +1354,16 @@ var loadData = function() {
     });
 }
 
+// Sets browser cookie
+var setCookies = function() {
+    document.cookie = "ids=" + showChunkIds;
+    document.cookie = "highvis=" + highVisibilityMode;
+}
+
 // Stores data in Firebase
 var setData = function() {
-    myRef.child('settings').update({'neighbors': autoSelectNeighbors, 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'recent': recentOn});
+    myRef.child('settings').update({'neighbors': autoSelectNeighbors, 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'recent': recentOn, 'leaderboardEnabled': leaderboardEnabled});
     myRef.update({recent});
-    document.cookie = "ids=" + showChunkIds;
 
     var tempJson = {};
     Array.prototype.forEach.call(document.getElementsByClassName('unlocked'), function(el) {
@@ -1334,6 +1382,8 @@ var setData = function() {
         tempJson[el.childNodes[0].childNodes[0].nodeValue] = el.childNodes[0].childNodes[0].nodeValue;
     });
     myRef.child('chunks/potential').set(tempJson);
+
+    leaderboardEnabled && databaseRef.child('leaderboard/' + mid + '/chunks').set(unlockedChunks);
 }
 
 // Credit to Amehzyn
@@ -1388,15 +1438,18 @@ function fixMapEdges(imageDiv) {
 
 // Rolls until a new, unique map id is found
 var rollMID = function() {
-    var char1, char2, char3, charSet;
+    var char1, char2, char3, char4, charSet;
     var badNums = true;
+    var rollCount = 0;
     databaseRef.once('value', function(snap) {
         while (badNums) {
             char1 = String.fromCharCode(97 + Math.floor(Math.random() * 26));
             char2 = String.fromCharCode(97 + Math.floor(Math.random() * 26));
             char3 = String.fromCharCode(97 + Math.floor(Math.random() * 26));
-            charSet = char1 + char2 + char3;
+            char4 = rollCount > 10 ? String.fromCharCode(97 + Math.floor(Math.random() * 26)) : '';
+            charSet = char1 + char2 + char3 + char4;
             !snap.val()['maps'][charSet] && (badNums = false);
+            rollCount++;
         }
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
@@ -1408,7 +1461,7 @@ var rollMID = function() {
         firebase.auth().signInAnonymously().catch(function(error) {console.log(error)});
         mid = charSet;
         $('#newmid').text(charSet.toUpperCase());
-        $('.link').prop('href', 'https://source-chunk.github.io/chunk-picker-v2/?' + charSet).text('https://source-chunk.github.io/chunk-picker-v2/?' + charSet);
+        $('.link').prop('href', 'https://source-chunk.github.io/chunk-picker-rs3/?' + charSet).text('https://source-chunk.github.io/chunk-picker-rs3/?' + charSet);
     });
 }
 
@@ -1440,13 +1493,13 @@ var changeLocked = function(lock) {
         } else {
             firebase.auth().signInAnonymously().catch(function(error) {console.log(error)});
             $('.center').css('top', '15vw');
-            $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle').css('opacity', 0).show();
+            $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle, .leaderboardtoggle').css('opacity', 0).show();
             !isPicking && roll2On && $('.roll2').css('opacity', 0).show();
             !isPicking && unpickOn && $('.unpick').css('opacity', 0).show();
             $('.lock-box').animate({'opacity': 0});
             setTimeout(function() {
                 $('.lock-box').css('opacity', 1).hide();
-                $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle').animate({'opacity': 1});
+                $('.lock-opened, .pick, #toggleNeighbors, #toggleRemove, .toggleNeighbors.text, .toggleRemove.text, .import, .pinchange, .roll2toggle, .unpicktoggle, .recenttoggle, .leaderboardtoggle').animate({'opacity': 1});
                 !isPicking && roll2On && $('.roll2').animate({'opacity': 1});
                 !isPicking && unpickOn && $('.unpick').animate({'opacity': 1});
                 $('#lock-unlock').prop('disabled', false).html('Unlock');
@@ -1529,7 +1582,7 @@ function stringToChunkIndexes(request) {
 var chunkBorders = function() {
     $('.unlocked').each(function() {
         var num = parseInt($(this).prop('id'));
-        var skipp = 43;
+        var skipp = 38;
         !$('#' + (num - skipp)).hasClass('unlocked') ? $(this).css('border-top', '.175vw solid red') : $(this).css('border-top-width', '0px');
         !$('#' + (num + skipp)).hasClass('unlocked') ? $(this).css('border-bottom', '.175vw solid red') : $(this).css('border-bottom-width', '0px');
         !$('#' + (num - 1)).hasClass('unlocked') ? $(this).css('border-left', '.175vw solid red') : $(this).css('border-left-width', '0px');
