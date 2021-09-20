@@ -6,34 +6,34 @@
 				"Level": 1,
 				"Primary": true
 			}
-		}
-		"Archaeology": {}
-		"Attack": {}
-		"Combat": {}
-		"Constitution": {}
-		"Construction": {}
-		"Cooking": {}
-		"Crafting": {}
-		"Defence": {}
-		"Divination": {}
-		"Dungeoneering": {}
-		"Farming": {}
-		"Firemaking": {}
-		"Fishing": {}
-		"Fletching": {}
-		"Herblore": {}
-		"Hunter": {}
-		"Invention": {}
-		"Magic": {} 
-		"Mining": {}
-		"Prayer": {}
-		"Ranged": {}
-		"Runecrafting": {}
-		"Slayer": {}
-		"Smithing": {}
-		"Strength": {}
-		"Summoning": {}
-		"Thieving": {}
+		},
+		"Archaeology": {},
+		"Attack": {},
+		"Combat": {},
+		"Constitution": {},
+		"Construction": {},
+		"Cooking": {},
+		"Crafting": {},
+		"Defence": {},
+		"Divination": {},
+		"Dungeoneering": {},
+		"Farming": {},
+		"Firemaking": {},
+		"Fishing": {},
+		"Fletching": {},
+		"Herblore": {},
+		"Hunter": {},
+		"Invention": {},
+		"Magic": {},
+		"Mining": {},
+		"Prayer": {},
+		"Ranged": {},
+		"Runecrafting": {},
+		"Slayer": {},
+		"Smithing": {},
+		"Strength": {},
+		"Summoning": {},
+		"Thieving": {},
 		"Woodcutting": {
 			"Cut ~|logs|~": {
 				"Level": 1,
@@ -42,10 +42,10 @@
 				"Primary": true,
 				"Priority": 1
 			}
-		}
-		"Quests": {}
-		"Diaries": {}
-		"Extra": {}
+		},
+		"Quests": {},
+		"Diaries": {},
+		"Extra": {},
 		"Nonskill": {}
 	},
 	"chunks": {
@@ -3974,7 +3974,7 @@
 				"Perdita": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			}
 		},
 		"5465": {
@@ -4327,7 +4327,7 @@
 				"Fairy Nuff": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Fairy HQ"
 		},
@@ -4426,7 +4426,7 @@
 				"Ivory Bre'egth (cursed)": 12
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Orks Rift"
 		},
@@ -5046,7 +5046,7 @@
 			},
 			"Shop": {
 				"Slayer Equipment": true
-			}
+			},
 			"Name": "Ancient cavern"
 		},
 		"7000": {
@@ -6567,7 +6567,7 @@
 				"Unidentified corpse": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Naragi homeworld"
 		},
@@ -6836,12 +6836,12 @@
 		"8267": {
 			"Object": {
 				"Star flower": 5
-			}
+			},
 			"NPC": {
 				"Cosmic Being": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Cosmic Entity plane"
 		},
@@ -7371,7 +7371,7 @@
 				"Blissful shadow": 3
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Shop": {
 				"Construction Supplies": true,
@@ -7831,7 +7831,7 @@
 				"Trevelian": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -8099,7 +8099,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"11830": true,
+				"11830": true
 			},
 			"Name": "Yu'biusk"
 		},
@@ -9326,7 +9326,7 @@
 			},
 			"Connect": {
 				"9526": true,
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -9888,7 +9888,7 @@
 				"Scarg": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -9991,7 +9991,7 @@
 			},
 			"Connect": {
 				"9625": true
-			}
+			},
 			"Spawn": {
 				"Swamp toad": 7
 			},
@@ -10565,7 +10565,7 @@
 			},
 			"NPC": {
 				"Brimstail": 1
-			}
+			},
 			"Name": "Brimstail's home"
 		},
 		"9626": {
@@ -11030,7 +11030,7 @@
 				"General Shredflesh": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Shredflesh's Cave"
 		},
@@ -11057,7 +11057,7 @@
 				"Fairy Very Wise": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "RuneScape Surface"
 		},
@@ -11826,7 +11826,7 @@
 				"Herald": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Spawn": {
 				"Bones": 9,
@@ -12215,7 +12215,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"10144": true,
+				"10144": true
 			},
 			"Shop": {
 				"Flowers": true,
@@ -12780,7 +12780,7 @@
 				"Ogre chef": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Spawn": {
 				"Bones": 4,
@@ -12882,7 +12882,7 @@
 			},
 			"Connect": {
 				"10131": true,
-				"10388": true
+				"10388": true,
 				"11595": true
 			},
 			"Spawn": {
@@ -13853,7 +13853,7 @@
 				"Hazelmere": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -13927,7 +13927,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"12100": true,
+				"12100": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -13996,7 +13996,7 @@
 			"Connect": {
 				"9541": true,
 				"10647": true,
-				"11595": true,
+				"11595": true
 			},
 			"Spawn": {
 				"Hammer": 1,
@@ -14161,7 +14161,7 @@
 				"Pillory guard": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Spawn": {
 				"Dwellberries": 5
@@ -14212,7 +14212,7 @@
 				"Town Guard": 2
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -14348,7 +14348,7 @@
 			},
 			"Connect": {
 				"10810": true
-			}
+			},
 			"Nickname": "RuneScape Surface"
 		},
 		"10559": {
@@ -14428,7 +14428,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"10802": true,
+				"10802": true
 			},
 			"Name": "Fisher Realm"
 		},
@@ -14812,7 +14812,7 @@
 				"Snake": 5
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Spawn": {
 				"Plank": 2
@@ -14875,7 +14875,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"11081": true,
+				"11081": true
 			},
 			"Spawn": {
 				"Cake": 2,
@@ -15120,7 +15120,7 @@
 				"Milk seller": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Spawn": {
 				"Pungent pot": 1,
@@ -15625,7 +15625,7 @@
 			},
 			"Connect": {
 				"10804": true
-			}
+			},
 			"Name": "Legends' Guild Dungeon"
 		},
 		"10905": {
@@ -16652,7 +16652,7 @@
 			},
 			"Connect": {
 				"11054": true
-			}
+			},
 			"Name": "Cairn Island Dungeon"
 		},
 		"11157": {
@@ -17925,7 +17925,7 @@
 				"Jungle dweller": 6
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -18269,7 +18269,7 @@
 			},
 			"Connect": {
 				"11417": true
-			}
+			},
 			"Nickname": "RuneScape Surface"
 		},
 		"11574": {
@@ -18363,7 +18363,7 @@
 				"Cooking range": 2,
 				"Bookcase": 10,
 				"Clan flag": 1,
-				"Anvil": 1,
+				"Anvil": 1
 			},
 			"NPC": {
 				"Gaius": 1,
@@ -18433,7 +18433,7 @@
 				"Rabbit": 7
 			},
 			"Connect": {
-				"8781": true
+				"8781": true,
 				"11595": true
 			},
 			"Shop": {
@@ -19168,7 +19168,7 @@
 				"Brother Brace": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Spawn": {
 				"Forlorn boot": 1,
@@ -20526,7 +20526,7 @@
 				"Rabbit": 4
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Enchanted valley"
 		},
@@ -20601,7 +20601,7 @@
 				"Abyssal walker": 7
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Abyssal area"
 		},
@@ -20650,7 +20650,7 @@
 				"Gorak": 11
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Gorak Plane"
 		},
@@ -20980,7 +20980,7 @@
 			},
 			"Connect": {
 				"8043": true,
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -25580,7 +25580,7 @@
 				"Small lizard": 27
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -25671,7 +25671,7 @@
 				"Bark Blamish Snail": 5
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Spawn": {
 				"Swamp tar": 9
@@ -25910,7 +25910,7 @@
 				"Servant": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "ScapeRune"
 		},
@@ -26269,7 +26269,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"13977": true,
+				"13977": true
 			},
 			"Spawn": {
 				"Swamp tar": 19
@@ -26593,7 +26593,7 @@
 				"Ivan Strom": 2
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "Meiyerditch laboratories"
 		},
@@ -27283,7 +27283,7 @@
 				"Tree": 11
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -28002,7 +28002,7 @@
 				"K'Chunk": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -30363,7 +30363,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"11580": true,
+				"11580": true
 			},
 			"Name": "Glacor cave"
 		},
@@ -32234,7 +32234,7 @@
 				"TzHaar-Mej": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			},
 			"Name": "TzHaar City"
 		},
@@ -36077,7 +36077,7 @@
 				"Rock slug": 7,
 				"Pyrefiend": 13,
 				"Mountain troll": 4
-			}
+			},
 			"Connect": {
 				"11064": true
 			}
@@ -36239,7 +36239,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"11313": true,
+				"11313": true
 			}
 		},
 		"Karamja Underground": {
@@ -36611,8 +36611,8 @@
 			},
 			"Connect": {
 				"12848": true
-			},
-		}
+			}
+		},
 		"Pollnivneach Dungeon": {
 			"Object": {
 				"Pulsing markings": 8,
@@ -36704,7 +36704,7 @@
 				"Cockroach worker": 32,
 				"Cockroach soldier": 22,
 				"Mugger": 9
-			}
+			},
 			"Connect": {
 				"12342": true
 			}
@@ -36800,7 +36800,7 @@
 				"Chest": 12,
 				"Bank booth": 6,
 				"Fountain": 4
-			}
+			},
 			"Connect": {
 				"10833": true
 			}
@@ -37746,19 +37746,19 @@
 			"NPC": {
 				"Rune guardian": 1,
 				"Archaeologist": 2
-			}
+			},
 			"Connect": {
 				"6496": true,
-				"12337": true,
+				"12337": true
 			}
 		},
 		"Old Tower Stairwell": {},
 		"Old Tower Spellcasting Chamber": {
 			"NPC": {
 				"Memory echo": 1
-			}
+			},
 			"Connect": {
-				"6751": true,
+				"6751": true
 			}
 		},
 		"Old Tower Library": {
@@ -37783,7 +37783,7 @@
 			},
 			"Monster": {
 				"Warped terrorbird": 40,
-				"Warped tortoise": 14,
+				"Warped tortoise": 14
 			},
 			"Connect": {
 				"9264": true
@@ -37793,13 +37793,13 @@
 				"Guard no%2E 72": 1,
 				"Rock": 26
 			}	
-		}
+		},
 		"Draynor sewers": {
 			"Object": {
 				"Fire": 2,
 				"Anvil": 1,
 				"Forge": 1,
-				"Pipe": 2,
+				"Pipe": 2
 			},
 			"Monster": {
 				"Zombie": 7,
@@ -37812,7 +37812,7 @@
 			},
 			"NPC": {
 				"Ruantun": 1,
-				"Turoth": 1,
+				"Turoth": 1
 			}
 		},
 		"Doric's cave": {
@@ -38096,7 +38096,7 @@
 				"Abyssal demon": 10,
 				"Dark beast": 6,
 				"Airut": 1
-			}
+			},
 			"Connect": {
 				"6995": true
 			}
@@ -38197,7 +38197,7 @@
 				"Servant": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			}
 		},
 		"Beehive farm": {},
@@ -38788,21 +38788,18 @@
 			"Object": {
 				"Gift of Peace": 1,
 				"Spiky chain": 4,
-				"Portal": 1,
 				"Dead Explorer": 1,
-				"Small obelisk": 1
+				"Small obelisk": 1,
 				"Grain of Plenty": 1,
 				"Rope": 16,
-				"Portal": 1
 				"Oozing barrier": 60,
 				"Goo covered vine": 4,
 				"Dripping vine": 5,
-				"Portal": 1,
-				"Box of Health": 1
+				"Box of Health": 1,
 				"Portal of Death": 72,
 				"Cradle of Life": 1,
 				"Bone Chain": 8,
-				"Portal": 1
+				"Portal": 4
 			},
 			"NPC": {
 				"Butterfly": 3,
@@ -38812,19 +38809,19 @@
 				"Minotaur": 40,
 				"Goblin": 34,
 				"Wolf": 16,
-				"Rat": 116
+				"Rat": 116,
 				"Flesh Crawler": 26,
 				"Zombie": 52,
 				"Giant rat": 10,
 				"Catablepon": 26,
 				"Giant spider": 45,
 				"Spider": 35,
-				"Scorpion": 8
+				"Scorpion": 8,
 				"Ankou": 32,
 				"Skeleton": 26,
 				"Ghost": 31,
 				"Shade": 6
-			}
+			},
 			"Connect": {
 				"12341": true
 			}
@@ -38867,7 +38864,7 @@
 				"Rabbit": 4
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			}
 		},
 		"Guthixian temple": {
@@ -38897,7 +38894,7 @@
 			},
 			"NPC": {
 				"Homunculus": 1
-			}
+			},
 			"Connect": {
 				"10546": true
 			}
@@ -39005,8 +39002,8 @@
 				},
 			"Connect": {
 				"9541": true
-		}
-		}
+			}
+		},
 		"Courtroom": {
 			"Object": {
 				"Judge": 1,
@@ -40102,14 +40099,14 @@
 			"Object": {
 				"Dead tree": 17,
 				"Rune essence": 4
-			}
+			},
 			"Connect": {
 				"9625": true,
 				"10288": true,
 				"10547": true,
 				"11575": true,
 				"12337": true,
-				"12853": true,
+				"12853": true
 			}
 		},
 		"Witchaven excavations": {
@@ -40270,7 +40267,7 @@
 				"Kethsian forge": 2
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			}
 		},
 		"Lumbridge Mine": {},
@@ -40444,7 +40441,7 @@
 				"Tooth Fairy": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			}
 		},
 		"Canoe": {},
@@ -40456,7 +40453,7 @@
 				"General Shredflesh": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			}
 		},
 		"Zanik's Lab": {
@@ -40484,59 +40481,7 @@
 				"Strange box": 1
 			},
 			"Connect": {
-				"5464": true,
-				"6210": true,
-				"6465": true,
-				"6995": true,
-				"8029": true,
-				"8267": true,
-				"8500": true,
-				"8752": true,
-				"9272": true,
-				"9282": true,
-				"9519": true,
-				"9541": true,
-				"9793": true,
-				"9796": true,
-				"10032": true,
-				"10044": true,
-				"10286": true,
-				"10544": true,
-				"10546": true,
-				"10547": true,
-				"10550": true,
-				"10552": true,
-				"10569": true,
-				"10794": true,
-				"10802": true,
-				"10804": true,
-				"10807": true,
-				"10810": true,
-				"10833": true,
-				"11054": true,
-				"11064": true,
-				"11565": true,
-				"11568": true,
-				"11824": true,
-				"12102": true,
-				"12108": true,
-				"12115": true,
-				"12330": true,
-				"12337": true,
-				"12338": true,
-				"12342": true,
-				"12848": true,
-				"13615": true,
-				"13619": true,
-				"13622": true,
-				"13642": true,
-				"13877": true,
-				"13977": true,
-				"14390": true,
-				"14893": true,
-				"15961": true,
-				"16729": true,
-				"18512": true
+				"9541": true
 			}
 		},
 		"Lumbridge Cellar": {
@@ -40913,58 +40858,7 @@
 				"Gorak": 11
 			},
 			"Connect": {
-				"5464": true,
-				"6210": true,
-				"6465": true,
-				"6995": true,
-				"8029": true,
-				"8267": true,
-				"8500": true,
-				"8752": true,
-				"8770": true,
-				"9272": true,
-				"9519": true,
-				"9541": true,
-				"9793": true,
-				"9796": true,
-				"10032": true,
-				"10044": true,
-				"10286": true,
-				"10544": true,
-				"10546": true,
-				"10547": true,
-				"10550": true,
-				"10552": true,
-				"10569": true,
-				"10794": true,
-				"10802": true,
-				"10804": true,
-				"10807": true,
-				"10810": true,
-				"10833": true,
-				"11054": true,
-				"11064": true,
-				"11565": true,
-				"11568": true,
-				"11824": true,
-				"12102": true,
-				"12108": true,
-				"12330": true,
-				"12337": true,
-				"12338": true,
-				"12342": true,
-				"12848": true,
-				"13615": true,
-				"13619": true,
-				"13622": true,
-				"13642": true,
-				"13877": true,
-				"13977": true,
-				"14390": true,
-				"14893": true,
-				"15961": true,
-				"16729": true,
-				"18512": true
+				"9541": true
 			}
 		},
 		"The Battle of the Archipelago": {
@@ -41011,13 +40905,13 @@
 		"Cosmic Entity plane": {
 			"Object": {
 				"Star flower": 5
-			}
+			},
 			"NPC": {
 				"Cosmic Being": 1
 			},
 			"Connect": {
-				"9541": true,
-			},
+				"9541": true
+			}
 		},
 		"Shady grove": {
 			"Object": {
@@ -41482,7 +41376,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"10802": true,
+				"10802": true
 			}
 		},
 		"Troll Invasion": {
@@ -41647,7 +41541,7 @@
 				"Flat rock": 20,
 				"Floating bridge": 2,
 				"Cave": 1
-			}
+			},
 			"Connect": {
 				"10810": true
 			}
@@ -42010,7 +41904,7 @@
 			},
 			"Connect": {
 				"9541": true,
-				"11580": true,
+				"11580": true
 			}
 		},
 		"Tch'ki nut cave": {},
@@ -42106,7 +42000,7 @@
 				"Ivory Bre'egth (cursed)": 12
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			}
 		},
 		"Orks Rift entrance": {
@@ -42344,7 +42238,7 @@
 				"Brimstail": 1
 			},
 			"Connect": {
-				"9525": true
+				"9525": true,
 				"11595": true
 			}
 		},
@@ -42697,7 +42591,7 @@
 				"Funeral pyre": 7,
 				"Wooden recess": 6,
 				"Lectern": 1
-			}
+			},
 			"Connect": {
 				"13722": true
 			}
@@ -42810,7 +42704,7 @@
 				"Giant bat": 5,
 				"Pit Scorpion": 20,
 				"Shadow warrior": 19
-			}
+			},
 			"Connect": {
 				"10804": true
 			}
@@ -43101,7 +42995,7 @@
 			},
 			"NPC": {
 				"Boulder": 1
-			}
+			},
 			"Connect": {
 				"10810": true
 			}
@@ -43207,7 +43101,7 @@
 				"Rat": 3,
 				"Spider": 1,
 				"Undead one": 19
-			}
+			},
 			"Connect": {
 				"11568": true
 			}
@@ -43378,7 +43272,7 @@
 				"Rat": 5,
 				"Zombie": 3,
 				"Giant rat": 8
-			}
+			},
 			"Connect": {
 				"10547": true
 			}
@@ -43930,7 +43824,7 @@
 				"Guthixian High Druid": 1,
 				"Druidess": 3,
 				"Druid": 2
-			}
+			},
 			"Connect": {
 				"10804": true
 			}
@@ -43943,7 +43837,7 @@
 				"Unidentified corpse": 1
 			},
 			"Connect": {
-				"9541": true,
+				"9541": true
 			}
 		},
 		"Ritual of the Mahjarrat": {},
@@ -45262,7 +45156,7 @@
 			"Connect": {
 				"9541": true,
 				"9795": true,
-				"13716": true,
+				"13716": true
 			}
 		},
 		"Dragonkin Lair": {
@@ -45278,14 +45172,14 @@
 			"Connect": {
 				"6994": true
 			}
-		},
+		}
 	},
 	"codeItems": {
 		"boneItems": [],
 		"dropTables": {},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"]
-		}
+		},
 		"rangedItems": [],
 		"bossLogs": {},
 		"bossMonsters": {},
@@ -64960,8 +64854,8 @@
 			"Rare drop table": "Rare"
 		}
 	},
-	"objectItems": {}
-	"quests": {}
+	"objectItems": {},
+	"quests": {},
 	"shopItems": {
 		"'Two Feet' Charley's Fish Shop": {
 			"Raw shrimps": true,
@@ -69809,7 +69703,7 @@
 			"Adamant platebody": true
 		}
 	},
-	"skillItems": {}
+	"skillItems": {},
 	"walkableChunks": [],
 	"equipment": {}
 }
