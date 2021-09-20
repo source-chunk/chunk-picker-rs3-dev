@@ -35,13 +35,186 @@
 		"Summoning": {},
 		"Thieving": {},
 		"Woodcutting": {
-			"Cut ~|logs|~": {
+			"Cut ~|Logs|~": {
 				"Level": 1,
 				"Objects": ["Tree+"],
 				"Output": "Logs",
 				"Primary": true,
 				"Priority": 1
-			}
+			},
+			"Cut ~|Achey tree logs|~": {
+				"Level": 1,
+				"Objects": ["Achey tree"],
+				"Output": "Achey tree logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Oak logs|~": {
+				"Level": 15,
+				"Objects": ["Oak"],
+				"Output": "Oak logs",
+				"Primary": true,
+				"Priority": 1
+			},		
+			"Cut ~|Willow logs|~": {
+				"Level": 30,
+				"Objects": ["Willow"],
+				"Output": "Willow logs",
+				"Primary": true,
+				"Priority": 1
+			},			
+			"Cut ~|Teak logs|~": {
+				"Level": 35,
+				"Objects": ["Teak"],
+				"Output": "Teak logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Maple logs|~": {
+				"Level": 45,
+				"Objects": ["Maple tree"],
+				"Output": "Maple logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Bark|~": {
+				"Level": 45,
+				"Objects": ["Hollow tree"],
+				"Output": "Bark",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Acadia logs|~": {
+				"Level": 47,
+				"Objects": ["Acadia tree"],
+				"Output": "Acadia logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Mahogany logs|~": {
+				"Level": 50,
+				"Objects": ["Mahogany"],
+				"Output": "Mahogany logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Arctic pine logs|~": {
+				"Level": 54,
+				"Objects": ["Arctic pine"],
+				"Output": "Arctic pine logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Eucalyptus logs|~": {
+				"Level": 58,
+				"Objects": ["Eucalyptus tree"],
+				"Output": "Eucalyptus logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Yew logs|~": {
+				"Level": 60,
+				"Objects": ["Yew"],
+				"Output": "Yew logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Choking Ivy logs|~": {
+				"Level": 68,
+				"Objects": ["Ivy"],
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Magic logs|~": {
+				"Level": 75,
+				"Objects": ["Magic tree"],
+				"Output": "Magic logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Blisterwood logs|~": {
+				"Level": 76,
+				"Objects": ["Blisterwood tree"],
+				"Output": "Blisterwood logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Overgrown idol|~": {
+				"Level": 81,
+				"Objects": ["Overgrown idol"],
+				"Output": "Overgrown idol",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Overgrown idol%2FKaramja|~": {
+				"Level": 81,
+				"Objects": ["Overgrown idol%2FKaramja"],
+				"Primary": true,
+				"Priority": 2
+			},	
+			"Cut ~|Cursed magic logs|~": {
+				"Level": 82,
+				"Objects": ["Cursed magic tree"],
+				"Output": "Cursed magic logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Curly jade root|~": {
+				"Level": 83,
+				"Objects": ["Curly jade root"],
+				"Output": "Curly root",
+				"Primary": true,
+				"Priority": 3
+			},	
+			"Cut ~|Straight jade root|~": {
+				"Level": 83,
+				"Objects": ["Straight jade root"],
+				"Output": "Straight root",
+				"Primary": true,
+				"Priority": 2
+			},	
+			"Cut ~|Mutated vine|~": {
+				"Level": 83,
+				"Objects": ["Jade root (mutated)"],
+				"Output": "Mutated vine",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Bloodwood logs|~": {
+				"Level": 85,
+				"Objects": ["Bloodwood tree"],
+				"Output": "Bloodwood logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Cut ~|Elder logs|~": {
+				"Level": 90,
+				"Objects": ["Elder tree"],
+				"Output": "Elder logs",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cut ~|Bamboo|~": {
+				"Level": 90,
+				"Objects": ["Bamboo (tree)"],
+				"Output": "Bamboo",
+				"Primary": true,
+				"Priority": 2
+			},	
+			"Cut ~|Crystal tree|~": {
+				"Level": 94,
+				"Objects": ["Crystal tree"],
+				"Output": "Crystal geode",
+				"Primary": false,
+				"Priority": 1
+			},	
+			"Cut ~|Golden bamboo|~": {
+				"Level": 96,
+				"Objects": ["Golden bamboo (tree)"],
+				"Output": "Golden bamboo",
+				"Primary": false,
+				"Priority": 1
+			}	
 		},
 		"Quests": {},
 		"Diaries": {},
@@ -3600,7 +3773,7 @@
 			"Connect": {
 				"8757": true
 			},
-			"Name": "Gorajo Hoardstalker Dungeon"
+			"Name": "Gorajo resource dungeon"
 		},
 		"5195": {
 			"Object": {
@@ -6754,7 +6927,7 @@
 			"NPC": {
 				"Copernicus Glyph": 1
 			},
-			"Name": "Prifddinas"
+			"Nickname": "West coast Prifddinas"
 		},
 		"8252": {
 			"Object": {
@@ -7312,7 +7485,7 @@
 			"NPC": {
 				"Elf boy": 1
 			},
-			"Name": "Prifddinas"
+			"Nickname": "South-west Priffdinas"
 		},
 		"8500": {
 			"Object": {
@@ -7378,13 +7551,13 @@
 				"Summoning Shop": true,
 				"Crafting Supplies": true
 			},
-			"Name": "Prifddinas"
+			"Nickname": "West Prifddinas"
 		},
 		"8501": {
 			"Object": {
 				"Cathedral": 1
 			},
-			"Name": "Prifddinas"
+			"Nickname": "North-west Prifddinas"
 		},
 		"8508": {
 			"Object": {
@@ -7955,7 +8128,7 @@
 			"Shop": {
 				"Slayer Equipment": true
 			},
-			"Name": "Prifddinas"
+			"Nickname": "South Prifddinas"
 		},
 		"8756": {
 			"Object": {
@@ -7968,7 +8141,8 @@
 				"Port portal": 1,
 				"Small obelisk": 1,
 				"Adamantite rock": 8,
-				"Runite rock": 2
+				"Runite rock": 2,
+				"Crystal tree": 1
 			},
 			"NPC": {
 				"Challenge Mistress Heriau": 1,
@@ -7992,16 +8166,14 @@
 				"Blissful shadow": 1,
 				"Manifest shadow": 4
 			},
-			"Connect": {
-				"17781": true
-			},
+			"Connect": {},
 			"Shop": {
 				"Coeden's Seed Store": true,
 				"Loyalty Programme Shop": true,
 				"Haf's Battlestaves": true,
 				"Diango's Toy Stall": true
 			},
-			"Name": "Prifddinas"
+			"Nickname": "Central Prifddinas"
 		},
 		"8757": {
 			"Object": {
@@ -8050,7 +8222,7 @@
 				"Recipe Shop": true,
 				"Hefin Cathedral (shop)": true
 			},
-			"Name": "Prifddinas"
+			"Nickname": "North Prifddinas"
 		},
 		"8761": {
 			"NPC": {
@@ -8528,7 +8700,8 @@
 				"Tracks": 2,
 				"Magic tree": 3,
 				"Tree": 158,
-				"Light animica rock": 4
+				"Light animica rock": 4,
+				"Elder tree": 1
 			},
 			"NPC": {
 				"Butterfly": 55,
@@ -8620,7 +8793,7 @@
 				"The Max Cape Marketplace": true,
 				"Max cape": true
 			},
-			"Name": "Prifddinas"
+			"Nickname": "South-east Prifddinas"
 		},
 		"9012": {
 			"Object": {
@@ -8635,7 +8808,8 @@
 				"Cadarn": 2,
 				"Spinning wheel": 1,
 				"Water pool": 1,
-				"Meilyr": 2
+				"Meilyr": 2,
+				"Ivy": 9
 			},
 			"Monster": {
 				"Cadarn ranger": 12,
@@ -8678,7 +8852,7 @@
 			"Shop": {
 				"Lunet's Leftover Staves": true
 			},
-			"Name": "Prifddinas"
+			"Nickname": "East Prifddinas"
 		},
 		"9013": {
 			"Object": {
@@ -8699,7 +8873,7 @@
 			"Shop": {
 				"Prifddinas Waterfall Fishing Shop": true
 			},
-			"Name": "Prifddinas"
+			"Nickname": "North-east Prifddinas"
 		},
 		"9014": {
 			"Object": {
@@ -9313,7 +9487,8 @@
 				"Yew": 2,
 				"Tree": 15,
 				"Evergreen": 13,
-				"Iron rock": 6
+				"Iron rock": 6,
+				"Elder tree": 1
 			},
 			"NPC": {
 				"Kathy Corkat": 1,
@@ -9880,7 +10055,8 @@
 		"9519": {
 			"Object": {
 				"Tree": 31,
-				"Achey Tree": 28
+				"Achey Tree": 28,
+				"Ivy": 7
 			},
 			"NPC": {
 				"Swamp toad": 12,
@@ -9920,7 +10096,8 @@
 			"Object": {
 				"Dead tree": 146,
 				"Oak": 13,
-				"Tree": 10
+				"Tree": 10,
+				"Crystal tree": 1
 			},
 			"Nickname": "RuneScape Surface"
 		},
@@ -9970,7 +10147,8 @@
 				"Tree": 41,
 				"Magic tree": 1,
 				"Stile": 1,
-				"Fishing spot": 7
+				"Fishing spot": 7,
+				"Elder tree": 1
 			},
 			"Monster": {
 				"Duck": 6,
@@ -10002,7 +10180,8 @@
 				"Gnome goal": 1,
 				"Oak": 16,
 				"Tree": 57,
-				"Stile": 1
+				"Stile": 1,
+				"Crystal tree": 1
 			},
 			"Monster": {
 				"Gnome": 7,
@@ -12797,7 +12976,9 @@
 				"Willow": 5,
 				"Oak": 4,
 				"Tree": 23,
-				"Dead tree": 35
+				"Dead tree": 35,
+				"Elder tree": 1,
+				"Crystal tree": 1
 			},
 			"Monster": {
 				"Unicorn": 2,
@@ -12853,7 +13034,8 @@
 				"Port Khazard, Ardougne": 1,
 				"Inventor's workbench": 2,
 				"Anvil": 2,
-				"Forge": 2
+				"Forge": 2,
+				"Ivy": 6
 			},
 			"Monster": {
 				"Man": 2,
@@ -13007,7 +13189,8 @@
 				"Ardougne Castle, Ardougne West": 1,
 				"Philipe's painting set": 1,
 				"Inventor's workbench": 2,
-				"Furnace": 1
+				"Furnace": 1,
+				"ivy": 5
 			},
 			"Monster": {
 				"Warrior woman": 3,
@@ -13221,7 +13404,8 @@
 				"Tree": 11,
 				"Maple Tree": 1,
 				"Dead tree": 6,
-				"Broken bridge": 1
+				"Broken bridge": 1,
+				"Crystal tree": 1
 			},
 			"Monster": {
 				"Fenris wolf": 6
@@ -14032,7 +14216,8 @@
 				"Manor Farm breeding log": 1,
 				"Breeding paddock": 1,
 				"Remote farm device": 2,
-				"Mystical tree": 1
+				"Mystical tree": 1,
+				"Bloodwood tree": 1
 			},
 			"NPC": {
 				"Milton the Miller": 1,
@@ -14848,7 +15033,8 @@
 		},
 		"10801": {
 			"Object": {
-				"Fire": 4
+				"Fire": 4,
+				"Crystal tree": 1
 			},
 			"Monster": {
 				"Snake": 5,
@@ -14976,7 +15162,8 @@
 				"Oak": 25,
 				"Tree": 55,
 				"Magic tree": 7,
-				"Energy rift": 1
+				"Energy rift": 1,
+				"Elder tree": 1
 			},
 			"Monster": {
 				"Unicorn": 2
@@ -15027,7 +15214,8 @@
 				"Seers' Village, McGrubor's Wood": 1,
 				"Inventor's workbench": 2,
 				"Anvil": 2,
-				"Forge": 1
+				"Forge": 1,
+				"Crystal tree": 1
 			},
 			"Monster": {
 				"Man": 4,
@@ -17970,7 +18158,7 @@
 				"Light jungle vines": 12,
 				"Medium jungle vines": 4,
 				"Dense jungle vines": 4,
-				"Overgrown idol": 1
+				"Overgrown idol%2FKaramja": 1
 			},
 			"Monster": {
 				"Jungle spider": 14,
@@ -18067,7 +18255,8 @@
 				"Yew": 3,
 				"Tree": 14,
 				"Bookcase": 5,
-				"Fractionation still": 1
+				"Fractionation still": 1,
+				"Elder tree": 1
 			},
 			"Monster": {
 				"Rat": 6,
@@ -18167,7 +18356,8 @@
 				"Tree": 15,
 				"Bank deposit box": 1,
 				"Coal rock": 3,
-				"Silver rock": 2
+				"Silver rock": 2,
+				"Crystal tree": 1
 			},
 			"NPC": {
 				"Nora T%2E Hagg": 1,
@@ -18214,7 +18404,8 @@
 				"Catherby (over White Wolf Mountain)": 1,
 				"Daemonheim (via boat)": 1,
 				"Water barrel": 1,
-				"Stepping stone": 2
+				"Stepping stone": 2,
+				"Ivy": 5
 			},
 			"NPC": {
 				"The Lady of the Lake": 1,
@@ -18508,6 +18699,9 @@
 			"Nickname": "RuneScape Surface"
 		},
 		"11580": {
+			"Object": {
+				"Bloodwood tree": 1
+			},
 			"NPC": {
 				"Undead broav": 5,
 				"Movario": 1,
@@ -19106,7 +19300,7 @@
 				"Light jungle vines": 12,
 				"Medium jungle vines": 4,
 				"Dense jungle vines": 4,
-				"Overgrown idol": 1
+				"Overgrown idol%2FKaramja": 1
 			},
 			"Monster": {
 				"Monkey": 5
@@ -20079,8 +20273,7 @@
 				"8368": true,
 				"9134": true,
 				"9138": true,
-				"9909": true,
-				"17781": true
+				"9909": true
 			},
 			"Spawn": {
 				"Bronze bolts": 2,
@@ -20118,7 +20311,8 @@
 				"Water barrel": 5,
 				"Loom": 1,
 				"Stile": 2,
-				"Dairy churn": 1
+				"Dairy churn": 1,
+				"Elder tree": 1
 			},
 			"Monster": {
 				"Duck": 2,
@@ -20226,7 +20420,8 @@
 				"Evergreen": 37,
 				"Edgeville Monastery, Dwarven Mine": 1,
 				"Falador, Taverley": 1,
-				"Anniversary tree": 1
+				"Anniversary tree": 1,
+				"Ivy": 7
 			},
 			"Monster": {
 				"Dwarf": 8,
@@ -20484,7 +20679,8 @@
 				"Crate": 4,
 				"Banite rock": 6,
 				"Anvil": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Bloodwood tree": 1
 			},
 			"Monster": {
 				"Pirate": 12
@@ -20773,7 +20969,7 @@
 				"11821": true,
 				"11822": true
 			},
-			"Name": "Menaphos and Sophanem underground"
+			"Name": "Jadinko lair"
 		},
 		"12181": {
 			"Object": {
@@ -21086,7 +21282,8 @@
 				"Draynor Village": 1,
 				"Energy rift": 1,
 				"Wisp Colony Map": 1,
-				"Fishing spot": 2
+				"Fishing spot": 2,
+				"Elder tree": 1
 			},
 			"NPC": {
 				"Musician": 1,
@@ -21272,7 +21469,8 @@
 				"Coal rock": 4,
 				"Barbarian anvil": 1,
 				"Barbarian forge": 1,
-				"Fishing spot": 2
+				"Fishing spot": 2,
+				"Elder tree": 1
 			},
 			"Monster": {
 				"Unicorn": 1,
@@ -23110,7 +23308,8 @@
 				"Food trough": 1,
 				"Scarecrow": 1,
 				"Bank chest": 1,
-				"Storage Chest": 1
+				"Storage Chest": 1,
+				"Elder tree": 1
 			},
 			"NPC": {
 				"Charlie the Tramp": 1,
@@ -23292,7 +23491,8 @@
 				"Tree": 21,
 				"Crate": 1,
 				"Bank chest": 1,
-				"Lift": 1
+				"Lift": 1,
+				"Ivy": 9
 			},
 			"Monster": {
 				"Warrior woman": 2,
@@ -23362,7 +23562,8 @@
 				"Bush": 5,
 				"Tree": 52,
 				"Tree stump": 3,
-				"Chaos altar": 1
+				"Chaos altar": 1,
+				"Bloodwood tree": 1
 			},
 			"NPC": {
 				"Simon": 1,
@@ -24388,6 +24589,9 @@
 			"Nickname": "RuneScape Surface"
 		},
 		"13116": {
+			"Objects": {
+				"Bloodwood tree": 1
+			},
 			"Monster": {
 				"Greater demon": 5,
 				"Lesser demon": 1,
@@ -27205,7 +27409,9 @@
 				"Chest": 2,
 				"Water pump": 1,
 				"Vampyric Altar": 1,
-				"Darkmeyer Treasury": 1
+				"Darkmeyer Treasury": 1,
+				"Blisterwood tree": 1,
+				"Bloodwood tree": 1
 			},
 			"NPC": {
 				"Boris Barrington": 1,
@@ -37279,7 +37485,9 @@
 				"Dry patch": 12,
 				"Jade root (healthy)": 12,
 				"Jade root (mutated)": 6,
-				"Cave exit": 2
+				"Cave exit": 2,
+				"Curly jade root": 3,
+				"Straight jade root": 3
 			},
 			"NPC": {
 				"Cannibal jadinko": 2,
@@ -39737,7 +39945,6 @@
 				"14672": true,
 				"15214": true,
 				"17246": true,
-				"17781": true,
 				"18017": true,
 				"18512": true
 			},
@@ -40172,7 +40379,8 @@
 				"Neutral barrier": 2,
 				"Balance portal": 1,
 				"Bank chest": 1,
-				"Edgeville portal": 1
+				"Edgeville portal": 1,
+				"Bloodwood tree": 1
 			},
 			"Monster": {
 				"Jelly": 24,
@@ -44026,9 +44234,10 @@
 		},
 		"Silverlight Crypt": {},
 		"Zamorakian Crypt": {},
-		"Gorajo Hoardstalker Dungeon": {
+		"Gorajo resource dungeon": {
 			"Object": {
-				"Deposit box": 1
+				"Deposit box": 1,
+				"Bloodwood tree": 1
 			},
 			"NPC": {
 				"Grenwall": 2,
@@ -44461,7 +44670,7 @@
 				"Tortle trap": 3,
 				"Web": 1,
 				"The Well of Spirits": 1,
-				"Bamboo": 33,
+				"Bamboo (tree)": 33,
 				"Inferior bamboo": 5,
 				"Rumberry bush": 12,
 				"Tuai Leit moai": 1,
@@ -44482,7 +44691,8 @@
 				"Skulls mercenary": 2,
 				"Skulls thief": 1,
 				"Soul vampyres": 1,
-				"Cora's log": 1
+				"Cora's log": 1,
+				"Golden bamboo (tree)": 1
 			},
 			"NPC": {
 				"Gorajo hoardstalker": 1,
@@ -69703,7 +69913,26 @@
 			"Adamant platebody": true
 		}
 	},
-	"skillItems": {},
+	"skillItems": {
+		"Woodcutting": {
+			"Overgrown idol": {
+				"Compacted leaves": "Rare",
+				"Compacted wood": "Rare",
+				"Toten of Navigation base": "Always"
+			},
+			"Crystal geode": {
+				"Uncut sapphire": "1587/10477",
+				"Uncut emerald": "2103/10477",
+				"Uncut ruby": "3091/10477",
+				"Uncut diamond": "3107/10477",
+				"Uncut dragonstone": "517/10477",
+				"Crystal triskelion fragment 1": "54/10477",
+				"Crystal triskelion fragment 2": "54/10477",
+				"Crystal triskelion fragment 3": "54/10477",
+				"Crystal weapon seed": "18/10477"
+			}
+		}
+	},
 	"walkableChunks": [],
 	"equipment": {}
 }
