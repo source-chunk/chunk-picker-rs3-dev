@@ -1,7 +1,7 @@
 {
 	"challenges": {
 		"Agility": {
-			"Access the ~|Burthorpe Agility Course|~": {
+			"Access the ~|Burthorpe agility course|~": {
 				"Chunks": ["11575"],
 				"Level": 1,
 				"Primary": true
@@ -35,256 +35,256 @@
 		"Summoning": {},
 		"Thieving": {},
 		"Woodcutting": {
-			"Cut ~|Logs|~": {
+			"Cut ~|logs|~": {
 				"Level": 1,
 				"Objects": ["Tree+"],
 				"Output": "Logs",
 				"Primary": true,
 				"Priority": 2
 			},
-			"Cut ~|Achey tree logs|~": {
+			"Cut ~|achey tree logs|~": {
 				"Level": 1,
 				"Objects": ["Achey tree"],
 				"Output": "Achey tree logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Oak logs|~": {
+			"Cut ~|oak logs|~": {
 				"Level": 15,
 				"Objects": ["Oak"],
 				"Output": "Oak logs",
 				"Primary": true,
 				"Priority": 1
 			},		
-			"Cut ~|Willow logs|~": {
+			"Cut ~|willow logs|~": {
 				"Level": 30,
 				"Objects": ["Willow"],
 				"Output": "Willow logs",
 				"Primary": true,
 				"Priority": 1
 			},			
-			"Cut ~|Teak logs|~": {
+			"Cut ~|teak logs|~": {
 				"Level": 35,
 				"Objects": ["Teak"],
 				"Output": "Teak logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Maple logs|~": {
+			"Cut ~|maple logs|~": {
 				"Level": 45,
 				"Objects": ["Maple tree"],
 				"Output": "Maple logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Bark|~": {
+			"Cut ~|bark|~": {
 				"Level": 45,
 				"Objects": ["Hollow tree"],
 				"Output": "Bark",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Acadia logs|~": {
+			"Cut ~|acadia logs|~": {
 				"Level": 47,
 				"Objects": ["Acadia tree"],
 				"Output": "Acadia logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Mahogany logs|~": {
+			"Cut ~|mahogany logs|~": {
 				"Level": 50,
 				"Objects": ["Mahogany"],
 				"Output": "Mahogany logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Arctic pine logs|~": {
+			"Cut ~|arctic pine logs|~": {
 				"Level": 54,
 				"Objects": ["Arctic pine"],
 				"Output": "Arctic pine logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Eucalyptus logs|~": {
+			"Cut ~|eucalyptus logs|~": {
 				"Level": 58,
 				"Objects": ["Eucalyptus tree"],
 				"Output": "Eucalyptus logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Yew logs|~": {
+			"Cut ~|yew logs|~": {
 				"Level": 60,
 				"Objects": ["Yew"],
 				"Output": "Yew logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Choking Ivy logs|~": {
+			"Cut ~|choking ivy logs|~": {
 				"Level": 68,
 				"Objects": ["Ivy"],
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Magic logs|~": {
+			"Cut ~|magic logs|~": {
 				"Level": 75,
 				"Objects": ["Magic tree"],
 				"Output": "Magic logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Blisterwood logs|~": {
+			"Cut ~|blisterwood logs|~": {
 				"Level": 76,
 				"Objects": ["Blisterwood tree"],
 				"Output": "Blisterwood logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Overgrown idol|~": {
+			"Cut ~|overgrown idol|~": {
 				"Level": 81,
 				"Objects": ["Overgrown idol"],
 				"Output": "Overgrown idol",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Overgrown idol%2FKaramja|~": {
+			"Cut ~|overgrown idol%2FKaramja|~": {
 				"Level": 81,
 				"Objects": ["Overgrown idol%2FKaramja"],
 				"Primary": true,
 				"Priority": 2
 			},	
-			"Cut ~|Cursed magic logs|~": {
+			"Cut ~|cursed magic logs|~": {
 				"Level": 82,
 				"Objects": ["Cursed magic tree"],
 				"Output": "Cursed magic logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Curly jade root|~": {
+			"Cut ~|curly jade root|~": {
 				"Level": 83,
 				"Objects": ["Curly jade root"],
 				"Output": "Curly root",
 				"Primary": true,
 				"Priority": 3
 			},	
-			"Cut ~|Straight jade root|~": {
+			"Cut ~|straight jade root|~": {
 				"Level": 83,
 				"Objects": ["Straight jade root"],
 				"Output": "Straight root",
 				"Primary": true,
 				"Priority": 2
 			},	
-			"Cut ~|Mutated vine|~": {
+			"Cut ~|mutated vine|~": {
 				"Level": 83,
 				"Objects": ["Jade root (mutated)"],
 				"Output": "Mutated vine",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Bloodwood logs|~": {
+			"Cut ~|bloodwood logs|~": {
 				"Level": 85,
 				"Objects": ["Bloodwood tree"],
 				"Output": "Bloodwood logs",
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|Elder logs|~": {
+			"Cut ~|elder logs|~": {
 				"Level": 90,
 				"Objects": ["Elder tree"],
 				"Output": "Elder logs",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Cut ~|Bamboo|~": {
+			"Cut ~|bamboo|~": {
 				"Level": 90,
 				"Objects": ["Bamboo (tree)"],
 				"Output": "Bamboo",
 				"Primary": true,
 				"Priority": 2
 			},	
-			"Cut ~|Crystal tree|~": {
+			"Cut ~|crystal tree|~": {
 				"Level": 94,
 				"Objects": ["Crystal tree"],
 				"Output": "Crystal geode",
 				"Primary": false,
 				"Priority": 1
 			},	
-			"Cut ~|Golden bamboo|~": {
+			"Cut ~|golden bamboo|~": {
 				"Level": 96,
 				"Objects": ["Golden bamboo (tree)"],
 				"Output": "Golden bamboo",
 				"Primary": false,
 				"Priority": 1
 			},
-			"Chop with a ~|Bronze hatchet|~": {
+			"Chop with a ~|bronze hatchet|~": {
 				"Level": 1,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 5
 			},
-			"Chop with a ~|Iron hatchet|~": {
+			"Chop with an ~|iron hatchet|~": {
 				"Items": ["Iron hatchet"],
 				"Level": 1,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 4
 			},
-			"Chop with a ~|Dwarven army axe|~": {
+			"Chop with a ~|dwarven army axe|~": {
 				"Items": ["Dwarven army axe"],
 				"Level": 1,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 3
 			},
-			"Chop with a ~|Steel hatchet|~": {
+			"Chop with a ~|steel hatchet|~": {
 				"Items": ["Steel hatchet"],
 				"Level": 6,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 2
 			},
-			"Chop with a ~|Black hatchet|~": {
+			"Chop with a ~|black hatchet|~": {
 				"Items": ["Black hatchet"],
 				"Level": 6,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 1
 			},
-			"Chop with a ~|Mithril hatchet|~": {
+			"Chop with a ~|mithril hatchet|~": {
 				"Items": ["Mithril hatchet"],
 				"Level": 21,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 1
 			},
-			"Chop with a ~|Adamant hatchet|~": {
+			"Chop with an ~|adamant hatchet|~": {
 				"Items": ["Adamant hatchet"],
 				"Level": 31,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 1
 			},
-			"Chop with a ~|Sacred clay hatchet|~": {
+			"Chop with a ~|sacred clay hatchet|~": {
 				"Items": ["Sacred clay hatchet"],
 				"Level": 40,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 1
 			},
-			"Chop with a ~|Rune hatchet|~": {
+			"Chop with a ~|rune hatchet|~": {
 				"Items": ["Rune hatchet"],
 				"Level": 41,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 1
 			},
-			"Chop with a ~|Dragon hatchet|~": {
+			"Chop with a ~|dragon hatchet|~": {
 				"Items": ["Dragon hatchet"],
 				"Level": 61,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 2
 			},
-			"Chop with a ~|Inferno Adze|~": {
+			"Chop with an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
 				"Level": 61,
 				"Objects": ["Tree+"],
@@ -294,68 +294,68 @@
 				},
 				"Priority": 1
 			},
-			"Chop with a ~|Crystal hatchet|~": {
+			"Chop with a ~|crystal hatchet|~": {
 				"Items": ["Crystal hatchet"],
 				"Level": 71,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Priority": 1
 			},
-			"Chop ~|Light jungle|~": {
+			"Chop ~|light jungle|~": {
 				"Level": 10,
 				"Objects": ["Light jungle"],
 				"Output": "Thatch spar (light)",
 				"Primary": true,
 				"Priority": 4
 			},
-			"Chop ~|Medium jungle|~": {
+			"Chop ~|medium jungle|~": {
 				"Level": 20,
 				"Objects": ["Medium jungle"],
 				"Output": "Thatch spar (medium)",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Chop ~|Dense jungle|~": {
+			"Chop ~|dense jungle|~": {
 				"Level": 35,
 				"Objects": ["Dense jungle"],
 				"Output": "Thatch spar (dense)",
 				"Primary": true,
 				"Priority": 2
 			},			
-			"Chop with a ~|Machete|~": {
+			"Chop with a ~|machete|~": {
 				"Level": 10,
 				"Objects": ["Light jungle"],
 				"Primary": false,
 				"Priority": 5
 			},			
-			"Chop with a ~|Opal machete|~": {
+			"Chop with an ~|opal machete|~": {
 				"Items": ["Opal machete"],
 				"Level": 10,
 				"Objects": ["Light jungle"],
 				"Primary": false,
 				"Priority": 3
 			},			
-			"Chop with a ~|Jade machete|~": {
+			"Chop with a ~|jade machete|~": {
 				"Items": ["Jade machete"],
 				"Level": 10,
 				"Objects": ["Light jungle"],
 				"Primary": false,
 				"Priority": 2
 			},			
-			"Chop with a ~|Red topaz machete|~": {
+			"Chop with a ~|red topaz machete|~": {
 				"Items": ["Red topaz machete"],
 				"Level": 10,
 				"Objects": ["Light jungle"],
 				"Primary": false,
 				"Priority": 1
 			},
-			"Cut a ~|Canoe|~": {
+			"Cut a ~|canoe|~": {
 				"Level": 12,
 				"Objects": ["Canoe"],
 				"Primary": false,
 				"Priority": 1
 			},
-			"Complete a ~|Sawmill training|~ job": {
+			"Complete a ~|sawmill training|~ job": {
 				"Chunks": ["13110"],
 				"Level": 80,
 				"Primary": true,
@@ -12475,12 +12475,16 @@
 				"Bardur": 1
 			},
 			"Monster": {
-				"Hobgoblin": 2
+				"Hobgoblin": 2,
+				"Rock crab": 19
 			},
 			"Spawn": {
 				"Snape grass": 27
 			},
-			"Nickname": "RuneScape Surface"
+			"Connect": {
+				"7748": true
+			},
+			"Nickname": "Waterbirth island"
 		},
 		"10044": {
 			"Object": {
@@ -41110,6 +41114,9 @@
 			"Object": {
 				"Rocks": 1,
 				"Small obelisk": 1
+			},
+			"Connect": {
+				"10042": true
 			}
 		},
 		"Silas's Dream": {
