@@ -40,7 +40,7 @@
 				"Objects": ["Tree+"],
 				"Output": "Logs",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Cut ~|Achey tree logs|~": {
 				"Level": 1,
@@ -214,7 +214,153 @@
 				"Output": "Golden bamboo",
 				"Primary": false,
 				"Priority": 1
-			}	
+			},
+			"Chop with a ~|Bronze hatchet|~": {
+				"Level": 1,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 5
+			},
+			"Chop with a ~|Iron hatchet|~": {
+				"Items": ["Iron hatchet"],
+				"Level": 1,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Chop with a ~|Dwarven army axe|~": {
+				"Items": ["Dwarven army axe"],
+				"Level": 1,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 3
+			},
+			"Chop with a ~|Steel hatchet|~": {
+				"Items": ["Steel hatchet"],
+				"Level": 6,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop with a ~|Black hatchet|~": {
+				"Items": ["Black hatchet"],
+				"Level": 6,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop with a ~|Mithril hatchet|~": {
+				"Items": ["Mithril hatchet"],
+				"Level": 21,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop with a ~|Adamant hatchet|~": {
+				"Items": ["Adamant hatchet"],
+				"Level": 31,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop with a ~|Sacred clay hatchet|~": {
+				"Items": ["Sacred clay hatchet"],
+				"Level": 40,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop with a ~|Rune hatchet|~": {
+				"Items": ["Rune hatchet"],
+				"Level": 41,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop with a ~|Dragon hatchet|~": {
+				"Items": ["Dragon hatchet"],
+				"Level": 61,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop with a ~|Inferno Adze|~": {
+				"Items": ["Inferno Adze|~"],
+				"Level": 61,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Skills": {
+					"Firemaking": 92
+				},
+				"Priority": 1
+			},
+			"Chop with a ~|Crystal hatchet|~": {
+				"Items": ["Crystal hatchet"],
+				"Level": 71,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop ~|Light jungle|~": {
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Output": "Thatch spar (light)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Chop ~|Medium jungle|~": {
+				"Level": 20,
+				"Objects": ["Medium jungle"],
+				"Output": "Thatch spar (medium)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Chop ~|Dense jungle|~": {
+				"Level": 35,
+				"Objects": ["Dense jungle"],
+				"Output": "Thatch spar (dense)",
+				"Primary": true,
+				"Priority": 2
+			},			
+			"Chop with a ~|Machete|~": {
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Primary": false,
+				"Priority": 5
+			},			
+			"Chop with a ~|Opal machete|~": {
+				"Items": ["Opal machete"],
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Primary": false,
+				"Priority": 3
+			},			
+			"Chop with a ~|Jade machete|~": {
+				"Items": ["Jade machete"],
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Primary": false,
+				"Priority": 2
+			},			
+			"Chop with a ~|Red topaz machete|~": {
+				"Items": ["Red topaz machete"],
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cut a ~|Canoe|~": {
+				"Level": 12,
+				"Objects": ["Canoe"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Complete a ~|Sawmill training|~ job": {
+				"Chunks": ["13110"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 1
+			}
 		},
 		"Quests": {},
 		"Diaries": {},
@@ -6514,7 +6660,7 @@
 				"Freya Lune": 1,
 				"Fisherman": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "V's island"
 		},
 		"8001": {
 			"Object": {
@@ -6946,7 +7092,7 @@
 			"Monster": {
 				"Suqah": 6
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Moonclan"
 		},
 		"8253": {
 			"Object": {
@@ -6978,7 +7124,7 @@
 				"Moon Clan General Store": true,
 				"Moon Clan Fine Clothes": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North Moonclan"
 		},
 		"8260": {
 			"Object": {
@@ -7443,7 +7589,7 @@
 			"Object": {
 				"Tree": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South-west Tirannwn coast"
 		},
 		"8496": {
 			"Object": {
@@ -7460,7 +7606,7 @@
 			"Shop": {
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Port Tyras"
 		},
 		"8497": {
 			"Object": {
@@ -7469,13 +7615,13 @@
 			"Monster": {
 				"Crystal skillchompa": 15
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Tyras camp"
 		},
 		"8498": {
 			"Object": {
 				"Tree": 33
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Iowerth camp"
 		},
 		"8499": {
 			"Monster": {
@@ -7584,7 +7730,7 @@
 				"'Lecherous' Lee": 1,
 				"Cyrisus": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Astral altar"
 		},
 		"8509": {
 			"Object": {
@@ -7604,7 +7750,7 @@
 				"'Beedy-eye' Jones": 1,
 				"Jenny Blade": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lunar isle mine"
 		},
 		"8519": {
 			"Object": {
@@ -7993,7 +8139,7 @@
 			"Connect": {
 				"5462": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lost grove entrance"
 		},
 		"8752": {
 			"Object": {
@@ -8006,7 +8152,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West poison waste"
 		},
 		"8753": {
 			"Object": {
@@ -8044,7 +8190,7 @@
 			"Shop": {
 				"Quartermaster's Stores": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Tyras camp"
 		},
 		"8754": {
 			"Object": {
@@ -8072,7 +8218,7 @@
 			"Spawn": {
 				"Empty pot": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Iorwerth camp"
 		},
 		"8755": {
 			"Object": {
@@ -8229,7 +8375,7 @@
 				"Megan": 1,
 				"Primrose": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Piscatoris Peninsula"
 		},
 		"8763": {
 			"Object": {
@@ -8263,7 +8409,7 @@
 				"'Lecherous' Lee": 1,
 				"'Sticky' Sanders": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Pirates' Cove"
 		},
 		"8770": {
 			"Object": {
@@ -8681,7 +8827,7 @@
 				"Death": 1,
 				"A memory": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Incandescent wisp colony"
 		},
 		"9008": {
 			"Object": {
@@ -8689,7 +8835,7 @@
 				"Tar": 3,
 				"Tree": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East poison waste"
 		},
 		"9009": {
 			"Object": {
@@ -8722,7 +8868,7 @@
 			"Spawn": {
 				"White berries": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Tirannwn lodestone"
 		},
 		"9010": {
 			"Object": {
@@ -8746,7 +8892,7 @@
 			"Monster": {
 				"Rabbit": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North Isafdar"
 		},
 		"9011": {
 			"Object": {
@@ -8786,7 +8932,6 @@
 				"13716": true,
 				"15214": true,
 				"16729": true,
-				"18017": true,
 				"18512": true
 			},
 			"Shop": {
@@ -8879,7 +9024,7 @@
 			"Object": {
 				"Evergreen": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West eagles' peak"
 		},
 		"9015": {
 			"Object": {
@@ -8901,7 +9046,7 @@
 			"Connect": {
 				"8846": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Memorial to Guthix"
 		},
 		"9016": {
 			"Object": {
@@ -8914,14 +9059,14 @@
 			"Monster": {
 				"Airut": 10
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Airut peninsula"
 		},
 		"9017": {
 			"Object": {
 				"Dead tree": 2,
 				"Evergreen": 32
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West of fishing colony"
 		},
 		"9029": {
 			"Object": {
@@ -9295,7 +9440,7 @@
 				"Gruh": 1,
 				"Ogre chef": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Dougne delta"
 		},
 		"9264": {
 			"Object": {
@@ -9308,7 +9453,7 @@
 			"Connect": {
 				"8001": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Poison waste slayer dungeon entrance"
 		},
 		"9265": {
 			"Object": {
@@ -9359,7 +9504,7 @@
 				"Lletya Food Store": true,
 				"Lletya Seamstress": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lletya"
 		},
 		"9266": {
 			"Object": {
@@ -9369,7 +9514,7 @@
 			"Connect": {
 				"9366": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Underground pass exit"
 		},
 		"9267": {
 			"Object": {
@@ -9395,7 +9540,7 @@
 			"Spawn": {
 				"Red spiders' eggs": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Arandar"
 		},
 		"9268": {
 			"Object": {
@@ -9423,7 +9568,7 @@
 				"16994": true,
 				"19038": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "World gate"
 		},
 		"9269": {
 			"Object": {
@@ -9434,7 +9579,7 @@
 			"NPC": {
 				"Emmett": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Char's training cave"
 		},
 		"9270": {
 			"Object": {
@@ -9451,7 +9596,7 @@
 				"Musician": 1,
 				"Herald": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Eagles' peak"
 		},
 		"9271": {
 			"Object": {
@@ -9474,7 +9619,7 @@
 				"Dark kebbit": 1,
 				"Dashing kebbit": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Piscatoris woodland"
 		},
 		"9272": {
 			"Object": {
@@ -9503,7 +9648,7 @@
 				"9526": true,
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Piscatoris mine"
 		},
 		"9273": {
 			"Object": {
@@ -9535,7 +9680,7 @@
 			"Shop": {
 				"Arnold's Eclectic Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fishing colony"
 		},
 		"9275": {
 			"Object": {
@@ -9576,7 +9721,7 @@
 			"Shop": {
 				"Neitiznot Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Neitiznot"
 		},
 		"9276": {
 			"Object": {
@@ -9595,7 +9740,7 @@
 				"Ice troll female": 9,
 				"Ice troll grunt": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West ice trolls"
 		},
 		"9282": {
 			"Object": {
@@ -10050,7 +10195,7 @@
 				"Archaeologist": 1,
 				"Zanik": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "The Warforge"
 		},
 		"9519": {
 			"Object": {
@@ -10066,7 +10211,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South castle wars"
 		},
 		"9520": {
 			"Object": {
@@ -10090,7 +10235,7 @@
 				"Bucket": 4,
 				"Tinderbox": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Castle wars"
 		},
 		"9521": {
 			"Object": {
@@ -10099,19 +10244,19 @@
 				"Tree": 10,
 				"Crystal tree": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Observatory trees"
 		},
 		"9522": {
 			"Object": {
 				"Dead tree": 214
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Arposandra"
 		},
 		"9523": {
 			"Object": {
 				"Dead tree": 210
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Arandar mountain"
 		},
 		"9524": {
 			"Object": {
@@ -10137,7 +10282,7 @@
 			"Shop": {
 				"Yaktwee's Invizzy Critters Stall": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Arandar gate"
 		},
 		"9525": {
 			"Object": {
@@ -10173,7 +10318,7 @@
 			"Spawn": {
 				"Swamp toad": 7
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Brimstail's cave"
 		},
 		"9526": {
 			"Object": {
@@ -10217,7 +10362,7 @@
 				"King worm": 10,
 				"Swamp toad": 18
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Gnomeball field"
 		},
 		"9527": {
 			"Object": {
@@ -10231,7 +10376,7 @@
 				"Trainer Nacklepen": 1,
 				"Dashing kebbit": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "River delta"
 		},
 		"9528": {
 			"Object": {
@@ -10246,7 +10391,7 @@
 				"Dark kebbit": 6,
 				"Dashing kebbit": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Falconry area"
 		},
 		"9531": {
 			"Object": {
@@ -10291,7 +10436,7 @@
 				"Weapons Galore": true,
 				"Contraband Yak Produce": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Jatizso"
 		},
 		"9532": {
 			"Object": {
@@ -10309,7 +10454,7 @@
 				"Ice troll female": 4,
 				"Ice troll grunt": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East ice trolls"
 		},
 		"9538": {
 			"Object": {
@@ -10800,7 +10945,7 @@
 			"Object": {
 				"Gangplank": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ashdale cliff"
 		},
 		"9770": {
 			"Object": {
@@ -10816,7 +10961,7 @@
 				"Herald": 1,
 				"Lucy": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ashdale cave entrance"
 		},
 		"9772": {
 			"Object": {
@@ -10835,7 +10980,7 @@
 				"Ogress warrior": 8,
 				"Ogress": 8
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South-west Feldip"
 		},
 		"9773": {
 			"Object": {
@@ -10852,14 +10997,14 @@
 			"NPC": {
 				"Mound": 11
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Feldip fishing"
 		},
 		"9774": {
 			"Object": {
 				"Tree": 5,
 				"Dead tree": 15
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Feldiip coast"
 		},
 		"9775": {
 			"Object": {
@@ -10886,7 +11031,7 @@
 			"Shop": {
 				"Uglug's Stuffsies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Jiggig"
 		},
 		"9776": {
 			"Object": {
@@ -10914,7 +11059,7 @@
 				"Postie Pete's Post Office": true,
 				"Stanley Limelight Traders": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Castle wars lobby"
 		},
 		"9777": {
 			"Object": {
@@ -10958,7 +11103,7 @@
 			"Shop": {
 				"Farming supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Observatory"
 		},
 		"9778": {
 			"Object": {
@@ -10990,7 +11135,7 @@
 			"Spawn": {
 				"Bones": 13
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ouriana altar"
 		},
 		"9779": {
 			"Object": {
@@ -11025,7 +11170,7 @@
 			"Shop": {
 				"West Ardougne General Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Underground pass entrance"
 		},
 		"9780": {
 			"Object": {
@@ -20312,7 +20457,8 @@
 				"Loom": 1,
 				"Stile": 2,
 				"Dairy churn": 1,
-				"Elder tree": 1
+				"Elder tree": 1,
+				"Ivy": 7
 			},
 			"Monster": {
 				"Duck": 2,
@@ -21215,7 +21361,8 @@
 				"Bookcase": 15,
 				"Runecrafting Guild portal": 1,
 				"Low-level Runespan portal": 1,
-				"Rune chest": 1
+				"Rune chest": 1,
+				"Safe%2FMisthalin": 1
 			},
 			"NPC": {
 				"Mysterious ghost": 1,
@@ -21254,7 +21401,8 @@
 			},
 			"Spawn": {
 				"Logs": 3,
-				"Leather boots": 1
+				"Leather boots": 1,
+				"Bucket of water": 1
 			},
 			"Shop": {
 				"Wizard Finix's Runecrafting Shop": true,
@@ -21470,7 +21618,8 @@
 				"Barbarian anvil": 1,
 				"Barbarian forge": 1,
 				"Fishing spot": 2,
-				"Elder tree": 1
+				"Elder tree": 1,
+				"Canoe": 1
 			},
 			"Monster": {
 				"Unicorn": 1,
@@ -21507,7 +21656,7 @@
 			"Shop": {
 				"Peksa's Helmet Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Barbarian village"
 		},
 		"12342": {
 			"Object": {
@@ -21532,7 +21681,8 @@
 				"Bookcase": 5,
 				"Clan Cup plaque": 2,
 				"Chest": 1,
-				"Ironman plaque": 1
+				"Ironman plaque": 1,
+				"Canoe": 1
 			},
 			"Monster": {
 				"Man": 7,
@@ -21580,7 +21730,7 @@
 				"Richard's Wilderness Cape Shop": true,
 				"Edgeville General Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Edgeville"
 		},
 		"12343": {
 			"Object": {
@@ -23133,7 +23283,8 @@
 				"Anvil": 1,
 				"Forge": 1,
 				"Furnace": 1,
-				"Fishing spot": 5
+				"Fishing spot": 5,
+				"Canoe": 1
 			},
 			"NPC": {
 				"Hans": 1,
@@ -23214,7 +23365,7 @@
 				"Slayer Equipment": true,
 				"Lumbridge General Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lumbridge"
 		},
 		"12851": {
 			"Object": {
@@ -23309,7 +23460,8 @@
 				"Scarecrow": 1,
 				"Bank chest": 1,
 				"Storage Chest": 1,
-				"Elder tree": 1
+				"Elder tree": 1,
+				"Canoe": 1
 			},
 			"NPC": {
 				"Charlie the Tramp": 1,
@@ -23349,7 +23501,7 @@
 			"Shop": {
 				"May's Quest Caravan": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Gower farm"
 		},
 		"12853": {
 			"Object": {
@@ -25047,7 +25199,6 @@
 				"14645": true,
 				"15214": true,
 				"17164": true,
-				"18017": true,
 				"18512": true
 			},
 			"Shop": {
@@ -39945,7 +40096,6 @@
 				"14672": true,
 				"15214": true,
 				"17246": true,
-				"18017": true,
 				"18512": true
 			},
 			"Shop": {
@@ -45327,7 +45477,6 @@
 				"14645": true,
 				"15214": true,
 				"17164": true,
-				"18017": true,
 				"18512": true
 			},
 			"Shop": {
