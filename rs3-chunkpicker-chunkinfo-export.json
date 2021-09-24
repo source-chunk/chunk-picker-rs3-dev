@@ -1,9 +1,139 @@
 {
 	"challenges": {
 		"Agility": {
-			"Access the ~|Burthorpe agility course|~": {
+			"Complete a lap of the ~|Burthorpe agility course|~": {
 				"Chunks": ["11575"],
 				"Level": 1,
+				"Primary": true
+			},
+			"Complete a lap of the ~|Gnome Stronghold agility course|~": {
+				"Chunks": ["9781"],
+				"Level": 1,
+				"Primary": true
+			},
+			"Complete a lap of the ~|advanced Gnome Stronghold agility course|~": {
+				"Chunks": ["9781"],
+				"Level": 85,
+				"Primary": true
+			},
+			"Access the ~|Brimhaven agility arena|~ low level obstacles": {
+				"Chunks": ["11057"],
+				"Level": 1,
+				"Primary": true
+			},
+			"Access the ~|Brimhaven agility arena|~ medium level obstacles": {
+				"Chunks": ["11057"],
+				"Level": 20,
+				"Primary": true
+			},
+			"Access the ~|Brimhaven agility arena|~ high level obstacles": {
+				"Chunks": ["11057"],
+				"Level": 40,
+				"Primary": true
+			},
+			"Complete a lap of ~|werewolf skullball|~": {
+				"Chunks": ["14134"],
+				"Level": 25,
+				"Primary": true
+			},
+			"Complete a lap of the ~|agility pyramid|~": {
+				"Chunks": ["13356"],
+				"Level": 30,
+				"Primary": true
+			},
+			"Complete a lap of the ~|penguin agility course|~": {
+				"Chunks": ["10559"],
+				"Level": 30,
+				"Primary": true
+			},
+			"Complete a lap of the ~|barbarian outpost agility course|~": {
+				"Chunks": ["10039"],
+				"Level": 35,
+				"Primary": true
+			},
+			"Complete a lap of the ~|advanced barbarian outpost agility course|~": {
+				"Chunks": ["10039"],
+				"Level": 90,
+				"Primary": true
+			},
+			"Complete a lap of the ~|Ape Atoll agility course|~": {
+				"Chunks": ["10794", "11050", "11051"],
+				"Level": 48,
+				"Primary": true
+			},
+			"Complete a lap of the ~|wilderness agility course|~": {
+				"Chunks": ["11837"],
+				"Level": 52,
+				"Primary": true
+			},
+			"Complete a lap of the ~|Bandos agility course|~": {
+				"Chunks": ["Bandos's throne room"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 60,
+				"Primary": true,
+				"Skills": {
+					"Strength": 60,
+					"Ranged": 60
+				}
+			},
+			"Complete a lap of the ~|werewolf agility course|~": {
+				"Chunks": ["14134"],
+				"Level": 60,
+				"Primary": true
+			},
+			"Complete a lap of the ~|Hefin agility course|~": {
+				"Chunks": ["8501", "8757"],
+				"Level": 77,
+				"Primary": true
+			},
+			"Complete a lap of the ~|Dorgesh-Kaan agility course|~": {
+				"Chunks": ["Dorgesh-Kaan Agility course"],
+				"Level": 80,
+				"Primary": true
+			},
+			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
+				"Chunks": ["Dorgesh-Kaan Agility course"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Strength": 80,
+					"Ranged": 80
+				}
+			},
+			"Complete section A of the ~|Anachronia agility course|~": {
+				"Chunks": ["15426", "15427", "15682", "15863"],
+				"Level": 30,
+				"Primary": true
+			},
+			"Complete section B of the ~|Anachronia agility course|~": {
+				"Chunks": ["15681", "15936", "15937", "16192", "16193"],
+				"Level": 50,
+				"Primary": true
+			},
+			"Complete section C of the ~|Anachronia agility course|~": {
+				"Chunks": ["16193", "16194", "16450"],
+				"Level": 70,
+				"Primary": true
+			},
+			"Complete section D of the ~|Anachronia agility course|~": {
+				"Chunks": ["16706", "16707", "16708", "16963"],
+				"Level": 85,
+				"Primary": true
+			},
+			"Complete section E of the ~|Anachronia agility course|~": {
+				"Chunks": ["16453", "16708", "16709"],
+				"Level": 70,
+				"Primary": true
+			},
+			"Complete section F of the ~|Anachronia agility course|~": {
+				"Chunks": ["15941", "16197", "16453"],
+				"Level": 50,
+				"Primary": true
+			},
+			"Complete section G of the ~|Anachronia agility course|~": {
+				"Chunks": ["15684", "15941"],
+				"Level": 30,
 				"Primary": true
 			}
 		},
@@ -18,20 +148,86 @@
 		"Divination": {},
 		"Dungeoneering": {},
 		"Farming": {},
-		"Firemaking": {},
+		"Firemaking": {
+			"Use an ~|inferno Adze|~": {
+				"Items": ["Inferno Adze|~"],
+				"Level": 92,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Skills": {
+					"Woodcutting": 61,
+					"Mining": 41
+				},
+				"Priority": 1
+			}
+		},
 		"Fishing": {},
 		"Fletching": {},
 		"Herblore": {},
 		"Hunter": {},
 		"Invention": {},
 		"Magic": {},
-		"Mining": {},
+		"Mining": {
+			"Use an ~|inferno Adze|~": {
+				"Items": ["Inferno Adze|~"],
+				"Level": 41,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Skills": {
+					"Firemaking": 92,
+					"Woodcutting": 61
+				},
+				"Priority": 1
+			}
+		},
 		"Prayer": {},
-		"Ranged": {},
+		"Ranged": {
+			"Complete a lap of the ~|Bandos agility course|~": {
+				"Chunks": ["Bandos's throne room"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 60,
+				"Primary": true,
+				"Skills": {
+					"Strength": 60,
+					"Agility": 60
+				}
+			},
+			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
+				"Chunks": ["Dorgesh-Kaan Agility course"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Strength": 80,
+					"Agility": 80
+				}
+			}
+		},
 		"Runecrafting": {},
 		"Slayer": {},
 		"Smithing": {},
-		"Strength": {},
+		"Strength": {
+			"Complete a lap of the ~|Bandos agility course|~": {
+				"Chunks": ["Bandos's throne room"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 60,
+				"Primary": true,
+				"Skills": {
+					"Agility": 60,
+					"Ranged": 60
+				}
+			},
+			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
+				"Chunks": ["Dorgesh-Kaan Agility course"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Agility": 80,
+					"Ranged": 80
+				}
+			}
+		},
 		"Summoning": {},
 		"Thieving": {},
 		"Woodcutting": {
@@ -284,13 +480,14 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Chop with an ~|inferno Adze|~": {
+			"Use an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
 				"Level": 61,
 				"Objects": ["Tree+"],
 				"Primary": false,
 				"Skills": {
-					"Firemaking": 92
+					"Firemaking": 92,
+					"Mining": 41
 				},
 				"Priority": 1
 			},
@@ -9758,7 +9955,7 @@
 			"Connect": {
 				"10834": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Bandos's throne room"
 		},
 		"9283": {
 			"Object": {
@@ -15758,6 +15955,7 @@
 				"Guard": 1
 			},
 			"Connect": {
+				"9282": true,
 				"9814": true
 			}
 		},
@@ -40291,7 +40489,23 @@
 				"Grubfoot": 1
 			}
 		},
-		"Bandos's throne room": {},
+		"Bandos's throne room": {
+			"Object": {
+				"Goblin statue": 18,
+				"Ork statue": 20,
+				"Ogre statue": 16,
+				"Statue": 8,
+				"Ourg statue": 6,
+				"Statue with bowl": 2,
+				"Ledge": 2,
+				"Throne": 1,
+				"Portal": 2,
+				"Spear": 2
+			},
+			"Connect": {
+				"10834": true
+			}
+		},
 		"Small cave": {
 			"Object": {
 				"Cave exit": 3,
@@ -45543,6 +45757,9 @@
 	"codeItems": {
 		"boneItems": [],
 		"dropTables": {},
+		"itemPlus": {
+			"Grapple+": ["Phoenix crossbow", "Crossbow", "Bronze crossbow", "Coral crossbow", "Iron crossbow", "Blurite crossbow", "Steel crossbow", "Black crossbow", "Dorgeshuun crossbow", "Mithril crossbow", "Adamant crossbow", "Zanik's crossbow", "Rune crossbow", "Hunters' crossbow", "Dragon crossbow", "Demon slayer crossbow", "Karil's pistol crossbow", "Armadyl crossbow", "Chaotic crossbow", "Ascension crossbow", "Blightbound crossbow", "Off-hand bronze crossbow", "Off-hand iron crossbow", "Off-hand steel crossbow", "Off-hand black crossbow", "Off-hand mithril crossbow", "Off-hand adamant crossbow", "Off-hand rune crossbow", "Off-hand dragon crossbow", "Off-hand demon slayer crossbow", "Karil's off-hand pistol crossbow", "Off-hand armadyl crossbow", "Off-hand chaotic crossbow", "Off-hand ascension crossbow", "Off-hand blightbound crossbow", "Bronze 2h crossbow", "Iron 2h crossbow", "Steel 2h crossbow", "Black 2h crossbow", "Mithril 2h crossbow", "Adamant 2h crossbow", "Rune 2h crossbow", "Dragon 2h crossbow", "Karil's crossbow", "Hand cannon", "Royal crossbow", "Wyvern crossbow", "Dominion crossbow", "Eldritch crossbow", "Green salamander", "Orange salamander", "Red salamander", "Black salamander"]
+		},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"]
 		},
