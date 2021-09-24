@@ -10681,7 +10681,7 @@
 			"Connect": {
 				"8523": true
 			},
-			"Name": "RuneScape Surface"
+			"Name": "Zanaris"
 		},
 		"9541": {
 			"Object": {
@@ -10733,6 +10733,7 @@
 				"8752": true,
 				"8770": true,
 				"9272": true,
+				"Shady grove": true,
 				"9519": true,
 				"9793": true,
 				"9796": true,
@@ -41443,6 +41444,9 @@
 			},
 			"Monster": {
 				"Baby tanglefoot": 8
+			},
+			"Connect": {
+				"Zanaris": true
 			}
 		},
 		"Golrie's cave": {
