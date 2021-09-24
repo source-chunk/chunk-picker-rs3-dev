@@ -16017,7 +16017,8 @@
 				"Dorgesh-Kaan General Supplies": true,
 				"Miltog's Lamps": true,
 				"Reldak's Leather Armour": true
-			}
+			},
+			"Name": "Dorgesh-Kaan"
 		},
 		"10838": {
 			"Object": {
@@ -36539,7 +36540,6 @@
 				"8770": true,
 				"9272": true,
 				"9519": true,
-				"9541": true,
 				"9793": true,
 				"9796": true,
 				"10032": true,
@@ -37017,17 +37017,8 @@
 				"Dwarf gang member": 3
 			},
 			"Connect": {
-				"3910": true,
-				"5447": true,
-				"6743": true,
-				"9804": true,
-				"11094": true,
 				"11317": true,
-				"11417": 2,
-				"11573": true,
-				"11673": 2,
-				"11829": true,
-				"11862": true
+				"11573": true
 			},
 			"NPC": {
 				"Kharid Scorpion": 1,
@@ -37061,45 +37052,6 @@
 				"Crossbow Shop (Dwarven Mine)": true,
 				"Nurmof's Pickaxe Shop": true,
 				"Dwarven Shopping Store": true
-			}
-		},
-		"Dwarven mines": {
-			"Object": {
-				"Iron rock": 6,
-				"Coal rock": 15,
-				"Luminite rock": 3,
-				"Runite rock": 6,
-				"Orichalcite rock": 5,
-				"Chest": 3,
-				"Small obelisk": 1,
-				"Crevice": 2,
-				"Mine cart": 7,
-				"Sacks": 4,
-				"Rope": 1,
-				"Copper rock": 3,
-				"Tin rock": 5,
-				"Anvil": 2,
-				"Forge": 2
-			},
-			"Monster": {
-				"Scorpion": 13,
-				"King Scorpion": 2,
-				"Rat": 4,
-				"Dwarf": 24
-			},
-			"NPC": {
-				"Dwarf": 1,
-				"Dwarven Miner": 1,
-				"Drogo dwarf": 1
-			},
-			"Connect": {
-				"4166": true,
-				"4167": true,
-				"12084": true,
-				"12085": true
-			},
-			"Shop": {
-				"Drogo's Mining Emporium": true
 			}
 		},
 		"Braindeath Island": {
@@ -37934,11 +37886,7 @@
 				"Soul esswraith": 10
 			},
 			"Connect": {
-				"12337": true,
-				"15711": true,
-				"16478": true,
-				"16479": true,
-				"17246": true
+				"12337": true
 			}
 		},
 		"Borehole entrance": {
@@ -39281,7 +39229,6 @@
 				"Ringmaster": 1
 			}
 		},
-		"Taverley dungeon": {},
 		"Burthorpe mine": {},
 		"Abandoned Burthorpe mine": {},
 		"Lumbridge Catacombs": {
@@ -41690,10 +41637,8 @@
 			},
 			"Connect": {
 				"4166": true,
-				"4167": true,
 				"12084": true,
-				"12085": true,
-				"12184": true
+				"12085": true
 			},
 			"NPC": {
 				"Dwarf": 1,
@@ -44070,9 +44015,7 @@
 			"Connect": {
 				"10835": true,
 				"12850": true,
-				"12949": true,
-				"12950": true,
-				"13206": true
+				"12949": true
 			},
 			"Shop": {
 				"Nardok's Bone Weapons": true
