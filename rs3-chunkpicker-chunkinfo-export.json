@@ -10733,7 +10733,7 @@
 				"8752": true,
 				"8770": true,
 				"9272": true,
-				"Shady grove": true,
+				"9284": true,
 				"9519": true,
 				"9793": true,
 				"9796": true,
@@ -11586,7 +11586,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Name": "RuneScape Surface"
+			"Name": "Sparse plane"
 		},
 		"9797": {
 			"Object": {
@@ -37337,128 +37337,15 @@
 				"15151": true
 			}
 		},
-		"RuneScape Surface": {
+		"Sparse plane": {
 			"Object": {
-				"Tree": 29,
-				"Mysterious ruins": 1,
-				"Rune temple sign": 1,
-				"Oak": 5,
-				"Yew": 3,
-				"Dairy churn": 1,
-				"Wheat": 198,
-				"Small obelisk": 1,
-				"Hopper controls": 1,
-				"Crate": 6,
-				"Fountain": 1,
-				"Furnace": 1,
-				"Range": 1,
-				"Bank booth": 1,
-				"Jars": 1,
-				"Hammocks": 1,
-				"Cupboard": 1,
-				"Hopper": 1,
-				"Fairy ring": 3,
-				"Sand pit": 1,
-				"Dairy Cow": 1
+				"Fairy ring": 1
 			},
 			"NPC": {
-				"Gatekeeper": 5,
-				"Fungi": 10,
-				"Butterfly": 21,
-				"Banker": 2,
-				"Fairy shopkeeper": 1,
-				"Fairy shop assistant": 1,
-				"Sheep": 5,
-				"Fairy chef": 1,
-				"Fairy": 40,
-				"Ork": 6,
-				"Fairy Nuff": 1,
-				"Fairy Fixit": 1,
-				"Fairy Aeryka": 1,
-				"Wandering impling": 1,
-				"Gnarly": 1,
-				"General Bre'egth": 1,
-				"Fairy Very Wise": 2,
-				"Jukat": 1,
-				"Lunderwin": 1,
-				"Irksol": 1,
-				"Chaeldar": 1,
-				"Blaec": 1,
-				"Co-ordinator": 1,
-				"Fairy Queen": 2,
-				"Tooth Fairy": 1
+				"Fairy Very Wise": 1
 			},
 			"Connect": {
-				"5464": 2,
-				"6210": 2,
-				"6212": true,
-				"6465": 2,
-				"6995": 2,
-				"8029": 2,
-				"8267": 2,
-				"8500": 2,
-				"8523": true,
-				"8752": 2,
-				"8770": 2,
-				"9272": 2,
-				"9519": 2,
-				"9541": true,
-				"9793": 2,
-				"9796": true,
-				"10032": 2,
-				"10044": 2,
-				"10286": 2,
-				"10544": 2,
-				"10546": 2,
-				"10547": 2,
-				"10550": 2,
-				"10552": 2,
-				"10569": 2,
-				"10794": 2,
-				"10802": 2,
-				"10804": 2,
-				"10807": 2,
-				"10810": 2,
-				"10833": 2,
-				"11054": 2,
-				"11064": 2,
-				"11565": 2,
-				"11568": 2,
-				"11824": 2,
-				"12102": 2,
-				"12108": 2,
-				"12115": 2,
-				"12330": 2,
-				"12337": 2,
-				"12338": 2,
-				"12342": 2,
-				"12848": 2,
-				"12849": true,
-				"13615": 2,
-				"13619": 2,
-				"13622": 2,
-				"13642": 2,
-				"13877": 2,
-				"13977": 2,
-				"14390": 2,
-				"14893": 2,
-				"15961": 2,
-				"16729": 2,
-				"18512": 2
-			},
-			"Monster": {
-				"Otherworldly being": 6,
-				"Chicken": 2,
-				"Cow": 3
-			},
-			"Shop": {
-				"Zanaris General Store": true,
-				"Slayer Equipment": true,
-				"Irksol's Ruby Rings": true,
-				"Jukat's Dragon Sword Shop": true
-			},
-			"Spawn": {
-				"Egg": 2
+				"9541": true
 			}
 		},
 		"Ourania Altar": {
@@ -41446,7 +41333,7 @@
 				"Baby tanglefoot": 8
 			},
 			"Connect": {
-				"Zanaris": true
+				"9540": true
 			}
 		},
 		"Golrie's cave": {
