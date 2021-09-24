@@ -3622,8 +3622,7 @@
 			},
 			"Connect": {
 				"11413": true
-			},
-			"Name": "Karamja Volcano"
+			}
 		},
 		"4680": {
 			"Object": {
@@ -4860,7 +4859,7 @@
 			"Connect": {
 				"9797": true
 			},
-			"Name": "Cave"
+			"Name": "Evil Chicken's Lair"
 		},
 		"6214": {
 			"Object": {
@@ -5787,7 +5786,7 @@
 			"NPC": {
 				"Dragon head": 3
 			},
-			"Name": "Cave"
+			"Name": "Ancient cavern"
 		},
 		"7259": {
 			"Object": {
@@ -9937,6 +9936,9 @@
 				"Ice troll female": 9,
 				"Ice troll grunt": 3
 			},
+			"Connect": {
+				"9632": true
+			},
 			"Nickname": "West ice trolls"
 		},
 		"9282": {
@@ -10651,6 +10653,9 @@
 				"Ice troll female": 4,
 				"Ice troll grunt": 1
 			},
+			"Connect": {
+				"9632": true
+			},
 			"Nickname": "East ice trolls"
 		},
 		"9538": {
@@ -11136,7 +11141,7 @@
 			"NPC": {
 				"Bork Sigmundson": 1
 			},
-			"Name": "Cave"
+			"Name": "Ice troll cave"
 		},
 		"9769": {
 			"Object": {
@@ -11623,7 +11628,7 @@
 				"Irksol's Ruby Rings": true,
 				"Jukat's Dragon Sword Shop": true
 			},
-			"Name": "RuneScape Surface"
+			"Name": "Zanaris"
 		},
 		"9799": {
 			"Object": {
@@ -12807,7 +12812,7 @@
 				"Mage Arena Staves": true,
 				"Lundail's Arena-side Rune Shop": true
 			},
-			"Name": "Cave"
+			"Name": "Mage arena cave"
 		},
 		"10059": {
 			"Object": {
@@ -16815,6 +16820,7 @@
 				"Philipe Carnillean": 1
 			},
 			"Connect": {
+				"11165": true,
 				"11421": true
 			},
 			"Spawn": {
@@ -17249,7 +17255,7 @@
 			"Monster": {
 				"The Kendal": 1
 			},
-			"Name": "Cave"
+			"Name": "Mountain camp cave"
 		},
 		"11166": {
 			"Object": {
@@ -18144,10 +18150,10 @@
 				"Skeleton": 5
 			},
 			"Connect": {
-				"4679": true,
-				"11313": true
+				"11313": true,
+				"11314": true
 			},
-			"Name": "Brimhaven Dungeon"
+			"Name": "Karamja Volcano Dungeon"
 		},
 		"11414": {
 			"Object": {
@@ -37831,6 +37837,17 @@
 				"Scutarius": 39
 			}
 		},
+		"Mountain camp cave": {
+			"Object": {
+				"Cave exit": 2
+			},
+			"Monster": {
+				"The Kendal": 1
+			},
+			"Connect": {
+				"11065": true
+			}
+		},
 		"Grotworm Lair": {
 			"Object": {
 				"Cave opening": 1,
@@ -40893,45 +40910,26 @@
 				"Rat": 6
 			}
 		},
-		"Cave": {
+		"Mage arena cave": {
 			"Object": {
 				"Statue of Saradomin": 1,
 				"Statue of Zamorak": 1,
 				"Statue of Guthix": 1,
 				"Sparkling pool": 2,
-				"Lever": 1,
-				"Rope": 1,
-				"Portal": 1,
-				"Drakolith rock": 10,
-				"Cave exit": 2,
-				"Rope bridge": 4,
-				"Cave opening": 3
+				"Lever": 1
 			},
 			"NPC": {
 				"Gundai": 1,
 				"Lundail": 1,
 				"Chamber guardian": 1,
-				"Kolodion": 1,
-				"Dragon head": 3,
-				"Bork Sigmundson": 1
+				"Kolodion": 1
 			},
 			"Connect": {
-				"9797": true,
 				"12349": true
 			},
 			"Shop": {
 				"Mage Arena Staves": true,
 				"Lundail's Arena-side Rune Shop": true
-			},
-			"Monster": {
-				"Black dragon": 4,
-				"Baby black dragon": 1,
-				"The Kendal": 1,
-				"Ice troll runt": 5,
-				"Ice troll male": 7,
-				"Ice troll female": 9,
-				"Ice troll grunt": 6,
-				"Honour guard": 6
 			}
 		},
 		"Theatre": {
@@ -41649,13 +41647,20 @@
 				"Drogo's Mining Emporium": true
 			}
 		},
-		"Karamja Volcano": {
+		"Karamja Volcano Dungeon": {
+			"Object": {
+				"Climbing rope": 1,
+				"Runite rock": 4
+			},
 			"Monster": {
-				"Lesser demon": 14,
-				"Imp": 11
+				"Deadly red spider": 5,
+				"Giant bat": 3,
+				"Lesser demon": 6,
+				"Skeleton": 5
 			},
 			"Connect": {
-				"11413": true
+				"11313": true,
+				"11314": true
 			}
 		},
 		"Baxtorian Falls": {
@@ -41675,6 +41680,20 @@
 				"12184": true
 			}
 		},
+		"Evil Chicken's Lair": {
+			"Object": {
+				"Rope": 1,
+				"Portal": 1,
+				"Drakolith rock": 10
+			},
+			"Monster": {
+				"Black dragon": 4,
+				"Baby black dragon": 1
+			},
+			"Connect": {
+				"9797": true
+			}
+		}
 		"Varrock Sewers": {
 			"Object": {
 				"Magic tree": 6
@@ -45351,6 +45370,26 @@
 			},
 			"Connect": {
 				"13365": true
+			}
+		},
+		"Ice troll cave": {
+			"Object": {
+				"Rope bridge": 4,
+				"Cave opening": 3
+			},
+			"Monster": {
+				"Ice troll runt": 5,
+				"Ice troll male": 7,
+				"Ice troll female": 9,
+				"Ice troll grunt": 6,
+				"Honour guard": 6
+			},
+			"NPC": {
+				"Bork Sigmundson": 1
+			},
+			"Connect": {
+				"9276": true,
+				"9532": true
 			}
 		},
 		"Varrock Dig Site dungeon": {
