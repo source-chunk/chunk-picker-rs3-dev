@@ -102,7 +102,7 @@
 				}
 			},
 			"Complete section A of the ~|Anachronia agility course|~": {
-				"Chunks": ["15426", "15427", "15682", "15863"],
+				"Chunks": ["15426", "15427", "15682", "15683"],
 				"Level": 30,
 				"Primary": true
 			},
@@ -135,19 +135,601 @@
 				"Chunks": ["15684", "15941"],
 				"Level": 30,
 				"Primary": true
+			},
+			"Play a game of ~|Gnome ball|~": {
+				"Chunks": ["9526"],
+				"Level": 1,
+				"Primary": true,
+				"Skills": {
+					"Ranged": 1
+				}
+			},
+			"Use the ~|Blast furnace|~ Conveyor belt pedals": {
+				"Chunks": ["11423"],
+				"Level": 30,
+				"Primary": true
+			},
+			"Catch a ~|leaping trout|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 15,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 48,
+					"Strength": 15
+				},
+				"Priority": 1
+			},
+			"Catch a ~|leaping Salmon|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 30,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 58,
+					"Strength": 30
+				},
+				"Priority": 2
+			},
+			"Catch a ~|leaping sturgeon|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 45,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 70,
+					"Strength": 45
+				},
+				"Priority": 2
+			},
+			"Unlock the ~|Livid farm|~ spells": {
+				"Level": 60,
+				"Chunks": ["8253", "8509"],
+				"Primary": true,
+				"Skills": {
+					"Construction": 50,
+					"Crafting": 60,
+					"Farming": 60,
+					"Magic": 70
+				},
+				"Priority": 1
+			},
+			"Use the ~|serenity posts|~": {
+				"Chunks": ["8757"],
+				"Level": 75,
+				"Primary": false
+			},
+			"Cross a stile ~|shortcut|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Stile"],
+				"Level": 1,
+				"Primary": true
+			},
+			"Cross the ~|stepping stone (Lumbridge swamp caves)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12949"],
+				"Level": 1,
+				"Primary": true
+			},
+			"Cross the ~|crumbling wall (Falador)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11572"],
+				"Level": 5,
+				"Primary": true
+			},
+			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12849"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 8,
+				"Primary": false,
+				"Skills": {
+					"Strength": 17,
+					"Ranged": 37
+				}
+			},
+			"Cross the ~|ropeswing (Brimhaven)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10802"],
+				"Level": 10,
+				"Primary": true
+			},
+			"Cross the ~|wall (Falador)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11829"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 11,
+				"Primary": false,
+				"Skills": {
+					"Strength": 37,
+					"Ranged": 19
+				}
+			},
+			"Cross the ~|stepping stone (Brimhaven Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10645"],
+				"Level": 12,
+				"Primary": true
+			},
+			"Cross the ~|fence (Varrock)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12852"],
+				"Level": 13,
+				"Primary": false
+			},
+			"Cross the ~|monkey bars (Edgeville Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12443"],
+				"Level": 15,
+				"Primary": true
+			},
+			"Cross the ~|underwall tunnel (Yanille)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10288"],
+				"Level": 16,
+				"Primary": false
+			},
+			"Cross the ~|trellis (Watchtower)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10032"],
+				"Level": 18,
+				"Primary": true
+			},
+			"Cross the ~|rocks (Tree Gnome Stronghold)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9782"],
+				"Level": 19,
+				"Primary": false
+			},
+			"Cross the ~|log balance (Coal trucks)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10294"],
+				"Level": 20,
+				"Primary": true
+			},
+			"Cross the ~|underwall tunnel (Grand Exchange)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12598"],
+				"Level": 21,
+				"Primary": false
+			},
+			"Cross the ~|pipe (Brimhaven Dungeon entrance)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10645"],
+				"Level": 22,
+				"Primary": true
+			},
+			"Cross the ~|tunnel (Exiled Kalphite Hive)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11801"],
+				"Level": 23,
+				"Primary": false
+			},
+			"Cross the ~|rocks (Eagles' Peak)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9270"],
+				"Level": 25,
+				"Primary": true
+			},
+			"Cross the ~|underwall tunnel (Falador)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11827"],
+				"Level": 26,
+				"Primary": false
+			},
+			"Cross the ~|broken railing|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12340"],
+				"Level": 28,
+				"Primary": false
+			},
+			"Cross the ~|rock passage|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10284"],
+				"Level": 29,
+				"Primary": false
+			},
+			"Cross the ~|stepping stones (Karamja)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11566"],
+				"Level": 30,
+				"Primary": false
+			},
+			"Cross the ~|rocks (Catherby)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11317"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 32,
+				"Primary": false,
+				"Skills": {
+					"Strength": 35,
+					"Ranged": 35
+				}
+			},
+			"Cross the ~|log balance (East Ardougne)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10292"],
+				"Level": 33,
+				"Primary": true
+			},
+			"Cross the ~|pipe (Brimhaven Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10645"],
+				"Level": 34,
+				"Primary": true
+			},
+			"Cross the ~|grapple column|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11317"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 36,
+				"Primary": true,
+				"Skills": {
+					"Strength": 22,
+					"Ranged": 39
+				}
+			},
+			"Cross the ~|tree (Tree Gnome Stronghold)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9782", "9783"],
+				"Level": 37,
+				"Primary": false
+			},
+			"Cross the ~|rocks (Al Kharid)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["13107"],
+				"Level": 38,
+				"Primary": false
+			},
+			"Cross the ~|wall (Yanille)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10032"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 39,
+				"Primary": false,
+				"Skills": {
+					"Strength": 38,
+					"Ranged": 21
+				}
+			},
+			"Cross the ~|rope (Agility Pyramid)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["13356"],
+				"Level": 40,
+				"Primary": false
+			},
+			"Cross the ~|cliffside (Trollheim easy)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11321"],
+				"Level": 41,
+				"Primary": true
+			},
+			"Cross the ~|crevice (Dwarven Mine)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12185"],
+				"Level": 42,
+				"Primary": false
+			},
+			"Cross the ~|cliffside (Trollheim medium)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11321"],
+				"Level": 43,
+				"Primary": true
+			},
+			"Cross the ~|cliffside (Trollheim advanced)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11577"],
+				"Level": 44,
+				"Primary": true
+			},
+			"Cross the ~|log balance (Tirannwn)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["8754", "9010"],
+				"Level": 45,
+				"Primary": false
+			},
+			"Cross the easy ~|jutting wall (Zanaris)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9541"],
+				"Level": 46,
+				"Primary": true
+			},
+			"Cross the ~|cliffside (Trollheim hard)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11577"],
+				"Level": 47,
+				"Primary": true
+			},
+			"Cross the ~|log balance (Fremennik Province)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10808"],
+				"Level": 48,
+				"Primary": false
+			},
+			"Cross the ~|obstacle pipe (Yanille Agility dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10388"],
+				"Level": 49,
+				"Primary": true
+			},
+			"Cross the ~|shortcut (Grotworm Lair)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["4451"],
+				"Level": 50,
+				"Primary": false
+			},
+			"Cross the ~|pipe (Edgeville Dungeon/Varrock Sewers)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12698"],
+				"Level": 51,
+				"Primary": true
+			},
+			"Cross the ~|stepping stone (Taverley)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11573"],
+				"Level": 52,
+				"Primary": false
+			},
+			"Cross the ~|strong tree (Karamja)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12312", "11313"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 53,
+				"Primary": false,
+				"Skills": {
+					"Strength": 21,
+					"Ranged": 42
+				}
+			},
+			"Cross the ~|lava moat|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12603"],
+				"Level":54,
+				"Primary": false
+			},
+			"Cross the easy ~|tunnel (Kalphite Hive)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["13716"],
+				"Level": 55,
+				"Primary": false
+			},
+			"Cross the ~|weathered wall|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["14746"],
+				"Level": 58,
+				"Primary": false
+			},
+			"Cross the ~|rocks (Arandar easy)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9267"],
+				"Level": 59,
+				"Primary": false
+			},
+			"Cross the ~|boulder (God Wars Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11577", "11578"],
+				"Level": 60,
+				"Primary": false
+			},
+			"Cross the ~|rocky handholds (God Wars Dungeon/Wilderness)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11578", "11834"],
+				"Level": 60,
+				"Primary": false
+			},
+			"Cross the easy ~|shortcut (Monastery of Ascension)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["3849"],
+				"Level": 60,
+				"Primary": true
+			},
+			"Cross the ~|stile (Tree Gnome Stronghold)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9526"],
+				"Level": 61,
+				"Primary": true
+			},
+			"Cross the ~|crevice (Fremennik Slayer Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11164"],
+				"Level": 62,
+				"Primary": false
+			},
+			"Cross the ~|crumbling wall (The Islands That Once Were Turtles)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["3948"],
+				"Level": 63,
+				"Primary": true
+			},
+			"Cross the ~|cliffside (Trollheim/Wilderness)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11576", "11832"],
+				"Level": 64,
+				"Primary": false
+			},
+			"Cross the ~|broken Saradomin statue|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["13622"],
+				"Level": 65,
+				"Primary": false
+			},
+			"Cross the hard ~|jutting wall (Zanaris)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9541"],
+				"Level": 66,
+				"Primary": true
+			},
+			"Cross the ~|pile of rubble|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10388"],
+				"Level": 67,
+				"Primary": true
+			},
+			"Cross the ~|rocks (Arandar medium)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9267"],
+				"Level": 68,
+				"Primary": false
+			},
+			"Cross the ~|rocky wall (God Wars Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11346"],
+				"Level": 70,
+				"Primary": false
+			},
+			"Cross the ~|obstacle pipe (Taverley Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["3910"],
+				"Level": 70,
+				"Primary": true
+			},
+			"Cross the medium ~|shortcut (Monastery of Ascension)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["3849"],
+				"Level": 70,
+				"Primary": true
+			},
+			"Cross the ~|plank (Slayer Tower)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["13623"],
+				"Level": 71,
+				"Primary": false
+			},
+			"Cross the ~|crumbling wall (Asgarnian Ice Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["5190"],
+				"Level": 72,
+				"Primary": false
+			},
+			"Cross the ~|gap (Polypore Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["18516"],
+				"Level": 73,
+				"Primary": false
+			},
+			"Cross the ~|stepping stone (Shilo Village)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11310"],
+				"Level": 74,
+				"Primary": true
+			},
+			"Cross the ~|tunnel (Shilo Village)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11310", "11311"],
+				"Level": 74,
+				"Primary": false
+			},
+			"Cross the hard ~|tunnel (Kalphite Hive)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["13716"],
+				"Level": 79,
+				"Primary": false
+			},
+			"Cross the ~|strange floor|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["3910"],
+				"Level": 80,
+				"Primary": true
+			},
+			"Cross the advanced ~|shortcut (Monastery of Ascension)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["3849"],
+				"Level": 80,
+				"Primary": true
+			},
+			"Cross the ~|chasm (Fremennik Slayer Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11164"],
+				"Level": 81,
+				"Primary": false
+			},
+			"Cross the ~|rocks (Arandar advanced)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["9266"],
+				"Level": 85,
+				"Primary": false
+			},
+			"Cross the ~|low wall (Kuradal's Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["6482"],
+				"Level": 86,
+				"Primary": true
+			},
+			"Cross the ~|gap (Kuradal's Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["6482"],
+				"Level": 90,
+				"Primary": true
+			},
+			"Cross the hard ~|shortcut (Monastery of Ascension)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["3849"],
+				"Level": 90,
+				"Primary": true
+			},
+			"Cross the ~|low wall (Port Phasmatys)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["14646"],
+				"Level": 92,
+				"Primary": false
+			},
+			"Cross the ~|crevice (Gemstone cavern)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11916"],
+				"Level": 94,
+				"Primary": false
 			}
 		},
 		"Archaeology": {},
 		"Attack": {},
 		"Combat": {},
 		"Constitution": {},
-		"Construction": {},
+		"Construction": {
+			"Unlock the ~|Livid farm|~ spells": {
+				"Level": 50,
+				"Chunks": ["8253", "8509"],
+				"Primary": true,
+				"Skills": {
+					"Agility": 60,
+					"Crafting": 60,
+					"Farming": 60,
+					"Magic": 70
+				},
+				"Priority": 1
+			}
+		},
 		"Cooking": {},
-		"Crafting": {},
+		"Crafting": {
+			"Unlock the ~|Livid farm|~ spells": {
+				"Level": 60,
+				"Chunks": ["8253", "8509"],
+				"Primary": true,
+				"Skills": {
+					"Construction": 50,
+					"Agility": 60,
+					"Farming": 60,
+					"Magic": 70
+				},
+				"Priority": 1
+			}
+		},
 		"Defence": {},
 		"Divination": {},
 		"Dungeoneering": {},
-		"Farming": {},
+		"Farming": {
+			"Unlock the ~|Livid farm|~ spells": {
+				"Level": 60,
+				"Chunks": ["8253", "8509"],
+				"Primary": true,
+				"Skills": {
+					"Construction": 50,
+					"Crafting": 60,
+					"Agility": 60,
+					"Magic": 70
+				},
+				"Priority": 1
+			}
+		},
 		"Firemaking": {
 			"Use an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
@@ -161,12 +743,59 @@
 				"Priority": 1
 			}
 		},
-		"Fishing": {},
+		"Fishing": {
+			"Catch a ~|leaping trout|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 48,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Agility": 15,
+					"Strength": 15
+				},
+				"Priority": 1
+			},
+			"Catch a ~|leaping Salmon|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 58,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Agility": 30,
+					"Strength": 30
+				},
+				"Priority": 2
+			},
+			"Catch a ~|leaping sturgeon|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 70,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Agility": 45,
+					"Strength": 45
+				},
+				"Priority": 2
+			}
+		},
 		"Fletching": {},
 		"Herblore": {},
 		"Hunter": {},
 		"Invention": {},
-		"Magic": {},
+		"Magic": {
+			"Unlock the ~|Livid farm|~ spells": {
+				"Level": 70,
+				"Chunks": ["8253", "8509"],
+				"Primary": true,
+				"Skills": {
+					"Construction": 50,
+					"Crafting": 60,
+					"Farming": 60,
+					"Agility": 60
+				},
+				"Priority": 1
+			}
+		},
 		"Mining": {
 			"Use an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
@@ -201,6 +830,80 @@
 					"Strength": 80,
 					"Agility": 80
 				}
+			},
+			"Play a game of ~|Gnome ball|~": {
+				"Chunks": ["9526"],
+				"Level": 1,
+				"Primary": true,
+				"Skills": {
+					"Agility": 1
+				}
+			},
+			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12849"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 37,
+				"Primary": false,
+				"Skills": {
+					"Strength": 17,
+					"Agility": 8
+				}
+			},
+			"Cross the ~|wall (Falador)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11829"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 19,
+				"Primary": false,
+				"Skills": {
+					"Strength": 37,
+					"Agility": 11
+				}
+			},
+			"Cross the ~|rocks (Catherby)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11317"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Strength": 35,
+					"Agility": 32
+				}
+			},
+			"Cross the ~|grapple column|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11317"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 39,
+				"Primary": false,
+				"Skills": {
+					"Strength": 22,
+					"Agility": 36
+				}
+			},
+			"Cross the ~|wall (Yanille)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10032"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 21,
+				"Primary": false,
+				"Skills": {
+					"Strength": 38,
+					"Agility": 39
+				}
+			},
+			"Cross the ~|strong tree (Karamja)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12312", "11313"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Strength": 21,
+					"Agility": 53
+				}
 			}
 		},
 		"Runecrafting": {},
@@ -226,6 +929,111 @@
 					"Agility": 80,
 					"Ranged": 80
 				}
+			},
+			"Catch a ~|leaping trout|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 15,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 48,
+					"Agility": 15
+				},
+				"Priority": 1
+			},
+			"Catch a ~|leaping Salmon|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 30,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 58,
+					"Agility": 30
+				},
+				"Priority": 2
+			},
+			"Catch a ~|leaping sturgeon|~": {
+				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Level": 45,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 70,
+					"Agility": 45
+				},
+				"Priority": 2
+			},
+			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12849"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 17,
+				"Primary": false,
+				"Skills": {
+					"Agility": 8,
+					"Ranged": 37
+				}
+			},
+			"Cross the ~|wall (Falador)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11829"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 37,
+				"Primary": false,
+				"Skills": {
+					"Agility": 11,
+					"Ranged": 19
+				}
+			},
+			"Cross the ~|rocks (Catherby)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11317"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Agility": 32,
+					"Ranged": 35
+				}
+			},
+			"Cross the ~|grapple column|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11317"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 22,
+				"Primary": false,
+				"Skills": {
+					"Agility": 36,
+					"Ranged": 39
+				}
+			},
+			"Cross the ~|wall (Yanille)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["10032"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 38,
+				"Primary": false,
+				"Skills": {
+					"Agility": 39,
+					"Ranged": 21
+				}
+			},
+			"Cross the ~|strong tree (Karamja)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12312", "11313"],
+				"Items": ["Mithril grapple", "Grapple+"],
+				"Level": 21,
+				"Primary": false,
+				"Skills": {
+					"Agility": 53,
+					"Ranged": 42
+				}
+			},
+			"Cross the ~|boulder (God Wars Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11577", "11578"],
+				"Level": 60,
+				"Primary": false
 			}
 		},
 		"Summoning": {},
@@ -561,7 +1369,20 @@
 		},
 		"Quests": {},
 		"Diaries": {},
-		"Extra": {},
+		"Extra": {
+			"Complete the ~|little leaguer|~ achievement": {
+				"Chunks": ["9526"]
+			},
+			"Complete the  ~|swings both ways|~ achievement": {
+				"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"]
+			},
+			"Complete the ~|in a flash|~ achievement": {
+				"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"]
+			},
+			"Complete the ~|gotta go fast|~ achievement": {
+				"Chunks": ["15683", "15939"]
+			}
+		},
 		"Nonskill": {}
 	},
 	"chunks": {
@@ -18125,7 +18946,8 @@
 			"Connect": {
 				"11310": true,
 				"11916": true
-			}
+			},
+			"Name": "Shilo village mine"
 		},
 		"11412": {
 			"Object": {
@@ -18391,7 +19213,8 @@
 				"Quality Armour Shop": true,
 				"Vigr's Warhammers": true,
 				"Keldagrim Stonemason": true
-			}
+			},
+			"Name": "Keldagrim"
 		},
 		"11424": {
 			"Object": {
@@ -18987,7 +19810,7 @@
 				"Gaius's Two-Handed Shop": true,
 				"Slayer Equipment (Burthorpe)": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Burthorpe"
 		},
 		"11576": {
 			"Object": {
@@ -19600,7 +20423,8 @@
 				"Exiled kalphite paragon": 5,
 				"Exiled kalphite guardian": 10,
 				"Exiled kalphite marauder": 7
-			}
+			},
+			"Name": "Exiled kalphite hive"
 		},
 		"11802": {
 			"Object": {
@@ -20334,12 +21158,14 @@
 			},
 			"Connect": {
 				"11410": true
-			}
+			},
+			"Name": "Gemstone cavern"
 		},
 		"11917": {
 			"Monster": {
 				"Onyx dragon": 6
-			}
+			},
+			"name": "Gemstone cavern"
 		},
 		"11924": {
 			"Object": {
@@ -21295,7 +22121,7 @@
 			"Monster": {
 				"Hydrix dragon": 3
 			},
-			"Name": "Menaphos and Sophanem underground"
+			"Name": "Gemstone cavern"
 		},
 		"12173": {
 			"Monster": {
@@ -21618,7 +22444,7 @@
 				"Wizard Finix's Runecrafting Shop": true,
 				"Wizard Rinsit's Runecrafting Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Wizard tower"
 		},
 		"12338": {
 			"Object": {
@@ -21807,7 +22633,7 @@
 			"Shop": {
 				"Ava's Odds and Ends": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Draynor manor"
 		},
 		"12341": {
 			"Object": {
@@ -24573,7 +25399,7 @@
 			"Shop": {
 				"Shantay Pass Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Shantay pass"
 		},
 		"13105": {
 			"Object": {
@@ -24652,7 +25478,7 @@
 				"Al Kharid General Store": true,
 				"Zeke's Superior Scimitars": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Al Kharid"
 		},
 		"13106": {
 			"Object": {
@@ -25634,7 +26460,7 @@
 			"Connect": {
 				"4956": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Dual arena"
 		},
 		"13363": {
 			"Object": {
@@ -26147,7 +26973,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Desert lizards"
 		},
 		"13616": {
 			"Object": {
@@ -26202,7 +27028,7 @@
 				"Lyric sheet": 1,
 				"Hymn book": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Abbey of St. Elspeth Citharede"
 		},
 		"13618": {
 			"Object": {
@@ -36960,6 +37786,33 @@
 				"Ashuelot Reis": 1
 			}
 		},
+		"Gemstone cavern": {
+			"Object": {
+				"Crevice": 2,
+				"Exit": 1
+			},
+			"Monster": {
+				"Dragonstone dragon": 6,
+				"Onyx dragon": 6,
+				"Hydrix dragon": 3
+			},
+			"Connect": {
+				"11410": true
+			}
+		},
+		"Shilo village mine": {
+			"Object": {
+				"Hole": 1,
+				"Precious gem rock": 14
+			},
+			"NPC": {
+				"Kelhar": 1
+			},
+			"Connect": {
+				"11310": true,
+				"11916": true
+			}
+		},
 		"Waterbirth Island Dungeon": {
 			"Spawn": {
 				"Broken glass": 8
@@ -37116,8 +37969,89 @@
 			}
 		},
 		"Keldagrim": {
-			"Spawn": {
-				"Broken glass": 8
+			"Object": {
+				"Bank booth": 2,
+				"Bookcase": 13,
+				"Sink": 3,
+				"Boxes": 2,
+				"Small obelisk": 1,
+				"Tunnel": 1,
+				"Inventor's workbench": 2,
+				"Technology noticeboard": 1,
+				"Anvil": 2,
+				"Forge": 2
+			},
+			"NPC": {
+				"Dwarven Engineer": 1,
+				"Purple Pewter Secretary": 1,
+				"Yellow Fortune Secretary": 1,
+				"Blue Opal Secretary": 1,
+				"Purple Pewter Director": 1,
+				"Blue Opal Director": 1,
+				"Yellow Fortune Director": 1,
+				"Trader": 7,
+				"Commander Veldaban": 1,
+				"Dromund's cat": 1,
+				"Sieglinde": 1,
+				"Santiri": 1,
+				"Saro": 1,
+				"Gunslik": 1,
+				"Wemund": 1,
+				"Agmundi": 1,
+				"Banker": 2,
+				"Librarian": 1,
+				"Assistant": 1,
+				"Customer": 2,
+				"Dromund": 1,
+				"Rind the gardener": 1,
+				"Inn Keeper": 1,
+				"Barman": 1,
+				"Hegir": 1,
+				"Haera": 1,
+				"Gauss": 1,
+				"Myndill": 1,
+				"Tombar": 1,
+				"Odmar": 1,
+				"Audmann": 1,
+				"Orange Flame secretary": 1,
+				"Orange Flame director": 1,
+				"Red Axe Cat": 1,
+				"Gnome emissary": 1,
+				"Gnome traveller": 2,
+				"Stonemason": 1,
+				"Professor Manglethorp": 1,
+				"Chair": 5,
+				"Lieutenant Brae": 1,
+				"Black Guard": 1,
+				"Thak": 1,
+				"Supreme Commander": 1,
+				"King Drunken Dwarf III": 1,
+				"Veldaban": 1,
+				"Klaas": 1,
+				"Lava-flow miner": 3,
+				"Meike": 2,
+				"Brendt": 1,
+				"Grundt": 1,
+				"Red Axe cat": 1,
+				"Drorkar": 1
+			},
+			"Monster": {
+				"Black Guard": 3,
+				"Black Guard Berserker": 3,
+				"Trade floor guard": 4
+			},
+			"Connect": {
+				"6753": true,
+				"7771": true,
+				"11422": true
+			},
+			"Shop": {
+				"Agmundi Quality Clothes": true,
+				"Gunslik's Assorted Items": true,
+				"Quality Weapons Shop": true,
+				"Quality Armour Shop": true,
+				"Vigr's Warhammers": true,
+				"Keldagrim Stonemason": true
 			}
 		},
 		"Kalphite nursery": {
@@ -37320,7 +38254,8 @@
 				"Fountain": 4
 			},
 			"Connect": {
-				"10833": true
+				"10833": true,
+				"12950": true
 			}
 		},
 		"Mos Le'Harmless cave": {
@@ -37373,148 +38308,6 @@
 			}
 		},
 		"Lair of Tarn Razorlor": {},
-		"Misthalin Underground": {
-			"Object": {
-				"Bookcase": 3,
-				"Cabinet": 3,
-				"Fire": 2,
-				"Anvil": 1,
-				"Forge": 1,
-				"Coffin": 1,
-				"Crate": 60,
-				"Crates": 11,
-				"Chest": 12,
-				"Monkey bars": 4,
-				"Small obelisk": 2,
-				"Climbing rope": 1,
-				"Fishing spot": 2,
-				"Range": 1,
-				"Book": 1,
-				"Champions' board": 1,
-				"Portcullis": 1,
-				"Champion statue": 1,
-				"Bank chest": 1,
-				"Closed chest": 10,
-				"Open chest": 3,
-				"Dead tree": 2,
-				"Pipe": 4,
-				"Rocks": 39,
-				"Cliff": 1,
-				"Tunnel": 2,
-				"Cave exit": 1,
-				"Stepping stone": 2,
-				"Sink": 1,
-				"Sacks": 3,
-				"Hole": 2,
-				"Symbol": 19,
-				"Drawers": 2,
-				"Barrel": 1,
-				"Spiderweb": 1,
-				"Iron rock": 7,
-				"Silver rock": 9,
-				"Rope": 1
-			},
-			"Monster": {
-				"Zombie": 27,
-				"Rat": 50,
-				"Skeleton": 39,
-				"Spider": 16,
-				"Hill Giant": 12,
-				"Giant spider": 7,
-				"Giant rat": 12,
-				"Poison spider": 6,
-				"Hobgoblin": 5,
-				"Deadly red spider": 18,
-				"Earth warrior": 4,
-				"Chaos druid": 11,
-				"Thug": 9,
-				"Black demon": 3,
-				"Cave crawler": 3,
-				"Big frog": 11,
-				"Cave slime": 17,
-				"Cave bug": 21,
-				"H%2EA%2EM%2E Guard": 23,
-				"Moss giant": 4,
-				"Rock slug": 5,
-				"Cave goblin": 4,
-				"Giant frog": 3,
-				"Thief": 6,
-				"Ghost": 3,
-				"Scorpion": 2,
-				"Cave goblin miner": 8,
-				"Cave goblin guard": 4,
-				"Angry unicorn": 2,
-				"Angry giant rat": 2,
-				"Angry goblin": 2,
-				"Angry bear": 2,
-				"Fear reaper": 9,
-				"Confusion beast": 11,
-				"Hopeless creature": 11
-			},
-			"NPC": {
-				"Ruantun": 1,
-				"Turoth": 1,
-				"Evil Dave": 1,
-				"Hell-Rat": 18,
-				"Mysterious ghost": 1,
-				"Cave bug larva": 36,
-				"Hole in the wall": 7,
-				"Sergeant Mossfists": 1,
-				"Sergeant Slimetoes": 1,
-				"Johanhus Ulsbrecht": 1,
-				"H%2EA%2EM%2E Deacon": 1,
-				"H%2EA%2EM%2E Member": 31,
-				"Jimmy the Chisel": 1,
-				"Sigmund": 1,
-				"Larxus": 1,
-				"Mystery figure": 6,
-				"Vannaka": 1,
-				"Light creature": 9,
-				"Juna": 1,
-				"Zanik": 2,
-				"Movario": 1,
-				"Darve": 1,
-				"Cave goblin": 3,
-				"Kazgar": 1,
-				"Dartog": 1,
-				"Straven": 1,
-				"Grimesquit": 1,
-				"Phingspet": 1,
-				"Mistag": 1,
-				"Nardok": 1,
-				"Grubfoot": 1
-			},
-			"Connect": {
-				"3911": true,
-				"4423": true,
-				"5191": true,
-				"10075": true,
-				"10835": true,
-				"12341": true,
-				"12343": true,
-				"12850": true,
-				"12852": true,
-				"12853": true,
-				"12948": true,
-				"12949": 2,
-				"12950": 2,
-				"13109": true,
-				"13206": true
-			},
-			"Spawn": {
-				"Brass necklace": 2,
-				"Bronze arrow": 2,
-				"Gold bar": 1,
-				"Ruby ring": 1,
-				"Gold necklace": 1,
-				"Gold ore": 1,
-				"Knife": 1
-			},
-			"Shop": {
-				"Slayer Equipment": true,
-				"Nardok's Bone Weapons": true
-			}
-		},
 		"Tutorial cellar": {},
 		"Living Rock Caverns": {
 			"Object": {
@@ -37754,7 +38547,20 @@
 			}
 		},
 		"": {},
-		"Exiled Kalphite Hive": {},
+		"Exiled Kalphite Hive": {
+			"Object": {
+				"Tunnel": 2,
+				"Exit": 1,
+				"Small obelisk": 1
+			},
+			"Monster": {
+				"Exiled kalphite worker": 30,
+				"Exiled kalphite soldier": 6,
+				"Exiled kalphite paragon": 5,
+				"Exiled kalphite guardian": 10,
+				"Exiled kalphite marauder": 7
+			}
+		},
 		"The Runespan": {
 			"Object": {
 				"Float platform": 36,
@@ -45025,23 +45831,11 @@
 				"Undead pekin": 8
 			},
 			"Connect": {
-				"7099": 9,
-				"7349": 2,
-				"7350": 9,
-				"8120": 9,
-				"8368": 8,
-				"8370": 2,
-				"8757": true,
-				"8883": 4,
-				"9134": 8,
-				"9138": 9,
 				"9782": true,
-				"9909": 9,
 				"10030": true,
 				"10033": true,
 				"11318": true,
 				"11822": true,
-				"12082": 10,
 				"13106": true,
 				"13109": true
 			},
@@ -45631,7 +46425,8 @@
 		"boneItems": [],
 		"dropTables": {},
 		"itemsPlus": {
-			"Grapple+": ["Phoenix crossbow", "Crossbow", "Bronze crossbow", "Coral crossbow", "Iron crossbow", "Blurite crossbow", "Steel crossbow", "Black crossbow", "Dorgeshuun crossbow", "Mithril crossbow", "Adamant crossbow", "Zanik's crossbow", "Rune crossbow", "Hunters' crossbow", "Dragon crossbow", "Demon slayer crossbow", "Karil's pistol crossbow", "Armadyl crossbow", "Chaotic crossbow", "Ascension crossbow", "Blightbound crossbow", "Off-hand bronze crossbow", "Off-hand iron crossbow", "Off-hand steel crossbow", "Off-hand black crossbow", "Off-hand mithril crossbow", "Off-hand adamant crossbow", "Off-hand rune crossbow", "Off-hand dragon crossbow", "Off-hand demon slayer crossbow", "Karil's off-hand pistol crossbow", "Off-hand armadyl crossbow", "Off-hand chaotic crossbow", "Off-hand ascension crossbow", "Off-hand blightbound crossbow", "Bronze 2h crossbow", "Iron 2h crossbow", "Steel 2h crossbow", "Black 2h crossbow", "Mithril 2h crossbow", "Adamant 2h crossbow", "Rune 2h crossbow", "Dragon 2h crossbow", "Karil's crossbow", "Hand cannon", "Royal crossbow", "Wyvern crossbow", "Dominion crossbow", "Eldritch crossbow", "Green salamander", "Orange salamander", "Red salamander", "Black salamander"]
+			"Grapple+": ["Phoenix crossbow", "Crossbow", "Bronze crossbow", "Coral crossbow", "Iron crossbow", "Blurite crossbow", "Steel crossbow", "Black crossbow", "Dorgeshuun crossbow", "Mithril crossbow", "Adamant crossbow", "Zanik's crossbow", "Rune crossbow", "Hunters' crossbow", "Dragon crossbow", "Demon slayer crossbow", "Karil's pistol crossbow", "Armadyl crossbow", "Chaotic crossbow", "Ascension crossbow", "Blightbound crossbow", "Off-hand bronze crossbow", "Off-hand iron crossbow", "Off-hand steel crossbow", "Off-hand black crossbow", "Off-hand mithril crossbow", "Off-hand adamant crossbow", "Off-hand rune crossbow", "Off-hand dragon crossbow", "Off-hand demon slayer crossbow", "Karil's off-hand pistol crossbow", "Off-hand armadyl crossbow", "Off-hand chaotic crossbow", "Off-hand ascension crossbow", "Off-hand blightbound crossbow", "Bronze 2h crossbow", "Iron 2h crossbow", "Steel 2h crossbow", "Black 2h crossbow", "Mithril 2h crossbow", "Adamant 2h crossbow", "Rune 2h crossbow", "Dragon 2h crossbow", "Karil's crossbow", "Hand cannon", "Royal crossbow", "Wyvern crossbow", "Dominion crossbow", "Eldritch crossbow", "Green salamander", "Orange salamander", "Red salamander", "Black salamander"],
+			"Barbarian bait+": ["feathers", "fishing bait"]
 		},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"]
