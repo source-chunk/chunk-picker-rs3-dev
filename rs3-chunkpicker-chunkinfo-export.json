@@ -9509,7 +9509,8 @@
 			},
 			"Connect": {
 				"10293": true
-			}
+			},
+			"Name": "Deep Sea Fishing Hub"
 		},
 		"8624": {
 			"Monster": {
@@ -14737,10 +14738,6 @@
 				"Oak": 9,
 				"Tree": 6,
 				"Dead tree": 7,
-				"Fishing Guild, Baxtorian Falls": 1,
-				"Ardougne Market": 1,
-				"Ardougne Zoo": 1,
-				"Ardougne Castle, Ardougne West": 1,
 				"Philipe's painting set": 1,
 				"Inventor's workbench": 2,
 				"Furnace": 1,
@@ -14828,10 +14825,6 @@
 				"Oak": 8,
 				"Tree": 10,
 				"Dead tree": 19,
-				"Fishing Guild": 3,
-				"Ardougne": 2,
-				"Baxtorian Falls, Tree Gnome Stronghold": 2,
-				"Manor Farm": 1,
 				"Fishing spot (lure/bait)": 2
 			},
 			"Monster": {
