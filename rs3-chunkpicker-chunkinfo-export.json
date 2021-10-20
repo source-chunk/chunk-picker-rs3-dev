@@ -150,7 +150,7 @@
 				"Primary": true
 			},
 			"Catch a ~|leaping trout|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 15,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -161,7 +161,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|leaping Salmon|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 30,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -172,7 +172,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|leaping sturgeon|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 45,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -745,7 +745,7 @@
 		},
 		"Fishing": {
 			"Catch a ~|leaping trout|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 48,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -756,7 +756,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|leaping Salmon|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 58,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -767,7 +767,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|leaping sturgeon|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 70,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -775,6 +775,376 @@
 					"Agility": 45,
 					"Strength": 45
 				},
+				"Priority": 2
+			},
+			"Catch a ~|raw shrimp|~": {
+				"Level": 1,
+				"Objects": ["Fishing spot (net(small)/bait)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw crayfish|~": {
+				"Level": 1,
+				"Objects": ["Fishing spot (crayfish)"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw minnow|~": {
+				"Items": ["Fishing bait"],
+				"Level": 1,
+				"Objects": ["Fishing spot (minnow)"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|raw shrimp|~ in the holy lake": {
+				"Level": 5,
+				"Objects": ["Fishing spot (karambwanji)"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|raw Karambwanji|~": {
+				"Level": 5,
+				"Objects": ["Fishing spot (karambwanji)"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw sardine|~": {
+				"Items": ["Fishing bait"],
+				"Level": 5,
+				"Objects": ["Fishing spot (net(small)/bait)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw herring|~": {
+				"Items": ["Fishing bait"],
+				"Level": 10,
+				"Objects": ["Fishing spot (net(small)/bait)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw anchovies|~": {
+				"Level": 15,
+				"Objects": ["Fishing spot (net(small)/bait)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw mackerel|~": {
+				"Level": 16,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Output": "Big net fishing",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw trout|~": {
+				"Items": ["Feathers+"],
+				"Level": 20,
+				"Objects": ["Fishing spot (lure/bait)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw cod|~": {
+				"Level": 23,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Output": "Big net fishing",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw pike|~": {
+				"Items": ["Fishing bait"],
+				"Level": 25,
+				"Objects": ["Fishing spot (lure/bait)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|Slimy eel|~ in Morytania": {
+				"Items": ["Fishing bait"],
+				"Level": 28,
+				"Objects": ["Fishing spot (slimy eels)"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|Slimy eel|~": {
+				"Items": ["Fishing bait"],
+				"Level": 28,
+				"Objects": ["Fishing spot (frog spawn/eels)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|Slimy eel|~ in the Meiyerditch dungeon": {
+				"Items": ["Fishing bait"],
+				"Level": 28,
+				"Objects": ["Fishing spot (meiyerditch)"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|raw salmon|~": {
+				"Items": ["Feathers+"],
+				"Level": 30,
+				"Objects": ["Fishing spot (lure/bait)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|frog spawn|~": {
+				"Level": 33,
+				"Objects": ["Fishing spot (frog spawn/eels)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw tuna|~": {
+				"Level": 35,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw tuna|~ in the Piscatoris fishing colony": {
+				"Level": 35,
+				"Objects": ["Fishing spot (harpoon/net(small))"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw rainbow fish|~": {
+				"Items": ["Stripy feathers"],
+				"Level": 38,
+				"Objects": ["Fishing spot (lure/bait)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|cave eel|~": {
+				"Items": ["Fishing bait"],
+				"Level": 38,
+				"Objects": ["Fishing spot (frog spawn/eels)"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|cave eel|~ in the Meiyerditch dungeon": {
+				"Items": ["Fishing bait"],
+				"Level": 38,
+				"Objects": ["Fishing spot (meiyerditch)"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|raw lobster|~": {
+				"Level": 40,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw bass|~": {
+				"Level": 46,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Output": "Big net fishing",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw swordfish|~": {
+				"Level": 50,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw swordfish|~ in the Piscatoris fishing colony": {
+				"Level": 50,
+				"Objects": ["Fishing spot (harpoon/net(small))"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw desert sole|~": {
+				"Items": ["Fishing bait"],
+				"Level": 52,
+				"Objects": ["Fishing spot (menaphos)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw lava eel|~": {
+				"Items": ["Oily fishing rod", "Fishing bait"],
+				"Level": 53,
+				"Objects": ["Fishing spot (lava)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw catfish|~": {
+				"Items": ["Fishing bait"],
+				"Level": 60,
+				"Objects": ["Fishing spot (menaphos)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw monkfish|~": {
+				"Level": 62,
+				"Objects": ["Fishing spot (harpoon/net(small))"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw karambwan|~": {
+				"Items": ["Karambwan vessel"],
+				"Level": 65,
+				"Objects": ["Fishing spot (karambwan)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw green blubber jellyfish|~": {
+				"Items": ["Fishing bait"],
+				"Level": 68,
+				"Objects": ["Green blubber jellyfish spot"],
+				"Output": "Deep sea fishing",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|magnetic minnow|~": {
+				"Level": 68,
+				"Objects": ["Minnow shoal"],
+				"Output": "Deep sea fishing",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fish at a ~|swarm|~": {
+				"Level": 68,
+				"Objects": ["Swarm"],
+				"Output": " Swarm deep sea fishing",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|raw beltfish|~": {
+				"Items": ["Fishing bait"],
+				"Level": 72,
+				"Objects": ["Fishing spot (Menaphos)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw shark|~": {
+				"Level": 76,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw sea turtle|~ on the fishing trawler": {
+				"Chunks": ["10545"],
+				"Level": 79,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw sea turtle|~": {
+				"Items": ["Sea turtle bait"],
+				"Level": 79,
+				"Objects": ["Magical fishing spot)"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw great white shark|~": {
+				"Level": 80,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw great white shark|~ while deep sea fishing": {
+				"Items": ["Great white shark bait"],
+				"Level": 80,
+				"Objects": ["Magical fishing spot"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw manta ray|~ on the fishing trawler": {
+				"Chunks": ["10545"],
+				"Level": 81,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw manta ray|~": {
+				"Items": ["Manta ray bait"],
+				"Level": 81,
+				"Objects": ["Magical fishing spot"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw cavefish|~": {
+				"Items": ["Fishing bait"],
+				"Level": 85,
+				"Objects": ["Cavefish shoal"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw rocktail|~": {
+				"Items": ["Living minerals"],
+				"Level": 90,
+				"Objects": ["Rocktail shoal"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw tarpon|~": {
+				"Items": ["Wushanko fishing bait"],
+				"Level": 90,
+				"Objects": ["Fishing spot (arc)"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw blue blubber jellyfish|~": {
+				"Items": ["Fishing bait"],
+				"Level": 91,
+				"Objects": ["Blue blubber jellyfish spot"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw seerfish|~": {
+				"Items": ["Wushanko fishing baitt"],
+				"Level": 91,
+				"Objects": ["Fishing spot (arc)"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raw sillago|~": {
+				"Level": 92,
+				"Objects": ["Fishing spot (arc)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw wobbegong|~": {
+				"Level": 96,
+				"Objects": ["Fishing spot (arc)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw sailfish|~": {
+				"Items": ["Fishing bait"],
+				"Level": 97,
+				"Objects": ["Sailfish spot"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fish the ~|fishing frenzy|~": {
+				"Level": 94,
+				"Objects": ["Fish (frenzy)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|raw baron shark|~": {
+				"Items": ["Juju fishing potion"],
+				"Level": 76,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|tiger shark|~": {
+				"Chunks": ["10545"],
+				"Level": 95,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|small crystal urchin|~": {
+				"Level": 93,
+				"Objects": ["Fishing spot (waterfal)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|medium crystal urchin|~": {
+				"Level": 95,
+				"Objects": ["Fishing spot (waterfal)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|large crystal urchin|~": {
+				"Level": 97,
+				"Objects": ["Fishing spot (waterfal)"],
+				"Primary": true,
 				"Priority": 2
 			}
 		},
@@ -931,7 +1301,7 @@
 				}
 			},
 			"Catch a ~|leaping trout|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 15,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -942,7 +1312,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|leaping Salmon|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 30,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -953,7 +1323,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|leaping sturgeon|~": {
-				"Items": ["Barbarian rod", "Barbarian bait+"],
+				"Items": ["Barbarian bait+"],
 				"Level": 45,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -1371,15 +1741,19 @@
 		"Diaries": {},
 		"Extra": {
 			"Complete the ~|little leaguer|~ achievement": {
+				"Category": ["Achievement"],
 				"Chunks": ["9526"]
 			},
 			"Complete the  ~|swings both ways|~ achievement": {
+				"Category": ["Achievement"],
 				"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"]
 			},
 			"Complete the ~|in a flash|~ achievement": {
+				"Category": ["Achievement"],
 				"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"]
 			},
 			"Complete the ~|gotta go fast|~ achievement": {
+				"Category": ["Achievement"],
 				"Chunks": ["15683", "15939"]
 			}
 		},
@@ -2314,7 +2688,7 @@
 		"1090": {
 			"Object": {
 				"Switch": 20,
-				"Fishing spot": 4,
+				"Fishing spot (dungeon)": 4,
 				"Suspicious grooves": 52
 			},
 			"Name": "Dungeoneering"
@@ -2322,7 +2696,7 @@
 		"1091": {
 			"Object": {
 				"Switch": 15,
-				"Fishing spot": 3,
+				"Fishing spot (dungeon)": 3,
 				"Suspicious grooves": 39
 			},
 			"Name": "Dungeoneering"
@@ -2330,7 +2704,7 @@
 		"1092": {
 			"Object": {
 				"Switch": 20,
-				"Fishing spot": 4,
+				"Fishing spot (dungeon)": 4,
 				"Suspicious grooves": 52
 			},
 			"Name": "Dungeoneering"
@@ -2338,7 +2712,7 @@
 		"1093": {
 			"Object": {
 				"Switch": 15,
-				"Fishing spot": 3,
+				"Fishing spot (dungeon)": 3,
 				"Suspicious grooves": 39
 			},
 			"Name": "Dungeoneering"
@@ -2346,7 +2720,7 @@
 		"1094": {
 			"Object": {
 				"Switch": 20,
-				"Fishing spot": 4,
+				"Fishing spot (dungeon)": 4,
 				"Suspicious grooves": 52
 			},
 			"Name": "Dungeoneering"
@@ -2354,14 +2728,14 @@
 		"1095": {
 			"Object": {
 				"Switch": 15,
-				"Fishing spot": 3,
+				"Fishing spot (dungeon)": 3,
 				"Suspicious grooves": 39
 			},
 			"Name": "Dungeoneering"
 		},
 		"1096": {
 			"Object": {
-				"Fishing spot": 4,
+				"Fishing spot (dungeon)": 4,
 				"Suspicious grooves": 52,
 				"Switch": 20
 			},
@@ -2369,7 +2743,7 @@
 		},
 		"1097": {
 			"Object": {
-				"Fishing spot": 3,
+				"Fishing spot (dungeon)": 3,
 				"Suspicious grooves": 39,
 				"Switch": 15
 			},
@@ -2378,7 +2752,7 @@
 		"1098": {
 			"Object": {
 				"Switch": 20,
-				"Fishing spot": 4,
+				"Fishing spot (dungeon)": 4,
 				"Suspicious grooves": 52
 			},
 			"Name": "Dungeoneering"
@@ -2386,7 +2760,7 @@
 		"1099": {
 			"Object": {
 				"Switch": 15,
-				"Fishing spot": 3,
+				"Fishing spot (dungeon)": 3,
 				"Suspicious grooves": 39
 			},
 			"Name": "Dungeoneering"
@@ -3633,7 +4007,7 @@
 			"Connect": {
 				"11673": true
 			},
-			"Name": "Taverley Dungeon"
+			"Name": "Taverley Dungeon Blue dragon Resource Dungeon"
 		},
 		"3911": {
 			"Monster": {
@@ -3840,6 +4214,7 @@
 				"Drakolith rock": 4
 			},
 			"Connect": {
+				"12084": true,
 				"12184": true
 			},
 			"Name": "Mining Guild"
@@ -4089,7 +4464,7 @@
 			"Connect": {
 				"10899": true
 			},
-			"Name": "Brimhaven Dungeon"
+			"Name": "Brimhaven Dungeon resource dungeon"
 		},
 		"4423": {
 			"Monster": {
@@ -4910,7 +5285,7 @@
 			"Connect": {
 				"12181": true
 			},
-			"Name": "Asgarnian Ice Dungeon"
+			"Name": "Asgarnian Ice Dungeon resource dungeon"
 		},
 		"5191": {
 			"Object": {
@@ -5169,7 +5544,7 @@
 			"Connect": {
 				"11417": true
 			},
-			"Name": "Taverley Dungeon"
+			"Name": "Taverley Dungeon Hellhound Resource Dungeon"
 		},
 		"5448": {
 			"Object": {
@@ -5533,7 +5908,7 @@
 		},
 		"5955": {
 			"Object": {
-				"Fishing spot": 6,
+				"Fishing spot (net(small)/bait)": 6,
 				"Washbasin": 1,
 				"Crate": 1
 			},
@@ -6684,7 +7059,7 @@
 		"7348": {
 			"Object": {
 				"Water barrel": 1,
-				"Fishing spot": 3
+				"Fishing spot (arc)": 3
 			},
 			"NPC": {
 				"Waiko islander": 15
@@ -8064,7 +8439,7 @@
 		"8120": {
 			"Object": {
 				"Camp fire": 1,
-				"Fishing spot": 6
+				"Fishing spot (arc)": 6
 			},
 			"NPC": {
 				"Ted": 1,
@@ -8518,7 +8893,8 @@
 				"Trader": 1,
 				"Bubbles": 1,
 				"Harpoon": 1
-			}
+			},
+			"Name": "Deep Sea Fishing Hub"
 		},
 		"8303": {
 			"Object": {
@@ -8533,7 +8909,8 @@
 				"Fisherwoman": 3,
 				"Fisherman": 5,
 				"Adventurer": 1
-			}
+			},
+			"Name": "Deep Sea Fishing Hub"
 		},
 		"8368": {
 			"NPC": {
@@ -8595,7 +8972,7 @@
 		"8376": {
 			"Object": {
 				"Deposit box": 1,
-				"Fishing spot": 5
+				"Fishing spot (arc)": 5
 			},
 			"NPC": {
 				"Hubbub (contracts)": 1
@@ -8911,7 +9288,7 @@
 				"Pressure Barrel": 1,
 				"Sink": 1,
 				"Water barrel": 1,
-				"Fishing spot": 3
+				"Fishing spot (fishbowl and net)": 3
 			},
 			"NPC": {
 				"Pirate Pete": 1,
@@ -8930,7 +9307,7 @@
 			"Connect": {
 				"14647": true
 			},
-			"Name": "Swamp"
+			"Name": "Braindeath island"
 		},
 		"8528": {
 			"Object": {
@@ -8939,7 +9316,7 @@
 			"Connect": {
 				"4174": true
 			},
-			"Name": "Mos Le'Harmless"
+			"Name": "Braindeath island"
 		},
 		"8530": {
 			"Object": {
@@ -9111,7 +9488,8 @@
 				"Minnow shoal": 2,
 				"Fisherwoman": 1,
 				"Fisherman": 2
-			}
+			},
+			"Name": "Deep Sea Fishing Hub"
 		},
 		"8559": {
 			"Object": {
@@ -9217,7 +9595,7 @@
 				"Dense forest": 7,
 				"Barrel": 4,
 				"Tree": 112,
-				"Fishing spot": 5
+				"Fishing spot (net(big)/harpoon)": 5
 			},
 			"NPC": {
 				"Butterfly": 30,
@@ -9897,7 +10275,7 @@
 				"Fire remains": 1,
 				"Tree": 144,
 				"Guards": 1,
-				"Fishing spot": 5
+				"Fishing spot (lure/bait)": 5
 			},
 			"NPC": {
 				"Butterfly": 20,
@@ -10026,7 +10404,7 @@
 				"Convenient rock": 1,
 				"Handholds": 4,
 				"Cliff face": 1,
-				"Fishing spot": 7
+				"Fishing spot (waterfall)": 7
 			},
 			"NPC": {
 				"Fisherman": 1,
@@ -10678,7 +11056,7 @@
 				"Barrel": 7,
 				"Herman's desk": 1,
 				"Net": 2,
-				"Fishing spot": 4
+				"Fishing spot (harpoon/net(small))": 4
 			},
 			"NPC": {
 				"Herman Caranos": 1,
@@ -11312,7 +11690,7 @@
 				"Tree": 41,
 				"Magic tree": 1,
 				"Stile": 1,
-				"Fishing spot": 7,
+				"Fishing spot (lure/bait)": 7,
 				"Elder tree": 1
 			},
 			"Monster": {
@@ -11420,7 +11798,8 @@
 				"Small obelisk": 1,
 				"Anvil": 2,
 				"Forge": 2,
-				"Fishing spot": 10
+				"Fishing spot (cage/harpoon)": 5,
+				"Fishing spot (net(big)/harpoon)": 5
 			},
 			"NPC": {
 				"King Gjuki Sorvott IV": 1,
@@ -11975,7 +12354,7 @@
 			"Object": {
 				"Villager": 2,
 				"Fire": 1,
-				"Fishing spot": 1
+				"Fishing spot (minnow)": 1
 			},
 			"NPC": {
 				"Hendrik": 1,
@@ -12009,7 +12388,9 @@
 		"9773": {
 			"Object": {
 				"Jungle Tree": 13,
-				"Fishing spot": 7
+				"Fishing spot (net(small)/bait)": 3,
+				"Fishing spot (cage/harpoon)": 2,
+				"Fishing spot (net(big)/harpoon)": 2
 			},
 			"Monster": {
 				"Giant spider": 13,
@@ -12100,7 +12481,7 @@
 				"Tree": 34,
 				"Dead tree": 9,
 				"Water barrel": 1,
-				"Fishing spot": 5
+				"Fishing spot (lure/bait)": 5
 			},
 			"Monster": {
 				"Grizzly bear": 2
@@ -13251,7 +13632,7 @@
 			"Spawn": {
 				"Iron med helm": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Khazard Battlefield"
 		},
 		"10035": {
 			"Object": {
@@ -13359,7 +13740,7 @@
 				"Ardougne": 1,
 				"Tree Gnome Stronghold": 1,
 				"Stile": 1,
-				"Fishing spot": 6
+				"Fishing spot (lure/bait)": 6
 			},
 			"Monster": {
 				"Moss giant": 4
@@ -13374,7 +13755,7 @@
 			"Shop": {
 				"Rasolo the Wandering Merchant": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Glarial's Tomb"
 		},
 		"10038": {
 			"Object": {
@@ -13395,7 +13776,7 @@
 				"Whirlpool": 1,
 				"Barbarian anvil": 1,
 				"Barbarian forge": 1,
-				"Fishing spot": 5
+				"Fishing spot (barbarian)": 5
 			},
 			"NPC": {
 				"Almera": 1,
@@ -13410,7 +13791,7 @@
 				"6995": true,
 				"10394": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Baxtorian Falls"
 		},
 		"10039": {
 			"Object": {
@@ -13437,7 +13818,7 @@
 				"Log balance": 1,
 				"Evergreen": 26,
 				"Bank chest": 1,
-				"Fishing spot": 3
+				"Fishing spot (net(small)/bait)": 3
 			},
 			"Monster": {
 				"Chicken": 3,
@@ -13466,7 +13847,7 @@
 				"Barbarian Assault rewards": true,
 				"Stanley Limelight Traders": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Barbarian outpost"
 		},
 		"10040": {
 			"Object": {
@@ -13486,7 +13867,7 @@
 			"Shop": {
 				"The Lighthouse Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lighthouse"
 		},
 		"10042": {
 			"Object": {
@@ -13592,7 +13973,7 @@
 		"10055": {
 			"Object": {
 				"Palm tree": 2,
-				"Fishing spot": 2
+				"Fishing spot (Karambwan)": 2
 			},
 			"Monster": {
 				"Monkey": 7,
@@ -14287,7 +14668,7 @@
 			"Shop": {
 				"Sells beer and Khali brew": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fight Arena"
 		},
 		"10290": {
 			"Object": {
@@ -14451,7 +14832,7 @@
 				"Ardougne": 2,
 				"Baxtorian Falls, Tree Gnome Stronghold": 2,
 				"Manor Farm": 1,
-				"Fishing spot": 2
+				"Fishing spot (lure/bait)": 2
 			},
 			"Monster": {
 				"Farmer": 2,
@@ -14482,7 +14863,7 @@
 				"Cattleprod": 1,
 				"Picture": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Chaos Druid Tower"
 		},
 		"10293": {
 			"Object": {
@@ -14493,7 +14874,8 @@
 				"Bank booth": 2,
 				"Range": 1,
 				"Noticeboard": 1,
-				"Fishing spot": 16
+				"Fishing spot (cage/harpoon)": 7,
+				"Fishing spot (net(big)/harpoon)": 7
 			},
 			"Monster": {
 				"Man": 1,
@@ -14523,7 +14905,7 @@
 				"Fishing cape": true,
 				"Fishing Guild Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fishing Guild"
 		},
 		"10294": {
 			"Object": {
@@ -14568,7 +14950,7 @@
 			"NPC": {
 				"Fisherman": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fish Flingers"
 		},
 		"10296": {
 			"Object": {
@@ -14619,7 +15001,7 @@
 				"Mahogany": 3,
 				"Evergreen": 11,
 				"Water barrel": 1,
-				"Fishing spot": 4
+				"Fishing spot (kingdom)": 4
 			},
 			"NPC": {
 				"Gull": 4,
@@ -14652,7 +15034,7 @@
 				"Etceteria Fish": true,
 				"Island Greengrocer": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Etceteria"
 		},
 		"10301": {
 			"Monster": {
@@ -15251,7 +15633,7 @@
 				"Stanley Limelight Traders": true,
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Port Khazard"
 		},
 		"10546": {
 			"Object": {
@@ -15450,7 +15832,7 @@
 				"Archaeologist's workbench": 1,
 				"Bank chest": 1,
 				"Stormguard portal": 1,
-				"Fishing spot": 4
+				"Fishing spot (contest)": 4
 			},
 			"Monster": {
 				"Chicken": 4,
@@ -15494,7 +15876,7 @@
 				"Ranging Guild Ticket Exchange": true,
 				"Authentic Throwing Weapons": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ranging Guild"
 		},
 		"10550": {
 			"Object": {
@@ -15524,7 +15906,7 @@
 			"Spawn": {
 				"Dwellberries": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "McGrubor's Wood"
 		},
 		"10551": {
 			"Object": {
@@ -15553,12 +15935,8 @@
 				"Small obelisk": 1,
 				"Oak": 18,
 				"Tree": 52,
-				"Rellekka": 2,
-				"Seers' Village, Camelot Castle": 1,
 				"Lighthouse": 1,
-				"Mountain Camp": 1,
-				"Seers' Village": 1,
-				"Fishing spot": 2
+				"Fishing spot (lure/bait)": 2
 			},
 			"Monster": {
 				"Wolf": 3,
@@ -15572,7 +15950,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fremennik Province"
 		},
 		"10553": {
 			"Object": {
@@ -15596,7 +15974,9 @@
 				"Dairy cow": 1,
 				"Dairy churn": 1,
 				"Mithril rock": 5,
-				"Fishing spot": 11
+				"Fishing spot (net(small)/bait)": 4,
+				"Fishing spot (cage/harpoon)": 4,
+				"Fishing spot (net(big)/harpoon)": 3
 			},
 			"Monster": {
 				"Chicken": 4,
@@ -15669,7 +16049,7 @@
 				"Yrsa's Accoutrements": true,
 				"Yrsa's Shoe Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rellekka"
 		},
 		"10554": {
 			"NPC": {
@@ -15771,7 +16151,7 @@
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
-				"Fishing spot": 3
+				"Fishing spot (lure/bait)": 3
 			},
 			"NPC": {
 				"Sheep": 10,
@@ -16162,7 +16542,7 @@
 				"Fairy ring": 1,
 				"Mahogany": 2,
 				"Skull slope": 1,
-				"Fishing spot": 1
+				"Fishing spot (net(big)/harpoon)": 1
 			},
 			"Monster": {
 				"Bird": 5,
@@ -16175,7 +16555,7 @@
 			"Spawn": {
 				"Plank": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Ape Atoll"
 		},
 		"10795": {
 			"Object": {
@@ -16450,10 +16830,7 @@
 				"Tree": 7,
 				"Maple Tree": 22,
 				"Dead tree": 38,
-				"Sinclair Mansion": 1,
-				"Seers' Village, Camelot Castle": 1,
-				"Fremennik Province": 1,
-				"Fishing spot": 4
+				"Fishing spot (lure/bait)": 4
 			},
 			"Monster": {
 				"Chicken": 3,
@@ -16492,7 +16869,7 @@
 			"Shop": {
 				"The Milk Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Sinclair Mansion"
 		},
 		"10808": {
 			"Object": {
@@ -16502,7 +16879,8 @@
 				"Tree": 72,
 				"Maple Tree": 9,
 				"Dead tree": 19,
-				"Fishing spot": 2
+				"Fishing spot (lure/bait)": 2,
+				"Fishing spot (crayfish)": 2
 			},
 			"Monster": {
 				"Unicorn": 2,
@@ -16518,7 +16896,7 @@
 			"Spawn": {
 				"Doogle leaves": 13
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fremennik Forest"
 		},
 		"10809": {
 			"Object": {
@@ -16719,7 +17097,7 @@
 				"Blocked tunnel": 2,
 				"Pylon": 3,
 				"Rocks": 2,
-				"Fishing spot": 2
+				"Fishing spot (frog spawn/eels)": 2
 			},
 			"Monster": {
 				"Cave crawler": 5,
@@ -17098,7 +17476,7 @@
 				"Poster": 1,
 				"Barrel of black stone": 3,
 				"Rat hole": 1,
-				"Fishing spot": 1,
+				"Fishing spot (rocking)": 1,
 				"Crates": 1,
 				"Pier": 1
 			},
@@ -17116,7 +17494,8 @@
 			},
 			"Monster": {
 				"Customs Officer": 6
-			}
+			},
+			"Name": "Rock Island Prison"
 		},
 		"11050": {
 			"Object": {
@@ -17130,7 +17509,7 @@
 				"Rope": 1,
 				"Hole": 1,
 				"Vine": 6,
-				"Fishing spot": 1
+				"Fishing spot (net(big)/harpoon)": 1
 			},
 			"NPC": {
 				"Lumdo": 1,
@@ -17147,7 +17526,7 @@
 				"11150": true,
 				"12117": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Ape Atoll"
 		},
 		"11051": {
 			"Object": {
@@ -17270,7 +17649,7 @@
 				"Light jungle": 24,
 				"Medium jungle": 22,
 				"Rotten village fence": 46,
-				"Fishing spot": 3
+				"Fishing spot (karambwanji)": 3
 			},
 			"Monster": {
 				"Chicken": 4,
@@ -17295,7 +17674,7 @@
 				"Tamayu's Spear Stall": true,
 				"Tiadeche's Karambwan Stall": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Tai Bwo Wannai"
 		},
 		"11056": {
 			"Object": {
@@ -17359,7 +17738,7 @@
 				"Open chest": 4,
 				"Sink": 2,
 				"Crate": 1,
-				"Fishing spot": 1
+				"Fishing spot (kawambwan)": 1
 			},
 			"Monster": {
 				"Thief": 4,
@@ -17406,7 +17785,7 @@
 				"Dead Man's Chest": true,
 				"Agility cape": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Brimhaven"
 		},
 		"11058": {
 			"Object": {
@@ -17439,7 +17818,7 @@
 				"Washbasin": 1,
 				"Crane": 1,
 				"Crate": 1,
-				"Fishing spot": 3
+				"Fishing spot (net(small)/bait)": 3
 			},
 			"NPC": {
 				"Bailey": 1,
@@ -17456,7 +17835,7 @@
 				"Broken glass": 2,
 				"Damp sticks": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fishing Platform"
 		},
 		"11060": {
 			"Object": {
@@ -17537,7 +17916,7 @@
 				"Trader Stan's Trading Post": true,
 				"Vanessa's Farming Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Catherby"
 		},
 		"11062": {
 			"Object": {
@@ -17579,7 +17958,7 @@
 			"Spawn": {
 				"Fire rune": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Camelot"
 		},
 		"11063": {
 			"Object": {
@@ -18038,7 +18417,7 @@
 			"Connect": {
 				"11057": true
 			},
-			"Name": "Brimhaven Dungeon"
+			"Name": "Brimhaven agility arena"
 		},
 		"11160": {
 			"Object": {
@@ -18224,7 +18603,7 @@
 				"Tunnel": 1,
 				"Precious gem rock": 3,
 				"Furnace": 1,
-				"Fishing spot": 3
+				"Fishing spot (lure/bait)": 3
 			},
 			"NPC": {
 				"Theho Rses": 1,
@@ -18256,7 +18635,7 @@
 				"Obli's General Store": true,
 				"Ship tickets": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Shilo Village"
 		},
 		"11311": {
 			"Object": {
@@ -18341,7 +18720,7 @@
 			"Spawn": {
 				"Seaweed": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Karamja volcano"
 		},
 		"11314": {
 			"Object": {
@@ -18394,7 +18773,8 @@
 				"Oak": 7,
 				"Tree": 27,
 				"Furnace": 1,
-				"Fishing spot": 8
+				"Fishing spot (lure/bait)": 4,
+				"Fishing spot (net(small)/bait)": 4
 			},
 			"Monster": {
 				"Chicken": 6,
@@ -18422,7 +18802,7 @@
 				"Plank": 2,
 				"Egg": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Entrana"
 		},
 		"11317": {
 			"Object": {
@@ -18444,7 +18824,9 @@
 				"Catherby": 1,
 				"Crate": 1,
 				"Boat to Lumbridge": 1,
-				"Fishing spot": 7
+				"Fishing spot (net(big)/harpoon)": 3,
+				"Fishing spot (cage/harpoon)": 2,
+				"Fishing spot (net(small)/bait)": 2
 			},
 			"Monster": {
 				"Adolescent White wolf": 3
@@ -18471,7 +18853,7 @@
 				"Harry's Fishing Shop": true,
 				"Hickton's Archery Emporium": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Catherby Beach"
 		},
 		"11318": {
 			"Object": {
@@ -18568,7 +18950,7 @@
 				"Warriors' Guild Food Shop": true,
 				"Warriors' Guild Potion Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Warrior's Guild"
 		},
 		"11320": {
 			"Object": {
@@ -18959,7 +19341,7 @@
 			"Connect": {
 				"11312": true
 			},
-			"Name": "Brimhaven Dungeon"
+			"Name": "Pothole dungeon"
 		},
 		"11413": {
 			"Object": {
@@ -18998,13 +19380,12 @@
 			},
 			"Monster": {
 				"Zombie": 5,
-				"Black demon": 11,
 				"Greater demon": 2
 			},
 			"Connect": {
-				"9804": true
+				"11316": true
 			},
-			"Name": "Taverley Dungeon"
+			"Name": "Entrana Dungeon"
 		},
 		"11417": {
 			"Object": {
@@ -19359,7 +19740,7 @@
 				"Harpie Bug Swarm": 4
 			},
 			"Object": {
-				"Fishing spot": 2
+				"Fishing spot (karambwan)": 2
 			},
 			"NPC": {
 				"Gull": 1,
@@ -19378,14 +19759,15 @@
 			"Spawn": {
 				"Seaweed": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Karambwam Shore"
 		},
 		"11569": {
 			"Object": {
 				"Crate": 3,
 				"Banana Tree": 24,
 				"Boxes": 2,
-				"Fishing spot": 6
+				"Fishing spot (net(small)/bait)": 3,
+				"Fishing spot (cage/harpoon)": 3
 			},
 			"Monster": {
 				"Snake": 2,
@@ -19423,7 +19805,7 @@
 				"Trader Stan's Trading Post": true,
 				"Karamja Wines, Spirits, and Beers": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Musa Point"
 		},
 		"11570": {
 			"Object": {
@@ -19639,7 +20021,7 @@
 			"Connect": {
 				"11417": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Taverley"
 		},
 		"11574": {
 			"Object": {
@@ -19659,7 +20041,7 @@
 				"Altar": 1,
 				"Anvil": 2,
 				"Forge": 1,
-				"Fishing spot": 4
+				"Fishing spot (crayfish)": 4
 			},
 			"NPC": {
 				"Austri": 1,
@@ -19704,7 +20086,7 @@
 				"Herblore cape": true,
 				"Nicholas Angle's Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North Taverley"
 		},
 		"11575": {
 			"Object": {
@@ -20129,7 +20511,7 @@
 		"11610": {
 			"Object": {
 				"Portal": 18,
-				"Fishing spot": 12
+				"Fishing spot (xmas)": 12
 			},
 			"Name": "Xmas 2010"
 		},
@@ -20225,7 +20607,7 @@
 		"11672": {
 			"Object": {
 				"Small obelisk": 1,
-				"Fishing spot": 3
+				"Fishing spot (lava)": 3
 			},
 			"Monster": {
 				"Baby blue dragon": 3,
@@ -20547,7 +20929,7 @@
 				"Forlorn boot": 1,
 				"Broken fishing rod (Mudskipper Point)": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mudskipper Point"
 		},
 		"11825": {
 			"Object": {
@@ -20564,7 +20946,7 @@
 				"Notices": 1,
 				"Anvil": 1,
 				"Forge": 1,
-				"Fishing spot": 2
+				"Fishing spot (net(small)/bait)": 2
 			},
 			"NPC": {
 				"Customs officer": 1,
@@ -20588,7 +20970,10 @@
 				"Brian's Archery Supplies": true,
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Connect": {
+				"11031": true
+			},
+			"Nickname": "Port Sarim Church"
 		},
 		"11826": {
 			"Object": {
@@ -20703,7 +21088,7 @@
 				"Magic secateurs": true,
 				"Wayne's Chains - Chainmail Specialist": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Clan Camp"
 		},
 		"11828": {
 			"Object": {
@@ -21181,7 +21566,7 @@
 				"Crab": 10,
 				"Mudskipper": 8
 			},
-			"Name": "Brimhaven Dungeon"
+			"Name": "Mogre camp"
 		},
 		"11925": {
 			"Object": {
@@ -21194,7 +21579,7 @@
 				"Mugger": 4,
 				"Pirate": 9
 			},
-			"Name": "Brimhaven Dungeon"
+			"Name": "Asgarnian ice dungeon"
 		},
 		"11926": {
 			"Object": {
@@ -21258,7 +21643,7 @@
 			"Monster": {
 				"Magic axe": 6
 			},
-			"Name": "Asgarnian Ice Dungeon"
+			"Name": "Taverley dungeon"
 		},
 		"11929": {
 			"Object": {
@@ -21283,7 +21668,7 @@
 				"Nurmof's Pickaxe Shop": true,
 				"Dwarven Shopping Store": true
 			},
-			"Name": "Taverley Dungeon"
+			"Name": "Dwarven Mine"
 		},
 		"11930": {
 			"NPC": {
@@ -21469,7 +21854,7 @@
 				"Brian's Battleaxe Bazaar": true,
 				"Wydin's Food Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Port Sarim"
 		},
 		"12083": {
 			"Object": {
@@ -21782,7 +22167,7 @@
 				"Fire": 3,
 				"Pile of Crates": 1,
 				"Range": 1,
-				"Fishing spot": 1
+				"Fishing spot (net(small)/bait)": 1
 			},
 			"Monster": {
 				"Giant rat": 2,
@@ -21808,7 +22193,7 @@
 				"Bandit Duty Free": true,
 				"Neil's Wilderness Cape Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Bandit Camp"
 		},
 		"12090": {
 			"Monster": {
@@ -21819,7 +22204,7 @@
 		"12091": {
 			"Object": {
 				"Necrite rock": 20,
-				"Fishing spot": 1
+				"Fishing spot (lava)": 1
 			},
 			"Monster": {
 				"King Scorpion": 2,
@@ -21831,7 +22216,7 @@
 			"Spawn": {
 				"Iron full helm": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lava Maze Necrite Mine"
 		},
 		"12092": {
 			"Object": {
@@ -21888,7 +22273,7 @@
 			"Object": {
 				"Tree": 7,
 				"Rocks": 2,
-				"Fishing spot": 1
+				"Fishing spot (troll)": 1
 			},
 			"NPC": {
 				"Centaur": 2,
@@ -22169,7 +22554,7 @@
 			"Connect": {
 				"5190": true
 			},
-			"Name": "Brimhaven Dungeon"
+			"Name": "Asgarnian ice dungeon"
 		},
 		"12184": {
 			"Object": {
@@ -22331,12 +22716,12 @@
 			"Object": {
 				"House portal": 1,
 				"Range": 1,
-				"Fishing spot": 2
+				"Fishing spot (menaphos)": 2
 			},
 			"NPC": {
 				"Portmaster Kags": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos West Port District"
 		},
 		"12330": {
 			"Object": {
@@ -22427,7 +22812,7 @@
 				"Wizard Rinsit": 1
 			},
 			"Monster": {
-				"Lesser demon": 1,
+				"Lesser demon (Wizards' Tower)": 1,
 				"Spellwisp": 6
 			},
 			"Connect": {
@@ -22466,7 +22851,7 @@
 				"Draynor Village": 1,
 				"Energy rift": 1,
 				"Wisp Colony Map": 1,
-				"Fishing spot": 2,
+				"Fishing spot (net(small)/bait)": 2,
 				"Elder tree": 1
 			},
 			"NPC": {
@@ -22530,7 +22915,7 @@
 				"Fortunato's Fine Wine": true,
 				"Draynor Seed Market": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Draynor"
 		},
 		"12339": {
 			"Object": {
@@ -22653,7 +23038,7 @@
 				"Coal rock": 4,
 				"Barbarian anvil": 1,
 				"Barbarian forge": 1,
-				"Fishing spot": 2,
+				"Fishing spot (lure/bait)": 2,
 				"Elder tree": 1,
 				"Canoe": 1
 			},
@@ -23238,7 +23623,7 @@
 				"VIP archway": 1,
 				"Shifting tombs": 1,
 				"Mineral deposit": 1,
-				"Fishing spot": 2
+				"Fishing spot (menaphos)": 2
 			},
 			"NPC": {
 				"Anukat": 1,
@@ -23251,7 +23636,7 @@
 				"8297": true,
 				"8300": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos Pyramid"
 		},
 		"12587": {
 			"Object": {
@@ -23266,7 +23651,7 @@
 				"Clay rock": 4,
 				"Anvil": 1,
 				"Forge": 1,
-				"Fishing spot": 1
+				"Fishing spot (menaphos)": 1
 			},
 			"NPC": {
 				"Fisherman": 1,
@@ -23303,7 +23688,7 @@
 				"Scabarite crystal": 1,
 				"Apmeken amethyst": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos Worker District"
 		},
 		"12588": {
 			"Object": {
@@ -23448,7 +23833,7 @@
 			"Shop": {
 				"Lumbridge Fishing Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lumbridge Crater"
 		},
 		"12595": {
 			"Object": {
@@ -23959,7 +24344,7 @@
 		"12693": {
 			"Object": {
 				"Climbing rope": 1,
-				"Fishing spot": 1
+				"Fishing spot (frog spawn/eels)": 1
 			},
 			"Monster": {
 				"Cave crawler": 3,
@@ -24049,7 +24434,7 @@
 				"Sink": 1,
 				"Loom": 2,
 				"Range": 1,
-				"Fishing spot": 2
+				"Fishing spot (menaphos)": 2
 			},
 			"NPC": {
 				"Fisherman": 1,
@@ -24067,7 +24452,7 @@
 			"Shop": {
 				"Meena's Fishing Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos East Port District"
 		},
 		"12842": {
 			"NPC": {
@@ -24257,7 +24642,7 @@
 				"Copper rock": 3,
 				"Tin rock": 3,
 				"Clay rock": 2,
-				"Fishing spot": 3
+				"Fishing spot (crayfish)": 3
 			},
 			"NPC": {
 				"Father Urhney": 1,
@@ -24278,7 +24663,7 @@
 			"Spawn": {
 				"Leather gloves": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Lumbridge Swamp"
 		},
 		"12850": {
 			"Object": {
@@ -24309,17 +24694,11 @@
 				"Wine Stall": 1,
 				"Seed Stall": 2,
 				"Crafting Stall": 1,
-				"Lumbridge farms": 2,
-				"Lumbridge Castle": 3,
-				"Draynor": 1,
-				"Al Kharid": 2,
-				"Graveyard and swamp, Daemonheim (via boat)": 1,
-				"Varrock": 1,
 				"Bank chest": 1,
 				"Anvil": 1,
 				"Forge": 1,
 				"Furnace": 1,
-				"Fishing spot": 5,
+				"Fishing spot (lure/bait)": 5,
 				"Canoe": 1
 			},
 			"NPC": {
@@ -25080,7 +25459,7 @@
 			"Object": {
 				"Stepping stone": 2,
 				"Tunnel": 1,
-				"Fishing spot": 1
+				"Fishing spot (frog spawn/eels)": 1
 			},
 			"Monster": {
 				"Rock slug": 5,
@@ -25719,7 +26098,7 @@
 			"Shop": {
 				"Construction Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lumberyard"
 		},
 		"13111": {
 			"Object": {
@@ -26370,7 +26749,7 @@
 				"Pollnivneach General Store": true,
 				"Slayer Equipment": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Pollnivneach"
 		},
 		"13359": {
 			"Object": {
@@ -26460,7 +26839,7 @@
 			"Connect": {
 				"4956": true
 			},
-			"Nickname": "Dual arena"
+			"Nickname": "Duel Arena"
 		},
 		"13363": {
 			"Object": {
@@ -26486,7 +26865,7 @@
 				"Shop of Distaste": true,
 				"Magic Training Arena Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mage training Arena"
 		},
 		"13364": {
 			"Object": {
@@ -26626,9 +27005,9 @@
 		},
 		"13371": {
 			"Object": {
-				"Fishing spot": 3
+				"Fishing spot (cage/harpoon)": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Wilderness Fishing"
 		},
 		"13372": {
 			"Object": {
@@ -26771,7 +27150,7 @@
 		"13461": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot": 7
+				"Fishing spot (lure/bait)": 7
 			},
 			"NPC": {
 				"Nirrie": 1,
@@ -26782,7 +27161,7 @@
 			"Connect": {
 				"13360": true
 			},
-			"Name": "River Elid cave"
+			"Name": "Water Ravine Dungeon"
 		},
 		"13462": {
 			"Object": {
@@ -27048,7 +27427,7 @@
 			"Object": {
 				"Swamp tree": 6,
 				"Energy rift": 1,
-				"Fishing spot": 6
+				"Fishing spot (slimy eels)": 6
 			},
 			"NPC": {
 				"Will o' the wisp": 3,
@@ -27067,7 +27446,7 @@
 			"Spawn": {
 				"Swamp tar": 9
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Path to Mort'ton"
 		},
 		"13620": {
 			"Object": {
@@ -27100,7 +27479,7 @@
 				"Swamp tree": 7,
 				"Budding branch": 1,
 				"The Stormbreaker": 1,
-				"Fishing spot": 6
+				"Fishing spot (slimy eels)": 6
 			},
 			"NPC": {
 				"Will o' the wisp": 11,
@@ -27113,7 +27492,7 @@
 			"Spawn": {
 				"Swamp tar": 15
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mort Myre Swamp"
 		},
 		"13622": {
 			"Object": {
@@ -27156,7 +27535,7 @@
 				"9541": true,
 				"13722": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Paterdomus"
 		},
 		"13623": {
 			"Object": {
@@ -27195,7 +27574,7 @@
 				"4680": true,
 				"17787": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Slayer Tower"
 		},
 		"13624": {
 			"NPC": {
@@ -27293,7 +27672,7 @@
 		"13642": {
 			"Object": {
 				"Uncooking pot": 2,
-				"Fishing spot": 16,
+				"Fishing spot (scaperune)": 16,
 				"Fairy ring": 1
 			},
 			"NPC": {
@@ -27516,9 +27895,9 @@
 		"13873": {
 			"Object": {
 				"Necrite rock": 3,
-				"Fishing spot": 12
+				"Fishing spot (net(big)/harpoon)": 12
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Burgh de Rott"
 		},
 		"13874": {
 			"Object": {
@@ -27582,7 +27961,7 @@
 			"Shop": {
 				"Aurel's Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Burgh de Rott"
 		},
 		"13875": {
 			"Object": {
@@ -27617,7 +27996,7 @@
 				"Razmire Builders' Merchants": true,
 				"Razmire General Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mort'ton"
 		},
 		"13876": {
 			"Object": {
@@ -27644,7 +28023,7 @@
 				"Rope bridge": 4,
 				"Tree": 2,
 				"Swamp tree": 7,
-				"Fishing spot": 5
+				"Fishing spot (slimy eels)": 5
 			},
 			"NPC": {
 				"Will o' the wisp": 9,
@@ -27665,7 +28044,7 @@
 			"Spawn": {
 				"Swamp tar": 19
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Myreque Hideout"
 		},
 		"13878": {
 			"Object": {
@@ -27728,7 +28107,7 @@
 				"Rufus's Meat Emporium": true,
 				"Tanner": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Canifis"
 		},
 		"13879": {
 			"Object": {
@@ -28015,7 +28394,7 @@
 		},
 		"14129": {
 			"Object": {
-				"Fishing spot": 9
+				"Fishing spot (net(big)/harpoon)": 9
 			},
 			"Monster": {
 				"Vyrewatch": 8
@@ -28023,7 +28402,7 @@
 			"NPC": {
 				"Vanescula Drakan": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Burgh de Rott Pier"
 		},
 		"14130": {
 			"Object": {
@@ -28875,7 +29254,7 @@
 		"14488": {
 			"Object": {
 				"Fishing rods": 1,
-				"Fishing spot": 4
+				"Fishing spot (slimy eels)": 4
 			},
 			"Monster": {
 				"Skeletal hand": 6,
@@ -29446,13 +29825,14 @@
 				"Rubble": 1,
 				"Broken doorway": 1,
 				"Plank": 1,
-				"Fishing spot": 3
+				"Fishing spot (net(big)/harpoon)": 1,
+				"Fishing spot (cage/harpoon)": 2
 			},
 			"NPC": {
 				"Tarddiad Firefly": 31,
 				"Archaeologist": 8
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Everlight Digsite Acropolis"
 		},
 		"14898": {
 			"Object": {
@@ -29462,14 +29842,14 @@
 				"Exit": 1,
 				"Everlight": 1,
 				"Bridge": 1,
-				"Fishing spot": 1
+				"Fishing spot (cage/harpoon)": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 25,
 				"Trainee": 2,
 				"Archaeologist": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Everlight Digsite Mass Grave"
 		},
 		"14899": {
 			"Object": {
@@ -29974,13 +30354,14 @@
 			"Object": {
 				"Golden hoop": 2,
 				"Material cache (Everlight silvthril)": 2,
-				"Fishing spot": 3
+				"Fishing spot (net(big)/harpoon)": 2,
+				"Fishing spot (cage/harpoon)": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 17,
 				"Archaeologist": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Everlight South Dominion Games Stadium"
 		},
 		"15154": {
 			"Object": {
@@ -29991,7 +30372,7 @@
 				"Tarddiad Firefly": 26,
 				"Golden butterfly": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Everlight North Dominion Games Stadium"
 		},
 		"15155": {
 			"NPC": {
@@ -30031,7 +30412,7 @@
 				"Bank booth": 1,
 				"Calendar": 1,
 				"Altar": 1,
-				"Fishing spot": 1
+				"Fishing spot (tutorial)": 1
 			},
 			"NPC": {
 				"RuneScape guide": 1,
@@ -32816,7 +33197,7 @@
 				"Pressure Barrel": 1,
 				"Sink": 1,
 				"Water barrel": 1,
-				"Fishing spot": 3
+				"Fishing spot (fishbowl and net)": 3
 			},
 			"NPC": {
 				"Pirate Pete": 1,
@@ -36043,7 +36424,8 @@
 			"Object": {
 				"Red vine blossom": 1,
 				"Teleportation device": 1,
-				"Fishing spot": 5
+				"Fishing spot (cage/harpoon)": 3,
+				"Fishing spot (net(big)/harpoon)": 2
 			},
 			"NPC": {
 				"Igneous jadinko": 5,
@@ -36432,7 +36814,8 @@
 		},
 		"22562": {
 			"Object": {
-				"Fishing spot": 5
+				"Fishing spot (cage/harpoon)": 3,
+				"Fishing spot (net(big)/harpoon)": 2
 			},
 			"Monster": {
 				"Ripper dinosaur": 5
@@ -37822,97 +38205,88 @@
 				"Masterwork fanatic": 1
 			}
 		},
-		"Taverley Dungeon": {
+		"Entrana Dungeon": {
 			"Object": {
-				"Dramen tree": 1,
-				"Strange floor": 1,
-				"Coffin": 2,
-				"Rack": 1,
-				"Crate": 11,
-				"Crates": 1,
-				"Sink": 1,
+                "Dramen tree": 1
+            },
+            "Monster": {
+                "Zombie": 5,
+                "Greater demon": 2
+            },
+            "Connect": {
+				"12338": true
+            }
+		},
+		"Taverley Dungeon": {
+			 "Object": {
+                "Strange floor": 1,
+                "Coffin": 2,
+                "Rack": 1,
+				"Crate": 3,
+                "Crates": 1,
+                "Sink": 1,
 				"Small obelisk": 1,
-				"Fishing spot": 3,
+                "Fishing spot (lava)": 3,
 				"Obstacle pipe": 2,
-				"Dead tree": 4,
-				"Cave exit": 1,
-				"Bank chest": 2,
-				"Portal": 2,
-				"Free-for-all (safe)": 1,
-				"Free-for-all (dangerous)": 1,
-				"Stile": 4,
-				"Entry portal": 1,
-				"Sacks": 3,
-				"Bank deposit box": 1,
-				"Clan Cup plaque": 1,
-				"Scoreboard": 1,
-				"Barrier": 2,
-				"Lectern": 1,
-				"Train cart": 1,
-				"Chest": 3
-			},
-			"Monster": {
-				"Zombie": 5,
+                "Dead tree": 4
+            },
+            "Monster": {
+                "Hellhound": 13,
+                "Black dragon": 2,
+                "Poison spider": 8,
+                "Monk of Zamorak": 6,
 				"Black demon": 11,
-				"Greater demon": 2,
-				"Hellhound": 25,
-				"Black dragon": 2,
-				"Poison spider": 8,
-				"Monk of Zamorak": 6,
 				"Rat": 4,
-				"Dwarf": 14,
-				"Black Knight": 43,
-				"Jailer": 1,
+                "Dwarf": 2,
+                "Black Knight": 43,
+                "Jailer": 1,
+                "Poison Scorpion": 5,
+                "Hill Giant": 5,
+                "Chaos dwarf": 6,
 				"Baby blue dragon": 9,
-				"Poison Scorpion": 5,
-				"Hill Giant": 5,
-				"Chaos dwarf": 6,
-				"Blue dragon": 11,
-				"Spider": 3,
-				"Giant bat": 9,
-				"Lesser demon": 5,
-				"Skeleton": 7,
-				"Ghost": 14,
-				"Chaos druid": 6,
-				"Magic axe": 7,
-				"Dwarf gang member": 3
-			},
-			"Connect": {
-				"11317": true,
-				"11573": true
-			},
-			"NPC": {
-				"Kharid Scorpion": 1,
+                "Blue dragon": 3,
+                "Spider": 3,
+                "Giant bat": 9,
+                "Lesser demon": 5,
+                "Skeleton": 7,
+                "Ghost": 14,
+                "Chaos druid": 6,
+				"Magic axe": 7
+            },
+            "NPC": {
+                "Kharid Scorpion": 1,
 				"Lord Daquarius": 1,
-				"Captain Gilroy": 1,
-				"Black Knight": 1,
-				"Velrak the explorer": 1,
-				"Lieutenant Crane": 1,
-				"Isaura": 1,
-				"Ikadia the Exile": 1,
-				"Larry (cape merchant)": 1,
-				"Calladin": 1,
-				"Head mystic": 1,
-				"Rewards mystic": 1,
-				"Mystic": 4,
-				"Stealing Creation team": 3,
-				"Quartermaster (Cabbage Facepunch Bonanza)": 1,
-				"Stanley Limelight": 2,
-				"Dwarf (Dwarven Shopping Store)": 1,
-				"Nurmof": 1,
-				"Boot": 1,
-				"Hammerspike Stoutbeard": 1,
-				"Cart conductor": 1,
-				"Hura": 1
-			},
-			"Shop": {
-				"Stealing Creation Reward Shop": true,
-				"Larry's Wilderness Cape Shop": true,
-				"Rewards shop": true,
-				"Stanley Limelight Traders": true,
-				"Crossbow Shop (Dwarven Mine)": true,
-				"Nurmof's Pickaxe Shop": true,
-				"Dwarven Shopping Store": true
+                "Captain Gilroy": 1,
+                "Black Knight": 1,
+                "Velrak the explorer": 1,
+                "Lieutenant Crane": 1,
+                "Isaura": 1,
+				"Ikadia the Exile": 1
+            },
+            "Connect": {
+				"3910": true,
+                "5447": true,
+                "11317": true,
+                "11573": true
+            }
+		},
+		"Taverley Dungeon Hellhound Resource Dungeon": {
+			"Monster": {
+                "Hellhound": 12
+            },
+            "Connect": {
+                "11417": true
+            }
+		},
+		"Taverley Dungeon Blue dragon Resource Dungeon": {
+			"Monster": {
+                "Blue dragon": 8
+            },
+            "Connect": {
+                "11673": true
+            },
+			"Spawn": {
+				"Blue dragon scales": 12
 			}
 		},
 		"Braindeath Island": {
@@ -37926,7 +38300,7 @@
 				"Pressure Barrel": 1,
 				"Sink": 1,
 				"Water barrel": 1,
-				"Fishing spot": 3,
+				"Fishing spot (fishbowl and net)": 3,
 				"Stagnant Lake": 1
 			},
 			"NPC": {
@@ -38164,82 +38538,35 @@
 		},
 		"Asgarnian Ice Dungeon": {
 			"Object": {
-				"Crate": 16,
-				"Crates": 4,
-				"Open chest": 2,
-				"Closed chest": 1,
-				"Rat trap": 4,
-				"Cave exit": 1,
-				"Bank chest": 2,
-				"Portal": 2,
-				"Free-for-all (safe)": 1,
-				"Free-for-all (dangerous)": 1,
-				"Stile": 4,
-				"Entry portal": 1,
-				"Sacks": 3,
-				"Bank deposit box": 1,
-				"Clan Cup plaque": 1,
-				"Scoreboard": 1,
-				"Barrier": 2,
-				"Lectern": 1,
+                "Crate": 8,
+                "Crates": 4,
+                "Open chest": 2,
+                "Closed chest": 1,
 				"Cave": 1,
-				"Icy Cavern": 1,
-				"Hole": 1,
-				"Blurite rock": 4,
-				"Iron rock": 6,
-				"Coal rock": 8,
-				"Luminite rock": 3,
-				"Runite rock": 6,
-				"Orichalcite rock": 5
-			},
-			"Monster": {
-				"Mugger": 4,
-				"Pirate": 9,
-				"Rat": 3,
-				"Magic axe": 6,
+                "Icy Cavern": 1,
+                "Hole": 1,
+                "Blurite rock": 4
+            },
+            "Monster": {
+                "Mugger": 4,
+                "Pirate": 9,
 				"Ice warrior": 11,
-				"Skeletal Wyvern": 8,
-				"Ice giant": 3,
-				"Hobgoblin": 7,
-				"Scorpion": 10,
-				"King Scorpion": 2,
-				"Frost dragon": 15
-			},
-			"NPC": {
-				"Felkrash": 1,
-				"Turbogroomer": 1,
-				"Pusskins": 1,
-				"Gambler": 5,
-				"Barman": 1,
-				"Rat": 30,
-				"Larry (cape merchant)": 1,
-				"Calladin": 1,
-				"Head mystic": 1,
-				"Rewards mystic": 1,
-				"Mystic": 4,
-				"Stealing Creation team": 3,
-				"Quartermaster (Cabbage Facepunch Bonanza)": 1,
-				"Stanley Limelight": 2,
-				"Dwarf": 1,
-				"Dwarven Miner": 1
-			},
+                "Skeletal Wyvern": 8,
+                "Ice giant": 3,
+                "Hobgoblin": 7
+            },
 			"Connect": {
-				"4166": true,
-				"4167": true,
 				"5190": true,
-				"6743": true,
-				"11094": true,
-				"11829": true,
-				"11862": true,
-				"12084": true,
-				"12181": true
-			},
-			"Shop": {
-				"Stealing Creation Reward Shop": true,
-				"Larry's Wilderness Cape Shop": true,
-				"Rewards shop": true,
-				"Stanley Limelight Traders": true
+				"12081": true
 			}
+		},
+		"Asgarnian Ice Dungeon resource dungeon": {
+			"Monster": {
+                "Frost dragon": 15
+            },
+            "Connect": {
+                "12181": true
+            }
 		},
 		"Dorgesh-Kaan": {
 			"Spawn": {
@@ -38316,7 +38643,9 @@
 				"Concentrated gold deposit": 5,
 				"Pulley lift": 1,
 				"Farli": 1,
-				"Rope": 1
+				"Rope": 1,
+				"Cavefish shoal": 13,
+				"Rocktail shoal": 6
 			},
 			"Monster": {
 				"Living rock protector": 27,
@@ -38324,8 +38653,6 @@
 			},
 			"NPC": {
 				"Rock critter": 8,
-				"Cavefish shoal": 13,
-				"Rocktail shoal": 6,
 				"Fisherman": 1,
 				"Farli": 1
 			}
@@ -38739,206 +39066,6 @@
 				"Moth jars": 1,
 				"Protea flowers": 4,
 				"Nest": 1
-			}
-		},
-		"Swamp": {
-			"Object": {
-				"Young tree": 15,
-				"Communication device": 1,
-				"Portal": 1,
-				"Path": 73,
-				"Swamp tree": 290,
-				"My life": 1,
-				"Hurdle": 4,
-				"Dream tree": 10,
-				"Zero": 1,
-				"One": 1,
-				"Two": 1,
-				"Three": 1,
-				"Four": 1,
-				"Five": 1,
-				"Six": 1,
-				"Seven": 1,
-				"Eight": 1,
-				"Nine": 1,
-				"Platform": 12,
-				"Dream puff": 32,
-				"Platform edge": 24,
-				"Treasure space": 7,
-				"Monster space": 7,
-				"Decoration space": 154,
-				"Dresser space": 7,
-				"Rug space": 1426,
-				"Fireplace space": 21,
-				"Clock space": 7,
-				"Icon space": 7,
-				"Altar space": 7,
-				"Lamp space": 14,
-				"Statue space": 21,
-				"Musical space": 7,
-				"Combat ring space": 301,
-				"Storage space": 7,
-				"Seating space": 140,
-				"Bell pull space": 7,
-				"Door hotspot": 1102,
-				"Guard space": 35,
-				"Trap space": 56,
-				"Lighting space": 200,
-				"Game space": 7,
-				"Prize chest space": 7,
-				"Stone space": 7,
-				"Elemental balance space": 7,
-				"Ranging game space": 7,
-				"Floor space mid": 28,
-				"Floor space side": 56,
-				"Floor space corner": 28,
-				"Floor space": 140,
-				"Prison space": 84,
-				"Centrepiece space": 23,
-				"Big Tree space": 8,
-				"Tree space": 8,
-				"Big Plant space 1": 8,
-				"Big Plant space 2": 8,
-				"Small Plant space 1": 8,
-				"Small Plant space 2": 8,
-				"Fencing": 160,
-				"Hedging": 160,
-				"Big plant": 16,
-				"Big plant 2": 16,
-				"Small plant": 32,
-				"Small plant 2": 32,
-				"Stair Space": 35,
-				"Head trophy space": 14,
-				"Fishing trophy space": 14,
-				"Armour space": 28,
-				"Rune case space": 14,
-				"Portrait space": 14,
-				"Landscape space": 14,
-				"Guild trophy space": 14,
-				"Sword space": 14,
-				"Map space": 14,
-				"Bookcase space": 42,
-				"Stove space": 7,
-				"Shelf space": 21,
-				"Barrel space": 7,
-				"Larder space": 7,
-				"Sink space": 7,
-				"Portal space": 21,
-				"Lectern space": 7,
-				"Globe space": 7,
-				"Crystal ball space": 7,
-				"Telescope space": 7,
-				"Throne space": 14,
-				"Lever space": 7,
-				"Workbench space": 7,
-				"Nothing": 14,
-				"Clockmaking space": 7,
-				"Tool space": 35,
-				"Repair space": 7,
-				"Heraldry space": 7,
-				"Cape rack space": 7,
-				"Toy box space": 7,
-				"Treasure chest space": 7,
-				"Fancy dress box space": 7,
-				"Armour case space": 7,
-				"Pit guardian": 7,
-				"Pit trap": 28,
-				"Habitat space": 16,
-				"Pet house space": 8,
-				"Pet feeder space": 8,
-				"Obelisk space": 8,
-				"Bathysphere": 7,
-				"Diving suit hotspot": 7,
-				"Fish-head hotspot": 7,
-				"Centrepiece hotspot": 7,
-				"Supply hotspot": 7,
-				"Prawnbroker hotspot": 7,
-				"RuneFest case space": 14,
-				"Gravestone": 10,
-				"Grave": 10,
-				"Mausoleum": 2,
-				"Pinball Post": 5,
-				"Cave Exit": 1,
-				"Tree": 10,
-				"Dead tree": 11,
-				"Stone": 2,
-				"Budding branch": 2,
-				"Grotto": 1,
-				"Bridge": 2,
-				"Tomb": 1,
-				"Crate": 38,
-				"Drilling machine": 1,
-				"Wooden Stair": 10,
-				"Output Tap": 1,
-				"Crates": 18,
-				"Cupboard": 1,
-				"Hopper": 1,
-				"Pressure Barrel": 1,
-				"Sink": 2,
-				"Water barrel": 1,
-				"Fishing spot": 3,
-				"Chest": 3,
-				"Passage": 1,
-				"Hole": 1,
-				"Exit": 1,
-				"Fight Cave": 1,
-				"Sulphur pit": 23,
-				"Broken bridge": 1,
-				"Spiny bush": 1,
-				"Boat": 1,
-				"Shelf": 1,
-				"Sacks": 1,
-				"A golden pear bush": 6
-			},
-			"NPC": {
-				"Will o' the wisp": 9,
-				"Gull": 5,
-				"Mr%2E Mordaut": 3,
-				"Ethereal Man": 1,
-				"Ethereal Lady": 1,
-				"Ethereal Numerator": 1,
-				"Ethereal Expert": 1,
-				"Ethereal Perceptive": 1,
-				"Ethereal Guide": 1,
-				"Ethereal Fluke": 1,
-				"Ethereal Mimic": 1,
-				"Giant": 1,
-				"Mummy": 1,
-				"Zombie": 1,
-				"Goblin": 2,
-				"Dunce": 1,
-				"Flippa": 1,
-				"Tilt": 1,
-				"Rook": 1,
-				"Spider": 2,
-				"Pirate Pete": 1,
-				"Captain Braindeath": 1,
-				"50% Luke": 1,
-				"Davey": 1,
-				"Captain Donnie": 1,
-				"Zombie protester": 12,
-				"Brewer": 8,
-				"Sea slug": 1,
-				"Sir Vant": 1
-			},
-			"Monster": {
-				"Jack": 1,
-				"Me": 1,
-				"Zombie pirate": 12,
-				"Zombie swab": 6,
-				"Fever spider": 11,
-				"Hobgoblin": 4,
-				"Giant Lobster": 7,
-				"Zombie": 1,
-				"Giant skeleton": 43,
-				"Rat": 12,
-				"Giant bat": 1,
-				"Giant rat": 2,
-				"Bat": 8,
-				"Shadow Hound": 10
-			},
-			"Connect": {
-				"14647": true
 			}
 		},
 		"Ice cave": {
@@ -39410,7 +39537,7 @@
 		"ScapeRune": {
 			"Object": {
 				"Uncooking pot": 2,
-				"Fishing spot": 16,
+				"Fishing spot (scaperune)": 16,
 				"Fairy ring": 1
 			},
 			"NPC": {
@@ -39564,39 +39691,6 @@
 				"Pinball Post": 5,
 				"Cave Exit": 1,
 				"Tree": 10
-			}
-		},
-		"Mos Le'Harmless": {
-			"Object": {
-				"Wooden Stair": 10,
-				"Output Tap": 1,
-				"Crate": 23,
-				"Crates": 18,
-				"Cupboard": 1,
-				"Hopper": 1,
-				"Pressure Barrel": 1,
-				"Sink": 1,
-				"Water barrel": 1,
-				"Fishing spot": 3,
-				"Stagnant Lake": 1
-			},
-			"NPC": {
-				"Pirate Pete": 1,
-				"Captain Braindeath": 1,
-				"50% Luke": 1,
-				"Davey": 1,
-				"Captain Donnie": 1,
-				"Zombie protester": 12,
-				"Brewer": 8
-			},
-			"Monster": {
-				"Zombie pirate": 12,
-				"Zombie swab": 6,
-				"Fever spider": 11
-			},
-			"Connect": {
-				"4174": true,
-				"14647": true
 			}
 		},
 		"Games Room": {
@@ -40068,7 +40162,7 @@
 			"Object": {
 				"Tree": 7,
 				"Rocks": 2,
-				"Fishing spot": 1
+				"Fishing spot (troll)": 1
 			},
 			"NPC": {
 				"Centaur": 2,
@@ -40327,18 +40421,35 @@
 			}
 		},
 		"Stronghold": {},
-		"Fishing Platform": {
+		"Rock Island Prison": {
 			"Object": {
-				"Fishing spot": 6,
-				"Washbasin": 1,
-				"Crate": 1
-			},
-			"NPC": {
-				"Fisherman": 5,
-				"Jeb": 1,
-				"Giant lobster": 2,
-				"Bailey": 1,
-				"Slug thrall": 2
+                "Cabinet": 17,
+                "Locker": 4,
+                "Desk": 1,
+                "Poster": 1,
+                "Barrel of black stone": 3,
+                "Rat hole": 1,
+                "Fishing spot (rocking)": 1,
+                "Crates": 1,
+                "Pier": 1
+            },
+            "NPC": {
+                "Gull": 5,
+                "Locker Officer": 1,
+                "Bill Teach": 1,
+                "Two-Eyed Eric": 1,
+                "Jimmy the Parrot": 1,
+                "Jennifer Bloodspatter": 1,
+                "Sharktooth Emma": 1,
+                "Cassie Toebeard": 1,
+                "Madame Shih": 1,
+                "Prison guard": 3
+            },
+            "Monster": {
+                "Customs Officer": 6
+            },
+			"Connect": {
+				"11825": true
 			}
 		},
 		"Iban's Lair": {
@@ -40544,7 +40655,7 @@
 				"Portal": 20,
 				"Icicle": 6,
 				"Switch": 1,
-				"Fishing spot": 12
+				"Fishing spot (xmas)": 12
 			},
 			"NPC": {
 				"Sir Amik Varze": 1,
@@ -40754,229 +40865,6 @@
 			}
 		},
 		"TzHaar Theatre": {},
-		"Prifddinas": {
-			"NPC": {
-				"Copernicus Glyph": 1,
-				"Elf boy": 10,
-				"Ithell herald": 1,
-				"Amlodd herald": 1,
-				"Elf girl": 7,
-				"Estate agent": 1,
-				"Lord Amlodd": 3,
-				"Daffyd": 1,
-				"Junior": 1,
-				"Andy": 1,
-				"Joey": 1,
-				"Trouble": 1,
-				"Hingy": 1,
-				"Zolty": 1,
-				"Neil": 1,
-				"Yanny": 1,
-				"Matty": 1,
-				"Stace": 1,
-				"Damo": 1,
-				"Ian": 1,
-				"Xander": 1,
-				"Steve-o": 1,
-				"Jamie": 1,
-				"Stewie": 1,
-				"Johnny": 1,
-				"Tanner": 1,
-				"Sawmill operator (Prifddinas)": 1,
-				"Ithell worker": 12,
-				"Amlodd worker": 10,
-				"Eilwynn": 1,
-				"Iorwerth herald": 1,
-				"Trahaearn herald": 1,
-				"Lord Iorwerth": 1,
-				"Arianwyn": 3,
-				"Lady Trahaearn": 3,
-				"Iestin Edern": 2,
-				"Lady Ithell": 3,
-				"Lady Hefin": 3,
-				"Lady Meilyr": 3,
-				"Lord Crwys": 3,
-				"Eifion": 1,
-				"Tiwlip": 1,
-				"Morvran": 1,
-				"Iorwerth worker": 7,
-				"Trahaearn worker": 15,
-				"Essyllt": 1,
-				"Mwynen": 1,
-				"Iorwerth musician": 1,
-				"Challenge Mistress Heriau": 2,
-				"Haf": 1,
-				"Auron Ithell": 1,
-				"Coeden": 1,
-				"Grand Exchange clerk": 6,
-				"Banker": 3,
-				"Rhobert Dail (herbs)": 1,
-				"Dilwyn": 1,
-				"Ianto": 1,
-				"Eluned": 1,
-				"Seren": 1,
-				"Crwys worker": 15,
-				"Meilyr herald": 1,
-				"Hefin herald": 1,
-				"Hefin monk": 2,
-				"Light creature": 4,
-				"Madoc": 1,
-				"Wythien": 1,
-				"Harmony pillar farmer": 2,
-				"Captain Muggin": 1,
-				"Talent scout": 1,
-				"Hefin musician": 1,
-				"Meilyr musician": 1,
-				"Alfon": 1,
-				"Emlyn": 1,
-				"Hefin worker": 9,
-				"Meilyr worker": 14,
-				"Rhodri Dail": 1,
-				"Elen Anterth": 2,
-				"Cadarn ranger": 2,
-				"Cadarn herald": 1,
-				"Crwys herald": 1,
-				"Glouron": 1,
-				"Briallen": 1,
-				"Sior": 1,
-				"Afenen": 1,
-				"Eirlys": 1,
-				"Cadarn worker": 6,
-				"Cadarn musician": 1,
-				"Lunet": 1,
-				"Fisherman": 1,
-				"Mhistyll": 1
-			},
-			"Monster": {
-				"Iorwerth scout": 7,
-				"Iorwerth guard": 8,
-				"Truthful shadow": 4,
-				"Blissful shadow": 4,
-				"Manifest shadow": 4,
-				"Cadarn ranger": 12,
-				"Cadarn magus": 9
-			},
-			"Object": {
-				"Fairy ring": 1,
-				"Bank chest": 7,
-				"House Portal": 1,
-				"Potter's wheel": 4,
-				"Pottery oven": 2,
-				"Cooking range": 1,
-				"Well": 1,
-				"Sand pit": 1,
-				"Robust glass machine": 1,
-				"Singing bowl": 1,
-				"Barrier": 3,
-				"Amlodd": 4,
-				"Iorwerth": 4,
-				"Light rift": 1,
-				"Obelisk": 1,
-				"Hefin": 4,
-				"Ithell": 4,
-				"Soft clay rock": 6,
-				"Cathedral": 1,
-				"Prifddinas monument": 1,
-				"Crystal chest": 1,
-				"Crate": 6,
-				"Anvil": 4,
-				"Cadarn": 4,
-				"Cage": 1,
-				"Altar": 2,
-				"Crates": 1,
-				"Trahaearn": 4,
-				"Furnace": 1,
-				"Coal rock": 8,
-				"Mithril rock": 6,
-				"Prifddinas gem rock": 8,
-				"Seren stone": 5,
-				"Forge": 2,
-				"Clan portal": 1,
-				"Dungeoneering portal": 1,
-				"Yew": 5,
-				"Memoriam device": 1,
-				"Serenity post": 6,
-				"Port portal": 1,
-				"Small obelisk": 1,
-				"Adamantite rock": 8,
-				"Runite rock": 2,
-				"Corrupted Seren Stone": 1,
-				"Walkway": 1,
-				"Cliff": 2,
-				"Roof": 1,
-				"Zip line": 1,
-				"Water pool": 2,
-				"Meilyr": 4,
-				"Crwys": 4,
-				"Tree": 15,
-				"Throne of Fame": 1,
-				"Elven grimoire": 1,
-				"Flax": 9,
-				"The Tears of Seren": 1,
-				"Magic tree": 4,
-				"Spirit Tree": 1,
-				"Spinning wheel": 1,
-				"Dead tree": 1,
-				"Bridge": 1,
-				"Outcrop": 1,
-				"Convenient rock": 1,
-				"Handholds": 4,
-				"Cliff face": 1,
-				"Fishing spot": 7
-			},
-			"Connect": {
-				"4709": true,
-				"5192": true,
-				"5448": true,
-				"5464": true,
-				"7098": true,
-				"7492": true,
-				"8369": true,
-				"8559": true,
-				"8792": true,
-				"8855": true,
-				"9541": true,
-				"9833": true,
-				"10329": true,
-				"11345": true,
-				"11346": true,
-				"11347": true,
-				"11601": true,
-				"11602": true,
-				"11603": true,
-				"11844": true,
-				"12127": true,
-				"12176": true,
-				"12395": true,
-				"12398": true,
-				"12630": true,
-				"12908": true,
-				"13163": true,
-				"13166": true,
-				"13716": true,
-				"14672": true,
-				"15214": true,
-				"17246": true,
-				"18512": true
-			},
-			"Shop": {
-				"Construction Supplies": true,
-				"Summoning Shop": true,
-				"Crafting Supplies": true,
-				"Slayer Equipment": true,
-				"Coeden's Seed Store": true,
-				"Loyalty Programme Shop": true,
-				"Haf's Battlestaves": true,
-				"Diango's Toy Stall": true,
-				"Meilyr Clan Store": true,
-				"Recipe Shop": true,
-				"Hefin Cathedral (shop)": true,
-				"The Max Cape Marketplace": true,
-				"Max cape": true,
-				"Lunet's Leftover Staves": true,
-				"Prifddinas Waterfall Fishing Shop": true
-			}
-		},
 		"TokTz-Ket-Dill's Lair": {},
 		"Armadillo nest": {},
 		"TzHaar tunnels": {
@@ -42314,7 +42202,7 @@
 				"Luminite rock": 3,
 				"Runite rock": 6,
 				"Orichalcite rock": 5,
-				"Chest": 3,
+				"Chest": 6,
 				"Small obelisk": 1,
 				"Crevice": 2,
 				"Mine cart": 7,
@@ -42323,13 +42211,15 @@
 				"Copper rock": 3,
 				"Tin rock": 5,
 				"Anvil": 2,
-				"Forge": 2
+				"Forge": 2,
+				"Train cart": 1
 			},
 			"Monster": {
-				"Dwarf": 29,
+				"Dwarf": 41,
 				"Scorpion": 13,
 				"King Scorpion": 2,
-				"Rat": 4
+				"Rat": 4,
+                "Dwarf gang member": 3
 			},
 			"Connect": {
 				"4166": true,
@@ -42339,10 +42229,19 @@
 			"NPC": {
 				"Dwarf": 1,
 				"Dwarven Miner": 1,
-				"Drogo dwarf": 1
+				"Drogo dwarf": 1,
+				"Dwarf (Dwarven Shopping Store)": 1,
+                "Nurmof": 1,
+                "Boot": 1,
+                "Hammerspike Stoutbeard": 1,
+                "Cart conductor": 1,
+                "Hura": 1
 			},
 			"Shop": {
-				"Drogo's Mining Emporium": true
+				"Drogo's Mining Emporium": true,
+				"Crossbow Shop (Dwarven Mine)": true,
+                "Nurmof's Pickaxe Shop": true,
+                "Dwarven Shopping Store": true
 			}
 		},
 		"Karamja Volcano Dungeon": {
@@ -42375,6 +42274,7 @@
 				"Drakolith rock": 4
 			},
 			"Connect": {
+				"12084": true,
 				"12184": true
 			}
 		},
@@ -42423,96 +42323,65 @@
 		},
 		"Brimhaven Dungeon": {
 			"Object": {
-				"Magical barrier": 1,
-				"Vines": 5,
 				"Block balance": 2,
 				"Adamant dragon dungeon": 1,
+				"Vines": 5,
 				"Pipe": 4,
-				"Hole": 2,
+				"Hole": 1,
 				"Stepping stone": 6,
 				"Small obelisk": 1,
-				"Exit": 1,
-				"Balancing rope": 6,
-				"Log balance": 6,
-				"Balancing ledge": 6,
-				"Monkey bars": 6,
-				"Rope swing": 4,
-				"Plank": 12,
-				"Pillar": 6,
-				"Ticket Dispenser": 24,
-				"Hand holds": 7,
-				"Climbing rope": 27,
-				"Runite rock": 4,
-				"Tomb exit": 1,
-				"Rocks": 9,
-				"Tomb dolmen": 1,
-				"Anchor": 2,
-				"Kelp": 51,
-				"Crate": 8,
-				"Crates": 4,
-				"Open chest": 2,
-				"Closed chest": 1,
-				"Cave": 1,
-				"Icy Cavern": 1,
-				"Blurite rock": 4,
-				"Bookcase": 3,
-				"Cabinet": 3,
-				"Fishing spot": 1
-			},
-			"Monster": {
-				"Iron dragon": 19,
-				"Steel dragon": 10,
-				"Mithril dragon": 4,
-				"Greater demon": 7,
-				"Fire giant": 13,
-				"Moss giant": 20,
-				"Wild dog": 56,
-				"Red dragon": 6,
-				"Black demon": 4,
-				"Baby red dragon": 8,
-				"Bronze dragon": 3,
-				"Jogre": 12,
-				"Deadly red spider": 5,
-				"Giant bat": 3,
-				"Lesser demon": 6,
-				"Skeleton": 5,
-				"Rat": 3,
-				"Spider": 1,
-				"Undead one": 19,
-				"Crab": 10,
-				"Mudskipper": 8,
-				"Mugger": 4,
-				"Pirate": 9,
-				"Ice warrior": 11,
-				"Skeletal Wyvern": 8,
-				"Ice giant": 3,
-				"Hobgoblin": 7,
-				"Cave crawler": 3,
-				"Big frog": 5,
-				"Cave slime": 11,
-				"Cave bug": 16
+                "Exit": 1
 			},
 			"Connect": {
 				"4422": true,
-				"4679": true,
-				"5190": true,
 				"10801": true,
-				"10899": true,
-				"10900": true,
-				"11057": true,
-				"11312": true,
-				"11313": true
+				"18014": true
 			},
-			"NPC": {
-				"Giant bat": 17,
-				"Mogre Guard": 4,
-				"Fish": 45,
-				"Nung": 1,
-				"Cave bug larva": 22,
-				"Hole in the wall": 5,
-				"Sergeant Mossfists": 1,
-				"Sergeant Slimetoes": 1
+			"Monster": {
+				"Fire giant": 13,
+				"Moss giant": 20,
+				"Wild dog": 56,
+				"Greater demon": 7,
+				"Iron dragon": 13,
+                "Steel dragon": 4,
+			    "Red dragon": 6,
+                "Black demon": 4,
+                "Baby red dragon": 8,
+                "Bronze dragon": 3
 			}
+		},
+		"Brimhaven Dungeon resource dungeon": {
+			"Object": {
+				"Magical barrier": 1
+			},
+			"Monster": {
+				"Iron dragon": 6,
+				"Steel dragon": 6,
+				"Mithril dragon": 4
+			},
+			"Connect": {
+				"10899": true
+			}
+		},
+		"Brimhaven agility arena": {
+			"Object": {
+                "Balancing rope": 6,
+                "Log balance": 6,
+                "Balancing ledge": 6,
+                "Monkey bars": 6,
+                "Rope swing": 4,
+                "Plank": 12,
+                "Pillar": 6,
+                "Ticket Dispenser": 24,
+                "Hand holds": 6,
+                "Climbing rope": 25
+            },
+            "NPC": {
+                "Giant bat": 17
+            },
+            "Connect": {
+                "11057": true
+            }
 		},
 		"Wilderness": {
 			"Object": {
@@ -42598,7 +42467,7 @@
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
-				"Fishing spot": 3,
+				"Fishing spot (lure/bait)": 3,
 				"Dead tree": 99
 			},
 			"NPC": {
@@ -42715,23 +42584,6 @@
 			}
 		},
 		"Meiyerditch Mine": {},
-		"Karamja jungle": {
-			"Object": {
-				"Palm tree": 2,
-				"Fishing spot": 2
-			},
-			"Monster": {
-				"Monkey": 7,
-				"The Shaikahan": 2
-			},
-			"NPC": {
-				"Gull": 1,
-				"Cormorant": 1,
-				"Pelican": 2,
-				"Tiadeche": 1,
-				"Tamayu": 2
-			}
-		},
 		"Karamja Shipyard": {
 			"Object": {
 				"Bookcase": 2
@@ -42833,6 +42685,24 @@
 				"Air elemental": 7,
 				"Water elemental": 7
 			}
+		},
+		"Mogre camp": {
+			"Object": {
+                "Anchor": 2,
+                "Kelp": 51
+            },
+			"Connect": {
+				"10545": true
+			},
+            "NPC": {
+                "Mogre Guard": 4,
+                "Fish": 45,
+                "Nung": 1
+            },
+            "Monster": {
+                "Crab": 10,
+                "Mudskipper": 8
+            }
 		},
 		"Rusty Anchor cellar": {
 			"NPC": {
@@ -44295,10 +44165,10 @@
 				"Stanley Limelight Traders": true
 			}
 		},
-		"River Elid cave": {
+		"Water Ravine Dungeon": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot": 7
+				"Fishing spot (lure/bait)": 7
 			},
 			"NPC": {
 				"Nirrie": 1,
@@ -44607,7 +44477,7 @@
 				"Corpse": 1,
 				"Broken rune case": 1,
 				"Fishing rods": 1,
-				"Fishing spot": 4
+				"Fishing spot (meiyerditch)": 4
 			},
 			"Monster": {
 				"Phrin Shadow": 12,
@@ -44741,7 +44611,7 @@
 		"Lumbridge Swamp caves": {
 			"Object": {
 				"Climbing rope": 1,
-				"Fishing spot": 2,
+				"Fishing spot (slimy eels)": 2,
 				"Stepping stone": 2,
 				"Tunnel": 1
 			},
@@ -44990,7 +44860,7 @@
 				"Crystal of the Mage (Active)": 1,
 				"Crystal of the Ranger (Active)": 1,
 				"Sunken pillar": 16,
-				"Fishing spot": 35,
+				"Fishing spot (dungeon)": 35,
 				"Suspicious grooves": 455,
 				"Broken-stairs": 1,
 				"Crate of magic rocks": 35,
@@ -45464,6 +45334,9 @@
 			"Object": {
 				"Magical barrier": 5
 			},
+			"Connect": {
+				"10644": true
+			},
 			"Monster": {
 				"Adamant dragon": 24
 			}
@@ -45705,7 +45578,7 @@
 				"Inferior bamboo": 5,
 				"Rumberry bush": 12,
 				"Tuai Leit moai": 1,
-				"Fishing spot": 14,
+				"Fishing spot (arc)": 14,
 				"Grill": 1,
 				"Contract board": 1,
 				"Waiko moai": 1,
@@ -45958,11 +45831,36 @@
 		"Sunken pyramid": {},
 		"Sophanem Slayer Dungeon": {},
 		"Deep Sea Fishing Hub": {
-			"Spawn": {
-				"Broken glass": 8
-			},
-			"NPC": {
-				"Masterwork fanatic": 1
+			"Object": {
+                "Magical net": 2,
+				"Bank boat": 1,
+				"Rowboat": 1,
+				"Magical fishing spot": 8,
+				"Green blubber jellyfish spot": 5,
+                "Blue blubber jellyfish spot": 5,
+				"Fish (frenzy)": 16,
+				"Minnow shoal": 2,
+				"Sailfish spot": 2,
+				"Swift sailfish": 1,
+				"Swarm": 4
+            },
+            "NPC": {
+                "Misty": 1,
+                "Angry woman": 1,
+                "Seasinger": 4,
+                "Bubbles": 1,
+                "Harpoon": 1,
+				"Fred": 1,
+                "Fisherwoman": 6,
+                "Fisherman": 15,
+                "Adventurer": 1,
+                "Gregg 'Groggy' Herring": 1,
+                "Sailor": 2,
+                "Trader": 5,
+                "Hermit crab": 1
+            },
+			"Connect": {
+				"10293": true
 			}
 		},
 		"Tutorial Island": {
@@ -45974,7 +45872,7 @@
 				"Bank booth": 1,
 				"Calendar": 1,
 				"Altar": 1,
-				"Fishing spot": 1,
+				"Fishing spot (tutorial)": 1,
 				"Hay bale": 2
 			},
 			"NPC": {
@@ -46382,7 +46280,7 @@
 				"Blocked tunnel": 2,
 				"Pylon": 3,
 				"Rocks": 2,
-				"Fishing spot": 2
+				"Fishing spot (frog spawn/eels)": 2
 			},
 			"Monster": {
 				"Cave crawler": 5,
@@ -46427,7 +46325,8 @@
 		"dropTables": {},
 		"itemsPlus": {
 			"Grapple+": ["Phoenix crossbow", "Crossbow", "Bronze crossbow", "Coral crossbow", "Iron crossbow", "Blurite crossbow", "Steel crossbow", "Black crossbow", "Dorgeshuun crossbow", "Mithril crossbow", "Adamant crossbow", "Zanik's crossbow", "Rune crossbow", "Hunters' crossbow", "Dragon crossbow", "Demon slayer crossbow", "Karil's pistol crossbow", "Armadyl crossbow", "Chaotic crossbow", "Ascension crossbow", "Blightbound crossbow", "Off-hand bronze crossbow", "Off-hand iron crossbow", "Off-hand steel crossbow", "Off-hand black crossbow", "Off-hand mithril crossbow", "Off-hand adamant crossbow", "Off-hand rune crossbow", "Off-hand dragon crossbow", "Off-hand demon slayer crossbow", "Karil's off-hand pistol crossbow", "Off-hand armadyl crossbow", "Off-hand chaotic crossbow", "Off-hand ascension crossbow", "Off-hand blightbound crossbow", "Bronze 2h crossbow", "Iron 2h crossbow", "Steel 2h crossbow", "Black 2h crossbow", "Mithril 2h crossbow", "Adamant 2h crossbow", "Rune 2h crossbow", "Dragon 2h crossbow", "Karil's crossbow", "Hand cannon", "Royal crossbow", "Wyvern crossbow", "Dominion crossbow", "Eldritch crossbow", "Green salamander", "Orange salamander", "Red salamander", "Black salamander"],
-			"Barbarian bait+": ["feathers", "fishing bait"]
+			"Barbarian bait+": ["feathers+", "fishing bait"],
+			"Feathers+": ["Feather", "Red feather", "Orange feather", "Yellow feather", "Blue feather", "Stripy feather"]
 		},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"]
@@ -70956,6 +70855,53 @@
 		}
 	},
 	"skillItems": {
+		"Fishing": {
+			"Deep sea fishing": {
+				"Fishing notes": "Rare",
+				"Message in a bottle (Deep Sea Fishing)": "Rare",
+				"Barrel of bait": "Rare",
+				"Broken fishing rod": "Rare",
+				"Tangled fishbowl": "Rare",
+				"Gregg 'groggy' herring's ring": "Very rare",
+				"Uncharted island map (Deep Sea Fishing)": "Very rare",
+				"Uncharted island map (red)": "Very rare"
+			},
+			"Big net fishing": {
+				"Leather gloves": "Common",
+				"Leather boots": "Common",
+				"Seaweed": "Common",
+				"Oyster": "Uncommon",
+				"Casket": "Rare"
+			},
+			"Swarm deep sea fishing": {
+				"Leather gloves": "Varies",
+				"Raw monkfish": "Varies",
+				"Seaweed": "Varies",
+				"Magnetic minnow": "Varies",
+				"Raw green blubber jellyfish": "Varies",
+				"Raw sea turtle": "Varies",
+				"Raw great white shark": "Varies",
+				"Raw manta ray": "Varies",
+				"Raw cavefish": "Varies",
+				"Raw rocktail": "Varies",
+				"Raw blue blubber jellyfish": "Varies",
+				"Raw sailfish": "Varies",
+				"Oyster": "Varies",
+				"Raw herring": "Varies",
+				"Raw cod": "Varies",
+				"Raw mackerel": "Varies",
+				"Raw swordfish": "Varies",
+				"Raw shark": "Varies",
+				"Fishing notes": "Rare",
+				"Message in a bottle (Deep Sea Fishing)": "Rare",
+				"Barrel of bait": "Rare",
+				"Broken fishing rod": "Rare",
+				"Tangled fishbowl": "Rare",
+				"Gregg 'groggy' herring's ring": "Very rare",
+				"Uncharted island map (Deep Sea Fishing)": "Very rare",
+				"Uncharted island map (red)": "Very rare"
+			}
+		},
 		"Woodcutting": {
 			"Overgrown idol": {
 				"Compacted leaves": "Rare",
