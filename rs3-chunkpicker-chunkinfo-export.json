@@ -136,6 +136,12 @@
 				"Level": 30,
 				"Primary": true
 			},
+			"Complete the whole ~|Anachronia agility course|~": {
+				"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"],
+				"Level": 85,
+				"Primary": true,
+				"Output": "Codex page"
+			},
 			"Play a game of ~|Gnome ball|~": {
 				"Chunks": ["9526"],
 				"Level": 1,
@@ -154,17 +160,19 @@
 				"Level": 15,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping trout",
 				"Skills": {
 					"Fishing": 48,
 					"Strength": 15
 				},
 				"Priority": 1
 			},
-			"Catch a ~|leaping Salmon|~": {
+			"Catch a ~|leaping salmon|~": {
 				"Items": ["Barbarian bait+"],
 				"Level": 30,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping salmon",
 				"Skills": {
 					"Fishing": 58,
 					"Strength": 30
@@ -176,6 +184,7 @@
 				"Level": 45,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping sturgeon",
 				"Skills": {
 					"Fishing": 70,
 					"Strength": 45
@@ -680,7 +689,43 @@
 				"Primary": false
 			}
 		},
-		"Archaeology": {},
+		"Archaeology": {
+			"Excavate with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"Objects": ["Centurion remains"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Excavate with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"Objects": ["Centurion remains"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Excavate with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"Objects": ["Centurion remains"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Excavate with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"Objects": ["Centurion remains"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Excavate with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"Objects": ["Centurion remains"],
+				"Primary": false,
+				"Priority": 1
+			}
+		},
 		"Attack": {},
 		"Combat": {},
 		"Constitution": {},
@@ -714,7 +759,43 @@
 			}
 		},
 		"Defence": {},
-		"Divination": {},
+		"Divination": {
+			"Harvest with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"NPCs": ["Wisp+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"NPCs": ["Wisp+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"NPCs": ["Wisp+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"NPCs": ["Wisp+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"NPCs": ["Wisp+"],
+				"Primary": false,
+				"Priority": 1
+			}
+		},
 		"Dungeoneering": {},
 		"Farming": {
 			"Unlock the ~|Livid farm|~ spells": {
@@ -738,7 +819,7 @@
 				"Primary": false,
 				"Skills": {
 					"Woodcutting": 61,
-					"Mining": 41
+					"Mining": 50
 				},
 				"Priority": 1
 			}
@@ -749,17 +830,19 @@
 				"Level": 48,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping trout",
 				"Skills": {
 					"Agility": 15,
 					"Strength": 15
 				},
 				"Priority": 1
 			},
-			"Catch a ~|leaping Salmon|~": {
+			"Catch a ~|leaping salmon|~": {
 				"Items": ["Barbarian bait+"],
 				"Level": 58,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping salmon",
 				"Skills": {
 					"Agility": 30,
 					"Strength": 30
@@ -771,6 +854,7 @@
 				"Level": 70,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping sturgeon",
 				"Skills": {
 					"Agility": 45,
 					"Strength": 45
@@ -781,12 +865,14 @@
 				"Level": 1,
 				"Objects": ["Fishing spot (net(small)/bait)"],
 				"Primary": true,
+				"Output": "Raw shrimp",
 				"Priority": 1
 			},
 			"Catch a ~|raw crayfish|~": {
 				"Level": 1,
 				"Objects": ["Fishing spot (crayfish)"],
 				"Primary": true,
+				"Output": "Raw crayfish",
 				"Priority": 2
 			},
 			"Catch a ~|raw minnow|~": {
@@ -794,18 +880,21 @@
 				"Level": 1,
 				"Objects": ["Fishing spot (minnow)"],
 				"Primary": true,
+				"Output": "Raw minnow",
 				"Priority": 3
 			},
 			"Catch a ~|raw shrimp|~ in the holy lake": {
 				"Level": 5,
 				"Objects": ["Fishing spot (karambwanji)"],
 				"Primary": true,
+				"Output": "Raw shrimp",
 				"Priority": 3
 			},
 			"Catch a ~|raw Karambwanji|~": {
 				"Level": 5,
 				"Objects": ["Fishing spot (karambwanji)"],
 				"Primary": true,
+				"Output": "Raw karambwanji",
 				"Priority": 2
 			},
 			"Catch a ~|raw sardine|~": {
@@ -813,6 +902,7 @@
 				"Level": 5,
 				"Objects": ["Fishing spot (net(small)/bait)"],
 				"Primary": true,
+				"Output": "Raw sardine",
 				"Priority": 1
 			},
 			"Catch a ~|raw herring|~": {
@@ -820,19 +910,21 @@
 				"Level": 10,
 				"Objects": ["Fishing spot (net(small)/bait)"],
 				"Primary": true,
+				"Output": "Raw herring",
 				"Priority": 1
 			},
 			"Catch a ~|raw anchovies|~": {
 				"Level": 15,
 				"Objects": ["Fishing spot (net(small)/bait)"],
 				"Primary": true,
+				"Output": "Raw anchovies",
 				"Priority": 1
 			},
 			"Catch a ~|raw mackerel|~": {
 				"Level": 16,
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
-				"Output": "Big net fishing",
 				"Primary": true,
+				"Output": "Raw mackerel",
 				"Priority": 1
 			},
 			"Catch a ~|raw trout|~": {
@@ -840,13 +932,14 @@
 				"Level": 20,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
+				"Output": "Raw trout",
 				"Priority": 1
 			},
 			"Catch a ~|raw cod|~": {
 				"Level": 23,
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
-				"Output": "Big net fishing",
 				"Primary": true,
+				"Output": "Raw cod",
 				"Priority": 1
 			},
 			"Catch a ~|raw pike|~": {
@@ -854,27 +947,31 @@
 				"Level": 25,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
+				"Output": "Raw pike",
 				"Priority": 1
 			},
-			"Catch a ~|Slimy eel|~ in Morytania": {
+			"Catch a ~|slimy eel|~ in Morytania": {
 				"Items": ["Fishing bait"],
 				"Level": 28,
 				"Objects": ["Fishing spot (slimy eels)"],
 				"Primary": true,
+				"Output": "Slimy eel",
 				"Priority": 2
 			},
-			"Catch a ~|Slimy eel|~": {
+			"Catch a ~|slimy eel|~": {
 				"Items": ["Fishing bait"],
 				"Level": 28,
 				"Objects": ["Fishing spot (frog spawn/eels)"],
 				"Primary": true,
+				"Output": "Slimy eel",
 				"Priority": 1
 			},
-			"Catch a ~|Slimy eel|~ in the Meiyerditch dungeon": {
+			"Catch a ~|slimy eel|~ in the Meiyerditch dungeon": {
 				"Items": ["Fishing bait"],
 				"Level": 28,
 				"Objects": ["Fishing spot (meiyerditch)"],
 				"Primary": true,
+				"Output": "Slimy eel",
 				"Priority": 3
 			},
 			"Catch a ~|raw salmon|~": {
@@ -882,24 +979,28 @@
 				"Level": 30,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
+				"Output": "Raw salmon",
 				"Priority": 1
 			},
 			"Catch a ~|frog spawn|~": {
 				"Level": 33,
 				"Objects": ["Fishing spot (frog spawn/eels)"],
 				"Primary": true,
+				"Output": "Frog spawn",
 				"Priority": 1
 			},
 			"Catch a ~|raw tuna|~": {
 				"Level": 35,
 				"Objects": ["Fishing spot (cage/harpoon)"],
 				"Primary": true,
+				"Output": "Raw tuna",
 				"Priority": 1
 			},
 			"Catch a ~|raw tuna|~ in the Piscatoris fishing colony": {
 				"Level": 35,
 				"Objects": ["Fishing spot (harpoon/net(small))"],
 				"Primary": true,
+				"Output": "Raw tuna",
 				"Priority": 2
 			},
 			"Catch a ~|raw rainbow fish|~": {
@@ -907,45 +1008,51 @@
 				"Level": 38,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
+				"Output": "Raw rainbow fish",
 				"Priority": 1
 			},
-			"Catch a ~|cave eel|~": {
+			"Catch a ~|raw cave eel|~": {
 				"Items": ["Fishing bait"],
 				"Level": 38,
 				"Objects": ["Fishing spot (frog spawn/eels)"],
 				"Primary": true,
+				"Output": "Raw cave eel",
 				"Priority": 2
 			},
-			"Catch a ~|cave eel|~ in the Meiyerditch dungeon": {
+			"Catch a ~|raw cave eel|~ in the Meiyerditch dungeon": {
 				"Items": ["Fishing bait"],
 				"Level": 38,
 				"Objects": ["Fishing spot (meiyerditch)"],
 				"Primary": true,
+				"Output": "Raw cave eel",
 				"Priority": 3
 			},
 			"Catch a ~|raw lobster|~": {
 				"Level": 40,
 				"Objects": ["Fishing spot (cage/harpoon)"],
 				"Primary": true,
+				"Output": "Raw lobster",
 				"Priority": 1
 			},
 			"Catch a ~|raw bass|~": {
 				"Level": 46,
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
-				"Output": "Big net fishing",
 				"Primary": true,
+				"Output": "Raw bass",
 				"Priority": 1
 			},
 			"Catch a ~|raw swordfish|~": {
 				"Level": 50,
 				"Objects": ["Fishing spot (cage/harpoon)"],
 				"Primary": true,
+				"Output": "Raw swordfish",
 				"Priority": 1
 			},
 			"Catch a ~|raw swordfish|~ in the Piscatoris fishing colony": {
 				"Level": 50,
 				"Objects": ["Fishing spot (harpoon/net(small))"],
 				"Primary": true,
+				"Output": "Raw swordfish",
 				"Priority": 2
 			},
 			"Catch a ~|raw desert sole|~": {
@@ -953,6 +1060,7 @@
 				"Level": 52,
 				"Objects": ["Fishing spot (menaphos)"],
 				"Primary": true,
+				"Output": "Raw desert sole",
 				"Priority": 1
 			},
 			"Catch a ~|raw lava eel|~": {
@@ -960,6 +1068,7 @@
 				"Level": 53,
 				"Objects": ["Fishing spot (lava)"],
 				"Primary": true,
+				"Output": "Raw lava eel",
 				"Priority": 1
 			},
 			"Catch a ~|raw catfish|~": {
@@ -967,12 +1076,14 @@
 				"Level": 60,
 				"Objects": ["Fishing spot (menaphos)"],
 				"Primary": true,
+				"Output": "Raw catfish",
 				"Priority": 1
 			},
 			"Catch a ~|raw monkfish|~": {
 				"Level": 62,
 				"Objects": ["Fishing spot (harpoon/net(small))"],
 				"Primary": true,
+				"Output": "Raw monkfish",
 				"Priority": 1
 			},
 			"Catch a ~|raw karambwan|~": {
@@ -980,27 +1091,28 @@
 				"Level": 65,
 				"Objects": ["Fishing spot (karambwan)"],
 				"Primary": true,
+				"Output": "Raw karambwan",
 				"Priority": 1
 			},
 			"Catch a ~|raw green blubber jellyfish|~": {
 				"Items": ["Fishing bait"],
 				"Level": 68,
 				"Objects": ["Green blubber jellyfish spot"],
-				"Output": "Deep sea fishing",
+				"Output": "Raw green blubber jellyfish",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a ~|magnetic minnow|~": {
 				"Level": 68,
 				"Objects": ["Minnow shoal"],
-				"Output": "Deep sea fishing",
+				"Output": "Magnetic minnow",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Fish at a ~|swarm|~": {
 				"Level": 68,
 				"Objects": ["Swarm"],
-				"Output": " Swarm deep sea fishing",
+				"Output": " Swarm fishing",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -1009,18 +1121,21 @@
 				"Level": 72,
 				"Objects": ["Fishing spot (Menaphos)"],
 				"Primary": true,
+				"Output": "Raw beltfish",
 				"Priority": 1
 			},
 			"Catch a ~|raw shark|~": {
 				"Level": 76,
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
 				"Primary": true,
+				"Output": "Raw shark",
 				"Priority": 2
 			},
 			"Catch a ~|raw sea turtle|~ on the fishing trawler": {
 				"Chunks": ["10545"],
 				"Level": 79,
 				"Primary": true,
+				"Output": "Raw sea turtle",
 				"Priority": 1
 			},
 			"Catch a ~|raw sea turtle|~": {
@@ -1028,25 +1143,29 @@
 				"Level": 79,
 				"Objects": ["Magical fishing spot)"],
 				"Primary": true,
+				"Output": "Raw sea turtle",
 				"Priority": 2
 			},
 			"Catch a ~|raw great white shark|~": {
 				"Level": 80,
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
 				"Primary": true,
-				"Priority": 1
+				"Output": "Raw great white shark",
+				"Priority": 2
 			},
 			"Catch a ~|raw great white shark|~ while deep sea fishing": {
 				"Items": ["Great white shark bait"],
 				"Level": 80,
 				"Objects": ["Magical fishing spot"],
 				"Primary": true,
-				"Priority": 2
+				"Output": "Raw great white shark",
+				"Priority": 1
 			},
 			"Catch a ~|raw manta ray|~ on the fishing trawler": {
 				"Chunks": ["10545"],
 				"Level": 81,
 				"Primary": true,
+				"Output": "Raw manta ray",
 				"Priority": 1
 			},
 			"Catch a ~|raw manta ray|~": {
@@ -1054,6 +1173,7 @@
 				"Level": 81,
 				"Objects": ["Magical fishing spot"],
 				"Primary": true,
+				"Output": "Raw manta ray",
 				"Priority": 2
 			},
 			"Catch a ~|raw cavefish|~": {
@@ -1061,6 +1181,7 @@
 				"Level": 85,
 				"Objects": ["Cavefish shoal"],
 				"Primary": true,
+				"Output": "Raw cavefish",
 				"Priority": 1
 			},
 			"Catch a ~|raw rocktail|~": {
@@ -1068,6 +1189,7 @@
 				"Level": 90,
 				"Objects": ["Rocktail shoal"],
 				"Primary": true,
+				"Output": "Raw rocktail",
 				"Priority": 1
 			},
 			"Catch a ~|raw tarpon|~": {
@@ -1075,6 +1197,7 @@
 				"Level": 90,
 				"Objects": ["Fishing spot (arc)"],
 				"Primary": true,
+				"Output": "Raw tarpon",
 				"Priority": 2
 			},
 			"Catch a ~|raw blue blubber jellyfish|~": {
@@ -1082,6 +1205,7 @@
 				"Level": 91,
 				"Objects": ["Blue blubber jellyfish spot"],
 				"Primary": true,
+				"Output": "Raw blue blubber jellyfish",
 				"Priority": 1
 			},
 			"Catch a ~|raw seerfish|~": {
@@ -1089,18 +1213,21 @@
 				"Level": 91,
 				"Objects": ["Fishing spot (arc)"],
 				"Primary": true,
+				"Output": "Raw seerfish",
 				"Priority": 2
 			},
 			"Catch a ~|raw sillago|~": {
 				"Level": 92,
 				"Objects": ["Fishing spot (arc)"],
 				"Primary": true,
+				"Output": "Raw sillago",
 				"Priority": 1
 			},
 			"Catch a ~|raw wobbegong|~": {
 				"Level": 96,
 				"Objects": ["Fishing spot (arc)"],
 				"Primary": true,
+				"Output": "Raw wobbegong",
 				"Priority": 1
 			},
 			"Catch a ~|raw sailfish|~": {
@@ -1108,6 +1235,7 @@
 				"Level": 97,
 				"Objects": ["Sailfish spot"],
 				"Primary": true,
+				"Output": "Raw sailfish",
 				"Priority": 1
 			},
 			"Fish the ~|fishing frenzy|~": {
@@ -1121,31 +1249,71 @@
 				"Level": 76,
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
 				"Primary": true,
+				"Output": "Raw baron shark",
 				"Priority": 1
 			},
-			"Catch a ~|tiger shark|~": {
+			"Catch a ~|raw tiger shark|~": {
 				"Chunks": ["10545"],
 				"Level": 95,
 				"Primary": true,
+				"Output": "Raw tiger shark",
 				"Priority": 2
 			},
 			"Catch a ~|small crystal urchin|~": {
 				"Level": 93,
 				"Objects": ["Fishing spot (waterfal)"],
 				"Primary": true,
+				"Output": "Small crystal urchin",
 				"Priority": 1
 			},
 			"Catch a ~|medium crystal urchin|~": {
 				"Level": 95,
 				"Objects": ["Fishing spot (waterfal)"],
 				"Primary": true,
+				"Output": "Medium crystal urchin",
 				"Priority": 1
 			},
 			"Catch a ~|large crystal urchin|~": {
 				"Level": 97,
 				"Objects": ["Fishing spot (waterfal)"],
 				"Primary": true,
+				"Output": "Large crystal urchin",
 				"Priority": 2
+			},
+			"Fish with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"Objects": ["Fish+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Fish with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"Objects": ["Fish+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Fish with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"Objects": ["Fish+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Fish with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"Objects": ["Fish+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Fish with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"Objects": ["Fish+"],
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Fletching": {},
@@ -1167,15 +1335,566 @@
 			}
 		},
 		"Mining": {
-			"Use an ~|inferno Adze|~": {
+			"Mine with an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
-				"Level": 41,
-				"Objects": ["Tree+"],
+				"Level": 50,
+				"Objects": ["Ore+"],
 				"Primary": false,
 				"Skills": {
 					"Firemaking": 92,
 					"Woodcutting": 61
 				},
+				"Priority": 1
+			},
+			"Mine with a ~|bronze pickaxe|~": {
+				"Level": 1,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 8
+			},
+			"Mine with a ~|dwarven army axe|~": {
+				"Items": ["Dwarven army axe"],
+				"Level": 1,
+				"Objects": ["Ore+"],
+				"Primary": true,
+				"Output": "Uncut lapis lazuli",
+				"Priority": 7
+			},
+			"Mine with an ~|iron pickaxe|~": {
+				"Items": ["Ironpick+"],
+				"Level": 10,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Mine with a ~|steel pickaxe|~": {
+				"Items": ["Steelpick+"],
+				"Level": 20,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 6
+			},
+			"Mine with a ~|mithril pickaxe|~": {
+				"Items": ["Mithrilpick+"],
+				"Level": 30,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Mine with an ~|adamant pickaxe|~": {
+				"Items": ["Adamantpick+"],
+				"Level": 40,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Mine with a ~|rune pickaxe|~": {
+				"Items": ["Runepick+"],
+				"Level": 50,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Mine with an ~|orikalkum pickaxe|~": {
+				"Items": ["Orikalkumpick+"],
+				"Level": 60,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 5
+			},
+			"Mine with a ~|dragon pickaxe|~": {
+				"Items": ["Dragon pickaxe"],
+				"Level": 60,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Mine with a ~|necronium pickaxe|~": {
+				"Items": ["Necroniumpick+"],
+				"Level": 70,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 5
+			},
+			"Mine with a ~|crystal pickaxe|~": {
+				"Items": ["Crystal pickaxe"],
+				"Level": 70,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Mine with a ~|bane pickaxe|~": {
+				"Items": ["Banepick+"],
+				"Level": 80,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Mine with an ~|Imcando pickaxe|~": {
+				"Items": ["Imcando pickaxe"],
+				"Level": 80,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 3
+			},
+			"Mine with an ~|elder rune pickaxe|~": {
+				"Items": ["Elderpick+"],
+				"Level": 90,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 5
+			},
+			"Mine with a ~|Pickaxe of Earth and Song|~": {
+				"Items": ["Pickaxe of Earth and Song"],
+				"Level": 90,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Mine a ~|copper rock|~": {
+				"Level": 1,
+				"Objects": ["Copper rock"],
+				"Primary": true,
+				"Output": "Copper ore",
+				"Priority": 1
+			},
+			"Mine a ~|tin rock|~": {
+				"Level": 1,
+				"Objects": ["Tin rock"],
+				"Primary": true,
+				"Output": "Tin ore",
+				"Priority": 2
+			},
+			"Mine an uncut lapis lazuli from a ~|common gem rock|~": {
+				"Level": 1,
+				"Objects": ["Common gem rock"],
+				"Primary": true,
+				"Output": "Uncut lapis lazuli",
+				"Priority": 6
+			},
+			"Mine an uncut opal from a ~|common gem rock|~": {
+				"Level": 1,
+				"Objects": ["Common gem rock"],
+				"Primary": true,
+				"Output": "Uncut opal",
+				"Priority": 5
+			},
+			"Mine an uncut jade from a ~|common gem rock|~": {
+				"Level": 13,
+				"Objects": ["Common gem rock"],
+				"Primary": true,
+				"Output": "Uncut jade",
+				"Priority": 1
+			},
+			"Mine a ~|gem rock (Tai Bwo Wannai)|~": {
+				"Level": 1,
+				"Objects": ["Gem rock (Tai Bwo Wannai)"],
+				"Primary": false,
+				"Output": "Gem rock",
+				"Priority": 9
+			},
+			"Mine an uncut red topaz from a ~|common gem rock|~": {
+				"Level": 16,
+				"Objects": ["Common gem rock"],
+				"Primary": true,
+				"Output": "Uncut red topaz",
+				"Priority": 1
+			},
+			"Mine rune essence from a ~|rune essence rock|~": {
+				"Level": 1,
+				"Objects": ["Rune essence rock"],
+				"Primary": true,
+				"Output": "Rune essence",
+				"Priority": 4
+			},
+			"Mine pure essence from a ~|rune essence rock|~": {
+				"Level": 30,
+				"Objects": ["Rune essence rock"],
+				"Primary": true,
+				"Output": "Pure essence",
+				"Priority": 2
+			},
+			"Mine a ~|clay rock|~": {
+				"Level": 1,
+				"Objects": ["Clay rock"],
+				"Primary": true,
+				"Output": "Clay",
+				"Priority": 3
+			},
+			"Mine a ~|Feldip swamp rock|~": {
+				"Level": 1,
+				"Objects": ["Feldip swamp rock"],
+				"Primary": true,
+				"Output": "Rock (ore)",
+				"Priority": 10
+			},
+			"Mine an ~|iron rock|~": {
+				"Level": 10,
+				"Objects": ["Iron rock"],
+				"Primary": true,
+				"Output": "Iron ore",
+				"Priority": 2
+			},
+			"Mine a ~|blurite rock|~": {
+				"Level": 10,
+				"Objects": ["Blurite rock"],
+				"Primary": true,
+				"Output": "Blurite ore",
+				"Priority": 1
+			},
+			"Mine a ~|limestone rock|~": {
+				"Level": 10,
+				"Objects": ["Limestone rock"],
+				"Primary": true,
+				"Output": "Limestone",
+				"Priority": 3
+			},
+			"Mine a ~|coal rock|~": {
+				"Level": 20,
+				"Objects": ["Coal rock"],
+				"Primary": true,
+				"Output": "Coal",
+				"Priority": 1
+			},
+			"Mine a ~|silver rock|~": {
+				"Level": 20,
+				"Objects": ["Silver rock"],
+				"Primary": true,
+				"Output": "Silver ore",
+				"Priority": 2
+			},
+			"Mine a ~|Elemental rock|~": {
+				"Level": 20,
+				"Objects": ["Elemental rock"],
+				"Primary": true,
+				"Output": "Elemental ore",
+				"Priority": 4
+			},
+			"Mine a ~|Daeyalt vein|~": {
+				"Level": 20,
+				"Objects": ["Daeyalt vein"],
+				"Primary": true,
+				"Output": "Daeyalt ore",
+				"Priority": 5
+			},
+			"Mine an uncut sapphire from an ~|uncommon gem rock|~": {
+				"Level": 20,
+				"Objects": ["Uncommon gem rock"],
+				"Primary": true,
+				"Output": "Uncut sapphire",
+				"Priority": 3
+			},
+			"Mine an uncut emerald from an ~|uncommon gem rock|~": {
+				"Level": 27,
+				"Objects": ["Uncommon gem rock"],
+				"Primary": true,
+				"Output": "Uncut emerald",
+				"Priority": 1
+			},
+			"Mine an uncut ruby from an ~|uncommon gem rock|~": {
+				"Level": 34,
+				"Objects": ["Uncommon gem rock"],
+				"Primary": true,
+				"Output": "Uncut ruby",
+				"Priority": 1
+			},
+			"Mine an uncut emerald from a ~|rare gem rock|~": {
+				"Level": 23,
+				"Objects": ["Rare gem rock"],
+				"Primary": true,
+				"Output": "Uncut ruby",
+				"Priority": 1
+			},
+			"Mine an uncut ruby from a ~|rare gem rock|~": {
+				"Level": 29,
+				"Objects": ["Rare gem rock"],
+				"Primary": true,
+				"Output": "Uncut ruby",
+				"Priority": 1
+			},
+			"Mine an uncut diamond from a ~|rare gem rock|~": {
+				"Level": 38,
+				"Objects": ["Rare gem rock"],
+				"Primary": true,
+				"Output": "Uncut diamond",
+				"Priority": 1
+			},
+			"Mine an uncut dragonstone from a ~|rare gem rock|~": {
+				"Level": 55,
+				"Objects": ["Rare gem rock"],
+				"Primary": true,
+				"Output": "Uncut dragonstone",
+				"Priority": 1
+			},
+			"Mine an uncut emerald from a ~|precious gem rock|~": {
+				"Level": 25,
+				"Objects": ["Precious gem rock"],
+				"Primary": true,
+				"Output": "Uncut emerald",
+				"Priority": 1
+			},
+			"Mine an uncut ruby from an ~|precious gem rock|~": {
+				"Level": 30,
+				"Objects": ["Precious gem rock"],
+				"Primary": true,
+				"Output": "Uncut ruby",
+				"Priority": 3
+			},
+			"Mine an uncut diamond from an ~|precious gem rock|~": {
+				"Level": 43,
+				"Objects": ["Precious gem rock"],
+				"Primary": true,
+				"Output": "Uncut diamond",
+				"Priority": 1
+			},
+			"Mine a ~|mithril rock|~": {
+				"Level": 30,
+				"Objects": ["Mithril rock"],
+				"Primary": true,
+				"Output": "Mithril ore",
+				"Priority": 1
+			},
+			"Mine a ~|sandstone rock|~": {
+				"Level": 35,
+				"Objects": ["Sandstone rock"],
+				"Primary": true,
+				"Output": "Sandstone",
+				"Priority": 1
+			},
+			"Mine an ~|adamantite rock|~": {
+				"Level": 40,
+				"Objects": ["Adamantite rock"],
+				"Primary": true,
+				"Output": "Adamantite ore",
+				"Priority": 1
+			},
+			"Mine a ~|luminite rock|~": {
+				"Level": 40,
+				"Objects": ["Luminite rock"],
+				"Primary": true,
+				"Output": "Luminite",
+				"Priority": 3
+			},
+			"Mine a ~|gold rock|~": {
+				"Level": 40,
+				"Objects": ["Gold rock"],
+				"Primary": true,
+				"Output": "Gold ore",
+				"Priority": 2
+			},
+			"Mine a ~|stone slab vein|~": {
+				"Level": 40,
+				"Objects": ["Stone slab vein"],
+				"Primary": true,
+				"Output": "Stone slab",
+				"Priority": 5
+			},
+			"Mine a ~|granite rock|~": {
+				"Level": 45,
+				"Objects": ["Granite rock"],
+				"Primary": true,
+				"Output": "Granite",
+				"Priority": 1
+			},
+			"Mine a ~|rubium veins|~": {
+				"Level": 46,
+				"Objects": ["Rubium veins"],
+				"Primary": true,
+				"Output": "Rubium",
+				"Priority": 1
+			},
+			"Mine a ~|runite rock|~": {
+				"Level": 50,
+				"Objects": ["Runite rock"],
+				"Primary": true,
+				"Output": "Runite ore",
+				"Priority": 1
+			},
+			"Mine a ~|mineral deposit|~": {
+				"Level": 50,
+				"Objects": ["Mineral deposit"],
+				"Primary": true,
+				"Output": "Sandstone",
+				"Priority": 3
+			},
+			"Access the ~|mining guild|~": {
+				"Chunks": ["12084"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mine an ~|orichalcite rock|~": {
+				"Level": 60,
+				"Objects": ["Orichalcite rock"],
+				"Primary": true,
+				"Output": "Orichalcite ore",
+				"Priority": 2
+			},
+			"Mine a ~|drakolith rock|~": {
+				"Level": 60,
+				"Objects": ["Drakolith rock"],
+				"Primary": true,
+				"Output": "Drakolith ore",
+				"Priority": 3
+			},
+			"Mine in the ~|lava flow mine|~": {
+				"Chunks": "8792",
+				"Level": 65,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mine a ~|necrite rock|~": {
+				"Level": 70,
+				"Objects": ["Necrite rock"],
+				"Primary": true,
+				"Output": "Necrite ore",
+				"Priority": 1
+			},
+			"Mine a ~|phasmatite rock|~": {
+				"Level": 70,
+				"Objects": ["Phasmatite rock"],
+				"Primary": true,
+				"Output": "Phasmatite ore",
+				"Priority": 2
+			},
+			"Mine a ~|concentrated coal deposit|~": {
+				"Level": 70,
+				"Objects": ["Concentrated coal deposit"],
+				"Primary": true,
+				"Output": "Coal",
+				"Priority": 3
+			},
+			"Mine ~|living rock remains|~": {
+				"Level": 73,
+				"Objects": ["Living rock remains"],
+				"Primary": true,
+				"Output": "Living minerals",
+				"Priority": 1
+			},
+			"Mine a ~|Prifddinas gem rock|~": {
+				"Level": 75,
+				"Objects": ["Prifddinas gem rock"],
+				"Primary": true,
+				"Output": "Prifddinas gem rock",
+				"Priority": 2
+			},
+			"Mine a ~|Soft clay rock|~": {
+				"Level": 75,
+				"Objects": ["Soft clay rock"],
+				"Primary": true,
+				"Output": "Soft clay",
+				"Priority": 1
+			},
+			"Mine a ~|solid crystal|~": {
+				"Level": 75,
+				"Objects": ["Solid crystal"],
+				"Primary": true,
+				"Output": "Crystal fragment",
+				"Priority": 3
+			},
+			"Mine a ~|banite rock|~": {
+				"Level": 80,
+				"Objects": ["Banite rock"],
+				"Primary": true,
+				"Output": "Banite ore",
+				"Priority": 1
+			},
+			"Mine a ~|concentrated gold deposit|~": {
+				"Level": 80,
+				"Objects": ["Concentrated gold deposit"],
+				"Primary": true,
+				"Output": "Gold ore",
+				"Priority": 2
+			},
+			"Mine a ~|red sandstone rock|~": {
+				"Level": 81,
+				"Objects": ["Red sandstone (rock)"],
+				"Primary": true,
+				"Output": "Red sandstone",
+				"Priority": 2
+			},
+			"Mine a ~|crystal-flecked sandstone rock|~": {
+				"Level": 81,
+				"Objects": ["Crystal-flecked sandstone rock"],
+				"Primary": true,
+				"Output": "Crystal-flecked sandstone (ore)",
+				"Priority": 1
+			},
+			"Mine a ~|Seren stone|~": {
+				"Level": 89,
+				"Objects": ["Seren stone"],
+				"Primary": true,
+				"Output": "Corrupted ore",
+				"Priority": 1
+			},
+			"Mine a ~|light animica rock|~": {
+				"Level": 90,
+				"Objects": ["Light animica rock"],
+				"Primary": true,
+				"Output": "Light animica",
+				"Priority": 1
+			},
+			"Mine a ~|dark animica rock|~": {
+				"Level": 90,
+				"Objects": ["Dark animica rock"],
+				"Primary": true,
+				"Output": "Dark animica",
+				"Priority": 2
+			},
+			"Mine a ~|salty crablet|~": {
+				"Level": 90,
+				"Objects": ["Salty crablet"],
+				"Primary": true,
+				"Output": "Sea salt",
+				"Priority": 3
+			},
+			"Mine an ~|alaea crablet|~": {
+				"Level": 97,
+				"Objects": ["Alaea crablet"],
+				"Primary": true,
+				"Output": "Golden sea salt",
+				"Priority": 1
+			},
+			"Mine an ~|idol crablet|~": {
+				"Level": 98,
+				"Objects": ["Idol crablet"],
+				"Primary": true,
+				"Output": "Golden idols",
+				"Priority": 3
+			},
+			"Mine with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Mine with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Mine with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Mine with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"Objects": ["Ore+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Mine with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"Objects": ["Ore+"],
+				"Primary": false,
 				"Priority": 1
 			}
 		},
@@ -1305,17 +2024,19 @@
 				"Level": 15,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping trout",
 				"Skills": {
 					"Fishing": 48,
 					"Agility": 15
 				},
 				"Priority": 1
 			},
-			"Catch a ~|leaping Salmon|~": {
+			"Catch a ~|leaping salmon|~": {
 				"Items": ["Barbarian bait+"],
 				"Level": 30,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping salmon",
 				"Skills": {
 					"Fishing": 58,
 					"Agility": 30
@@ -1327,6 +2048,7 @@
 				"Level": 45,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
+				"Output": "Leaping sturgeon",
 				"Skills": {
 					"Fishing": 70,
 					"Agility": 45
@@ -1516,7 +2238,7 @@
 			"Cut ~|overgrown idol|~": {
 				"Level": 81,
 				"Objects": ["Overgrown idol"],
-				"Output": "Overgrown idol",
+				"Output": "Totem of Navigation base",
 				"Primary": true,
 				"Priority": 1
 			},	
@@ -1589,6 +2311,13 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Cut ~|branching crystal": {
+				"Level": 80,
+				"Objects": ["Branching crystal"],
+				"Output": "Crystal fragment",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Chop with a ~|bronze hatchet|~": {
 				"Level": 1,
 				"Objects": ["Tree+"],
@@ -1606,7 +2335,8 @@
 				"Items": ["Dwarven army axe"],
 				"Level": 1,
 				"Objects": ["Tree+"],
-				"Primary": false,
+				"Primary": true,
+				"Output": "Wooden knot",
 				"Priority": 3
 			},
 			"Chop with a ~|steel hatchet|~": {
@@ -1635,7 +2365,7 @@
 				"Level": 31,
 				"Objects": ["Tree+"],
 				"Primary": false,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Chop with a ~|sacred clay hatchet|~": {
 				"Items": ["Sacred clay hatchet"],
@@ -1649,7 +2379,7 @@
 				"Level": 41,
 				"Objects": ["Tree+"],
 				"Primary": false,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Chop with a ~|dragon hatchet|~": {
 				"Items": ["Dragon hatchet"],
@@ -1665,7 +2395,7 @@
 				"Primary": false,
 				"Skills": {
 					"Firemaking": 92,
-					"Mining": 41
+					"Mining": 50
 				},
 				"Priority": 1
 			},
@@ -1724,8 +2454,26 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Cut a ~|canoe|~": {
+			"Cut a log ~|canoe|~": {
 				"Level": 12,
+				"Objects": ["Canoe"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cut a dugout ~|canoe|~": {
+				"Level": 27,
+				"Objects": ["Canoe"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cut a stable dugout ~|canoe|~": {
+				"Level": 42,
+				"Objects": ["Canoe"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cut a waka ~|canoe|~": {
+				"Level": 57,
 				"Objects": ["Canoe"],
 				"Primary": false,
 				"Priority": 1
@@ -1735,6 +2483,41 @@
 				"Level": 80,
 				"Primary": true,
 				"Priority": 1
+			},
+			"Chop with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 2
 			}
 		},
 		"Quests": {},
@@ -9040,13 +9823,10 @@
 				"Robust glass machine": 1,
 				"Singing bowl": 1,
 				"Barrier": 3,
-				"Amlodd": 2,
-				"Iorwerth": 2,
 				"Light rift": 1,
 				"Obelisk": 1,
-				"Hefin": 2,
-				"Ithell": 2,
-				"Soft clay rock": 6
+				"Soft clay rock": 6,
+				"Crystal-flecked sandstone (rock)": 1
 			},
 			"NPC": {
 				"Ithell herald": 1,
@@ -9853,7 +10633,7 @@
 			"Connect": {
 				"11574": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Burthorpe Slayer Cave"
 		},
 		"8775": {
 			"Monster": {
@@ -13010,7 +13790,7 @@
 				"10834": true,
 				"11679": true
 			},
-			"Name": "Dungeon"
+			"Name": "Train Station"
 		},
 		"9815": {
 			"Object": {
@@ -14448,7 +15228,8 @@
 				"Rock passage": 1,
 				"Fire": 2,
 				"Crate": 5,
-				"Eucalyptus tree": 4
+				"Eucalyptus tree": 4,
+				"Red sandstone (rock)": 1
 			},
 			"NPC": {
 				"Teplin Macagan": 1,
@@ -14477,7 +15258,7 @@
 			"Shop": {
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Oo'glog"
 		},
 		"10285": {
 			"Object": {
@@ -14932,7 +15713,7 @@
 			"Shop": {
 				"Stankers' Bronze Pickaxes": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Coal Truck Mine"
 		},
 		"10295": {
 			"Object": {
@@ -15661,7 +16442,7 @@
 				"9541": true,
 				"12100": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Tower of Life"
 		},
 		"10547": {
 			"Object": {
@@ -15747,7 +16528,7 @@
 				"Ardougne Spice Stall": true,
 				"Zenesha's Platebody Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ardougne Market"
 		},
 		"10548": {
 			"Object": {
@@ -15800,7 +16581,7 @@
 				"Farmers' Market": true,
 				"Richard's Farming Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Manor Farm"
 		},
 		"10549": {
 			"Object": {
@@ -16077,10 +16858,7 @@
 				"Ping": 1,
 				"Pong": 1
 			},
-			"Connect": {
-				"10810": true
-			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Iceberg"
 		},
 		"10559": {
 			"Object": {
@@ -16096,7 +16874,7 @@
 				"Penguin": 36,
 				"Crusher": 6
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North Iceberg"
 		},
 		"10566": {
 			"Object": {
@@ -16648,7 +17426,7 @@
 			"Shop": {
 				"Lovecraft's Tackle": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Witchaven"
 		},
 		"10804": {
 			"Object": {
@@ -16696,7 +17474,7 @@
 				"Legends' Guild General Store": true,
 				"Legends' Guild Shop of Useful Items": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Legend's Guild"
 		},
 		"10805": {
 			"Object": {
@@ -16730,7 +17508,7 @@
 			"Shop": {
 				"Ignatius's Hot Deals": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Sorcerer's Tower"
 		},
 		"10806": {
 			"Object": {
@@ -16790,7 +17568,7 @@
 				"Knife": 1,
 				"Garlic": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Seers' Village"
 		},
 		"10807": {
 			"Object": {
@@ -16932,7 +17710,6 @@
 			},
 			"Connect": {
 				"9541": true,
-				"10558": true,
 				"10910": true,
 				"11166": true,
 				"13654": true
@@ -17155,7 +17932,8 @@
 			"Connect": {
 				"9282": true,
 				"9814": true
-			}
+			},
+			"Name": "Dorgesh-Kaan"
 		},
 		"10835": {
 			"Object": {
@@ -18733,7 +19511,7 @@
 			"Spawn": {
 				"Plank": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Crandor"
 		},
 		"11315": {
 			"Object": {
@@ -18744,7 +19522,7 @@
 				"Lesser demon": 2,
 				"Hobgoblin": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North Crandor"
 		},
 		"11316": {
 			"Object": {
@@ -19425,7 +20203,8 @@
 			},
 			"Shop": {
 				"Crossbow Shop": true
-			}
+			},
+			"Name": "Dwarven Tunnel"
 		},
 		"11419": {
 			"Object": {
@@ -19501,7 +20280,8 @@
 				"11166": true,
 				"11423": true,
 				"11679": true
-			}
+			},
+			"Name": "Keldagrim"
 		},
 		"11423": {
 			"Object": {
@@ -20763,7 +21543,8 @@
 				"Reinald's Smithing Emporium": true,
 				"Pickaxe-Is-Mine": true,
 				"Vermundi's Clothes Stall": true
-			}
+			},
+			"Name": "Keldagrim"
 		},
 		"11681": {
 			"Object": {
@@ -26627,7 +27408,8 @@
 			"Object": {
 				"Kharidian cactus (healthy)": 7,
 				"Small obelisk": 1,
-				"Stepping Stone": 1
+				"Stepping Stone": 1,
+				"Red sandstone (rock)": 1
 			},
 			"Monster": {
 				"Lizard": 9,
@@ -26637,7 +27419,7 @@
 			"NPC": {
 				"Doorman": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Sophanem Red Sandstone"
 		},
 		"13356": {
 			"Object": {
@@ -37935,6 +38717,31 @@
 			}
 		},
 		"Loading...": {},
+		"Dwarven Tunnel": {	
+			"Object": {
+				"Fire": 2,
+				"Train cart": 1
+			},
+			"Monster": {
+				"Ice spider": 1,
+				"Dwarf": 8,
+				"Ice warrior": 5
+			},
+			"NPC": {
+				"Khorvak, a dwarven engineer": 1,
+				"Cart conductor": 1,
+				"Rohak": 1,
+				"Holoy": 1,
+				"Captain Ninto": 1
+			},
+			"Connect": {
+				"11062": true,
+				"11574": true
+			},
+			"Shop": {
+				"Crossbow Shop": true
+			}
+		},
 		"Soul Wars Tutorial": {
 			"Object": {
 				"Blue barrier": 1,
@@ -38339,15 +39146,30 @@
 		"Keldagrim": {
 			"Object": {
 				"Bank booth": 2,
-				"Bookcase": 13,
-				"Sink": 3,
-				"Boxes": 2,
-				"Small obelisk": 1,
-				"Tunnel": 1,
+				"Bookcase": 15,
+				"Sink": 4,
+				"Small obelisk": 2,
+				"Tunnel": 2,
 				"Inventor's workbench": 2,
 				"Technology noticeboard": 1,
 				"Anvil": 2,
-				"Forge": 2
+				"Forge": 2,
+				"Dwarf MultiCannon": 1,
+                "Iron rock": 9,
+                "Mithril rock": 7,
+                "Gold rock": 1,
+				"Spinning Machine": 1,
+                "Well": 2,
+                "Gem Stall": 1,
+                "Bakery stall": 1,
+                "Silver stall": 1,
+                "Clothes stall": 1,
+                "Crafting stall": 1,
+                "Boxes": 30,
+                "Apple Barrel": 1,
+                "Valve": 1,
+                "Crossbow stall": 1,
+                "Coal rock": 6
 			},
 			"NPC": {
 				"Dwarven Engineer": 1,
@@ -38357,7 +39179,6 @@
 				"Purple Pewter Director": 1,
 				"Blue Opal Director": 1,
 				"Yellow Fortune Director": 1,
-				"Trader": 7,
 				"Commander Veldaban": 1,
 				"Dromund's cat": 1,
 				"Sieglinde": 1,
@@ -38390,28 +39211,80 @@
 				"Professor Manglethorp": 1,
 				"Chair": 5,
 				"Lieutenant Brae": 1,
-				"Black Guard": 1,
+				"Black Guard": 2,
 				"Thak": 1,
 				"Supreme Commander": 1,
 				"King Drunken Dwarf III": 1,
-				"Veldaban": 1,
 				"Klaas": 1,
-				"Lava-flow miner": 3,
-				"Meike": 2,
 				"Brendt": 1,
 				"Grundt": 1,
 				"Red Axe cat": 1,
-				"Drorkar": 1
+				"Drorkar": 1,
+				"Dondakan the Dwarf": 1,
+                "Dwarven Ferryman": 2,
+                "Dwarven Boatman": 2,
+                "Miodvetnir": 1,
+                "Dernu": 1,
+                "Derni": 1,
+                "Colonel Grenda": 1,
+				"Green Gemstone Secretary": 1,
+                "White Chisel Secretary": 1,
+                "Silver Cog Secretary": 1,
+                "Brown Engine Secretary": 1,
+                "Green Gemstone Director": 1,
+                "White Chisel Director": 1,
+                "Silver Cog Director": 1,
+                "Brown Engine Director": 1,
+                "Trader": 16,
+                "Octagon Referee": 1,
+                "Blasidar the sculptor": 1,
+                "Riki the sculptor's model": 1,
+                "Randivor": 1,
+                "Hervi": 1,
+                "Nolar": 1,
+                "Gulldamar": 1,
+                "Tati": 1,
+                "Vermundi": 1,
+                "Factory Manager": 1,
+                "Factory Worker": 4,
+                "Barmaid": 1,
+                "Cart conductor": 5,
+                "Rowdy dwarf": 1,
+                "Runvastr": 1,
+                "Sune": 1,
+                "Bentamir": 1,
+                "Ulifed": 1,
+                "Reinald": 1,
+                "Karl": 1,
+                "Kjut": 1,
+                "Drunken Dwarf": 1,
+                "Black Guard berserker": 2,
+                "Blandebir": 1,
+                "The Beast": 1,
+                "Smokin' Joe": 1,
+                "Hirko": 1,
+                "Veldaban": 4,
+                "Hreidmar": 1,
+                "Protester": 29,
+                "Lava-flow miner Sven": 1,
+                "Lava-flow miner": 6,
+                "Meike": 1,
+                "Blast Furnace Foreman": 1
 			},
 			"Monster": {
-				"Black Guard": 3,
+				"Black Guard": 6,
 				"Black Guard Berserker": 3,
-				"Trade floor guard": 4
+				"Trade floor guard": 8,
+				"Dwarf": 7
 			},
 			"Connect": {
 				"6753": true,
+				"7757": true,
 				"7771": true,
-				"11422": true
+				"8792": true,
+				"9814": true,
+				"10061": true,
+                "11166": true
 			},
 			"Shop": {
 				"Agmundi Quality Clothes": true,
@@ -38419,7 +39292,18 @@
 				"Quality Weapons Shop": true,
 				"Quality Armour Shop": true,
 				"Vigr's Warhammers": true,
-				"Keldagrim Stonemason": true
+				"Keldagrim Stonemason": true,
+				"Ale yeast": true,
+                "Gravestones": true,
+                "Silver Cog Silver Stall": true,
+                "Green Gemstone Gems": true,
+                "Crossbow Shop (Keldagrim)": true,
+                "Kjut's Kebabs": true,
+                "Carefree Crafting Stall": true,
+                "Keldagrim's Best Bread": true,
+                "Reinald's Smithing Emporium": true,
+                "Pickaxe-Is-Mine": true,
+                "Vermundi's Clothes Stall": true
 			}
 		},
 		"Kalphite nursery": {
@@ -38565,16 +39449,50 @@
 			"Spawn": {
 				"Broken glass": 8
 			},
+			"Monster": {
+                "Guard": 1
+            },
 			"NPC": {
-				"Masterwork fanatic": 1
+				"Oldak": 1,
+                "Merchant Walton": 1,
+                "Merchant Vernon": 1,
+                "Merchant Uriah": 1,
+                "Merchant Xenia": 1,
+                "Merchant Yuri": 1,
+                "Merchant Zakia": 1,
+                "Zanik": 1,
+                "Cave goblin": 10,
+                "Ur-meg": 1,
+                "Ur-lun": 1,
+                "Ur-pel": 1,
+                "Bartak": 1,
+                "Crate goblin": 1,
+                "Gourmet": 2,
+                "Turgok": 1,
+                "Markog": 1,
+                "Tindar": 1,
+                "Zenkog": 1,
+                "Spit goblin": 1,
+                "Goblin fish": 2,
+                "Moths": 6,
+                "Grubfoot": 1
 			},
 			"Object": {
 				"Bookcase": 1,
-				"Chest": 12,
+				"Chest": 23,
 				"Bank booth": 6,
-				"Fountain": 4
+				"Fountain": 4,
+                "Range": 2,
+                "Sink": 2,
+                "Tri-Anvil": 1,
+                "Sandpit": 1,
+                "Wire": 1,
+                "Tools": 1,
+                "Forge": 1
 			},
 			"Connect": {
+				"9282": true,
+                "9814": true,
 				"10833": true,
 				"12950": true
 			}
@@ -39485,44 +40403,14 @@
 				"11679": true
 			}
 		},
-		"Dungeon": {
-			"Object": {
-				"Portal": 1,
-				"Nails": 14,
-				"Mouse hole": 1,
-				"Grate": 1,
-				"Dungeon exit": 7,
-				"Water trough": 2,
-				"Suspicious grooves": 1,
-				"Summoning obelisk": 2,
-				"Crate": 3,
-				"Cover": 6,
-				"Spinning wheel": 2,
-				"Runecrafting altar": 2,
-				"Furnace": 2,
-				"Anvil": 6
-			},
+		"Train Station": {
 			"NPC": {
-				"Fish": 36,
-				"Pondskater": 4,
-				"Smuggler": 1,
-				"Divine skinweaver": 1,
-				"Behemoth": 1,
 				"Cave goblin": 13,
 				"Ticket goblin": 1,
 				"Dwarf": 9,
 				"Ticket dwarf": 1
 			},
-			"Monster": {
-				"General malpractitioner": 9,
-				"'Rum'-pumped crab": 27,
-				"Mouse": 13,
-				"Luminescent icefiend": 1,
-				"Armoured cow thing": 1,
-				"Bulky warrior": 1
-			},
 			"Connect": {
-				"8528": true,
 				"10834": true,
 				"11679": true
 			}
@@ -41542,6 +42430,20 @@
 			}
 		},
 		"Canoe": {},
+		"Burthorpe Slayer Cave": {	
+			"Object": {
+				"Cave": 1,
+				"Subterranean spring": 1
+			},
+			"Monster": {
+				"Gelatinous abomination": 19,
+				"Crawling hand": 11,
+				"Cave bug": 11
+			},
+			"Connect": {
+				"11574": true
+			}
+		},
 		"Shredflesh's Cave": {
 			"Object": {
 				"Fairy ring": 1
@@ -46319,10 +47221,24 @@
 		"itemsPlus": {
 			"Grapple+": ["Phoenix crossbow", "Crossbow", "Bronze crossbow", "Coral crossbow", "Iron crossbow", "Blurite crossbow", "Steel crossbow", "Black crossbow", "Dorgeshuun crossbow", "Mithril crossbow", "Adamant crossbow", "Zanik's crossbow", "Rune crossbow", "Hunters' crossbow", "Dragon crossbow", "Demon slayer crossbow", "Karil's pistol crossbow", "Armadyl crossbow", "Chaotic crossbow", "Ascension crossbow", "Blightbound crossbow", "Off-hand bronze crossbow", "Off-hand iron crossbow", "Off-hand steel crossbow", "Off-hand black crossbow", "Off-hand mithril crossbow", "Off-hand adamant crossbow", "Off-hand rune crossbow", "Off-hand dragon crossbow", "Off-hand demon slayer crossbow", "Karil's off-hand pistol crossbow", "Off-hand armadyl crossbow", "Off-hand chaotic crossbow", "Off-hand ascension crossbow", "Off-hand blightbound crossbow", "Bronze 2h crossbow", "Iron 2h crossbow", "Steel 2h crossbow", "Black 2h crossbow", "Mithril 2h crossbow", "Adamant 2h crossbow", "Rune 2h crossbow", "Dragon 2h crossbow", "Karil's crossbow", "Hand cannon", "Royal crossbow", "Wyvern crossbow", "Dominion crossbow", "Eldritch crossbow", "Green salamander", "Orange salamander", "Red salamander", "Black salamander"],
 			"Barbarian bait+": ["feathers+", "fishing bait"],
-			"Feathers+": ["Feather", "Red feather", "Orange feather", "Yellow feather", "Blue feather", "Stripy feather"]
+			"Feathers+": ["Feather", "Red feather", "Orange feather", "Yellow feather", "Blue feather", "Stripy feather"],
+			"Ironpick+": ["Iron pickaxe + 1", "Iron pickaxe"],
+			"Steelpick+": ["Steel pickaxe", "Steel pickaxe + 1"],
+			"Mithrilpick+": ["Mithril pickaxe", "Mithril pickaxe + 1", "Mithril pickaxe + 2"],
+			"Adamantpick+": ["Adamant pickaxe", "Adamant pickaxe + 1", "Adamant pickaxe + 2"],
+			"Runepick+": ["Rune pickaxe", "Rune pickaxe + 1", "Rune pickaxe + 2", "Rune pickaxe + 3"],
+			"Orikalkumpick+": ["Orikalkum pickaxe", "Orikalkum pickaxe + 1", "Orikalkum pickaxe + 2", "Orikalkum pickaxe + 3"],
+			"Necroniumpick+": ["Necronium pickaxe", "Necronium pickaxe + 1", "Necronium pickaxe + 2", "Necronium pickaxe + 3", "Necronium pickaxe + 4"],
+			"Banepick+": ["Bane pickaxe", "Bane pickaxe + 1", "Bane pickaxe + 2", "Bane pickaxe + 3", "Bane pickaxe +4"],
+			"Elderpick+": ["Elder rune pickaxe", "Elder rune pickaxe + 1", "Elder rune pickaxe + 2", "Elder rune pickaxe + 3", "Elder rune pickaxe + 4", "Elder rune pickaxe + 5"]
 		},
 		"objectsPlus": {
-			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"]
+			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
+			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
+			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"]
+		},
+		"NPCsPlus": {
+			"Wisp+": ["Pale wisp", "Cursed wisp"]
 		},
 		"rangedItems": [],
 		"bossLogs": {},
@@ -70848,6 +71764,19 @@
 		}
 	},
 	"skillItems": {
+		"Agility": {
+			"Anachroniacourse": {
+				"Codex page": "Uncommon",
+				"Totem of Treasure middle": "1/100",
+				"Totem of Crystal top": "1/100",
+				"Totem of Summoning top": "1/100",
+				"Totem of Auras base": "1/100",
+				"Compacted leaves": "Rare",
+				"Compected vines": "Rare",
+				"Dinosaur rib bone": "1/1000",
+				"Essential oils": "1/1800"
+			}
+		},
 		"Fishing": {
 			"Deep sea fishing": {
 				"Fishing notes": "Rare",
@@ -70866,7 +71795,7 @@
 				"Oyster": "Uncommon",
 				"Casket": "Rare"
 			},
-			"Swarm deep sea fishing": {
+			"Swarm fishing": {
 				"Leather gloves": "Varies",
 				"Raw monkfish": "Varies",
 				"Seaweed": "Varies",
@@ -70884,15 +71813,37 @@
 				"Raw cod": "Varies",
 				"Raw mackerel": "Varies",
 				"Raw swordfish": "Varies",
-				"Raw shark": "Varies",
-				"Fishing notes": "Rare",
-				"Message in a bottle (Deep Sea Fishing)": "Rare",
-				"Barrel of bait": "Rare",
-				"Broken fishing rod": "Rare",
-				"Tangled fishbowl": "Rare",
-				"Gregg 'groggy' herring's ring": "Very rare",
-				"Uncharted island map (Deep Sea Fishing)": "Very rare",
-				"Uncharted island map (red)": "Very rare"
+				"Raw shark": "Varies"
+			}
+		},
+		"Mining": {
+			"Gem rock": {
+				"Uncut lapis lazuli": "15/100", 
+				"Uncut opal": "15/100", 
+				"Uncut jade": "15/100", 
+				"Uncut red topaz": "15/100", 
+				"Uncut sapphire": "10/100", 
+				"Uncut emerald": "10/100", 
+				"Uncut ruby": "10/100", 
+				"Uncut diamond": "10/100"
+			},
+			"Sandstone": {
+				"Sandstone (10kg)": "1/4", 
+				"Sandstone (5kg)": "1/4", 
+				"Sandstone (2kg)": "1/4", 
+				"Sandstone (1kg)": "1/4"
+			},
+			"Granite": {
+				"Granite (5kg)": "1/3", 
+				"Granite (2kg)": "1/3", 
+				"Granite (500g)": "1/3"
+			},
+			"Prifddinas gem rock": {
+				"Uncut sapphire": "220/1000",
+				"Uncut emerald": "230/1000",
+				"Uncut ruby": "240/1000",
+				"Uncut diamond": "190/1000",
+				"Uncut dragonstone": "120/1000"
 			}
 		},
 		"Woodcutting": {
