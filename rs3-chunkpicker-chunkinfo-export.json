@@ -1738,7 +1738,7 @@
 				"Priority": 3
 			},
 			"Mine in the ~|lava flow mine|~": {
-				"Chunks": "8792",
+				"Chunks": ["8792"],
 				"Level": 65,
 				"Primary": true,
 				"Priority": 1
@@ -47237,7 +47237,7 @@
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"]
 		},
-		"NPCsPlus": {
+		"npcsPlus": {
 			"Wisp+": ["Pale wisp", "Cursed wisp"]
 		},
 		"rangedItems": [],
