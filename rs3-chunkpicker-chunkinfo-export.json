@@ -47647,7 +47647,7 @@
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"]
 		},
-		"monsterPlus": {
+		"monstersPlus": {
 			"Guard+": ["Guard", "Guard (Varrock)"],
 			"Gnome+": ["Gnome", "Gnome woman", "Gnome child"]
 		},
