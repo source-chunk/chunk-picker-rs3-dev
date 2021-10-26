@@ -1718,7 +1718,7 @@
 				"Priority": 3
 			},
 			"Access the ~|mining guild|~": {
-				"Chunks": ["12084"],
+				"Chunks": ["4166"],
 				"Level": 60,
 				"Primary": true,
 				"Priority": 1
@@ -2129,7 +2129,318 @@
 			}
 		},
 		"Summoning": {},
-		"Thieving": {},
+		"Thieving": {
+			"Pickpocket a ~|man|~": {
+				"Level": 1,
+				"Monsters": ["Man"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|woman|~": {
+				"Level": 1,
+				"Monsters": ["Woman"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|gullible tourist|~": {
+				"Level": 1,
+				"NPCs": ["Gullible tourist"],
+				"Output": "Menaphos pickpocket",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Pickpocket a ~|pompous merchant|~": {
+				"Level": 1,
+				"NPCs": ["Pompous merchant"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Pickpocket a ~|farmer|~": {
+				"Level": 10,
+				"Monsters": ["Farmer"],
+				"Output": "Farmer",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|farmer|~ after caper 2": {
+				"Level": 10,
+				"Chunks": ["Thievesguild+"],
+				"Monsters": ["Farmer"],
+				"Output": "Farmer (lhm)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|H.A.M. member (female)|~": {
+				"Level": 15,
+				"NPCs": ["H.A.M. member (female)"],
+				"Output": "Ham member",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|H.A.M. member (female)|~ after caper 2": {
+				"Level": 15,
+				"Chunks": ["Thievesguild+"],
+				"NPCs": ["H.A.M. member (female)"],
+				"Output": "Ham member (lhm)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|H.A.M. member (male)|~": {
+				"Level": 20,
+				"NPCs": ["H.A.M. member (male)"],
+				"Output": "Ham member",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Pickpocket a ~|H.A.M. member (male)|~ after caper 2": {
+				"Level": 20,
+				"Chunks": ["Thievesguild+"],
+				"NPCs": ["H.A.M. member (male)"],
+				"Output": "Ham member (lhm)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Pickpocket a ~|Guard (H.A.M.)|~": {
+				"Level": 20,
+				"Chunks": ["10321"],
+				"Monsters": ["Guard (H.A.M.)"],
+				"Output": "Ham guard",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|Guard (H.A.M.)|~ after caper 2": {
+				"Level": 20,
+				"Chunks": ["10321", "Thievesguild+"],
+				"Monsters": ["Guard (H.A.M.)"],
+				"Output": "Ham guard (lhm)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|warrior woman|~": {
+				"Level": 25,
+				"Monsters": ["Warrior woman"],
+				"Output": "Court summons",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket an ~|Al Kharid warrior|~": {
+				"Level": 25,
+				"Monsters": ["Al Kharid warrior"],
+				"Output": "Court summons",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|Cave goblin|~": {
+				"Level": 36,
+				"Monsters": ["Cave goblin"],
+				"Output": "Cave goblin",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|master farmer|~": {
+				"Level": 38,
+				"NPCs": ["Master farmer+"],
+				"Output": "Master farmer",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Guard|~": {
+				"Level": 40,
+				"Monsters": ["Guard+"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|bearded Pollnivnian bandit|~": {
+				"Level": 45,
+				"Monsters": ["Bearded Pollnivnian bandit"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Fremennik citizen|~": {
+				"Level": 45,
+				"NPCs": ["Fremennik citizen"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|Menaphite marketeer|~": {
+				"Level": 46,
+				"NPCs": ["Menaphite marketeer"],
+				"Output": "Menaphos pickpocket",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|bandit (Kharidian Desert Bandit Camp)|~": {
+				"Level": 53,
+				"Monsters": ["Bandit (Kharidian Desert Bandit Camp)"],
+				"Output": "Bandit (Kharidian Desert Bandit Camp)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|bandit (Pollnivneach)|~": {
+				"Level": 55,
+				"Monsters": ["Bandit (Pollnivneach)"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|knight of Ardougne|~": {
+				"Level": 55,
+				"Monsters": ["Knight of Ardougne"],
+				"Output": "Knight of Ardougne",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|watchman|~": {
+				"Level": 65,
+				"Monsters": ["Watchman"],
+				"Output": "Watchman",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|Menaphite thug|~": {
+				"Level": 65,
+				"Monsters": ["Menaphite thug"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|paladin|~": {
+				"Level": 70,
+				"Monsters": ["Paladin"],
+				"Output": "Paladin",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|monkey knife fighter|~": {
+				"Level": 70,
+				"NPCs": ["Monkey knife fighter"],
+				"Output": "Monkey knife fighter",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|gnome|~": {
+				"Level": 75,
+				"Monsters": ["Gnome+"],
+				"Output": "Gnome",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|hero|~": {
+				"Level": 80,
+				"Monsters": ["Hero"],
+				"Output": "Hero",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|elf|~": {
+				"Level": 85,
+				"NPCs": ["Elf"],
+				"Output": "Elf",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Trader|~": {
+				"Level": 90,
+				"NPCs": ["Trader"],
+				"Output": "Trader",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|rogue|~": {
+				"Level": 32,
+				"Monsters": ["Rogue"],
+				"Output": "Rogue",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|rogue enforcer|~": {
+				"Level": 62,
+				"Monsters": ["Rogue enforcer"],
+				"Output": "Rogue",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|rogue captain|~": {
+				"Level": 92,
+				"Monsters": ["Rogue captain"],
+				"Output": "Rogue captain",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|Waiko islander|~": {
+				"Level": 86,
+				"NPCs": ["Waiko islander"],
+				"Output": "Waiko islander",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|cyclops (Cyclosis)|~": {
+				"Level": 88,
+				"NPCs": ["Cyclops (Cyclosis)"],
+				"Output": "Cyclops (Cyclosis)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Iorwerth worker|~": {
+				"Level": 91,
+				"NPCs": ["Iorwerth worker"],
+				"Output": "Iorwerth worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Ithell worker|~": {
+				"Level": 92,
+				"NPCs": ["Ithell worker"],
+				"Output": "Ithell worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Cadarn worker|~": {
+				"Level": 93,
+				"NPCs": ["Cadarn worker"],
+				"Output": "Cadarn worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Amlodd worker|~": {
+				"Level": 94,
+				"NPCs": ["Amlodd worker"],
+				"Output": "Amlodd worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Trahaearn worker|~": {
+				"Level": 95,
+				"NPCs": ["Trahaearn worker"],
+				"Output": "Trahaearn worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Hefin worker|~": {
+				"Level": 96,
+				"NPCs": ["Hefin worker"],
+				"Output": "Hefin worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Crwys worker|~": {
+				"Level": 97,
+				"NPCs": ["Crwys worker"],
+				"Output": "Crwys worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Meilyr worker|~": {
+				"Level": 98,
+				"NPCs": ["Meilyr worker"],
+				"Output": "Meilyr worker",
+				"Primary": true,
+				"Priority": 1
+			}
+		},
 		"Woodcutting": {
 			"Cut ~|logs|~": {
 				"Level": 1,
@@ -7335,7 +7646,8 @@
 			},
 			"Connect": {
 				"11423": true
-			}
+			},
+			"Name": "Ancient Keldagrim Ruins"
 		},
 		"6759": {
 			"Object": {
@@ -8787,7 +9099,8 @@
 			},
 			"Monster": {
 				"Chaos Giant": 10
-			}
+			},
+			"Name": "Tunnels Near Keldagrim"
 		},
 		"7778": {
 			"Object": {
@@ -13440,7 +13753,7 @@
 			"Shop": {
 				"Farming supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Tree Gnome Stronghold"
 		},
 		"9782": {
 			"Object": {
@@ -13504,7 +13817,7 @@
 				"Grand Tree Groceries": true,
 				"Rometti's Fine Fashions": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Grand Tree"
 		},
 		"9783": {
 			"Object": {
@@ -14203,7 +14516,7 @@
 				"Fresh Meat": true,
 				"Gift Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Oo'glog"
 		},
 		"10029": {
 			"Object": {
@@ -14299,7 +14612,7 @@
 				"Dal's General Ogre Supplies": true,
 				"Summoning Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Gu'Tanoth"
 		},
 		"10032": {
 			"Object": {
@@ -14383,7 +14696,7 @@
 			"Shop": {
 				"Bolkoy's Village Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Tree Gnome Village"
 		},
 		"10034": {
 			"Object": {
@@ -14504,7 +14817,7 @@
 			"Shop": {
 				"King Lathas's Armoury": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Combat Training Camp"
 		},
 		"10037": {
 			"Object": {
@@ -14737,7 +15050,7 @@
 				"Island Fishmonger": true,
 				"Greengrocer of Miscellania": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Miscellania"
 		},
 		"10046": {
 			"Monster": {
@@ -15339,7 +15652,7 @@
 				"Rope": 1,
 				"Broken arrow": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Gu'Tanoth Island"
 		},
 		"10288": {
 			"Object": {
@@ -15495,7 +15808,7 @@
 				"Purple dye": 1,
 				"White candle (lit)": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ardougne Monastery"
 		},
 		"10291": {
 			"Object": {
@@ -15949,7 +16262,7 @@
 				"Crack": 2
 			},
 			"Monster": {
-				"Guard": 5
+				"Guard (H.A.M.)": 5
 			},
 			"Name": "H.A.M. store rooms"
 		},
@@ -16282,7 +16595,7 @@
 				"Barricade": 12,
 				"Log stockpile": 6
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Pest Control"
 		},
 		"10537": {
 			"Object": {
@@ -16326,7 +16639,7 @@
 				"Pest Control rewards": true,
 				"Stanley Limelight Traders": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Void knights' Outpost"
 		},
 		"10540": {
 			"Object": {
@@ -18409,7 +18722,7 @@
 				"Seaweed": 6,
 				"Chameleon egg": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Cairn Isle"
 		},
 		"11055": {
 			"Object": {
@@ -18488,7 +18801,7 @@
 			"Shop": {
 				"Jiminua's Jungle Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North Tai Bwo Wannai"
 		},
 		"11057": {
 			"Object": {
@@ -18582,7 +18895,7 @@
 			"Shop": {
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Brimhaven Docks"
 		},
 		"11059": {
 			"Object": {
@@ -19660,7 +19973,7 @@
 				"9030": true,
 				"20118": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "White Wolf Mountain"
 		},
 		"11319": {
 			"Object": {
@@ -20427,7 +20740,7 @@
 			"Connect": {
 				"12117": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Crash Island"
 		},
 		"11565": {
 			"Object": {
@@ -20611,7 +20924,7 @@
 			"Connect": {
 				"11670": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Melzar's Maze"
 		},
 		"11571": {
 			"Object": {
@@ -20675,7 +20988,7 @@
 				"Crafting cape": true,
 				"Crafting Guild Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Crafting Guild"
 		},
 		"11572": {
 			"Object": {
@@ -20709,7 +21022,7 @@
 				"Cheese": 1,
 				"Ball": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Witch's House"
 		},
 		"11573": {
 			"Object": {
@@ -21680,7 +21993,7 @@
 			"Shop": {
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Shipyard"
 		},
 		"11824": {
 			"Object": {
@@ -21816,7 +22129,7 @@
 				"Alfred Stonemason's Construction Shop": true,
 				"Rimmington General Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rimmington"
 		},
 		"11827": {
 			"Object": {
@@ -21971,7 +22284,7 @@
 				"White Knight Master Armoury": true,
 				"Slayer Equipment (Burthorpe)": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Falador"
 		},
 		"11829": {
 			"Object": {
@@ -22073,7 +22386,7 @@
 				"Bucket": 1,
 				"Wine of Zamorak": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Goblin Village"
 		},
 		"11831": {
 			"Object": {
@@ -22686,7 +22999,7 @@
 				"The Milk Shop": true,
 				"Sarah's Farming Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Falador Farm"
 		},
 		"12084": {
 			"Object": {
@@ -22751,7 +23064,7 @@
 				"Garden Centre": true,
 				"Party Pete's Emporium": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Falador"
 		},
 		"12085": {
 			"Object": {
@@ -22845,7 +23158,7 @@
 				"Mami Rimba's Shop": true,
 				"Oziach's Armour": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Edgeville Monastery"
 		},
 		"12087": {
 			"Object": {
@@ -23519,7 +23832,7 @@
 				"8043": true,
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos Imperial District"
 		},
 		"12331": {
 			"Object": {
@@ -23746,7 +24059,7 @@
 			"Spawn": {
 				"Logs": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Draynor Crossroads"
 		},
 		"12340": {
 			"Object": {
@@ -24350,9 +24663,10 @@
 				"Hieromonk Genjiro": 1,
 				"Hisamitsu": 1,
 				"Sensei Hakase": 1,
-				"Lokkir": 1
+				"Lokkir": 1,
+				"Gullible tourist": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos Dock"
 		},
 		"12585": {
 			"Object": {
@@ -24386,7 +24700,7 @@
 				"The Golden Scarab Inn": true,
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos Central Port District"
 		},
 		"12586": {
 			"Object": {
@@ -24491,7 +24805,7 @@
 			"Connect": {
 				"12433": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Desert Quarry"
 		},
 		"12590": {
 			"Object": {
@@ -24508,13 +24822,13 @@
 				"Mysterious ghost": 1
 			},
 			"Monster": {
-				"Bandit": 21
+				"Bandit (Kharidian Desert Bandit Camp)": 21
 			},
 			"Shop": {
 				"Bandit Bargains": true,
 				"The Big Heist Lodge": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Desert Bandit Camp"
 		},
 		"12591": {
 			"Object": {
@@ -24539,7 +24853,7 @@
 			"Shop": {
 				"Bedabin Village Bartering": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Bedadin Camp"
 		},
 		"12592": {
 			"Object": {
@@ -24700,7 +25014,7 @@
 				"Scavvo's Rune Store": true,
 				"Valaine's Shop of Champions": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Champions' Guild"
 		},
 		"12597": {
 			"Object": {
@@ -24752,7 +25066,7 @@
 			"Monster": {
 				"Rat": 1,
 				"Imp": 1,
-				"Guard": 6,
+				"Guard (Varrock)": 6,
 				"Man": 1
 			},
 			"Spawn": {
@@ -24771,7 +25085,7 @@
 				"Pie Shop": true,
 				"Gertrude's Food": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Cooking Guild"
 		},
 		"12598": {
 			"Object": {
@@ -24811,7 +25125,7 @@
 				"Solomon's General Store": true,
 				"Treasure Trails Reward Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Grand Exchange"
 		},
 		"12599": {
 			"Object": {
@@ -25239,7 +25553,7 @@
 				"Challenge Mistress Rashida": 1,
 				"Impling collector": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos Plaza"
 		},
 		"12843": {
 			"Object": {
@@ -25294,7 +25608,7 @@
 				"Gem Trader stall": true,
 				"General Store (Menaphos)": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos Merchant District"
 		},
 		"12844": {
 			"Object": {
@@ -25324,7 +25638,7 @@
 				"11597": true,
 				"12945": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Jaldraocht"
 		},
 		"12846": {
 			"Object": {
@@ -25673,7 +25987,7 @@
 			},
 			"Monster": {
 				"Imp": 2,
-				"Guard": 3,
+				"Guard (Varrock)": 3,
 				"Thief": 1,
 				"Dark wizard": 11,
 				"Man": 1
@@ -25812,7 +26126,7 @@
 				"Urist's Crafting Supplies": true,
 				"Zaff's Superior Spellcasting": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Varrock"
 		},
 		"12854": {
 			"Object": {
@@ -25841,7 +26155,7 @@
 				"Black Knight": 2,
 				"Monk of Zamorak": 1,
 				"Imp": 4,
-				"Guard": 16
+				"Guard (Varrock)": 16
 			},
 			"NPC": {
 				"Father Lawrence": 1,
@@ -25875,7 +26189,7 @@
 				"Wooden shield": 1,
 				"Coins": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Varrock Palace"
 		},
 		"12855": {
 			"Object": {
@@ -25920,7 +26234,7 @@
 			"Shop": {
 				"Simon's Wilderness Cape Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Chaos Temple"
 		},
 		"12857": {
 			"Object": {
@@ -26428,7 +26742,7 @@
 				"Raetul and Co's Cloth Store": true,
 				"Blades by Urbi": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Sophanem"
 		},
 		"13100": {
 			"Object": {
@@ -26524,7 +26838,7 @@
 				"Jug of wine": 1,
 				"Bowl of water": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "The Desert Mining Camp"
 		},
 		"13104": {
 			"Object": {
@@ -26707,7 +27021,7 @@
 				"Fire rune": 1,
 				"Water rune": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Al Kharid Mine"
 		},
 		"13108": {
 			"Object": {
@@ -26759,7 +27073,7 @@
 				"Archaeology Guild Shop": true,
 				"Matty Ock's Mattock Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Varrock South-East Mine"
 		},
 		"13109": {
 			"Object": {
@@ -26804,7 +27118,7 @@
 				"A memory": 1
 			},
 			"Monster": {
-				"Guard": 4
+				"Guard (Varrock)": 4
 			},
 			"Connect": {
 				"13209": true
@@ -26817,7 +27131,7 @@
 				"Fancy Clothes Store": true,
 				"Ye Olde Tea Shoppe": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Varrock East Gate"
 		},
 		"13110": {
 			"Object": {
@@ -27445,7 +27759,7 @@
 				"12105": true,
 				"12908": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Jaleustrophos"
 		},
 		"13357": {
 			"Object": {
@@ -27464,7 +27778,7 @@
 			"Connect": {
 				"13457": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "The Entrance to the Heart"
 		},
 		"13358": {
 			"Object": {
@@ -27558,7 +27872,7 @@
 				"Shortbow": 1,
 				"Bronze arrow": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Dominion Tower"
 		},
 		"13361": {
 			"Object": {
@@ -27582,7 +27896,7 @@
 			"Connect": {
 				"20598": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Kharid-et Digsite"
 		},
 		"13362": {
 			"Object": {
@@ -27745,7 +28059,7 @@
 				"Maria": 1,
 				"Archaeologist": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Silvarea Pass"
 		},
 		"13368": {
 			"Monster": {
@@ -28104,7 +28418,7 @@
 				"Rok's Chocs Box": true,
 				"Seddu's Adventurers' Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Nardah"
 		},
 		"13614": {
 			"Monster": {
@@ -29220,7 +29534,7 @@
 			"Spawn": {
 				"Crumbling tome": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "The Barrows"
 		},
 		"14132": {
 			"Monster": {
@@ -29230,7 +29544,7 @@
 			"NPC": {
 				"Lord Alexei Jovkai": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Castle Drakan"
 		},
 		"14133": {
 			"Object": {
@@ -29270,7 +29584,7 @@
 			"Connect": {
 				"14234": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Haunted Woods"
 		},
 		"14135": {
 			"Object": {
@@ -29295,7 +29609,7 @@
 			"Connect": {
 				"14235": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Castle Fenkenstrain"
 		},
 		"14146": {
 			"Object": {
@@ -29832,7 +30146,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Haunted Woods"
 		},
 		"14391": {
 			"Object": {
@@ -30085,7 +30399,7 @@
 				"Harpoon Joe's House of 'Rum'": true,
 				"Dodgy Mike's Second-hand Clothing": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Pirate Base"
 		},
 		"14639": {
 			"Object": {
@@ -30101,7 +30415,7 @@
 			"NPC": {
 				"Crab": 8
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Mos Le'Harmless Jungle"
 		},
 		"14641": {
 			"Object": {
@@ -30221,7 +30535,7 @@
 				"Port Phasmatys General Store": true,
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Port Phasmatys"
 		},
 		"14647": {
 			"Object": {
@@ -30572,7 +30886,7 @@
 			"Connect": {
 				"14994": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mos Le'Harmless Cave"
 		},
 		"14895": {
 			"Monster": {
@@ -30584,7 +30898,7 @@
 			"NPC": {
 				"Crab": 16
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Mos Le'Harmless Jungle"
 		},
 		"14896": {
 			"NPC": {
@@ -31069,7 +31383,7 @@
 			"Spawn": {
 				"Keg": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Harmony"
 		},
 		"15150": {
 			"Object": {
@@ -31091,7 +31405,7 @@
 			"Spawn": {
 				"Brewin' guide": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Trouble Brewing"
 		},
 		"15151": {
 			"Object": {
@@ -31123,7 +31437,7 @@
 				"Honest Jimmy's House of Stuff": true,
 				"Stanley Limelight Traders": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Trouble Brewing Lobby"
 		},
 		"15153": {
 			"Object": {
@@ -31170,7 +31484,7 @@
 				"9053": true,
 				"15259": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Dragontooth Island"
 		},
 		"15169": {
 			"Object": {
@@ -34856,7 +35170,7 @@
 				"Advanced pickpocketing trainer": 1,
 				"Dodgy Derek": 1
 			},
-			"Name": "Thieves' Guild"
+			"Name": "Thieves' Guild after Caper 2"
 		},
 		"18524": {
 			"Object": {
@@ -34867,7 +35181,8 @@
 			"NPC": {
 				"Guildmaster Darren Lightfinger": 1,
 				"Chief Thief Robin": 1
-			}
+			},
+			"Name": "Thieves' Guild Start"
 		},
 		"18526": {
 			"Object": {
@@ -35319,7 +35634,7 @@
 			"Shop": {
 				"Dodgy Derek's Dirty Deals": true
 			},
-			"Name": "Thieves' Guild"
+			"Name": "Thieves' Guild Complete"
 		},
 		"19036": {
 			"Object": {
@@ -35338,7 +35653,7 @@
 				"Locks and traps trainer": 1,
 				"Advanced pickpocketing trainer": 1
 			},
-			"Name": "Thieves' Guild"
+			"Name": "Thieves' Guild after Caper 1"
 		},
 		"19038": {
 			"Object": {
@@ -39317,6 +39632,16 @@
 				"12848": true
 			}
 		},
+		"Ancient Keldagrim Ruins": {
+			"Object": {
+				"Tunnel": 1,
+				"Statue": 1,
+				"Rubble": 9
+			},
+			"Connect": {
+				"11423": true
+			}
+		},
 		"Pollnivneach Dungeon": {
 			"Object": {
 				"Pulsing markings": 8,
@@ -40096,18 +40421,27 @@
 				"Pretty Flower": 1,
 				"Big Rock": 1,
 				"Sparkly Crystal": 1
+			},
+			"Connect": {
+				"6747": true
 			}
 		},
 		"Tunnels Near Keldagrim": {
 			"Object": {
-				"Cave": 4,
-				"Sparkly crystals": 37
+				"Cave": 5,
+				"Sparkly crystals": 54
 			},
 			"NPC": {
 				"Chaos dwarf": 23,
 				"Chaos dwarf hand cannoneer": 10,
 				"Chaos dwogre": 6,
-				"Black Guard quartermaster": 1
+				"Black Guard quartermaster": 1,
+				"Chaos Giant": 10
+			},
+			"Connect": {
+				"6235": true,
+				"7777": true,
+				"11422": true
 			}
 		},
 		"Keldagrim Records Chamber": {
@@ -41105,33 +41439,99 @@
 				"Storm Cloud": 26
 			}
 		},
-		"Thieves' Guild": {
-			"Object": {
-				"Caper board": 3,
-				"Practice chest": 24,
-				"Mark 1": 3,
-				"Mark 2": 12,
-				"Drawers": 11,
-				"Safe": 2,
-				"Bureau": 3,
-				"Bank booth": 1
-			},
-			"NPC": {
-				"Guildmaster Darren Lightfinger": 3,
-				"Chief Thief Robin": 3,
-				"Pickpocketing trainer": 3,
-				"Pickpocketing volunteer": 9,
-				"Coshing volunteer": 9,
-				"Locks and traps trainer": 3,
-				"Advanced pickpocketing trainer": 3,
-				"Safe-cracking trainer": 2,
-				"Dodgy Derek": 2,
-				"Mr Pinsworth": 1
-			},
-			"Shop": {
-				"Dodgy Derek's Dirty Deals": true
+		"Thieves' Guild Start": {
+            "Object": {
+                "Registry strongbox": 1,
+                "Boxes": 2,
+                "Mark 1": 1
+            },
+            "NPC": {
+                "Guildmaster Darren Lightfinger": 1,
+                "Chief Thief Robin": 1
+            },
+			"Connect": {
+				"12851": true
 			}
 		},
+		"Thieves' Guild after Caper 1": {
+            "Object": {
+                "Caper board": 1,
+                "Practice chest": 6,
+                "Mark 1": 1,
+                "Mark 2": 4,
+                "Drawers": 1
+            },
+            "NPC": {
+                "Guildmaster Darren Lightfinger": 1,
+                "Chief Thief Robin": 1,
+                "Pickpocketing trainer": 1,
+                "Pickpocketing volunteer": 3,
+                "Coshing volunteer": 3,
+                "Locks and traps trainer": 1,
+                "Advanced pickpocketing trainer": 1
+            },
+			"Connect": {
+				"12851": true
+			}
+        },
+		"Thieves' Guild after Caper 2": {	
+			"Object": {
+                "Safe": 1,
+                "Caper board": 1,
+                "Practice chest": 9,
+                "Mark 1": 1,
+                "Mark 2": 4,
+                "Drawers": 5,
+                "Bureau": 1
+            },
+            "NPC": {
+                "Guildmaster Darren Lightfinger": 1,
+                "Chief Thief Robin": 1,
+                "Pickpocketing trainer": 1,
+                "Pickpocketing volunteer": 3,
+                "Coshing volunteer": 3,
+                "Locks and traps trainer": 1,
+                "Safe-cracking trainer": 1,
+                "Advanced pickpocketing trainer": 1,
+                "Dodgy Derek": 1
+            },
+            "Shop": {
+                "Dodgy Derek's Dirty Deals": true
+            },
+			"Connect": {
+				"12851": true
+			}
+		},
+		"Thieves' Guild Complete": {	
+			"Object": {
+                "Safe": 1,
+                "Caper board": 1,
+                "Practice chest": 9,
+                "Mark 1": 1,
+                "Mark 2": 4,
+                "Bank booth": 1,
+                "Drawers": 5,
+                "Bureau": 2
+            },
+            "NPC": {
+                "Guildmaster Darren Lightfinger": 1,
+                "Chief Thief Robin": 1,
+                "Pickpocketing trainer": 1,
+                "Pickpocketing volunteer": 3,
+                "Coshing volunteer": 3,
+                "Locks and traps trainer": 1,
+                "Safe-cracking trainer": 1,
+                "Advanced pickpocketing trainer": 1,
+                "Dodgy Derek": 1,
+                "Mr Pinsworth": 1
+            },
+            "Shop": {
+                "Dodgy Derek's Dirty Deals": true
+            },
+			"Connect": {
+				"12851": true
+			}
+        },
 		"Rogues' Den": {
 			"Object": {
 				"Fire": 2,
@@ -42163,7 +42563,10 @@
 				"Crack": 2
 			},
 			"Monster": {
-				"Guard": 5
+				"Guard (H.A.M.)": 5
+			},
+			"Connect": {
+				"12625": true
 			}
 		},
 		"Soul Wars": {
@@ -44535,6 +44938,10 @@
 			},
 			"Monster": {
 				"H%2EA%2EM%2E Guard": 23
+			},
+			"Connect": {
+				"10321": true,
+				"12850": true
 			}
 		},
 		"Champions' Arena": {
@@ -47232,13 +47639,21 @@
 			"Banepick+": ["Bane pickaxe", "Bane pickaxe + 1", "Bane pickaxe + 2", "Bane pickaxe + 3", "Bane pickaxe +4"],
 			"Elderpick+": ["Elder rune pickaxe", "Elder rune pickaxe + 1", "Elder rune pickaxe + 2", "Elder rune pickaxe + 3", "Elder rune pickaxe + 4", "Elder rune pickaxe + 5"]
 		},
+		"chunksPlus": {
+			"Thievesguild+": ["18522", "19034"]
+		},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"]
 		},
+		"monsterPlus": {
+			"Guard+": ["Guard", "Guard (Varrock)"],
+			"Gnome+": ["Gnome", "Gnome woman", "Gnome child"]
+		},
 		"npcsPlus": {
-			"Wisp+": ["Pale wisp", "Cursed wisp"]
+			"Wisp+": ["Pale wisp", "Cursed wisp"],
+			"Master farmers+": ["Master farmer", "Martin the Master Gardener"]
 		},
 		"rangedItems": [],
 		"bossLogs": {},
@@ -71844,6 +72259,584 @@
 				"Uncut ruby": "240/1000",
 				"Uncut diamond": "190/1000",
 				"Uncut dragonstone": "120/1000"
+			}
+		},
+		"Thieving": {
+			"Menaphos pickpocket": {
+				"Coins": "Always",
+				"Menaphite gift offering": "Rare",
+				"Waikonite": "Very rare",
+				"Kalphite wanderer in amber": "Very rare",
+				"Hornless unicornfly in amber": "Very rare"
+			},
+			"Farmer": {
+				"Coins": "Common",
+				"Potato seed": "Rare"
+			},
+			"Farmer (lhm)": {
+				"Coins": "Common",
+				"Potato seed": "Common",
+				"Onion seed": "Common",
+				"Cabbage seed": "Uncommon",
+				"Marigold seed": "Uncommon",
+				"Nasturtium seed": "Uncommon",
+				"Barley seed": "Uncommon",
+				"Hammerstone seed": "Uncommon",
+				"Asgarnian seed": "Uncommon",
+				"Redberry seed": "Uncommon",
+				"Guam seed": "Rare",
+				"Marrentill seed": "Rare",
+				"Tarromin seed": "Rare",
+				"Cadavaberry seed": "Rare",
+				"Willow seed": "Very rare",
+				"Apple tree seed": "Very rare",
+				"Acorn": "Very rare"
+			},
+			"Ham member": {
+				"Tiny bladed bronze salvage": "Common",
+				"Tiny Spiky bronze salvage": "Common",
+				"Small spiky bronze salvage": "Common",
+				"Tiny bladed iron salvage": "Common",
+				"Small spiky iron salvage": "Common",
+				"Coins": "Common",
+				"Anchovies": "Common",
+				"Raw chicken": "Common",
+				"Logs": "Common",
+				"Uncut opal": "Common",
+				"Tiny bladed steel salvage": "Uncommon",
+				"Tiny spiky steel salvage": "Uncommon",
+				"Small spiky steel salvage": "Uncommon",
+				"Leather body": "Uncommon",
+				"H.A.M. hood": "Uncommon",
+				"H.A.M. cloak": "Uncommon",
+				"H.A.M. shirt": "Uncommon",
+				"H.A.M. gloves": "Uncommon",
+				"H.A.M. robe": "Uncommon",
+				"H.A.M. boots": "Uncommon",
+				"H.A.M. logo": "Uncommon",
+				"Rusty sword": "Uncommon",
+				"Damaged armour": "Uncommon",
+				"Uncut jade": "Uncommon",
+				"Grimy guam": "Uncommon",
+				"Grimy marrentill": "Uncommon",
+				"Grimy tarromin": "Uncommon",
+				"Buttons": "Uncommon",
+				"Iron stone spirit": "Uncommon",
+				"Coal stone spirit": "Uncommon",
+				"Cowhide": "Uncommon",
+				"Knife": "Uncommon",
+				"Needle": "Uncommon",
+				"Tinderbox": "Uncommon",
+				"Thread": "Uncommon",
+				"Bronze arrow": "Uncommon",
+				"Steel arrow": "Uncommon",
+				"Sealed clue scroll (easy)": "1/50"
+			},
+			"Ham member (lhm)": {
+				"Coins": "Common",
+				"Uncut opal": "Common",
+				"Tiny bladed steel salvage": "Uncommon",
+				"Tiny spiky steel salvage": "Uncommon",
+				"Small spiky steel salvage": "Uncommon",
+				"Leather body": "Uncommon",
+				"H.A.M. hood": "Uncommon",
+				"H.A.M. cloak": "Uncommon",
+				"H.A.M. shirt": "Uncommon",
+				"H.A.M. gloves": "Uncommon",
+				"H.A.M. robe": "Uncommon",
+				"H.A.M. boots": "Uncommon",
+				"H.A.M. logo": "Uncommon",
+				"Rusty sword": "Uncommon",
+				"Damaged armour": "Uncommon",
+				"Uncut jade": "Uncommon",
+				"Grimy guam": "Uncommon",
+				"Grimy marrentill": "Uncommon",
+				"Grimy tarromin": "Uncommon",
+				"Buttons": "Uncommon",
+				"Iron stone spirit": "Uncommon",
+				"Coal stone spirit": "Uncommon",
+				"Knife": "Uncommon",
+				"Needle": "Uncommon",
+				"Tinderbox": "Uncommon",
+				"Thread": "Uncommon",
+				"Bronze arrow": "Uncommon",
+				"Steel arrow": "Uncommon",
+				"Steel studs": "Uncommon",
+				"Slayer's staff": "Rare",
+				"Sealed clue scroll (easy)": "1/50"
+			},
+			"Ham guard": {
+				"Tiny bladed bronze salvage": "Common",
+				"Tiny Spiky bronze salvage": "Common",
+				"Small spiky bronze salvage": "Common",
+				"Tiny bladed iron salvage": "Common",
+				"Small spiky iron salvage": "Common",
+				"Coins": "Common",
+				"Anchovies": "Common",
+				"Raw chicken": "Common",
+				"Logs": "Common",
+				"Uncut opal": "Common",
+				"Bronze key (H.A.M.)": "Common",
+				"Iron key (H.A.M.)": "Common",
+				"Steel key (H.A.M.)": "Common",
+				"Silver key (H.A.M.)": "Common",
+				"Tiny bladed steel salvage": "Uncommon",
+				"Tiny spiky steel salvage": "Uncommon",
+				"Small spiky steel salvage": "Uncommon",
+				"Leather body": "Uncommon",
+				"H.A.M. hood": "Uncommon",
+				"H.A.M. cloak": "Uncommon",
+				"H.A.M. shirt": "Uncommon",
+				"H.A.M. gloves": "Uncommon",
+				"H.A.M. robe": "Uncommon",
+				"H.A.M. boots": "Uncommon",
+				"H.A.M. logo": "Uncommon",
+				"Rusty sword": "Uncommon",
+				"Damaged armour": "Uncommon",
+				"Uncut jade": "Uncommon",
+				"Grimy guam": "Uncommon",
+				"Grimy marrentill": "Uncommon",
+				"Grimy tarromin": "Uncommon",
+				"Buttons": "Uncommon",
+				"Iron stone spirit": "Uncommon",
+				"Coal stone spirit": "Uncommon",
+				"Cowhide": "Uncommon",
+				"Sealed clue scroll (easy)": "1/55"
+			},
+			"Ham guard (lhm)": {
+				"Coins": "Common",
+				"Uncut opal": "Common",
+				"Bronze key (H.A.M.)": "Common",
+				"Iron key (H.A.M.)": "Common",
+				"Steel key (H.A.M.)": "Common",
+				"Silver key (H.A.M.)": "Common",
+				"Tiny bladed steel salvage": "Uncommon",
+				"Tiny spiky steel salvage": "Uncommon",
+				"Small spiky steel salvage": "Uncommon",
+				"Leather body": "Uncommon",
+				"H.A.M. hood": "Uncommon",
+				"H.A.M. cloak": "Uncommon",
+				"H.A.M. shirt": "Uncommon",
+				"H.A.M. gloves": "Uncommon",
+				"H.A.M. robe": "Uncommon",
+				"H.A.M. boots": "Uncommon",
+				"H.A.M. logo": "Uncommon",
+				"Rusty sword": "Uncommon",
+				"Damaged armour": "Uncommon",
+				"Uncut jade": "Uncommon",
+				"Grimy guam": "Uncommon",
+				"Grimy marrentill": "Uncommon",
+				"Grimy tarromin": "Uncommon",
+				"Buttons": "Uncommon",
+				"Iron stone spirit": "Uncommon",
+				"Coal stone spirit": "Uncommon",
+				"Steel studs": "Uncommon",
+				"Slayer's staff": "Rare",
+				"Sealed clue scroll (easy)": "1/55"
+			},
+			"Cave goblin": {
+				"Coins": "Common",
+				"Cave goblin wire": "Common",
+				"Iron stone spirit": "Common",
+				"Bat shish": "Uncommon",
+				"Coated frogs' legs": "Uncommon",
+				"Fingers": "Uncommon",
+				"Frogburger": "Uncommon",
+				"Frogspawn gumbo": "Uncommon",
+				"Green gloop soup": "Uncommon",
+				"Tinderbox": "Uncommon",
+				"Swamp tar": "Uncommon",
+				"Unlit torch": "Varies",
+				"Oil lantern (oil)": "Varies",
+				"Bullseye lantern (oil)": "Varies"
+			},
+			"Master farmer": {
+				"Potato seed": "Common",
+				"Onion seed": "Common",
+				"Cabbage seed": "Common",
+				"Tomato seed": "Common",
+				"Sweetcorn seed": "Common",
+				"Barley seed": "Common",
+				"Hammerstone seed": "Common",
+				"Asgarnian seed": "Common",
+				"Jute seed": "Common",
+				"Jangerberry seed": "Common",
+				"Marigold seed": "Common",
+				"Rosemary seed": "Common",
+				"Nasturtium seed": "Common",
+				"Marrentill seed": "Common",
+				"Tarromin seed": "Common",
+				"Harralander seed": "Common",
+				"Strawberry seed": "Uncommon",
+				"Yanillian seed": "Uncommon",
+				"Krandorian seed": "Uncommon",
+				"Redberry seed": "Uncommon",
+				"Whitebery seed": "Uncommon",
+				"Poison ivy seed": "Uncommon",
+				"Woad seed": "Uncommon",
+				"Limpwurt seed": "Uncommon",
+				"Guam seed": "Uncommon",
+				"Watermelon seed": "Rare",
+				"Wildblood seed": "Rare",
+				"Ranarr seed": "Rare",
+				"Toadflax seed": "Rare",
+				"Irit seed": "Rare",
+				"Bittercap mushroom spore": "Rare",
+				"Belladonna seed": "Rare",
+				"Cadavaberry seed": "Very rare",
+				"Dwellberry seed": "Very rare",
+				"Avantoe seed": "Very rare",
+				"Kwuarm seed": "Very rare",
+				"Snapdragon seed": "Very rare",
+				"Cadantine seed": "Very rare",
+				"Lantadyme seed": "Very rare",
+				"Dwarf weed seed": "Very rare",
+				"Torstol seed": "Very rare",
+				"Fellstalk seed": "Very rare",
+				"Morchella mushroom spore": "Very rare",
+				"Cactus seed": "Very rare"
+			},
+			"Bandit (Kharidian Desert Bandit Camp)": {
+				"Coins": "Common",
+				"Antipoison (1)": "Uncommon",
+				"Lockpick": "Uncommon",
+				"Court summons": "Rare"
+			},
+			"Knight of Ardougne": {
+				"Coins": "Common",
+				"Court summons": "Uncommon"
+			},
+			"Watchman": {
+				"Coins": "Always",
+				"Bread": "Always"				
+			},
+			"Paladin": {
+				"Coins": "Always",
+				"Chaos rune": "Always",
+				"Court summons": "Uncommon"
+			},
+			"Monkey knife fighter": {
+				"Coins": "Common",
+				"Black knife": "Common",
+				"Off-hand black knife": "Common",
+				"Lobster": "Uncommon",
+				"Small bladed mithril salvage": "Uncommon",
+				"Small bladed adamant salvage": "Rare",
+				"Medium bladed rune salvage": "Very rare",
+				"Dragon scimitar": "Very rare"
+			},
+			"Gnome": {
+				"Coins": "Common",
+				"Earth rune": "Common",
+				"Gold stone spirit": "Common",
+				"Swamp toad": "Common",
+				"King worm": "Common",
+				"Reed seed": "Uncommon",
+				"Fire orb": "Uncommon",
+				"Grapevine seed": "Uncommon",
+				"Sunchoke seed": "Rare",
+				"Barberry seed": "Rare",
+				"Prickly pear seed": "Rare",
+				"Butterfly flower seed": "Rare",
+				"Fly trap seed": "Rare",
+				"Snape grass seed": "Rare",
+				"Potato cactus seed": "Rare",
+				"Court summons": "Very rare"
+			},
+			"Hero": {
+				"Coins": "Common",
+				"Death rune": "Uncommon",
+				"Blood rune": "Uncommon",
+				"Gold stone spirit": "Uncommon",
+				"Jug of wine": "Uncommon",
+				"Fire orb": "Uncommon",
+				"Diamond": "Uncommon",
+				"Court summons": "Rare"
+			},
+			"Elf": {
+				"Coins": "Common",
+				"Jug of wine": "Common",
+				"Death rune": "Common",
+				"Nature rune": "Common",
+				"Prickly pear seed": "Uncommon",
+				"Sunchoke seed": "Uncommon",
+				"Fly trap seed": "Uncommon",
+				"Fire orb": "Uncommon",
+				"Butterfly flower seed": "Uncommon",
+				"Barberry seed": "Uncommon",
+				"Snape grass seed": "Uncommon",
+				"Potato cactus seed": "Uncommon",
+				"Gold stone spirit": "Uncommon",
+				"Diamond": "Uncommon",
+				"Reed seed": "Uncommon",
+				"Grapevine seed": "Uncommon",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare"
+			},
+			"Trader": {
+				"Coins": "Common",
+				"Copper stone spirit": "Common",
+				"Tin stone spirit": "Common",
+				"Iron stone spirit": "Common",
+				"Coal stone spirit": "Common",
+				"Mithril stone spirit": "Common",
+				"Barberry seed": "Common",
+				"Butterfly flower seed": "Common",
+				"Fly trap seed": "Common",
+				"Prickly pear seed": "Common",
+				"Sunchoke seed": "Common",
+				"Potato cactus seed": "Uncommon",
+				"Reed seed": "Uncommon",
+				"Adamantite stone spirit": "Rare",
+				"Runite stone spirit": "Rare",
+				"Grapevine seed": "Rare",
+				"Snape grass seed": "Rare",
+				"Court summons": "Rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Sealed clue scroll (hard)": "1/480"
+			},
+			"Rogue": {
+				"Coins": "Always",
+				"Bloodweed seed": "Very rare"
+			},
+			"Rogue captain": {
+				"Coins": "Common",
+				"Bloodweed seed": "Very rare",
+				"Wilderness hilt": "Very rare",
+				"Preserved meat": "Very rare",
+				"Dragonfruit seed": "Unknown",
+				"Mango seed": "Unknown",
+				"Stinkhorn spore": "Unknown",
+				"Ciku seed": "Unknown",
+				"Fremennik equipment patch": "Unknown"
+			},
+			"Waiko islander": {
+				"Chimes": "Common",
+				"Bamboo": "Uncommon",
+				"Raw tarpon": "Uncommon",
+				"Shell chippings": "Uncommon",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Cyclops (Cyclosis)": {
+				"Chimes": "Common",
+				"Positive energy": "Uncommon",
+				"Negative energy": "Uncommon",
+				"Sea salt": "Uncommon",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Rumberry seed": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Iorwerth worker": {
+				"Coins": "Always",
+				"Adamantite stone spirit": "Common",
+				"Super defence (1)": "Common",
+				"Super attack (1)": "Common",
+				"Super strength (1)": "Common",
+				"Shark": "Uncommon",
+				"Crystal weapon seed": "Rare",
+				"Crystal motherlode shard": "Rare",
+				"Prifddinian musician's robe top": "Rare",
+				"Prifddinian musician's robe bottom": "Rare",
+				"Prifddinian musician's gloves": "Rare",
+				"Prifddinian musician's boots": "Rare",
+				"Brawling gloves (Melee)": "Very rare",
+				"Iorwerth symbol piece": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Crystal acorn": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Ithell worker": {
+				"Coins": "Always",
+				"Oak plank": "Common",
+				"Soft clay": "Uncommon",
+				"Soda ash": "Uncommon",
+				"Teak plank": "Uncommon",
+				"Harmonic dust": "Uncommon",
+				"Crystal weapon seed": "Rare",
+				"Crystal armour seed": "Rare",
+				"Crystal tool seed": "Rare",
+				"Crystal motherlode shard": "Rare",
+				"Prifddinian musician's robe top": "Rare",
+				"Prifddinian musician's robe bottom": "Rare",
+				"Prifddinian musician's gloves": "Rare",
+				"Prifddinian musician's boots": "Rare",
+				"Brawling gloves (Thieving)": "Very rare",
+				"Ithell symbol piece": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Crystal acorn": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Cadarn worker": {
+				"Coins": "Always",
+				"Shark": "Common",
+				"Unpowered orb": "Common",
+				"Bowstring": "Common",
+				"Super ranging potion (1)": "Uncommon",
+				"Super magic potion (1)": "Uncommon",
+				"Crystal weapon seed": "Rare",
+				"Crystal motherlode shard": "Rare",
+				"Prifddinian musician's robe top": "Rare",
+				"Prifddinian musician's robe bottom": "Rare",
+				"Prifddinian musician's gloves": "Rare",
+				"Prifddinian musician's boots": "Rare",
+				"Brawling gloves (Magic)": "Very rare",
+				"Brawling gloves (Ranged)": "Very rare",
+				"Cadarn symbol piece": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Crystal acorn": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Amlodd worker": {
+				"Coins": "Always",
+				"Radiant energy": "Common",
+				"Luminous energy": "Common",
+				"Incandescent energy": "Common",
+				"Gold charm": "Common",
+				"Green charm": "Common",
+				"Crimson charm": "Common",
+				"Blue charm": "Common",
+				"Portent of restoration VIII": "Uncommon",
+				"Portent of restoration IX": "Uncommon",
+				"Sign of the porter IV": "Uncommon",
+				"Crystal weapon seed": "Rare",
+				"Truthful shadow core": "Rare",
+				"Blissful shadow core": "Rare",
+				"Manifest shadow core": "Rare",
+				"Crystal motherlode shard": "Rare",
+				"Prifddinian musician's robe top": "Rare",
+				"Prifddinian musician's robe bottom": "Rare",
+				"Prifddinian musician's gloves": "Rare",
+				"Prifddinian musician's boots": "Rare",
+				"Brawling gloves (Hunter)": "Very rare",
+				"Amlodd symbol piece": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Crystal acorn": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Trahaearn worker": {
+				"Coins": "Always",
+				"Coal stone spirit": "Common",
+				"Gold stone spirit": "Common",
+				"Adamantite stone spirit": "Uncommon",
+				"Dwarven stout (m)": "Uncommon",
+				"Corrupted ore": "Rare",
+				"Crystal weapon seed": "Rare",
+				"Crystal motherlode shard": "Rare",
+				"Prifddinian musician's robe top": "Rare",
+				"Prifddinian musician's robe bottom": "Rare",
+				"Prifddinian musician's gloves": "Rare",
+				"Prifddinian musician's boots": "Rare",
+				"Brawling gloves (Smithing)": "Very rare",
+				"Brawling gloves (Mining)": "Very rare",
+				"Trahaearn symbol piece": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Crystal acorn": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Hefin worker": {
+				"Coins": "Always",
+				"Summer pie": "Common",
+				"Agility potion (1)": "Common",
+				"Super energy (1)": "Common",
+				"Accursed ashes": "Common",
+				"Dragon bones": "Uncommon",
+				"Hefin course multiplier": "Uncommon",
+				"Cleansing crystal": "Rare",
+				"Crystal motherlode shard": "Rare",
+				"Prifddinian musician's robe top": "Rare",
+				"Prifddinian musician's robe bottom": "Rare",
+				"Prifddinian musician's gloves": "Rare",
+				"Prifddinian musician's boots": "Rare",
+				"Brawling gloves (Agility)": "Very rare",
+				"Brawling gloves (Prayer)": "Very rare",
+				"Hefin symbol piece": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Crystal acorn": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Crwys worker": {
+				"Coins": "Always",
+				"Flax": "Common",
+				"Yew logs": "Common",
+				"Magic logs": "Uncommon",
+				"Supercompost": "Uncommon",
+				"Crystal weapon seed": "Rare",
+				"Crystal motherlode shard": "Rare",
+				"Prifddinian musician's robe top": "Rare",
+				"Prifddinian musician's robe bottom": "Rare",
+				"Prifddinian musician's gloves": "Rare",
+				"Prifddinian musician's boots": "Rare",
+				"Maple sapling": "Very rare",
+				"Pineapple sapling": "Very rare",
+				"Brawling gloves (FM)": "Very rare",
+				"Brawling gloves (WC)": "Very rare",
+				"Crwys symbol piece": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Crystal acorn": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Meilyr worker": {
+				"Coins": "Always",
+				"Snape grass": "Common",
+				"Dragon scale dust": "Common",
+				"Dungeoneering token": "Common",
+				"Harmony moss seed": "Uncommon",
+				"Crushed nest": "Uncommon",
+				"Zamorak's favour (1)": "Uncommon",
+				"Crystal motherlode shard": "Rare",
+				"Prifddinian musician's robe top": "Rare",
+				"Prifddinian musician's robe bottom": "Rare",
+				"Prifddinian musician's gloves": "Rare",
+				"Prifddinian musician's boots": "Rare",
+				"Brawling gloves (Fishing)": "Very rare",
+				"Meilyr symbol piece": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare",
+				"Crystal acorn": "Very rare",
+				"Sealed clue scroll (hard)": "1/640",
+				"Sealed clue scroll (elite)": "99/128000",
+				"Sealed clue scroll (master)": "1/128000"
 			}
 		},
 		"Woodcutting": {
