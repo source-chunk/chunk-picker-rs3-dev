@@ -2253,6 +2253,7 @@
 			},
 			"Pickpocket a ~|bearded Pollnivnian bandit|~": {
 				"Level": 45,
+				"Items": ["Blackjack+"],
 				"Monsters": ["Bearded Pollnivnian bandit"],
 				"Output": "Coins",
 				"Primary": true,
@@ -2281,6 +2282,7 @@
 			},
 			"Pickpocket a ~|bandit (Pollnivneach)|~": {
 				"Level": 55,
+				"Items": ["Blackjack+"],
 				"Monsters": ["Bandit (Pollnivneach)"],
 				"Output": "Coins",
 				"Primary": true,
@@ -2302,6 +2304,7 @@
 			},
 			"Pickpocket a ~|Menaphite thug|~": {
 				"Level": 65,
+				"Items": ["Blackjack+"],
 				"Monsters": ["Menaphite thug"],
 				"Output": "Coins",
 				"Primary": true,
@@ -2347,7 +2350,7 @@
 				"NPCs": ["Trader"],
 				"Output": "Trader",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Pickpocket a ~|rogue|~": {
 				"Level": 32,
@@ -2361,7 +2364,7 @@
 				"Monsters": ["Rogue enforcer"],
 				"Output": "Rogue",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Pickpocket a ~|rogue captain|~": {
 				"Level": 92,
@@ -2410,7 +2413,7 @@
 				"NPCs": ["Amlodd worker"],
 				"Output": "Amlodd worker",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Pickpocket a ~|Trahaearn worker|~": {
 				"Level": 95,
@@ -2424,7 +2427,7 @@
 				"NPCs": ["Hefin worker"],
 				"Output": "Hefin worker",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Pickpocket a ~|Crwys worker|~": {
 				"Level": 97,
@@ -2437,6 +2440,360 @@
 				"Level": 98,
 				"NPCs": ["Meilyr worker"],
 				"Output": "Meilyr worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|vegetable stall|~": {
+				"Level": 2,
+				"Objects": ["Vegetable stall"],
+				"Output": "Vegetable stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|bakery stall|~": {
+				"Level": 5,
+				"Objects": ["Bakery stall"],
+				"Output": "Bakery stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from ~|Ifaba's general store|~": {
+				"Level": 5,
+				"Objects": ["General stall"],
+				"Output": "General stall",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Steal from a ~|tea stall|~": {
+				"Level": 5,
+				"Objects": ["Tea stall"],
+				"Output": "Cup of tea",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|crafting stall|~": {
+				"Level": 5,
+				"Objects": ["Crafting stall"],
+				"Output": "Crafting stall",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal from ~|Solihib's food stall|~": {
+				"Level": 5,
+				"Objects": ["Food stall"],
+				"Output": "Banana",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Steal from a ~|rock cake stall|~": {
+				"Level": 15,
+				"Objects": ["Rock cake stall"],
+				"Output": "Rock cake",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal from a ~|silk stall|~": {
+				"Level": 15,
+				"Objects": ["Silk stall"],
+				"Output": "Silk",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Steal from a ~|wine stall|~": {
+				"Level": 22,
+				"Objects": ["Wine stall"],
+				"Output": "Wine stall",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from the Draynor ~|wine stall|~": {
+				"Level": 22,
+				"Objects": ["Draynor wine stall"],
+				"Output": "Draynor wine stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|seed stall|~": {
+				"Level": 27,
+				"Objects": ["Seed stall"],
+				"Output": "Seed stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|fur stall|~": {
+				"Level": 35,
+				"Objects": ["Fur stall"],
+				"Output": "Fur stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|fish stall|~": {
+				"Level": 42,
+				"Objects": ["Fish stall"],
+				"Output": "Fish stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|lamp stall|~": {
+				"Level": 46,
+				"Objects": ["Lamp stall"],
+				"Output": "Lamp stall",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|crossbow stall|~": {
+				"Level": 49,
+				"Objects": ["Crossbow stall"],
+				"Output": "Crossbow stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|silver stall|~": {
+				"Level": 50,
+				"Objects": ["Silver stall"],
+				"Output": "Silver stone spirit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from ~|customs evidence files|~": {
+				"Level": 63,
+				"Objects": ["Cabinet (rocking)"],
+				"Output": "Customs evidence",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from ~|Tutab's Magical Market|~": {
+				"Level": 65,
+				"Objects": ["Magic stall"],
+				"Output": "Magic stall",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal from ~|Daga's Scimitar Smithy|~": {
+				"Level": 65,
+				"Objects": ["Scimitar stall"],
+				"Output": "Scimitar stall",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Steal from a ~|spice stall|~": {
+				"Level": 65,
+				"Objects": ["Spice stall"],
+				"Output": "Spice",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Steal from a ~|gem stall|~": {
+				"Level": 75,
+				"Objects": ["Gem stall"],
+				"Output": "Gem stall",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|10-coins chest|~": {
+				"Level": 13,
+				"Chunks": ["10-coin chest+"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from an ~|ogre coffin|~": {
+				"Level": 20,
+				"Chunks": ["9775"],
+				"Output": "Ogre coffin",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Steal from a ~|chest (magic axe hut)|~": {
+				"Level": 23,
+				"Chunks": ["12605"],
+				"Output": "Magic axe chest",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|nature-rune chest|~": {
+				"Level": 28,
+				"Chunks": ["Nature-rune chest+"],
+				"Output": "Nature rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|50-coin chest|~": {
+				"Level": 43,
+				"Chunks": ["50-coin chest+"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from an ~|arrowhead chest|~": {
+				"Level": 47,
+				"Chunks": ["Arrowhead chest+"],
+				"Output": "Steel arrowheads",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|blood rune chest|~": {
+				"Level": 59,
+				"Chunks": ["10292"],
+				"Output": "Blood rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|paladin chest|~": {
+				"Level": 72,
+				"Chunks": ["10291", "10803"],
+				"Output": "Paladin chest",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|chest (rogues' castle)|~": {
+				"Level": 13,
+				"Items": ["Lockpick"],
+				"Chunks": ["13117"],
+				"Output": "Rogue chest",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|chest (Dorgesh-Kaan)|~": {
+				"Level": 52,
+				"Items": ["Lockpick"],
+				"Chunks": ["9759"],
+				"Output": "Average chest",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|chest (Oldak)|~": {
+				"Level": 52,
+				"Items": ["Lockpick"],
+				"Chunks": ["9759"],
+				"Output": "Oldak chest",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|chest (Zanik)|~": {
+				"Level": 52,
+				"Items": ["Lockpick"],
+				"Chunks": ["9759"],
+				"Output": "Zanik chest",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal from a ~|chest (Dorgesh-Kaan, gem)|~": {
+				"Level": 78,
+				"Items": ["Lockpick"],
+				"Chunks": ["9759"],
+				"Output": "Rich chest",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to a ~|10-coins chest|~": {
+				"Level": 1,
+				"Chunks": ["10547"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Lockpick the door to a ~|nature-rune chest|~": {
+				"Level": 14,
+				"Chunks": ["10547"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to an ~|Ardougne house|~": {
+				"Level": 14,
+				"Chunks": ["10547"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Lockpick the entrance to the ~|H.A.M. hideout|~": {
+				"Level": 15,
+				"Chunks": ["12850"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Lockpick the door to the ~|magic axe hut|~": {
+				"Level": 23,
+				"Items": ["Lockpick"],
+				"Chunks": ["12605"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the gate in the ~|Ardougne sewers|~": {
+				"Level": 31,
+				"Chunks": ["10647"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to the ~|pirates' hideout|~": {
+				"Level": 39,
+				"Chunks": ["12093"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to the ~|chaos druid tower|~": {
+				"Level": 46,
+				"Chunks": ["10292"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to the ~|paladin chest|~": {
+				"Level": 61,
+				"Chunks": ["10291"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to the ~|Yanille agility dungeon|~": {
+				"Level": 82,
+				"Items": ["Lockpick"],
+				"Chunks": ["10288"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack a ~|safe|~ in Misthalin": {
+				"Level": 62,
+				"Chunks": ["Thievesguild+", "Misthalin safes+"],
+				"Output": "Safes low",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack a ~|safe|~ in the Kharidian Desert": {
+				"Level": 69,
+				"Chunks": ["Thievesguild+", "Kharidian safes+"],
+				"Output": "Safes low",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack a ~|safe|~ in Asgarnia": {
+				"Level": 76,
+				"Chunks": ["Thievesguild+", "Asgarnian safes+"],
+				"Output": "Safes low",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack a ~|safe|~ in Kandarin": {
+				"Level": 83,
+				"Chunks": ["Thievesguild+", "Kandarin safes+"],
+				"Output": "Safes high",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack the ~|safes|~ in Zemouregal's fort": {
+				"Level": 96,
+				"Chunks": ["Thievesguild+", "11324"],
+				"Output": "Safes high",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack the ~|safes|~ in Zanaris": {
+				"Level": 94,
+				"Chunks": ["Thievesguild+", "9540"],
+				"Output": "Safes high",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack the ~|safe|~ in the rogues' castle": {
+				"Level": 90,
+				"Chunks": ["Thievesguild+", "13117"],
+				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 1
 			}
@@ -3899,7 +4256,7 @@
 				"Bookcase": 22,
 				"Sacks": 1,
 				"Onion": 9,
-				"Seed Stall": 2,
+				"Seed stall": 2,
 				"Telescope": 1,
 				"Fairy ring": 1,
 				"Small obelisk": 1,
@@ -10314,7 +10671,7 @@
 				"Bookcase": 22,
 				"Sacks": 1,
 				"Onion": 9,
-				"Seed Stall": 1,
+				"Seed stall": 1,
 				"Telescope": 1,
 				"Redberry bush": 4,
 				"Small obelisk": 1,
@@ -10806,7 +11163,7 @@
 				"Coeden's Seed Store": true,
 				"Loyalty Programme Shop": true,
 				"Haf's Battlestaves": true,
-				"Diango's Toy Stall": true
+				"Diango's Toy stall": true
 			},
 			"Nickname": "Central Prifddinas"
 		},
@@ -12772,7 +13129,7 @@
 				"Azzanadra": 1
 			},
 			"Shop": {
-				"Yaktwee's Invizzy Critters Stall": true
+				"Yaktwee's Invizzy Critters stall": true
 			},
 			"Nickname": "Arandar gate"
 		},
@@ -14582,7 +14939,8 @@
 				"Battlement": 2,
 				"Obelisk": 1,
 				"Oak": 1,
-				"Tree": 6
+				"Tree": 6,
+				"Rock cake stall": 1
 			},
 			"Monster": {
 				"Ogre": 10,
@@ -14608,7 +14966,7 @@
 				"Knife": 1
 			},
 			"Shop": {
-				"Grud's Herblore Stall": true,
+				"Grud's Herblore stall": true,
 				"Dal's General Ogre Supplies": true,
 				"Summoning Supplies": true
 			},
@@ -14655,7 +15013,7 @@
 				"Bones": 9,
 				"White candle (lit)": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Yanille"
 		},
 		"10033": {
 			"Object": {
@@ -15730,7 +16088,7 @@
 				"Farming Supplies": true,
 				"Pet shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Yanille"
 		},
 		"10289": {
 			"Object": {
@@ -15900,7 +16258,7 @@
 			"Shop": {
 				"Aemad's Adventuring Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ardougne Castle"
 		},
 		"10292": {
 			"Object": {
@@ -16681,7 +17039,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Hazelmere's Island"
 		},
 		"10545": {
 			"Object": {
@@ -16691,7 +17049,7 @@
 				"Range": 2,
 				"Fire": 1,
 				"Boxes": 1,
-				"Antiques Shop Stall": 1,
+				"Antiques Shop stall": 1,
 				"Bank deposit box": 1,
 				"Crate": 3,
 				"Small obelisk": 1,
@@ -16765,7 +17123,7 @@
 				"Crate": 22,
 				"Silver stall": 1,
 				"Silk stall": 2,
-				"Baker's stall": 2,
+				"Bakery stall": 2,
 				"Gem stall": 1,
 				"Spice stall": 1,
 				"Fur stall": 1,
@@ -16832,13 +17190,13 @@
 				"Garlic": 1
 			},
 			"Shop": {
-				"Bakery Stall": true,
+				"Bakery stall": true,
 				"The Poison Arrow": true,
 				"Sandwich Lady Bakery": true,
-				"Ardougne Fur Stall": true,
-				"Ardougne Gem Stall": true,
-				"Ardougne Silver Stall": true,
-				"Ardougne Spice Stall": true,
+				"Ardougne Fur stall": true,
+				"Ardougne Gem stall": true,
+				"Ardougne Silver stall": true,
+				"Ardougne Spice stall": true,
 				"Zenesha's Platebody Shop": true
 			},
 			"Nickname": "Ardougne Market"
@@ -18554,7 +18912,7 @@
 		},
 		"11031": {
 			"Object": {
-				"Cabinet": 17,
+				"Cabinet (rocking)": 17,
 				"Locker": 4,
 				"Desk": 1,
 				"Poster": 1,
@@ -18620,11 +18978,11 @@
 				"Jungle Tree": 23,
 				"Pineapple Plant": 1,
 				"Gorilla Statue": 2,
-				"Crafting Stall": 1,
-				"Food Stall": 1,
-				"General Stall": 1,
-				"Magic Stall": 1,
-				"Scimitar Stall": 1,
+				"Crafting stall": 1,
+				"Food stall": 1,
+				"General stall": 1,
+				"Magic stall": 1,
+				"Scimitar stall": 1,
 				"Small obelisk": 1,
 				"Crates": 2,
 				"Pile of bananas": 1
@@ -18675,7 +19033,7 @@
 				"Solihib's Food Stall": true,
 				"Tutab's Magical Market": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Marim"
 		},
 		"11053": {
 			"Object": {
@@ -18755,8 +19113,8 @@
 			"Shop": {
 				"Gabooty's Tai Bwo Wannai Cooperative": true,
 				"Gabooty's Tai Bwo Wannai Drinky Store": true,
-				"Tamayu's Spear Stall": true,
-				"Tiadeche's Karambwan Stall": true
+				"Tamayu's Spear stall": true,
+				"Tiadeche's Karambwan stall": true
 			},
 			"Nickname": "South Tai Bwo Wannai"
 		},
@@ -18960,13 +19318,13 @@
 				"Yew": 8,
 				"Tree": 4,
 				"Range": 1,
-				"Bakery Stall": 1,
-				"Wine Stall": 2,
-				"Ardougne": 1,
+				"Bakery stall": 1,
+				"Wine stall": 2,
 				"Well": 1,
-				"Fish Stall": 2,
+				"Fish stall": 2,
 				"Bank deposit box": 1,
-				"Beehive": 8
+				"Beehive": 8,
+				"Vegetable stall": 2
 			},
 			"Monster": {
 				"Man": 2,
@@ -19012,10 +19370,7 @@
 				"Statue": 1,
 				"Oak": 5,
 				"Tree": 11,
-				"Evergreen": 15,
-				"Camelot Castle": 1,
-				"Catherby": 1,
-				"Seers' Village": 1
+				"Evergreen": 15
 			},
 			"Monster": {
 				"Unicorn": 1,
@@ -21777,7 +22132,7 @@
 				"Bookcase": 2,
 				"Well": 2,
 				"Sink": 1,
-				"Gem Stall": 1,
+				"Gem stall": 1,
 				"Bakery stall": 1,
 				"Silver stall": 1,
 				"Clothes stall": 1,
@@ -23345,7 +23700,7 @@
 			"Spawn": {
 				"Redberry pie": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Pirates' Hideout"
 		},
 		"12100": {
 			"Object": {
@@ -23925,7 +24280,7 @@
 				"Bookcase": 1,
 				"Sacks": 1,
 				"Onion": 9,
-				"Seed Stall": 2,
+				"Seed stall": 2,
 				"Telescope": 1,
 				"Fairy ring": 1,
 				"Small obelisk": 1,
@@ -23933,13 +24288,11 @@
 				"Oak": 12,
 				"Tree": 26,
 				"Dead tree": 5,
-				"Lumbridge": 1,
-				"Wizards' Tower": 1,
-				"Draynor Village": 1,
 				"Energy rift": 1,
 				"Wisp Colony Map": 1,
 				"Fishing spot (net(small)/bait)": 2,
-				"Elder tree": 1
+				"Elder tree": 1,
+				"Draynor wine stall": 1
 			},
 			"NPC": {
 				"Musician": 1,
@@ -25778,16 +26131,17 @@
 				"Bookcase": 2,
 				"Boxes": 1,
 				"Clan Cup plaque": 1,
-				"Bakery Stall": 1,
-				"Wine Stall": 1,
-				"Seed Stall": 2,
-				"Crafting Stall": 1,
+				"Bakery stall": 1,
+				"Wine stall": 1,
+				"Seed stall": 2,
+				"Crafting stall": 1,
 				"Bank chest": 1,
 				"Anvil": 1,
 				"Forge": 1,
 				"Furnace": 1,
 				"Fishing spot (lure/bait)": 5,
-				"Canoe": 1
+				"Canoe": 1,
+				"Vegetable stall": 2
 			},
 			"NPC": {
 				"Hans": 1,
@@ -25892,9 +26246,9 @@
 				"Sink": 1,
 				"Water barrel": 3,
 				"Prized dairy cow": 1,
-				"Bakery Stall": 1,
-				"Wine Stall": 1,
-				"Crafting Stall": 1
+				"Bakery stall": 1,
+				"Wine stall": 1,
+				"Crafting stall": 1
 			},
 			"Monster": {
 				"Farmer": 3,
@@ -25930,7 +26284,7 @@
 				"Egg": 3,
 				"Super large egg": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Groats' Farm"
 		},
 		"12852": {
 			"Object": {
@@ -25955,8 +26309,6 @@
 				"Yew": 1,
 				"Tree": 8,
 				"Boxes": 1,
-				"Lumbridge, Al Kharid": 1,
-				"Champions' Guild": 1,
 				"Water barrel": 3,
 				"Dairy churn": 1,
 				"Food trough": 1,
@@ -26993,7 +27345,7 @@
 				"Ali's Discount Wares": true,
 				"Gem Trader stall": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North Al Kharid"
 		},
 		"13107": {
 			"Object": {
@@ -39475,7 +39827,7 @@
                 "Gold rock": 1,
 				"Spinning Machine": 1,
                 "Well": 2,
-                "Gem Stall": 1,
+                "Gem stall": 1,
                 "Bakery stall": 1,
                 "Silver stall": 1,
                 "Clothes stall": 1,
@@ -47637,10 +47989,19 @@
 			"Orikalkumpick+": ["Orikalkum pickaxe", "Orikalkum pickaxe + 1", "Orikalkum pickaxe + 2", "Orikalkum pickaxe + 3"],
 			"Necroniumpick+": ["Necronium pickaxe", "Necronium pickaxe + 1", "Necronium pickaxe + 2", "Necronium pickaxe + 3", "Necronium pickaxe + 4"],
 			"Banepick+": ["Bane pickaxe", "Bane pickaxe + 1", "Bane pickaxe + 2", "Bane pickaxe + 3", "Bane pickaxe +4"],
-			"Elderpick+": ["Elder rune pickaxe", "Elder rune pickaxe + 1", "Elder rune pickaxe + 2", "Elder rune pickaxe + 3", "Elder rune pickaxe + 4", "Elder rune pickaxe + 5"]
+			"Elderpick+": ["Elder rune pickaxe", "Elder rune pickaxe + 1", "Elder rune pickaxe + 2", "Elder rune pickaxe + 3", "Elder rune pickaxe + 4", "Elder rune pickaxe + 5"],
+			"Blackjack+": ["Oak-blackjack", "Willow-blackjack", "Maple-blackjack", "Rubber-blackjack", "Oak-blackjack (o)", "Oak-blackjack (d)", "Willow-blackjack (o)", "Willow-blackjack(d)", "Maple-blackjack(o)", "Maple-blackjack(d)"]
 		},
 		"chunksPlus": {
-			"Thievesguild+": ["18522", "19034"]
+			"Thievesguild+": ["18522", "19034"],
+			"10-coin chest+": ["10291", "10547", "10553", "12109"],
+			"Nature-rune chest+": ["10291", "10547", "10553"],
+			"50-coin chest+": ["10291", "10547"],
+			"Arrowhead chest+": ["10549", "10553"],
+			"Misthalin safes+": ["12337", "12338", "12340", "12342", "12850", "12854"],
+			"Kharidian safes+": ["12329", "12330", "12585", "12843", "13105", "13358", "13613"],
+			"Asgarnian safes+": ["11575", "11828", "12082", "12084", "12087"],
+			"Kandarin safes+": ["10032", "10291", "10547", "10806"]
 		},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
@@ -72837,6 +73198,266 @@
 				"Sealed clue scroll (hard)": "1/640",
 				"Sealed clue scroll (elite)": "99/128000",
 				"Sealed clue scroll (master)": "1/128000"
+			},
+			"Vegetable stall": {
+				"Raw potato": "360/1267",
+				"Onion": "255/1267",
+				"Cabbage": "250/1267",
+				"Tomato": "276/1267",
+				"Garlic": "126/1267"
+			},
+			"Bakery stall": {
+				"Cake": "395/560",
+				"Bread": "105/560",
+				"Chocolate slice": "60/560"
+			},
+			"General stall": {
+				"Empty pot": "1/3",
+				"Hammer": "1/3",
+				"Tinderbox": "1/3"
+			},
+			"Crafting stall": {
+				"Chisel": "1/3",
+				"Necklace mould": "1/3",
+				"Ring mould": "1/3"
+			},
+			"Wine stall": {
+				"Jug": "56/140",
+				"Jug of water": "25/140",
+				"Grapes": "23/140",
+				"Jug of wine": "22/130",
+				"Bottle of wine": "14/140"
+			},
+			"Draynor wine stall": {
+				"Jug of wine": "257/1058",
+				"Grapes": "372/1058",
+				"Jug of water": "416/1058",
+				"Wine of Guthix": "6/1058",
+				"Wine of Saradomin": "4/1058",
+				"Wine of Zamorak": "3/1058"
+			},
+			"Seed stall": {
+				"Hammerstone seed": "Common",
+				"Potato seed": "Common",
+				"Marigold seed": "Common",
+				"Onion seed": "Common",
+				"Barley seed": "Common",
+				"Asgarnian seed": "Common",
+				"Cabbage seed": "Common",
+				"Yanillian seed": "Common",
+				"Jute seed": "Uncommon",
+				"Tomato seed": "Uncommon",
+				"Sweetcorn seed": "Uncommon",
+				"Rosemary seed": "Uncommon",
+				"Nasturtium seed": "Uncommon",
+				"Krandorian seed": "Rare",
+				"Wildblood seed": "Rare",
+				"Watermelon seed": "Rare",
+				"Strawberry seed": "Rare",
+				"Dwellberry seed": "Rare"
+			},
+			"Fur stall": {
+				"Fur": "Unknown",
+				"Grey wolf fur": "Unknown"
+			},
+			"Fish stall": {
+				"Raw salmon": "105/140",
+				"Raw tuna": "30/140",
+				"Raw lobster": "5/140"
+			},
+			"Lamp stall": {
+				"Small XP lamp": "Rare",
+				"Fly dragon in amber": "Very rare"
+			},
+			"Crossbow stall": {
+				"Bronze bolts": "Unknown",
+				"Bronze limbs": "Unknown",
+				"Wooden stock": "Unknown"
+			},
+			"Customs evidence": {
+				"Coins": "Common",
+				"Small bladed bronze salvage": "Common",
+				"Small bladed iron salvage": "Common",
+				"Small bladed steel salvage": "Common",
+				"Iron stone spirit": "Common",
+				"Pirate shirt (brown)": "Common",
+				"Pirate boots": "Common",
+				"Eye patch": "Common",
+				"Tiny bladed steel salvage": "Uncommon",
+				"Gold stone spirit": "Uncommon",
+				"Mithril stone spirit": "Uncommon",
+				"Uncut sapphire": "Uncommon",
+				"Uncut emerald": "Uncommon",
+				"Uncut ruby": "Uncommon",
+				"Shark": "Uncommon",
+				"Medium bladed rune salvage": "Rare",
+				"Uncut diamond": "Rare",
+				"Sealed clue scroll (medium)": "Very rare"
+			},
+			"Magic stall": {
+				"Air rune": "Unknown",
+				"Earth rune": "Unknown",
+				"Fire rune": "Unknown",
+				"Water rune": "Unknown",
+				"Law rune": "Unknown"
+			},
+			"Scimitar stall": {
+				"Iron scimitar": "Unknown",
+				"Steel scimitar": "Unknown"
+			},
+			"Gem stall": {
+				"Uncut sapphire": "24/28",
+				"Uncut emerald": "4/28",
+				"Uncut ruby": "Rare",
+				"Uncut Diamond": "Very rare"
+			},
+			"Magic axe chest": {
+				"Coins": "2206/5178",
+				"Anchovy pizza": "838/5178",
+				"Tiny bladed steel salvage": "508/5178",
+				"Medium bladed steel salvage": "499/5178",
+				"Medium bladed mithril salvage": "250/5178",
+				"Tiny bladed mithril salvage": "250/5178",
+				"Muddy key": "197/5178",
+				"Medium bladed adamant salvage": "172/5178",
+				"Tiny bladed adamant salvage": "154/5178",
+				"Large bladed rune salvage": "69/5178",
+				"Tiny bladed rune salvage": "44/5178",
+				"Medium bladed rune salvage": "7/5178"
+			},
+			"Ogre coffin": {
+				"Zogre bones": "64/128",
+				"Fayrg bones": "14/128",
+				"Raurg bones": "10/128",
+				"Ourg bones": "5/128",
+				"Coins": "Common",
+				"Bronze hatchet": "Common",
+				"Iron hatchet": "Common",
+				"Steel hatchet": "Common",
+				"Tiny spiky bronze salvage": "Common",
+				"Tiny spiky iron salvage": "Common",
+				"Tiny spiky steel salvage": "Common",
+				"Medium spiky bronze salvage": "Common",
+				"Medium spiky iron salvage": "Common",
+				"Medium spiky steel salvage": "Common",
+				"Bronze nails": "Common",
+				"Iron nails": "Common",
+				"Steel nails": "Common",
+				"Black nails": "Common",
+				"Knife": "Common",
+				"Rusty sword": "Uncommon",
+				"Damaged armour": "Uncommon",
+				"Leather body": "Uncommon",
+				"Tinderbox": "Uncommon",
+				"Buttons": "Rare",
+				"Uncut opal": "Rare",
+				"Uncut jade": "Rare",
+				"Grimy lantadyme": "Rare",
+				"Sealed clue scroll (easy)": "1/100"
+			},
+			"Paladin chest": {
+				"Coins": "Always",
+				"Raw shark": "Always",
+				"Adamantite stone spirit": "Always",
+				"Uncut sapphire": "Always"
+			},
+			"Rogue chest": {
+				"Coins": "Common",
+				"Blood rune": "Uncommon",
+				"Gold stone spirit": "Uncommon",
+				"Tine plate steel salvage": "Uncommon",
+				"Medium plated steel salvage": "Uncommon"
+			},
+			"Average chest": {
+				"Coins": "666/1551",
+				"Mining helmet": "232/1551",
+				"Bullseye lantern (oil)": "225/1551",
+				"Cave goblin wire": "224/1551",
+				"Oil lantern (oil)": "215/1551",
+				"Frog-leather chaps": "Rare",
+				"Frog-leather body": "Rare",
+				"H.A.M. robe": "Very rare",
+				"Bone dagger": "Very rare",
+				"Earth talisman": "Very rare",
+				"Fire talisman": "Very rare",
+				"Dorgesk-Kaan sphere": "Very rare",
+				"Sealed clue scroll (easy)": "Very rare"
+			},
+			"Oldak chest": {
+				"Air rune": "84/1400",
+				"Fire rune": "84/1400",
+				"Earth rune": "76/1400",
+				"Cave goblin wire": "75/1400",
+				"Body rune": "72/1400",
+				"Fire talisman": "72/1400",
+				"Light orb": "71/1400",
+				"Empty light orb": "68/1400",
+				"Earth talisman": "68/1400",
+				"Nature rune": "67/1400",
+				"Law rune": "66/1400",
+				"Air talisman": "66/1400",
+				"Death rune": "65/1400",
+				"Unpowered orb": "64/1400",
+				"Chaos rune": "62/1400",
+				"Water rune": "61/1400",
+				"Dorgesh-Kaan sphere": "61/1400",
+				"Coins": "57/1400",
+				"Cosmic rune": "56/1400",
+				"Mind rune": "54/1400",
+				"Water talisman": "41/1400"
+			},
+			"Zanik chest": {
+				"Frog-leather body": "87/1728",
+				"Cave goblin wire": "87/1728",
+				"Sealed clue scroll (easy)": "87/1728",
+				"Spade": "87/1728",
+				"H.A.M. cloak": "85/1728",
+				"Newcomer map": "81/1728",
+				"H.A.M. shirt": "78/1728",
+				"Bucket": "78/1728",
+				"Dorgeshuun crossbow": "77/1728",
+				"Big bones": "77/1728",
+				"H.A.M. logo": "76/1728",
+				"Rope": "76/1728",
+				"Mining helmet": "76/1728",
+				"Bone dagger": "73/1728",
+				"H.A.M. boots": "71/1728",
+				"H.A.M. robe": "70/1728",
+				"Oil lantern (oil)": "70/1728",
+				"Bone bolts": "68/1728",
+				"Frog-leather chaps": "67/1728",
+				"Hammer": "67/1728",
+				"Bullseye lantern (oil)": "64/1728",
+				"H.A.M. gloves": "63/1728",
+				"H.A.M. hood": "62/1728"
+			},
+			"Rich chest": {
+				"Uncut red topaz": "75/1000",
+				"Mining helmet": "75/1000",
+				"Uncut opal": "73/1000",
+				"Uncut emerald": "70/1000",
+				"Light orb": "69/1000",
+				"Frog-leather body": "66/1000",
+				"Uncut ruby": "64/1000",
+				"Frog-leather chaps": "63/1000",
+				"Uncut jade": "61/1000",
+				"Cave goblin wire": "60/1000",
+				"Empty light orb": "56/1000",
+				"Uncut sapphire": "55/1000",
+				"Uncut diamond": "55/1000",
+				"Iron stone spirit": "54/1000",
+				"Bullseye lantern (oil)": "50/1000",
+				"Coins": "48/1000"
+			},
+			"Safes low": {
+				"Sealed clue scroll (medium)": "1/64",
+				"Sealed clue scroll (hard)": "Varies"
+			},
+			"Safes high": {
+				"Sealed clue scroll (medium)": "1/128",
+				"Sealed clue scroll (elite)": "1/128",
+				"Sealed clue scroll (master)": "1/1280",
+				"Sealed clue scroll (hard)": "Varies"
 			}
 		},
 		"Woodcutting": {
