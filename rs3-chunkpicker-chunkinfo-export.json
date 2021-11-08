@@ -993,7 +993,14 @@
 				"Priority": 1
 			}
 		},
-		"Defence": {},
+		"Defence": {
+			"Test a ~|defence|~": {
+				"Chunks": ["13882"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1
+			}
+		},
 		"Divination": {
 			"Harvest with a ~|cobalt skillchompa|~": {
 				"Items": ["Cobalt skillchompa"],
@@ -2368,7 +2375,14 @@
 				"Priority": 2
 			}
 		},
-		"Dungeoneering": {},
+		"Dungeoneering": {
+			"Test a ~|dungeoneering|~": {
+				"Chunks": ["13881"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1
+			}
+		},
 		"Farming": {
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 60,
@@ -17172,7 +17186,7 @@
 				"Chisel": 1,
 				"Knife": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Ardougne"
 		},
 		"10036": {
 			"Object": {
@@ -26683,7 +26697,7 @@
 			"NPC": {
 				"Will o' the wisp": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South-West Wilderness Volcano"
 		},
 		"12346": {
 			"Object": {
@@ -26695,7 +26709,7 @@
 			"Monster": {
 				"Skeleton": 10
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North-West Wilderness Volcano"
 		},
 		"12347": {
 			"Monster": {
@@ -27557,7 +27571,7 @@
 			"NPC": {
 				"Cursed wisp": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South-East Wilderness Volcano"
 		},
 		"12602": {
 			"Object": {
@@ -27570,7 +27584,7 @@
 				"Cursed wisp": 9,
 				"Enriched cursed wisp": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North-East Wilderness Volcano"
 		},
 		"12603": {
 			"Monster": {
