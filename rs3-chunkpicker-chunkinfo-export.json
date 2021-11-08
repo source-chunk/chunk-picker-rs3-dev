@@ -728,7 +728,242 @@
 		},
 		"Attack": {},
 		"Combat": {},
-		"Constitution": {},
+		"Constitution": {
+			"Create a ~|portent of restoration I|~": {
+				"Items": ["Portent of restoration I"],
+				"Level": 10,
+				"Primary": true,
+				"Skills": {
+					"Divination": 2
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration I|~": {
+				"Items": ["Attuned portent of restoration I"],
+				"Level": 10,
+				"Primary": true,
+				"Skills": {
+					"Divination": 5
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration II|~": {
+				"Items": ["Portent of restoration II"],
+				"Level": 15,
+				"Primary": true,
+				"Skills": {
+					"Divination": 15
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration II|~": {
+				"Items": ["Attuned portent of restoration II"],
+				"Level": 15,
+				"Primary": true,
+				"Skills": {
+					"Divination": 18
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration III|~": {
+				"Items": ["Portent of restoration III"],
+				"Level": 25,
+				"Primary": true,
+				"Skills": {
+					"Divination": 25
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration III|~": {
+				"Items": ["Attuned portent of restoration III"],
+				"Level": 25,
+				"Primary": true,
+				"Skills": {
+					"Divination": 27
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration IV|~": {
+				"Items": ["Portent of restoration IV"],
+				"Level": 30,
+				"Primary": true,
+				"Skills": {
+					"Divination": 35
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration IV|~": {
+				"Items": ["Attuned portent of restoration IV"],
+				"Level": 30,
+				"Primary": true,
+				"Skills": {
+					"Divination": 37
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration V|~": {
+				"Items": ["Portent of restoration V"],
+				"Level": 40,
+				"Primary": true,
+				"Skills": {
+					"Divination": 45
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration V|~": {
+				"Items": ["Attuned portent of restoration V"],
+				"Level": 40,
+				"Primary": true,
+				"Skills": {
+					"Divination": 47
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration VI|~": {
+				"Items": ["Portent of restoration VI"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Divination": 55
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration VI|~": {
+				"Items": ["Attuned portent of restoration VI"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Divination": 57
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration VII|~": {
+				"Items": ["Portent of restoration VII"],
+				"Level": 62,
+				"Primary": true,
+				"Skills": {
+					"Divination": 65
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration VII|~": {
+				"Items": ["Attuned portent of restoration VII"],
+				"Level": 62,
+				"Primary": true,
+				"Skills": {
+					"Divination": 67
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration VIII|~": {
+				"Items": ["Portent of restoration VIII"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Divination": 75
+				},
+				"Priority": 4
+			},
+			"Create a ~|attuned portent of restoration VIII|~": {
+				"Items": ["Attuned portent of restoration VIII"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Divination": 77
+				},
+				"Priority": 3
+			},
+			"Create a ~|portent of restoration IX|~": {
+				"Items": ["Portent of restoration IX"],
+				"Level": 88,
+				"Primary": true,
+				"Skills": {
+					"Divination": 86
+				},
+				"Priority": 4
+			},
+			"Create a ~|attuned portent of restoration IX|~": {
+				"Items": ["Attuned portent of restoration IX"],
+				"Level": 88,
+				"Primary": true,
+				"Skills": {
+					"Divination": 87
+				},
+				"Priority": 3
+			},
+			"Create a ~|portent of restoration X|~": {
+				"Items": ["Portent of restoration X"],
+				"Level": 95,
+				"Primary": true,
+				"Skills": {
+					"Divination": 97
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration X|~": {
+				"Items": ["Attuned portent of restoration X"],
+				"Level": 95,
+				"Primary": true,
+				"Skills": {
+					"Divination": 98
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of degradation I|~": {
+				"Items": ["Portent of degradation I"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Divination": 77
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of degradation I|~": {
+				"Items": ["Attuned portent of degradation I"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Divination": 77
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of degradation II|~": {
+				"Items": ["Portent of degradation II"],
+				"Level": 88,
+				"Primary": true,
+				"Skills": {
+					"Divination": 86
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of degradation II|~": {
+				"Items": ["Attuned portent of degradation II"],
+				"Level": 88,
+				"Primary": true,
+				"Skills": {
+					"Divination": 87
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of degradation III|~": {
+				"Items": ["Portent of degradation III"],
+				"Level": 93,
+				"Primary": true,
+				"Skills": {
+					"Divination": 97
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of degradation III|~": {
+				"Items": ["Attuned portent of degradation III"],
+				"Level": 93,
+				"Primary": true,
+				"Skills": {
+					"Divination": 97
+				},
+				"Priority": 1
+			}
+		},
 		"Construction": {
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 50,
@@ -794,6 +1029,1343 @@
 				"NPCs": ["Wisp+"],
 				"Primary": false,
 				"Priority": 1
+			},
+			"Harvest a ~|pale wisp|~": {
+				"Chunks": ["12338"],
+				"Level": 1,
+				"Output": "Pale energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|flickering wisp|~": {
+				"Chunks": ["11829"],
+				"Level": 10,
+				"Output": "Flickering energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|bright wisp|~": {
+				"Chunks": ["13109"],
+				"Level": 20,
+				"Output": "Bright energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|glowing wisp|~": {
+				"Chunks": ["10805"],
+				"Level": 30,
+				"Output": "Glowing energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|sparkling wisp|~": {
+				"Chunks": ["11064"],
+				"Level": 40,
+				"Output": "Sparkling energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|gleaming wisp|~": {
+				"Chunks": ["11567"],
+				"Level": 50,
+				"Output": "Gleaming energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|vibrant wisp|~": {
+				"Chunks": ["9516"],
+				"Level": 60,
+				"Output": "Vibrant energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|lustrous wisp|~": {
+				"Chunks": ["13879"],
+				"Level": 70,
+				"Output": "Lustrous energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest an ~|elder wisp|~": {
+				"Chunks": ["The Elder Halls"],
+				"Level": 75,
+				"Output": "Elder energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|brilliant wisp|~": {
+				"Chunks": ["13619"],
+				"Level": 80,
+				"Output": "Brilliant energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|radiant wisp|~": {
+				"Chunks": ["15159"],
+				"Level": 85,
+				"Output": "Radiant energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|luminous wisp|~": {
+				"Chunks": ["13097"],
+				"Level": 90,
+				"Output": "Luminous energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest an ~|incandescent wisp|~": {
+				"Chunks": ["9007"],
+				"Level": 95,
+				"Output": "Incandescent energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|cursed wisp|~": {
+				"NPCs": ["Cursed wisp"],
+				"Level": 1,
+				"Output": "Cursed energy",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Harvest ~|positive energy|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "Positive energy",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Harvest ~|negative energy|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "Negative energy",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Harvest ~|ancestral energy|~": {
+				"Items": ["Positive energy", "Negative energy"],
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "Ancestral energy",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into pale energy": {
+				"Items": ["Cursed energy"],
+				"Level": 1,
+				"Output": "Pale energy",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Convert ~|cursed energy|~ into flickering energy": {
+				"Items": ["Cursed energy"],
+				"Level": 10,
+				"Output": "Flickering energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into bright energy": {
+				"Items": ["Cursed energy"],
+				"Level": 20,
+				"Output": "Bright energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into glowing energy": {
+				"Items": ["Cursed energy"],
+				"Level": 30,
+				"Output": "Glowing energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into sparkling energy": {
+				"Items": ["Cursed energy"],
+				"Level": 40,
+				"Output": "Sparkling energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into gleaming energy": {
+				"Items": ["Cursed energy"],
+				"Level": 50,
+				"Output": "Gleaming energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into vibrant energy": {
+				"Items": ["Cursed energy"],
+				"Level": 60,
+				"Output": "Vibrant energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into lustrous energy": {
+				"Items": ["Cursed energy"],
+				"Level": 70,
+				"Output": "Lustrous energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into brilliant energy": {
+				"Items": ["Cursed energy"],
+				"Level": 80,
+				"Output": "Brilliant energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into radiant energy": {
+				"Items": ["Cursed energy"],
+				"Level": 85,
+				"Output": "Radiant energy",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Convert ~|cursed energy|~ into luminous energy": {
+				"Items": ["Cursed energy"],
+				"Level": 90,
+				"Output": "Luminous energy",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Convert ~|cursed energy|~ into incandescent energy": {
+				"Items": ["Cursed energy"],
+				"Level": 95,
+				"Output": "Incandescent energy",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of flickering energy|~": {
+				"Items": ["Flickerboon+"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of bright energy|~": {
+				"Items": ["Brightboon+"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of glowing energy|~": {
+				"Items": ["Glowingboon+"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of sparkling energy|~": {
+				"Items": ["Sparklingboon+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of gleaming energy|~": {
+				"Items": ["Gleamingboon+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of vibrant energy|~": {
+				"Items": ["Vibrantboon+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of lustrous energy|~": {
+				"Items": ["Lustrousboon+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of elder energy|~": {
+				"Items": ["Elderboon+"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|boon of brilliant energy|~": {
+				"Items": ["Brilliantboon+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of radiant energy|~": {
+				"Items": ["Radiantboon+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|boon of luminous energy|~": {
+				"Items": ["Luminousboon+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|boon of incandescent energy|~": {
+				"Items": ["Incandescentboon+"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|portent of restoration I|~": {
+				"Items": ["Pale energy", "RestoI+"],
+				"Level": 2,
+				"Output": "Portent of restoration I",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 10
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration I|~": {
+				"Items": ["Pale energy", "RestoI+"],
+				"Level": 5,
+				"Output": "Attuned portent of restoration I",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 10
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration II|~": {
+				"Items": ["Flickering energy", "Trout"],
+				"Level": 15,
+				"Output": "Portent of restoration II",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 15
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration II|~": {
+				"Items": ["Flickering energy", "Trout"],
+				"Level": 18,
+				"Output": "Attuned portent of restoration II",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 15
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration III|~": {
+				"Items": ["Bright energy", "Salmon"],
+				"Level": 25,
+				"Output": "Portent of restoration III",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 25
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration III|~": {
+				"Items": ["Bright energy", "Salmon"],
+				"Level": 27,
+				"Output": "Attuned portent of restoration III",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 25
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration IV|~": {
+				"Items": ["Glowing energy", "Tuna"],
+				"Level": 35,
+				"Output": "Portent of restoration IV",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 30
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration IV|~": {
+				"Items": ["Glowing energy", "Tuna"],
+				"Level": 37,
+				"Output": "Attuned portent of restoration IV",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 30
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration V|~": {
+				"Items": ["Sparkling energy", "Lobster"],
+				"Level": 45,
+				"Output": "Portent of restoration V",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 40
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration V|~": {
+				"Items": ["Sparkling energy", "Lobster"],
+				"Level": 47,
+				"Output": "Attuned portent of restoration V",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 40
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration VI|~": {
+				"Items": ["Gleaming energy", "Swordfish"],
+				"Level": 55,
+				"Output": "Portent of restoration VI",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 50
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration VI|~": {
+				"Items": ["Gleaming energy", "Swordfish"],
+				"Level": 57,
+				"Output": "Attuned portent of restoration VI",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 50
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration VII|~": {
+				"Items": ["Vibrant energy", "Monkfish"],
+				"Level": 65,
+				"Output": "Portent of restoration VII",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 62
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration VII|~": {
+				"Items": ["Vibrant energy", "Monkfish"],
+				"Level": 67,
+				"Output": "Attuned portent of restoration VII",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 62
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration VIII|~": {
+				"Items": ["Lustrous energy", "Shark"],
+				"Level": 75,
+				"Output": "Portent of restoration VIII",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Priority": 3
+			},
+			"Create a ~|attuned portent of restoration VIII|~": {
+				"Items": ["Lustrous energy", "Shark"],
+				"Level": 77,
+				"Output": "Attuned portent of restoration VIII",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Priority": 3
+			},
+			"Create a ~|portent of restoration IX|~": {
+				"Items": ["Radiant energy", "Cavefish"],
+				"Level": 86,
+				"Output": "Portent of restoration IX",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 88
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration IX|~": {
+				"Items": ["Radiant energy", "Cavefish"],
+				"Level": 87,
+				"Output": "Attuned portent of restoration IX",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 88
+				},
+				"Priority": 2
+			},
+			"Create a ~|portent of restoration X|~": {
+				"Items": ["Incandescent energy", "Rocktail"],
+				"Level": 97,
+				"Output": "Portent of restoration X",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 95
+				},
+				"Priority": 3
+			},
+			"Create a ~|attuned portent of restoration X|~": {
+				"Items": ["Incandescent energy", "Rocktail"],
+				"Level": 98,
+				"Output": "Attuned portent of restoration X",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 95
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of degradation I|~": {
+				"Items": ["Elder energy", "Shark"],
+				"Level": 77,
+				"Output": "Portent of degradation I",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of degradation I|~": {
+				"Items": ["Elder energy", "Shark"],
+				"Level": 77,
+				"Output": "ortent of degradation ",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of degradation II|~": {
+				"Items": ["Elder energy", "Cavefish"],
+				"Level": 86,
+				"Output": "Portent of degradation II",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 88
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of degradation II|~": {
+				"Items": ["Elder energy", "Cavefish"],
+				"Level": 87,
+				"Output": "Attuned portent of degradation II",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 88
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of degradation III|~": {
+				"Items": ["Elder energy", "Rocktail"],
+				"Level": 97,
+				"Output": "Portent of degradation III",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 93
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of degradation III|~": {
+				"Items": ["Elder energy", "Rocktail"],
+				"Level": 97,
+				"Output": "Attuned portent of degradation III",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 93
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of item protection|~": {
+				"Items": ["Luminous energy", "Prayer potion"],
+				"Level": 92,
+				"Output": "Portent of item protection",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|portent of life|~": {
+				"Items": ["Incandescent energy", "Diamond ring"],
+				"Level": 99,
+				"Output": "Portent of life",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|portent of death|~": {
+				"Items": ["Elder energy", "Diamond ring"],
+				"Level": 99,
+				"Output": "Portent of death",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of respite I|~": {
+				"Items": ["Pale energy", "Limestone"],
+				"Level": 8,
+				"Output": "Sign of respite I",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of respite II|~": {
+				"Items": ["Bright energy", "Limestone"],
+				"Level": 23,
+				"Output": "Sign of respite II",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of respite III|~": {
+				"Items": ["Glowing energy", "Limestone"],
+				"Level": 38,
+				"Output": "Sign of respite III",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter I|~": {
+				"Items": ["Pale energy", "Sapphire necklace"],
+				"Level": 6,
+				"Output": "Sign of the porter I",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter II|~": {
+				"Items": ["Bright energy", "Sapphire necklace"],
+				"Level": 28,
+				"Output": "Sign of the porter II",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter III|~": {
+				"Items": ["Sparkling energy", "Emerald necklace"],
+				"Level": 48,
+				"Output": "Sign of the porter III",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter IV|~": {
+				"Items": ["Vibrant energy", "Emerald necklace"],
+				"Level": 68,
+				"Output": "Sign of the porter IV",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter V|~": {
+				"Items": ["Radiant energy", "Ruby necklace"],
+				"Level": 88,
+				"Output": "Sign of the porter V",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter VI|~": {
+				"Items": ["Luminous energy", "Diamond necklace"],
+				"Level": 94,
+				"Output": "Sign of the porter VI",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter VII|~": {
+				"Items": ["Incandescent energy", "Dragonstone necklace"],
+				"Level": 99,
+				"Output": "Sign of the porter VII",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|sign of item protection|~": {
+				"Items": ["Vibrant energy", "Prayer potion"],
+				"Level": 69,
+				"Output": "Sign of item protection",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of life|~": {
+				"Items": ["Luminous energy", "Diamond ring"],
+				"Level": 78,
+				"Output": "Sign of life",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|divine tree|~": {
+				"Items": ["Pale energy", "Logs"],
+				"Level": 7,
+				"Output": "Divine tree",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine oak tree|~": {
+				"Items": ["Bright energy", "Oak logs"],
+				"Level": 21,
+				"Output": "Divine oak tree",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine willow tree|~": {
+				"Items": ["Glowing energy", "Willow logs"],
+				"Level": 31,
+				"Output": "Divine willow tree",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine maple tree|~": {
+				"Items": ["Sparkling energy", "Maple logs"],
+				"Level": 44,
+				"Output": "Divine maple tree",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine yew tree|~": {
+				"Items": ["Vibrant energy", "Yew logs"],
+				"Level": 62,
+				"Output": "Divine yew tree",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine magic tree|~": {
+				"Items": ["Brilliant energy", "Magic logs"],
+				"Level": 83,
+				"Output": "Divine magic tree",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine bronze rock|~": {
+				"Items": ["Pale energy", "Tin ore", "Copper ore"],
+				"Level": 1,
+				"Output": "Divine bronze rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine iron rock|~": {
+				"Items": ["Flickering energy", "Iron ore"],
+				"Level": 10,
+				"Output": "Divine iron rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine coal rock|~": {
+				"Items": ["Bright energy", "Coal"],
+				"Level": 20,
+				"Output": "Divine coal rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine mithril rock|~": {
+				"Items": ["Glowing energy", "Mithril ore"],
+				"Level": 30,
+				"Output": "Divine mithril rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine adamantite rock|~": {
+				"Items": ["Sparkling energy", "Adamantite ore"],
+				"Level": 40,
+				"Output": "Divine adamantite rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine luminite rock|~": {
+				"Items": ["Sparkling energy", "Luminite"],
+				"Level": 40,
+				"Output": "Divine luminite rock",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|divine runite rock|~": {
+				"Items": ["Gleaming energy", "Runite ore"],
+				"Level": 50,
+				"Output": "Divine runite rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine orichalcite rock|~": {
+				"Items": ["Vibrant energy", "Orichalcite ore"],
+				"Level": 60,
+				"Output": "Divine orichalcite rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine drakolith rock|~": {
+				"Items": ["Vibrant energy", "Drakolith"],
+				"Level": 60,
+				"Output": "Divine drakolith rock",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|divine necrite rock|~": {
+				"Items": ["Lustrous energy", "Necrite ore"],
+				"Level": 70,
+				"Output": "Divine necrite rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine phasmatite rock|~": {
+				"Items": ["Lustrous energy", "Phasmatite"],
+				"Level": 70,
+				"Output": "Divine phasmatite rock",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|divine banite rock|~": {
+				"Items": ["Brilliant energy", "Banite ore"],
+				"Level": 80,
+				"Output": "Divine banite rock",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|divine light animica rock|~": {
+				"Items": ["Luminous energy", "Light animica"],
+				"Level": 90,
+				"Output": "Divine light animica rock",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Create a ~|divine dark animica rock|~": {
+				"Items": ["Luminous energy", "Dark animica"],
+				"Level": 90,
+				"Output": "Divine dark animica rock",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Create a ~|divine crayfish bubble|~": {
+				"Items": ["Pale energy", "Raw crayfish"],
+				"Level": 1,
+				"Output": "Divine crayfish bubble",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|divine herring bubble|~": {
+				"Items": ["Flickering energy", "Raw herring"],
+				"Level": 11,
+				"Output": "Divine herring bubble",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine trout bubble|~": {
+				"Items": ["Bright energy", "Raw trout"],
+				"Level": 20,
+				"Output": "Divine trout bubble",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|divine salmon bubble|~": {
+				"Items": ["Glowing energy", "Raw salmon"],
+				"Level": 30,
+				"Output": "Divine salmon bubble",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|divine lobster bubble|~": {
+				"Items": ["Sparkling energy", "Raw lobster"],
+				"Level": 41,
+				"Output": "Divine lobster bubble",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|divine swordfish bubble|~": {
+				"Items": ["Gleaming energy", "Raw swordfish"],
+				"Level": 53,
+				"Output": "Divine swordfish bubble",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine shark bubble|~": {
+				"Items": ["Lustrous energy", "Raw shark"],
+				"Level": 79,
+				"Output": "Divine shark bubble",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine cavefish bubble|~": {
+				"Items": ["Radiant energy", "Raw cavefish"],
+				"Level": 89,
+				"Output": "Divine cavefish bubble",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine rocktail bubble|~": {
+				"Items": ["Luminous energy", "Raw rocktail"],
+				"Level": 91,
+				"Output": "Divine rocktail bubble",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine herb patch I|~": {
+				"Items": ["Flickering energy", "Clean guam"],
+				"Level": 12,
+				"Output": "Divine herb patch I",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine herb patch II|~": {
+				"Items": ["Gleaming energy", "Clean irit"],
+				"Level": 51,
+				"Output": "Divine herb patch II",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine herb patch III|~": {
+				"Items": ["Brilliant energy", "Clean cadantine"],
+				"Level": 82,
+				"Output": "Divine herb patch III",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine kebbit burrow|~": {
+				"Items": ["Pale energy", "Raw kebbit meat"],
+				"Level": 4,
+				"Output": "Divine kebbit burrow",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine bird snare|~": {
+				"Items": ["Bright energy", "Raw bird meat"],
+				"Level": 24,
+				"Output": "Divine bird snare",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine deadfall trap|~": {
+				"Items": ["Glowing energy", "Kebbit claws"],
+				"Level": 34,
+				"Output": "Divine deadfall trap",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine box trap|~": {
+				"Items": ["Vibrant energy", "Chinchompa"],
+				"Level": 64,
+				"Output": "Divine box trap",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|divine simulacrum I|~": {
+				"Items": ["Elder energy"],
+				"Level": 75,
+				"Output": "Divine simulacrum I",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|divine simulacrum II|~": {
+				"Items": ["Elder energy"],
+				"Level": 92,
+				"Output": "Divine simulacrum II",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Gather from a ~|divine simulacrum I|~": {
+				"Items": ["Divine simulacrum I"],
+				"Level": 75,
+				"Output": "SimulacrumI",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Gather a sign of life from a ~|divine simulacrum I|~": {
+				"Items": ["Divine simulacrum I"],
+				"Level": 78,
+				"Output": "Sign of life",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Gather brilliant energy from a ~|divine simulacrum I|~": {
+				"Items": ["Divine simulacrum I"],
+				"Level": 80,
+				"Output": "Brilliant energy",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Gather radiant energy from a ~|divine simulacrum I|~": {
+				"Items": ["Divine simulacrum I"],
+				"Level": 85,
+				"Output": "Radiant energy",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Gather luminous energy from a ~|divine simulacrum I|~": {
+				"Items": ["Divine simulacrum I"],
+				"Level": 90,
+				"Output": "Luminous energy",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Gather incandescent energy from a ~|divine simulacrum I|~": {
+				"Items": ["Divine simulacrum I"],
+				"Level": 95,
+				"Output": "Incandescent energy",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Gather from a ~|divine simulacrum II|~": {
+				"Items": ["Divine simulacrum II"],
+				"Level": 92,
+				"Output": "SimulacrumII",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Gather incandescent energy from a ~|divine simulacrum II|~": {
+				"Items": ["Divine simulacrum II"],
+				"Level": 95,
+				"Output": "Incandescent energy",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Create an ~|inferior locator|~": {
+				"Items": ["Bright energy", "InferiorDivine+"],
+				"level": 24,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|poor locator|~": {
+				"Items": ["Sparkling energy", "PoorDivine+"],
+				"level": 41,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|good locator|~": {
+				"Items": ["Vibrant energy", "GoodDivine+"],
+				"level": 62,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|superior locator|~": {
+				"Items": ["Brilliant energy", "SuperiorDivine+"],
+				"level": 81,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute logs to ~|oak logs|~": {
+				"Items": ["Flickering energy", "Logs"],
+				"Level": 13,
+				"Output": "Oak logs",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute copper ore to ~|iron ore|~": {
+				"Items": ["Flickering energy", "Copper ore"],
+				"Level": 15,
+				"Output": "Iron ore",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute tin ore to ~|iron ore|~": {
+				"Items": ["Flickering energy", "Tin ore"],
+				"Level": 15,
+				"Output": "Iron ore",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Transmute raw sardine to ~|raw trout|~": {
+				"Items": ["Flickering energy", "Raw sardine"],
+				"Level": 16,
+				"Output": "Raw trout",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute raw crayfish to ~|raw trout|~": {
+				"Items": ["Flickering energy", "Raw crayfish"],
+				"Level": 16,
+				"Output": "Raw trout",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute raw anchovies to ~|raw trout|~": {
+				"Items": ["Flickering energy", "Raw anchovies"],
+				"Level": 16,
+				"Output": "Raw trout",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Transmute raw shrimp to ~|raw trout|~": {
+				"Items": ["Flickering energy", "Raw shrimp"],
+				"Level": 16,
+				"Output": "Raw trout",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Transmute iron ore to ~|silver ore|~": {
+				"Items": ["Bright energy", "Iron ore"],
+				"Level": 22,
+				"Output": "Silver ore",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute iron ore to ~|coal|~": {
+				"Items": ["Bright energy", "Iron ore"],
+				"Level": 24,
+				"Output": "Coal",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Transmute uncut sapphire to ~|uncut emerald|~": {
+				"Items": ["Bright energy", "Uncut sapphire"],
+				"Level": 26,
+				"Output": "Uncut emerald",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute oak logs to ~|willow logs|~": {
+				"Items": ["Glowing energy", "Oak logs"],
+				"Level": 32,
+				"Output": "Willow logs",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute uncut emerald to ~|uncut ruby|~": {
+				"Items": ["Glowing energy", "Uncut emerald"],
+				"Level": 33,
+				"Output": "Uncut ruby",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute raw trout to ~|raw tuna|~": {
+				"Items": ["Glowing energy", "Raw trout"],
+				"Level": 36,
+				"Output": "Raw tuna",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute coal to ~|mithril ore|~": {
+				"Items": ["Glowing energy", "Coal"],
+				"Level": 37,
+				"Output": "Mithril ore",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute silver ore to ~|gold ore|~": {
+				"Items": ["Glowing energy", "Silver ore"],
+				"Level": 39,
+				"Output": "Gold ore",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute uncut ruby to ~|uncut diamond|~": {
+				"Items": ["Sparkling energy", "Uncut ruby"],
+				"Level": 42,
+				"Output": "Uncut diamond",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute mithril ore to ~|luminite|~": {
+				"Items": ["Sparkling energy", "Mithril ore"],
+				"Level": 43,
+				"Output": "Luminite",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute raw tuna to ~|raw bass|~": {
+				"Items": ["Sparkling energy", "Raw tuna"],
+				"Level": 46,
+				"Output": "Raw bass",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute mithril ore to ~|adamantite ore|~": {
+				"Items": ["Sparkling energy", "Mithril ore"],
+				"Level": 48,
+				"Output": "Adamantite ore",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute willow logs to ~|maple logs|~": {
+				"Items": ["Sparkling energy", "Willow logs"],
+				"Level": 49,
+				"Output": "Maple logs",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute adamantite ore to ~|runite ore|~": {
+				"Items": ["Gleaming energy", "Adamantite ore"],
+				"Level": 50,
+				"Output": "Runite ore",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Transmute luminite to ~|runite ore|~": {
+				"Items": ["Gleaming energy", "Luminite"],
+				"Level": 50,
+				"Output": "Runite ore",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Transmute uncut diamond to ~|uncut dragonstone|~": {
+				"Items": ["Gleaming energy", "Uncut diamond"],
+				"Level": 58,
+				"Output": "Uncut dragonstone",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute runite ore to ~|orichalcite ore|~": {
+				"Items": ["Vibrant energy", "Runite ore"],
+				"Level": 62,
+				"Output": "Orichalcite ore",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Transmute gold charms to ~|green charms|~": {
+				"Items": ["Vibrant energy", "Gold charm"],
+				"Level": 64,
+				"Output": "Green charm",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute runite ore to ~|drakolith|~": {
+				"Items": ["Vibrant energy", "Runite ore"],
+				"Level": 65,
+				"Output": "Drakolith",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute raw bass to ~|raw monkfish|~": {
+				"Items": ["Vibrant energy", "Raw bass"],
+				"Level": 66,
+				"Output": "Raw monkfish",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute orichalcite ore to ~|necrite ore|~": {
+				"Items": ["Lustrous energy", "Orichalcite ore"],
+				"Level": 71,
+				"Output": "Necrite ore",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute maple logs to ~|yew logs|~": {
+				"Items": ["Lustrous energy", "Maple logs"],
+				"Level": 72,
+				"Output": "Yew logs",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute green charms to ~|crimson charms|~": {
+				"Items": ["Lustrous energy", "Green charm"],
+				"Level": 74,
+				"Output": "Crimson charm",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute raw monkfish to ~|raw shark|~": {
+				"Items": ["Lustrous energy", "Raw monkfish"],
+				"Level": 76,
+				"Output": "Raw shark",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute drakolith to ~|phasmatite|~": {
+				"Items": ["Lustrous energy", "Drakolith"],
+				"Level": 77,
+				"Output": "Phasmatite",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Transmute raw shark to ~|raw sea turtle|~": {
+				"Items": ["Brilliant energy", "Raw shark"],
+				"Level": 82,
+				"Output": "Raw sea turtle",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute crimson charms to ~|blue charms|~": {
+				"Items": ["Brilliant energy", "Crimson charm"],
+				"Level": 84,
+				"Output": "Blue charm",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute necrite ore to ~|banite ore|~": {
+				"Items": ["Radiant energy", "Necrite ore"],
+				"Level": 86,
+				"Output": "Banite ore",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Transmute raw sea turtle to ~|raw cavefish|~": {
+				"Items": ["Radiant energy", "Raw sea turtle"],
+				"Level": 87,
+				"Output": "Raw cavefish",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Transmute raw tarpon to ~|raw seerfish|~": {
+				"Items": ["Ancestral energy", "Raw tarpon"],
+				"Level": 90,
+				"Output": "Raw seerfish",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Transmute raw seerfish to ~|raw sillago|~": {
+				"Items": ["Ancestral energy", "Raw seerfish"],
+				"Level": 91,
+				"Output": "Raw sillago",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute raw sillago to ~|raw wobbegong|~": {
+				"Items": ["Ancestral energy", "Raw sillago"],
+				"Level": 92,
+				"Output": "Raw wobbegong",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Transmute shall chippings to ~|shiny shell chippings|~": {
+				"Items": ["Ancestral energy", "Shell chippings"],
+				"Level": 93,
+				"Output": "Shiny shell chippings",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute yew logs to ~|magic logs|~": {
+				"Items": ["Luminous energy", "Yew logs"],
+				"Level": 93,
+				"Output": "Magic logs",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute raw cavefish to ~|raw manta ray|~": {
+				"Items": ["Luminous energy", "Raw cavefish"],
+				"Level": 93,
+				"Output": "Raw manta ray",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Transmute sea salt to ~|alaea sea salt|~": {
+				"Items": ["Ancestral energy", "Sea salt"],
+				"Level": 94,
+				"Output": "Alaea sea salt",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute driftwood to ~|sliced mushrooms (The Arc)|~": {
+				"Items": ["Ancestral energy", "Driftwood"],
+				"Level": 95,
+				"Output": "Sliced mushrooms (The Arc)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Transmute banite ore to ~|dark animica|~": {
+				"Items": ["Incandescent energy", "Banite ore"],
+				"Level": 95,
+				"Output": "Dark animica",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Transmute alaea sea salt to ~|wobbegong oil|~": {
+				"Items": ["Ancestral energy", "Alaea sea salt"],
+				"Level": 96,
+				"Output": "Wobbegong oil",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute banite ore to ~|light animica|~": {
+				"Items": ["Incandescent energy", "Banite ore"],
+				"Level": 97,
+				"Output": "Light animica",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Transmute wobbegong oil to ~|shiny tortle shell bowl|~": {
+				"Items": ["Ancestral energy", "Wobbegong oil"],
+				"Level": 97,
+				"Output": "Shiny tortle shell bowl",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Transmute onyx dust to ~|uncut onyx|~": {
+				"Items": ["Incandescent energy", "Onyx dust"],
+				"Level": 97,
+				"Output": "Uncut onyx",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Transmute raw manta ray to ~|raw rocktail|~": {
+				"Items": ["Incandescent energy", "Raw manta ray"],
+				"Level": 98,
+				"Output": "Raw rocktail",
+				"Primary": true,
+				"Priority": 2
 			}
 		},
 		"Dungeoneering": {},
@@ -808,6 +2380,125 @@
 					"Agility": 60,
 					"Magic": 70
 				},
+				"Priority": 1
+			},
+			"Harvest a grimy guam from a ~|divine herb patch I|~": {
+				"Items": ["Divine herb patch I"],
+				"Level": 9,
+				"Output": "Grimy guam",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy marrentill from a ~|divine herb patch I|~": {
+				"Items": ["Divine herb patch I"],
+				"Level": 14,
+				"Output": "Grimy marrentill",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy tarromin from a ~|divine herb patch I|~": {
+				"Items": ["Divine herb patch I"],
+				"Level": 19,
+				"Output": "Grimy tarromin",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy harralander from a ~|divine herb patch I|~": {
+				"Items": ["Divine herb patch I"],
+				"Level": 26,
+				"Output": "Grimy harralander",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy ranarr from a ~|divine herb patch I|~": {
+				"Items": ["Divine herb patch I"],
+				"Level": 32,
+				"Output": "Grimy ranarr",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy spirit weed from a ~|divine herb patch I|~": {
+				"Items": ["Divine herb patch I"],
+				"Level": 36,
+				"Output": "Grimy spirit weed",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy toadflax from a ~|divine herb patch I|~": {
+				"Items": ["Divine herb patch I"],
+				"Level": 38,
+				"Output": "Grimy toadflax",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy irit from a ~|divine herb patch II|~": {
+				"Items": ["Divine herb patch II"],
+				"Level": 44,
+				"Output": "Grimy irit",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy wergali from a ~|divine herb patch II|~": {
+				"Items": ["Divine herb patch II"],
+				"Level": 46,
+				"Output": "Grimy wergali",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy avantoe from a ~|divine herb patch II|~": {
+				"Items": ["Divine herb patch II"],
+				"Level": 50,
+				"Output": "Grimy avantoe",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy kwuarm from a ~|divine herb patch II|~": {
+				"Items": ["Divine herb patch II"],
+				"Level": 56,
+				"Output": "Grimy kwuarm",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy snapdragon from a ~|divine herb patch II|~": {
+				"Items": ["Divine herb patch II"],
+				"Level": 62,
+				"Output": "Grimy snapdragon",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy cadantine from a ~|divine herb patch III|~": {
+				"Items": ["Divine herb patch III"],
+				"Level": 67,
+				"Output": "Grimy cadantine",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy lantadyme from a ~|divine herb patch III|~": {
+				"Items": ["Divine herb patch III"],
+				"Level": 73,
+				"Output": "Grimy lantadyme",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy dwarf weed from a ~|divine herb patch III|~": {
+				"Items": ["Divine herb patch III"],
+				"Level": 79,
+				"Output": "Grimy dwarf weed",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy torstol from a ~|divine herb patch III|~": {
+				"Items": ["Divine herb patch III"],
+				"Level": 85,
+				"Output": "Grimy torstol",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy fellstalk from a ~|divine herb patch III|~": {
+				"Items": ["Divine herb patch III"],
+				"Level": 91,
+				"Output": "Grimy fellstalk",
+				"Primary": false,
 				"Priority": 1
 			}
 		},
@@ -1314,11 +3005,215 @@
 				"Objects": ["Fish+"],
 				"Primary": false,
 				"Priority": 1
+			},
+			"Fish from a ~|divine crayfish bubble|~": {
+				"Items": ["Divine crayfish bubble"],
+				"Level": 1,
+				"Output": "Raw crayfish",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Fish from a ~|divine herring bubble|~": {
+				"Items": ["Divine herring bubble"],
+				"Level": 10,
+				"Output": "Raw herring",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Fish from a ~|divine trout bubble|~": {
+				"Items": ["Divine trout bubble"],
+				"Level": 20,
+				"Output": "Raw trout",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Fish from a ~|divine salmon bubble|~": {
+				"Items": ["Divine salmon bubble"],
+				"Level": 30,
+				"Output": "Raw salmon",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Fish from a ~|divine lobster bubble|~": {
+				"Items": ["Divine lobster bubble"],
+				"Level": 40,
+				"Output": "Raw lobster",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Fish from a ~|divine swordfish bubble|~": {
+				"Items": ["Divine swordfish bubble"],
+				"Level": 50,
+				"Output": "Raw swordfish",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Fish from a ~|divine shark bubble|~": {
+				"Items": ["Divine shark bubble"],
+				"Level": 76,
+				"Output": "Raw shark",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Fish from a ~|divine cavefish bubble|~": {
+				"Items": ["Divine cavefish bubble"],
+				"Level": 85,
+				"Output": "Raw cavefish",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Fish from a ~|divine rocktail bubble|~": {
+				"Items": ["Divine rocktail bubble"],
+				"Level": 90,
+				"Output": "Raw rocktail",
+				"Primary": false,
+				"Priority": 3
 			}
 		},
 		"Fletching": {},
 		"Herblore": {},
-		"Hunter": {},
+		"Hunter": {
+			"Catch a polar kebbit from a ~|divine kebbit burrow|~": {
+				"Items": ["Divine kebbit burrow"],
+				"Level": 1,
+				"Output": "Polar Kebbit",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a common kebbit from a ~|divine kebbit burrow|~": {
+				"Items": ["Divine kebbit burrow"],
+				"Level": 3,
+				"Output": "Common kebbit fur",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a Feldip weasel from a ~|divine kebbit burrow|~": {
+				"Items": ["Divine kebbit burrow"],
+				"Level": 7,
+				"Output": "Feldip weasel fur",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a desert devil from a ~|divine kebbit burrow|~": {
+				"Items": ["Divine kebbit burrow"],
+				"Level": 13,
+				"Output": "Desert devil fur",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a razor-backed kebbit from a ~|divine kebbit burrow|~": {
+				"Items": ["Divine kebbit burrow"],
+				"Level": 49,
+				"Output": "Long kebbit spike",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a crimson swift from a ~|divine bird snare|~": {
+				"Items": ["Divine bird snare"],
+				"Level": 1,
+				"Output": "Crimson Swift",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a golden warbler from a ~|divine bird snare|~": {
+				"Items": ["Divine bird snare"],
+				"Level": 5,
+				"Output": "Yellow feather",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a copper longtail from a ~|divine bird snare|~": {
+				"Items": ["Divine bird snare"],
+				"Level": 9,
+				"Output": "Orange feather",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a cerulean twitch from a ~|divine bird snare|~": {
+				"Items": ["Divine bird snare"],
+				"Level": 11,
+				"Output": "Blue feather",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a tropical wagtail from a ~|divine bird snare|~": {
+				"Items": ["Divine bird snare"],
+				"Level": 19,
+				"Output": "Stripy feather",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a wimpy bird from a ~|divine bird snare|~": {
+				"Items": ["Divine bird snare"],
+				"Level": 39,
+				"Output": "Wimpy feather",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a wild kebbit from a ~|divine deadfall trap|~": {
+				"Items": ["Divine deadfall trap"],
+				"Level": 23,
+				"Output": "Kebbit claws",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a barb-tailed kebbit from a ~|divine deadfall trap|~": {
+				"Items": ["Divine deadfall trap"],
+				"Level": 33,
+				"Output": "Barb-tailed harpoon",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a prickly kebbit from a ~|divine deadfall trap|~": {
+				"Items": ["Divine deadfall trap"],
+				"Level": 37,
+				"Output": "Kebbit spike",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a diseased kebbit from a ~|divine deadfall trap|~": {
+				"Items": ["Divine deadfall trap"],
+				"Level": 44,
+				"Output": "Diseased kebbit fur",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a sabre-toothed kebbit from a ~|divine deadfall trap|~": {
+				"Items": ["Divine deadfall trap"],
+				"Level": 51,
+				"Output": "Kebbit teeth",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a chinchompa from a ~|divine box trap|~": {
+				"Items": ["Divine box trap"],
+				"Level": 53,
+				"Output": "Chinchompa",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a red chinchompa from a ~|divine box trap|~": {
+				"Items": ["Divine box trap"],
+				"Level": 63,
+				"Output": "Red chinchompa",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a pawya from a ~|divine box trap|~": {
+				"Items": ["Divine box trap"],
+				"Level": 66,
+				"Output": "Raw pawya meat",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a grenwall from a ~|divine box trap|~": {
+				"Items": ["Divine box trap"],
+				"Level": 77,
+				"Output": "Grenwall spikes",
+				"Primary": false,
+				"Priority": 1
+			}
+		},
 		"Invention": {},
 		"Magic": {
 			"Unlock the ~|Livid farm|~ spells": {
@@ -1344,7 +3239,7 @@
 					"Firemaking": 92,
 					"Woodcutting": 61
 				},
-				"Priority": 1
+				"Priority": 2
 			},
 			"Mine with a ~|bronze pickaxe|~": {
 				"Level": 1,
@@ -1393,7 +3288,7 @@
 				"Level": 50,
 				"Objects": ["Ore+"],
 				"Primary": false,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Mine with an ~|orikalkum pickaxe|~": {
 				"Items": ["Orikalkumpick+"],
@@ -1734,7 +3629,7 @@
 				"Level": 60,
 				"Objects": ["Drakolith rock"],
 				"Primary": true,
-				"Output": "Drakolith ore",
+				"Output": "Drakolith",
 				"Priority": 3
 			},
 			"Mine in the ~|lava flow mine|~": {
@@ -1754,7 +3649,7 @@
 				"Level": 70,
 				"Objects": ["Phasmatite rock"],
 				"Primary": true,
-				"Output": "Phasmatite ore",
+				"Output": "Phasmatite",
 				"Priority": 2
 			},
 			"Mine a ~|concentrated coal deposit|~": {
@@ -1896,6 +3791,104 @@
 				"Objects": ["Ore+"],
 				"Primary": false,
 				"Priority": 1
+			},
+			"Mine a ~|divine bronze rock|~": {
+				"Items": ["Divine bronze rock"],
+				"Level": 1,
+				"Output": "Bronzeore",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Mine a ~|divine iron rock|~": {
+				"Items": ["Divine iron rock"],
+				"Level": 10,
+				"Output": "Iron ore",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Mine a ~|divine coal rock|~": {
+				"Items": ["Divine coal rock"],
+				"Level": 20,
+				"Output": "Coal",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Mine a ~|divine mithril rock|~": {
+				"Items": ["Divine mithril rock"],
+				"Level": 30,
+				"Output": "Mithril ore",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Mine a ~|divine adamantite rock|~": {
+				"Items": ["Divine adamantite rock"],
+				"Level": 40,
+				"Output": "Adamantite ore",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Mine a ~|divine luminite rock|~": {
+				"Items": ["Divine luminite rock"],
+				"Level": 40,
+				"Output": "Luminite",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Mine a ~|divine runite rock|~": {
+				"Items": ["Divine runite rock"],
+				"Level": 50,
+				"Output": "Runite ore",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Mine a ~|divine orichalcite rock|~": {
+				"Items": ["Divine orichalcite rock"],
+				"Level": 60,
+				"Output": "Orichalcite ore",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Mine a ~|divine drakolith rock|~": {
+				"Items": ["Divine drakolith rock"],
+				"Level": 60,
+				"Output": "Drakolith",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Mine a ~|divine necrite rock|~": {
+				"Items": ["Divine necrite rock"],
+				"Level": 70,
+				"Output": "Necrite ore",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Mine a ~|divine phasmatite rock|~": {
+				"Items": ["Divine phasmatite rock"],
+				"Level": 70,
+				"Output": "Phasmatite",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Mine a ~|divine banite rock|~": {
+				"Items": ["Divine banite rock"],
+				"Level": 80,
+				"Output": "Banite ore",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Mine a ~|divine light animica rock|~": {
+				"Items": ["Divine light animica rock"],
+				"Level": 90,
+				"Output": "Light animica",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Mine a ~|divine dark animica rock|~": {
+				"Items": ["Divine dark animica rock"],
+				"Level": 90,
+				"Output": "Dark animica",
+				"Primary": false,
+				"Priority": 7
 			}
 		},
 		"Prayer": {},
@@ -2657,7 +4650,7 @@
 			"Steal from a ~|chest (Dorgesh-Kaan)|~": {
 				"Level": 52,
 				"Items": ["Lockpick"],
-				"Chunks": ["9759"],
+				"Chunks": ["Dorgesh-Kaan"],
 				"Output": "Average chest",
 				"Primary": true,
 				"Priority": 1
@@ -2665,7 +4658,7 @@
 			"Steal from a ~|chest (Oldak)|~": {
 				"Level": 52,
 				"Items": ["Lockpick"],
-				"Chunks": ["9759"],
+				"Chunks": ["Dorgesh-Kaan"],
 				"Output": "Oldak chest",
 				"Primary": true,
 				"Priority": 2
@@ -2673,7 +4666,7 @@
 			"Steal from a ~|chest (Zanik)|~": {
 				"Level": 52,
 				"Items": ["Lockpick"],
-				"Chunks": ["9759"],
+				"Chunks": ["Dorgesh-Kaan"],
 				"Output": "Zanik chest",
 				"Primary": true,
 				"Priority": 3
@@ -2681,7 +4674,7 @@
 			"Steal from a ~|chest (Dorgesh-Kaan, gem)|~": {
 				"Level": 78,
 				"Items": ["Lockpick"],
-				"Chunks": ["9759"],
+				"Chunks": ["Dorgesh-Kaan"],
 				"Output": "Rich chest",
 				"Primary": true,
 				"Priority": 1
@@ -2785,7 +4778,7 @@
 			},
 			"Crack the ~|safes|~ in Zanaris": {
 				"Level": 94,
-				"Chunks": ["Thievesguild+", "9540"],
+				"Chunks": ["Thievesguild+", "Zanaris"],
 				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 1
@@ -3184,6 +5177,48 @@
 				"Items": ["Crystal skillchompa"],
 				"Level": 71,
 				"Objects": ["Tree+"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop a ~|divine tree|~": {
+				"Items": ["Divine tree"],
+				"Level": 1,
+				"Output": "Logs",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Chop a ~|divine oak tree|~": {
+				"Items": ["Divine oak tree"],
+				"Level": 15,
+				"Output": "Oak logs",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop a ~|divine willow tree|~": {
+				"Items": ["Divine willow tree"],
+				"Level": 30,
+				"Output": "Willow logs",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop a ~|divine maple tree|~": {
+				"Items": ["Divine maple tree"],
+				"Level": 45,
+				"Output": "Maple logs",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop a ~|divine yew tree|~": {
+				"Items": ["Divine yew tree"],
+				"Level": 60,
+				"Output": "Yew logs",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop a ~|divine magic tree|~": {
+				"Items": ["Divine magic tree"],
+				"Level": 75,
+				"Output": "Magic logs",
 				"Primary": false,
 				"Priority": 2
 			}
@@ -19432,7 +21467,7 @@
 			"Shop": {
 				"Golden fleece": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rellekkan Slayer Cave Entrance"
 		},
 		"11065": {
 			"Object": {
@@ -21149,7 +23184,7 @@
 			"Connect": {
 				"11666": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ah Za Rhoon"
 		},
 		"11567": {
 			"Object": {
@@ -21172,7 +23207,7 @@
 				"Gecko": 2,
 				"Gleaming wisp": 6
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Karamjan Idol"
 		},
 		"11568": {
 			"Monster": {
@@ -22693,7 +24728,7 @@
 			"Shop": {
 				"Stanley Limelight Traders": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Invention Guild"
 		},
 		"11830": {
 			"Object": {
@@ -24260,6 +26295,7 @@
 			"Connect": {
 				"6751": true,
 				"9541": true,
+				"11595": true,
 				"15710": true
 			},
 			"Spawn": {
@@ -27032,7 +29068,7 @@
 			"Connect": {
 				"8809": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South of Sophanem"
 		},
 		"13098": {
 			"Object": {
@@ -27051,7 +29087,7 @@
 			"Shop": {
 				"Sophanem Slayer Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Sophanem Temple"
 		},
 		"13099": {
 			"Object": {
@@ -29577,7 +31613,7 @@
 				"13979": true,
 				"17787": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Old Crone's Hut"
 		},
 		"13880": {
 			"Object": {
@@ -47996,8 +50032,25 @@
 			"Necroniumpick+": ["Necronium pickaxe", "Necronium pickaxe + 1", "Necronium pickaxe + 2", "Necronium pickaxe + 3", "Necronium pickaxe + 4"],
 			"Banepick+": ["Bane pickaxe", "Bane pickaxe + 1", "Bane pickaxe + 2", "Bane pickaxe + 3", "Bane pickaxe +4"],
 			"Elderpick+": ["Elder rune pickaxe", "Elder rune pickaxe + 1", "Elder rune pickaxe + 2", "Elder rune pickaxe + 3", "Elder rune pickaxe + 4", "Elder rune pickaxe + 5"],
-			"Blackjack+": ["Oak-blackjack", "Willow-blackjack", "Maple-blackjack", "Rubber-blackjack", "Oak-blackjack (o)", "Oak-blackjack (d)", "Willow-blackjack (o)", "Willow-blackjack(d)", "Maple-blackjack(o)", "Maple-blackjack(d)"]
-		},
+			"Blackjack+": ["Oak-blackjack", "Willow-blackjack", "Maple-blackjack", "Rubber-blackjack", "Oak-blackjack (o)", "Oak-blackjack (d)", "Willow-blackjack (o)", "Willow-blackjack(d)", "Maple-blackjack(o)", "Maple-blackjack(d)"],
+			"Flickerboon+": ["Pale energy", "Flickering energy"],
+			"Brightboon+": ["Flickering energy", "Bright energy"],
+			"Glowingboon+": ["Bright energy", "Glowing energy"],
+			"Sparklingboon+": ["Glowing energy", "Sparkling energy"],
+			"Gleamingboon+": ["Sparkling energy", "Gleaming energy"],
+			"Vibrantboon+": ["Gleaming energy", "Vibrant energy"],
+			"Lustrousboon+": ["Vibrant energy", "Lustrous energy"],
+			"Elderboon+": ["Lustrous energy", "Elder energy"],
+			"Brilliantboon+": ["Lustrous energy", "Brilliant energy"],
+			"Radiantboon+": ["Brilliant energy", "Radiant energy"],
+			"Luminousboon+": ["Radiant energy", "Luminous energy"],
+			"Incandescentboon+": ["Luminous energy", "Incandescent energy"],
+			"RestoI+": ["Crayfish", "Anchovies", "Shrimp", "Sardine", "Chicken", "Meat"],
+			"InferiorDivine+": ["Divine bronze rock", "Divine iron rock", "Divine tree", "Divine oak tree", "Divine crayfish bubble", "Divine herring bubble", "Divine trout bubble", "Divine salmon bubble", "Divine herb patch I"],
+			"PoorDivine+": ["Divine coal rock", "Divine willow tree", "Divine maple tree", "Divine lobster bubble"],
+			"GoodDivine+": ["Divine mithril rock", "Divine yew tree", "Divine swordfish bubble", "Divine herb patch II"],
+			"SuperiorDivine+": ["Divine adamantite rock", "Divine magic tree", "Divine shark bubble", "Divine cavefish bubble", "Divine herb patch III"]
+	},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
 			"10-coin chest+": ["10291", "10547", "10553", "12109"],
@@ -72559,6 +74612,27 @@
 				"Essential oils": "1/1800"
 			}
 		},
+		"Divination": {
+			"SimulacrumI": {
+				"Portent of restoration VII": "Common",
+				"Sign of the porter IV": "Common",
+				"Sign of item protection": "Common",
+				"Lustrous energy": "Common",
+				"Portent of restoration VIII": "Common",
+				"Elder energy": "Common"
+			},
+			"SimulacrumII": {
+				"Portent of restoration VIII": "Common",
+				"Elder energy": "Common",
+				"Sign of life": "Common",
+				"Brilliant energy": "Common",
+				"Radiant energy": "Common",
+				"Portent of restoration IX": "Common",
+				"Sign of the porter V": "Common",
+				"Luminous energy": "Common",
+				"Portent of item protection": "Common"
+			}
+		},
 		"Fishing": {
 			"Deep sea fishing": {
 				"Fishing notes": "Rare",
@@ -72598,6 +74672,16 @@
 				"Raw shark": "Varies"
 			}
 		},
+		"Hunter": {
+			"Polar Kebbit": {
+				"Polar kebbit fur": "Always",
+				"Raw beast meat": "Always"
+			},
+			"Crimson Swift": {
+				"Red feather": "Always",
+				"Raw bird meat": "Always"
+			}
+		},
 		"Mining": {
 			"Gem rock": {
 				"Uncut lapis lazuli": "15/100", 
@@ -72626,6 +74710,10 @@
 				"Uncut ruby": "240/1000",
 				"Uncut diamond": "190/1000",
 				"Uncut dragonstone": "120/1000"
+			},
+			"Bronzeore": {
+				"Tin ore": "1/2",
+				"Copper ore": "1/2"
 			}
 		},
 		"Thieving": {
