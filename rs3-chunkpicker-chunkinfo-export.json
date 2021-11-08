@@ -50033,7 +50033,7 @@
 	"codeItems": {
 		"boneItems": [],
 		"dropTables": {},
-		"Tools": {},
+		"tools": {},
 		"itemsPlus": {
 			"Grapple+": ["Phoenix crossbow", "Crossbow", "Bronze crossbow", "Coral crossbow", "Iron crossbow", "Blurite crossbow", "Steel crossbow", "Black crossbow", "Dorgeshuun crossbow", "Mithril crossbow", "Adamant crossbow", "Zanik's crossbow", "Rune crossbow", "Hunters' crossbow", "Dragon crossbow", "Demon slayer crossbow", "Karil's pistol crossbow", "Armadyl crossbow", "Chaotic crossbow", "Ascension crossbow", "Blightbound crossbow", "Off-hand bronze crossbow", "Off-hand iron crossbow", "Off-hand steel crossbow", "Off-hand black crossbow", "Off-hand mithril crossbow", "Off-hand adamant crossbow", "Off-hand rune crossbow", "Off-hand dragon crossbow", "Off-hand demon slayer crossbow", "Karil's off-hand pistol crossbow", "Off-hand armadyl crossbow", "Off-hand chaotic crossbow", "Off-hand ascension crossbow", "Off-hand blightbound crossbow", "Bronze 2h crossbow", "Iron 2h crossbow", "Steel 2h crossbow", "Black 2h crossbow", "Mithril 2h crossbow", "Adamant 2h crossbow", "Rune 2h crossbow", "Dragon 2h crossbow", "Karil's crossbow", "Hand cannon", "Royal crossbow", "Wyvern crossbow", "Dominion crossbow", "Eldritch crossbow", "Green salamander", "Orange salamander", "Red salamander", "Black salamander"],
 			"Barbarian bait+": ["feathers+", "fishing bait"],
