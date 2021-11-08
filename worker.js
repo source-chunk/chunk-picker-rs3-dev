@@ -851,6 +851,7 @@ var calcChallengesWork = function(chunks, baseChunkData) {
                                 if (!!items[plus] && (!Object.values(items[plus]).includes('primary-Farming') || rules['Farming Primary'])) {
                                     if (!tools[plus] && (skill !== 'Magic' || !magicTools[plus])) {
                                         let nonskill = {};
+                                        let tempNonValid = true;
                                         !!items[plus] && Object.keys(items[plus]).forEach(source => {
                                             if (items[plus][source].includes('Nonskill') && !source.includes('*')) {
                                                 if (!nonskill['Nonskill']) {
