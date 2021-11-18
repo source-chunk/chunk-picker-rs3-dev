@@ -74666,6 +74666,11 @@
 			"Gold charm": true,
 			"Wolf bones": true,
 			"Antlers": true,
+			"Feather headdress (blue)": true,
+			"Feather headdress (orange)": true,
+			"Feather headdress (red)": true,
+			"Feather headdress (yellow)": true,
+			"Feather headdress (stripy)": true,
 			"Lizard skull": true,
 			"Spirit shard pack": true
 		},
@@ -75297,11 +75302,16 @@
 		"Pikkupstix's Summoning Shop": {
 			"Spirit shards": true,
 			"Pouch": true,
-			"Gold charm": true,
-			"Wolf bones": true,
+			"Gold charm": false,
+			"Wolf bones": false,
 			"Antlers": true,
 			"Lizard skull": true,
-			"Spirit shard pack": true
+			"Spirit shard pack": true,
+			"Feather headdress (blue)": true,
+			"Feather headdress (orange)": true,
+			"Feather headdress (red)": true,
+			"Feather headdress (yellow)": true,
+			"Feather headdress (stripy)": true
 		},
 		"Platebody shop": {
 			"Bronze platebody": true,
@@ -75994,6 +76004,11 @@
 		"Summoning Supplies (Bogrog)": {
 			"Antlers": true,
 			"Lizard skull": true,
+			"Feather headdress (blue)": true,
+			"Feather headdress (orange)": true,
+			"Feather headdress (red)": true,
+			"Feather headdress (yellow)": true,
+			"Feather headdress (stripy)": true,
 			"Spirit shards": true,
 			"Pouch": true,
 			"Spirit shard pack": true
@@ -76001,6 +76016,11 @@
 		"Summoning Supplies (Lord Amlodd)": {
 			"Antlers": true,
 			"Lizard skull": true,
+			"Feather headdress (blue)": true,
+			"Feather headdress (orange)": true,
+			"Feather headdress (red)": true,
+			"Feather headdress (yellow)": true,
+			"Feather headdress (stripy)": true,
 			"Spirit shards": true,
 			"Pouch": true,
 			"Spirit shard pack": true
@@ -76009,6 +76029,11 @@
 			"Antlers": true,
 			"Lizard skull": true,
 			"Spirit shards": true,
+			"Feather headdress (blue)": true,
+			"Feather headdress (orange)": true,
+			"Feather headdress (red)": true,
+			"Feather headdress (yellow)": true,
+			"Feather headdress (stripy)": true,
 			"Pouch": true,
 			"Spirit shard pack": true
 		},
