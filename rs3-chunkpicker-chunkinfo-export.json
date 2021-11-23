@@ -5132,7 +5132,13 @@
 				"Chunks": ["Tunnels Near Keldagrim"],
 				"Primary": false,
 				"Priority": 1
-			}		
+			},
+			"Use the ~|greater fury|~ ability": {
+				"Items": ["Greater Fury ability codex"],
+				"Level": 24,
+				"Primary": false,
+				"Priority": 1
+			}			
 		},
 		"Summoning": {
 			"Create a ~|spirit wolf|~ pouch": {
