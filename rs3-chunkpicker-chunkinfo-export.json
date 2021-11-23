@@ -726,8 +726,100 @@
 				"Priority": 1
 			}
 		},
-		"Attack": {},
-		"Combat": {},
+		"Attack": {
+			"Equip ~|void knight equipment|~": {
+				"Items": ["Voidequipment+"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Strength": 42,
+					"Constitution": 42,
+					"Defence": 42,
+					"Magic": 42,
+					"Prayer": 22,
+					"Ranged": 42
+				},
+				"Priority": 1
+			},
+			"Wield ~|Korasi's sword|~": {
+				"Items": ["Korasi's sword"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield ~|Jessika's sword|~": {
+				"Items": ["Jessika's sword"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield the ~|Barrelchest anchor|~": {
+				"Items": ["Barrelchest anchor"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Strength": 40
+				},
+				"Priority": 1
+			},
+			"Wield a ~|granite maul|~": {
+				"Items": ["Granite maul"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Strength": 55
+				},
+				"Priority": 1
+			},
+			"Wield a ~|granite mace|~": {
+				"Items": ["Granite mace"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Strength": 55
+				},
+				"Priority": 2
+			},
+			"Wield a ~|TzHaar-Ket-Em|~": {
+				"Items": ["TzHaar-Ket-Em"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Strength": 60
+				},
+				"Priority": 1
+			},
+			"Wield ~|Torag's hammers|~": {
+				"Items": ["Torag's hammer"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Strength": 70
+				},
+				"Priority": 1
+			},
+			"Wield ~|Dharok's greataxe|~": {
+				"Items": ["Dharok's greataxe"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Strength": 70
+				},
+				"Priority": 2
+			}
+		},
+		"Combat": {
+			"Equip a ~|black mask|~": {
+				"Items": ["Black mask"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Strength": 20,
+					"Defence": 10
+				},
+				"Priority": 1
+			}
+		},
 		"Constitution": {
 			"Create a ~|portent of restoration I|~": {
 				"Items": ["Portent of restoration I"],
@@ -962,6 +1054,20 @@
 					"Divination": 97
 				},
 				"Priority": 1
+			},
+			"Equip ~|void knight equipment|~": {
+				"Items": ["Voidequipment+"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Attack": 42,
+					"Strength": 42,
+					"Defence": 42,
+					"Magic": 42,
+					"Prayer": 22,
+					"Ranged": 42
+				},
+				"Priority": 1
 			}
 		},
 		"Construction": {
@@ -1172,7 +1278,123 @@
 				"Priority": 5
 			}
 		},
-		"Defence": {},
+		"Defence": {
+			"Equip a ~|black mask|~": {
+				"Items": ["Black mask"],
+				"Level": 10,
+				"Primary": false,
+				"Skills": {
+					"Combat": 40,
+					"Strength": 20
+				},
+				"Priority": 1
+			},
+			"Equip a ~|Slayer helmet|~": {
+				"Items": ["Slayer helmet"],
+				"Level": 10,
+				"Primary": false,
+				"Skills": {
+					"Strength": 20
+				},
+				"Priority": 2
+			},
+			"Equip a ~|full slayer helmet|~": {
+				"Items": ["Full slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Strength": 20,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 1
+			},
+			"Equip a ~|reinforced slayer helmet|~": {
+				"Items": ["Reinforced slayer helmet"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Strength": 20,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 1
+			},
+			"Equip a ~|strong slayer helmet|~": {
+				"Items": ["Strong slayer helmet"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Strength": 20,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 1
+			},
+			"Equip a ~|mighty slayer helmet|~": {
+				"Items": ["Mighty slayer helmet"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Strength": 20,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 1
+			},
+			"Equip a ~|corrupted slayer helmet|~": {
+				"Items": ["Corrupter slayer helmet"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Strength": 20,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 2
+			},
+			"Equip a ~|hexcrest|~": {
+				"Items": ["Hexcrest"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Magic": 20
+				},
+				"Priority": 2
+			},
+			"Equip a ~|focus sight|~": {
+				"Items": ["Focus sight"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 20
+				},
+				"Priority": 3
+			},
+			"Equip ~|void knight equipment|~": {
+				"Items": ["Voidequipment+"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Attack": 42,
+					"Constitution": 42,
+					"Strength": 42,
+					"Magic": 42,
+					"Prayer": 22,
+					"Ranged": 42
+				},
+				"Priority": 1
+			},
+			"Equip ~|granite equipment|~": {
+				"Items": ["GraniteArmour+"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Strength": 55
+				},
+				"Priority": 1
+			}
+		},
 		"Divination": {
 			"Harvest with a ~|cobalt skillchompa|~": {
 				"Items": ["Cobalt skillchompa"],
@@ -3257,6 +3479,47 @@
 				"Output": "Raw rocktail",
 				"Primary": false,
 				"Priority": 3
+			},
+			"Catch a ~|raw tuna|~ barehanded": {
+				"Level": 55,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Strength": 35
+				},
+				"Output": "Raw tuna",
+				"Priority": 1
+			},
+			"Catch a ~|raw swordfish|~ barehanded": {
+				"Level": 70,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Strength": 50
+				},
+				"Output": "Raw swordfish",
+				"Priority": 2
+			},
+			"Catch a ~|raw shark|~ barehanded": {
+				"Level": 96,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Strength": 76
+				},
+				"Output": "Raw shark",
+				"Priority": 2
+			},
+			"Catch a ~|raw baron shark|~ barehanded": {
+				"Items": ["Juju fishing potion"],
+				"Level": 96,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Strength": 76
+				},
+				"Output": "Raw baron shark",
+				"Priority": 3
 			}
 		},
 		"Fletching": {},
@@ -3459,6 +3722,84 @@
 					"Crafting": 60,
 					"Farming": 60,
 					"Agility": 60
+				},
+				"Priority": 1
+			},
+			"Equip a ~|full slayer helmet|~": {
+				"Items": ["Full slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20,
+					"Strength": 20,
+					"Ranged": 20
+				},
+				"Priority": 1
+			},
+			"Equip a ~|reinforced slayer helmet|~": {
+				"Items": ["Reinforced slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 30,
+					"Strength": 20,
+					"Ranged": 20
+				},
+				"Priority": 2
+			},
+			"Equip a ~|strong slayer helmet|~": {
+				"Items": ["Strong slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 50,
+					"Strength": 20,
+					"Ranged": 20
+				},
+				"Priority": 3
+			},
+			"Equip a ~|mighty slayer helmet|~": {
+				"Items": ["Mighty slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Strength": 20,
+					"Ranged": 20
+				},
+				"Priority": 4
+			},
+			"Equip a ~|corrupted slayer helmet|~": {
+				"Items": ["Corrupter slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Strength": 20,
+					"Ranged": 20
+				},
+				"Priority": 5
+			},
+			"Equip a ~|hexcrest|~": {
+				"Items": ["Hexcrest"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20
+				},
+				"Priority": 6
+			},
+			"Equip ~|void knight equipment|~": {
+				"Items": ["Voidequipment+"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Attack": 42,
+					"Constitution": 42,
+					"Defence": 42,
+					"Strength": 42,
+					"Prayer": 22,
+					"Ranged": 42
 				},
 				"Priority": 1
 			}
@@ -4125,7 +4466,22 @@
 				"Priority": 7
 			}
 		},
-		"Prayer": {},
+		"Prayer": {
+			"Equip ~|void knight equipment|~": {
+				"Items": ["Voidequipment+"],
+				"Level": 22,
+				"Primary": false,
+				"Skills": {
+					"Attack": 42,
+					"Constitution": 42,
+					"Defence": 42,
+					"Magic": 42,
+					"Strength": 42,
+					"Ranged": 42
+				},
+				"Priority": 1
+			}
+		},
 		"Ranged": {
 			"Complete a lap of the ~|Bandos agility course|~": {
 				"Chunks": ["Bandos's throne room"],
@@ -4265,6 +4621,84 @@
 					"Summoning": 50
 				},
 				"Priority": 5
+			},
+			"Equip a ~|full slayer helmet|~": {
+				"Items": ["Full slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 6
+			},
+			"Equip a ~|reinforced slayer helmet|~": {
+				"Items": ["Reinforced slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 30,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 7
+			},
+			"Equip a ~|strong slayer helmet|~": {
+				"Items": ["Strong slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 50,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 8
+			},
+			"Equip a ~|mighty slayer helmet|~": {
+				"Items": ["Mighty slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 9
+			},
+			"Equip a ~|corrupted slayer helmet|~": {
+				"Items": ["Corrupter slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 10
+			},
+			"Equip a ~|focus sight|~": {
+				"Items": ["Focus sight"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20
+				},
+				"Priority": 11
+			},
+			"Equip ~|void knight equipment|~": {
+				"Items": ["Voidequipment+"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Attack": 42,
+					"Constitution": 42,
+					"Defence": 42,
+					"Magic": 42,
+					"Prayer": 22,
+					"Strength": 42
+				},
+				"Priority": 1
 			}
 		},
 		"Runecrafting": {},
@@ -4348,7 +4782,8 @@
 				"Skills": {
 					"Agility": 60,
 					"Ranged": 60
-				}
+				},
+				"Priority": 1
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
 				"Chunks": ["Dorgesh-Kaan Agility course"],
@@ -4358,7 +4793,8 @@
 				"Skills": {
 					"Agility": 80,
 					"Ranged": 80
-				}
+				},
+				"Priority": 1
 			},
 			"Catch a ~|leaping trout|~": {
 				"Items": ["Barbarian bait+"],
@@ -4405,7 +4841,8 @@
 				"Skills": {
 					"Agility": 8,
 					"Ranged": 37
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|wall (Falador)|~": {
 				"Category": ["Shortcut"],
@@ -4416,7 +4853,8 @@
 				"Skills": {
 					"Agility": 11,
 					"Ranged": 19
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Catherby)|~": {
 				"Category": ["Shortcut"],
@@ -4427,7 +4865,8 @@
 				"Skills": {
 					"Agility": 32,
 					"Ranged": 35
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|grapple column|~": {
 				"Category": ["Shortcut"],
@@ -4438,7 +4877,8 @@
 				"Skills": {
 					"Agility": 36,
 					"Ranged": 39
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|wall (Yanille)|~": {
 				"Category": ["Shortcut"],
@@ -4449,7 +4889,8 @@
 				"Skills": {
 					"Agility": 39,
 					"Ranged": 21
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|strong tree (Karamja)|~": {
 				"Category": ["Shortcut"],
@@ -4460,14 +4901,238 @@
 				"Skills": {
 					"Agility": 53,
 					"Ranged": 42
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|boulder (God Wars Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11577", "11578"],
 				"Level": 60,
-				"Primary": false
-			}
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield the ~|Barrelchest anchor|~": {
+				"Items": ["Barrelchest anchor"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Attack": 60
+				},
+				"Priority": 1
+			},
+			"Wield a ~|granite maul|~": {
+				"Items": ["Granite maul"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Attack": 55
+				},
+				"Priority": 1
+			},
+			"Wield a ~|granite mace|~": {
+				"Items": ["Granite mace"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Attack": 55
+				},
+				"Priority": 2
+			},
+			"Wield a ~|TzHaar-Ket-Em|~": {
+				"Items": ["TzHaar-Ket-Em"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Attack": 60
+				},
+				"Priority": 1
+			},
+			"Wield a ~|TzHaar-Ket-Om|~": {
+				"Items": ["TzHaar-Ket-Om"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield ~|Torag's hammers|~": {
+				"Items": ["Torag's hammer"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Attack": 70
+				},
+				"Priority": 1
+			},
+			"Wield ~|Dharok's greataxe|~": {
+				"Items": ["Dharok's greataxe"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Attack": 70
+				},
+				"Priority": 2
+			},
+			"Wield a ~|terrasaur maul|~": {
+				"Items": ["Terrasaur maul"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|Ek-ZekKil|~": {
+				"Items": ["Ek-ZekKil"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip a ~|black mask|~": {
+				"Items": ["Black mask"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Combat": 40,
+					"Defence": 10
+				},
+				"Priority": 1
+			},
+			"Equip a ~|Slayer helmet|~": {
+				"Items": ["Slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 10
+				},
+				"Priority": 2
+			},
+			"Equip a ~|full slayer helmet|~": {
+				"Items": ["Full slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 3
+			},
+			"Equip a ~|reinforced slayer helmet|~": {
+				"Items": ["Reinforced slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 30,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 4
+			},
+			"Equip a ~|strong slayer helmet|~": {
+				"Items": ["Strong slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 50,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 5
+			},
+			"Equip a ~|mighty slayer helmet|~": {
+				"Items": ["Mighty slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 6
+			},
+			"Equip a ~|corrupted slayer helmet|~": {
+				"Items": ["Corrupter slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Magic": 20,
+					"Ranged": 20
+				},
+				"Priority": 7
+			},
+			"Equip ~|void knight equipment|~": {
+				"Items": ["Voidequipment+"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Attack": 42,
+					"Constitution": 42,
+					"Defence": 42,
+					"Magic": 42,
+					"Prayer": 22,
+					"Ranged": 42
+				},
+				"Priority": 1
+			},
+			"Equip ~|granite equipment|~": {
+				"Items": ["GraniteArmour+"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Defence": 55
+				},
+				"Priority": 3
+			},
+			"Catch a ~|raw tuna|~ barehanded": {
+				"Level": 35,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 55
+				},
+				"Output": "Raw tuna",
+				"Priority": 2
+			},
+			"Catch a ~|raw swordfish|~ barehanded": {
+				"Level": 50,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 70
+				},
+				"Output": "Raw swordfish",
+				"Priority": 1
+			},
+			"Catch a ~|raw shark|~ barehanded": {
+				"Level": 76,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 96
+				},
+				"Output": "Raw shark",
+				"Priority": 1
+			},
+			"Catch a ~|raw baron shark|~ barehanded": {
+				"Items": ["Juju fishing potion"],
+				"Level": 76,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 96
+				},
+				"Output": "Raw baron shark",
+				"Priority": 2
+			},
+			"Access the ~|Bandos' stronghold|~": {
+				"Level": 70,
+				"Chunks": ["God Wars Dungeon"],
+				"Primary": false,
+				"Priority": 3
+			},
+			"Keep the ~|big rock|~": {
+				"Level": 90,
+				"Chunks": ["Tunnels Near Keldagrim"],
+				"Primary": false,
+				"Priority": 1
+			}		
 		},
 		"Summoning": {
 			"Create a ~|spirit wolf|~ pouch": {
@@ -15618,7 +16283,7 @@
 			"Shop": {
 				"Burthorpe Guard Quartermaster": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Abandoned Burthorpe mine"
 		},
 		"8774": {
 			"Object": {
@@ -16270,7 +16935,7 @@
 			"Shop": {
 				"Tobias Bronzearms's Mining Supplies Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Burthorpe Mine"
 		},
 		"9032": {
 			"Object": {
@@ -16305,7 +16970,8 @@
 			"Connect": {
 				"11319": true,
 				"13634": true
-			}
+			},
+			"Name": "Sabbot's Cave"
 		},
 		"9035": {
 			"Object": {
@@ -24653,7 +25319,6 @@
 				"Violet": 1
 			},
 			"Connect": {
-				"7098": true,
 				"9030": true,
 				"20118": true
 			},
@@ -41099,7 +41764,8 @@
 				"Mike": 1,
 				"Eliza": 1,
 				"Angelica": 1
-			}
+			},
+			"Name": "Land of Snow"
 		},
 		"20119": {
 			"Object": {
@@ -41107,7 +41773,8 @@
 			},
 			"Connect": {
 				"11318": true
-			}
+			},
+			"Name": "Land of Snow"
 		},
 		"20121": {
 			"Object": {
@@ -44295,6 +44962,7 @@
 				"6753": true,
 				"7757": true,
 				"7771": true,
+				"7777": true,
 				"8792": true,
 				"9814": true,
 				"10061": true,
@@ -45778,7 +46446,18 @@
 				"12192": true
 			}
 		},
-		"Sabbot's cave": {},
+		"Sabbot's cave": {
+			"Object": {
+				"Sabbot's cave": 1
+			},
+			"NPC": {
+				"Sabbot": 1
+			},
+			"Connect": {
+				"11319": true,
+				"13634": true
+			}
+		},
 		"Meiyerditch mine": {},
 		"Mouse hole": {
 			"Object": {
@@ -45987,8 +46666,47 @@
 				"Ringmaster": 1
 			}
 		},
-		"Burthorpe mine": {},
-		"Abandoned Burthorpe mine": {},
+		"Burthorpe Mine": {
+			"Object": {
+				"Burthorpe": 1,
+				"Copper rock": 15,
+				"Tin rock": 12,
+				"Clay rock": 12
+			},
+			"NPC": {
+				"Tobias Bronzearms": 1
+			},
+			"Connect": {
+				"11318": true
+			},
+			"Shop": {
+				"Tobias Bronzearms's Mining Supplies Shop": true
+			}
+		},
+		"Abandoned Burthorpe mine": {
+			"Object": {
+				"Burthorpe": 1,
+				"Mine cart": 2
+			},
+			"NPC": {
+				"Corporal Boothe": 1,
+				"Wounded Soldier": 4,
+				"The Raptor": 1,
+				"Ozan": 1,
+				"Ariane": 1
+			},
+			"Monster": {
+				"Troll brute": 11,
+				"Troll chucker": 11,
+				"Troll shaman": 11
+			},
+			"Connect": {
+				"11319": true
+			},
+			"Shop": {
+				"Burthorpe Guard Quartermaster": true
+			}
+		},
 		"Lumbridge Catacombs": {
 			"Object": {
 				"Catacombs": 1,
@@ -47279,11 +47997,27 @@
 			"Object": {
 				"Portal": 1,
 				"Crevice": 5,
-				"Archway": 6
+				"Archway": 6,
+				"Bank chest": 1,
+				"Book": 1,
+				"Land of Snow portal": 1
 			},
 			"NPC": {
 				"Stone block": 2,
-				"Yeti": 2
+				"Yeti": 2,
+				"Violet": 1,
+				"Trevor": 1,
+				"Peggy": 1,
+				"Yeren": 1,
+				"Almas": 1,
+				"Snowcone seller": 1,
+				"Charlie": 1,
+				"Mike": 1,
+				"Eliza": 1,
+				"Angelica": 1
+			},
+			"Connect": {
+				"11318": true
 			}
 		},
 		"Grand Tree": {
@@ -52400,7 +53134,9 @@
 			"Cockatricepouch+": ["Spirit cockatrice pouch", "Spirit guthatrice pouch", "Spirit saratrice pouch", "Spirit zamatrice pouch", "Spirit pengatrice pouch", "Spirit coraxatrice pouch", "Spirit vulatrice pouch"],
 			"EleTitanpouch+": ["Fire titan pouch", "Ice titan pouch", "Moss titan"],
 			"LesserDemonpouch+": ["Demon brawler pouch", "Demon deacon pouch", "Demon executioner pouch"],
-			"Nihilpouch+": ["Shadow nihil pouch", "Ice nihil pouch", "Blood nihil pouch", "smoke nihil pouch"]
+			"Nihilpouch+": ["Shadow nihil pouch", "Ice nihil pouch", "Blood nihil pouch", "smoke nihil pouch"],
+			"Voidequipment+": ["Void knight melee helm", "Superior void knight melee helm", "Void knight mage helm", "Superior void knight mage helm", "Void knight ranger helm", "Superior void knight ranger helm", "Void knight top", "Superior void knight top", "Void knight robe", "Superior void knight robe", "Void knight gloves", "Superior void knight gloves", "Void knight deflector", "Superior void knight deflector", "Elite void knight top (guardian)", "Superior elite void knight top (guardian)", "Elite void knight robe (guardian)", "Superior elite void knight robe (guardian)", "Elite void knight top (executioner)", "Superior elite void knight top (executioner)", "Elite void knight robe (executioner)", "Superior elite void knight robe (executioner)", "Elite void knight top (justiciar)", "Superior elite void knight top (justiciar)", "Elite void knight robe (justiciar)", "Superior elite void knight robe (justiciar)", "Void knight mace"],
+			"GraniteArmour+": ["Granite helm", "Granite body", "Granite legs", "Granite shield"]
 	},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
