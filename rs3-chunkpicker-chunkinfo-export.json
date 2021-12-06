@@ -4,67 +4,80 @@
 			"Complete a lap of the ~|Burthorpe agility course|~": {
 				"Chunks": ["11575"],
 				"Level": 1,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|Gnome Stronghold agility course|~": {
 				"Chunks": ["9781"],
 				"Level": 1,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Complete a lap of the ~|advanced Gnome Stronghold agility course|~": {
 				"Chunks": ["9781"],
 				"Level": 85,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Access the ~|Brimhaven agility arena|~ low level obstacles": {
 				"Chunks": ["11057"],
 				"Level": 1,
-				"Primary": true
+				"Primary": true,
+				"Priority": 3
 			},
 			"Access the ~|Brimhaven agility arena|~ medium level obstacles": {
 				"Chunks": ["11057"],
 				"Level": 20,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Access the ~|Brimhaven agility arena|~ high level obstacles": {
 				"Chunks": ["11057"],
 				"Level": 40,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of ~|werewolf skullball|~": {
 				"Chunks": ["14134"],
 				"Level": 25,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|agility pyramid|~": {
 				"Chunks": ["13356"],
 				"Level": 30,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|penguin agility course|~": {
 				"Chunks": ["10559"],
 				"Level": 30,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Complete a lap of the ~|barbarian outpost agility course|~": {
 				"Chunks": ["10039"],
 				"Level": 35,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|advanced barbarian outpost agility course|~": {
 				"Chunks": ["10039"],
 				"Level": 90,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|Ape Atoll agility course|~": {
 				"Chunks": ["10794", "11050", "11051"],
 				"Level": 48,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|wilderness agility course|~": {
 				"Chunks": ["11837"],
 				"Level": 52,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|Bandos agility course|~": {
 				"Chunks": ["Bandos's throne room"],
@@ -74,22 +87,26 @@
 				"Skills": {
 					"Strength": 60,
 					"Ranged": 60
-				}
+				},
+				"Priority": 1
 			},
 			"Complete a lap of the ~|werewolf agility course|~": {
 				"Chunks": ["14134"],
 				"Level": 60,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Complete a lap of the ~|Hefin agility course|~": {
 				"Chunks": ["8501", "8757"],
 				"Level": 77,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~": {
 				"Chunks": ["Dorgesh-Kaan Agility course"],
 				"Level": 80,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
 				"Chunks": ["Dorgesh-Kaan Agility course"],
@@ -99,48 +116,57 @@
 				"Skills": {
 					"Strength": 80,
 					"Ranged": 80
-				}
+				},
+				"Priority": 2
 			},
 			"Complete section A of the ~|Anachronia agility course|~": {
 				"Chunks": ["15426", "15427", "15682", "15683"],
 				"Level": 30,
-				"Primary": true
+				"Primary": true,
+				"Priority": 3
 			},
 			"Complete section B of the ~|Anachronia agility course|~": {
 				"Chunks": ["15681", "15936", "15937", "16192", "16193"],
 				"Level": 50,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete section C of the ~|Anachronia agility course|~": {
 				"Chunks": ["16193", "16194", "16450"],
 				"Level": 70,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Complete section D of the ~|Anachronia agility course|~": {
 				"Chunks": ["16706", "16707", "16708", "16963"],
 				"Level": 85,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Complete section E of the ~|Anachronia agility course|~": {
 				"Chunks": ["16453", "16708", "16709"],
 				"Level": 70,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Complete section F of the ~|Anachronia agility course|~": {
 				"Chunks": ["15941", "16197", "16453"],
 				"Level": 50,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Complete section G of the ~|Anachronia agility course|~": {
 				"Chunks": ["15684", "15941"],
 				"Level": 30,
-				"Primary": true
+				"Primary": true,
+				"Priority": 4
 			},
 			"Complete the whole ~|Anachronia agility course|~": {
 				"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"],
 				"Level": 85,
 				"Primary": true,
-				"Output": "Codex page"
+				"Output": "Codex page",
+				"Priority": 3
 			},
 			"Play a game of ~|Gnome ball|~": {
 				"Chunks": ["9526"],
@@ -148,12 +174,15 @@
 				"Primary": true,
 				"Skills": {
 					"Ranged": 1
-				}
+				},
+				,
+				"Priority": 4
 			},
 			"Use the ~|Blast furnace|~ Conveyor belt pedals": {
 				"Chunks": ["11423"],
 				"Level": 30,
-				"Primary": true
+				"Primary": true,
+				"Priority": 5
 			},
 			"Catch a ~|leaping trout|~": {
 				"Items": ["Barbarian bait+"],
@@ -177,7 +206,7 @@
 					"Fishing": 58,
 					"Strength": 30
 				},
-				"Priority": 2
+				"Priority": 6
 			},
 			"Catch a ~|leaping sturgeon|~": {
 				"Items": ["Barbarian bait+"],
@@ -189,7 +218,7 @@
 					"Fishing": 70,
 					"Strength": 45
 				},
-				"Priority": 2
+				"Priority": 1
 			},
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 60,
@@ -201,30 +230,34 @@
 					"Farming": 60,
 					"Magic": 70
 				},
-				"Priority": 1
+				"Priority": 3
 			},
 			"Use the ~|serenity posts|~": {
 				"Chunks": ["8757"],
 				"Level": 75,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross a stile ~|shortcut|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Stile"],
 				"Level": 1,
-				"Primary": true
+				"Primary": true,
+				"Priority": 5
 			},
 			"Cross the ~|stepping stone (Lumbridge swamp caves)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12949"],
 				"Level": 1,
-				"Primary": true
+				"Primary": true,
+				"Priority": 6
 			},
 			"Cross the ~|crumbling wall (Falador)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11572"],
 				"Level": 5,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
 				"Category": ["Shortcut"],
@@ -235,13 +268,15 @@
 				"Skills": {
 					"Strength": 17,
 					"Ranged": 37
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|ropeswing (Brimhaven)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10802"],
 				"Level": 10,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|wall (Falador)|~": {
 				"Category": ["Shortcut"],
@@ -252,97 +287,113 @@
 				"Skills": {
 					"Strength": 37,
 					"Ranged": 19
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|stepping stone (Brimhaven Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10645"],
 				"Level": 12,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|fence (Varrock)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12852"],
 				"Level": 13,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|monkey bars (Edgeville Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12443"],
 				"Level": 15,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Cross the ~|underwall tunnel (Yanille)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10288"],
 				"Level": 16,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|trellis (Watchtower)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10032"],
 				"Level": 18,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Tree Gnome Stronghold)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9782"],
 				"Level": 19,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|log balance (Coal trucks)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10294"],
 				"Level": 20,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Cross the ~|underwall tunnel (Grand Exchange)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12598"],
 				"Level": 21,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|pipe (Brimhaven Dungeon entrance)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10645"],
 				"Level": 22,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|tunnel (Exiled Kalphite Hive)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11801"],
 				"Level": 23,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Eagles' Peak)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9270"],
 				"Level": 25,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Cross the ~|underwall tunnel (Falador)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11827"],
 				"Level": 26,
-				"Primary": false
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|broken railing|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12340"],
 				"Level": 28,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|rock passage|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10284"],
 				"Level": 29,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|stepping stones (Karamja)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11566"],
 				"Level": 30,
-				"Primary": false
+				"Primary": false,
+				"Priority": 7
 			},
 			"Cross the ~|rocks (Catherby)|~": {
 				"Category": ["Shortcut"],
@@ -353,19 +404,22 @@
 				"Skills": {
 					"Strength": 35,
 					"Ranged": 35
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|log balance (East Ardougne)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10292"],
 				"Level": 33,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|pipe (Brimhaven Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10645"],
 				"Level": 34,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|grapple column|~": {
 				"Category": ["Shortcut"],
@@ -376,19 +430,22 @@
 				"Skills": {
 					"Strength": 22,
 					"Ranged": 39
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|tree (Tree Gnome Stronghold)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9782", "9783"],
 				"Level": 37,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Al Kharid)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["13107"],
 				"Level": 38,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|wall (Yanille)|~": {
 				"Category": ["Shortcut"],
@@ -399,85 +456,99 @@
 				"Skills": {
 					"Strength": 38,
 					"Ranged": 21
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|rope (Agility Pyramid)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["13356"],
 				"Level": 40,
-				"Primary": false
+				"Primary": false,
+				"Priority": 2
 			},
 			"Cross the ~|cliffside (Trollheim easy)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11321"],
 				"Level": 41,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|crevice (Dwarven Mine)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12185"],
 				"Level": 42,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|cliffside (Trollheim medium)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11321"],
 				"Level": 43,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|cliffside (Trollheim advanced)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11577"],
 				"Level": 44,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|log balance (Tirannwn)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["8754", "9010"],
 				"Level": 45,
-				"Primary": false
+				"Primary": false,
+				"Priority": 2
 			},
 			"Cross the easy ~|jutting wall (Zanaris)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9541"],
 				"Level": 46,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|cliffside (Trollheim hard)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11577"],
 				"Level": 47,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|log balance (Fremennik Province)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10808"],
 				"Level": 48,
-				"Primary": false
+				"Primary": false,
+				"Priority": 2
 			},
 			"Cross the ~|obstacle pipe (Yanille Agility dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10388"],
 				"Level": 49,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|shortcut (Grotworm Lair)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["4451"],
 				"Level": 50,
-				"Primary": false
+				"Primary": false,
+				"Priority": 3
 			},
 			"Cross the ~|pipe (Edgeville Dungeon/Varrock Sewers)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12698"],
 				"Level": 51,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|stepping stone (Taverley)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11573"],
 				"Level": 52,
-				"Primary": false
+				"Primary": false,
+				"Priority": 2
 			},
 			"Cross the ~|strong tree (Karamja)|~": {
 				"Category": ["Shortcut"],
@@ -488,205 +559,250 @@
 				"Skills": {
 					"Strength": 21,
 					"Ranged": 42
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|lava moat|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12603"],
 				"Level":54,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the easy ~|tunnel (Kalphite Hive)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["13716"],
 				"Level": 55,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|weathered wall|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["14746"],
 				"Level": 58,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Arandar easy)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9267"],
 				"Level": 59,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|boulder (God Wars Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11577", "11578"],
 				"Level": 60,
-				"Primary": false
+				"Primary": false,
+				"Priority": 4
 			},
 			"Cross the ~|rocky handholds (God Wars Dungeon/Wilderness)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11578", "11834"],
 				"Level": 60,
-				"Primary": false
+				"Primary": false,
+				"Priority": 5
 			},
 			"Cross the easy ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["3849"],
 				"Level": 60,
-				"Primary": true
+				"Primary": true,
+				"Priority": 6
 			},
 			"Cross the ~|stile (Tree Gnome Stronghold)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9526"],
 				"Level": 61,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|crevice (Fremennik Slayer Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11164"],
 				"Level": 62,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|crumbling wall (The Islands That Once Were Turtles)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["3948"],
 				"Level": 63,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|cliffside (Trollheim/Wilderness)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11576", "11832"],
 				"Level": 64,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|broken Saradomin statue|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["13622"],
 				"Level": 65,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the hard ~|jutting wall (Zanaris)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9541"],
 				"Level": 66,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|pile of rubble|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10388"],
 				"Level": 67,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Arandar medium)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9267"],
 				"Level": 68,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|rocky wall (God Wars Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11346"],
 				"Level": 70,
-				"Primary": false
+				"Primary": false,
+				"Priority": 3
 			},
 			"Cross the ~|obstacle pipe (Taverley Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["3910"],
 				"Level": 70,
-				"Primary": true
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cross the medium ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["3849"],
 				"Level": 70,
-				"Primary": true
+				"Primary": true,
+				"Priority": 5
 			},
 			"Cross the ~|plank (Slayer Tower)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["13623"],
 				"Level": 71,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|crumbling wall (Asgarnian Ice Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["5190"],
 				"Level": 72,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|gap (Polypore Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["18516"],
 				"Level": 73,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|stepping stone (Shilo Village)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11310"],
 				"Level": 74,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|tunnel (Shilo Village)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11310", "11311"],
 				"Level": 74,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the hard ~|tunnel (Kalphite Hive)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["13716"],
 				"Level": 79,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|strange floor|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["3910"],
 				"Level": 80,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the advanced ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["3849"],
 				"Level": 80,
-				"Primary": true
+				"Primary": true,
+				"Priority": 3
 			},
 			"Cross the ~|chasm (Fremennik Slayer Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11164"],
 				"Level": 81,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Arandar advanced)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["9266"],
 				"Level": 85,
-				"Primary": false
+				"Primary": false,
+				"Priority": 4
 			},
 			"Cross the ~|low wall (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["6482"],
 				"Level": 86,
-				"Primary": true
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|gap (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["6482"],
 				"Level": 90,
-				"Primary": true
+				"Primary": true,
+				"Priority": 2
 			},
 			"Cross the hard ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["3849"],
 				"Level": 90,
-				"Primary": true
+				"Primary": true,
+				"Priority": 3
 			},
 			"Cross the ~|low wall (Port Phasmatys)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["14646"],
 				"Level": 92,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
 			},
 			"Cross the ~|crevice (Gemstone cavern)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11916"],
 				"Level": 94,
-				"Primary": false
+				"Primary": false,
+				"Priority": 1
+			},
+			"Complete the ~|flash powder factory|~ minegame": {
+				"Level": 75,
+				"Chunks": ["Rogues' Den"],
+				"Output": "FlashPowder",
+				"Skills": {
+					"Thieving": 75,
+					"Herblore": 50
+				},
+				"Primary": true,
+				"Priority": 2
 			}
 		},
 		"Archaeology": {
@@ -3564,7 +3680,19 @@
 			}
 		},
 		"Fletching": {},
-		"Herblore": {},
+		"Herblore": {
+			"Complete the ~|flash powder factory|~ minegame": {
+				"Level": 50,
+				"Chunks": ["Rogues' Den"],
+				"Output": "FlashPowder",
+				"Skills": {
+					"Agility": 75,
+					"Thieving": 75
+				},
+				"Primary": false,
+				"Priority": 1
+			}
+		},
 		"Hunter": {
 			"Catch a polar kebbit from a ~|divine kebbit burrow|~": {
 				"Items": ["Divine kebbit burrow"],
@@ -8568,6 +8696,24 @@
 				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 1
+			},
+						"Crack a ~|wall safe|~": {
+				"Level": 50,
+				"Chunks": ["Rogues' Den"],
+				"Output": "WallSafe",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Complete the ~|flash powder factory|~ minegame": {
+				"Level": 75,
+				"Chunks": ["Rogues' Den"],
+				"Output": "FlashPowder",
+				"Skills": {
+					"Agility": 75,
+					"Herblore": 50
+				},
+				"Primary": true,
+				"Priority": 3
 			}
 		},
 		"Woodcutting": {
@@ -19675,7 +19821,7 @@
 				"Tree": 5,
 				"Dead tree": 15
 			},
-			"Nickname": "West Feldiip coast"
+			"Nickname": "West Feldip coast"
 		},
 		"9775": {
 			"Object": {
@@ -25825,7 +25971,7 @@
 			"NPC": {
 				"Chuck": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Deserted Island"
 		},
 		"11309": {
 			"Object": {
@@ -27275,7 +27421,8 @@
 				"The Pick and Lute": true
 			},
 			"Connect": {
-				"11417": true
+				"11417": true,
+				"12109": true
 			},
 			"Nickname": "South Taverley"
 		},
@@ -34180,7 +34327,7 @@
 			"Spawn": {
 				"Panning tray": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Exam centre"
 		},
 		"13365": {
 			"Object": {
@@ -34214,7 +34361,7 @@
 				"11461": true,
 				"12633": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Digsite"
 		},
 		"13366": {
 			"Object": {
@@ -34257,14 +34404,14 @@
 				"Torsteg": 1,
 				"Hilda": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Daemonheim Entrance"
 		},
 		"13369": {
 			"Monster": {
 				"Green dragon": 11,
 				"Waterfiend": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Green Dragons"
 		},
 		"13370": {
 			"NPC": {
@@ -34275,7 +34422,7 @@
 				"Bones": 1,
 				"Skull": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Charming Moths"
 		},
 		"13371": {
 			"Object": {
@@ -34299,7 +34446,10 @@
 				"Elite Dungeon Reward Shop": true,
 				"Edward's Wilderness Cape Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Dragonkin Laboratory Entrance"
+		},
+		"13373": {
+			"Nickname": "Wilderness Volcano"
 		},
 		"13385": {
 			"Object": {
@@ -34859,7 +35009,7 @@
 			"Monster": {
 				"Lobster": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Daemonheim Peninsula"
 		},
 		"13625": {
 			"Object": {
@@ -34882,7 +35032,7 @@
 			"Shop": {
 				"Elite Dungeon Reward Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Daemonheim Fremennik Camp"
 		},
 		"13626": {
 			"Object": {
@@ -34898,7 +35048,7 @@
 				"Cormorant": 1,
 				"Listless dead": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Daemonheim Castle"
 		},
 		"13627": {
 			"NPC": {
@@ -35418,7 +35568,7 @@
 				"Gull": 1,
 				"Cormorant": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Daemonheim Resource Area"
 		},
 		"13881": {
 			"Object": {
@@ -35447,7 +35597,7 @@
 				"Bosun Higgs": 1,
 				"Quartermaster Gully": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Daemonheim Docks"
 		},
 		"13882": {
 			"Object": {
@@ -35460,7 +35610,7 @@
 				"Cormorant": 2,
 				"Listless dead": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Daemonheim Castle"
 		},
 		"13899": {
 			"Object": {
@@ -46298,7 +46448,6 @@
 				"11826": true
 			}
 		},
-		"": {},
 		"Exiled Kalphite Hive": {
 			"Object": {
 				"Tunnel": 2,
@@ -46666,7 +46815,6 @@
 			},
 			"Connect": {
 				"6235": true,
-				"7777": true,
 				"11422": true
 			}
 		},
@@ -47818,6 +47966,9 @@
 				"Brian O'Richard": 1,
 				"Emerald Benedict": 1,
 				"Stanley Limelight": 1
+			},
+			"Connect": {
+				"11573": true
 			},
 			"Shop": {
 				"Flash Factory Reward Shop": true,
@@ -49730,13 +49881,11 @@
 				"Hopeless creature": 11
 			},
 			"Connect": {
-				"3911": true,
 				"4423": true,
 				"5191": true,
 				"12341": true,
 				"12342": true,
 				"12343": true,
-				"12443": true,
 				"12853": true,
 				"13109": true
 			},
@@ -49890,7 +50039,8 @@
 				"Moss giant": 8
 			},
 			"Connect": {
-				"12698": true
+				"12441": true,
+				"12854": true
 			}
 		},
 		"Chaos Tunnels": {
@@ -80321,6 +80471,24 @@
 				"Sealed clue scroll (elite)": "1/128",
 				"Sealed clue scroll (master)": "1/1280",
 				"Sealed clue scroll (hard)": "Varies"
+			},
+			"WallSafe": {
+				"Uncut sapphire": "Common",
+				"Uncut emerald": "Common",
+				"Uncut Ruby": "Common"
+			},
+			"FlashPowder": {
+				"Factory mask": "Common",
+				"Factory top": "Common",
+				"Factory trousers": "Common",
+				"Factory gloves": "Common",
+				"Factory boots": "Common",
+				"Botanist's mask": "Common",
+				"Botanist's top": "Common",
+				"Botanist's trousers": "Common",
+				"Botanist's gloves": "Common",
+				"Botanist's boots": "Common",
+				"Botanist's mask add-on": "Common"
 			}
 		},
 		"Woodcutting": {
