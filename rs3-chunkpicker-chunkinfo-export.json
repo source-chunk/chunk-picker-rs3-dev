@@ -932,6 +932,33 @@
 					"Strength": 70
 				},
 				"Priority": 2
+			},
+			"Wield a ~|leaf-bladed spear|~": {
+				"Items": ["Leaf-bladed spear"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 55
+				}
+			},
+			"Wield a ~|leaf-bladed sword|~": {
+				"Items": ["Leaf-bladed sword"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 2,
+				"Skills": {
+					"Slayer": 55
+				}
+			},
+			"Wield a ~|off-hand leaf-bladed sword|~": {
+				"Items": ["Off-hand leaf-bladed sword"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 3,
+				"Skills": {
+					"Slayer": 55
+				}
 			}
 		},
 		"Combat": {
@@ -944,6 +971,105 @@
 					"Defence": 10
 				},
 				"Priority": 1
+			},
+			"Receive a slayer assignment from ~|Turael|~": {
+				"Chunks": ["11575"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 1
+				}
+			},
+			"Receive a slayer assignment from ~|Jacquelyn|~": {
+				"Chunks": ["12850"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 2,
+				"Skills": {
+					"Slayer": 1
+				}
+			},
+			"Receive a slayer assignment from ~|Vannaka|~": {
+				"Chunks": ["Edgeville Dungeon"],
+				"Level": 30,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 1
+				}
+			},
+			"Receive a slayer assignment from ~|Mazchna|~": {
+				"Chunks": ["13878"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 1
+				}
+			},
+			"Receive a slayer assignment from ~|Chaeldar|~": {
+				"Chunks": ["Zanaris"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 1
+				}
+			},
+			"Receive a slayer assignment from ~|Sumona|~": {
+				"Chunks": ["13358"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 35
+				}
+			},
+			"Receive a slayer assignment from ~|Duradel|~": {
+				"Chunks": ["11310"],
+				"Level": 100,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 50
+				}
+			},
+			"Receive a slayer assignment from ~|Kuradal|~": {
+				"Chunks": ["Ancient Cavern"],
+				"Level": 110,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 75
+				}
+			},
+			"Receive a slayer assignment from ~|Morvran|~": {
+				"Chunks": ["8755"],
+				"Level": 120,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 85
+				}
+			},
+			"Receive a slayer bounty from ~|Mandrith|~": {
+				"Chunks": ["12342"],
+				"Level": 120,
+				"Primary": true,
+				"Priority": 2,
+				"Skills": {
+					"Slayer": 85
+				}
+			},
+			"Receive a slayer assignment from ~|Laniakea|~": {
+				"Chunks": ["15939"],
+				"Level": 120,
+				"Primary": true,
+				"Priority": 3,
+				"Skills": {
+					"Slayer": 90
+				}
 			}
 		},
 		"Constitution": {
@@ -1548,6 +1674,27 @@
 				"Skills": {
 					"Strength": 55
 				},
+				"Priority": 1
+			},
+			"Wield a ~|mirror shield|~": {
+				"Items": ["Mirror shield"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 4,
+				"Skills": {
+					"Slayer": 25
+				}
+			},
+			"Equip a ~|spiny helmet|~": {
+				"Items": ["Spiny helmet"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip a ~|spiked helmet|~": {
+				"Items": ["Spiked helmet"],
+				"Level": 5,
+				"Primary": false,
 				"Priority": 1
 			}
 		},
@@ -3080,6 +3227,13 @@
 					"Mining": 50
 				},
 				"Priority": 1
+			},
+			"Light an ~|unlit bug lantern|~": {
+				"Items": ["Unlit bug lantern"],
+				"Level": 33,
+				"Output": "Lit bug lantern",
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Fishing": {
@@ -3678,7 +3832,22 @@
 				"Priority": 3
 			}
 		},
-		"Fletching": {},
+		"Fletching": {
+			"Feather ~|broad-tipped bolts|~": {
+				"Items": ["Unfinished broad bolts", "Feathers+"],
+				"Level": 55,
+				"Output": "Broad-tipped bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|broad arrows|~": {
+				"Items": ["Broad arrowheads", "Headless arrow"],
+				"Level": 55,
+				"Output": "Broad arrow",
+				"Primary": true,
+				"Priority": 2
+			}
+		},
 		"Herblore": {
 			"Complete the ~|flash powder factory|~ minegame": {
 				"Level": 50,
@@ -3998,6 +4167,24 @@
 				"Output": "Wallasalkibanite ore",
 				"Primary": true,
 				"Priority": 4
+			},
+			"Wield a ~|slayer's staff|~": {
+				"Items": ["Slayer's staff"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1,
+				"Skills": {
+					"Slayer": 55
+				}
+			},
+			"Cast a ~|slayer dart|~": {
+				"Items": ["SlayerStaff+", "Air rune+", "Death rune"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 2,
+				"Skills": {
+					"Slayer": 55
+				}
 			}
 		},
 		"Mining": {
@@ -4895,6 +5082,24 @@
 					"Strength": 42
 				},
 				"Priority": 1
+			},
+			"Equip a ~|broad arrow|~": {
+				"Items": ["Broad arrow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1,
+				"Skills": {
+					"Ranged": 55
+				}
+			},
+			"Equip a ~|broad bolt|~": {
+				"Items": ["Broad bolt"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 2,
+				"Skills": {
+					"Ranged": 55
+				}
 			}
 		},
 		"Runecrafting": {},
@@ -4966,6 +5171,1329 @@
 					"Summoning": 72
 				},
 				"Priority": 1
+			},
+			"Receive a slayer assignment from ~|Turael|~": {
+				"Chunks": ["11575"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Combat": 1
+				}
+			},
+			"Receive a slayer assignment from ~|Jacquelyn|~": {
+				"Chunks": ["12850"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 2,
+				"Skills": {
+					"Combat": 1
+				}
+			},
+			"Receive a slayer assignment from ~|Vannaka|~": {
+				"Chunks": ["Edgeville Dungeon"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 3,
+				"Skills": {
+					"Combat": 30
+				}
+			},
+			"Receive a slayer assignment from ~|Mazchna|~": {
+				"Chunks": ["13878"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 4,
+				"Skills": {
+					"Combat": 50
+				}
+			},
+			"Receive a slayer assignment from ~|Chaeldar|~": {
+				"Chunks": ["Zanaris"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 5,
+				"Skills": {
+					"Combat": 75
+				}
+			},
+			"Receive a slayer assignment from ~|Sumona|~": {
+				"Chunks": ["13358"],
+				"Level": 35,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Combat": 90
+				}
+			},
+			"Receive a slayer assignment from ~|Duradel|~": {
+				"Chunks": ["11310"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Combat": 100
+				}
+			},
+			"Receive a slayer assignment from ~|Kuradal|~": {
+				"Chunks": ["Ancient Cavern"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Combat": 110
+				}
+			},
+			"Receive a slayer assignment from ~|Morvran|~": {
+				"Chunks": ["8755"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 2,
+				"Skills": {
+					"Combat": 120
+				}
+			},
+			"Receive a slayer bounty from ~|Mandrith|~": {
+				"Chunks": ["12342"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 3,
+				"Skills": {
+					"Combat": 120
+				}
+			},
+			"Receive a slayer assignment from ~|Laniakea|~": {
+				"Chunks": ["15939"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 1,
+				"Skills": {
+					"Combat": 120
+				}
+			},
+			"Wield a ~|mirror shield|~": {
+				"Items": ["Mirror shield"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 2,
+				"Skills": {
+					"Defence": 20
+				}
+			},
+			"Wield a ~|leaf-bladed spear|~": {
+				"Items": ["Leaf-bladed spear"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 1,
+				"Skills": {
+					"Attack": 50
+				}
+			},
+			"Wield a ~|leaf-bladed sword|~": {
+				"Items": ["Leaf-bladed sword"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 4,
+				"Skills": {
+					"Attack": 50
+				}
+			},
+			"Wield a ~|off-hand leaf-bladed sword|~": {
+				"Items": ["Off-hand leaf-bladed sword"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 6,
+				"Skills": {
+					"Attack": 50
+				}
+			},
+			"Equip a ~|broad arrow|~": {
+				"Items": ["Broad arrow"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 2,
+				"Skills": {
+					"Ranged": 50
+				}
+			},
+			"Equip a ~|broad bolts|~": {
+				"Items": ["Broad bolts"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 3,
+				"Skills": {
+					"Ranged": 50
+				}
+			},
+			"Add a ~|salt shaker|~ to your toolbelt": {
+				"Items": ["Salt shaker"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Equip a ~|face mask|~": {
+				"Items": ["Face mask"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip ~|earmuffs|~": {
+				"Items": ["Earmuffs"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip a ~|nose peg|~": {
+				"Items": ["Nose peg"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|slayer's staff|~": {
+				"Items": ["Slayer's staff"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 5,
+				"Skills": {
+					"Magic": 50
+				}
+			},
+			"Cast a ~|slayer dart|~": {
+				"Items": ["SlayerStaff+", "Air rune+", "Death rune"],
+				"Level": 55,
+				"Primary": true,
+				"Priority": 7,
+				"Skills": {
+					"Magic": 50
+				}
+			},
+			"Add an ~|explosive shaker|~ to your toolbelt": {
+				"Items": ["Explosive shaker"],
+				"Level": 32,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Add a ~|super explosive shaker|~ to your toolbelt": {
+				"Items": ["Super explosive shaker"],
+				"Level": 32,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Add an ~|ice shaker|~ to your toolbelt": {
+				"Items": ["Ice shaker"],
+				"Level": 22,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip ~|slayer gloves|~": {
+				"Items": ["Slayer gloves"],
+				"Level": 42,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|Bug lantern|~": {
+				"Items": ["BugLantern+"],
+				"Level": 33,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip ~|insulated boots|~": {
+				"Items": ["Insulated boots"],
+				"Level": 37,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Add a ~|fungicide shaker|~ to your toolbelt": {
+				"Items": ["Fungicide shaker"],
+				"Level": 57,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip a ~|witchwood icon|~": {
+				"Items": ["Witchwood icon"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Equip ~|spiked gauntlets|~": {
+				"Items": ["Spiked gauntlets"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Slay a ~|gelatinous abomination|~": {
+				"Items": ["Spiked gauntlets"],
+				"Level": 1,
+				"Monsters": ["Gelatinous abomination"],
+				"Primary": false,
+				"Priority": 8,
+				"Source": "drop",
+				"Output": "Gelatinous abomination"
+			},
+			"Slay a ~|crawling hand|~": {
+				"Level": 5,
+				"Monsters": ["Crawling hand"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Crawling hand"
+			},
+			"Slay a ~|skeleton hand|~": {
+				"Level": 5,
+				"Monsters": ["Skeleton hand"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Skeleton hand"
+			},
+			"Slay a ~|zombie hand|~": {
+				"Level": 5,
+				"Monsters": ["Zombie hand"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Zombie hand"
+			},
+			"Slay a ~|cave bug|~": {
+				"Level": 7,
+				"Monsters": ["Cave bug"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Cave bug"
+			},
+			"Slay a level 12 ~|cave bug|~": {
+				"Chunks": ["Dorgesh-Kaan Agility course", "Chaos Tunnels"],
+				"Level": 7,
+				"Monsters": ["Cave bug"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Cave bug (level 12)"
+			},
+			"Slay a ~|cave crawler|~": {
+				"Level": 10,
+				"Monsters": ["Cave crawler"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Cave crawler"
+			},
+			"Slay a ~|banshee|~": {
+				"Items": ["Earmuffs+"],
+				"Level": 15,
+				"Monsters": ["Banshee"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Banshee"
+			},
+			"Slay a ~|mighty banshee|~": {
+				"Items": ["Earmuffs+"],
+				"Level": 15,
+				"Monsters": ["Mighty banshee"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Mighty banshee"
+			},
+			"Slay a ~|cave slime|~": {
+				"Level": 17,
+				"Monsters": ["Cave slime"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Cave slime"
+			},
+			"Slay a ~|rockslug|~": {
+				"Items": ["Salt+"],
+				"Level": 20,
+				"Monsters": ["Rockslug"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Rockslug"
+			},
+			"Slay a ~|desert lizard|~": {
+				"Items": ["Ice+"],
+				"Level": 22,
+				"Monsters": ["Desert lizard"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Desert lizard"
+			},
+			"Slay a ~|cockatrice|~": {
+				"Items": ["Mirror+"],
+				"Level": 25,
+				"Monsters": ["Cockatrice"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Cockatrice"
+			},
+			"Slay a ~|pyrefiend|~": {
+				"Level": 30,
+				"Monsters": ["Pyrefiend"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Pyrefiend"
+			},
+			"Slay a ~|mogre|~": {
+				"Items": ["FishingExplosive+"],
+				"Level": 32,
+				"Monsters": ["Mogre"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Mogre"
+			},
+			"Slay a ~|harpie bug swarm|~": {
+				"Items": ["Lit bug lantern"],
+				"Level": 33,
+				"Monsters": ["Harpie Bug Swarm"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Harpie Bug Swarm"
+			},
+			"Slay a ~|wall beast|~": {
+				"Items": ["SpikyHelm+"],
+				"Level": 35,
+				"Monsters": ["Wall beast"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Wall beast"
+			},
+			"Slay a ~|killerwatt|~": {
+				"Items": ["Insulated boots"],
+				"Level": 37,
+				"Monsters": ["Killerwatt"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Killerwatt"
+			},
+			"Slay a ~|molanisk|~": {
+				"Items": ["Slayer bell"],
+				"Level": 39,
+				"Monsters": ["Molanisk"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Molanisk"
+			},
+			"Slay a ~|basilisk|~": {
+				"Items": ["Mirror+"],
+				"Level": 40,
+				"Monsters": ["Basilisk"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Basilisk"
+			},
+			"Slay a ~|terror dog|~": {
+				"Level": 40,
+				"Monsters": ["Terror dog"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Terror dog"
+			},
+			"Slay a ~|night spider|~": {
+				"Level": 41,
+				"Chunks": ["13626"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Night spider"
+			},
+			"Slay a ~|fever spider|~": {
+				"Items": ["Slayer gloves"],
+				"Level": 42,
+				"Monsters": ["Fever spider"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Fever spider"
+			},
+			"Slay an ~|infernal mage|~": {
+				"Level": 45,
+				"Monsters": ["Infernal Mage"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Infernal Mage"
+			},
+			"Slay a ~|brine rat|~": {
+				"Level": 47,
+				"Monsters": ["Brine rat"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Brine rat"
+			},
+			"Slay a ~|bloodveld|~": {
+				"Level": 50,
+				"Monsters": ["Bloodveld"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Bloodveld"
+			},
+			"Slay a ~|mutated bloodveld|~": {
+				"Items": ["Mutated bloodveld"],
+				"Level": 50,
+				"Monsters": ["Mutated bloodveld"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Mutated bloodveld"
+			},
+			"Slay a ~|phoenix|~": {
+				"Level": 51,
+				"Monsters": ["Phoenix"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Phoenix"
+			},
+			"Slay a ~|jelly|~": {
+				"Level": 52,
+				"Monsters": ["Jelly"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Jelly"
+			},
+			"Slay a ~|turoth|~": {
+				"Items": ["BroadLeaf+"],
+				"Level": 55,
+				"Monsters": ["Turoth"],
+				"Primary": false,
+				"Priority": 8,
+				"Source": "drop",
+				"Output": "Turoth"
+			},
+			"Slay a ~|warped terrorbird|~": {
+				"Items": ["Crystal chime"],
+				"Level": 56,
+				"Monsters": ["Warped terrorbird"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Warped terrorbird"
+			},
+			"Slay a ~|warped tortoise|~": {
+				"Items": ["Crystal chime"],
+				"Level": 56,
+				"Monsters": ["Warped tortoise"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Warped tortoise"
+			},
+			"Slay a ~|mutated zygomite|~": {
+				"Items": ["Fungicide+"],
+				"Level": 57,
+				"Monsters": ["Mutated zygomite"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Mutated zygomite"
+			},
+			"Slay a ~|cave horror|~": {
+				"Items": ["Witchwood icon"],
+				"Level": 58,
+				"Monsters": ["Cave horror"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Cave horror"
+			},
+			"Slay an ~|unspeakable horror|~": {
+				"Items": ["Witchwood icon"],
+				"Level": 58,
+				"Monsters": ["Unspeakable horror"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Unspeakable horror"
+			},
+			"Slay a ~|wild jade vine|~": {
+				"Items": ["Secateurs+"],
+				"Level": 59,
+				"Monsters": ["Wild jade vine"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Wild jade vine"
+			},
+			"Slay an ~|aberrant spectre|~": {
+				"Items": ["Nosepeg+"],
+				"Level": 60,
+				"Monsters": ["Aberrant spectre"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Aberrant spectre"
+			},
+			"Slay a ~|'rum'-pumped crab|~": {
+				"Level": 61,
+				"Monsters": ["'Rum'-pumped crab"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "'Rum'-pumped crab"
+			},
+			"Slay a ~|spiritual ranger|~": {
+				"Level": 63,
+				"Monsters": ["Spiritual ranger"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Spiritual ranger"
+			},
+			"Slay a ~|spiritual guardian|~": {
+				"Level": 63,
+				"Chunks": ["13626"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Spiritual guardian"
+			},
+			"Slay a ~|dust devil|~": {
+				"Items": ["DustMask+"],
+				"Level": 65,
+				"Monsters": ["Dust devil"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Dust devil"
+			},
+			"Slay an ~|automaton guardian|~": {
+				"Level": 67,
+				"Monsters": ["Automaton guardian"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Automaton guardian"
+			},
+			"Slay an ~|automaton generator|~": {
+				"Level": 67,
+				"Monsters": ["Automaton generator"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Automaton generator"
+			},
+			"Slay an ~|automaton tracer|~": {
+				"Level": 67,
+				"Monsters": ["Automaton tracer"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Automaton tracer"
+			},
+			"Slay a ~|spiritual warrior|~": {
+				"Level": 68,
+				"Monsters": ["Spiritual warrior"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Spiritual warrior"
+			},
+			"Slay a ~|kurask|~": {
+				"Items": ["BroadLeaf+"],
+				"Level": 70,
+				"Monsters": ["Kurask"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Kurask"
+			},
+			"Slay a ~|seeker|~": {
+				"Level": 71,
+				"Chunks": ["13626"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Seeker"
+			},
+			"Slay a ~|skeletal wyvern|~": {
+				"Level": 72,
+				"Monsters": ["Skeletal wyvern"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Skeletal wyvern"
+			},
+			"Slay a ~|jungle strykewyrm|~": {
+				"Level": 73,
+				"Monsters": ["Jungle strykewyrm"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Jungle strykewyrm"
+			},
+			"Slay a ~|gargoyle|~": {
+				"Items": ["RockHammer+"],
+				"Level": 75,
+				"Monsters": ["Gargoyle"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Gargoyle"
+			},
+			"Slay a ~|throwing muspah|~": {
+				"Level": 76,
+				"Monsters": ["Throwing muspah"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Throwing muspah"
+			},
+			"Slay a ~|force muspah|~": {
+				"Level": 76,
+				"Monsters": ["Force muspah"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Force muspah"
+			},
+			"Slay a ~|bladed muspah|~": {
+				"Level": 76,
+				"Monsters": ["Bladed muspah"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Bladed muspah"
+			},
+			"Slay a ~|blood nihil|~": {
+				"Level": 76,
+				"Monsters": ["Blood nihil"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Blood nihil"
+			},
+			"Slay a ~|shadow nihil|~": {
+				"Level": 76,
+				"Monsters": ["Shadow nihil"],
+				"Primary": false,
+				"Priority": 5,
+				"Source": "drop",
+				"Output": "Shadow nihil"
+			},
+			"Slay a ~|smoke nihil|~": {
+				"Level": 76,
+				"Monsters": ["Smoke nihil"],
+				"Primary": false,
+				"Priority": 6,
+				"Source": "drop",
+				"Output": "Smoke nihil"
+			},
+			"Slay an ~|ice nihil|~": {
+				"Level": 76,
+				"Monsters": ["Ice nihil"],
+				"Primary": false,
+				"Priority": 7,
+				"Source": "drop",
+				"Output": "Ice nihil"
+			},
+			"Slay a ~|desert strykewyrm|~": {
+				"Level": 77,
+				"Monsters": ["Desert strykewyrm"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Desert strykewyrm"
+			},
+			"Slay an ~|aquanite|~": {
+				"Level": 78,
+				"Monsters": ["Aquanite"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Aquanite"
+			},
+			"Slay a ~|nightmare|~": {
+				"Level": 80,
+				"Monsters": ["Nightmare"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Nightmare"
+			},
+			"Slay a ~|nechryael|~": {
+				"Level": 80,
+				"Monsters": ["Nechryael"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Nechryael"
+			},
+			"Slay a ~|mutated jadinko baby|~": {
+				"Level": 80,
+				"Monsters": ["Mutated jadinko baby"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Mutated jadinko baby"
+			},
+			"Slay a ~|rorarius|~": {
+				"Level": 81,
+				"Monsters": ["Rorarius"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Rorarius"
+			},
+			"Slay a ~|gladius|~": {
+				"Level": 81,
+				"Monsters": ["Gladius"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Gladius"
+			},
+			"Slay a ~|capsarius|~": {
+				"Level": 81,
+				"Monsters": ["Capsarius"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Capsarius"
+			},
+			"Slay a ~|scutarius|~": {
+				"Level": 81,
+				"Monsters": ["Scutarius"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Scutarius"
+			},
+			"Slay a ~|grifolaroo|~": {
+				"Level": 82,
+				"Monsters": ["Grifolaroo"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Grifolaroo"
+			},
+			"Slay a ~|spiritual mage|~": {
+				"Level": 83,
+				"Monsters": ["Spiritual mage"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Spiritual mage"
+			},
+			"Slay an ~|abyssal demon|~": {
+				"Level": 85,
+				"Monsters": ["Abyssal demon"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Abyssal demon"
+			},
+			"Slay a ~|mutated jadinko guard|~": {
+				"Level": 86,
+				"Monsters": ["Mutated jadinko guard"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Mutated jadinko"
+			},
+			"Slay a ~|grifolapine|~": {
+				"Level": 88,
+				"Monsters": ["Grifolapine"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Grifolapine"
+			},
+			"Slay a ~|corrupted scorpion|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 88,
+				"Monsters": ["Corrupted scorpion"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Corrupted scorpion"
+			},
+			"Slay an ~|anagami|~": {
+				"Level": 90,
+				"Monsters": ["Anagami"],
+				"Primary": false,
+				"Priority": 7,
+				"Source": "drop",
+				"Output": "Anagami"
+			},
+			"Slay a ~|dark beast|~": {
+				"Level": 90,
+				"Monsters": ["Dark beast"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Dark beast"
+			},
+			"Slay a ~|edimmu|~": {
+				"Level": 90,
+				"Monsters": ["Edimmu"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Edimmu"
+			},
+			"Slay a ~|sotapanna|~": {
+				"Level": 90,
+				"Monsters": ["Sotapanna"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Sotapanna"
+			},
+			"Slay a ~|devil's snare|~": {
+				"Level": 90,
+				"Monsters": ["Devil's snare"],
+				"Primary": false,
+				"Priority": 5,
+				"Source": "drop",
+				"Output": "Devil's snare"
+			},
+			"Slay a ~|feral dinosaur|~": {
+				"Level": 90,
+				"Monsters": ["Feral dinosaur"],
+				"Primary": false,
+				"Priority": 6,
+				"Source": "drop",
+				"Output": "Feral dinosaur"
+			},
+			"Slay a ~|mutated jadinko male|~": {
+				"Level": 91,
+				"Monsters": ["Mutated jadinko male"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Mutated jadinko male"
+			},
+			"Slay a ~|corrupted scarab|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 91,
+				"Monsters": ["Corrupted scarab"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Corrupted scarab"
+			},
+			"Slay an ~|airut|~": {
+				"Level": 92,
+				"Monsters": ["Airut"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Airut"
+			},
+			"Slay a ~|Nodon hunter|~": {
+				"Level": 92,
+				"Monsters": ["Nodon hunter"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Nodon hunter"
+			},
+			"Slay a ~|Nodon artificer|~": {
+				"Level": 92,
+				"Monsters": ["Nodon artificer"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Nodon artificer"
+			},
+			"Slay a ~|Nodon guard|~": {
+				"Level": 92,
+				"Monsters": ["Nodon guard"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Nodon guard"
+			},
+			"Slay a ~|siege engine|~": {
+				"Level": 92,
+				"Monsters": ["Siege engine"],
+				"Primary": false,
+				"Priority": 5,
+				"Source": "drop",
+				"Output": "Siege engine"
+			},
+			"Slay a ~|Nodon engineer|~": {
+				"Level": 92,
+				"Monsters": ["Nodon engineer"],
+				"Primary": false,
+				"Priority": 6,
+				"Source": "drop",
+				"Output": "Nodon engineer"
+			},
+			"Slay a ~|Nodon enforcer|~": {
+				"Level": 92,
+				"Monsters": ["Nodon enforcer"],
+				"Primary": false,
+				"Priority": 7,
+				"Source": "drop",
+				"Output": "Nodon enforcer"
+			},
+			"Slay an ~|ice strykewyrm|~": {
+				"Items": ["FireCape+"],
+				"Level": 93,
+				"Monsters": ["Ice strykewyrm"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Ice strykewyrm"
+			},
+			"Slay a ~|sakadagami|~": {
+				"Level": 93,
+				"Monsters": ["Sakadagami"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Sakadagami"
+			},
+			"Slay a ~|lava strykewyrm|~": {
+				"Level": 94,
+				"Monsters": ["Lava strykewyrm"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Lava strykewyrm"
+			},
+			"Slay a ~|corrupted lizard|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 94,
+				"Monsters": ["Corrupted lizard"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Corrupted lizard"
+			},
+			"Slay a ~|dragonstone dragon|~": {
+				"Level": 95,
+				"Monsters": ["Dragonstone dragon"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Dragonstone dragon"
+			},
+			"Slay a ~|luminous snaggler|~": {
+				"Level": 95,
+				"Monsters": ["Luminous snaggler"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Luminous snaggler"
+			},
+			"Slay a ~|ganodermic runt|~": {
+				"Level": 95,
+				"Monsters": ["Ganodermic runt"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Ganodermic runt"
+			},
+			"Slay a ~|ganodermic beast|~": {
+				"Level": 95,
+				"Monsters": ["Ganodermic beast"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Ganodermic beast"
+			},
+			"Slay ~|Legio Primus|~": {
+				"Level": 95,
+				"Monsters": ["Legio Primus"],
+				"Primary": false,
+				"Priority": 5,
+				"Source": "drop",
+				"Output": "Legio Primus"
+			},
+			"Slay ~|Legio Secundus|~": {
+				"Level": 95,
+				"Monsters": ["Legio Secundus"],
+				"Primary": false,
+				"Priority": 6,
+				"Source": "drop",
+				"Output": "Legio Secundus"
+			},
+			"Slay ~|Legio Tertius|~": {
+				"Level": 95,
+				"Monsters": ["Legio Tertius"],
+				"Primary": false,
+				"Priority": 7,
+				"Source": "drop",
+				"Output": "Legio Tertius"
+			},
+			"Slay ~|Legio Quartus|~": {
+				"Level": 95,
+				"Monsters": ["Legio Quartus"],
+				"Primary": false,
+				"Priority": 8,
+				"Source": "drop",
+				"Output": "Legio Quartus"
+			},
+			"Slay ~|Legio Quintus|~": {
+				"Level": 95,
+				"Monsters": ["Legio Quintus"],
+				"Primary": false,
+				"Priority": 9,
+				"Source": "drop",
+				"Output": "Legio Quintus"
+			},
+			"Slay ~|Legio Sextus|~": {
+				"Level": 95,
+				"Monsters": ["Legio Sextus"],
+				"Primary": false,
+				"Priority": 10,
+				"Source": "drop",
+				"Output": "Legio Sextus"
+			},
+			"Slay an ~|arhat|~": {
+				"Level": 96,
+				"Monsters": ["Arhat"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Arhat"
+			},
+			"Slay a ~|wyvern|~": {
+				"Level": 96,
+				"Monsters": ["Wyvern"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Wyvern"
+			},
+			"Slay a ~|ripper demon|~": {
+				"Level": 96,
+				"Monsters": ["Ripper demon"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Ripper demon"
+			},
+			"Slay a ~|camel warrior|~": {
+				"Level": 96,
+				"Monsters": ["Camel warrior"],
+				"Primary": false,
+				"Priority": 4,
+				"Source": "drop",
+				"Output": "Camel warrior"
+			},
+			"Slay an ~|Acheron mammoth|~": {
+				"Level": 96,
+				"Monsters": ["Acheron mammoth"],
+				"Primary": false,
+				"Priority": 5,
+				"Source": "drop",
+				"Output": "Acheron mammoth"
+			},
+			"Slay a ~|corrupted dust devil|~": {
+				"Items": ["DustMask+", "Feathers of Ma'at"],
+				"Level": 97,
+				"Monsters": ["Corrupted dust devil"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Corrupted dust devil"
+			},
+			"Slay an ~|onyx dragon|~": {
+				"Level": 98,
+				"Monsters": ["Onyx dragon"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Onyx dragon"
+			},
+			"Slay a ~|soulgazer|~": {
+				"Level": 99,
+				"Monsters": ["Soulgazer"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Soulgazer"
+			},
+			"Slay a ~|brutish dinosaur|~": {
+				"Level": 99,
+				"Monsters": ["Brutish dinosaur"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Brutish dinosaur"
+			},
+			"Slay a ~|corrupted kalphite|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 100,
+				"Monsters": ["Corrupted kalphite"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Corrupted kalphite"
+			},
+			"Slay a ~|hydrix dragon|~": {
+				"Level": 101,
+				"Monsters": ["Hydrix dragon"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Hydrix dragon"
+			},
+			"Slay a ~|lampenflora|~": {
+				"Level": 102,
+				"Monsters": ["Lampenflora"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Lampenflora"
+			},
+			"Slay a ~|corrupted worker|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 103,
+				"Monsters": ["Corrupted worker"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Corrupted worker"
+			},
+			"Slay a ~|vinecrawler|~": {
+				"Level": 104,
+				"Monsters": ["Vinecrawler"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Vinecrawler"
+			},
+			"Slay a ~|salawa akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 105,
+				"Monsters": ["Salawa akh"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Salawa akh"
+			},
+			"Slay a ~|venomous dinosaur|~": {
+				"Level": 105,
+				"Monsters": ["Venomous dinosaur"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Vemonous dinosaur"
+			},
+			"Slay a ~|bulbous crawler|~": {
+				"Level": 106,
+				"Monsters": ["Bulbous crawler"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Bulbous crawler"
+			},
+			"Slay a ~|feline akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 107,
+				"Monsters": ["Feline akh"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Feline akh"
+			},
+			"Slay a ~|moss golem|~": {
+				"Level": 108,
+				"Monsters": ["Moss golem"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Moss golem"
+			},
+			"Slay a ~|scarab akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 109,
+				"Monsters": ["Scarab akh"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Scarab akh"
+			},
+			"Slay a ~|liverworts|~": {
+				"Level": 110,
+				"Monsters": ["Liverworts"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Liverworts"
+			},
+			"Slay a ~|crocodile akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 111,
+				"Monsters": ["Crocodile akh"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Crocodile akh"
+			},
+			"Slay a ~|gorilla akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 113,
+				"Monsters": ["Gorilla akh"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Gorilla akh"
+			},
+			"Slay a ~|ripper dinosaur|~": {
+				"Level": 114,
+				"Monsters": ["Ripper dinosaur"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Ripper dinosaur"
+			},
+			"Slay ~|the magister|~": {
+				"Items": ["Key to the Crossing"],
+				"Level": 115,
+				"Monsters": ["The Magister"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "The Magister"
+			},
+			"Slay an ~|imperial warrior akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial warrior akh"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Imperial warrior akh"
+			},
+			"Slay an ~|imperial mage akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial mage akh"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Imperial mage akh"
+			},
+			"Slay an ~|imperial ranger akh|~": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial ranger akh"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Imperial ranger akh"
 			}
 		},
 		"Smithing": {
@@ -9167,7 +10695,12 @@
 				"Chunks": ["15683", "15939"]
 			}
 		},
-		"Nonskill": {}
+		"Nonskill": {
+			"Create a ~|super explosive shaker|~": {
+				"Items": ["Super explosive flask", "Rubium"],
+				"Output": "Super explosive shaker"
+			}
+		}
 	},
 	"chunks": {
 		"258": {
@@ -28796,7 +30329,7 @@
 			"Shop": {
 				"Ian's Wilderness Cape Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Forgotten Cemetery"
 		},
 		"11835": {
 			"Object": {
@@ -29536,7 +31069,7 @@
 			"Spawn": {
 				"Tinderbox": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Black Knight's Fortress"
 		},
 		"12088": {
 			"Object": {
@@ -29569,7 +31102,7 @@
 			"Shop": {
 				"Sam's Wilderness Cape Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Dark Warrior Castle"
 		},
 		"12089": {
 			"Object": {
@@ -30588,7 +32121,7 @@
 			"Shop": {
 				"Battle Runes": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Abyss Mage"
 		},
 		"12344": {
 			"Object": {
@@ -30672,7 +32205,7 @@
 			"Connect": {
 				"10057": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mage Arena"
 		},
 		"12354": {
 			"NPC": {
@@ -32591,7 +34124,7 @@
 				"Plank": 5,
 				"Tile": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Graveyard of Shadows"
 		},
 		"12858": {
 			"Object": {
@@ -33588,7 +35121,7 @@
 				"Blood rune": 1,
 				"Burnt bones": 8
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "DEmonic Ruins of Annakarl"
 		},
 		"13117": {
 			"Object": {
@@ -33613,7 +35146,7 @@
 				"Bronze square shield": 1,
 				"Gold ore": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rogues' Castle"
 		},
 		"13121": {
 			"Object": {
@@ -46230,7 +47763,7 @@
 				"Farli": 1
 			}
 		},
-		"Ancient cavern": {
+		"Ancient Cavern": {
 			"Object": {
 				"Aged log": 2,
 				"Rough hewn steps": 3,
@@ -54159,7 +55692,22 @@
 			"Air rune+": ["Air rune", "Dust rune", "Mist rune", "Smoke rune"],
 			"Earth rune+": ["Earth rune", "Dust rune", "Lava rune", "Mud rune"],
 			"Fire rune+": ["Fire rune", "Lava rune", "Smoke rune", "Steam rune"],
-			"Water rune+": ["Water rune", "Mist rune", "Mud rune", "Steam rune"]
+			"Water rune+": ["Water rune", "Mist rune", "Mud rune", "Steam rune"],
+			"BugLantern+": ["Unlit bug lantern", "Lit bug lantern"],
+			"Earmuffs+": ["Earmuffs", "Slayer helmet", "Full slayer helmet", "Reinforced slayer helmet", "Strong slayer helmet", "Mighty slayer helmet", "Corrupted slayer helmet", "Mask of Mourning", "Helm of Keening"],
+			"Salt+": ["Bag of salt", "Salt shaker"],
+			"Ice+": ["Ice cooler", "Ice shaker"],
+			"Mirror+": ["Mirror shield", "Mask of Stone", "Helm of Petrification", "Mask of Reflection", "Helm of Little Kings", "Sunglasses"],
+			"FishingExplosive+": ["Fishing explosive", "Super fishing explosive", "Explosive shaker", "Super explosive shaker"],
+			"SpikyHelm+": ["Spiny helmet", "Spiked helmet", "Slayer helmet", "Full slayer helmet", "Reinforced slayer helmet", "Strong slayer helmet", "Mighty slayer helmet", "Corrupted slayer helmet"],
+			"BroadLeaf+": ["Leaf-bladed sword", "Leaf-bladed spear", "Off-hand leaf-bladed sword", "Broad bolts", "Broad arrow", "Royal bolts", "Ascension bolts", "Slayer's staff", "Staff of Light", "Staff of darkness", "Abyssal wand", "Abyssal orb"],
+			"SlayerStaff+": ["Slayer's staff", "Staff of Light", "Staff of darkness", "Abyssal wand", "Abyssal orb"],
+			"Fungicide+": ["Fungicide spray", "Fungicide shaker"],
+			"Secateurs+": ["Secateurs", "Magic secateurs"],
+			"Nosepeg+": ["Nosepeg", "Slayer helmet", "Full slayer helmet", "Reinforced slayer helmet", "Strong slayer helmet", "Mighty slayer helmet", "Corrupted slayer helmet"],
+			"RockHammer+": ["Rock hammer", "Darklight (Dimesnion of Disaster)"],
+			"FireCape+": ["Fire cape", "TokHaar-Kal-Ket", "TokHaar-Kal-Mej", "TokHaar-Kal-Xil", "Igneous Kal-Ket", "Igneous Kal-Mej", "Igneous Kal-Xil", "Igneous Kal-Zuk"],
+			"DustMask+": ["Face mask", "Slayer helmet", "Full slayer helmet", "Reinforced slayer helmet", "Strong slayer helmet", "Mighty slayer helmet", "Corrupted slayer helmet", "Gas mask"]
 	},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -56875,6 +58423,26 @@
 			"Tinderbox": "3/128",
 			"Candle lantern (empty)": "1/128",
 			"White candle": "4/128",
+			"Swamp weed": "Common",
+			"Rare drop table": "Very rare",
+			"Sealed clue scroll (easy)": "1/128",
+			"Starved ancient effigy": "Very rare"
+		},
+		"Cave bug (level 12)": {
+			"Grimy guam": "4/128",
+			"Grimy marrentill": "3/128",
+			"Grimy tarromin": "2/128",
+			"Grimy harralander": "2/128",
+			"Grimy ranarr": "1/128",
+			"Grimy irit": "Unknown",
+			"Grimy avantoe": "1/128",
+			"Grimy kwuarm": "1/256",
+			"Grimy cadantine": "1/256",
+			"Grimy lantadyme": "1/256",
+			"Grimy dwarf weed": "Unknown",
+			"Water rune": "2/128",
+			"Earth rune": "2/128",
+			"Coins": "29/128",
 			"Swamp weed": "Common",
 			"Fire rune": "5/128",
 			"Water battlestaff": "Unknown",
