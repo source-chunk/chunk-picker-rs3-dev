@@ -974,7 +974,7 @@
 			},
 			"Receive a slayer assignment from ~|Turael|~": {
 				"Chunks": ["11575"],
-				"Level": 1,
+				"Level": 3,
 				"Primary": true,
 				"Priority": 1,
 				"Skills": {
@@ -983,7 +983,7 @@
 			},
 			"Receive a slayer assignment from ~|Jacquelyn|~": {
 				"Chunks": ["12850"],
-				"Level": 1,
+				"Level": 3,
 				"Primary": true,
 				"Priority": 2,
 				"Skills": {
@@ -1558,10 +1558,34 @@
 				"Output": "Glorious silvthril chain",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Craft an ~|orb of Armadyl|~": {
+				"Items": ["Shard of Armadyl"],
+				"Level": 77,
+				"Output": "Orb of Armadyl",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft an ~|Armadyl battlestaff|~": {
+				"Items": ["Battlestaff", "Orb of Armadyl"],
+				"Level": 77,
+				"Output": "Armadyl battlestaff",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Assemble a ~|Inquisitor staff|~": {
+				"Items": ["Praetorian staff", "Inquisitor's staff ornament", "Inquisitor's staff rod", "Inquisitor's staff censer"],
+				"Level": 1,
+				"Output": "Inquisitor staff",
+				"Primary": true,
+				"Skills": {
+					"Runecrafting": 93
+				},
+				"Priority": 1
 			}
 		},
 		"Defence": {
-			"Equip a ~|black mask|~": {
+			"Wear a ~|black mask|~": {
 				"Items": ["Black mask"],
 				"Level": 10,
 				"Primary": false,
@@ -1571,7 +1595,7 @@
 				},
 				"Priority": 1
 			},
-			"Equip a ~|Slayer helmet|~": {
+			"Wear a ~|Slayer helmet|~": {
 				"Items": ["Slayer helmet"],
 				"Level": 10,
 				"Primary": false,
@@ -1580,7 +1604,7 @@
 				},
 				"Priority": 2
 			},
-			"Equip a ~|full slayer helmet|~": {
+			"Wear a ~|full slayer helmet|~": {
 				"Items": ["Full slayer helmet"],
 				"Level": 20,
 				"Primary": false,
@@ -1591,7 +1615,7 @@
 				},
 				"Priority": 1
 			},
-			"Equip a ~|reinforced slayer helmet|~": {
+			"Wear a ~|reinforced slayer helmet|~": {
 				"Items": ["Reinforced slayer helmet"],
 				"Level": 30,
 				"Primary": false,
@@ -1602,7 +1626,7 @@
 				},
 				"Priority": 1
 			},
-			"Equip a ~|strong slayer helmet|~": {
+			"Wear a ~|strong slayer helmet|~": {
 				"Items": ["Strong slayer helmet"],
 				"Level": 50,
 				"Primary": false,
@@ -1613,7 +1637,7 @@
 				},
 				"Priority": 1
 			},
-			"Equip a ~|mighty slayer helmet|~": {
+			"Wear a ~|mighty slayer helmet|~": {
 				"Items": ["Mighty slayer helmet"],
 				"Level": 70,
 				"Primary": false,
@@ -1624,7 +1648,7 @@
 				},
 				"Priority": 1
 			},
-			"Equip a ~|corrupted slayer helmet|~": {
+			"Wear a ~|corrupted slayer helmet|~": {
 				"Items": ["Corrupter slayer helmet"],
 				"Level": 70,
 				"Primary": false,
@@ -1635,7 +1659,7 @@
 				},
 				"Priority": 2
 			},
-			"Equip a ~|hexcrest|~": {
+			"Wear a ~|hexcrest|~": {
 				"Items": ["Hexcrest"],
 				"Level": 20,
 				"Primary": false,
@@ -1644,7 +1668,7 @@
 				},
 				"Priority": 2
 			},
-			"Equip a ~|focus sight|~": {
+			"Wear a ~|focus sight|~": {
 				"Items": ["Focus sight"],
 				"Level": 20,
 				"Primary": false,
@@ -1653,7 +1677,7 @@
 				},
 				"Priority": 3
 			},
-			"Equip ~|void knight equipment|~": {
+			"Wear ~|void knight equipment|~": {
 				"Items": ["Voidequipment+"],
 				"Level": 42,
 				"Primary": false,
@@ -1667,7 +1691,7 @@
 				},
 				"Priority": 1
 			},
-			"Equip ~|granite equipment|~": {
+			"Wear ~|granite equipment|~": {
 				"Items": ["GraniteArmour+"],
 				"Level": 55,
 				"Primary": false,
@@ -1685,15 +1709,21 @@
 					"Slayer": 25
 				}
 			},
-			"Equip a ~|spiny helmet|~": {
+			"Wear a ~|spiny helmet|~": {
 				"Items": ["Spiny helmet"],
 				"Level": 5,
 				"Primary": false,
 				"Priority": 1
 			},
-			"Equip a ~|spiked helmet|~": {
+			"Wear a ~|spiked helmet|~": {
 				"Items": ["Spiked helmet"],
 				"Level": 5,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear ~|seasinger's robes|~": {
+				"Items": ["SeaSingerRobe+"],
+				"Level": 85,
 				"Primary": false,
 				"Priority": 1
 			}
@@ -3081,6 +3111,26 @@
 					"Summoning": 80
 				},
 				"Priority": 1
+			},
+			"wield a ~|magical blastbox|~": {
+				"Items": ["Magical blastbox"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Runecrafting": 30,
+					"Magic": 30
+				},
+				"Priority": 1
+			},
+			"wield a ~|celestial surgebox|~": {
+				"Items": ["Celestial surgebox"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Runecrafting": 70,
+					"Magic": 70
+				},
+				"Priority": 1
 			}
 		},
 		"Farming": {
@@ -3859,6 +3909,13 @@
 				},
 				"Primary": false,
 				"Priority": 1
+			},
+			"Ground ~|shards of Armadyl|~": {
+				"Items": ["Shards of Armadyl"],
+				"Level": 1,
+				"Output": "Dust of Armadyl",
+				"Primary": true,
+				"Priority": 1
 			}
 		},
 		"Hunter": {
@@ -4185,6 +4242,53 @@
 				"Skills": {
 					"Slayer": 55
 				}
+			},
+			"wield a ~|magical blastbox|~": {
+				"Items": ["Magical blastbox"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 30,
+					"Runecrafting": 30
+				},
+				"Priority": 1
+			},
+			"Wield a ~|lesser runic staff|~": {
+				"Items": ["Lesser runic staff"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Runecrafting": 30
+				},
+				"Priority": 2
+			},
+			"Wield a ~|runic staff|~": {
+				"Items": ["Runic staff"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Runecrafting": 60
+				},
+				"Priority": 2
+			},
+			"wield a ~|celestial surgebox|~": {
+				"Items": ["Celestial surgebox"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 70,
+					"Runecrafting": 70
+				},
+				"Priority": 2
+			},
+			"Wield a ~|greater runic staff|~": {
+				"Items": ["Greater runic staff"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Runecrafting": 90
+				},
+				"Priority": 1
 			}
 		},
 		"Mining": {
@@ -5102,7 +5206,713 @@
 				}
 			}
 		},
-		"Runecrafting": {},
+		"Runecrafting": {
+			"Craft ~|air runes|~ at the air rune temple": {
+				"Chunks": ["Air Rune Temple"],
+				"Items": ["RuneEssence+"],
+				"Level": 1,
+				"Output": "Air rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|mind runes|~ at the mind rune temple": {
+				"Chunks": ["Mind Rune Temple"],
+				"Items": ["RuneEssence+"],
+				"Level": 1,
+				"Output": "Mind rune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create an ~|air tiara|~ at the air rune temple": {
+				"Chunks": ["Air Rune Temple"],
+				"Items": ["Tiara", "Air talisman"],
+				"Level": 1,
+				"Output": "Air tiara",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|mind tiara|~ at the mind rune temple": {
+				"Chunks": ["Mind Rune Temple"],
+				"Items": ["Tiara", "Mind talisman"],
+				"Level": 1,
+				"Output": "Mind tiara",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Siphon air runes from ~|cyclones|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 5
+			},
+			"Siphon mind runes from ~|mind storms|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cross a ~|float platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Store essence in a ~|small pouch|~": {
+				"Items": ["RuneEssence+", "Small pouch"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Craft runes at the ~|Ourania altar|~": {
+				"Chunks": ["Ourania Cave"],
+				"Items": ["Pure essence"],
+				"Level": 1,
+				"Output": "Ourania Runes",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Craft ~|water runes|~ at the water rune temple": {
+				"Chunks": ["Water Rune Temple"],
+				"Items": ["RuneEssence+"],
+				"Level": 5,
+				"Output": "Water rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|water tiara|~ at the water rune temple": {
+				"Chunks": ["Water Rune Temple"],
+				"Items": ["Tiara", "Water talisman"],
+				"Level": 5,
+				"Output": "Water tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Siphon water runes from ~|water pools|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 5,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Wear a ~|wicked hood|~": {
+				"Items": ["Wicked hood"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Craft ~|mist runes|~ at the air rune temple": {
+				"Chunks": ["Air Rune Temple"],
+				"Items": ["Pure essence", "Water rune", "Water talisman"],
+				"Level": 6,
+				"Output": "Mist rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|mist runes|~ at the water rune temple": {
+				"Chunks": ["Water Rune Temple"],
+				"Items": ["Pure essence", "Air rune", "Air talisman"],
+				"Level": 6,
+				"Output": "Mist rune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|earth runes|~ at the earth rune temple": {
+				"Chunks": ["Earth Rune Temple"],
+				"Items": ["RuneEssence+"],
+				"Level": 9,
+				"Output": "Earth rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create an ~|earth tiara|~ at the earth rune temple": {
+				"Chunks": ["Earth Rune Temple"],
+				"Items": ["RuneEssence+"],
+				"Level": 9,
+				"Output": "Earth tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Siphon earth runes from ~|rock fragments|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 9,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cross an ~|earth platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 9,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear ~|air runecrafting gloves|~": {
+				"Items": ["Air runecrafting gloves"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Craft ~|dust runes|~ at the air rune temple": {
+				"Chunks": ["Air Rune Temple"],
+				"Items": ["Pure essence", "Earth rune", "Earth talisman"],
+				"Level": 10,
+				"Output": "Dust rune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|dust runes|~ at the earth rune temple": {
+				"Chunks": ["Earth Rune Temple"],
+				"Items": ["Pure essence", "Air rune", "Air talisman"],
+				"Level": 10,
+				"Output": "Dust rune",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft ~|mud runes|~ at the earth rune temple": {
+				"Chunks": ["Earth Rune Temple"],
+				"Items": ["Pure essence", "Water rune", "Water talisman"],
+				"Level": 13,
+				"Output": "Mud rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|mud runes|~ at the water rune temple": {
+				"Chunks": ["Water Rune Temple"],
+				"Items": ["Pure essence", "Earth rune", "Earth talisman"],
+				"Level": 13,
+				"Output": "Mud rune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|fire runes|~ at the fire rune temple": {
+				"Chunks": ["Fire Rune Temple"],
+				"Items": ["RuneEssence+"],
+				"Level": 14,
+				"Output": "Fire rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|fire tiara|~ at the fire rune temple": {
+				"Chunks": ["Fire Rune Temple"],
+				"Items": ["Tiara", "Fire talisman"],
+				"Level": 14,
+				"Output": "Fire tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Siphon fire runes from ~|fireballs|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 14,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cross an ~|ice platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Craft ~|smoke runes|~ at the fire rune temple": {
+				"Chunks": ["Fire Rune Temple"],
+				"Items": ["Pure essence", "Air rune", "Air talisman"],
+				"Level": 15,
+				"Output": "Smoke rune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|smoke runes|~ at the air rune temple": {
+				"Chunks": ["Air Rune Temple"],
+				"Items": ["Pure essence", "Fire rune", "Fire talisman"],
+				"Level": 15,
+				"Output": "Smoke rune",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Siphon earth and water runes from ~|vines|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 17,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|steam runes|~ at the water rune temple": {
+				"Chunks": ["Water Rune Temple"],
+				"Items": ["Pure essence", "Fire rune", "Fire talisman"],
+				"Level": 19,
+				"Output": "Steam rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|steam runes|~ at the fire rune temple": {
+				"Chunks": ["Fire Rune Temple"],
+				"Items": ["Pure essence", "water rune", "Water talisman"],
+				"Level": 19,
+				"Output": "Steam rune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|body runes|~ at the body rune temple": {
+				"Chunks": ["Body Rune Temple"],
+				"Items": ["RuneEssence+"],
+				"Level": 20,
+				"Output": "Body rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|body tiara|~ at the body rune temple": {
+				"Chunks": ["Body Rune Temple"],
+				"Items": ["Tiara", "Body talisman"],
+				"Level": 20,
+				"Output": "Body tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Wear ~|water runecrafting gloves|~": {
+				"Items": ["Water runecrafting gloves"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Cross a ~|small missile platform|~": {
+				"Chunks": ["The runespan"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Craft ~|lava runes|~ at the earth rune temple": {
+				"Chunks": ["Earth Rune Temple"],
+				"Items": ["Pure essence", "Fire rune", "Fire talisman"],
+				"Level": 23,
+				"Output": "Lava rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|lava runes|~ at the fire rune temple": {
+				"Chunks": ["Fire Rune Temple"],
+				"Items": ["Pure essence", "Earth rune", "Earth talisman"],
+				"Level": 23,
+				"Output": "Lava rune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cross a ~|conjuration platform|~": {
+				"Chunks": ["The Ruenspan"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Store essence in a ~|medium pouch|~": {
+				"Items": ["Medium pouch"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Siphon air and fire runes from ~|fire storms|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 27,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|cosmic runes|~ at the cosmic rune temple": {
+				"Chunks": ["Cosmic Rune Temple"],
+				"Items": ["Pure essence"],
+				"Level": 27,
+				"Output": "Cosmic rune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|cosmic tiara|~ at the cosmic rune temple": {
+				"Chunks": ["Cosmic Rune Temple"],
+				"Items": ["Tiara", "Cosmic talisman"],
+				"Level": 27,
+				"Output": "Cosmic tiara",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Siphon cosmic runes from ~|cosmic esshounds|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 27,
+				"Primary": true,
+				"Priority": 4
+			},
+			"wield a ~|magical blastbox|~": {
+				"Items": ["Magical blastbox"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 30,
+					"Magic": 30
+				},
+				"Priority": 1
+			},
+			"Wear ~|earth runecrafting gloves|~": {
+				"Items": ["Earth runecrafting gloves"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a ~|wicked cape|~": {
+				"Items": ["Wicked cape"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|lesser runic staff|~": {
+				"Items": ["Lesser runic staff"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Magic": 30
+				},
+				"Priority": 4
+			},
+			"Climb the ~|vine ladder|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 33,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Craft ~|chaos runes|~ at the chaos rune temple": {
+				"Chunks": ["Chaos Rune Temple"],
+				"Items": ["Pure essence"],
+				"Level": 35,
+				"Output": "Chaos rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|chaos tiara|~ at the chaos rune temple": {
+				"Chunks": ["Chaos Rune Temple"],
+				"Items": ["Tiara", "Chaos talisman"],
+				"Level": 35,
+				"Output": "Chaos tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Siphon chaos runes from ~|chaotic clouds|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 35,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cross a ~|missile platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Craft ~|astral runes|~ at the astral altar": {
+				"Chunks": ["8508"],
+				"Items": ["Pure essence"],
+				"Level": 40,
+				"Output": "Astral rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Siphon cosmic and astral runes from ~|nebulae|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 40,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|nature runes|~ at the nature rune temple": {
+				"Chunks": ["Nature Rune Temple"],
+				"Items": ["Pure essence"],
+				"Level": 44,
+				"Output": "Nature rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|nature tiara|~ at the nature rune temple": {
+				"Chunks": ["Nature Rune Temple"],
+				"Items": ["Tiara", "Nature talisman"],
+				"Level": 44,
+				"Output": "Nature tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Siphon nature runes from ~|shifters|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 44,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cross a ~|vine platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 44,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Access the ~|runecrafting guild|~": {
+				"Chunks": ["12337"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Store essence in a ~|large pouch|~": {
+				"Items": ["Large pouch"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Enter the ~|runespan|~ via the high-level entrance": {
+				"Chunks": ["12337"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Cross a ~|mist platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear ~|runecrafter robes|~": {
+				"Items": ["RunecraftRobe+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Craft ~|law runes|~ at the law rune temple": {
+				"Chunks": ["Law Rune Temple"],
+				"Items": ["Pure essence"],
+				"Level": 54,
+				"Output": "Law rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|law tiara|~ at the law rune temple": {
+				"Chunks": ["Law Rune Temple"],
+				"Items": ["Tiara", "Law talisman"],
+				"Level": 54,
+				"Output": "Law tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Siphon law runes from ~|jumpers|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 54,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Wear ~|wicked legs|~": {
+				"Items": ["Wicked legs"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cross a ~|comet platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|runic staff|~": {
+				"Items": ["Runic staff"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Magic": 50
+				},
+				"Priority": 1
+			},
+			"Craft ~|death runes|~ at the death rune temple": {
+				"Chunks": ["Death Rune Temple"],
+				"Items": ["Pure essence"],
+				"Level": 65,
+				"Output": "Death rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|death tiara|~ at the death rune temple": {
+				"Chunks": ["Death Rune Temple"],
+				"Items": ["Tiara", "Death talisman"],
+				"Level": 65,
+				"Output": "Death tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Siphon death runes from ~|piles of skulls|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 65,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cross a ~|skeletal platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Climb the ~|bone ladder|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 66,
+				"Primary": false,
+				"Priority": 1
+			},
+			"wield a ~|celestial surgebox|~": {
+				"Items": ["Celestial surgebox"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 70,
+					"Magic": 70
+				},
+				"Priority": 1
+			},
+			"Craft ~|Armadyl runes|~ at the air rune temple": {
+				"Chunks": ["Air Rune Temple"],
+				"Items": ["Pure essence", "Dust of Armadyl"],
+				"Level": 72,
+				"Output": "Armadyl rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Store essence in a ~|giant pouch|~": {
+				"Items": ["Giant pouch"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Craft ~|blood runes|~ at the blood rune temple": {
+				"Chunks": ["Blood Rune Temple"],
+				"Items": ["Pure essence"],
+				"Level": 77,
+				"Output": "Blood rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|blood tiara|~ at the blood rune temple": {
+				"Chunks": ["Blood Rune Temple"],
+				"Items": ["Tiara", "Blood talisman"],
+				"Level": 77,
+				"Output": "Blood tiara",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Siphon blood runes from ~|blood pools|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 77,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cross a ~|greater missile platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 77,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a ~|wicked robe top|~": {
+				"Items": ["Wicked robe top"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Siphon death and blood runes from ~|bloody skulls|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 83,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cross a ~|flesh platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Store essence in a ~|massive pouch|~": {
+				"Items": ["Massive pouch"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|greater runic staff|~": {
+				"Items": ["Greater runic staff"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Magic": 75
+				},
+				"Priority": 2
+			},
+			"Siphon soul runes from ~|living souls|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Unlock ~|the occultist|~ at the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Craft ~|sea singer robes|~": {
+				"Items": ["Chi"],
+				"Level": 90,
+				"Output": "SeaSingerRobes",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|tectonic mask|~": {
+				"Items": ["Tectonic energy", "Stone of binding"],
+				"Level": 91,
+				"Output": "Tectonic mask",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|seasinger kiba|~": {
+				"Items": ["Chi", "Koi scales", "Gemstone kaseki"],
+				"Level": 92,
+				"Output": "Seasinger kiba",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|seasinger makigai|~": {
+				"Items": ["Chi", "Koi scales", "Gemstone kaseki"],
+				"Level": 92,
+				"Output": "Seasinger makigai",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|tectonic robe bottom|~": {
+				"Items": ["Tectonic energy", "Stone of binding"],
+				"Level": 92,
+				"Output": "Tectonic robe bottom",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|tectonic robe top|~": {
+				"Items": ["Tectonic energy", "Stone of binding"],
+				"Level": 93,
+				"Output": "Tectonic robe top",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Assemble a ~|Inquisitor staff|~": {
+				"Items": ["Praetorian staff", "Inquisitor's staff ornament", "Inquisitor's staff rod", "Inquisitor's staff censer"],
+				"Level": 93,
+				"Output": "Inquisitor staff",
+				"Primary": true,
+				"Skills": {
+					"Crafting": 1
+				},
+				"Priority": 2
+			},
+			"Wear ~|blood runecrafting gloves|~": {
+				"Items": ["Blood runecrafting gloves"],
+				"Level": 94,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Siphon death and soul runes from ~|undead souls|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 95,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cross a ~|greater conjuration platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 2
+			}
+		},
 		"Slayer": {
 			"Obtain a ~|creeping hand|~": {
 				"Items": ["Crawling hand (item)"],
@@ -5178,7 +5988,7 @@
 				"Primary": true,
 				"Priority": 1,
 				"Skills": {
-					"Combat": 1
+					"Combat": 3
 				}
 			},
 			"Receive a slayer assignment from ~|Jacquelyn|~": {
@@ -5187,7 +5997,7 @@
 				"Primary": true,
 				"Priority": 2,
 				"Skills": {
-					"Combat": 1
+					"Combat": 3
 				}
 			},
 			"Receive a slayer assignment from ~|Vannaka|~": {
@@ -30778,7 +31588,8 @@
 				"8368": true,
 				"9134": true,
 				"9138": true,
-				"9909": true
+				"9909": true,
+				"16241": true
 			},
 			"Spawn": {
 				"Bronze bolts": 2,
@@ -35219,7 +36030,7 @@
 			"Connect": {
 				"9778": true
 			},
-			"Name": "ZMI Altar"
+			"Name": "Ourania Cave"
 		},
 		"13133": {
 			"Object": {
@@ -40629,7 +41440,8 @@
 		"16241": {
 			"Object": {
 				"Standard portal": 1
-			}
+			},
+			"Name": "Player-Owned Port"
 		},
 		"16398": {
 			"NPC": {
@@ -47527,6 +48339,14 @@
 				"Cave crawler": 31
 			}
 		},
+		"Player-Owned Port": {
+			"NPC": {
+				"Meg": 1
+			},
+			"Connect": {
+				"12082": true
+			}
+		},
 		"Chaos tunnels": {
 			"Object": {
 				"Portal": 131,
@@ -50574,7 +51394,7 @@
 				"Stanley Limelight Traders": true
 			}
 		},
-		"ZMI Altar": {
+		"Ourania Cave": {
 			"Object": {
 				"Crack": 2,
 				"Runecrafting altar": 1
@@ -55707,7 +56527,10 @@
 			"Nosepeg+": ["Nosepeg", "Slayer helmet", "Full slayer helmet", "Reinforced slayer helmet", "Strong slayer helmet", "Mighty slayer helmet", "Corrupted slayer helmet"],
 			"RockHammer+": ["Rock hammer", "Darklight (Dimesnion of Disaster)"],
 			"FireCape+": ["Fire cape", "TokHaar-Kal-Ket", "TokHaar-Kal-Mej", "TokHaar-Kal-Xil", "Igneous Kal-Ket", "Igneous Kal-Mej", "Igneous Kal-Xil", "Igneous Kal-Zuk"],
-			"DustMask+": ["Face mask", "Slayer helmet", "Full slayer helmet", "Reinforced slayer helmet", "Strong slayer helmet", "Mighty slayer helmet", "Corrupted slayer helmet", "Gas mask"]
+			"DustMask+": ["Face mask", "Slayer helmet", "Full slayer helmet", "Reinforced slayer helmet", "Strong slayer helmet", "Mighty slayer helmet", "Corrupted slayer helmet", "Gas mask"],
+			"RuneEssence+": ["Rune essence", "Pure essence"],
+			"RunecrafterRobe+": ["Runecrafter hat", "Runecrafter robe", "Runecrafter skirt", "Runecrafter gloves", "Master runecrafter hat", "Master runecrafter robe", "Master runecrafter skirt", "Master runecrafter boots"],
+			"SeaSingerRobe+": ["Seasinger's hood", "Seasinger's robe top", "Seasinger's robe bottom", "Superior seasinger's hood", "Superior seasinger's robe top", "Superior seasinger's robe bottom", "Superior seasinger's aonori", "Superior seasinger's asari"]
 	},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -80415,6 +81238,33 @@
 			"Bronzeore": {
 				"Tin ore": "1/2",
 				"Copper ore": "1/2"
+			}
+		},
+		"Runecrafting": {
+			"Ourania Runes": {
+				"Air rune": "Unknown",
+				"Mind rune": "Unknown",
+				"Water rune": "Unknown",
+				"Earth rune": "Unknown",
+				"Fire rune": "Unknown",
+				"Body rune": "Unknown",
+				"Chaos rune": "Unknown",
+				"Cosmic rune": "Unknown",
+				"Death rune": "Unknown",
+				"Blood rune": "Unknown",
+				"Nature rune": "Unknown",
+				"Law rune": "Unknown",
+				"Soul rune": "Unknown"
+			},
+			"SeaSingerRobes": {
+				"Seasinger's hood": "Always",
+				"Seasinger's robe top": "Always",
+				"Seasinger's robe bottom": "Always",
+				"Superior seasinger's hood": "Always",
+				"Superior seasinger's robe top": "Always",
+				"Superior seasinger's robe bottom": "Always",
+				"Superior seasinger's aonori": "Always",
+				"Superior seasinger's asari": "Always"
 			}
 		},
 		"Smithing": {
