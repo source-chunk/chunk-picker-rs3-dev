@@ -51280,7 +51280,7 @@
 		"Rune Essence mine": {
 			"Object": {
 				"Dead tree": 17,
-				"Rune essence": 4
+				"Rune essence rock": 4
 			},
 			"Connect": {
 				"9625": true,
