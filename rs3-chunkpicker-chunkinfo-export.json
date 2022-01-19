@@ -802,6 +802,60 @@
 				},
 				"Primary": true,
 				"Priority": 2
+			},
+			"Wield a ~|crystal bow|~": {
+				"Items": ["Crystal bow"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Priority": 4
+			},
+			"Wield a ~|crystal chakram|~": {
+				"Items": ["Crystal chakram"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Priority": 5
+			},
+			"Wield an ~|off-hand crystal chakram|~": {
+				"Items": ["Off-hand crystal chakram"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Priority": 6
+			},
+			"Wield an ~|attuned crystal deflector|~": {
+				"Items": ["Attuned crystal deflector"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 7
+			},
+			"Wield an ~|attuned crystal chakram|~": {
+				"Items": ["Attuned crystal chakram"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 8
+			},
+			"Wield an ~|off-hand attuned crystal chakram|~": {
+				"Items": ["Off-hand attuned crystal chakram"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 9
 			}
 		},
 		"Archaeology": {
@@ -1725,6 +1779,217 @@
 				"Items": ["SeaSingerRobe+"],
 				"Level": 85,
 				"Primary": false,
+				"Priority": 1
+			},
+			"Equip ~|frog-leather armour|~": {
+				"Items": ["Frog-leather+"],
+				"Level": 25,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 25
+				},
+				"Priority": 1
+			},
+			"Equip a piece of ~|elite Robin Hood armour|~": {
+				"Items": ["Elite Robin Hood+"],
+				"Level": 82,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 40
+				},
+				"Priority": 1
+			},
+			"Wield a ~|shieldbow|~": {
+				"Items": ["Shieldbow"],
+				"Level": 1,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 1
+				},
+				"Priority": 1
+			},
+			"Wield an ~|oak shieldbow|~": {
+				"Items": ["Oak shieldbow"],
+				"Level": 10,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 10
+				},
+				"Priority": 3
+			},
+			"Wield a ~|willow shieldbow|~": {
+				"Items": ["Willow shieldbow"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 20
+				},
+				"Priority": 5
+			},
+			"Wield a ~|maple shieldbow|~": {
+				"Items": ["Maple shieldbow"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 30
+				},
+				"Priority": 2
+			},
+			"Wield a ~|yew shieldbow|~": {
+				"Items": ["Yew shieldbow"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 40
+				},
+				"Priority": 1
+			},
+			"Wield a ~|maple shieldbow (sighted)|~": {
+				"Items": ["Maple shieldbow (sighted)"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 45,
+					"Dungeoneering": 45
+				},
+				"Priority": 1
+			},
+			"Wield a ~|magic shieldbow|~": {
+				"Items": ["Magic shieldbow"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 50
+				},
+				"Priority": 2
+			},
+			"Equip a piece of ~|sacred clay ranged equipment|~": {
+				"Items": ["Sacred Clay Ranged+"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Defence": 50
+				},
+				"Priority": 3
+			},
+			"Equip a ~|ranger hat|~": {
+				"Items": ["Ranger hat"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 50
+				},
+				"Priority": 2
+			},
+			"Wield a ~|hardened ranger hat|~": {
+				"Items": ["Hardened ranger hat"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 50
+				},
+				"Priority": 3
+			},
+			"Wield a ~|magic shieldbow (sighted)|~": {
+				"Items": ["Magic shieldbow (sighted)"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 55,
+					"Dungeoneering": 45
+				},
+				"Priority": 2
+			},
+			"Wield an ~|elder shieldbow|~": {
+				"Items": ["Elder shieldbow"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 60
+				},
+				"Priority": 1
+			},
+			"Equip a piece of ~|demon slayer equipment|~": {
+				"Items": ["Demon Slayer+"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 60
+				},
+				"Priority": 2
+			},
+			"Wield an ~|elder shieldbow (sighted)|~": {
+				"Items": ["Elder shieldbow (sighted)"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 65,
+					"Dungeoneering": 45
+				},
+				"Priority": 1
+			},
+			"Equip a piece of ~|third age ranger equipment|~": {
+				"Items": ["Third age ranger+"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 65
+				},
+				"Priority": 2
+			},
+			"Wield a ~|dark bow|~": {
+				"Items": ["Dark bow"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Priority": 3
+			},
+			"Wield a ~|tainted repriser|~": {
+				"Items": ["Tainted repriser"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Priority": 4
+			},
+			"Equip ~|mercenary's gloves|~": {
+				"Items": ["Mercenary's gloves"],
+				"Level": 73,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 73,
+					"Dungeoneering": 73
+				},
+				"Priority": 1
+			},
+			"Equip ~|Swift gloves|~": {
+				"Items": ["Swift gloves"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 1
+			},
+			"Wield an ~|ancient repriser|~": {
+				"Items": ["Ancient repriser"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 2
+			},
+			"Wield a ~|kalphite repriser|~": {
+				"Items": ["Kalphite repriser"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 90
+				},
 				"Priority": 1
 			}
 		},
@@ -3131,6 +3396,73 @@
 					"Magic": 70
 				},
 				"Priority": 1
+			},
+			"Wear a ~|farsight quick shot necklace|~": {
+				"Items": ["Farsight quick shot necklace"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 30
+				},
+				"Priority": 2
+			},
+			"Wield a ~|maple shieldbow (sighted)|~": {
+				"Items": ["Maple shieldbow (sighted)"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Defence": 45,
+					"Ranged": 45
+				},
+				"Priority": 1
+			},
+			"Wield a ~|gravite chargebow|~": {
+				"Items": ["Gravite chargebow"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Defence": 55
+				},
+				"Priority": 2
+			},
+			"Wield a ~|magic shieldbow (sighted)|~": {
+				"Items": ["Magic shieldbow (sighted)"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Defence": 55,
+					"Ranged": 55
+				},
+				"Priority": 3
+			},
+			"Wield an ~|elder shieldbow (sighted)|~": {
+				"Items": ["Elder shieldbow (sighted)"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Defence": 65,
+					"Ranged": 65
+				},
+				"Priority": 4
+			},
+			"Equip ~|mercenary's gloves|~": {
+				"Items": ["Mercenary's gloves"],
+				"Level": 73,
+				"Primary": false,
+				"Skills": {
+					"Defence": 73,
+					"Ranged": 73
+				},
+				"Priority": 1
+			},
+			"Wield a ~|farsight sniper necklace|~": {
+				"Items": ["Farsight sniper necklace"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 2
 			}
 		},
 		"Farming": {
@@ -3299,12 +3631,36 @@
 				},
 				"Priority": 1
 			},
+			"Catch ~|golden leaping trout eggs|~": {
+				"Items": ["Barbarian bait+"],
+				"Level": 48,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Output": "Golden leaping trout eggs",
+				"Skills": {
+					"Agility": 15,
+					"Strength": 15
+				},
+				"Priority": 2
+			},
 			"Catch a ~|leaping salmon|~": {
 				"Items": ["Barbarian bait+"],
 				"Level": 58,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
 				"Output": "Leaping salmon",
+				"Skills": {
+					"Agility": 30,
+					"Strength": 30
+				},
+				"Priority": 1
+			},
+			"Catch ~|golden leaping salmon eggs|~": {
+				"Items": ["Barbarian bait+"],
+				"Level": 58,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Output": "Golden leaping salmon eggs",
 				"Skills": {
 					"Agility": 30,
 					"Strength": 30
@@ -3317,6 +3673,18 @@
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
 				"Output": "Leaping sturgeon",
+				"Skills": {
+					"Agility": 45,
+					"Strength": 45
+				},
+				"Priority": 1
+			},
+			"Catch ~|golden leaping sturgeon eggs|~": {
+				"Items": ["Barbarian bait+"],
+				"Level": 70,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Output": "Golden leaping sturgeon eggs",
 				"Skills": {
 					"Agility": 45,
 					"Strength": 45
@@ -3397,6 +3765,14 @@
 				"Output": "Raw trout",
 				"Priority": 1
 			},
+			"Catch ~|golden trout eggs|~": {
+				"Items": ["Feathers+"],
+				"Level": 20,
+				"Objects": ["Fishing spot (lure/bait)"],
+				"Primary": true,
+				"Output": "Golden trout eggs",
+				"Priority": 2
+			},
 			"Catch a ~|raw cod|~": {
 				"Level": 23,
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
@@ -3444,6 +3820,14 @@
 				"Output": "Raw salmon",
 				"Priority": 1
 			},
+			"Catch ~|golden salmon eggs|~": {
+				"Items": ["Feathers+"],
+				"Level": 30,
+				"Objects": ["Fishing spot (lure/bait)"],
+				"Primary": true,
+				"Output": "Golden salmon eggs",
+				"Priority": 2
+			},
 			"Catch a ~|frog spawn|~": {
 				"Level": 33,
 				"Objects": ["Fishing spot (frog spawn/eels)"],
@@ -3458,12 +3842,19 @@
 				"Output": "Raw tuna",
 				"Priority": 1
 			},
+			"Catch ~|golden tuna eggs|~": {
+				"Level": 35,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Output": "Golden tuna eggs",
+				"Priority": 2
+			},
 			"Catch a ~|raw tuna|~ in the Piscatoris fishing colony": {
 				"Level": 35,
 				"Objects": ["Fishing spot (harpoon/net(small))"],
 				"Primary": true,
 				"Output": "Raw tuna",
-				"Priority": 2
+				"Priority": 3
 			},
 			"Catch a ~|raw rainbow fish|~": {
 				"Items": ["Stripy feathers"],
@@ -3473,13 +3864,21 @@
 				"Output": "Raw rainbow fish",
 				"Priority": 1
 			},
+			"Catch ~|golden rainbow fish eggs|~": {
+				"Items": ["Stripy feathers"],
+				"Level": 38,
+				"Objects": ["Fishing spot (lure/bait)"],
+				"Primary": true,
+				"Output": "Golden rainbow fish eggs",
+				"Priority": 2
+			},
 			"Catch a ~|raw cave eel|~": {
 				"Items": ["Fishing bait"],
 				"Level": 38,
 				"Objects": ["Fishing spot (frog spawn/eels)"],
 				"Primary": true,
 				"Output": "Raw cave eel",
-				"Priority": 2
+				"Priority": 3
 			},
 			"Catch a ~|raw cave eel|~ in the Meiyerditch dungeon": {
 				"Items": ["Fishing bait"],
@@ -3487,7 +3886,7 @@
 				"Objects": ["Fishing spot (meiyerditch)"],
 				"Primary": true,
 				"Output": "Raw cave eel",
-				"Priority": 3
+				"Priority": 4
 			},
 			"Catch a ~|raw lobster|~": {
 				"Level": 40,
@@ -3496,12 +3895,26 @@
 				"Output": "Raw lobster",
 				"Priority": 1
 			},
+			"Catch ~|golden lobster eggs|~": {
+				"Level": 40,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Output": "Golden lobster eggs",
+				"Priority": 2
+			},
 			"Catch a ~|raw bass|~": {
 				"Level": 46,
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
 				"Primary": true,
 				"Output": "Raw bass",
 				"Priority": 1
+			},
+			"Catch a ~|big bass|~": {
+				"Level": 46,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Output": "Big bass",
+				"Priority": 2
 			},
 			"Catch a ~|raw swordfish|~": {
 				"Level": 50,
@@ -3510,12 +3923,26 @@
 				"Output": "Raw swordfish",
 				"Priority": 1
 			},
+			"Catch a ~|big swordfish|~": {
+				"Level": 50,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Output": "Big swordfish",
+				"Priority": 2
+			},
+			"Catch ~|golden swordfish eggs|~": {
+				"Level": 50,
+				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Primary": true,
+				"Output": "Golden swordfish eggs",
+				"Priority": 3
+			},
 			"Catch a ~|raw swordfish|~ in the Piscatoris fishing colony": {
 				"Level": 50,
 				"Objects": ["Fishing spot (harpoon/net(small))"],
 				"Primary": true,
 				"Output": "Raw swordfish",
-				"Priority": 2
+				"Priority": 4
 			},
 			"Catch a ~|raw desert sole|~": {
 				"Items": ["Fishing bait"],
@@ -3533,6 +3960,14 @@
 				"Output": "Raw lava eel",
 				"Priority": 1
 			},
+			"Catch ~|golden lava eel eggs|~": {
+				"Items": ["Oily fishing rod", "Fishing bait"],
+				"Level": 53,
+				"Objects": ["Fishing spot (lava)"],
+				"Primary": true,
+				"Output": "Golden lava eel eggs",
+				"Priority": 2
+			},
 			"Catch a ~|raw catfish|~": {
 				"Items": ["Fishing bait"],
 				"Level": 60,
@@ -3547,6 +3982,13 @@
 				"Primary": true,
 				"Output": "Raw monkfish",
 				"Priority": 1
+			},
+			"Catch ~|golden monkfish eggs|~": {
+				"Level": 62,
+				"Objects": ["Fishing spot (harpoon/net(small))"],
+				"Primary": true,
+				"Output": "Golden monkfish eggs",
+				"Priority": 2
 			},
 			"Catch a ~|raw karambwan|~": {
 				"Items": ["Karambwan vessel"],
@@ -3592,6 +4034,20 @@
 				"Primary": true,
 				"Output": "Raw shark",
 				"Priority": 2
+			},
+			"Catch a ~|big shark|~": {
+				"Level": 76,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Output": "big shark",
+				"Priority": 3
+			},
+			"Catch ~|golden shark eggs|~": {
+				"Level": 76,
+				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Primary": true,
+				"Output": "Golden shark eggs",
+				"Priority": 4
 			},
 			"Catch a ~|raw sea turtle|~ on the fishing trawler": {
 				"Chunks": ["10545"],
@@ -3646,6 +4102,14 @@
 				"Output": "Raw cavefish",
 				"Priority": 1
 			},
+			"Catch ~|golden cavefish eggs|~": {
+				"Items": ["Fishing bait"],
+				"Level": 85,
+				"Objects": ["Cavefish shoal"],
+				"Primary": true,
+				"Output": "Golden cavefish eggs",
+				"Priority": 2
+			},
 			"Catch a ~|raw rocktail|~": {
 				"Items": ["Living minerals"],
 				"Level": 90,
@@ -3653,6 +4117,14 @@
 				"Primary": true,
 				"Output": "Raw rocktail",
 				"Priority": 1
+			},
+			"Catch ~|golden rocktail eggs|~": {
+				"Items": ["Living minerals"],
+				"Level": 90,
+				"Objects": ["Rocktail shoal"],
+				"Primary": true,
+				"Output": "golden rocktail eggs",
+				"Priority": 2
 			},
 			"Catch a ~|raw tarpon|~": {
 				"Items": ["Wushanko fishing bait"],
@@ -3712,7 +4184,7 @@
 				"Objects": ["Fishing spot (net(big)/harpoon)"],
 				"Primary": true,
 				"Output": "Raw baron shark",
-				"Priority": 1
+				"Priority": 5
 			},
 			"Catch a ~|raw tiger shark|~": {
 				"Chunks": ["10545"],
@@ -3796,42 +4268,42 @@
 				"Level": 20,
 				"Output": "Raw trout",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fish from a ~|divine salmon bubble|~": {
 				"Items": ["Divine salmon bubble"],
 				"Level": 30,
 				"Output": "Raw salmon",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fish from a ~|divine lobster bubble|~": {
 				"Items": ["Divine lobster bubble"],
 				"Level": 40,
 				"Output": "Raw lobster",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fish from a ~|divine swordfish bubble|~": {
 				"Items": ["Divine swordfish bubble"],
 				"Level": 50,
 				"Output": "Raw swordfish",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 5
 			},
 			"Fish from a ~|divine shark bubble|~": {
 				"Items": ["Divine shark bubble"],
 				"Level": 76,
 				"Output": "Raw shark",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 6
 			},
 			"Fish from a ~|divine cavefish bubble|~": {
 				"Items": ["Divine cavefish bubble"],
 				"Level": 85,
 				"Output": "Raw cavefish",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Fish from a ~|divine rocktail bubble|~": {
 				"Items": ["Divine rocktail bubble"],
@@ -3858,7 +4330,7 @@
 					"Strength": 50
 				},
 				"Output": "Raw swordfish",
-				"Priority": 2
+				"Priority": 3
 			},
 			"Catch a ~|raw shark|~ barehanded": {
 				"Level": 96,
@@ -4951,6 +5423,12 @@
 				"Output": "Dark animica",
 				"Primary": false,
 				"Priority": 7
+			},
+			"Mine the rockslide to gain access to the ~|Ice Queen's Lair|~": {
+				"Chunks": ["11318"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 6
 			}
 		},
 		"Prayer": {
@@ -5173,7 +5651,7 @@
 				},
 				"Priority": 11
 			},
-			"Equip ~|void knight equipment|~": {
+			"Equip a piece of ~|void knight equipment|~": {
 				"Items": ["Voidequipment+"],
 				"Level": 42,
 				"Primary": false,
@@ -5193,7 +5671,7 @@
 				"Primary": false,
 				"Priority": 1,
 				"Skills": {
-					"Ranged": 55
+					"Slayer": 55
 				}
 			},
 			"Equip a ~|broad bolt|~": {
@@ -5202,8 +5680,1368 @@
 				"Primary": false,
 				"Priority": 2,
 				"Skills": {
-					"Ranged": 55
+					"Slayer": 55
 				}
+			},
+			"Wield a ~|shortbow|~": {
+				"Items": ["Shortbow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|Chargebow|~": {
+				"Items": ["Chargebow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|Kayle's chargebow|~": {
+				"Items": ["Kayle's chargebow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|shieldbow|~": {
+				"Items": ["Shieldbow"],
+				"Level": 1,
+				"Primary": false,
+				"Skills": {
+					"Defence": 1
+				},
+				"Priority": 4
+			},
+			"Wield a ~|crossbow|~": {
+				"Items": ["Crossbow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|phoenix crossbow|~": {
+				"Items": ["Phoenix crossbow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|bronze crossbow|~": {
+				"Items": ["Bronze crossbow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield an ~|off-hand bronze crossbow|~": {
+				"Items": ["Off-hand bronze crossbow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|coral crossbow|~": {
+				"Items": ["Coral crossbow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|bronze 2h crossbow|~": {
+				"Items": ["Bronze 2h crossbow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield a ~|bronze dart|~": {
+				"Items": ["Bronze dart"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield an ~|off-hand bronze dart|~": {
+				"Items": ["Off-hand bronze dart"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield a ~|bronze javelin|~": {
+				"Items": ["Bronze javelin"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wield a ~|bronze throwing axe|~": {
+				"Items": ["Bronze throwing axe"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wield an ~|off-hand bronze throwing axe|~": {
+				"Items": ["Off-hand bronze throwing axe"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wield a ~|bronze knife|~": {
+				"Items": ["Bronze knife"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wield an ~|off-hand bronze knife|~": {
+				"Items": ["Off-hand bronze knife"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wield a ~|quickbow|~": {
+				"Items": ["Quickbow"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 1
+			},
+			"setup a ~|dwarf multicannon|~": {
+				"Items": ["Cannon barrels", "Cannon base", "Cannon furnace", "Cannon stand"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|oak shortbow|~": {
+				"Items": ["Oak shortbow"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|oak shieldbow|~": {
+				"Items": ["Oak shieldbow"],
+				"Level": 10,
+				"Primary": false,
+				"Skills": {
+					"Defence": 10
+				},
+				"Priority": 2
+			},
+			"Wield an ~|iron crossbow|~": {
+				"Items": ["Iron crossbow"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield an ~|off-hand iron crossbow|~": {
+				"Items": ["Off-hand iron crossbow"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|iron 2h crossbow|~": {
+				"Items": ["Iron 2h crossbow"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield an ~|iron dart|~": {
+				"Items": ["Iron dart"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|off-hand iron dart|~": {
+				"Items": ["Off-hand iron dart"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield an ~|bronze javelin|~": {
+				"Items": ["Bronze javelin"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield an ~|iron throwing axe|~": {
+				"Items": ["Iron throwing axe"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield an ~|off-hand iron throwing axe|~": {
+				"Items": ["Off-hand iron throwing axe"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield an ~|iron knife|~": {
+				"Items": ["Iron knife"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield an ~|off-hand iron knife|~": {
+				"Items": ["Off-hand iron knife"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield a ~|blurite crossbow|~": {
+				"Items": ["Blurite crossbow"],
+				"Level": 16,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|willow shortbow|~": {
+				"Items": ["Willow shortbow"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield a ~|willow shieldbow|~": {
+				"Items": ["Willow shieldbow"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20
+				},
+				"Priority": 13
+			},
+			"Wield a ~|willow composite bow|~": {
+				"Items": ["Willow composite bow"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wield a ~|steel crossbow|~": {
+				"Items": ["Steel crossbow"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wield a ~|off-hand steel crossbow|~": {
+				"Items": ["Off-hand steel crossbow"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wield a ~|steel 2h crossbow|~": {
+				"Items": ["Steel 2h crossbow"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wield a ~|steel dart|~": {
+				"Items": ["Steel dart"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wield an ~|off-hand steel dart|~": {
+				"Items": ["Off-hand steel dart"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Wield a ~|steel javelin|~": {
+				"Items": ["Steel javelin"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Wield a ~|steel throwing axe|~": {
+				"Items": ["Steel throwing axe"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 21
+			},
+			"Wield an ~|off-hand steel throwing axe|~": {
+				"Items": ["Off-hand steel throwing axe"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Wield a ~|steel knife|~": {
+				"Items": ["Steel knife"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 23
+			},
+			"Wield an ~|off-hand steel knife|~": {
+				"Items": ["Off-hand steel knife"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 24
+			},
+			"Wield a ~|corrupt Morrigan's javelin|~": {
+				"Items": ["Corrupt Morrigan's javelin"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 25
+			},
+			"Wield a ~|corrupt Morrigan's throwing axe|~": {
+				"Items": ["Corrupt Morrigan's throwing axe"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 26
+			},
+			"Wield a ~|black crossbow|~": {
+				"Items": ["Black crossbow"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|off-hand black crossbow|~": {
+				"Items": ["Off-hand black crossbow"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|black 2h crossbow|~": {
+				"Items": ["Black 2h crossbow"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|black dart|~": {
+				"Items": ["Black dart"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|off-hand black dart|~": {
+				"Items": ["Off-hand black dart"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|black knife|~": {
+				"Items": ["Black knife"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|off-hand black knife|~": {
+				"Items": ["Off-hand black knife"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Equip a piece of ~|frog-leather armour|~": {
+				"Items": ["Frog-leather+"],
+				"Level": 25,
+				"Primary": false,
+				"Skills": {
+					"Defence": 25
+				},
+				"Priority": 8
+			},
+			"Wield a ~|Dorgeshuun crossbow|~": {
+				"Items": ["Dorgeshuun crossbow"],
+				"Level": 28,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|maple shortbow|~": {
+				"Items": ["Maple shortbow"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|comp ogre bow|~": {
+				"Items": ["Comp ogre bow"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|maple shieldbow|~": {
+				"Items": ["Maple shieldbow"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Defence": 30
+				},
+				"Priority": 3
+			},
+			"Wield an ~|ogre bow|~": {
+				"Items": ["Ogre bow"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|mithril crossbow|~": {
+				"Items": ["Mithril crossbow"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield an ~|off-hand mithril crossbow|~": {
+				"Items": ["Off-hand mithril crossbow"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|mithril 2h crossbow|~": {
+				"Items": ["Mithril 2h crossbow"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|green salamander|~": {
+				"Items": ["Green salamander"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|mithril dart|~": {
+				"Items": ["Mithril dart"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield an ~|off-hand mithril dart|~": {
+				"Items": ["Off-hand Mithril dart"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield a ~|mithril javelin|~": {
+				"Items": ["Mithril javelin"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|mithril throwing axe|~": {
+				"Items": ["Mithril throwing axe"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield an ~|off-hand mithril throwing axe|~": {
+				"Items": ["Off-hand mithril throwing axe"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wield a ~|mithril knife|~": {
+				"Items": ["Mithril knife"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wield an ~|off-hand mithril knife|~": {
+				"Items": ["Off-hand mithril knife"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Equip ~|Ava's attractor|~": {
+				"Items": ["Ava's attractor"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wear a ~|farsight quick shot necklace|~": {
+				"Items": ["Farsight quick shot necklace"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 30
+				},
+				"Priority": 17
+			},
+			"Equip ~|adamant brutal|~": {
+				"Items": ["Adamant brutal"],
+				"Level": 33,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|yew shortbow|~": {
+				"Items": ["Yew shortbow"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|yew shieldbow|~": {
+				"Items": ["Yew shieldbow"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Defence": 40
+				},
+				"Priority": 2
+			},
+			"Wield a ~|yew composite bow|~": {
+				"Items": ["Yew composite bow"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield an ~|adamant crossbow|~": {
+				"Items": ["Adamant crossbow"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|off-hand adamant crossbow|~": {
+				"Items": ["Off-hand adamant crossbow"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield an ~|adamant 2h crossbow|~": {
+				"Items": ["Adamant 2h crossbow"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|adamant dart|~": {
+				"Items": ["Adamant dart"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield an ~|off-hand adamant dart|~": {
+				"Items": ["Off-hand adamant dart"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield an ~|adamant javelin|~": {
+				"Items": ["Adamant javelin"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield an ~|adamant throwing axe|~": {
+				"Items": ["Adamant throwing axe"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield an ~|off-hand adamant throwing axe|~": {
+				"Items": ["Off-hand adamant throwing axe"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield an ~|adamant knife|~": {
+				"Items": ["Adamant knife"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield an ~|off-hand adamant knife|~": {
+				"Items": ["Off-hand adamant knife"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Equip a piece of ~|Robin Hood armour|~": {
+				"Items": ["Robin Hood+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Equip a piece of ~|elite Robin Hood armour|~": {
+				"Items": ["Elite Robin Hood+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Defence": 82
+				},
+				"Priority": 15
+			},
+			"Equip ~|rune brutal|~": {
+				"Items": ["Rune brutal"],
+				"Level": 43,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|maple shieldbow (sighted)|~": {
+				"Items": ["Maple shieldbow (sighted)"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Defence": 45,
+					"Dungeoneering": 45
+				},
+				"Priority": 1
+			},
+			"Wield a ~|chinchompa|~": {
+				"Items": ["Chinchompa"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield ~|Zanik's crossbow|~": {
+				"Items": ["Zanik's crossbow"],
+				"Level": 48,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|magic shortbow|~": {
+				"Items": ["Magic shortbow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield ~|seercull|~": {
+				"Items": ["Seercull"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|magic shieldbow|~": {
+				"Items": ["Magic shieldbow"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Defence": 50
+				},
+				"Priority": 5
+			},
+			"Wield a ~|magic composite bow|~": {
+				"Items": ["Magic composite bow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|hunters' crossbow|~": {
+				"Items": ["Hunters' Crossbow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|rune crossbow|~": {
+				"Items": ["Rune crossbow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield an ~|off-hand rune crossbow|~": {
+				"Items": ["Off-hand rune crossbow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|rune 2h crossbow|~": {
+				"Items": ["Rune 2h crossbow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield an ~|orange salamander|~": {
+				"Items": ["Orange salamander"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|rune dart|~": {
+				"Items": ["Rune dart"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield an ~|off-hand rune dart|~": {
+				"Items": ["Off-hand rune dart"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wield a ~|rune javelin|~": {
+				"Items": ["Rune javelin"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wield a ~|rune throwing axe|~": {
+				"Items": ["Rune throwing axe"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wield an ~|off-hand rune throwing axe|~": {
+				"Items": ["Off-hand rune throwing axe"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wield a ~|rune knife|~": {
+				"Items": ["Rune knife"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wield an ~|off-hand rune knife|~": {
+				"Items": ["Off-hand rune knife"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wield a ~|bone blowpipe|~": {
+				"Items": ["Bone blowpipe"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Wield ~|holy water|~": {
+				"Items": ["Holy water"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Equip a piece of ~|sacred clay ranged equipment|~": {
+				"Items": ["Sacred Clay Ranged+"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Defence": 50
+				},
+				"Priority": 21
+			},
+			"Wield a ~|sacred clay bow|~": {
+				"Items": ["Sacred clay bow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Equip a ~|ranger hat|~": {
+				"Items": ["Ranger hat"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Defence": 40
+				},
+				"Priority": 23
+			},
+			"Wield a ~|hardened ranger hat|~": {
+				"Items": ["Hardened ranger hat"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Defence": 40
+				},
+				"Priority": 24
+			},
+			"Wield an ~|Ava's accumulator|~": {
+				"Items": ["Ava's accumulator"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 25
+			},
+			"Wield an ~|Ava's alerter|~": {
+				"Items": ["Ava's alerter"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 26
+			},
+			"Wear a ~|farsight snap shot necklace|~": {
+				"Items": ["Farsight snap shot necklace"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 27
+			},
+			"Wield a ~|gravite chargebow|~": {
+				"Items": ["Gravite chargebow"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 1
+			},
+			"Wield a ~|magic shieldbow (sighted)|~": {
+				"Items": ["Magic shieldbow (sighted)"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Defence": 55,
+					"Dungeoneering": 45
+				},
+				"Priority": 2
+			},
+			"Wield a ~|Saradomin bow|~": {
+				"Items": ["Saradomin bow"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|Guthix bow|~": {
+				"Items": ["Guthix bow"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|Zamorak bow|~": {
+				"Items": ["Zamorak bow"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|red chinchompa|~": {
+				"Items": ["Red chinchompa"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|elder shortbow|~": {
+				"Items": ["Elder shortbow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|elder shieldbow|~": {
+				"Items": ["Elder shieldbow"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Defence": 60
+				},
+				"Priority": 3
+			},
+			"Wield a ~|demon slayer crossbow|~": {
+				"Items": ["Demon slayer crossbow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|off-hand demon slayer crossbow|~": {
+				"Items": ["Off-hand demon slayer crossbow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|dragon crossbow|~": {
+				"Items": ["Dragon crossbow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|off-hand dragon crossbow|~": {
+				"Items": ["Off-hand dragon crossbow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|dragon 2h crossbow|~": {
+				"Items": ["Dragon 2h crossbow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|red salamander|~": {
+				"Items": ["Red salamander"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|dragon dart|~": {
+				"Items": ["Dragon dart"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield an ~|off-hand dragon dart|~": {
+				"Items": ["Off-hand dragon dart"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|dragon throwing axe|~": {
+				"Items": ["Dragon throwing axe"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield an ~|off-hand dragon throwing axe|~": {
+				"Items": ["Off-hand dragon throwing axe"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wield a ~|dragon knife|~": {
+				"Items": ["Dragon knife"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wield an ~|off-hand dragon knife|~": {
+				"Items": ["Off-hand dragon knife"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wield a ~|toktz-xil-ul|~": {
+				"Items": ["Toktz-xil-ul"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Equip a piece of ~|demon slayer equipment|~": {
+				"Items": ["Demon Slayer+"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Defence": 60
+				},
+				"Priority": 17
+			},
+			"Wield an ~|elder shieldbow (sighted)|~": {
+				"Items": ["Elder shieldbow (sighted)"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Defence": 65,
+					"Dungeoneering": 45
+				},
+				"Priority": 1
+			},
+			"Equip a piece of ~|third age ranger equipment|~": {
+				"Items": ["Third Age Ranger+"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Defence": 65
+				},
+				"Priority": 2
+			},
+			"Wield a ~|crystal bow|~": {
+				"Items": ["Crystal bow"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 1
+			},
+			"Wield a ~|dark bow|~": {
+				"Items": ["Dark bow"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70
+				},
+				"Priority": 2
+			},
+			"Wield ~|Karil's pistol crossbow|~": {
+				"Items": ["Karil's pistol crossbow"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield ~|Karil's off-hand pistol crossbow|~": {
+				"Items": ["Karil's off-hand pistol crossbow"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield ~|Karil's crossbow|~": {
+				"Items": ["Karil's crossbow"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|blisterwood stake-thrower crossbow|~": {
+				"Items": ["Blisterwood stake-thrower crossbow"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|black salamander|~": {
+				"Items": ["Black salamander"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|blisterwood stake|~": {
+				"Items": ["Blisterwood stake"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield an ~|off-hand blisterwood stake|~": {
+				"Items": ["Off-hand blisterwood stake"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|crystal chakram|~": {
+				"Items": ["Crystal chakram"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 10
+			},
+			"Wield an ~|off-hand crystal chakram|~": {
+				"Items": ["Off-hand crystal chakram"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 11
+			},
+			"Equip a piece of ~|Karil the Tainted's equipment|~": {
+				"Items": ["KarilArmour+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Equip ~|Saradomin's murmur|~": {
+				"Items": ["Saradomin's murmur"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wield a ~|tainted repriser|~": {
+				"Items": ["Tainted repriser"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70
+				},
+				"Priority": 14
+			},
+			"Wield a ~|sagaie|~": {
+				"Items": ["Sagaie"],
+				"Level": 72,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip ~|mercenary's gloves|~": {
+				"Items": ["Mercenary's gloves"],
+				"Level": 73,
+				"Primary": false,
+				"Skills": {
+					"Defence": 73,
+					"Dungeoneering": 73
+				},
+				"Priority": 1
+			},
+			"Wield an ~|Armadyl crossbow|~": {
+				"Items": ["Armadyl crossbow"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|off-hand Armadyl crossbow|~": {
+				"Items": ["Off-hand Armardyl crossbow"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|hand cannon|~": {
+				"Items": ["Hand cannon"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|vanquish (ranged)|~": {
+				"Items": ["Vanquish (ranged)"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|mechanised chinchompa|~": {
+				"Items": ["Mechanised chinchompa"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|bolas|~": {
+				"Items": ["Bolas"],
+				"Level": 76,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield the ~|Sunspear (ranged)|~": {
+				"Items": ["Sunspear (ranged)"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield ~|Morrigan's javelin|~": {
+				"Items": ["Morrigan's javelin"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield ~|Morrigan's throwing axe|~": {
+				"Items": ["Morrigan's throwing axe"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|hexhunter bow|~": {
+				"Items": ["Hexhunter bow"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|second-Age bow|~": {
+				"Items": ["Second-Age bow"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|Zaryte bow|~": {
+				"Items": ["Zaryte bow"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|chaotic crossbow|~": {
+				"Items": ["Chaotic crossbow"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|off-hand chaotic crossbow|~": {
+				"Items": ["Off-hand chaotic crossbow"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|royal crossbow|~": {
+				"Items": ["Royal crossbow"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|attuned crystal chakram|~": {
+				"Items": ["Attuned crystal chakram"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 7
+			},
+			"Wield an ~|off-hand attuned crystal chakram|~": {
+				"Items": ["Off-hand attuned crystal chakram"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 8
+			},
+			"Wield an ~|attuned crystal deflector|~": {
+				"Items": ["Attuned crystal deflector"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 9
+			},
+			"Equip ~|Swift gloves|~": {
+				"Items": ["Swift gloves"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Defence": 80
+				},
+				"Priority": 10
+			},
+			"Equip a ~|farsight blood necklace|~": {
+				"Items": ["Farsight blood necklace"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|farsight sniper necklace|~": {
+				"Items": ["Farsight sniper necklace"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 70
+				},
+				"Priority": 12
+			},
+			"Wield an ~|ancient repriser|~": {
+				"Items": ["Ancient repriser"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Defence": 80
+				},
+				"Priority": 13
+			},
+			"Wield a ~|shadow glaive|~": {
+				"Items": ["Shadow glaive"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|off-hand shadow glaive|~": {
+				"Items": ["Off-hand shadow glaive"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|wyvern crossbow|~": {
+				"Items": ["Wyvern crossbow"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|strykebow|~": {
+				"Items": ["Strykebow"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|Death Lotus dart|~": {
+				"Items": ["Death Lotus dart"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield an ~|off-hand Death Lotus dart|~": {
+				"Items": ["Off-hand Death Lotus dart"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield ~|Decimation|~": {
+				"Items": ["Decimation"],
+				"Level": 87,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|upgraded bone blowpipe|~": {
+				"Items": ["Upgraded bone blowpipe"],
+				"Level": 87,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|elite Death Lotus dart|~": {
+				"Items": ["Elite Death Lotus dart"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|off-hand elite Death Lotus dart|~": {
+				"Items": ["Off-hand elite Death Lotus dart"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|superior Morrigan's javelin|~": {
+				"Items": ["Superior Morrigan's javelin"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|superior Morrigan's throwing axe|~": {
+				"Items": ["Superior Morrigan's throwing axe"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|noxious longbow|~": {
+				"Items": ["Noxious longbow"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|hellfire bow|~": {
+				"Items": ["Hellfire bow"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|ascension crossbow|~": {
+				"Items": ["Ascension crossbow"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield an ~|off-hand ascension crossbow|~": {
+				"Items": ["Off-hand ascension crossbow"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|dominion crossbow|~": {
+				"Items": ["Dominion crossbow"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|kalphite repriser|~": {
+				"Items": ["Kalphite repriser"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Defence": 90
+				},
+				"Priority": 6
+			},
+			"Wield a ~|Seren godbow|~": {
+				"Items": ["Seren godbow"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|blightbound crossbow|~": {
+				"Items": ["Blightbound crossbow"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|off-hand blightbound crossbow|~": {
+				"Items": ["Off-hand blightbound crossbow"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield an ~|eldritch crossbow|~": {
+				"Items": ["Eldritch crossbow"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Use the ~|greater dazing shot|~ ability": {
+				"Chunks": ["12592"],
+				"Level": 8,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|demoralise|~ ability": {
+				"Items": ["Scare Tactics"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Use the ~|rout|~ ability": {
+				"Items": ["Scare Tactics"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|greater ricochet|~ ability": {
+				"Items": ["Greater Richochet ability codex"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Use the ~|salt the wound|~ ability": {
+				"Chunks": ["12592"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Use the ~|corruption shot|~ ability": {
+				"Items": ["Corruption Shot Ability Codex"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Use the ~|shadow tendrils|~ ability": {
+				"Items": ["Codex Ultimatus"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Use the ~|death's swiftness|~ ability": {
+				"Chunks": ["10804"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 7
 			}
 		},
 		"Runecrafting": {
@@ -11489,20 +13327,109 @@
 		"Diaries": {},
 		"Extra": {
 			"Complete the ~|little leaguer|~ achievement": {
-				"Category": ["Achievement"],
-				"Chunks": ["9526"]
-			},
+			"Category": ["Achievement"],
+			"Label": "Achievement",
+			"Chunks": ["9526"]
+		},
 			"Complete the  ~|swings both ways|~ achievement": {
-				"Category": ["Achievement"],
-				"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"]
-			},
+			"Category": ["Achievement"],
+			"Label": "Achievement",
+			"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"]
+		},
 			"Complete the ~|in a flash|~ achievement": {
-				"Category": ["Achievement"],
-				"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"]
-			},
+			"Category": ["Achievement"],
+			"Label": "Achievement",
+			"Chunks": ["15426", "15427", "15681", "15682", "15683", "15684", "15936", "15937", "15941", "16192", "16193", "16194", "16197", "16450", "16453", "16706", "16707", "16708", "16709", "16963"]
+		},
 			"Complete the ~|gotta go fast|~ achievement": {
-				"Category": ["Achievement"],
-				"Chunks": ["15683", "15939"]
+			"Category": ["Achievement"],
+			"Label": "Achievement",
+			"Chunks": ["15683", "15939"]
+		},
+			"Obtain ~|golden leaping trout eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden leaping trout eggs"]
+			},
+			"Obtain ~|golden leaping salmon eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden leaping salmon eggs"]
+			},
+			"Obtain ~|golden leaping sturgeon eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden leaping sturgeon eggs"]
+			},
+			"Obtain ~|golden trout eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden trout eggs"]
+			},
+			"Obtain ~|golden salmon eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden salmon eggs"]
+			},
+			"Obtain ~|golden tuna eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden tuna eggs"]
+			},
+			"Obtain ~|golden rainbow fish eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden rainbow fish eggs"]
+			},
+			"Obtain ~|golden lobster eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden lobster eggs"]
+			},
+			"Obtain ~|golden swordfish eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden swordfish eggs"]
+			},
+			"Obtain ~|golden lava eel eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden lava eel eggs"]
+			},
+			"Obtain ~|golden monkfish eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden monkfish eggs"]
+			},
+			"Obtain ~|golden shark eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden shark eggs"]
+			},
+			"Obtain ~|golden cavefish eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden cavefish eggs"]
+			},
+			"Obtain ~|golden rocktail eggs|~": {
+				"Category": ["Golden fish egg"],
+				"Label": "Golden fish egg",
+				"Items": ["Golden rocktail eggs"]
+			},
+			"Obtain a ~|big bass|~": {
+				"Category": ["Stuffables"],
+				"Label": "Stuffables",
+				"Items": ["Big bass"]
+			},
+			"Obtain a ~|big swordfish|~": {
+				"Category": ["Stuffables"],
+				"Label": "Stuffables",
+				"Items": ["Big swordfish"]
+			},
+			"Obtain a ~|big shark|~": {
+				"Category": ["Stuffables"],
+				"Label": "Stuffables",
+				"Items": ["Big shark"]
 			}
 		},
 		"Nonskill": {
@@ -31589,7 +33516,7 @@
 				"9134": true,
 				"9138": true,
 				"9909": true,
-				"16241": true
+				"17781": true
 			},
 			"Spawn": {
 				"Bronze bolts": 2,
@@ -41437,12 +43364,6 @@
 				"Crystal Shapeshifter": 10
 			}
 		},
-		"16241": {
-			"Object": {
-				"Standard portal": 1
-			},
-			"Name": "Player-Owned Port"
-		},
 		"16398": {
 			"NPC": {
 				"Young Goebie": 7
@@ -43186,6 +45107,9 @@
 			"Monster": {
 				"Queen Black Dragon": 1
 			}
+		},
+		"17781": {
+			"Name": "Player-Owned Port"
 		},
 		"17787": {
 			"Monster": {
@@ -56530,7 +58454,15 @@
 			"DustMask+": ["Face mask", "Slayer helmet", "Full slayer helmet", "Reinforced slayer helmet", "Strong slayer helmet", "Mighty slayer helmet", "Corrupted slayer helmet", "Gas mask"],
 			"RuneEssence+": ["Rune essence", "Pure essence"],
 			"RunecrafterRobe+": ["Runecrafter hat", "Runecrafter robe", "Runecrafter skirt", "Runecrafter gloves", "Master runecrafter hat", "Master runecrafter robe", "Master runecrafter skirt", "Master runecrafter boots"],
-			"SeaSingerRobe+": ["Seasinger's hood", "Seasinger's robe top", "Seasinger's robe bottom", "Superior seasinger's hood", "Superior seasinger's robe top", "Superior seasinger's robe bottom", "Superior seasinger's aonori", "Superior seasinger's asari"]
+			"SeaSingerRobe+": ["Seasinger's hood", "Seasinger's robe top", "Seasinger's robe bottom", "Superior seasinger's hood", "Superior seasinger's robe top", "Superior seasinger's robe bottom", "Superior seasinger's aonori", "Superior seasinger's asari"],
+			"WaterItem+": ["Bowl of water", "Bucket of water", "Jug of water"],
+			"Frog-leather+": ["Frog-leather body", "Frog-leather chaps", "Frog-leather boots"],
+			"Robin Hood+": ["Robin Hood hat", "Robin Hood tunic", "Robin Hood tights", "Ranger boots"],
+			"Elite Robin Hood+": ["Elite Robin Hood hat", "Elite Robin Hood tunic", "Elite Robin Hood tights", "Elite Ranger boots"],
+			"Sacred Clay Ranged+": ["Sacred clay coif", "Sacred clay body", "Sacred clay chaps"],
+			"Demon slayer+": ["Demon slayer circlet", "Demon slayer torso", "Demon slayer gloves", "Demon slayer skirt", "Demon slayer boots"],
+			"Third Age Ranger+": ["Third age ranger coif", "Third age ranger body", "Third age vambraces", "Third age ranger chaps"],
+			"KarilArmour+": ["Karil's coif", "Karil's top", "Karil's skirt"]
 	},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -56547,7 +58479,8 @@
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
-			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"]
+			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"],
+			"WaterObject+": ["Sink", "Fountain", "Well", "Water barrel", "Water trough"]
 		},
 		"monstersPlus": {
 			"Guard+": ["Guard", "Guard (Varrock)"],
@@ -56557,7 +58490,376 @@
 			"Wisp+": ["Pale wisp", "Cursed wisp"],
 			"Master farmers+": ["Master farmer", "Martin the Master Gardener"]
 		},
-		"rangedItems": [],
+		"rangedItems": [
+			["Chargebow"],
+			["Shortbow", "Bronze arrow*"],
+			["Shortbow", "Iron arrow*"],
+			["Shortbow", "Steel arrow*"],
+			["Shortbow", "Mithril arrow*"],
+			["Shortbow", "Adamant arrow*"],
+			["Shortbow", "Rune arrow*"],
+			["Shortbow", "Saradomin arrows*"],
+			["Shortbow", "Zamorak arrows*"],
+			["Shortbow", "Guthix arrows*"],
+			["Shortbow", "Dragon arrow*"],
+			["Shortbow", "Dark arrow*"],
+			["Shortbow", "Stalker arrow*"],
+			["Shortbow", "Wild arrow*"],
+			["Shortbow", "Araxyte arrow*"],
+			["Shortbow", "Black stone arrows*"],
+			["Shortbow", "Deathspore arrows*"],
+			["Shortbow", "Splintering arrows*"],
+			["Shortbow", "Abyssalbane arrow*"],
+			["Shortbow", "Basiliskbane arrow*"],
+			["Shortbow", "Dragonbane arrow*"],
+			["Shortbow", "Wallasalkibane arrow*"],
+			["Shieldbow", "Bronze arrow*"],
+			["Shieldbow", "Iron arrow*"],
+			["Shieldbow", "Steel arrow*"],
+			["Shieldbow", "Mithril arrow*"],
+			["Shieldbow", "Adamant arrow*"],
+			["Shieldbow", "Rune arrow*"],
+			["Shieldbow", "Saradomin arrows*"],
+			["Shieldbow", "Zamorak arrows*"],
+			["Shieldbow", "Guthix arrows*"],
+			["Shieldbow", "Dragon arrow*"],
+			["Shieldbow", "Dark arrow*"],
+			["Shieldbow", "Stalker arrow*"],
+			["Shieldbow", "Wild arrow*"],
+			["Shieldbow", "Araxyte arrow*"],
+			["Shieldbow", "Black stone arrows*"],
+			["Shieldbow", "Deathspore arrows*"],
+			["Shieldbow", "Splintering arrows*"],
+			["Shieldbow", "Abyssalbane arrow*"],
+			["Shieldbow", "Basiliskbane arrow*"],
+			["Shieldbow", "Dragonbane arrow*"],
+			["Shieldbow", "Wallasalkibane arrow*"],
+			["Phoenix crossbow", "Bronze bolts*"],
+			["Phoenix crossbow", "Iron bolts*"],
+			["Phoenix crossbow", "Opal bolts*"],
+			["Phoenix crossbow", "Steel bolts*"],
+			["Phoenix crossbow", "Pearl Bolts*"],
+			["Phoenix crossbow", "Black bolts*"],
+			["Phoenix crossbow", "Blurite bolts*"],
+			["Phoenix crossbow", "Jade bolts*"],
+			["Phoenix crossbow", "Mithril bolts*"],
+			["Phoenix crossbow", "Topaz bolts*"],
+			["Phoenix crossbow", "Adamant bolts*"],
+			["Phoenix crossbow", "Sapphire bolts*"],
+			["Phoenix crossbow", "Fragment bolts*"],
+			["Phoenix crossbow", "Rune bolts*"],
+			["Phoenix crossbow", "Emerald bolts*"],
+			["Phoenix crossbow", "Ruby bolts*"],
+			["Phoenix crossbow", "Diamond bolts*"],
+			["Phoenix crossbow", "Dragon bolts*"],
+			["Phoenix crossbow", "Onyx bolts*"],
+			["Phoenix crossbow", "Bakriminel bolts*"],
+			["Phoenix crossbow", "Royal bolts*"],
+			["Phoenix crossbow", "Opal bakriminel bolts*"],
+			["Phoenix crossbow", "Pearl bakriminel bolts*"],
+			["Phoenix crossbow", "Jade bakriminel bolts*"],
+			["Phoenix crossbow", "Red topaz bakriminel bolts*"],
+			["Phoenix crossbow", "Sapphire bakriminel bolts*"],
+			["Phoenix crossbow", "Emerald bakriminel bolts*"],
+			["Phoenix crossbow", "Ruby bakriminel bolts*"],
+			["Phoenix crossbow", "Diamond bakriminel bolts*"],
+			["Phoenix crossbow", "Dragonstone bakriminel bolts*"],
+			["Phoenix crossbow", "Onyx bakriminel bolts*"],
+			["Phoenix crossbow", "Hydrix bakriminel bolts*"],
+			["Phoenix crossbow", "Ascension bolts*"],
+			["Phoenix crossbow", "Ascendri bolts*"],
+			["Phoenix crossbow", "Blight bolts*"],
+			["Phoenix crossbow", "Opal bolts (e)*"],
+			["Phoenix crossbow", "Pearl bolts (e)*"],
+			["Phoenix crossbow", "Jade bolts (e)*"],
+			["Phoenix crossbow", "Topaz bolts (e)*"],
+			["Phoenix crossbow", "Sapphire bolts (e)*"],
+			["Phoenix crossbow", "Emerald bolts (e)*"],
+			["Phoenix crossbow", "Ruby bolts (e)*"],
+			["Phoenix crossbow", "Diamond bolts (e)*"],
+			["Phoenix crossbow", "Dragon bolts (e)*"],
+			["Phoenix crossbow", "Onyx bolts (e)*"],
+			["Phoenix crossbow", "Ascendri bolts (e)*"],
+			["Phoenix crossbow", "Opal  bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Pearl bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Jade bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Red topaz bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Sapphire bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Emerald bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Ruby bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Diamond bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Dragonstone bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Onyx bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Hydrix bakriminel bolts (e)*"],
+			["Phoenix crossbow", "Silver bolts*"],
+			["Phoenix crossbow", "Barbed bolts*"],
+			["Phoenix crossbow", "Abyssalbane bolts*"],
+			["Phoenix crossbow", "Basiliskbane bolts*"],
+			["Phoenix crossbow", "Dragonbane bolts*"],
+			["Phoenix crossbow", "Wallasalkibane bolts*"],
+			["Crossbow", "Bronze bolts*"],
+			["Crossbow", "Iron bolts*"],
+			["Crossbow", "Opal bolts*"],
+			["Crossbow", "Steel bolts*"],
+			["Crossbow", "Pearl Bolts*"],
+			["Crossbow", "Black bolts*"],
+			["Crossbow", "Blurite bolts*"],
+			["Crossbow", "Jade bolts*"],
+			["Crossbow", "Mithril bolts*"],
+			["Crossbow", "Topaz bolts*"],
+			["Crossbow", "Adamant bolts*"],
+			["Crossbow", "Sapphire bolts*"],
+			["Crossbow", "Fragment bolts*"],
+			["Crossbow", "Rune bolts*"],
+			["Crossbow", "Emerald bolts*"],
+			["Crossbow", "Ruby bolts*"],
+			["Crossbow", "Diamond bolts*"],
+			["Crossbow", "Dragon bolts*"],
+			["Crossbow", "Onyx bolts*"],
+			["Crossbow", "Bakriminel bolts*"],
+			["Crossbow", "Royal bolts*"],
+			["Crossbow", "Opal bakriminel bolts*"],
+			["Crossbow", "Pearl bakriminel bolts*"],
+			["Crossbow", "Jade bakriminel bolts*"],
+			["Crossbow", "Red topaz bakriminel bolts*"],
+			["Crossbow", "Sapphire bakriminel bolts*"],
+			["Crossbow", "Emerald bakriminel bolts*"],
+			["Crossbow", "Ruby bakriminel bolts*"],
+			["Crossbow", "Diamond bakriminel bolts*"],
+			["Crossbow", "Dragonstone bakriminel bolts*"],
+			["Crossbow", "Onyx bakriminel bolts*"],
+			["Crossbow", "Hydrix bakriminel bolts*"],
+			["Crossbow", "Ascension bolts*"],
+			["Crossbow", "Ascendri bolts*"],
+			["Crossbow", "Blight bolts*"],
+			["Crossbow", "Opal bolts (e)*"],
+			["Crossbow", "Pearl bolts (e)*"],
+			["Crossbow", "Jade bolts (e)*"],
+			["Crossbow", "Topaz bolts (e)*"],
+			["Crossbow", "Sapphire bolts (e)*"],
+			["Crossbow", "Emerald bolts (e)*"],
+			["Crossbow", "Ruby bolts (e)*"],
+			["Crossbow", "Diamond bolts (e)*"],
+			["Crossbow", "Dragon bolts (e)*"],
+			["Crossbow", "Onyx bolts (e)*"],
+			["Crossbow", "Ascendri bolts (e)*"],
+			["Crossbow", "Opal  bakriminel bolts (e)*"],
+			["Crossbow", "Pearl bakriminel bolts (e)*"],
+			["Crossbow", "Jade bakriminel bolts (e)*"],
+			["Crossbow", "Red topaz bakriminel bolts (e)*"],
+			["Crossbow", "Sapphire bakriminel bolts (e)*"],
+			["Crossbow", "Emerald bakriminel bolts (e)*"],
+			["Crossbow", "Ruby bakriminel bolts (e)*"],
+			["Crossbow", "Diamond bakriminel bolts (e)*"],
+			["Crossbow", "Dragonstone bakriminel bolts (e)*"],
+			["Crossbow", "Onyx bakriminel bolts (e)*"],
+			["Crossbow", "Hydrix bakriminel bolts (e)*"],
+			["Crossbow", "Silver bolts*"],
+			["Crossbow", "Barbed bolts*"],
+			["Crossbow", "Abyssalbane bolts*"],
+			["Crossbow", "Basiliskbane bolts*"],
+			["Crossbow", "Dragonbane bolts*"],
+			["Crossbow", "Wallasalkibane bolts*"],
+			["Bronze crossbow", "Bronze bolts*"],
+			["Bronze crossbow", "Iron bolts*"],
+			["Bronze crossbow", "Opal bolts*"],
+			["Bronze crossbow", "Steel bolts*"],
+			["Bronze crossbow", "Pearl Bolts*"],
+			["Bronze crossbow", "Black bolts*"],
+			["Bronze crossbow", "Blurite bolts*"],
+			["Bronze crossbow", "Jade bolts*"],
+			["Bronze crossbow", "Mithril bolts*"],
+			["Bronze crossbow", "Topaz bolts*"],
+			["Bronze crossbow", "Adamant bolts*"],
+			["Bronze crossbow", "Sapphire bolts*"],
+			["Bronze crossbow", "Fragment bolts*"],
+			["Bronze crossbow", "Rune bolts*"],
+			["Bronze crossbow", "Emerald bolts*"],
+			["Bronze crossbow", "Ruby bolts*"],
+			["Bronze crossbow", "Diamond bolts*"],
+			["Bronze crossbow", "Dragon bolts*"],
+			["Bronze crossbow", "Onyx bolts*"],
+			["Bronze crossbow", "Bakriminel bolts*"],
+			["Bronze crossbow", "Royal bolts*"],
+			["Bronze crossbow", "Opal bakriminel bolts*"],
+			["Bronze crossbow", "Pearl bakriminel bolts*"],
+			["Bronze crossbow", "Jade bakriminel bolts*"],
+			["Bronze crossbow", "Red topaz bakriminel bolts*"],
+			["Bronze crossbow", "Sapphire bakriminel bolts*"],
+			["Bronze crossbow", "Emerald bakriminel bolts*"],
+			["Bronze crossbow", "Ruby bakriminel bolts*"],
+			["Bronze crossbow", "Diamond bakriminel bolts*"],
+			["Bronze crossbow", "Dragonstone bakriminel bolts*"],
+			["Bronze crossbow", "Onyx bakriminel bolts*"],
+			["Bronze crossbow", "Hydrix bakriminel bolts*"],
+			["Bronze crossbow", "Ascension bolts*"],
+			["Bronze crossbow", "Ascendri bolts*"],
+			["Bronze crossbow", "Blight bolts*"],
+			["Bronze crossbow", "Opal bolts (e)*"],
+			["Bronze crossbow", "Pearl bolts (e)*"],
+			["Bronze crossbow", "Jade bolts (e)*"],
+			["Bronze crossbow", "Topaz bolts (e)*"],
+			["Bronze crossbow", "Sapphire bolts (e)*"],
+			["Bronze crossbow", "Emerald bolts (e)*"],
+			["Bronze crossbow", "Ruby bolts (e)*"],
+			["Bronze crossbow", "Diamond bolts (e)*"],
+			["Bronze crossbow", "Dragon bolts (e)*"],
+			["Bronze crossbow", "Onyx bolts (e)*"],
+			["Bronze crossbow", "Ascendri bolts (e)*"],
+			["Bronze crossbow", "Opal  bakriminel bolts (e)*"],
+			["Bronze crossbow", "Pearl bakriminel bolts (e)*"],
+			["Bronze crossbow", "Jade bakriminel bolts (e)*"],
+			["Bronze crossbow", "Red topaz bakriminel bolts (e)*"],
+			["Bronze crossbow", "Sapphire bakriminel bolts (e)*"],
+			["Bronze crossbow", "Emerald bakriminel bolts (e)*"],
+			["Bronze crossbow", "Ruby bakriminel bolts (e)*"],
+			["Bronze crossbow", "Diamond bakriminel bolts (e)*"],
+			["Bronze crossbow", "Dragonstone bakriminel bolts (e)*"],
+			["Bronze crossbow", "Onyx bakriminel bolts (e)*"],
+			["Bronze crossbow", "Hydrix bakriminel bolts (e)*"],
+			["Bronze crossbow", "Silver bolts*"],
+			["Bronze crossbow", "Barbed bolts*"],
+			["Bronze crossbow", "Abyssalbane bolts*"],
+			["Bronze crossbow", "Basiliskbane bolts*"],
+			["Bronze crossbow", "Dragonbane bolts*"],
+			["Bronze crossbow", "Wallasalkibane bolts*"],
+			["Off-hand bronze crossbow", "Bronze bolts*"],
+			["Off-hand bronze crossbow", "Iron bolts*"],
+			["Off-hand bronze crossbow", "Opal bolts*"],
+			["Off-hand bronze crossbow", "Steel bolts*"],
+			["Off-hand bronze crossbow", "Pearl Bolts*"],
+			["Off-hand bronze crossbow", "Black bolts*"],
+			["Off-hand bronze crossbow", "Blurite bolts*"],
+			["Off-hand bronze crossbow", "Jade bolts*"],
+			["Off-hand bronze crossbow", "Mithril bolts*"],
+			["Off-hand bronze crossbow", "Topaz bolts*"],
+			["Off-hand bronze crossbow", "Adamant bolts*"],
+			["Off-hand bronze crossbow", "Sapphire bolts*"],
+			["Off-hand bronze crossbow", "Fragment bolts*"],
+			["Off-hand bronze crossbow", "Rune bolts*"],
+			["Off-hand bronze crossbow", "Emerald bolts*"],
+			["Off-hand bronze crossbow", "Ruby bolts*"],
+			["Off-hand bronze crossbow", "Diamond bolts*"],
+			["Off-hand bronze crossbow", "Dragon bolts*"],
+			["Off-hand bronze crossbow", "Onyx bolts*"],
+			["Off-hand bronze crossbow", "Bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Royal bolts*"],
+			["Off-hand bronze crossbow", "Opal bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Pearl bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Jade bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Red topaz bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Sapphire bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Emerald bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Ruby bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Diamond bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Dragonstone bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Onyx bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Hydrix bakriminel bolts*"],
+			["Off-hand bronze crossbow", "Ascension bolts*"],
+			["Off-hand bronze crossbow", "Ascendri bolts*"],
+			["Off-hand bronze crossbow", "Blight bolts*"],
+			["Off-hand bronze crossbow", "Opal bolts (e)*"],
+			["Off-hand bronze crossbow", "Pearl bolts (e)*"],
+			["Off-hand bronze crossbow", "Jade bolts (e)*"],
+			["Off-hand bronze crossbow", "Topaz bolts (e)*"],
+			["Off-hand bronze crossbow", "Sapphire bolts (e)*"],
+			["Off-hand bronze crossbow", "Emerald bolts (e)*"],
+			["Off-hand bronze crossbow", "Ruby bolts (e)*"],
+			["Off-hand bronze crossbow", "Diamond bolts (e)*"],
+			["Off-hand bronze crossbow", "Dragon bolts (e)*"],
+			["Off-hand bronze crossbow", "Onyx bolts (e)*"],
+			["Off-hand bronze crossbow", "Ascendri bolts (e)*"],
+			["Off-hand bronze crossbow", "Opal  bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Pearl bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Jade bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Red topaz bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Sapphire bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Emerald bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Ruby bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Diamond bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Dragonstone bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Onyx bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Hydrix bakriminel bolts (e)*"],
+			["Off-hand bronze crossbow", "Silver bolts*"],
+			["Off-hand bronze crossbow", "Barbed bolts*"],
+			["Off-hand bronze crossbow", "Abyssalbane bolts*"],
+			["Off-hand bronze crossbow", "Basiliskbane bolts*"],
+			["Off-hand bronze crossbow", "Dragonbane bolts*"],
+			["Off-hand bronze crossbow", "Wallasalkibane bolts*"],
+			["Bronze 2h crossbow", "Bronze bolts*"],
+			["Bronze 2h crossbow", "Iron bolts*"],
+			["Bronze 2h crossbow", "Opal bolts*"],
+			["Bronze 2h crossbow", "Steel bolts*"],
+			["Bronze 2h crossbow", "Pearl Bolts*"],
+			["Bronze 2h crossbow", "Black bolts*"],
+			["Bronze 2h crossbow", "Blurite bolts*"],
+			["Bronze 2h crossbow", "Jade bolts*"],
+			["Bronze 2h crossbow", "Mithril bolts*"],
+			["Bronze 2h crossbow", "Topaz bolts*"],
+			["Bronze 2h crossbow", "Adamant bolts*"],
+			["Bronze 2h crossbow", "Sapphire bolts*"],
+			["Bronze 2h crossbow", "Fragment bolts*"],
+			["Bronze 2h crossbow", "Rune bolts*"],
+			["Bronze 2h crossbow", "Emerald bolts*"],
+			["Bronze 2h crossbow", "Ruby bolts*"],
+			["Bronze 2h crossbow", "Diamond bolts*"],
+			["Bronze 2h crossbow", "Dragon bolts*"],
+			["Bronze 2h crossbow", "Onyx bolts*"],
+			["Bronze 2h crossbow", "Bakriminel bolts*"],
+			["Bronze 2h crossbow", "Royal bolts*"],
+			["Bronze 2h crossbow", "Opal bakriminel bolts*"],
+			["Bronze 2h crossbow", "Pearl bakriminel bolts*"],
+			["Bronze 2h crossbow", "Jade bakriminel bolts*"],
+			["Bronze 2h crossbow", "Red topaz bakriminel bolts*"],
+			["Bronze 2h crossbow", "Sapphire bakriminel bolts*"],
+			["Bronze 2h crossbow", "Emerald bakriminel bolts*"],
+			["Bronze 2h crossbow", "Ruby bakriminel bolts*"],
+			["Bronze 2h crossbow", "Diamond bakriminel bolts*"],
+			["Bronze 2h crossbow", "Dragonstone bakriminel bolts*"],
+			["Bronze 2h crossbow", "Onyx bakriminel bolts*"],
+			["Bronze 2h crossbow", "Hydrix bakriminel bolts*"],
+			["Bronze 2h crossbow", "Ascension bolts*"],
+			["Bronze 2h crossbow", "Ascendri bolts*"],
+			["Bronze 2h crossbow", "Blight bolts*"],
+			["Bronze 2h crossbow", "Opal bolts (e)*"],
+			["Bronze 2h crossbow", "Pearl bolts (e)*"],
+			["Bronze 2h crossbow", "Jade bolts (e)*"],
+			["Bronze 2h crossbow", "Topaz bolts (e)*"],
+			["Bronze 2h crossbow", "Sapphire bolts (e)*"],
+			["Bronze 2h crossbow", "Emerald bolts (e)*"],
+			["Bronze 2h crossbow", "Ruby bolts (e)*"],
+			["Bronze 2h crossbow", "Diamond bolts (e)*"],
+			["Bronze 2h crossbow", "Dragon bolts (e)*"],
+			["Bronze 2h crossbow", "Onyx bolts (e)*"],
+			["Bronze 2h crossbow", "Ascendri bolts (e)*"],
+			["Bronze 2h crossbow", "Opal  bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Pearl bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Jade bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Red topaz bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Sapphire bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Emerald bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Ruby bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Diamond bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Dragonstone bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Onyx bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Hydrix bakriminel bolts (e)*"],
+			["Bronze 2h crossbow", "Silver bolts*"],
+			["Bronze 2h crossbow", "Barbed bolts*"],
+			["Bronze 2h crossbow", "Abyssalbane bolts*"],
+			["Bronze 2h crossbow", "Basiliskbane bolts*"],
+			["Bronze 2h crossbow", "Dragonbane bolts*"],
+			["Bronze 2h crossbow", "Wallasalkibane bolts*"],
+			["Coral crossbow", "Coral bolts*"],
+			["Bronze darts*"],
+			["Off-hand bronze darts*"],
+			["Bronze javelin*"],
+			["Deathtouched dart*"],
+			["Bronze throwing axe*"],
+			["Off-hand bronze throwing axe*"],
+			["Bronze knife*"],
+			["Off-hand bronze knife*"],
+			["Kayle's chargebow"]
+		],
 		"magicTools": {},
 		"bossLogs": {},
 		"bossMonsters": {},
