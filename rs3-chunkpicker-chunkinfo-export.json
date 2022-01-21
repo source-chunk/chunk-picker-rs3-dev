@@ -6117,7 +6117,7 @@
 				"Priority": 5
 			},
 			"Use the lamp from ~|the world wakes|~ quest": {
-				"Chunks": ["10804"],
+				"Chunks": ["Guthixian ruins"],
 				"Level": 80,
 				"Primary": false,
 				"Priority": 1
@@ -6212,7 +6212,7 @@
 				"Priority": 6
 			},
 			"Pay respect at the ~|Guthixian ruins|~ after the world wakes": {
-				"Chunks": ["10804"],
+				"Chunks": ["Guthixian ruins"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 7
@@ -7839,7 +7839,7 @@
 				"Priority": 6
 			},
 			"Use the ~|death's swiftness|~ ability": {
-				"Chunks": ["10804"],
+				"Chunks": ["Guthixian ruins"],
 				"Level": 85,
 				"Primary": false,
 				"Priority": 7
