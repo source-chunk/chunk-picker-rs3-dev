@@ -856,6 +856,19 @@
 					"Ranged": 80
 				},
 				"Priority": 9
+			},
+			"Complete a lap of the ~|Het's Oasis agility course|~": {
+				"Chunks": ["13362"],
+				"Level": 65,
+				"Primary": true,
+				"Output": "Piece of Het",
+				"Priority": 2
+			},
+			"Unlock ~|the tengu|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 4
 			}
 		},
 		"Archaeology": {
@@ -1013,6 +1026,36 @@
 				"Skills": {
 					"Slayer": 55
 				}
+			},
+			"Wield an ~|ancient mace|~": {
+				"Items": ["Ancient mace"],
+				"Level": 15,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 25
+				},
+				"Priority": 1
+			},
+			"Wield an ~|animal staff|~": {
+				"Items": ["AnimalStaff+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 60,
+					"Defence": 20,
+					"Magic": 40
+				},
+				"priority": 1
+			},
+			"Wield ~|Akrisae's war mace|~": {
+				"Items": ["Akrisae's war mace"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 70,
+					"Magic": 70
+				},
+				"Priority": 3
 			}
 		},
 		"Combat": {
@@ -1460,9 +1503,22 @@
 					"Crafting": 84
 				},
 				"Priority": 3
+			},
+			"Unlock ~|the architect|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
-		"Cooking": {},
+		"Cooking": {
+			"Unlock ~|the chef|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			}
+		},
 		"Crafting": {
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 60,
@@ -1636,6 +1692,72 @@
 					"Runecrafting": 93
 				},
 				"Priority": 1
+			},
+			"Produce an ~|illuminated book of law|~": {
+				"Items": ["Armadyl's Book of Law"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of Law",
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 2
+			},
+			"Produce an ~|illuminated book of war|~": {
+				"Items": ["Bandos's Book of War"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of War",
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 3
+			},
+			"Produce an ~|illuminated book of balance|~": {
+				"Items": ["Guthix's Book of Balance"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of Balance",
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 4
+			},
+			"Produce an ~|illuminated book of wisdom|~": {
+				"Items": ["Saradomin's Book of Wisdom"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of Wisdom",
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 5
+			},
+			"Produce an ~|illuminated book of chaos|~": {
+				"Items": ["Zamorak's Book of Chaos"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of Chaos",
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 6
+			},
+			"Produce an ~|illuminated ancient book|~": {
+				"Items": ["Ancient Book"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Ancient Book",
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 7
 			}
 		},
 		"Defence": {
@@ -1991,6 +2113,126 @@
 					"Ranged": 90
 				},
 				"Priority": 1
+			},
+			"Equip a piece of ~|initiate armour|~": {
+				"Items": ["Initiate+"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 10
+				},
+				"Priority": 6
+			},
+			"Equip a piece of ~|proselyte armour|~": {
+				"Items": ["Proselyte+"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 20
+				},
+				"Priority": 3
+			},
+			"Wield an ~|unblessed spirit shield|~": {
+				"Items": ["Spirit shield"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 55
+				},
+				"Priority": 4
+			},
+			"Wield an ~|animal staff|~": {
+				"Items": ["AnimalStaff+"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Attack": 40,
+					"Prayer": 60,
+					"Magic": 40
+				},
+				"priority": 7
+			},
+			"Wield a ~|blessed spirit shield|~": {
+				"Items": ["Blessed spirit shield"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 5
+			},
+			"Use the ~|piety|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 70
+				},
+				"Priority": 6
+			},
+			"Use the ~|augury|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 70
+				},
+				"Priority": 7
+			},
+			"Use the ~|rigour|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 70
+				},
+				"Priority": 8
+			},
+			"Wield an ~|arcane spirit shield|~": {
+				"Items": ["Arcane spirit shield"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 75
+				},
+				"Priority": 1
+			},
+			"Wield a ~|spectral spirit shield|~": {
+				"Items": ["Spectral spirit shield"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 75
+				},
+				"Priority": 2
+			},
+			"Wear a piece of ~|Akrisae the Doomed's equipment|~": {
+				"Items": ["AkrisaeGear+"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 70,
+					"Magic": 70
+				},
+				"Priority": 9
+			},
+			"Wield a ~|divine spirit shield|~": {
+				"Items": ["Divine spirit shield"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Defence": 75
+				},
+				"Priority": 3
+			},
+			"Wield an ~|elysian spirit shield|~": {
+				"Items": ["Elysian spirit shield"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Defence": 75
+				},
+				"Priority": 4
 			}
 		},
 		"Divination": {
@@ -3365,6 +3607,12 @@
 				"Output": "Raw rocktail",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Unlock ~|the memory|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 10
 			}
 		},
 		"Dungeoneering": {
@@ -3463,6 +3711,57 @@
 					"Ranged": 80
 				},
 				"Priority": 2
+			},
+			"Use the ~|bonecrusher|~": {
+				"Items": ["Bonecrusher"],
+				"Level": 21,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 21
+				},
+				"Priority": 1
+			},
+			"Wear a ~|twisted bird skull necklace|~": {
+				"Items": ["Twisted bird skull necklace"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 30
+				},
+				"Priority": 3
+			},
+			"Wear an ~|amulet of zealots|~": {
+				"Items": ["Amulet of zealots"],
+				"Level": 48,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 48
+				},
+				"Priority": 1
+			},
+			"Wear a ~|split dragontooth necklace|~": {
+				"Items": ["Split dragontooth necklace"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 1
+			},
+			"Use the ~|rapid renewal|~": {
+				"Chunks": ["13625"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 65
+				},
+				"Priority": 1
+			},
+			"Unlock ~|the exile|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Farming": {
@@ -4132,7 +4431,7 @@
 				"Objects": ["Fishing spot (arc)"],
 				"Primary": true,
 				"Output": "Raw tarpon",
-				"Priority": 2
+				"Priority": 3
 			},
 			"Catch a ~|raw blue blubber jellyfish|~": {
 				"Items": ["Fishing bait"],
@@ -4310,7 +4609,7 @@
 				"Level": 90,
 				"Output": "Raw rocktail",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Catch a ~|raw tuna|~ barehanded": {
 				"Level": 55,
@@ -4352,6 +4651,12 @@
 				},
 				"Output": "Raw baron shark",
 				"Priority": 3
+			},
+			"Unlock ~|the whaler|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 5
 			}
 		},
 		"Fletching": {
@@ -4387,6 +4692,12 @@
 				"Level": 1,
 				"Output": "Dust of Armadyl",
 				"Primary": true,
+				"Priority": 1
+			},
+			"Unlock ~|the biologist|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
 				"Priority": 1
 			}
 		},
@@ -4575,6 +4886,12 @@
 					"Summoning": 80
 				},
 				"Priority": 3
+			},
+			"Unlock ~|the trapper|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Invention": {},
@@ -4761,6 +5078,46 @@
 					"Runecrafting": 90
 				},
 				"Priority": 1
+			},
+			"Wear a ~|mitre|~": {
+				"Items": ["Mitre+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 40
+				},
+				"Priority": 1
+			},
+			"Wield an ~|animal staff|~": {
+				"Items": ["AnimalStaff+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Attack": 40,
+					"Defence": 20,
+					"Prayer": 60
+				},
+				"priority": 2
+			},
+			"Wear a piece of ~|Akrisae the Doomed's equipment|~": {
+				"Items": ["AkrisaeGear+"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Prayer": 70
+				},
+				"Priority": 3
+			},
+			"Wield ~|Akrisae's war mace|~": {
+				"Items": ["Akrisae's war mace"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Attack": 70,
+					"Prayer": 70
+				},
+				"Priority": 4
 			}
 		},
 		"Mining": {
@@ -5432,7 +5789,7 @@
 			}
 		},
 		"Prayer": {
-			"Equip ~|void knight equipment|~": {
+			"Equip a piece of ~|void knight equipment|~": {
 				"Items": ["Voidequipment+"],
 				"Level": 22,
 				"Primary": false,
@@ -5445,6 +5802,450 @@
 					"Ranged": 42
 				},
 				"Priority": 1
+			},
+			"Equip a piece of ~|initiate armour|~": {
+				"Items": ["Initiate+"],
+				"Level": 10,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20
+				},
+				"Priority": 1
+			},
+			"Equip a piece of ~|proselyte armour|~": {
+				"Items": ["Proselyte+"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 30
+				},
+				"Priority": 1
+			},
+			"Use the ~|bonecrusher|~": {
+				"Items": ["Bonecrusher"],
+				"Level": 21,
+				"Primary": true,
+				"Skills": {
+					"Dungeoneering": 21
+				},
+				"Priority": 1
+			},
+			"Wield an ~|ancient mace|~": {
+				"Items": ["Ancient mace"],
+				"Level": 25,
+				"Primary": false,
+				"Skills": {
+					"Attack": 15
+				},
+				"Priority": 1
+			},
+			"Wear a ~|twisted bird skull necklace|~": {
+				"Items": ["Twisted bird skull necklace"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 30
+				},
+				"Priority": 1
+			},
+			"Wield a ~|god book|~": {
+				"Items": ["GodBooks+"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Enter the first floor of the ~|Monastery of Saradmon|~": {
+				"Chunks": ["12086"],
+				"Level": 31,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a ~|vestment cloak|~": {
+				"Items": ["VestmentCloak+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a ~|mitre|~": {
+				"Items": ["Mitre+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Magic": 40
+				},
+				"Priority": 2
+			},
+			"Wear an ~|amulet of zealots|~": {
+				"Items": ["Amulet of zealots"],
+				"Level": 48,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 48
+				},
+				"Priority": 1
+			},
+			"Bless a ~|holy symbol|~": {
+				"Items": ["Holy symbol", "Prayer book"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Bless an ~|unholy symbol|~": {
+				"Items": ["Unholy symbol", "Prayer book"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|unblessed spirit shield|~": {
+				"Items": ["Spirit shield"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Defence": 40
+				},
+				"Priority": 1
+			},
+			"Use the ~|chivalry|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a ~|stole|~": {
+				"Items": ["Stole+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|crozier|~": {
+				"Items": ["Crozier+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield an ~|animal staff|~": {
+				"Items": ["AnimalStaff+"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Attack": 40,
+					"Defence": 20,
+					"Magic": 40
+				},
+				"priority": 4
+			},
+			"Wield a ~|blessed spirit shield|~": {
+				"Items": ["Blessed spirit shield"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70
+				},
+				"Priority": 5
+			},
+			"Wear a ~|split dragontooth necklace|~": {
+				"Items": ["Split dragontooth necklace"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 60
+				},
+				"Priority": 6
+			},
+			"Produce an ~|illuminated book of law|~": {
+				"Items": ["Armadyl's Book of Law"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of Law",
+				"Skills": {
+					"Crafting": 60
+				},
+				"Priority": 7
+			},
+			"Produce an ~|illuminated book of war|~": {
+				"Items": ["Bandos's Book of War"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of War",
+				"Skills": {
+					"Crafting": 60
+				},
+				"Priority": 8
+			},
+			"Produce an ~|illuminated book of balance|~": {
+				"Items": ["Guthix's Book of Balance"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of Balance",
+				"Skills": {
+					"Crafting": 60
+				},
+				"Priority": 9
+			},
+			"Produce an ~|illuminated book of wisdom|~": {
+				"Items": ["Saradomin's Book of Wisdom"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of Wisdom",
+				"Skills": {
+					"Crafting": 60
+				},
+				"Priority": 10
+			},
+			"Produce an ~|illuminated book of chaos|~": {
+				"Items": ["Zamorak's Book of Chaos"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Book of Chaos",
+				"Skills": {
+					"Crafting": 60
+				},
+				"Priority": 11
+			},
+			"Produce an ~|illuminated ancient book|~": {
+				"Items": ["Ancient Book"],
+				"Chunks": ["13617"],
+				"Level": 60,
+				"Primary": false,
+				"Output": "Illuminated Ancient Book",
+				"Skills": {
+					"Crafting": 60
+				},
+				"Priority": 12
+			},
+			"Use the ~|rapid renewal|~ prayer": {
+				"Chunks": ["13625"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 65
+				},
+				"Priority": 1
+			},
+			"Wear a piece of ~|third-age druidic robes|~": {
+				"Items": ["ThirdAgeDruidic+"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|piety|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70
+				},
+				"Priority": 1
+			},
+			"Use the ~|augury|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70
+				},
+				"Priority": 2
+			},
+			"Use the ~|rigour|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70
+				},
+				"Priority": 3
+			},
+			"Wear a piece of ~|Akrisae the Doomed's equipment|~": {
+				"Items": ["AkrisaeGear+"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Magic": 70
+				},
+				"Priority": 4
+			},
+			"Wield ~|Akrisae's war mace|~": {
+				"Items": ["Akrisae's war mace"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Attack": 70,
+					"Magic": 70
+				},
+				"Priority": 5
+			},
+			"Wield an ~|arcane spirit shield|~": {
+				"Items": ["Arcane spirit shield"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Defence": 75
+				},
+				"Priority": 1
+			},
+			"Wield a ~|spectral spirit shield|~": {
+				"Items": ["Spectral spirit shield"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Defence": 75
+				},
+				"Priority": 2
+			},
+			"Wield a ~|divine spirit shield|~": {
+				"Items": ["Divine spirit shield"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Defence": 75
+				},
+				"Priority": 3
+			},
+			"Wield an ~|elysian spirit shield|~": {
+				"Items": ["Elysian spirit shield"],
+				"Level": 75,
+				"Primary": false,
+				"Skills": {
+					"Defence": 75
+				},
+				"Priority": 5
+			},
+			"Use the lamp from ~|the world wakes|~ quest": {
+				"Chunks": ["10804"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|light form|~ prayer": {
+				"Chunks": ["8756"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use the ~|dark form|~ prayer": {
+				"Chunks": ["8756"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Bless a spirit shield with a ~|holy elixir|~": {
+				"Items": ["Holy elixir", "Spirit shield"],
+				"Level": 85,
+				"Primary": true,
+				"Output": "Blessed spirit shield",
+				"Priority": 1
+			},
+			"Use the ~|chronicle attraction|~ prayer": {
+				"Chunks": ["8756"],
+				"Level": 87,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|soul link|~ prayer": {
+				"Chunks": ["8756"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|teamwork protection|~ prayer": {
+				"Chunks": ["8756"],
+				"Level": 89,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Attach an ~|arcane sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Arcane sigil", "Blessed spirit shield"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Smithing": 85
+				},
+				"Output": "Arcane spirit shield",
+				"Priority": 1
+			},
+			"Attach a ~|divine sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Divine sigil", "Blessed spirit shield"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Smithing": 85
+				},
+				"Output": "Divine spirit shield",
+				"Priority": 2
+			},
+			"Attach an ~|elysian sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Elysian sigil", "Blessed spirit shield"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Smithing": 85
+				},
+				"Output": "Elysian spirit shield",
+				"Priority": 3
+			},
+			"Attach a ~|spectral sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Spectral sigil", "Blessed spirit shield"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Smithing": 85
+				},
+				"Output": "Spectral spirit shield",
+				"Priority": 4
+			},
+			"Wear a ~|demon horn necklace|~": {
+				"Items": ["Demon horn necklace"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Unlock ~|the missionary|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Pay respect at the ~|Guthixian ruins|~ after the world wakes": {
+				"Chunks": ["10804"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Use the ~|superheat form|~ prayer": {
+				"Chunks": ["8756"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|fortitude|~ prayer": {
+				"Chunks": ["8756"],
+				"Level": 94,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|malevolence|~ prayer": {
+				"Itemss": ["praesul codex"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|desolation|~ prayer": {
+				"Itemss": ["praesul codex"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use the ~|affliction|~ prayer": {
+				"Itemss": ["praesul codex"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
 			}
 		},
 		"Ranged": {
@@ -9142,6 +9943,18 @@
 				"Priority": 3,
 				"Source": "drop",
 				"Output": "Imperial ranger akh"
+			},
+			"Use the slayer lamp from ~|the world wakes|~ quest": {
+				"Chunks": ["10804"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Unlock ~|the assassin|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 8
 			}
 		},
 		"Smithing": {
@@ -9889,6 +10702,46 @@
 				"Output": "TrimmedMasterwork",
 				"Primary": true,
 				"Priority": 20
+			},
+			"Attach an ~|arcane sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Arcane sigil", "Blessed spirit shield"],
+				"Level": 85,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 90
+				},
+				"Output": "Arcane spirit shield",
+				"Priority": 3
+			},
+			"Attach a ~|divine sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Divine sigil", "Blessed spirit shield"],
+				"Level": 85,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 90
+				},
+				"Output": "Divine spirit shield",
+				"Priority": 4
+			},
+			"Attach an ~|elysian sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Elysian sigil", "Blessed spirit shield"],
+				"Level": 85,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 90
+				},
+				"Output": "Elysian spirit shield",
+				"Priority": 5
+			},
+			"Attach a ~|spectral sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Spectral sigil", "Blessed spirit shield"],
+				"Level": 85,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 90
+				},
+				"Output": "Spectral spirit shield",
+				"Priority": 6
 			}
 		},
 		"Strength": {
@@ -10256,7 +11109,13 @@
 				"Level": 24,
 				"Primary": false,
 				"Priority": 1
-			}			
+			},
+			"Open the door to the ~|Het tomb|~": {
+				"Chunks": ["13362"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 2
+			}
 		},
 		"Summoning": {
 			"Create a ~|spirit wolf|~ pouch": {
@@ -12872,7 +13731,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-						"Crack a ~|wall safe|~": {
+			"Crack a ~|wall safe|~": {
 				"Level": 50,
 				"Chunks": ["Rogues' Den"],
 				"Output": "WallSafe",
@@ -12888,6 +13747,12 @@
 					"Herblore": 50
 				},
 				"Primary": true,
+				"Priority": 3
+			},
+			"Unlock ~|the convict|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
 				"Priority": 3
 			}
 		},
@@ -24390,7 +25255,6 @@
 				"Gnome banker": 4
 			},
 			"Connect": {
-				"7098": true,
 				"10566": true
 			},
 			"Spawn": {
@@ -25151,9 +26015,6 @@
 				"Swamp toad": 9,
 				"Gnormadium Avlafrim": 1
 			},
-			"Connect": {
-				"7098": true
-			},
 			"Spawn": {
 				"Death rune": 1,
 				"Bones": 9
@@ -25278,7 +26139,6 @@
 				"Bolrie": 1
 			},
 			"Connect": {
-				"7098": true,
 				"10133": true
 			},
 			"Shop": {
@@ -32547,7 +33407,6 @@
 				"Madame Shih": 1
 			},
 			"Connect": {
-				"7098": true,
 				"12176": true
 			},
 			"Spawn": {
@@ -37586,7 +38445,6 @@
 				"Zeid the Tailor": 1
 			},
 			"Connect": {
-				"7098": true,
 				"10315": true
 			},
 			"Shop": {
@@ -57725,13 +58583,7 @@
 				"Undead pekin": 8
 			},
 			"Connect": {
-				"9782": true,
-				"10030": true,
-				"10033": true,
-				"11318": true,
-				"11822": true,
-				"13106": true,
-				"13109": true
+				"12082": true
 			},
 			"Shop": {
 				"Ani's Seed Store by the Sea Shore": true,
@@ -58341,7 +59193,7 @@
 		}
 	},
 	"codeItems": {
-		"boneItems": [],
+		"boneItems": ["Impious ashes", "Accursed ashes", "Infernal ashes", "Tortured ashes", "Searing ashes", "Druid pouch", "Ectoplasmator", "Bones", "Wolf bones", "Burnt bones", "monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Dinosaur bones", "Frost dragon bones", "Reinforced dragon bones"],
 		"dropTables": {},
 		"tools": {},
     "elementalRunes": ["Air rune", "Water rune", "Earth rune", "Fire rune"],
@@ -58462,7 +59314,17 @@
 			"Sacred Clay Ranged+": ["Sacred clay coif", "Sacred clay body", "Sacred clay chaps"],
 			"Demon slayer+": ["Demon slayer circlet", "Demon slayer torso", "Demon slayer gloves", "Demon slayer skirt", "Demon slayer boots"],
 			"Third Age Ranger+": ["Third age ranger coif", "Third age ranger body", "Third age vambraces", "Third age ranger chaps"],
-			"KarilArmour+": ["Karil's coif", "Karil's top", "Karil's skirt"]
+			"KarilArmour+": ["Karil's coif", "Karil's top", "Karil's skirt"],
+			"Initiate+": ["Initiate sallet", "Initiate hauberk", "Initiate cruisse", "Initiate tasset"],
+			"Proselyte+": ["Proselyte sallet", "Proselyte hauberk", "Proselyte cruisse", "Proselyte tasset"],
+			"VestmentCloak": ["Saradomin cloak", "Guthix cloak", "Zamorak cloak", "Armadyl cloak", "Bandos cloak", "Ancient cloak"],
+			"Mitre+": ["Ancient mitre", "Armadyl mitre", "Bandos mitre", "Guthix mitre", "Saradomin mitre", "Zamorak mitre"],
+			"Stole+": ["Guthix stole", "Saradomin stole", "Zamorak stole", "Armadyl stole", "Bandos stole", "Ancient stole"],
+			"Crozier+": ["Guthix crozier", "Saradomin crozier", "Zamorak crozier", "Armadyl crozier", "Bandos crozier", "Ancient crozier"],
+			"AnimalStaff+": ["Bat staff", "Penguin staff", "Wolf staff", "Dragon staff", "Cat staff"],
+			"GodBooks+": ["Armadyl's Book of Law", "Bandos's Book of War", "Guthix's Book of Balance", "Saradomin's Book of Wisdom", "Zamorak's Book of Chaos", "Ancient book"],
+			"ThirdAgeDruidic+": ["Third age druidic wreath", "Third age druidic robe top", "Third age druidic robe bottom", "Third age druidic cloak", "Third age druidic staff"],
+			"AkrisaeGear+": ["Akrisae's hood", "Akrisae's robe top", "Akrisae's robe skirt"]
 	},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
