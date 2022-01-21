@@ -6230,19 +6230,19 @@
 				"Priority": 1
 			},
 			"Use the ~|malevolence|~ prayer": {
-				"Itemss": ["praesul codex"],
+				"Items": ["Praesul codex"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Use the ~|desolation|~ prayer": {
-				"Itemss": ["praesul codex"],
+				"Items": ["Praesul codex"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Use the ~|affliction|~ prayer": {
-				"Itemss": ["praesul codex"],
+				"Items": ["Praesul codex"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 3
