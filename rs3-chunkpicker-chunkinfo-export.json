@@ -5444,13 +5444,13 @@
 				"Priority": 4
 			},
 			"Cast ~|air strike|~": {
-				"Items": ["Air rune+"],
+				"Items": ["Air rune+*"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|confuse|~": {
-				"Items": ["Mind rune"],
+				"Items": ["Mind rune*"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1
@@ -62081,8 +62081,8 @@
 		"boneItems": ["Impious ashes", "Accursed ashes", "Infernal ashes", "Tortured ashes", "Searing ashes", "Druid pouch", "Ectoplasmator", "Bones", "Wolf bones", "Burnt bones", "monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Dinosaur bones", "Frost dragon bones", "Reinforced dragon bones"],
 		"dropTables": {},
 		"tools": {},
-    "elementalRunes": ["Air rune", "Water rune", "Earth rune", "Fire rune"],
-    "elementalStaves": {
+		"elementalRunes": ["Air rune", "Water rune", "Earth rune", "Fire rune"],
+		"elementalStaves": {
       "Air battlestaff": ["Air rune"],
 	  "Armadyl battlestaff": ["Air rune"],
 	  "Avernic wand": ["Air rune"],
