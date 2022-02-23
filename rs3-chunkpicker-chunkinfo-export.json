@@ -869,6 +869,60 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 4
+			},
+			"Wield a ~|crystal staff|~": {
+				"Items": ["Crystal staff"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 70
+				},
+				"Priority": 10
+			},
+			"Wield a ~|crystal wand|~": {
+				"Items": ["Crystal wand"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 70
+				},
+				"Priority": 11
+			},
+			"Wield a ~|crystal orb|~": {
+				"Items": ["Crystal orb"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 70
+				},
+				"Priority": 12
+			},
+			"Wield an ~|attuned crystal staff|~": {
+				"Items": ["Attuned crystal staff"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 13
+			},
+			"Wield an ~|attuned crystal wand|~": {
+				"Items": ["Attuned crystal wand"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 14
+			},
+			"Wield an ~|attuned crystal orb|~": {
+				"Items": ["Attuned crystal orb"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 15
 			}
 		},
 		"Archaeology": {
@@ -1516,6 +1570,105 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on an uncooked berry pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked berry pie"],
+				"Chunks": ["8508"],
+				"Level": 10,
+				"Output": "Redberry pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on an uncooked meat pie ": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked meat pie"],
+				"Chunks": ["8508"],
+				"Level": 20,
+				"Output": "Meat pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on a raw mud pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw mud pie"],
+				"Chunks": ["8508"],
+				"Level": 29,
+				"Output": "Mud pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on an uncooked apple pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked apple pie"],
+				"Chunks": ["8508"],
+				"Level": 30,
+				"Output": "Apple pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on a raw garden pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw garden pie"],
+				"Chunks": ["8508"],
+				"Level": 34,
+				"Output": "Garden pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on a raw fish pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw fish pie"],
+				"Chunks": ["8508"],
+				"Level": 47,
+				"Output": "Fish pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on a raw admiral pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw admiral pie"],
+				"Chunks": ["8508"],
+				"Level": 70,
+				"Output": "Admiral pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on a raw wild pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw wild pie"],
+				"Chunks": ["8508"],
+				"Level": 85,
+				"Output": "Wild pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on a raw summer pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw summer pie"],
+				"Chunks": ["8508"],
+				"Level": 95,
+				"Output": "Summer pie",
+				"Primary": true,
+				"Skills": {
+					"Magic": 65
+				},
 				"Priority": 1
 			}
 		},
@@ -2233,6 +2386,105 @@
 					"Defence": 75
 				},
 				"Priority": 4
+			},
+			"Wear a piece of ~|combat robes|~": {
+				"Items": ["Combat Robes+"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Magic": 20
+				},
+				"Priority": 8
+			},
+			"Wear a piece of ~|necromancer robes|~": {
+				"Items": ["Necromancer Robes+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Magic": 40
+				},
+				"Priority": 5
+			},
+			"Wear a piece of ~|Dagon'hai robes|~": {
+				"Items": ["Dagon'hai Robes+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Magic": 40
+				},
+				"Priority": 6
+			},
+			"Wear a piece of ~|sacred clay robes|~": {
+				"Items": ["SacredClayRobe+"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Magic": 50
+				},
+				"Priority": 4
+			},
+			"Wear a piece of ~|lunar equipment|~": {
+				"Items": ["LunarEquipment+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Magic": 60
+				},
+				"Priority": 6
+			},
+			"Wear a piece of ~|third age mage robes|~": {
+				"Items": ["ThirdAgeRobes+"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Magic": 65
+				},
+				"Priority": 3
+			},
+			"Wield a ~|blighted rebounder|~": {
+				"Items": ["Blighted rebounder"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Magic": 70
+				},
+				"Priority": 10
+			},
+			"Wear a piece of ~|Ahrim's robes|~": {
+				"Items": ["AhrimRobes+"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Magic": 70
+				},
+				"Priority": 11
+			},
+			"Wield an ~|ancient lantern|~": {
+				"Items": ["Ancient lantern"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 3
+			},
+			"Wear ~|spellcaster gloves|~": {
+				"Items": ["Spellcaster gloves"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 4
+			},
+			"Wield a ~|kalphite rebounder|~": {
+				"Items": ["Kalphite rebounder"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Magic": 90
+				},
+				"Priority": 2
 			}
 		},
 		"Divination": {
@@ -3762,6 +4014,87 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Wield a ~|law staff|~": {
+				"Items": ["Law staff"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Magic": 45
+				},
+				"Priority": 5
+			},
+			"Wield a ~|tome of frost|~": {
+				"Items": ["Tome of frost"],
+				"Level": 48,
+				"Primary": false,
+				"Skills": {
+					"Magic": 48
+				},
+				"Priority": 2
+			},
+			"Wield a ~|nature staff|~": {
+				"Items": ["Nature staff"],
+				"Level": 53,
+				"Primary": false,
+				"Skills": {
+					"Magic": 53
+				},
+				"Priority": 1
+			},
+			"Wield a ~|gravite staff|~": {
+				"Items": ["Gravite staff"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Magic": 55
+				},
+				"Priority": 6
+			},
+			"Wear an ~|arcane pulse necklace|~": {
+				"Items": ["Arcane pulse necklace"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Magic": 30
+				},
+				"Priority": 4
+			},
+			"Wear an ~|arcane blast necklace|~": {
+				"Items": ["Arcane blast necklace"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Magic": 50
+				},
+				"Priority": 1
+			},
+			"Wield a ~|chaotic staff|~": {
+				"Items": ["Chaotic staff"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 2
+			},
+			"Wear an ~|arcane stream necklace|~": {
+				"Items": ["Arcane stream necklace"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 3
+			},
+			"Wear an ~|arcane blood necklace|~": {
+				"Items": ["Arcane blood necklace"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 4
 			}
 		},
 		"Farming": {
@@ -5022,16 +5355,7 @@
 				"Skills": {
 					"Slayer": 55
 				}
-			},
-			"Cast a ~|slayer dart|~": {
-				"Items": ["SlayerStaff+", "Air rune+", "Death rune"],
-				"Level": 50,
-				"Primary": true,
-				"Priority": 2,
-				"Skills": {
-					"Slayer": 55
-				}
-			},
+			},		
 			"wield a ~|magical blastbox|~": {
 				"Items": ["Magical blastbox"],
 				"Level": 30,
@@ -5118,6 +5442,2539 @@
 					"Prayer": 70
 				},
 				"Priority": 4
+			},
+			"Cast ~|air strike|~": {
+				"Items": ["Air rune+"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|confuse|~": {
+				"Items": ["Mind rune"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|staff|~": {
+				"Items": ["Staff"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|magic staff|~": {
+				"Items": ["Magic staff"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|elemental staff|~": {
+				"Items": ["Elemental Staff+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|wizard wand|~": {
+				"Items": ["Wizard wand"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|wizard book|~": {
+				"Items": ["Wizard book"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|talisman staff|~": {
+				"Items": ["Talisman Staff+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|Tower mindspike|~": {
+				"Chunks": ["12337"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield an ~|avernic wand|~": {
+				"Chunks": ["12852", "12853"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield an ~|avernic book|~": {
+				"Chunks": ["12852", "12853"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|was|~": {
+				"Items": ["Was"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Cast ~|enchant crossbow bolt (opal)|~": {
+				"Items": ["Cosmic rune", "Air rune+", "Opal bolts"],
+				"Level": 4,
+				"Output": "Opal bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|water strike|~": {
+				"Items": ["Water rune+", "Air rune+"],
+				"Level": 5,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|mindspike|~": {
+				"Items": ["Mindspike"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Cast ~|enchant crossbow bolt (sapphire)|~": {
+				"Items": ["Cosmic rune", "Mind rune", "Water rune+", "Sapphire bolts"],
+				"Level": 7,
+				"Output": "Sapphire bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|lvl-1 enchant|~ on a sapphire ring": {
+				"Items": ["Cosmic rune", "Water rune+", "Sapphire ring"],
+				"Level": 7,
+				"Output": "Ring of recoil",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|lvl-1 enchant|~ on a spphiire necklace": {
+				"Items": ["Cosmic rune", "Water rune+", "Sapphire necklace"],
+				"Level": 7,
+				"Output": "Games necklace",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|lvl-1 enchant|~ on a sapphire bracelet": {
+				"Items": ["Cosmic rune", "Water rune+", "Sapphire bracelet"],
+				"Level": 7,
+				"Output": "Bracelet of clay",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|lvl-1 enchant|~ on a sapphire amulet": {
+				"Items": ["Cosmic rune", "Water rune+", "Sapphire amulet"],
+				"Level": 7,
+				"Output": "Amulet of magic",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|lvl-1 enchant|~ on an opal ring": {
+				"Items": ["Cosmic rune", "Water rune+", "Opal ring"],
+				"Level": 7,
+				"Output": "Ring of metamorphosis",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|lvl-1 enchant|~ on an opal necklace": {
+				"Items": ["Cosmic rune", "Water rune+", "Opal necklace"],
+				"Level": 7,
+				"Output": "Featherfingered necklace",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|lvl-1 enchant|~ on an opal bracelet": {
+				"Items": ["Cosmic rune", "Water rune+", "Opal bracelet"],
+				"Level": 7,
+				"Output": "Headhunter's sacrifice",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cast ~|lvl-1 enchant|~ on an opal amulet": {
+				"Items": ["Cosmic rune", "Water rune+", "Opal amulet"],
+				"Level": 7,
+				"Output": "Amulet of bountiful harvest",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cast ~|lvl-1 enchant|~ on a lapis lazuli ring": {
+				"Items": ["Cosmic rune", "Water rune+", "Lapis lazuli ring"],
+				"Level": 7,
+				"Output": "Ring of luck",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Cast ~|earth strike|~": {
+				"Items": ["Earth rune+", "Air rune+"],
+				"Level": 9,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|south Feldip hills teleport|~": {
+				"Items": ["Law rune", "Water rune+", "Air rune+"],
+				"Level": 10,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield an ~|imp horn wand|~": {
+				"Items": ["Imp horn wand"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|imphide book|~": {
+				"Items": ["Imphide book"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Cast ~|weaken|~": {
+				"Items": ["Body rune"],
+				"Level": 11,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|fire strike|~": {
+				"Items": ["Fire rune+", "Air rune+"],
+				"Level": 13,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|enchant crossbow bolt (jade)|~": {
+				"Items": ["Cosmic rune", "Earth rune+", "Jade bolts"],
+				"Level": 14,
+				"Output": "Jade bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|bones to bananas|~": {
+				"Items": ["Nature rune", "Earth rune+", "Water rune+", "BananaBones+"],
+				"Level": 15,
+				"Output": "Banana",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|air bolt|~": {
+				"Items": ["Air rune+"],
+				"Level": 17,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|curse|~": {
+				"Items": ["Chaos rune"],
+				"Level": 19,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Taverley teleport|~": {
+				"Items": ["Law rune", "Fire rune+", "Air rune+"],
+				"Level": 19,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|bind|~": {
+				"Items": ["Nature rune"],
+				"Level": 20,
+				"Primary": true,
+				"Priority": 7
+			},
+			"Wield a ~|spider wand|~": {
+				"Items": ["Spider wand"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|spider orb|~": {
+				"Items": ["Spider orb"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|corrupt Zuriel's staff|~": {
+				"Items": ["Corrupt Zuriel's staff"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|combat robes|~": {
+				"Items": ["Combat Robes+"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20
+				},
+				"Priority": 11
+			},
+			"Cast ~|low level alchemy|~": {
+				"Items": ["Nature rune", "Fire rune+"],
+				"Level": 21,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|water bolt|~": {
+				"Items": ["Water rune+", "Air rune+"],
+				"Level": 23,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|enchant crossbow bolt (pearl)|~": {
+				"Items": ["Cosmic rune", "Water rune+", "Pearl bolts"],
+				"Level": 24,
+				"Output": "Pearl bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Varrock teleport|~": {
+				"Items": ["Law rune", "Fire rune+", "Air rune+"],
+				"Level": 25,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|white magic staff|~": {
+				"Items": ["White magic staff"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Cast ~|lvl-2 enchant|~ on an emerald ring": {
+				"Items": ["Cosmic rune", "Air rune+", "Emerald ring"],
+				"Level": 27,
+				"Output": "Ring of duelling",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|lvl-2 enchant|~ on an emerald necklace": {
+				"Items": ["Cosmic rune", "Air rune+", "Emerald necklace"],
+				"Level": 27,
+				"Output": "Binding necklace",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|lvl-2 enchant|~ on an emerald bracelet": {
+				"Items": ["Cosmic rune", "Air rune+", "Emerald bracelet"],
+				"Level": 27,
+				"Output": "Castle wars brace",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|lvl-2 enchant|~ on an emerald amulet": {
+				"Items": ["Cosmic rune", "Air rune+", "Emerald amulet"],
+				"Level": 27,
+				"Output": "Amulet of defence",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|lvl-2 enchant|~ on a pre-nature amulet": {
+				"Items": ["Cosmic rune", "Air rune+", "Pre-nature amulet"],
+				"Level": 27,
+				"Output": "Amulet of nature",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|lvl-2 enchant|~ on a silver sickle emerald (b)": {
+				"Items": ["Cosmic rune", "Air rune+", "Silver sickle emerald (b)"],
+				"Level": 27,
+				"Output": "Enchanted sickle emerald (b)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|lvl-2 enchant|~ on a jade ring": {
+				"Items": ["Cosmic rune", "Air rune+", "Jade ring"],
+				"Level": 27,
+				"Output": "Ring of respawn",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|lvl-2 enchant|~ on a jade necklace": {
+				"Items": ["Cosmic rune", "Air rune+", "Jade necklace"],
+				"Level": 27,
+				"Output": "Traveller's necklace",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cast ~|lvl-2 enchant|~ on a jade bracelet": {
+				"Items": ["Cosmic rune", "Air rune+", "Jade bracelet"],
+				"Level": 27,
+				"Output": "Flamtear bracelet",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cast ~|lvl-2 enchant|~ on a jade amulet": {
+				"Items": ["Cosmic rune", "Air rune+", "Jade amulet"],
+				"Level": 27,
+				"Output": "Botanist's amulet",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Cast ~|enchant crossbow bolt (emerald)|~": {
+				"Items": ["Nature rune", "Cosmic rune", "Air rune+", "Emerald bolts"],
+				"Level": 27,
+				"Output": "Emerald bolts (e)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|earth bolt|~": {
+				"Items": ["Earth rune+", "Air rune+"],
+				"Level": 29,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|enchant crossbow bolt (red topaz)|~": {
+				"Items": ["Cosmic rune", "Fire rune+", "Topaz bolts"],
+				"Level": 29,
+				"Output": "Topaz bolts (e)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Wield a ~|battlestaff|~": {
+				"Items": ["Battlestaff"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|elemental battlestaff|~": {
+				"Items": ["ElementalBattlestaff+"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|batwing wand|~": {
+				"Items": ["Batwing wand"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|batwing book|~": {
+				"Items": ["Batwing book"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear an ~|arcane pulse necklace|~": {
+				"Items": ["Arcane pulse necklace"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 30
+				},
+				"Priority": 7
+			},
+			"Cast ~|Lumbridge teleport|~": {
+				"Items": ["Law rune", "Earth rune+", "Air rune+"],
+				"Level": 31,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|telekinetic grab|~": {
+				"Items": ["Law rune", "Air rune+"],
+				"Level": 33,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|fire bolt|~": {
+				"Items": ["Fire rune+", "Air rune+"],
+				"Level": 35,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Falador teleport|~": {
+				"Items": ["Law rune", "Water rune+", "Air rune+"],
+				"Level": 37,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|house teleport|~": {
+				"Items": ["Law rune", "Air rune+", "Earth rune+"],
+				"Level": 40,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Wield a ~|mystic staff|~": {
+				"Items": ["Mystic Staff+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|splitbark wand|~": {
+				"Items": ["Splitbark wand"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|splitbark orb|~": {
+				"Items": ["Splitbark orb"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of ~|necromancer robes|~": {
+				"Items": ["Necromancer Robes+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Defence": 40
+				},
+				"Priority": 7
+			},
+			"Wear a piece of ~|Dagon'hai robes|~": {
+				"Items": ["Dagon'hai Robes+"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Defence": 40
+				},
+				"Priority": 8
+			},
+			"Cast ~|air blast|~": {
+				"Items": ["Air rune+"],
+				"Level": 41,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|superheat item|~": {
+				"Items": ["Nature rune", "Fire rune+"],
+				"Level": 43,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Camelot teleport|~": {
+				"Items": ["Law rune", "Air rune+"],
+				"Level": 45,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|law staff|~": {
+				"Items": ["Law staff"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 2
+			},
+			"Wield a ~|beginner wand|~": {
+				"Items": ["Beginner wand"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Cast ~|water blast|~": {
+				"Items": ["Water rune+", "Air rune+"],
+				"Level": 47,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|tome of frost|~": {
+				"Items": ["Tome of frost"],
+				"Level": 48,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 48
+				},
+				"Priority": 1
+			},
+			"Cast ~|enchant crossbow bolt (ruby)|~": {
+				"Items": ["Blood rune", "Cosmic rune", "Fire rune+", "Ruby bolts"],
+				"Level": 49,
+				"Output": "Ruby bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|lvl-3 enchant|~ on a ruby ring": {
+				"Items": ["Cosmic rune", "Fire rune+", "Ruby ring"],
+				"Level": 49,
+				"Output": "Ring of forging",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|lvl-3 enchant|~ on a ruby bracelet": {
+				"Items": ["Cosmic rune", "Fire rune+", "Ruby bracelet"],
+				"Level": 49,
+				"Output": "Inoculation brace",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|lvl-3 enchant|~ on a ruby amulet": {
+				"Items": ["Cosmic rune", "Fire rune+", "Ruby amulet"],
+				"Level": 49,
+				"Output": "Amulet of strength",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|lvl-3 enchant|~ on a topaz ring": {
+				"Items": ["Cosmic rune", "Fire rune+", "Topaz ring"],
+				"Level": 49,
+				"Output": "Columbarium ring",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|lvl-3 enchant|~ on a topaz necklace": {
+				"Items": ["Cosmic rune", "Fire rune+", "Topaz necklace"],
+				"Level": 49,
+				"Output": "Necklace of gluttony",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|lvl-3 enchant|~ on a topaz bracelet": {
+				"Items": ["Cosmic rune", "Fire rune+", "Topaz bracelet"],
+				"Level": 49,
+				"Output": "Headhunter's thrill",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|lvl-3 enchant|~ on a topaz amulet": {
+				"Items": ["Cosmic rune", "Fire rune+", "Topaz amulet"],
+				"Level": 49,
+				"Output": "Englightened amulet",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cast ~|lvl-3 enchant|~ on a ruby necklace": {
+				"Items": ["Cosmic rune", "Fire rune+", "Ruby necklace"],
+				"Level": 49,
+				"Output": "Dig Site pendant",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cast ~|slayer dart|~ with a slayer's staff": {
+				"Items": ["Slayer's Staff", "Air rune+", "Death rune"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Slayer": 55
+				},
+				"Priority": 3
+			},
+			"Cast ~|Slayer dart|~": {
+				"Items": ["AltSlayStaff+", "Death rune", "Air rune+"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|smoke rush|~": {
+				"Items": ["Death rune", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|snare|~": {
+				"Items": ["Nature rune"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 6
+			},
+			"Wield an ~|ancient staff|~": {
+				"Items": ["Ancient staff"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|mystic wand|~": {
+				"Items": ["Mystic wand"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|mystic orb|~": {
+				"Items": ["Mystic orb"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|sacred clay staff|~": {
+				"Items": ["Sacred clay staff"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield a ~|apprentice wand|~": {
+				"Items": ["Apprentice wand"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of ~|sacred clay robes|~": {
+				"Items": ["SacredClayRobe+"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Defence": 50
+				},
+				"Priority": 12
+			},
+			"Wear an ~|arcane blast necklace|~": {
+				"Items": ["Arcane blast necklace"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 50
+				},
+				"Priority": 13
+			},
+			"Cast ~|Ardougne teleport|~": {
+				"Items": ["Law rune", "Water rune+", "A magic scroll"],
+				"Level": 51,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|manor farm teleport|~": {
+				"Chunks": ["10548"],
+				"Level": 51,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|Shadow rush|~": {
+				"Items": ["Death rune", "Earth rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 52,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|earth blast|~": {
+				"Items": ["Earth rune+", "Air rune+"],
+				"Level": 53,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|nature staff|~": {
+				"Items": ["Nature staff"],
+				"Level": 53,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 53
+				},
+				"Priority": 2
+			},
+			"Cast ~|Paddewwa teleport|~": {
+				"Items": ["Law rune", "Fire rune+", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 54,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|high level alchemy|~": {
+				"Items": ["Nature rune", "Fire rune+"],
+				"Level": 55,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|gravite staff|~": {
+				"Items": ["Gravite staff"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Priority": 2
+			},
+			"Wield a ~|teacher wand|~": {
+				"Items": ["Teacher wand"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Cast ~|blood rush|~": {
+				"Items": ["Death rune", "Fire rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 56,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|charge water orb|~": {
+				"Items": ["Cosmic rune", "Water rune+", "Unpowered orb"],
+				"Objects": ["Water obelisk"],
+				"Level": 56,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|enchant crossbow bolt (diamond)|~": {
+				"Items": ["Law rune", "Cosmic rune", "Earth rune+", "Diamond bolts"],
+				"Level": 57,
+				"Output": "Diamond bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|lvl-4 enchant|~ on a diamond ring": {
+				"Items": ["Cosmic rune", "Earth rune+", "Diamond ring"],
+				"Level": 57,
+				"Output": "Ring of life",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|lvl-4 enchant|~ on a diamond necklace": {
+				"Items": ["Cosmic rune", "Earth rune+", "Diamond necklace"],
+				"Level": 57,
+				"Output": "Phoenix necklace",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|lvl-4 enchant|~ on a diamond bracelet": {
+				"Items": ["Cosmic rune", "Earth rune+", "Diamond bracelet"],
+				"Level": 57,
+				"Output": "Forinthry bracelet",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|lvl-4 enchant|~ on a diamond amulet": {
+				"Items": ["Cosmic rune", "Earth rune+", "Diamond amulet"],
+				"Level": 57,
+				"Output": "Amulet of power",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|ice rush|~": {
+				"Items": ["Death rune", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 58,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Watchtower teleport|~": {
+				"Items": ["Law rune", "Earth rune+", "Spell scroll"],
+				"Level": 58,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|fire blast|~": {
+				"Items": ["Fire rune+", "Air rune+"],
+				"Level": 59,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|bones to peaches|~": {
+				"Items": ["Nature rune", "Earth rune+", "Water rune+", "BananaBones+"],
+				"Chunks": ["13363"],
+				"Level": 60,
+				"Output": "Peach",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|charge earth orb|~": {
+				"Items": ["Cosmic rune", "Earth rune+", "Unpowered orb"],
+				"Objects": ["Earth obelisk"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|divine storm|~": {
+				"Items": ["Air rune+"],
+				"Chunks": ["12349"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|Senntisten teleport|~": {
+				"Items": ["Soul rune", "Law rune"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Wield a ~|dragon battlestaff|~": {
+				"Items": ["Dragon battlestaff"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|Zamorak staff|~": {
+				"Items": ["Zamorak staff"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|Guthix staff|~": {
+				"Items": ["Guthix staff"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|Saradomin staff|~": {
+				"Items": ["Saradomin staff"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|toktz-mej-tal|~": {
+				"Items": ["Toktz-mej-tal"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|master wand|~": {
+				"Items": ["Master wand"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield a ~|mages' book|~": {
+				"Items": ["Mages' book"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of ~|lunar equipment|~": {
+				"Items": ["LunarEquipment+"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Defence": 40
+				},
+				"Priority": 12
+			},
+			"Wear a ~|lunar amulet|~": {
+				"Items": ["Lunar amulet"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wear a ~|Saradomin cape|~": {
+				"Items": ["Saradomin cape"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wear a ~|Guthix cape|~": {
+				"Items": ["Guthix cape"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wear a ~|Zamorak cape|~": {
+				"Items": ["Zamorak cape"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Cast ~|god wars dungeon teleport|~": {
+				"Items": ["Law rune", "Fire rune+"],
+				"Level": 61,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Trollheim teleport|~": {
+				"Items": ["Law rune", "Fire rune+"],
+				"Level": 61,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|air wave|~": {
+				"Items": ["Air rune+"],
+				"Level": 62,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|smoke burst|~": {
+				"Items": ["Death rune", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 62,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|charge fire orb|~": {
+				"Items": ["Cosmic rune", "Fire rune", "Unpowered orb"],
+				"Objects": ["Fire obelisk"],
+				"Level": 63,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Ape Atoll teleport|~": {
+				"Items": ["Law rune", "Fire rune+", "Water rune+", "Banana"],
+				"Level": 64,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|shadow burst|~": {
+				"Items": ["Death rune", "Earth rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 64,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|bake pie|~ on an uncooked berry pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked berry pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Redberry pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 10
+				},
+				"Priority": 1
+			},
+			"Cast ~|bake pie|~ on an uncooked meat pie ": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked meat pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Meat pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 20
+				},
+				"Priority": 2
+			},
+			"Cast ~|bake pie|~ on a raw mud pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw mud pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Mud pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 29
+				},
+				"Priority": 3
+			},
+			"Cast ~|bake pie|~ on an uncooked apple pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked apple pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Apple pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 30
+				},
+				"Priority": 4
+			},
+			"Cast ~|bake pie|~ on a raw garden pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw garden pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Garden pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 34
+				},
+				"Priority": 5
+			},
+			"Cast ~|bake pie|~ on a raw fish pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw fish pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Fish pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 47
+				},
+				"Priority": 6
+			},
+			"Cast ~|bake pie|~ on a raw admiral pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw admiral pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Admiral pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 70
+				},
+				"Priority": 7
+			},
+			"Cast ~|bake pie|~ on a raw wild pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw wild pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Wild pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 85
+				},
+				"Priority": 8
+			},
+			"Cast ~|bake pie|~ on a raw summer pie": {
+				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw summer pie"],
+				"Chunks": ["8508"],
+				"Level": 65,
+				"Output": "Summer pie",
+				"Primary": true,
+				"Skills": {
+					"Cooking": 95
+				},
+				"Priority": 9
+			},
+			"Cast ~|water wave|~": {
+				"Items": ["Air rune+", "Water rune+"],
+				"Level": 65,
+				"Primary": true,
+				"Priority": 10
+			},
+			"Wield a ~|lunar staff|~": {
+				"Items": ["Lunar staff"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of ~|third age mage robes|~": {
+				"Items": ["ThirdAgeRobes+"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Defence": 65
+				},
+				"Priority": 12
+			},
+			"Cast ~|charge air orb|~": {
+				"Items": ["Cosmic rune", "Air rune+", "Unpowered orb"],
+				"Objects": ["Air obelisk"],
+				"Level": 66,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|vulnerability|~": {
+				"Items": ["Soul rune", "Chaos rune"],
+				"Level": 66,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|Kharyrll teleport|~": {
+				"Items": ["Blood rune", "Law rune"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 66,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|cure plant|~": {
+				"Items": ["Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Objects": ["CurePatch+"],
+				"Level": 66,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|monster examine|~": {
+				"Items": ["Cosmic rune", "Astral rune", "Mind rune"],
+				"Chunks": ["8508"],
+				"Level": 66,
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|NPC contact|~": {
+				"Items": ["Cosmic rune", "Astral rune", "Air rune+"],
+				"Chunks": ["8508"],
+				"Level": 67,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|lvl-5 enchant|~ on a dragonstone ring": {
+				"Items": ["Earth rune+", "Water rune+", "Cosmic rune", "Dragonstone ring"],
+				"Level": 68,
+				"Output": "Ring of wealth",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|lvl-5 enchant|~ on a dragonstone necklace": {
+				"Items": ["Earth rune+", "Water rune+", "Cosmic rune", "Dragonstone necklace"],
+				"Level": 68,
+				"Output": "Skills necklace",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|lvl-5 enchant|~ on a dragonstone bracelet": {
+				"Items": ["Earth rune+", "Water rune+", "Cosmic rune", "Dragonstone Bracelet"],
+				"Level": 68,
+				"Output": "Combat bracelet",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|lvl-5 enchant|~ on a dragonstone amulet": {
+				"Items": ["Earth rune+", "Water rune+", "Cosmic rune", "Dragonstone amulet"],
+				"Level": 68,
+				"Output": "Amulet of glory",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|blood burst|~": {
+				"Items": ["Death rune", "Fire rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 68,
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|cure other|~": {
+				"Items": ["Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Level": 68,
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|enchant crossbow bolt (dragonstone)|~": {
+				"Items": ["Soul rune", "Cosmic rune", "Earth rune+", "Dragon bolts"],
+				"Level": 68,
+				"Output": "Dragon bolts (e)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|humidify|~": {
+				"Items": ["Astral rune", "Fire rune+", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 68,
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cast ~|Moonclan teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Level": 69,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|earth wave|~": {
+				"Items": ["Air rune+", "Earth rune+"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|ice burst|~": {
+				"Items": ["Death rune", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|tele-group Moonclan|~": {
+				"Items": ["Law rune", "Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|Mazcab teleport|~": {
+				"Items": ["Soul rune", "Law rune", "Cosmic rune", "Mazcab teleport codex"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 8
+			},
+			"Wield ~|Ahrim's staff|~": {
+				"Items": ["Ahrim's staff"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield ~|Ahrim's wand|~": {
+				"Items": ["Ahrim's wand"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield ~|Ahrim's book of magic|~": {
+				"Items": ["Ahrim's book of magic"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|wand of treachery|~": {
+				"Items": ["Wand of treachery"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield a ~|crystal staff|~": {
+				"Items": ["Crystal staff"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 13
+			},
+			"Wield a ~|crystal wand|~": {
+				"Items": ["Crystal wand"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 14
+			},
+			"Wield a ~|crystal orb|~": {
+				"Items": ["Crystal orb"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 15
+			},
+			"Wield a ~|blisterwood staff|~": {
+				"Items": ["Blisterwood staff"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wield a ~|blisterwood wand|~": {
+				"Items": ["Blisterwood wand"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wield a ~|blisterwood orb|~": {
+				"Items": ["Blisterwood orb"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wield a ~|blighted rebounder|~": {
+				"Items": ["Blighted rebounder"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70
+				},
+				"Priority": 19
+			},
+			"Wear a piece of ~|Ahrim's robes|~": {
+				"Items": ["AhrimRobes+"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70
+				},
+				"Priority": 20
+			},
+			"Wear a ~|Saradomin's hiss|~": {
+				"Items": ["Saradomin's hiss"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 21
+			},
+			"Cast ~|cure me|~": {
+				"Items": ["Astral rune", "Cosmic rune"],
+				"Chunks": ["8508"],
+				"Level": 71,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Ourania teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Level": 71,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|hunter kit (spell)|~": {
+				"Items": ["Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Level": 71,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|Lassar teleport|~": {
+				"Items": ["Law rune", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 72,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Waterbirth teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 72,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|south Falador teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Air rune+"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 72,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|Anachronia teleport|~": {
+				"Items": ["Law rune", "Nature rune", "Earth rune+"],
+				"Chunks": ["15936","16453"],
+				"Level": 72,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|enfeeble|~": {
+				"Items": ["Soul rune", "Body rune"],
+				"Level": 73,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|tele-group Waterbirth|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 73,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|smoke blitz|~": {
+				"Items": ["Blood rune", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 74,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|tele-other Lumbridge|~": {
+				"Items": ["Soul rune", "Law rune", "Earth rune+"],
+				"Level": 74,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|cure group|~": {
+				"Items": ["Cosmic rune", "Astral rune+"],
+				"Chunks": ["8508"],
+				"Level": 74,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|smoke cloud|~": {
+				"Items": ["Soul rune", "Blood rune", "Chaos rune", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
+				"Level": 74,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|fire wave|~": {
+				"Items": ["Fire rune+", "Air rune+"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|barbarian teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Fire rune+"],
+				"Chunks": ["8508"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|stat spy|~": {
+				"Items": ["Cosmic rune", "Astral rune", "Body rune"],
+				"Chunks": ["8508"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|repair rune pouch|~": {
+				"Items": ["Law rune", "Cosmic rune", "Astral rune", "RunePouch+"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|opal aurora|~": {
+				"Items": ["Soul rune", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 5
+			},
+			"Wield a ~|staff of light|~": {
+				"Items": ["Staff of light"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|polypore staff|~": {
+				"Items": ["Polypore staff"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield an ~|abyssal wand|~": {
+				"Items": ["Abyssal wand"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield an ~|abyssal orb|~": {
+				"Items": ["Abyssal orb"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield ~|vanquish (magic)|~": {
+				"Items": ["Vanquish"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield an ~|enhanced ancient staff|~": {
+				"Items": ["Enhanced ancient staff"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear ~|TokHaar-Kal-Mej|~": {
+				"Items": ["TokHaar-Kal-Mej"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Cast ~|shadow blitz|~": {
+				"Items": ["Blood rune", "Earth rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 76,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|tele-group barbarian|~": {
+				"Items": ["Law rune", "Astral rune", "Fire rune+"],
+				"Chunks": ["8508"],
+				"Level": 76,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|prism of restoration|~": {
+				"Items": ["Soul rune", "Blood rune", "Astral rune"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 76,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|superglass make|~": {
+				"Items": ["Astral rune", "Fire rune+", "Air rune+", "GlassSecondary+"],
+				"Chunks": ["8508"],
+				"Level": 77,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|storm of Armadyl|~": {
+				"Items": ["Armadyl rune"],
+				"Level": 77,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|sapphire aurora|~": {
+				"Items": ["Soul rune", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 77,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|intercept|~": {
+				"Items": ["Soul rune", "Earth rune+", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 77,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Wield an ~|Armadyl battlestaff|~": {
+				"Items": ["Armadyl battlestaff"],
+				"Level": 77,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Cast ~|Dareeyak teleport|~": {
+				"Items": ["Law rune", "Fire rune+", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 78,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Khazard teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 78,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|remote farm|~": {
+				"Items": ["Nature rune", "Astral rune", "Earth rune+"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 78,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Wield ~|Zuriel's staff|~": {
+				"Items": ["Zuriel's staff"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield ~|Sunspear (magic)|~": {
+				"Items": ["Sunspear"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Cast ~|entangle|~": {
+				"Items": ["Nature rune"],
+				"Level": 79,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|tele-group Khazard|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 79,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|dream|~": {
+				"Items": ["Cosmic rune", "Astral rune", "Body rune"],
+				"Chunks": ["8508"],
+				"Level": 79,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|emerald aurora|~": {
+				"Items": ["Soul rune", "Earth rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 79,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|blood blitz|~": {
+				"Items": ["Blood rune", "Fire rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|string jewelry|~ on an unstrung symbol": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung symbol"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Unblessed symbol",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|string jewelry|~ on an unstrung opal amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung opal amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Opal amulet",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|string jewelry|~ on an unstrung jade amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung jade amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Jade amulet",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|string jewelry|~ on an unstrung topaz amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung topaz amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Topaz amulet",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|string jewelry|~ on an unstrung gold amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung gold amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Gold amulet",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|string jewelry|~ on an unstrung sapphire amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung sapphire amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Sapphire amulet",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|string jewelry|~ on an unstrung emerald amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung emerald amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Emerald amulet",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cast ~|string jewelry|~ on an unstrung ruby amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung ruby amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Ruby amulet",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cast ~|string jewelry|~ on an unstrung diamond amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung diamond amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Diamond amulet",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Cast ~|string jewelry|~ on an unstrung dragonstone amulet": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+", "Unstrung dragonstone amulet"],
+				"Chunks": ["8508"],
+				"Level": 80,
+				"Output": "Dragonstone amulet",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Cast ~|spiritual healing|~": {
+				"Items": ["Cosmic rune", "Astral rune", "Body rune"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 12
+			},
+			"Cast ~|stagger|~": {
+				"Items": ["Soul rune", "Mind rune"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 13
+			},
+			"Cast ~|polypore strike|~": {
+				"Items": ["Fire rune+", "Polypore spore", "Polypore staff"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 14
+			},
+			"Cast ~|prism of salvation|~": {
+				"Items": ["Soul rune", "Blood rune", "Astral rune"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 15
+			},
+			"Wield a ~|virtus wand|~": {
+				"Items": ["Virtus wand"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wield a ~|Virtus book|~": {
+				"Items": ["Virtus book"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wield a ~|chaotic staff|~": {
+				"Items": ["Chaotic staff"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 80
+				},
+				"Priority": 18
+			},
+			"Wield a ~|second-age staff|~": {
+				"Items": ["Second-age staff"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Wield an ~|attuned crystal staff|~": {
+				"Items": ["Attuned crystal staff"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 20
+			},
+			"Wield an ~|attuned crystal wand|~": {
+				"Items": ["Attuned crystal wand"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 21
+			},
+			"Wield an ~|attuned crystal orb|~": {
+				"Items": ["Attuned crystal orb"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Agility": 50
+				},
+				"Priority": 22
+			},
+			"Wield an ~|inquisitor staff|~": {
+				"Items": ["Inquisitor staff"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 23
+			},
+			"Wield an ~|ancient lantern|~": {
+				"Items": ["Ancient lantern"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Defence": 80
+				},
+				"Priority": 24
+			},
+			"Wear ~|spellcaster gloves|~": {
+				"Items": ["Spellcaster gloves"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Defence": 80
+				},
+				"Priority": 25
+			},
+			"Wear an ~|arcane stream necklace|~": {
+				"Items": ["Arcane stream necklace"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 70
+				},
+				"Priority": 26
+			},
+			"Wear an ~|arcane blood necklace|~": {
+				"Items": ["Arcane blood necklace"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 70
+				},
+				"Priority": 27
+			},
+			"Cast ~|air surge|~": {
+				"Items": ["Air rune+"],
+				"Level": 81,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|ruby aurora|~": {
+				"Items": ["Soul rune", "Fire rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 81,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|spin flax|~": {
+				"Items": ["Nature rune", "Astral rune", "Air rune+", "Flax"],
+				"Chunks": ["8508"],
+				"Level": 81,
+				"Output": "Bowstring",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|potion share|~": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 81,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Wear a ~|dragon rider amulet|~": {
+				"Items": ["Dragon rider amulet"],
+				"Level": 81,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Cast ~|ice blitz|~": {
+				"Items": ["Blood rune", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 82,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|tele-other Falador|~": {
+				"Items": ["Soul rune", "Law rune", "Water rune+"],
+				"Level": 82,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|magic imbue|~": {
+				"Items": ["Astral rune", "Fire rune+", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 82,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|prism of loyalty|~": {
+				"Items": ["Soul rune", "Blood rune", "Astral rune"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 82,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|fire urn|~": {
+				"Items": ["Astral rune", "Fire rune+", "Earth rune+", "Water rune+", "UnfiredUrn+"],
+				"Chunks": ["8508"],
+				"Level": 82,
+				"Primary": true,
+				"Priority": 5
+			},
+			"Wield a ~|limitless staff|~": {
+				"Items": ["LimitlessStaff+"],
+				"Level": 82,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Cast ~|fertile soil|~": {
+				"Items": ["Nature rune", "Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Level": 83,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|make leather|~ on cowhide": {
+				"Items": ["Astral rune", "Body rune", "Fire rune+", "Cowhide"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 83,
+				"Output": "Leather+",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|make leather|~ on snake hide": {
+				"Items": ["Astral rune", "Body rune", "Fire rune+", "SnikeHide+"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 83,
+				"Output": "Snakeskin",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|make leather|~ on green dragonhide": {
+				"Items": ["Astral rune", "Body rune", "Fire rune+", "Green dragonhide"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 83,
+				"Output": "Green dragon leather",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|make leather|~ on blue dragonhide": {
+				"Items": ["Astral rune", "Body rune", "Fire rune+", "Blue dragonhide"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 83,
+				"Output": "Blue dragon leather",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|make leather|~ on red dragonhide": {
+				"Items": ["Astral rune", "Body rune", "Fire rune+", "Red dragonhide"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 83,
+				"Output": "Red dragonleather",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|make leather|~ on black dragonhide": {
+				"Items": ["Astral rune", "Body rune", "Fire rune+", "Black dragonhide"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 83,
+				"Output": "Black dragon leather",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|make leather|~ on royal dragonhide": {
+				"Items": ["Astral rune", "Body rune", "Fire rune+", "Royal dragonhide"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 83,
+				"Output": "Royal dragon leather",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cast ~|make leather|~ on dinosaur hide": {
+				"Items": ["Astral rune", "Body rune", "Fire rune+", "Dinosaur hide"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 83,
+				"Output": "Dinosaur leather",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cast ~|Carrallanger teleport|~": {
+				"Items": ["Soul rune", "Law rune"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 84,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|shield dome|~": {
+				"Items": ["Soul rune", "Earth rune+", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 84,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|animate dead|~": {
+				"Items": ["Soul rune", "Blood rune", "Death rune", "Earth rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
+				"Level": 84,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|teleport block|~": {
+				"Items": ["Law rune", "Death rune", "Chaos rune"],
+				"Chunks": ["PVP+"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|fishing guild teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|water surge|~": {
+				"Items": ["Water rune+", "Air rune+"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|telekinetic grind|~": {
+				"Items": ["Law rune", "Astral rune"],
+				"Chunks": ["8508"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Wield a ~|seasinger kiba|~": {
+				"Items": ["Seasinger kiba"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|seasinger makigai|~": {
+				"Items": ["Seasinger makigai"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|staff of darkness|~": {
+				"Items": ["Staff of darkness"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|camel staff|~": {
+				"Items": ["Camel staff"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|wand of the Cywir elders|~": {
+				"Items": ["Wand of the Cywir elders"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield an ~|orb of the Cywir elders|~": {
+				"Items": ["Orb of the Cywir elders"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Cast ~|smoke barrage|~": {
+				"Items": ["Blood rune", "Air rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 86,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|tele-group fishing guild|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 86,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|plank make|~ on logs": {
+				"Items": ["Nature rune", "Astral rune", "Earth rune+", "Logs"],
+				"Chunks": ["8508"],
+				"Level": 86,
+				"Output": "Plank",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|plank make|~ on oak logs": {
+				"Items": ["Nature rune", "Astral rune", "Earth rune+", "Oak logs"],
+				"Chunks": ["8508"],
+				"Level": 86,
+				"Output": "Oak plank",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|plank make|~ on teak logs": {
+				"Items": ["Nature rune", "Astral rune", "Earth rune+", "Teak logs"],
+				"Chunks": ["8508"],
+				"Level": 86,
+				"Output": "Teak plank",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|plank make|~ on mahogany logs": {
+				"Items": ["Nature rune", "Astral rune", "Earth rune+", "Mahogany logs"],
+				"Chunks": ["8508"],
+				"Level": 86,
+				"Output": "Mahogany plank",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|prism of dowsing|~": {
+				"Items": ["Soul rune", "Nature rune", "Fire rune+", "Earth rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 86,
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|lvl-6 enchant|~ on an onyx ring": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Onyx ring"],
+				"Level": 87,
+				"Output": "Ring of fortune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|lvl-6 enchant|~ on an onyx necklace": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Onyx necklace"],
+				"Level": 87,
+				"Output": "Berserker necklace",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|lvl-6 enchant|~ on an onyx bracelet": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Onyx bracelet"],
+				"Level": 87,
+				"Output": "Regen bracelet",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|lvl-6 enchant|~ on an onyx amulet": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Onyx amulet"],
+				"Level": 87,
+				"Output": "Amulet of fury",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|lvl-6 enchant|~ on an alchemical onyx ring": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Alchemical onyx ring"],
+				"Level": 87,
+				"Output": "Luck of the dwarves",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|lvl-6 enchant|~ on an alchemical onyx necklace": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Alchemical onyx necklace"],
+				"Level": 87,
+				"Output": "Grace of the elves",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|lvl-6 enchant|~ on a hydrix ring": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Hydrix ring"],
+				"Level": 87,
+				"Output": "Ring of death",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|lvl-6 enchant|~ on a hydrix necklace": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Hydrix necklace"],
+				"Level": 87,
+				"Output": "Reaper necklace",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cast ~|lvl-6 enchant|~ on a hydrix bracelet": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Hydrix bracelet"],
+				"Level": 87,
+				"Output": "Deathtouch bracelet",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cast ~|lvl-6 enchant|~ on a hydrix amulet": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Hydrix amulet"],
+				"Level": 87,
+				"Output": "Amulet of souls",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Cast ~|lvl-6 enchant|~ on an alchemical hydrix brooch": {
+				"Items": ["Cosmic rune", "Fire rune+", "Earth rune+", "Alchemical hydrix brooch"],
+				"Level": 87,
+				"Output": "Brooch of the gods",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Cast ~|Catherby teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 87,
+				"Primary": true,
+				"Priority": 12
+			},
+			"Cast ~|enchant crossbow bolt (onyx)|~": {
+				"Items": ["Death rune", "Cosmic rune", "Fire rune+", "Onyx bolts"],
+				"Level": 87,
+				"Output": "Onyx bolts (e)",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Cast ~|tune banite ore|~ to make abyssalbanite ore": {
+				"Items": ["Astral rune", "Earth rune+", "Banite ore", "Tune banite ore scroll", "Abyssal head"],
+				"Level": 87,
+				"Output": "Abyssalbanite ore",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Cast ~|tune banite ore|~ to make basiliskbanite ore": {
+				"Items": ["Astral rune", "Earth rune+", "Banite ore", "Tune banite ore scroll", "Basilisk head"],
+				"Level": 87,
+				"Output": "Basiliskbanite ore",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Cast ~|tune banite ore|~ to make dragonbanite ore": {
+				"Items": ["Astral rune", "Earth rune+", "Banite ore", "Tune banite ore scroll", "DragonFocus+"],
+				"Level": 87,
+				"Output": "Dragonbanite ore",
+				"Primary": true,
+				"Priority": 16
+			},
+			"Cast ~|tune banite ore|~ to make wallasalkibanite ore": {
+				"Items": ["Astral rune", "Earth rune+", "Banite ore", "Tune banite ore scroll", "WallasalkiFocus+"],
+				"Level": 87,
+				"Output": "Wallasalkibanite ore",
+				"Primary": true,
+				"Priority": 17
+			},
+			"Wield ~|obliteration|~": {
+				"Items": ["Obliteration"],
+				"Level": 87,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Cast ~|shadow barrage|~": {
+				"Items": ["Blood rune", "Earth rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 88,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|tele-group Catherby|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 88,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|rapid growth|~": {
+				"Items": ["Soul rune", "Nature rune", "Earth rune+", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 88,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|crystallise|~": {
+				"Items": ["Soul rune", "Chaos rune", "Fire rune+", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 88,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Wield a ~|superior Zuriel's staff|~": {
+				"Items": ["Superior Zuriel's staff"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield an ~|elite seasinger kiba|~": {
+				"Items": ["Elite seasinger kiba"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|elite seasinger makigai|~": {
+				"Items": ["Elite seasinger makigai"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Cast ~|ice plateau teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 89,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|enchant bakriminel bolt (opal)|~": {
+				"Items": ["Air rune+", "Cosmic rune", "Blood rune", "Opal bakriminel bolts"],
+				"Level": 89,
+				"Output": "Opal bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|tele-other Camelot|~": {
+				"Items": ["Soul rune", "Law rune"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|Annakarl teleport|~": {
+				"Items": ["Blood rune", "Law rune"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|enchant crossbow bolt (onyx)|~ on an ascendri bolt": {
+				"Items": ["Fire rune+", "Death rune", "Cosmic rune", "Ascendri bolts"],
+				"Level": 90,
+				"Output": "Ascendri bolts (e)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|tele-group ice plateau|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|earth surge|~": {
+				"Items": ["Air rune+", "Earth rune+"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cast ~|disruption shield|~": {
+				"Items": ["Blood rune", "Astral rune", "Body rune"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|crystal mask|~": {
+				"Items": ["Soul rune", "Body rune", "Fire rune+", "Earth rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "9268"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cast ~|enchant bakriminel bolt (sapphire)|~": {
+				"Items": ["Blood rune", "Cosmic rune", "Mind rune", "Water rune+", "Sapphire bakriminel bolts"],
+				"Level": 90,
+				"Output": "Sapphire bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Wield a ~|seismic wand|~": {
+				"Items": ["Seismic wand"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|seismic singularity|~": {
+				"Items": ["Seismic singularity"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield a ~|noxious staff|~": {
+				"Items": ["Noxious staff"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|kalphite rebounder|~": {
+				"Items": ["Kalphite rebounder"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Defence": 90
+				},
+				"Priority": 12
+			},
+			"Cast ~|enchant bakriminel bolt (jade)|~": {
+				"Items": ["Blood rune", "Cosmic rune", "Earth rune+", "Jade bakriminel bolts"],
+				"Level": 91,
+				"Output": "Jade bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|sift soil|~": {
+				"Items": ["Astral rune", "Earth rune+", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 91,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|blood barrage|~": {
+				"Items": ["Blood rune", "Fire rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 92,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|heal other|~": {
+				"Items": ["Blood rune", "Law rune", "Astral rune"],
+				"Chunks": ["8508"],
+				"Level": 92,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|Trollheim farm teleport|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 92,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|tele-group Trollheim farm|~": {
+				"Items": ["Law rune", "Astral rune", "Water rune+"],
+				"Chunks": ["8508"],
+				"Level": 92,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|enchant bakriminel bolt (pearl)|~": {
+				"Items": ["Blood rune", "Cosmic rune", "Water rune+", "Pearl bakriminel bolts"],
+				"Level": 92,
+				"Output": "Pearl bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Wield a ~|wand of the praesul|~": {
+				"Items": ["Wand of the praesul"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|imperium core|~": {
+				"Items": ["Imperium core"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|staff of Sliske|~": {
+				"Items": ["Staff of Sliske"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Cast ~|vengeance other|~": {
+				"Items": ["Death rune", "Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Level": 93,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|enchant bakriminel bolt (emerald)|~": {
+				"Items": ["Blood rune", "Nature rune", "Cosmic rune", "Air rune+", "Emerald bakriminel bolt"],
+				"Level": 93,
+				"Output": "Emerald bakriminel bolt (e)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|ice barrage|~": {
+				"Items": ["Blood rune", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 94,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|vengeance|~": {
+				"Items": ["Death rune", "Astral rune", "Earth rune+"],
+				"Chunks": ["8508"],
+				"Level": 94,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|enchant bakriminel bolt (red topaz)|~": {
+				"Items": ["Fire rune+", "Cosmic rune", "Blood rune", "Red topaz bakriminel bolts"],
+				"Level": 94,
+				"Output": "Red topaz bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|heal group|~": {
+				"Items": ["Blood rune", "Law rune", "Astral rune"],
+				"Chunks": ["8508"],
+				"Level": 95,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|fire surge|~": {
+				"Items": ["Fire rune+", "Air rune+"],
+				"Level": 95,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|vengeance group|~": {
+				"Items": ["Death rune", "Astral rune", "Earth rune+"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 95,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|enchant bakriminel bolt (ruby)|~": {
+				"Items": ["Blood rune", "Cosmic rune", "Fire rune+", "Ruby bakriminel bolts"],
+				"Level": 95,
+				"Output": "Rube bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Wield a ~|fractured staff of Armadyl|~": {
+				"Items": ["Fractured staff of Armadyl"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Cast ~|Ghorrock teleport|~": {
+				"Items": ["Law rune", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid"],
+				"Level": 96,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|spellbook swap|~": {
+				"Items": ["Law rune", "Cosmic rune", "Astral rune"],
+				"Chunks": ["Lunar/Ancients+"],
+				"Level": 96,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|enchant bakriminel bolt (diamond)|~": {
+				"Items": ["Blood rune", "Law rune", "Cosmic rune", "Earth rune+", "Diamond bakriminel bolts"],
+				"Level": 96,
+				"Output": "Diamond bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cast ~|exsanguinate|~": {
+				"Items": ["Blood rune", "Fire rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
+				"Level": 96,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cast ~|enchant bakriminel bolt (dragonstone)|~": {
+				"Items": ["Soul rune", "Blood rune", "Cosmic rune", "Earth rune+", "Dragonstone bakriminel bolts"],
+				"Level": 97,
+				"Output": "Dragonstone bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|trap telekinesis|~": {
+				"Items": ["Law rune", "Astral rune", "Air rune+", "LunarTraps+"],
+				"Chunks": ["8508"],
+				"Level": 97,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|enchant bakriminel bolt (onyx)|~": {
+				"Items": ["Blood rune", "Death rune", "Cosmic rune", "Fire rune+", "Onyx bakriminel bolts"],
+				"Level": 98,
+				"Output": "Onyx bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|incite fear|~": {
+				"Items": ["Soul rune", "Blood rune", "Water rune+"],
+				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
+				"Level": 98,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cast ~|borrowed power|~": {
+				"Items": ["Astral rune"],
+				"Chunks": ["8253", "8508", "8509"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cast ~|enchant bakriminel bolt (hydrix)|~": {
+				"Items": ["Blood rune", "Death rune", "Cosmic rune", "Fire rune+", "Hydrix bakriminel bolts"],
+				"Level": 99,
+				"Output": "Hydrix bakriminel bolts (e)",
+				"Primary": true,
+				"Priority": 2
 			}
 		},
 		"Mining": {
@@ -6646,7 +9503,7 @@
 				"Primary": false,
 				"Priority": 7
 			},
-			"Wield an ~|bronze javelin|~": {
+			"Wield an ~|iron javelin|~": {
 				"Items": ["Bronze javelin"],
 				"Level": 10,
 				"Primary": false,
@@ -8807,14 +11664,14 @@
 					"Magic": 50
 				}
 			},
-			"Cast a ~|slayer dart|~": {
-				"Items": ["SlayerStaff+", "Air rune+", "Death rune"],
+			"Cast ~|slayer dart|~ with a slayer's staff": {
+				"Items": ["Slayer's Staff", "Air rune+", "Death rune"],
 				"Level": 55,
 				"Primary": true,
-				"Priority": 7,
 				"Skills": {
 					"Magic": 50
-				}
+				},
+				"Priority": 7
 			},
 			"Add an ~|explosive shaker|~ to your toolbelt": {
 				"Items": ["Explosive shaker"],
@@ -13573,7 +16430,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Steal from a ~|paladin chest|~": {
+			"Steal from a paladin chest in ~|Ardougne castle|~": {
 				"Level": 72,
 				"Chunks": ["10291", "10803"],
 				"Output": "Paladin chest",
@@ -13669,7 +16526,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Lockpick the door to the ~|paladin chest|~": {
+			"Lockpick the door to the paladin chest in ~|Ardougne castle|~": {
 				"Level": 61,
 				"Chunks": ["10291"],
 				"Primary": true,
@@ -17736,10 +20593,19 @@
 			"Connect": {
 				"8809": true,
 				"12846": true,
-				"13362": true,
 				"14227": true
 			},
-			"Name": "Treasure chamber"
+			"Name": "Scabaras Tomb"
+		},
+		"4957": {
+			"Object": {
+				"Opening": 3,
+				"Exit": 1
+			},
+			"Connect": {
+				"13362": true
+			},
+			"Name": "Het Tomb"
 		},
 		"4967": {
 			"Object": {
@@ -27283,7 +30149,7 @@
 				"Philipe's painting set": 1,
 				"Inventor's workbench": 2,
 				"Furnace": 1,
-				"ivy": 5
+				"Ivy": 5
 			},
 			"Monster": {
 				"Warrior woman": 3,
@@ -31350,13 +34216,11 @@
 				"Bank deposit box": 1,
 				"Barrel": 2,
 				"Well": 1,
-				"Taverley (over White Wolf Mountain)": 1,
-				"Catherby": 1,
 				"Crate": 1,
-				"Boat to Lumbridge": 1,
 				"Fishing spot (net(big)/harpoon)": 3,
 				"Fishing spot (cage/harpoon)": 2,
-				"Fishing spot (net(small)/bait)": 2
+				"Fishing spot (net(small)/bait)": 2,
+				"Water obelisk": 1
 			},
 			"Monster": {
 				"Adolescent White wolf": 3
@@ -35698,7 +38562,8 @@
 				"Tree": 13,
 				"Rift": 1,
 				"PvP hatch": 1,
-				"Runite rock": 4
+				"Runite rock": 4,
+				"Air obelisk": 1
 			},
 			"Monster": {
 				"Skeleton": 14
@@ -39386,7 +42251,7 @@
 				"Man": 1
 			},
 			"Connect": {
-				"4956": true
+				"4957": true
 			},
 			"Nickname": "Duel Arena"
 		},
@@ -50796,7 +53661,7 @@
             }
 		},
 		"Taverley Dungeon": {
-			 "Object": {
+			"Object": {
                 "Strange floor": 1,
                 "Coffin": 2,
                 "Rack": 1,
@@ -50806,7 +53671,8 @@
 				"Small obelisk": 1,
                 "Fishing spot (lava)": 3,
 				"Obstacle pipe": 2,
-                "Dead tree": 4
+                "Dead tree": 4,
+				"Fire obelisk": 1
             },
             "Monster": {
                 "Hellhound": 13,
@@ -51093,6 +53959,7 @@
 				"Dung kalphite": 30
 			},
 			"Connect": {
+				"4956": true,
 				"12848": true
 			}
 		},
@@ -51794,16 +54661,33 @@
 				"Exit": 1
 			}
 		},
-		"Treasure chamber": {
+		"Scabaras Tomb": {
 			"Object": {
 				"Opening": 3,
 				"Exit": 1
 			},
+			"Spawn": {
+				"Scabaras mask": 1,
+				"Was": 1
+			},
 			"Connect": {
 				"8809": true,
 				"12846": true,
-				"13362": true,
 				"14227": true
+			}
+		},
+		"Het Tomb": {
+			"Object": {
+				"Opening": 3,
+				"Exit": 1
+			},
+			"Spawn": {
+				"Het mask": 1,
+				"Heka": 1,
+				"Eye of Het": 1
+			},
+			"Connect": {
+				"13362": true
 			}
 		},
 		"Big Chinchompa nest": {
@@ -55049,7 +57933,8 @@
 				"Pipe": 4,
 				"Barrel": 1,
 				"Spiderweb": 1,
-				"Rope": 1
+				"Rope": 1,
+				"Earth obelisk": 1
 			},
 			"NPC": {
 				"Evil Dave": 1,
@@ -58728,7 +61613,7 @@
                 "Adventurer": 1,
                 "Gregg 'Groggy' Herring": 1,
                 "Sailor": 2,
-                "Trader": 5,
+                "Trader (Deep Sea Fishing)": 5,
                 "Hermit crab": 1
             },
 			"Connect": {
@@ -59324,7 +62209,28 @@
 			"AnimalStaff+": ["Bat staff", "Penguin staff", "Wolf staff", "Dragon staff", "Cat staff"],
 			"GodBooks+": ["Armadyl's Book of Law", "Bandos's Book of War", "Guthix's Book of Balance", "Saradomin's Book of Wisdom", "Zamorak's Book of Chaos", "Ancient book"],
 			"ThirdAgeDruidic+": ["Third age druidic wreath", "Third age druidic robe top", "Third age druidic robe bottom", "Third age druidic cloak", "Third age druidic staff"],
-			"AkrisaeGear+": ["Akrisae's hood", "Akrisae's robe top", "Akrisae's robe skirt"]
+			"AkrisaeGear+": ["Akrisae's hood", "Akrisae's robe top", "Akrisae's robe skirt"],
+			"Elemental Staff+": ["Staff of air", "Staff of water", "Staff of earth", "Staff of fire"],
+			"Talisman Staff+": ["Air talisman staff", "Blood talisman staff", "Body talisman staff", "Chaos talisman staff", "Cosmic talisman staff", "Death talisman staff", "Earth talisman staff", "Fire talisman staff", "Law talisman staff", "Mind talisman staff", "Nature talisman staff", "Omni-talisman staff", "Water talisman staff", "Soul talisman staff"],
+			"BananaBones+": ["Bones", "Big bones", "Monkey bones"],
+			"Combat Robes+": ["Combat hood", "Combat robe top", "Combat robe bottom"],
+			"ElementalBattlestaff+": ["Air battlestaff", "Earth battlestaff", "Fire battlestaff", "Water battlestaff", "Lava battlestaff", "Mud battlestaff", "Steam battlestaff", "elemental battlestaff"],
+			"Mystic Staff+": ["Mystic air staff", "Mystic water staff", "Mystic earth staff", "Mystic fire staff", "Mystic lava staff", "Mystic mud staff", "Mystic steam staff"],
+			"Necromancer Robes+": ["Necromancer hood", "Necromancer robe top", "Necromancer robe bottom"],
+			"Dagon'hai Robes+": ["Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom"],
+			"AltSlayStaff+": ["Staff of light", "Staff of darkness", "Abyssal wand", "Abyssal orb"],
+			"SacredClayRobe+": ["Sacred clay hat", "Sacred clay robe top", "Sacred clay robe bottom"],
+			"LunarEquipment+": ["Lunar helm", "Lunar torso", "Lunar legs", "Lunar gloves", "Lunar boots", "Lunar cape", "Lunar ring", "Lunar ring (i)"],
+			"ThirdAgeRobes+": ["THird age mage hat", "Third age robe top", "Third age robe", "Third age amulet"],
+			"AhrimRobes+": ["Ahrim's hood", "Ahrim's robe top", "Ahrim's robe skirt"],
+			"RunePouch+": ["Giant pouch", "Large pouch", "Medium pouch"],
+			"GlassSecondary+": ["Seaweed", "Soda ash", "Swamp weed"],
+			"UnfiredUrn+": ["Decorated cooking urn (unf)", "Decorated divination urn (unf)", "Decorated farming urn (unf)", "Decorated fishing urn (unf)", "Decorated hunter urn (unf)", "Decorated mining urn (unf)", "Decorated runecrafting urn (unf)", "Decorated smelting urn (unf)", "Decorated woodcutting urn (unf)", "Infernal urn (unf)"],
+			"LimitlessStaff": ["Staff of limitless air", "Staff of limitless water", "Staff of limitless earth", "Staff of limitless fire", "Staff of limitless lava", "Staff of limitless mud", "Staff of limitless steam"],
+			"SnakeHide+": ["Snake hide", "Snake hide (swamp)"],
+			"DragonFocus+": ["Dragon bones", "Baby dragon bones", "Dragonkin bones", "Blue dragon scale", "Blue dragonhide", "Green dragonhide", "Red dragonhide", "Black dragonhide", "Royal dragonhide", "King black dragon head"],
+			"WallasalkiFocus+": ["Skull piece", "Fibula piece", "Ribcage piece"],
+			"LunarTraps+": ["Box trap", "Tortle trap", "Marasamaw plant", "Electrified traps"]
 	},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -59336,13 +62242,16 @@
 			"Kharidian safes+": ["12329", "12330", "12585", "12843", "13105", "13358", "13613"],
 			"Asgarnian safes+": ["11575", "11828", "12082", "12084", "12087"],
 			"Kandarin safes+": ["10032", "10291", "10547", "10806"],
-			"Pet shop+": ["10288", "11573"]
-		},
+			"Pet shop+": ["10288", "11573"],
+			"PVP+": ["8493", "9005", "9520", "11831", "11832", "11833", "11834", "11837", "12087", "12088", "12089", "12090", "12091", "12092", "12343", "12344", "12347", "12348", "12599", "12600", "12603", "12604", "12605", "12855", "12856", "12859", "13111", "13114", "13367", "13368", "13372", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
+			"Lunar/Ancients+": ["8508", "Jaldraocht Pyramid"]
+	},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"],
-			"WaterObject+": ["Sink", "Fountain", "Well", "Water barrel", "Water trough"]
+			"WaterObject+": ["Sink", "Fountain", "Well", "Water barrel", "Water trough"],
+			"CurePatch+": ["Allotment patch", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"]
 		},
 		"monstersPlus": {
 			"Guard+": ["Guard", "Guard (Varrock)"],
@@ -84402,6 +87311,12 @@
 			"Crimson Swift": {
 				"Red feather": "Always",
 				"Raw bird meat": "Always"
+			}
+		},
+		"Magic": {
+			"Leather+": {
+				"Leather": "Always",
+				"Hard leather": "Always"
 			}
 		},
 		"Mining": {
