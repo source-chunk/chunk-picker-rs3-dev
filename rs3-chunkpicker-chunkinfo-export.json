@@ -971,6 +971,16 @@
 				},
 				"Primary": false,
 				"Priority": 1
+			},
+			"Craft an ~|artificer's measure|~": {
+				"Items": ["Pasaha", "Dragon scalpel", "Orthenglass flask", "Protective goggles", "Magiic stone", "Gem bag (upgraded)", "Mystic cloth", "Blessed molten glass", "Glorious silvthril chain", "Onyx"],
+				"Level": 102,
+				"Outputs": "Artificer's measure",
+				"Primary": true,
+				"Skills": {
+					"Crafting": 99
+				},
+				"Priority": 2
 			}
 		},
 		"Attack": {
@@ -1829,13 +1839,6 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Craft an ~|Armadyl battlestaff|~": {
-				"Items": ["Battlestaff", "Orb of Armadyl"],
-				"Level": 77,
-				"Output": "Armadyl battlestaff",
-				"Primary": true,
-				"Priority": 1
-			},
 			"Assemble a ~|Inquisitor staff|~": {
 				"Items": ["Praetorian staff", "Inquisitor's staff ornament", "Inquisitor's staff rod", "Inquisitor's staff censer"],
 				"Level": 1,
@@ -1844,7 +1847,7 @@
 				"Skills": {
 					"Runecrafting": 93
 				},
-				"Priority": 1
+				"Priority": 33
 			},
 			"Produce an ~|illuminated book of law|~": {
 				"Items": ["Armadyl's Book of Law"],
@@ -1911,6 +1914,3038 @@
 					"Prayer": 60
 				},
 				"Priority": 7
+			},
+			"Craft ~|leather gloves|~": {
+				"Items": ["Leather"],
+				"Level": 1,
+				"Outputs": "Leather gloves",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|leather boots|~": {
+				"Items": ["Leather"],
+				"Level": 1,
+				"Outputs": "Leather boots",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|leather cowl|~": {
+				"Items": ["Leather"],
+				"Level": 1,
+				"Outputs": "Leather cowl",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|leather body|~": {
+				"Items": ["Leather"],
+				"Level": 1,
+				"Outputs": "Leather body",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft ~|leather chaps|~": {
+				"Items": ["Leather"],
+				"Level": 1,
+				"Outputs": "Leather chaps",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft ~|leather vambraces|~": {
+				"Items": ["Leather"],
+				"Level": 11,
+				"Outputs": "Leather vambraces",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|leather shield|~": {
+				"Items": ["Leather"],
+				"Level": 19,
+				"Outputs": "Leather shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|hard leather cowl|~": {
+				"Items": ["Hard leather", "Thread"],
+				"Level": 25,
+				"Outputs": "Hard leath cowl",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|hard leather gloves|~": {
+				"Items": ["Hard leather", "Thread"],
+				"Level": 25,
+				"Outputs": "Hard leather gloves",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|hard leather boots|~": {
+				"Items": ["Hard leather", "Thread"],
+				"Level": 27,
+				"Outputs": "Hard leather boots",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|hard leather body|~": {
+				"Items": ["Hard leather", "Thread"],
+				"Level": 28,
+				"Outputs": "Hard leather body",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|hard leather chaps|~": {
+				"Items": ["Hard leather", "Thread"],
+				"Level": 28,
+				"Outputs": "Hard leather chaps",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|hard leather shield|~": {
+				"Items": ["Hard leather", "Thread"],
+				"Level": 29,
+				"Outputs": "Hard leather shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|studded leather coif|~": {
+				"Items": ["Leather cowl", "Steel studs"],
+				"Level": 38,
+				"Outputs": "Studded leather coif",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|studded leather body|~": {
+				"Items": ["Leather body", "Steel studs"],
+				"Level": 41,
+				"Outputs": "Studded leather body",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|studded leather gloves|~": {
+				"Items": ["Leather gloves", "Steel studs"],
+				"Level": 42,
+				"Outputs": "Studded leather gloves",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|studded leather boots|~": {
+				"Items": ["Leather boots", "Steel studs"],
+				"Level": 43,
+				"Outputs": "Studded leather boots",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|studded leather chaps|~": {
+				"Items": ["Leather chaps", "Steel studs"],
+				"Level": 44,
+				"Outputs": "Studded leather chaps",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|studded leather shield|~": {
+				"Items": ["Leather shield", "Steel studs"],
+				"Level": 45,
+				"Outputs": "Studded leather shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|carapace gloves|~": {
+				"Items": ["Carapace", "Thread"],
+				"Level": 30,
+				"Outputs": "Carapace gloves",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|carapace boots|~": {
+				"Items": ["Carapace", "Thread"],
+				"Level": 31,
+				"Outputs": "Carapace boots",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|carapace helm|~": {
+				"Items": ["Carapace", "Thread"],
+				"Level": 33,
+				"Outputs": "Carapace helm",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|carapace legs|~": {
+				"Items": ["Carapace", "Thread"],
+				"Level": 34,
+				"Outputs": "Carapace legs",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|carapace torso|~": {
+				"Items": ["Carapace", "Thread"],
+				"Level": 35,
+				"Outputs": "Carapace torso",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|carapace shield|~": {
+				"Items": ["Carapace", "Thread"],
+				"Level": 36,
+				"Outputs": "Carapace shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|snakeskin boots|~": {
+				"Items": ["Snakeskin", "Thread"],
+				"Level": 45,
+				"Outputs": "Snakeskin boots",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|snakeskin vambraces|~": {
+				"Items": ["Snakeskin", "Thread"],
+				"Level": 47,
+				"Outputs": "Snakeskin vambraces",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|snakeskin bandana|~": {
+				"Items": ["Snakeskin", "Thread"],
+				"Level": 48,
+				"Outputs": "Snakeskin bandana",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|snakeskin chaps|~": {
+				"Items": ["Snakeskin", "Thread"],
+				"Level": 51,
+				"Outputs": "Snakeskin chaps",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|snakeskin body|~": {
+				"Items": ["Snakeskin", "Thread"],
+				"Level": 53,
+				"Outputs": "Snakeskin body",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|green dragonhide vambraces|~": {
+				"Items": ["Green dragon leather", "Thread"],
+				"Level": 57,
+				"Outputs": "Green dragonhide vambraces",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|green dragonhide boots|~": {
+				"Items": ["Green dragon leather", "Thread"],
+				"Level": 57,
+				"Outputs": "Green dragonhide boots",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|green dragonhide chaps|~": {
+				"Items": ["Green dragon leather", "Thread"],
+				"Level": 60,
+				"Outputs": "Green dragonhide chaps",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft a ~|green dragonhide coif|~": {
+				"Items": ["Green dragon leather", "Thread"],
+				"Level": 61,
+				"Outputs": "Green dragonhide coif",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|green dragonhide body|~": {
+				"Items": ["Green dragon leather", "Thread"],
+				"Level": 63,
+				"Outputs": "Green dragonhide body",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|green dragonhide shield|~": {
+				"Items": ["Green dragon leather", "Thread"],
+				"Level": 64,
+				"Outputs": "Green dragonhide shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|blue dragonhide vambraces|~": {
+				"Items": ["Blue dragon leather", "Thread"],
+				"Level": 66,
+				"Outputs": "Blue dragonhide vambraces",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|blue dragonhide boots|~": {
+				"Items": ["Blue dragon leather", "Thread"],
+				"Level": 66,
+				"Outputs": "Blue dragonhide boots",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|blue dragonhide chaps|~": {
+				"Items": ["Blue dragon leather", "Thread"],
+				"Level": 68,
+				"Outputs": "Blue dragonhide chaps",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|blue dragonhide coif|~": {
+				"Items": ["Blue dragon leather", "Thread"],
+				"Level": 69,
+				"Outputs": "Blue dragonhide coif",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|blue dragonhide body|~": {
+				"Items": ["Blue dragonhide leather", "Thread"],
+				"Level": 71,
+				"Outputs": "Blue dragonhide body",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|blue dragonhide shield|~": {
+				"Items": ["Blue dragonhide leather", "Thread"],
+				"Level": 72,
+				"Outputs": "Blue dragonhide shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|red dragonhide vambraces|~": {
+				"Items": ["Red dragon leather", "Thread"],
+				"Level": 73,
+				"Outputs": "Red dragonhide vambraces",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|red dragonhide boots|~": {
+				"Items": ["Red dragon leather", "Thread"],
+				"Level": 73,
+				"Outputs": "Red dragonhide boots",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|red dragonhide chaps|~": {
+				"Items": ["Red dragon leather", "Thread"],
+				"Level": 75,
+				"Outputs": "Red dragonhide chaps",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|red dragonhide coif|~": {
+				"Items": ["Red dragon leather", "Thread"],
+				"Level": 76,
+				"Outputs": "Red dragonhide coif",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|red dragonhide body|~": {
+				"Items": ["Red dragonhide leather", "Thread"],
+				"Level": 77,
+				"Outputs": "Red dragonhide body",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|red dragonhide shield|~": {
+				"Items": ["Red dragonhide leather", "Thread"],
+				"Level": 78,
+				"Outputs": "Red dragonhide shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|black dragonhide vambraces|~": {
+				"Items": ["Black dragon leather", "Thread"],
+				"Level": 79,
+				"Outputs": "Black dragonhide vambraces",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft ~|black dragonhide boots|~": {
+				"Items": ["Black dragon leather", "Thread"],
+				"Level": 79,
+				"Outputs": "Black dragonhide boots",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft ~|black dragonhide chaps|~": {
+				"Items": ["Black dragon leather", "Thread"],
+				"Level": 82,
+				"Outputs": "Black dragonhide chaps",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|black dragonhide coif|~": {
+				"Items": ["Black dragon leather", "Thread"],
+				"Level": 83,
+				"Outputs": "Black dragonhide coif",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|black dragonhide body|~": {
+				"Items": ["Black dragonhide leather", "Thread"],
+				"Level": 84,
+				"Outputs": "Black dragonhide body",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|black dragonhide shield|~": {
+				"Items": ["Black dragonhide leather", "Thread"],
+				"Level": 85,
+				"Outputs": "Black dragonhide shield",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft ~|royal dragonhide vambraces|~": {
+				"Items": ["Royal dragon leather", "Thread"],
+				"Level": 87,
+				"Outputs": "Royal dragonhide vambraces",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|royal dragonhide boots|~": {
+				"Items": ["Royal dragon leather", "Thread"],
+				"Level": 87,
+				"Outputs": "Royal dragonhide boots",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|royal dragonhide chaps|~": {
+				"Items": ["Royal dragon leather", "Thread"],
+				"Level": 89,
+				"Outputs": "Royal dragonhide chaps",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|royal dragonhide coif|~": {
+				"Items": ["Royal dragon leather", "Thread"],
+				"Level": 91,
+				"Outputs": "Royal dragonhide coif",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|royal dragonhide body|~": {
+				"Items": ["Royal dragonhide leather", "Thread"],
+				"Level": 93,
+				"Outputs": "Royal dragonhide body",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|spiky vambraces|~": {
+				"Items": ["Leather vambraces", "Kebbit claws"],
+				"Level": 32,
+				"Outputs": "Spiky vambraces",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|green spiky vambraces|~": {
+				"Items": ["Green dragonhide vambraces", "Kebbit claws"],
+				"Level": 32,
+				"Outputs": "Green spiky vambraces",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|blue spiky vambraces|~": {
+				"Items": ["Blue dragonhide vambraces", "Kebbit claws"],
+				"Level": 32,
+				"Outputs": "Blue spiky vambraces",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft ~|red spiky vambraces|~": {
+				"Items": ["Red dragonhide vambraces", "Kebbit claws"],
+				"Level": 32,
+				"Outputs": "Red spiky vambraces",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft ~|black spiky vambraces|~": {
+				"Items": ["Black dragonhide vambraces", "Kebbit claws"],
+				"Level": 32,
+				"Outputs": "Black spiky vambraces",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft ~|Royal spiky vambraces|~": {
+				"Items": ["Royal dragonhide vambraces", "Kebbit claws"],
+				"Level": 32,
+				"Outputs": "Royal spiky vambraces",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|sirenic mask|~": {
+				"Items": ["Sirenic scale", "Algarum Thread"],
+				"Level": 91,
+				"Outputs": "Sirenic mask",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|sirenic chaps|~": {
+				"Items": ["Sirenic scale", "Algarum Thread"],
+				"Level": 92,
+				"Outputs": "Sirenic chaps",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|sirenic hauberk|~": {
+				"Items": ["Sirenic scale", "Algarum Thread"],
+				"Level": 93,
+				"Outputs": "Sirenic hauberk",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft an ~|elite sirenic mask|~": {
+				"Items": ["Ancient scale", "Algarum Thread", "Praesulic essence (ranged)"],
+				"Level": 91,
+				"Outputs": "Elite sirenic mask",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft ~|elite sirenic chaps|~": {
+				"Items": ["Ancient scale", "Algarum Thread", "Praesulic essence (ranged)"],
+				"Level": 92,
+				"Outputs": "Elite sirenic chaps",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft an ~|elite sirenic hauberk|~": {
+				"Items": ["Ancient scale", "Algarum Thread", "Praesulic essence (ranged)"],
+				"Level": 93,
+				"Outputs": "Elite sirenic hauberk",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft ~|imphide gloves|~": {
+				"Items": ["Imphide", "Thread"],
+				"Level": 10,
+				"Outputs": "Imphide gloves",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|imphide boots|~": {
+				"Items": ["Imphide", "Thread"],
+				"Level": 11,
+				"Outputs": "Imphide boots",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft an ~|imphide hood|~": {
+				"Items": ["Imphide", "Thread"],
+				"Level": 12,
+				"Outputs": "Imphide boots",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft an ~|imphide robe bottom|~": {
+				"Items": ["Imphide", "Thread"],
+				"Level": 13,
+				"Outputs": "Imphide robe bottom",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft an ~|imphide robe top|~": {
+				"Items": ["Imphide", "Thread"],
+				"Level": 14,
+				"Outputs": "Imphide robe top",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft an ~|imphide book|~": {
+				"Items": ["Imphide", "Thread"],
+				"Level": 15,
+				"Outputs": "Imphide book",
+				"Skills": {
+					"Runecrafting": 10
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft an ~|imphide wand|~": {
+				"Items": ["Imphide", "Thread", "Logs"],
+				"Level": 16,
+				"Outputs": "Imphide wand",
+				"Skills": {
+					"Runecrafting": 10
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft an ~|imphide shield|~": {
+				"Items": ["Imphide", "Thread"],
+				"Level": 17,
+				"Outputs": "Imphide shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|spider silk gloves|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 20,
+				"Outputs": "Spider silk gloves",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|spider silk boots|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 21,
+				"Outputs": "Imphide boots",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|spider silk hood|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 22,
+				"Outputs": "Spider silk hood",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|spider silk robe bottom|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 23,
+				"Outputs": "Spider silk robe bottom",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|spider silk robe top|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 24,
+				"Outputs": "Spider silk robe top",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|spider silk orb|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 25,
+				"Outputs": "Spider silk orb",
+				"Skills": {
+					"Runecrafting": 20
+				},
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|spider silk wand|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 26,
+				"Outputs": "Spider silk wand",
+				"Skills": {
+					"Runecrafting": 20
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|spider silk shield|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 27,
+				"Outputs": "Spider silk shield",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|batwing gloves|~": {
+				"Items": ["Batwing", "Thread"],
+				"Level": 30,
+				"Outputs": "Batwing gloves",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|batwing boots|~": {
+				"Items": ["Batwing", "Thread"],
+				"Level": 31,
+				"Outputs": "Batwing boots",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|batwing hood|~": {
+				"Items": ["Batwing", "Thread"],
+				"Level": 32,
+				"Outputs": "Batwing hood",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft ~|batwing legs|~": {
+				"Items": ["Batwing", "Thread"],
+				"Level": 33,
+				"Outputs": "Batwing legs",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|batwing torso|~": {
+				"Items": ["Batwing", "Thread"],
+				"Level": 35,
+				"Outputs": "Batwing torso",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|batwing book|~": {
+				"Items": ["Batwing", "Thread"],
+				"Level": 36,
+				"Outputs": "Batwing book",
+				"Skills":{
+					"Runecrafting": 30 
+				},
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|batwing wand|~": {
+				"Items": ["Batwing wand", "Thread", "Logs"],
+				"Level": 37,
+				"Outputs": "Batwing wand",
+				"Skills":{
+					"Runecrafting": 30
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|batwing shield|~": {
+				"Items": ["Batwing", "Thread"],
+				"Level": 38,
+				"Outputs": "Batwing shield",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|mystic gloves (blue)|~": {
+				"Items": ["Mystic cloth", "Thread"],
+				"Level": 50,
+				"Outputs": "Mystic gloves (blue)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|mystic boots (blue)|~": {
+				"Items": ["Mystic cloth", "Thread"],
+				"Level": 51,
+				"Outputs": "Mystic boots (blue)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|mystic hat (blue)|~": {
+				"Items": ["Mystic cloth", "Thread"],
+				"Level": 53,
+				"Outputs": "Mystic hat (blue)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|mystic robe bottom (blue)|~": {
+				"Items": ["Mystic cloth", "Thread"],
+				"Level": 54,
+				"Outputs": "Mystic robe bottom (blue)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|mystic robe top (blue)|~": {
+				"Items": ["Mystic cloth", "Thread"],
+				"Level": 55,
+				"Outputs": "Mystic robe top (blue)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|mystic orb|~": {
+				"Items": ["Mystic cloth", "Thread"],
+				"Level": 56,
+				"Outputs": "Mystic orb",
+				"Skills":{
+					"Runecrafting": 50
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|mystic wand|~": {
+				"Items": ["Mystic wand", "Thread", "Logs"],
+				"Level": 57,
+				"Outputs": "Mystic wand",
+				"Skills":{
+					"Runecrafting": 50
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|mystic shield|~": {
+				"Items": ["Mystic cloth", "Thread"],
+				"Level": 58,
+				"Outputs": "Mystic shield",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|yak-hide armour (legs)|~": {
+				"Items": ["Cured yak-hide", "Thread"],
+				"Level": 43,
+				"Outputs": "Yak-hide armour (legs)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft ~|yak-hide armour (body)|~": {
+				"Items": ["Cured yak-hide", "Thread"],
+				"Level": 46,
+				"Outputs": "Yak-hide",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|fremennik round shield|~": {
+				"Items": ["Artic pine logs", "Bronze nails", "Rope"],
+				"Level": 43,
+				"Outputs": "Fremennik round shield",
+				"Objects": ["Woodcutting stump"],
+				"Skills":{
+					"Woodcutting": 54
+				},
+				"Primary": true,
+				"Priority": 3
+			},
+			"Spin a ~|ball of wool|~": {
+				"Items": ["Wool"],
+				"Level": 1,
+				"Objects": ["Spinning Wheel"],
+				"Outputs": "Ball of wool",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Weave a ~|strip of cloth|~": {
+				"Items": ["Ball of wool"],
+				"Level": 1,
+				"Objects": ["Loom"],
+				"Outputs": "Strip of cloth",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Spin a ~|ball of black wool|~":{
+				"Items": ["Black wool"],
+				"Level": 1,
+				"Objects": ["Spinning Wheel"],
+				"Outputs": "Ball of black wool",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Weave a ~|strip of black cloth|~":{
+				"Items": ["Ball of black wool"],
+				"Level": 1,
+				"Objects": ["Loom"],
+				"Outputs": "Strip of black cloth",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Craft ~|wizard gloves|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard gloves",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Craft ~|black wizard gloves|~":{
+				"Items": ["Strip of black cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Black wizard gloves",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Craft ~|wizard boots|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard boots",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Craft ~|black wizard boots|~":{
+				"Items": ["Strip of black cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Black wizard boots",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Craft a ~|wizard hat (blue)|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard hat (blue)",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Craft a ~|wizard hat (black)|~":{
+				"Items": ["Strip of black cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard hat (black)",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Craft a ~|wizard robe skirt|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard robe skirt",
+				"Primary": true,
+				"Priority": 16
+			},
+			"Craft a ~|black wizard robe skirt|~":{
+				"Items": ["Strip of black cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Black wizard robe skirt",
+				"Primary": true,
+				"Priority": 17
+			},
+			"Craft a ~|wizard robe top|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard robe top",
+				"Primary": true,
+				"Priority": 18
+			},
+			"Craft a ~|black wizard robe top|~":{
+				"Items": ["Strip of black cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Black wizard robe top",
+				"Primary": true,
+				"Priority": 19
+			},
+			"Craft a ~|wizard book|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard book",
+				"Skills":{
+					"Runecrafting": 1
+				},
+				"Primary": true,
+				"Priority": 20
+			},
+			"Craft a ~|wizard wand|~":{
+				"Items": ["Strip of cloth", "Thread", "Logs"],
+				"Level": 1,
+				"Outputs": "Wizard wand",
+				"Skills":{
+					"Runecrafting": 1
+				},
+				"Primary": true,
+				"Priority": 21
+			},
+			"Craft a ~|wizard shield|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard book",
+				"Primary": true,
+				"Priority": 22
+			},
+			"Craft a ~|black wizard shield|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Black wizard shield",
+				"Primary": true,
+				"Priority": 23
+			},
+			"Create ~|soft clay|~ with a container":{
+				"Items": ["Clay", "WaterItem+"],
+				"Level": 1,
+				"Outputs": "Soft clay",
+				"Primary": true,
+				"Priority": 24
+			},
+			"Create ~|soft clay|~ with a watersource":{
+				"Items": ["clay"],
+				"Level": 1,
+				"Outputs": "Soft clay",
+				"Object": ["WaterObject+"],
+				"Primary": true,
+				"Priority": 25
+			},
+			"Craft a ~|pot (unfired)|~":{
+				"Items": ["Soft clay"],
+				"Level": 1,
+				"Outputs": "Pot (unfired)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 26
+			},
+			"Fire an ~|empty pot|~":{
+				"Items": ["Pot (unfired)"],
+				"Level": 1,
+				"Outputs": "Empty pot",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 27
+			},
+			"Mold a ~|clay ring (unfired)|~":{
+				"Items": ["Soft clay"],
+				"Level": 4,
+				"Outputs": "Clay ring (unfired)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|clay ring|~":{
+				"Items": ["Clay ring (unfired)"],
+				"Level": 4,
+				"Outputs": "Clay ring",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|pie dish (unfired)|~":{
+				"Items": ["Soft clay"],
+				"Level": 7,
+				"Outputs": "Pie dish (unfired)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|pie dish|~":{
+				"Items": ["Pie dish (unfired)"],
+				"Level": 7,
+				"Outputs": "Pie dish",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|bowl (unfired)|~":{
+				"Items": ["Soft clay"],
+				"Level": 8,
+				"Outputs": "Bowl (unfired)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"fire a ~|bowl|~":{
+				"Items": ["Bowl (unfired)"],
+				"Level": 8,
+				"Outputs": "Bowl",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft an ~|unfired plant pot|~":{
+				"Items": ["Soft clay"],
+				"Level": 19,
+				"Outputs": "Unfired plant pot",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|plant pot|~":{
+				"Items": ["Unfired plant pot"],
+				"Level": 19,
+				"Outputs": "Plant pot",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|unfired pot lid|~":{
+				"Items": ["Soft clay"],
+				"Level": 25,
+				"Outputs": "Unfired pot lid",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fire a ~|pot lid|~":{
+				"Items": ["Unfired pot lid"],
+				"Level": 25,
+				"Outputs": "Pot lid",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|cracked mining urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 2,
+				"Outputs": "Cracked mining urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|cracked mining urn (nr)|~":{
+				"Items": ["Cracked mining urn (unf)"],
+				"Level": 2,
+				"Outputs": "Cracked mining urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|cracked cooking urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 2,
+				"Outputs": "Cracked cooking urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|cracked cooking urn (nr)|~":{
+				"Items": ["Cracked cooking urn (unf)"],
+				"Level": 2,
+				"Outputs": "Cracked cooking urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|cracked fishing urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 2,
+				"Outputs": "Cracked fishing urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Fire a ~|cracked fishing urn (nr)|~":{
+				"Items": ["Cracked fishing urn (unf)"],
+				"Level": 2,
+				"Outputs": "Cracked fishing urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|impious urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 2,
+				"Outputs": "Impious urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 7
+			},
+			"Fire a ~|impious urn (nr)|~":{
+				"Items": ["Impious urn (unf)"],
+				"Level": 2,
+				"Outputs": "Impious urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft a ~|cracked divination urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 3,
+				"Outputs": "Cracked divination urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|cracked divination urn (nr)|~":{
+				"Items": ["Cracked divination urn (unf)"],
+				"Level": 3,
+				"Outputs": "Cracked divination urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|cracked hunter urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 3,
+				"Outputs": "Cracked hunter urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|cracked hunter urn (nr)|~":{
+				"Items": ["Cracked hunter urn (unf)"],
+				"Level": 3,
+				"Outputs": "Cracked hunter urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|cracked runecrafting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 4,
+				"Outputs": "Cracked runecrafting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|cracked runecrafting urn (nr)|~":{
+				"Items": ["Cracked runecrafting urn (unf)"],
+				"Level": 4,
+				"Outputs": "Cracked runecrafting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|cracked smelting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 4,
+				"Outputs": "Cracked smelting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Fire a ~|cracked smelting urn (nr)|~":{
+				"Items": ["Cracked smelting urn (unf)"],
+				"Level": 4,
+				"Outputs": "Cracked smelting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|cracked woodcutting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 4,
+				"Outputs": "Cracked woodcutting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 7
+			},
+			"Fire a ~|cracked woodcutting urn (nr)|~":{
+				"Items": ["Cracked woodcutting urn (unf)"],
+				"Level": 4,
+				"Outputs": "Cracked woodcutting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft a ~|cracked farming urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 5,
+				"Outputs": "Cracked farming urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|cracked farming urn (nr)|~":{
+				"Items": ["Cracked farming urn (unf)"],
+				"Level": 5,
+				"Outputs": "Cracked farming urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|fragile cooking urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 12,
+				"Outputs": "Fragile cooking urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|fragile cooking urn (nr)|~":{
+				"Items": ["Fragile cooking urn (unf)"],
+				"Level": 12,
+				"Outputs": "Fragile cooking urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|fragile fishing urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 15,
+				"Outputs": "Fragile fishing urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|fragile fishing urn (nr)|~":{
+				"Items": ["Fragile fishing urn (unf)"],
+				"Level": 15,
+				"Outputs": "Fragile fishing urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|fragile woodcutting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 15,
+				"Outputs": "Fragile woodcutting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fire a ~|fragile woodcutting urn (nr)|~":{
+				"Items": ["Fragile woodcutting urn (unf)"],
+				"Level": 15,
+				"Outputs": "Fragile woodcutting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|fragile divination urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 16,
+				"Outputs": "Fragile divination urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|fragile divination urn (nr)|~":{
+				"Items": ["Fragile divination urn (unf)"],
+				"Level": 16,
+				"Outputs": "Fragile divination urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|fragile hunter urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 17,
+				"Outputs": "Fragile hunter urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|fragile hunter urn (nr)|~":{
+				"Items": ["Fragile hunter urn (unf)"],
+				"Level": 17,
+				"Outputs": "Fragile hunter urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|fragile mining urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 17,
+				"Outputs": "Fragile mining urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fire a ~|fragile mining urn (nr)|~":{
+				"Items": ["Fragile mining urn (unf)"],
+				"Level": 17,
+				"Outputs": "Fragile mining urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|fragile smelting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 17,
+				"Outputs": "Fragile smelting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fire a ~|fragile smelting urn (nr)|~":{
+				"Items": ["Fragile smelting urn (unf)"],
+				"Level": 17,
+				"Outputs": "Fragile smelting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft a ~|fragile farming urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 18,
+				"Outputs": "Fragile farming urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|fragile farming urn (nr)|~":{
+				"Items": ["Fragile farming urn (unf)"],
+				"Level": 18,
+				"Outputs": "Fragile farming urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|fragile runecrafting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 18,
+				"Outputs": "Fragile runecrafting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|fragile runecrafting urn (nr)|~":{
+				"Items": ["Fragile runecrafting urn (unf)"],
+				"Level": 18,
+				"Outputs": "Fragile runecrafting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|accursed urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 26,
+				"Outputs": "Accursed urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire an ~|accursed urn (nr)|~":{
+				"Items": ["accrused urn (unf)"],
+				"Level": 26,
+				"Outputs": "Accursed urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|plain mining urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 32,
+				"Outputs": "Plain mining urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 8
+			},
+			"Fire a ~|plain mining urn (nr)|~":{
+				"Items": ["Plain mining urn (unf)"],
+				"Level": 32,
+				"Outputs": "Plain mining urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 9
+			},
+			"Craft a ~|plain runecrafting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 33,
+				"Outputs": "Plain runecrafting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|plain runecrafting urn (nr)|~":{
+				"Items": ["Plain runecrafting urn (unf)"],
+				"Level": 33,
+				"Outputs": "Plain runecrafting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|plain hunter urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 34,
+				"Outputs": "Plain hunter urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|plain hunter urn (nr)|~":{
+				"Items": ["Plain hunter urn (unf)"],
+				"Level": 34,
+				"Outputs": "Plain hunter urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|plain smelting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 35,
+				"Outputs": "Plain smelting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|plain smelting urn (nr)|~":{
+				"Items": ["Plain smelting urn (unf)"],
+				"Level": 35,
+				"Outputs": "Plain smelting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|plain cooking urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 36,
+				"Outputs": "Plain cooking urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|plain cooking urn (nr)|~":{
+				"Items": ["Plain cooking urn (unf)"],
+				"Level": 36,
+				"Outputs": "Plain cooking urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|plain divination urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 38,
+				"Outputs": "Plain divination urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|plain divination urn (nr)|~":{
+				"Items": ["Plain divination urn (unf)"],
+				"Level": 38,
+				"Outputs": "Plain divination urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|plain farming urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 40,
+				"Outputs": "Plain farming urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|plain farming urn (nr)|~":{
+				"Items": ["Plain farming urn (unf)"],
+				"Level": 40,
+				"Outputs": "Plain farming urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|plain fishing urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 41,
+				"Outputs": "Plain fishing urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|plain fishing urn (nr)|~":{
+				"Items": ["Plain fishing urn (unf)"],
+				"Level": 41,
+				"Outputs": "Plain fishing urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|plain woodcutting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 44,
+				"Outputs": "Plain woodcutting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Fire a ~|plain woodcutting urn (nr)|~":{
+				"Items": ["Plain woodcutting urn (unf)"],
+				"Level": 44,
+				"Outputs": "Plain woodcutting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|strong mining urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 48,
+				"Outputs": "Strong mining urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|strong mining urn (nr)|~":{
+				"Items": ["Strong mining urn (unf)"],
+				"Level": 48,
+				"Outputs": "Strong mining urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|strong smelting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 49,
+				"Outputs": "Strong smelting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|strong smelting urn (nr)|~":{
+				"Items": ["Strong smelting urn (unf)"],
+				"Level": 49,
+				"Outputs": "Strong smelting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|strong cooking urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 51,
+				"Outputs": "Strong cooking urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|strong cooking urn (nr)|~":{
+				"Items": ["Strong cooking urn (unf)"],
+				"Level": 51,
+				"Outputs": "Strong cooking urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|strong runecrafting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 52,
+				"Outputs": "Strong runecrafting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|strong runecrafting urn (nr)|~":{
+				"Items": ["Strong runecrafting urn (unf)"],
+				"Level": 52,
+				"Outputs": "Strong runecrafting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|strong fishing urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 53,
+				"Outputs": "Strong fishing urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fire a ~|strong fishing urn (nr)|~":{
+				"Items": ["Strong fishing urn (unf)"],
+				"Level": 53,
+				"Outputs": "Strong fishing urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|strong hunter urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 55,
+				"Outputs": "Strong hunter urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|strong hunter urn (nr)|~":{
+				"Items": ["Strong hunter urn (unf)"],
+				"Level": 55,
+				"Outputs": "Strong hunter urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|strong divination urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 56,
+				"Outputs": "Strong divination urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|strong divination urn (nr)|~":{
+				"Items": ["Strong divination urn (unf)"],
+				"Level": 56,
+				"Outputs": "Strong divination urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|strong farming urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 58,
+				"Outputs": "Strong farming urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|strong farming urn (nr)|~":{
+				"Items": ["Strong farming urn (unf)"],
+				"Level": 58,
+				"Outputs": "Strong farming urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|strong woodcutting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 61,
+				"Outputs": "Strong woodcutting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|strong woodcutting urn (nr)|~":{
+				"Items": ["Strong woodcutting urn (unf)"],
+				"Level": 61,
+				"Outputs": "Strong woodcutting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|infernal urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 62,
+				"Outputs": "Infernal urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire an ~|infernal urn (nr)|~":{
+				"Items": ["Infernal urn (unf)"],
+				"Level": 62,
+				"Outputs": "Infernal urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|decorated fishing urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 76,
+				"Outputs": "Decorated fishing urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|decorated fishing urn (nr)|~":{
+				"Items": ["Decorated fishing urn (unf)"],
+				"Level": 76,
+				"Outputs": "Decorated fishing urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|decorated woodcutting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 76,
+				"Outputs": "Decorated woodcutting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fire a ~|decorated woodcutting urn (nr)|~":{
+				"Items": ["Decorated woodcutting urn (unf)"],
+				"Level": 76,
+				"Outputs": "Decorated woodcutting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|decorated runecrafting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 77,
+				"Outputs": "Decorated runecrafting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fire a ~|decorated runecrafting urn (nr)|~":{
+				"Items": ["Decorated runecrafting (unf)"],
+				"Level": 77,
+				"Outputs": "Decorated runecrafting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|decorated mining urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 78,
+				"Outputs": "Decorated mining urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|decorated mining urn (nr)|~":{
+				"Items": ["Decorated mining urn (unf)"],
+				"Level": 78,
+				"Outputs": "Decorated mining urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|decorated hunter urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 79,
+				"Outputs": "Decorated hunter urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 8
+			},
+			"Fire a ~|decorated hunter urn (nr)|~":{
+				"Items": ["Decorated hunter urn (unf)"],
+				"Level": 79,
+				"Outputs": "Decorated hunter urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 9
+			},
+			"Craft a ~|decorated smelting urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 80,
+				"Outputs": "Decorated smelting urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|decorated smelting urn (nr)|~":{
+				"Items": ["Decorated smelting urn (unf)"],
+				"Level": 80,
+				"Outputs": "Decorated smelting urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|decorated cooking urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 81,
+				"Outputs": "Decorated cooking urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fire a ~|decorated cooking urn (nr)|~":{
+				"Items": ["Decorated cooking urn (unf)"],
+				"Level": 81,
+				"Outputs": "Decorated cooking urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|decorated divination urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 82,
+				"Outputs": "Decorated divination urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fire a ~|decorated divination urn (nr)|~":{
+				"Items": ["Decorated divination urn (unf)"],
+				"Level": 82,
+				"Outputs": "Decorated divination urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|decorated farming urn (unf)|~":{
+				"Items": ["Soft clay"],
+				"Level": 84,
+				"Outputs": "Decorated farming urn (unf)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Fire a ~|decorated farming urn (nr)|~":{
+				"Items": ["Decorated farming urn (unf)"],
+				"Level": 84,
+				"Outputs": "Decorated farming urn (nr)",
+				"Objects": ["Pottery oven"],
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft ~|molten glass|~":{
+				"Items": ["Bucket of sand", "Soda ash"],
+				"Level": 1,
+				"Outputs": "Molten glass",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 28
+			},
+			"Blow a ~|beer glass|~" :{
+				"Items": ["Molten glass"],
+				"Level": 1,
+				"Outputs": "Beer glass",
+				"Primary": true,
+				"Priority": 29
+			},
+			"Blow a ~|candle latern|~":{
+				"Items": ["Molten glass"],
+				"Level": 4,
+				"Outputs": "Candle lantern",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Blow an ~|oil lamp|~":{
+				"Items": ["Molten glass"],
+				"Level": 12,
+				"Outputs": "Oil Lamp",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Blow a ~|vial|~":{
+				"Items": ["Molten glass"],
+				"Level": 33,
+				"Outputs": "Vial",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Blow a ~|fishbowl|~":{
+				"Items": ["Molten glass"],
+				"Level": 42,
+				"Outputs": "Fishbowl",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Blow an ~|unpowered orb|~":{
+				"Items": ["Molten glass"],
+				"Level": 46,
+				"Outputs": "Unpowered Orb",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Blow a ~|lantern lens|~":{
+				"Items": ["Molten glass"],
+				"Level": 49,
+				"Outputs": "Lantern lens",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Blow a ~|bomb vial|~":{
+				"Items": ["Molten glass"],
+				"Level": 54,
+				"Outputs": "Bomb vial",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Blow a ~|powerburst vial|~":{
+				"Items": ["Molten glass"],
+				"Level": 54,
+				"Outputs": "Powerburst vial",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Blow a ~|empty light orb|~":{
+				"Items": ["Molten glass"],
+				"Level": 87,
+				"Outputs": "Empty light orb",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|light orb|~":{
+				"Items": ["Empty light orb", "Cave goblin wire"],
+				"Level": 87,
+				"Outputs": "Light orb",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|ogre flask (empty)|~":{
+				"Items": ["Robust glass"],
+				"Level": 89,
+				"Outputs": "Ogre flask (empty)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|potion flask|~":{
+				"Items": ["Robust glass"],
+				"Level": 89,
+				"Outputs": "Potion flask",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|crystal flask|~":{
+				"Items": ["Crystal glass"],
+				"Level": 89,
+				"Outputs": "Crystal flask",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|blessed flask shell|~":{
+				"Items": ["Blessed molten glass (azure)", "Blessed molten glass (golden)", "Necrite stone spirit", "Phasmatite stone spirit", "Alaea sea salt", "Harmonic dust"],
+				"Level": 90,
+				"Outputs": "Blessed flask shell",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|blessed flask|~":{
+				"Items": ["Blessed flask shell", "Glorious silvthril chain", "Holy elixir", "Holy water", "Light core", "Holy overload potion (6)", "Extreme prayer (4)", "Postive energy"],
+				"Level": 96,
+				"Skills":{
+					"Herblore": 118
+				},
+				"Outputs": "Blessed flask",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|water battlestaff|~":{
+				"Items": ["Battlestaff", "Water orb"],
+				"Level": 54,
+				"Outputs": "Water battlestaff",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|earth battlestaff|~":{
+				"Items": ["Battlestaff", "Earth orb"],
+				"Level": 58,
+				"Outputs": "Earth battlestaff",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|fire battlestaff|~":{
+				"Items": ["Battlestaff", "Fire orb"],
+				"Level": 62,
+				"Outputs": "Fire battlestaff",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|air battlestaff|~":{
+				"Items": ["Battlestaff", "Air orb"],
+				"Level": 66,
+				"Outputs": "Air battlestaff",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|armadyl battlestaff|~":{
+				"Items": ["Orb of Armadyl", "battlestaff"],
+				"Level": 77,
+				"Outputs": "Armadyl battlestaff",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|skeletal staff of air|~":{
+				"Items": ["Staff of air", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal staff of air",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|skeletal staff of earth|~":{
+				"Items": ["Staff of earth", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal staff of earth",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|skeletal staff of fire|~":{
+				"Items": ["Staff of fire", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal staff of fire",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|skeletal staff of water|~":{
+				"Items": ["Staff of water", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal staff of water",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft a ~|skeletal battlestaff of air|~":{
+				"Items": ["Air battlestaff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal battlestaff of air",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft a ~|skeletal battlestaff of earth|~":{
+				"Items": ["Earth battlestaff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal battlestaff of earth",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Craft a ~|skeletal battlestaff of fire|~":{
+				"Items": ["Fire battlestaff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal battlestaff of fire",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Craft a ~|skeletal battlestaff of lava|~":{
+				"Items": ["Lava battlestaff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal battlestaff of lava",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Craft a ~|skeletal battlestaff of mud|~":{
+				"Items": ["Mud battlestaff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal battlestaff of mud",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Craft a ~|skeletal battlestaff of steam|~":{
+				"Items": ["Steam battlestaff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal battlestaff of steam",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Craft a ~|skeletal battlestaff of water|~":{
+				"Items": ["Water battlestaff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Skeletal battlestaff of water",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Craft a ~|necromancer's air staff|~":{
+				"Items": ["Mystic air staff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Necromancer's air staff",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Craft a ~|necromancer's earth staff|~":{
+				"Items": ["Mystic earth staff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Necromancer's earth staff",
+				"Primary": true,
+				"Priority": 16
+			},
+			"Craft a ~|necromancer's fire staff|~":{
+				"Items": ["Mystic fire staff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Necromancer's fire staff",
+				"Primary": true,
+				"Priority": 17
+			},
+			"Craft a ~|necromancer's lava staff|~":{
+				"Items": ["Mystic lava staff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Necromancer's lava staff",
+				"Primary": true,
+				"Priority": 18
+			},
+			"Craft a ~|necromancer's mud staff|~":{
+				"Items": ["Mystic mud staff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Necromancer's mud staff",
+				"Primary": true,
+				"Priority": 19
+			},
+			"Craft a ~|necromancer's steam staff|~":{
+				"Items": ["Mystic steam staff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Necromancer's steam staff",
+				"Primary": true,
+				"Priority": 20
+			},
+			"Craft a ~|necromancer's water staff|~":{
+				"Items": ["Mystic water staff", "Shade skull"],
+				"Level": 85,
+				"Outputs": "Necromancer's water staff",
+				"Primary": true,
+				"Priority": 21
+			},
+			"Craft a ~|crab helmet|~":{
+				"Items": ["Fresh crab shell"],
+				"Level": 15,
+				"Outputs": "Crab helmet",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|crab claw|~":{
+				"Items": ["Fresh crab claw"],
+				"Level": 15,
+				"Outputs": "Crab claw",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft a ~|Strung rabbit foot|~":{
+				"Items": ["Rabbit foot", "Ball of wool"],
+				"Level": 37,
+				"Outputs": "Strung rabbit foot",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft an ~|unstrung symbol|~":{
+				"Items": ["Silver bar", "Holy mould"],
+				"Level": 16,
+				"Outputs": "Unstrung symbol",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|unblessed symbol|~":{
+				"Items": ["Unstrung symbol", "Ball of wool"],
+				"Level": 16,
+				"Outputs": "Unblessed symbol",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft an ~|unstrung emblem|~":{
+				"Items": ["Silver bar", "Unholy mould"],
+				"Level": 17,
+				"Outputs": "Unstrung emblem",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft an ~|unpowered symbol|~":{
+				"Items": ["Unstrung emblem", "Ball of wool"],
+				"Level": 17,
+				"Outputs": "Unpowered symbol",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft a ~|silver sickle|~":{
+				"Items": ["Silver bar", "Sickle mould"],
+				"Level": 18,
+				"Outputs": "Silver sickle",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|conductor|~":{
+				"Items": ["Silver bar", "Conductor mould"],
+				"Level": 20,
+				"Outputs": "Conductor",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|silver bolts (unf)|~":{
+				"Items": ["Silver bar", "Bolt mould"],
+				"Level": 21,
+				"Outputs": "Silver bolts (unf)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|tiara|~":{
+				"Items": ["Silver bar"],
+				"Level": 23,
+				"Outputs": "Tiara",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cut an ~|opal|~":{
+				"Items": ["Uncut opal"],
+				"Level": 1,
+				"Outputs": "Opal",
+				"Primary": true,
+				"Priority": 30
+			},
+			"Crush an ~|opal|~":{
+				"Items": ["Uncut opal"],
+				"Level": 1,
+				"Outputs": "Crushed gem",
+				"Primary": true,
+				"Priority": 31
+			},
+			"Cut a ~|jade|~":{
+				"Items": ["Uncut jade"],
+				"Level": 13,
+				"Outputs": "Jade",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Crush a ~|jade|~":{
+				"Items": ["Uncut jade"],
+				"Level": 13,
+				"Outputs": "Crushed gem",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cut a ~|red topaz|~":{
+				"Items": ["Uncut red topaz"],
+				"Level": 16,
+				"Outputs": "Red topaz",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Crush a ~|red topaz|~":{
+				"Items": ["Uncut red topaz"],
+				"Level": 16,
+				"Outputs": "Crushed gem",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cut a ~|sapphire|~":{
+				"Items": ["Uncut sapphire"],
+				"Level": 20,
+				"Outputs": "Sapphire",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cut an ~|emerald|~":{
+				"Items": ["Uncut emerald"],
+				"Level": 27,
+				"Outputs": "Emerald",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cut a ~|ruby|~":{
+				"Items": ["Uncut ruby"],
+				"Level": 34,
+				"Outputs": "Ruby",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cut a ~|diamond|~":{
+				"Items": ["Uncut diamond"],
+				"Level": 43,
+				"Outputs": "Diamond",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cut a ~|dragonstone|~":{
+				"Items": ["Uncut dragonstone"],
+				"Level": 55,
+				"Outputs": "Dragonstone",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cut an ~|onyx|~":{
+				"Items": ["Uncut oynx"],
+				"Level": 72,
+				"Outputs": "Onyx",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cut a ~|hydrix|~":{
+				"Items": ["Uncut hydrix"],
+				"Level": 79,
+				"Outputs": "Hydrix",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Craft a ~|gold ring|~":{
+				"Items": ["Gold bar"],
+				"Level": 5,
+				"Outputs": "Gold ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|gold necklace|~":{
+				"Items": ["Gold bar"],
+				"Level": 6,
+				"Outputs": "Gold necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|gold amulet *unstrung)|~":{
+				"Items": ["Gold bar"],
+				"Level": 8,
+				"Outputs": "Gold amulet(unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|gold amulet|~":{
+				"Items": ["Gold amulet (unstrung)", "Ball of wool"],
+				"Level": 8,
+				"Outputs": "Gold amulet",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|gold bracelet|~":{
+				"Items": ["Gold bar"],
+				"Level": 7,
+				"Outputs": "Gold bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|opal ring|~":{
+				"Items": ["Opal", "Silver bar"],
+				"Level": 1,
+				"Outputs": "Opal ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 32
+			},
+			"Craft an ~|opal necklace|~":{
+				"Items": ["Opal","Silver bar"],
+				"Level": 16,
+				"Outputs": "Opal necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft an ~|opal bracelet|~":{
+				"Items": ["Opal", "Silver bar"],
+				"Level": 22,
+				"Outputs": "Opal bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|jade ring|~":{
+				"Items": ["Jade", "Silver bar"],
+				"Level": 13,
+				"Outputs": "Jade ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|jade necklace|~":{
+				"Items": ["Jade", "Silver bar"],
+				"Level": 25,
+				"Outputs": "Jade necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|jade bracelet|~":{
+				"Items": ["Jade", "Silver bar"],
+				"Level": 29,
+				"Outputs": "Jade bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|jade amulet (unstrung)|~":{
+				"Items": ["Jade", "Silver bar"],
+				"Level": 34,
+				"Outputs": "Jade amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"String a ~|jade amulet|~":{
+				"Items": ["Jade amulet (unstrung)", "Ball of wool"],
+				"Level": 34,
+				"Outputs": "Jade amulet",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|topaz amulet (unstrung)|~":{
+				"Items": ["Red topaz", "Silver bar"],
+				"Level": 45,
+				"Outputs": "Topaz amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|topaz amulet|~":{
+				"Items": ["Topaz amulet (unstrung)", "Ball of wool"],
+				"Level": 45,
+				"Outputs": "Topaz amulet",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|topaz bracelet|~":{
+				"Items": ["Red topaz", "Silver bar"],
+				"Level": 38,
+				"Outputs": "Topaz bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|topaz necklace|~":{
+				"Items": ["Red topaz", "Silver bar"],
+				"Level": 32,
+				"Outputs": "Topaz necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 10
+			},
+			"Craft a ~|topaz ring|~":{
+				"Items": ["Red topaz", "Silver bar"],
+				"Level": 16,
+				"Outputs": "Topaz ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft a ~|sapphire amulet (unstrung)|~":{
+				"Items": ["Sapphire", "Gold bar"],
+				"Level": 24,
+				"Outputs": "Sapphire amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"String a ~|sapphire amulet|~":{
+				"Items": ["Sapphire amulet (unstrung)","Ball of wool"],
+				"Level": 24,
+				"Outputs": "Sapphire amulet",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|sapphire bracelet|~":{
+				"Items": ["Sapphire", "Gold bar"],
+				"Level": 23,
+				"Outputs": "Sapphire bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|sapphire necklace|~":{
+				"Items": ["Sapphire", "Gold bar"],
+				"Level": 22,
+				"Outputs": "Sapphire necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|sapphire ring|~":{
+				"Items": ["Sapphire", "Gold bar"],
+				"Level": 20,
+				"Outputs": "Sapphire ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|emerald amulet (unstrung)|~":{
+				"Items": ["Emerald", "Gold bar"],
+				"Level": 31,
+				"Outputs": "Emerald amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"String an ~|emerald amulet|~":{
+				"Items": ["Emerald amulet (unstrung)","Ball of wool"],
+				"Level": 31,
+				"Outputs": "Emerald amulet",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|emerald bracelet|~":{
+				"Items": ["Emerald", "Gold bar"],
+				"Level": 30,
+				"Outputs": "Emerald bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|emerald necklace|~":{
+				"Items": ["Emerald", "Gold bar"],
+				"Level": 29,
+				"Outputs": "Emerald necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|emerald ring|~":{
+				"Items": ["Emerald", "Gold bar"],
+				"Level": 27,
+				"Outputs": "Emerald ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|ruby amulet (unstrung)|~":{
+				"Items": ["Ruby", "Gold bar"],
+				"Level": 50,
+				"Outputs": "Ruby amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"String a ~|ruby amulet|~":{
+				"Items": ["Ruby amulet (unstrung)", "Ball of wool"],
+				"Level": 50,
+				"Outputs": "Ruby amulet",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|ruby bracelet|~":{
+				"Items": ["Ruby", "Gold bar"],
+				"Level": 42,
+				"Outputs": "Ruby bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|ruby necklace|~":{
+				"Items": ["Ruby", "Gold bar"],
+				"Level": 40,
+				"Outputs": "Ruby necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|ruby ring|~":{
+				"Items": ["Ruby", "Gold bar"],
+				"Level": 34,
+				"Outputs": "Ruby ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft a ~|diamond amulet (unstrung)|~":{
+				"Items": ["Diamond", "Gold bar"],
+				"Level": 70,
+				"Outputs": "Diamond amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|diamond amulet|~":{
+				"Items": ["Diamond amulet (unstrung)", "Ball of wool"],
+				"Level": 70,
+				"Outputs": "Diamond amulet",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|diamond bracelet|~":{
+				"Items": ["Diamond", "Gold bar"],
+				"Level": 58,
+				"Outputs": "Diamond bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|diamond necklace|~":{
+				"Items": ["Diamond", "Gold bar"],
+				"Level": 56,
+				"Outputs": "Diamond necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|diamond ring|~":{
+				"Items": ["Diamond", "Gold bar"],
+				"Level": 43,
+				"Outputs": "Diamond ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|dragonstone amulet (unstrung)|~":{
+				"Items": ["Dragonstone", "Gold bar"],
+				"Level": 80,
+				"Outputs": "Dragonstone amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|dragonstone amulet|~":{
+				"Items": ["Dragonstone amulet (unstrung)", "Ball of wool"],
+				"Level": 80,
+				"Outputs": "Dragonstone amulet",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|dragonstone bracelet|~":{
+				"Items": ["Dragonstone", "Gold bar"],
+				"Level": 74,
+				"Outputs": "Dragonstone bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|dragonstone necklace|~":{
+				"Items": ["Dragonstone", "Gold bar"],
+				"Level": 72,
+				"Outputs": "Dragonstone necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|dragonstone ring|~":{
+				"Items": ["Dragonstone", "Gold bar"],
+				"Level": 55,
+				"Outputs": "Dragonstone ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft an ~|oynx amulet (unstrung)|~":{
+				"Items": ["Onyx", "Gold bar"],
+				"Level": 90,
+				"Outputs": "Onyx amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"String an ~|oynx amulet|~":{
+				"Items": ["Onyx amulet (unstrung)", "Ball of wool"],
+				"Level": 90,
+				"Outputs": "Onyx amulet",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|oynx bracelet|~":{
+				"Items": ["Onyx", "Gold bar"],
+				"Level": 84,
+				"Outputs": "Onyx bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft an ~|oynx necklace|~":{
+				"Items": ["Onyx", "Gold bar"],
+				"Level": 82,
+				"Outputs": "Onyx necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|oynx ring|~":{
+				"Items": ["Onyx", "Gold bar"],
+				"Level": 72,
+				"Outputs": "Onyx ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|hydrix amulet (unstrung)|~":{
+				"Items": ["Hydrix", "Gold bar"],
+				"Level": 99,
+				"Outputs": "Hydrix amulet (unstrung)",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|hydrix amulet|~":{
+				"Items": ["Hydrix amulet (unstrung)", "Ball of wool"],
+				"Level": 99,
+				"Outputs": "Hydrix amulet",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|hydrix bracelet|~":{
+				"Items": ["Hydrix", "Gold bar"],
+				"Level": 94,
+				"Outputs": "Hydrix bracelet",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|hydrix necklace|~":{
+				"Items": ["Hydrix", "Gold bar"],
+				"Level": 90,
+				"Outputs": "Hydrix necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|hydrix ring|~":{
+				"Items": ["Hydrix", "Gold bar"],
+				"Level": 79,
+				"Outputs": "Hydrix ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 11
+			},
+			"Craft an ~|alchemical onyx necklace|~":{
+				"Items": ["Alchemical onyx", "Gold bar"],
+				"Level": 91,
+				"Outputs": "Alchemical onyx necklace",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft an ~|alchemical onyx ring|~":{
+				"Items": ["Alchemical onyx", "Gold bar"],
+				"Level": 91,
+				"Outputs": "Alchemical onyx ring",
+				"Objects": ["Furnace"],
+				"Primary": true,
+				"Priority": 5
+			},
+			"Create an ~|alchemical onyx|~":{
+				"Items": ["Oynx","Fortunate components","Refined components","Precious components"],
+				"Level": 80,
+				"Skills":{
+					"Invention": 107
+				},
+				"Outputs": "Alchemical onyx",
+				"Objects":"Inventor's workbench",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|spider leg|~":{
+				"Items": ["Spider leg top", "Spider leg middle", "Spider leg bottom"],
+				"Level": 30,
+				"Outputs": "Spider leg",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|noxious longbow|~":{
+				"Items": ["Spider leg", "Araxxi's web"],
+				"Level": 90,
+				"Outputs": "Noxious longbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|noxious scythe|~":{
+				"Items": ["Spider leg", "Araxxi's fang"],
+				"Level": 90,
+				"Outputs": "Noxious scythe",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft a ~|noxious staff|~":{
+				"Items": ["Spider leg", "Araxxi's eye"],
+				"Level": 90,
+				"Outputs": "Noxious staff",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft a ~|Zaros godsword|~":{
+				"Items": ["Dormant Zaros godsword", "Orb of pure anima", "Orb of volcanic anima", "Orb of corrupted anima"],
+				"Level": 92,
+				"Outputs": "Zaros godsword",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|Seren godbow|~":{
+				"Items": ["Dormant seren godbow", "Orb of pure anima", "Orb of volcanic anima", "Orb of corrupted anima"],
+				"Level": 92,
+				"Outputs": "Seren godbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|staff of Sliske|~":{
+				"Items": ["Dormant staff of Sliske", "Orb of pure anima", "Orb of volcanic anima", "Orb of corrupted anima"],
+				"Level": 92,
+				"Outputs": "Staff of Sliske",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|khopesh of the Tumeken|~":{
+				"Items": ["Khopesh of the Kharidian", "Blessing of the sand", "Blessing of the sky", "Blessing of the sea"],
+				"Level": 92,
+				"Outputs": "Khopesh of the tumeken",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|khopesh of the Elidinis|~":{
+				"Items": ["Off-hand khopesh of the kharidian", "Blessing of the sand", "Blessing of the sky", "Blessing of the sea"],
+				"Level": 92,
+				"Outputs": "Khopesh of the Elidinis",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft a ~|dinosaurhide body|~":{
+				"Items": ["Dinosaur scale", "Dinosaur leather", "Thread"],
+				"Level": 93,
+				"Outputs": "Dinosaurhide body",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft ~|dinosaurhide boots|~":{
+				"Items": ["Dinosaur scale", "Dinosaur leather", "Thread"],
+				"Level": 93,
+				"Outputs": "Dinosaurhide boots",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft ~|dinosaurhide chaps|~":{
+				"Items": ["Dinosaur scale", "Dinosaur leather", "Thread"],
+				"Level": 93,
+				"Outputs": "Dinosaurhide chaps",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|dinosaurhide cowl|~":{
+				"Items": ["Dinosaur scale", "Dinosaur leather", "Thread"],
+				"Level": 93,
+				"Outputs": "Dinosaurhide cowl",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft ~|dinosaurhide gloves|~":{
+				"Items": ["Dinosaur scale", "Dinosaur leather", "Thread"],
+				"Level": 93,
+				"Outputs": "Dinosaurhide gloves",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft ~|extra fine sand|~": {
+				"Items": ["Sandstone+"],
+				"Level": 20,
+				"Outputs": "Extra fine sand",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft ~|blessed molten glass|~": {
+				"Items": ["Blessed sand", "Soda ash", "Red sandstone", "Crystal-flecked sandstone (ore)"],
+				"Level": 50,
+				"Outputs": "Blessed molten glass",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft ~|blessed molten glass (azure)|~": {
+				"Items": ["Blessed molten glass", "Sapphire bolt tips", "Mithril stone spirit", "Dark animica stone spirit"],
+				"Level": 80,
+				"Outputs": "Blessed molten glass (azure)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft ~|blessed molten glass (golden)|~": {
+				"Items": ["Blessed molten glass", "Hydrix bolt tips", "Gold stone spirit", "Luminite stone spirit"],
+				"Level": 80,
+				"Outputs": "Blessed molten glass (golden)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft a ~|gem bag (upgraded)|~": {
+				"Items": ["Gem bag"],
+				"NPCs": ["Rewards trader"],
+				"Level": 45,
+				"Outputs": "Gem bag (upgraded)",
+				"Skills": {
+					"Dungeoneering": 40
+				},
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft an ~|artificer's measure|~": {
+				"Items": ["Pasaha", "Dragon scalpel", "Orthenglass flask", "Protective goggles", "Magiic stone", "Gem bag (upgraded)", "Mystic cloth", "Blessed molten glass", "Glorious silvthril chain", "Onyx"],
+				"Level": 99,
+				"Outputs": "Artificer's measure",
+				"Primary": true,
+				"Skills": {
+					"Archaeology": 102
+				},
+				"Priority": 3
+			},
+			"Craft a ~|broodoo shield (blue)|~": {
+				"Items": ["Tribal mask (blue)", "Snakeskin", "Nails+"],
+				"Level": 35,
+				"Outputs": "Broodoo shield (blue)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|broodoo shield (green)|~": {
+				"Items": ["Tribal mask (green)", "Snakeskin", "Nails+"],
+				"Level": 35,
+				"Outputs": "Broodoo shield (green)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|broodoo shield (orange)|~": {
+				"Items": ["Tribal mask (orange)", "Snakeskin", "Nails+"],
+				"Level": 35,
+				"Outputs": "Broodoo shield (orange)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Craft a ~|fungal visor|~": {
+				"Items": ["Mycelium visor web", "Fungal flake", "Thread"],
+				"Level": 3,
+				"Outputs": "Fungal visor",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft ~|fungal leggings|~": {
+				"Items": ["Mycelium leggings web", "Fungal flake", "Thread"],
+				"Level": 12,
+				"Outputs": "Fungal leggings",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|fungal poncho|~": {
+				"Items": ["Mycelium poncho web", "Fungal flake", "Thread"],
+				"Level": 21,
+				"Outputs": "Fungal poncho",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|grifolic visor|~": {
+				"Items": ["Mycelium visor web", "Grifolic flake", "Thread"],
+				"Level": 65,
+				"Outputs": "Grifolic visor",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|grifolic leggings|~": {
+				"Items": ["Mycelium leggings web", "Grifolic flake", "Thread"],
+				"Level": 72,
+				"Outputs": "Grifolic leggings",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|grifolic poncho|~": {
+				"Items": ["Mycelium poncho web", "Grifolic flake", "Thread"],
+				"Level": 78,
+				"Outputs": "Grifolic poncho",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|ganodermic visor|~": {
+				"Items": ["Mycelium visor web", "Ganodermic flake", "Thread"],
+				"Level": 86,
+				"Outputs": "Ganodermic visor",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft ~|ganodermic leggings|~": {
+				"Items": ["Mycelium leggings web", "Ganodermic flake", "Thread"],
+				"Level": 92,
+				"Outputs": "Ganodermic leggings",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft a ~|ganodermic poncho|~": {
+				"Items": ["Mycelium poncho web", "Ganodermic flake", "Thread"],
+				"Level": 98,
+				"Outputs": "Ganodermic poncho",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|pyre ship|~": {
+				"Items": ["Logs", "Mangled bones"],
+				"Level": 11,
+				"Skills": {
+					"Firemaking": 11
+				},
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create an achey ~|pyre ship|~": {
+				"Items": ["Achey tree logs", "Mangled bones"],
+				"Level": 11,
+				"Skills": {
+					"Firemaking": 11
+				},
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create an oak ~|pyre ship|~": {
+				"Items": ["Oak logs", "Mangled bones"],
+				"Level": 25,
+				"Skills": {
+					"Firemaking": 25
+				},
+				"Primary": true,
+				"Priority": 7
+			},
+			"Create a willow ~|pyre ship|~": {
+				"Items": ["Willow logs", "Mangled bones"],
+				"Level": 40,
+				"Skills": {
+					"Firemaking": 40
+				},
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a teak ~|pyre ship|~": {
+				"Items": ["Teak logs", "Mangled bones"],
+				"Level": 45,
+				"Skills": {
+					"Firemaking": 45
+				},
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a arctic pine ~|pyre ship|~": {
+				"Items": ["Arctic pine logs", "Mangled bones"],
+				"Level": 52,
+				"Skills": {
+					"Firemaking": 52
+				},
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a maple ~|pyre ship|~": {
+				"Items": ["Maple logs", "Mangled bones"],
+				"Level": 55,
+				"Skills": {
+					"Firemaking": 55
+				},
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a mahogany ~|pyre ship|~": {
+				"Items": ["Mahogany logs", "Mangled bones"],
+				"Level": 60,
+				"Skills": {
+					"Firemaking": 60
+				},
+				"Primary": true,
+				"Priority": 9
+			},
+			"Create a eucalyptus ~|pyre ship|~": {
+				"Items": ["Eucalyptus logs", "Mangled bones"],
+				"Level": 68,
+				"Skills": {
+					"Firemaking": 68
+				},
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a yew ~|pyre ship|~": {
+				"Items": ["Yew logs", "Mangled bones"],
+				"Level": 70,
+				"Skills": {
+					"Firemaking": 70
+				},
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a magic ~|pyre ship|~": {
+				"Items": ["Magic logs", "Mangled bones"],
+				"Level": 85,
+				"Skills": {
+					"Firemaking": 85
+				},
+				"Primary": true,
+				"Priority": 22
+			},
+			"Create a elder ~|pyre ship|~": {
+				"Items": ["Elder logs", "Mangled bones"],
+				"Level": 99,
+				"Skills": {
+					"Firemaking": 99
+				},
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|pyre ship|~ with chewed bones": {
+				"Items": ["Elder logs", "Chewed bones"],
+				"Level": 11,
+				"Skills": {
+					"Firemaking": 11
+				},
+				"Output": "PyreChew",
+				"Primary": true,
+				"Priority": 5
 			}
 		},
 		"Defence": {
@@ -4095,6 +7130,17 @@
 					"Magic": 80
 				},
 				"Priority": 4
+			},
+			"Craft ~|gem bag (upgraded)|~": {
+				"Items": ["Gem bag"],
+				"NPCs": ["Rewards trader"],
+				"Level": 40,
+				"Outputs": "Gem bag (upgraded)",
+				"Skills": {
+					"Crafting": 45
+				},
+				"Primary": true,
+				"Priority": 1
 			}
 		},
 		"Farming": {
@@ -4248,6 +7294,124 @@
 				"Output": "Lit bug lantern",
 				"Primary": false,
 				"Priority": 1
+			},
+			"Create a ~|pyre ship|~": {
+				"Items": ["Logs", "Mangled bones"],
+				"Level": 11,
+				"Skills": {
+					"Crafting": 11
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create an achey ~|pyre ship|~": {
+				"Items": ["Achey tree logs", "Mangled bones"],
+				"Level": 11,
+				"Skills": {
+					"Crafting": 11
+				},
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create an oak ~|pyre ship|~": {
+				"Items": ["Oak logs", "Mangled bones"],
+				"Level": 25,
+				"Skills": {
+					"Crafting": 25
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a willow ~|pyre ship|~": {
+				"Items": ["Willow logs", "Mangled bones"],
+				"Level": 40,
+				"Skills": {
+					"Crafting": 40
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a teak ~|pyre ship|~": {
+				"Items": ["Teak logs", "Mangled bones"],
+				"Level": 45,
+				"Skills": {
+					"Crafting": 45
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a arctic pine ~|pyre ship|~": {
+				"Items": ["Arctic pine logs", "Mangled bones"],
+				"Level": 52,
+				"Skills": {
+					"Crafting": 52
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a maple ~|pyre ship|~": {
+				"Items": ["Maple logs", "Mangled bones"],
+				"Level": 55,
+				"Skills": {
+					"Crafting": 55
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a mahogany ~|pyre ship|~": {
+				"Items": ["Mahogany logs", "Mangled bones"],
+				"Level": 60,
+				"Skills": {
+					"Crafting": 60
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a eucalyptus ~|pyre ship|~": {
+				"Items": ["Eucalyptus logs", "Mangled bones"],
+				"Level": 68,
+				"Skills": {
+					"Crafting": 68
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a yew ~|pyre ship|~": {
+				"Items": ["Yew logs", "Mangled bones"],
+				"Level": 70,
+				"Skills": {
+					"Crafting": 70
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a magic ~|pyre ship|~": {
+				"Items": ["Magic logs", "Mangled bones"],
+				"Level": 85,
+				"Skills": {
+					"Crafting": 85
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a elder ~|pyre ship|~": {
+				"Items": ["Elder logs", "Mangled bones"],
+				"Level": 99,
+				"Skills": {
+					"Crafting": 99
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|pyre ship|~ with chewed bones": {
+				"Items": ["Elder logs", "Chewed bones"],
+				"Level": 11,
+				"Skills": {
+					"Crafting": 11
+				},
+				"Output": "PyreChew",
+				"Primary": true,
+				"Priority": 3
 			}
 		},
 		"Fishing": {
@@ -5032,6 +8196,16 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Craft a ~|blessed flask|~":{
+				"Items": ["Blessed flask shell", "Glorious silvthril chain", "Holy elixir", "Holy water", "Light core", "Holy overload potion (6)", "Extreme prayer (4)", "Postive energy"],
+				"Level": 118,
+				"Skills":{
+					"Crafting": 96
+				},
+				"Outputs": "Blessed flask",
+				"Primary": true,
+				"Priority": 1
 			}
 		},
 		"Hunter": {
@@ -5227,7 +8401,19 @@
 				"Priority": 1
 			}
 		},
-		"Invention": {},
+		"Invention": {
+			"Create an ~|alchemical onyx|~":{
+				"Items": ["Oynx","Fortunate components","Refined components","Precious components"],
+				"Level": 107,
+				"Skills":{
+					"Invention": 80
+				},
+				"Outputs": "Alchemical onyx",
+				"Objects":"Inventor's workbench",
+				"Primary": true,
+				"Priority": 1
+			}
+		},
 		"Magic": {
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 70,
@@ -9103,6 +12289,13 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 3
+			},
+			"Bless ~|extra fine sand|~": {
+				"Items": ["Extra fine sand"],
+				"Level": 20,
+				"Output": "Blessed sand",
+				"Primary": true,
+				"Priority": 2
 			}
 		},
 		"Ranged": {
@@ -11407,6 +14600,106 @@
 				"Level": 95,
 				"Primary": false,
 				"Priority": 2
+			},
+			"Craft ~|wizard book|~":{
+				"Items": ["Strip of cloth", "Thread"],
+				"Level": 1,
+				"Outputs": "Wizard book",
+				"Skills":{
+					"Crafting": 1
+				},
+				"Primary": true,
+				"Priority": 11
+			},
+			"Craft ~|wizard wand|~":{
+				"Items": ["Strip of cloth", "Thread", "Logs"],
+				"Level": 1,
+				"Outputs": "Wizard wand",
+				"Skills":{
+					"Crafting": 1
+				},
+				"Primary": true,
+				"Priority": 12
+			},
+			"Craft an ~|imphide book|~": {
+				"Items": ["Imphide", "Thread"],
+				"Level": 10,
+				"Outputs": "Imphide book",
+				"Skills": {
+					"Crafting": 15
+				},
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft ~|imphide wand|~": {
+				"Items": ["Imphide", "Thread", "Logs"],
+				"Level": 10,
+				"Outputs": "Imphide wand",
+				"Skills": {
+					"Crafting": 16
+				},
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft ~|spider silk orb|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 20,
+				"Outputs": "Spider silk orb",
+				"Skills": {
+					"Crafting": 25
+				},
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft ~|spider silk wand|~": {
+				"Items": ["Spider silk", "Thread"],
+				"Level": 20,
+				"Outputs": "Spider silk wand",
+				"Skills": {
+					"Crafting": 26
+				},
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|batwing book|~": {
+				"Items": ["Batwing", "Thread"],
+				"Level": 30,
+				"Outputs": "Batwing book",
+				"Skills":{
+					"Crafting": 36
+				},
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|batwing wand|~": {
+				"Items": ["Batwing wand", "Thread", "Logs"],
+				"Level": 30,
+				"Outputs": "Batwing wand",
+				"Skills":{
+					"Crafting": 37
+				},
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|mystic orb|~": {
+				"Items": ["Mystic cloth", "Thread"],
+				"Level": 50,
+				"Outputs": "Mystic orb",
+				"Skills":{
+					"Crafting": 56
+				},
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|mystic wand|~": {
+				"Items": ["Mystic wand", "Thread", "Logs"],
+				"Level": 50,
+				"Outputs": "Mystic wand",
+				"Skills":{
+					"Crafting": 57
+				},
+				"Primary": true,
+				"Priority": 7
 			}
 		},
 		"Slayer": {
@@ -12812,6 +16105,30 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 8
+			},
+			"Slay an ~|abyssal savage|~": {
+				"Level": 95,
+				"Monsters": ["Abyssal savage"],
+				"Primary": false,
+				"Priority": 11,
+				"Source": "drop",
+				"Output": "Abyssal savage"
+			},
+			"Slay an ~|abyssal beast|~": {
+				"Level": 105,
+				"Monsters": ["Abyssal beast"],
+				"Primary": false,
+				"Priority": 3,
+				"Source": "drop",
+				"Output": "Abyssal beast"
+			},
+			"Slay an ~|abyssal lord|~": {
+				"Level": 115,
+				"Monsters": ["Abyssal lord"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Abyssal lord"
 			}
 		},
 		"Smithing": {
@@ -13499,7 +16816,7 @@
 				"Objects": ["Forge", "Anvil"],
 				"Output": "Orthen furnace core",
 				"Skills": {
-					"Archeology": 102
+					"Archaeology": 102
 				},
 				"Primary": true,
 				"Priority": 13
@@ -16030,7 +19347,7 @@
 			},
 			"Pickpocket a ~|master farmer|~": {
 				"Level": 38,
-				"NPCs": ["Master farmer+"],
+				"NPCs": ["Master Farmers+"],
 				"Output": "Master farmer",
 				"Primary": true,
 				"Priority": 1
@@ -17043,6 +20360,16 @@
 				"Output": "Magic logs",
 				"Primary": false,
 				"Priority": 2
+			},
+			"Craft a ~|fremennik round shield|~": {
+				"Items": ["Artic pine logs", "Bronze nails", "Rope"],
+				"Level": 54,
+				"Outputs": "Fremennik round shield",
+				"Skills":{
+					"Crafting": 43
+				},
+				"Primary": false,
+				"Priority": 2
 			}
 		},
 		"Quests": {},
@@ -17158,6 +20485,80 @@
 			"Create a ~|super explosive shaker|~": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
+			},
+			"Create an ~|airtight pot|~": {
+				"Items": ["Pot lid", "Empty pot"],
+				"Output": "Airtight pot"
+			},
+			"Create ~|robust glass|~": {
+				"Items": ["Red sandstone"],
+				"Objects": ["Robust glass machine"],
+				"Output": "Robust glass"
+			},
+			"Create ~|crystal glass|~": {
+				"Items": ["Crystal-flecked sandstone (ore)"],
+				"Objects": ["Robust glass machine"],
+				"Output": "Crystal glass"
+			},
+			"Tan ~|leather|~": {
+				"Items": ["Cowhide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Leahter"
+			},
+			"Tan ~|hard leather|~": {
+				"Items": ["Cowhide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Hard leather"
+			},
+			"Tan ~|snakeskin|~ from snake hide": {
+				"Items": ["Snake hide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Snakeskin"
+			},
+			"Tan ~|snakeskin|~ from snake hide (swamp)": {
+				"Items": ["Snake hide (swamp)"],
+				"NPCs": ["Tanner+"],
+				"Output": "Snakeskin"
+			},
+			"Tan ~|green dragon leather|~": {
+				"Items": ["Green dragonhide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Green dragon leather"
+			},
+			"Tan ~|blue dragon leather|~": {
+				"Items": ["Blue dragonhide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Blue dragon leather"
+			},
+			"Tan ~|red dragon leather|~": {
+				"Items": ["Red dragonhide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Red dragon leather"
+			},
+			"Tan ~|black dragon leather|~": {
+				"Items": ["Black dragonhide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Black dragon leather"
+			},
+			"Tan ~|royal dragon leather|~": {
+				"Items": ["Royal dragonhide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Royal dragon leather"
+			},
+			"Tan ~|dinosaur leather|~": {
+				"Items": ["Dinosaur hide"],
+				"NPCs": ["Tanner+"],
+				"Output": "Dinosaur leather"
+			},
+			"Cure ~|yak-hide|~": {
+				"Items": ["Yak-hide"],
+				"NPCs": ["Thakkrad Sigmundson"],
+				"Output": "Cured yak-hide"
+			},
+			"Create ~|sacred oil|~": {
+				"Items": ["OliveOil+"],
+				"Objects": ["Flamtaer shrine"],
+				"Output": "SacredOils"
 			}
 		}
 	},
@@ -29856,7 +33257,8 @@
 				"Fire": 2,
 				"Crate": 5,
 				"Eucalyptus tree": 4,
-				"Red sandstone (rock)": 1
+				"Red sandstone (rock)": 1,
+				"Robust glass machine": 1
 			},
 			"NPC": {
 				"Teplin Macagan": 1,
@@ -40059,7 +43461,8 @@
 				"Fremennik shipmaster": 1,
 				"Fisherman": 1,
 				"Ysondria": 1,
-				"Wizard Chambers": 1
+				"Wizard Chambers": 1,
+				"Xenia": 1
 			},
 			"Monster": {
 				"Giant rat": 8
@@ -40153,7 +43556,9 @@
 				"Samuel LeBaux": 1,
 				"Jambon": 1,
 				"Fortuneteller": 1,
-				"Jacquelyn": 1
+				"Jacquelyn": 1,
+				"Guard": 1,
+				"Elite Lumbridge guardsman": 2
 			},
 			"Monster": {
 				"Duck": 11,
@@ -40163,9 +43568,7 @@
 				"Woman": 6,
 				"Goblin": 28,
 				"Giant spider": 2,
-				"Cow": 5,
-				"Guard": 1,
-				"Elite Lumbridge guardsman": 2
+				"Cow": 5
 			},
 			"Connect": {
 				"12950": true
@@ -42919,9 +46322,6 @@
 				"Church organ": 1,
 				"Chest": 1,
 				"Dead tree": 12,
-				"Slayer Tower": 1,
-				"Canifis": 1,
-				"Paterdomus": 1,
 				"Danger sign": 1,
 				"Tree": 1,
 				"Altar": 1,
@@ -43388,10 +46788,7 @@
 				"Broken Wall": 15,
 				"Funeral Pyre": 24,
 				"Swamp tree": 43,
-				"Flamtaer shrine": 1,
-				"Barrows, Meiyerditch": 1,
-				"Burgh de Rott": 1,
-				"Mort Myre": 1
+				"Flamtaer shrine": 1
 			},
 			"NPC": {
 				"Will o' the wisp": 14,
@@ -43467,9 +46864,7 @@
 			"Object": {
 				"Crate": 8,
 				"Old Bookshelf": 2,
-				"Bank booth": 6,
-				"Fenkenstrain's Castle, Port Phasmatys": 1,
-				"Mort Myre, Paterdomus": 1
+				"Bank booth": 6
 			},
 			"NPC": {
 				"Will o' the wisp": 45,
@@ -43923,9 +47318,7 @@
 				"Memorial": 2,
 				"Grave": 2,
 				"Lightning conductor": 1,
-				"Swamp tree": 70,
-				"Port Phasmatys": 1,
-				"Canifis, Slayer Tower": 1
+				"Swamp tree": 70
 			},
 			"NPC": {
 				"Gardener Ghost": 1,
@@ -59462,7 +62855,7 @@
 		},
 		"Columbarium": {
 			"Object": {
-				"Funeral pyre": 7,
+				"Funeral pyre (columbarium)": 7,
 				"Wooden recess": 6,
 				"Lectern": 1
 			},
@@ -62230,7 +65623,9 @@
 			"SnakeHide+": ["Snake hide", "Snake hide (swamp)"],
 			"DragonFocus+": ["Dragon bones", "Baby dragon bones", "Dragonkin bones", "Blue dragon scale", "Blue dragonhide", "Green dragonhide", "Red dragonhide", "Black dragonhide", "Royal dragonhide", "King black dragon head"],
 			"WallasalkiFocus+": ["Skull piece", "Fibula piece", "Ribcage piece"],
-			"LunarTraps+": ["Box trap", "Tortle trap", "Marasamaw plant", "Electrified traps"]
+			"LunarTraps+": ["Box trap", "Tortle trap", "Marasamaw plant", "Electrified traps"],
+			"Sandstone+": ["Sandstone (1kg)", "Sandstone (2kg)", "Sandstone (5kg)", "Sandstone (10kg)"],
+			"OliveOil+": ["Olive oil (1)", "Olive oil (2)", "Olive oil (3)", "Olive oil (4)"]
 	},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -62259,7 +65654,8 @@
 		},
 		"npcsPlus": {
 			"Wisp+": ["Pale wisp", "Cursed wisp"],
-			"Master farmers+": ["Master farmer", "Martin the Master Gardener"]
+			"Master Farmers+": ["Master Farmer", "Martin the Master Gardener"],
+			"Tanner+": ["Tanner", "Ellis", "Sbott", "Tanya Hyde"]
 		},
 		"rangedItems": [
 			["Chargebow"],
@@ -87241,6 +90637,34 @@
 				"Compected vines": "Rare",
 				"Dinosaur rib bone": "1/1000",
 				"Essential oils": "1/1800"
+			}
+		},
+		"Crafting": {
+			"Pyrechew": {
+				"Death rune": "Common",
+				"Blood rune": "Common",
+				"Prayer mix (2)": "Common",
+				"Prayer mix (1)": "Common",
+				"Ranarr potion (unf)": "Common",
+				"Super antipoison mix (1)": "Common",
+				"Super antipoison mix (2)": "Common",
+				"Super strength mix (1)": "Common",
+				"Mithril grapple": "Common",
+				"Silver bolts": "Common",
+				"Rune arrow": "Common",
+				"Adamant dart": "Common",
+				"Diamond": "Uncommon",
+				"Super attack mix (2)": "Uncommon",
+				"Super attack mix (1)": "Uncommon",
+				"Super defence mix (2)": "Uncommon",
+				"Super defence mix (1)": "Uncommon",
+				"Antifire mix (2)": "Uncommon",
+				"Antifire mix (1)": "Uncommon",
+				"Rune bolts": "Uncommon",
+				"Adamant knife": "Uncommon",
+				"Big bones": "Rare",
+				"Fishing mix (2)": "Rare",
+				"Dragon full helm": "1/250"
 			}
 		},
 		"Divination": {
