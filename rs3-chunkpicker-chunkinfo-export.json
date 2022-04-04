@@ -4588,13 +4588,13 @@
 				"Priority": 5
 			},
 			"Create an ~|alchemical onyx|~":{
-				"Items": ["Oynx","Fortunate components","Refined components","Precious components"],
+				"Items": ["Oynx", "Fortunate components", "Refined components", "Precious components"],
 				"Level": 80,
-				"Skills":{
+				"Skills": {
 					"Invention": 107
 				},
 				"Outputs": "Alchemical onyx",
-				"Objects":"Inventor's workbench",
+				"Objects": "Inventor's workbench",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -8403,13 +8403,13 @@
 		},
 		"Invention": {
 			"Create an ~|alchemical onyx|~":{
-				"Items": ["Oynx","Fortunate components","Refined components","Precious components"],
+				"Items": ["Oynx", "Fortunate components", "Refined components", "Precious components"],
 				"Level": 107,
-				"Skills":{
-					"Invention": 80
+				"Skills": {
+					"Crafting": 80
 				},
 				"Outputs": "Alchemical onyx",
-				"Objects":"Inventor's workbench",
+				"Objects": "Inventor's workbench",
 				"Primary": true,
 				"Priority": 1
 			}
