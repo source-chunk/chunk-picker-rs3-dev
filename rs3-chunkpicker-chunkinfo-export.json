@@ -4594,7 +4594,7 @@
 					"Invention": 107
 				},
 				"Outputs": "Alchemical onyx",
-				"Objects": "Inventor's workbench",
+				"Objects": ["Inventor's workbench"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -8409,7 +8409,7 @@
 					"Crafting": 80
 				},
 				"Outputs": "Alchemical onyx",
-				"Objects": "Inventor's workbench",
+				"Objects": ["Inventor's workbench"],
 				"Primary": true,
 				"Priority": 1
 			}
