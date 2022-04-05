@@ -1573,6 +1573,13 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Repair the ~|Beacon Network|~ beacon near the Wilderness temple (construction)": {
+				"Chunks": ["11835"],
+				"Items": ["Plank", "Nails+"],
+				"Level": 59,
+				"Primary": true,
+				"Priority": 1
 			}
 		},
 		"Cooking": {
@@ -1680,6 +1687,46 @@
 					"Magic": 65
 				},
 				"Priority": 1
+			},
+			"Cook ~|skewered bird meat|~": {
+				"Items": ["Skewered bird meat"],
+				"Level": 11,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Roast bird meat",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cook a ~|skewered rabbit|~": {
+				"Items": ["Skewered rabbit"],
+				"Level": 16,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Roast rabbit",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cook a ~|skewered beast|~": {
+				"Items": ["Skewered beast"],
+				"Level": 21,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Roast beast meat",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cook a ~|skewered chompy|~": {
+				"Items": ["Skewered chompy"],
+				"Level": 30,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Roast chompy",
+				"Primary": false,
+				"Priority": 2
 			}
 		},
 		"Crafting": {
@@ -4874,7 +4921,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Create a arctic pine ~|pyre ship|~": {
+			"Create an arctic pine ~|pyre ship|~": {
 				"Items": ["Arctic pine logs", "Mangled bones"],
 				"Level": 52,
 				"Skills": {
@@ -4901,7 +4948,7 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Create a eucalyptus ~|pyre ship|~": {
+			"Create an eucalyptus ~|pyre ship|~": {
 				"Items": ["Eucalyptus logs", "Mangled bones"],
 				"Level": 68,
 				"Skills": {
@@ -4928,7 +4975,7 @@
 				"Primary": true,
 				"Priority": 22
 			},
-			"Create a elder ~|pyre ship|~": {
+			"Create an elder ~|pyre ship|~": {
 				"Items": ["Elder logs", "Mangled bones"],
 				"Level": 99,
 				"Skills": {
@@ -4987,7 +5034,7 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Create a arctic pine ~|pyre ship|~ using chewed bones": {
+			"Create an arctic pine ~|pyre ship|~ using chewed bones": {
 				"Items": ["Arctic pine logs", "Chewed bones"],
 				"Level": 52,
 				"Skills": {
@@ -5017,7 +5064,7 @@
 				"Primary": true,
 				"Priority": 10
 			},
-			"Create a eucalyptus ~|pyre ship|~ using chewed bones": {
+			"Create an eucalyptus ~|pyre ship|~ using chewed bones": {
 				"Items": ["Eucalyptus logs", "Chewed bones"],
 				"Level": 68,
 				"Skills": {
@@ -5047,7 +5094,7 @@
 				"Primary": true,
 				"Priority": 23
 			},
-			"Create a elder ~|pyre ship|~ using chewed bones": {
+			"Create an elder ~|pyre ship|~ using chewed bones": {
 				"Items": ["Elder logs", "Chewed bones"],
 				"Level": 99,
 				"Skills": {
@@ -5056,6 +5103,13 @@
 				"Output": "PyreChew",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Repair the wind break for the ~|Beacon|~ near the God Wars Dungeon": {
+				"Chunks": ["11578"],
+				"Items": ["Jute fibre"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 11
 			}
 		},
 		"Defence": {
@@ -7416,7 +7470,7 @@
 				"Priority": 4
 			},
 			"Craft ~|wooden incense sticks|~": {
-				"Items": ["Normal logs"],
+				"Items": ["Logs"],
 				"Level": 1,
 				"Output": "Wooden incense sticks",
 				"Primary": true,
@@ -7442,7 +7496,7 @@
 			"Burn an ~|evil tree (normal)|~": {
 				"Items": ["Evil tree kindling"],
 				"Level": 1,
-				"Objects": "Evil tree",
+				"Objects": ["Evil tree"],
 				"Primary": true,
 				"Priority": 8
 			},
@@ -7523,7 +7577,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre)",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -7533,7 +7587,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -7607,7 +7661,7 @@
 			"Burn an ~|evil oak tree|~": {
 				"Items": ["Evil tree kindling"],
 				"Level": 15,
-				"Objects": "Evil oak tree",
+				"Objects": ["Evil oak tree"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -7665,7 +7719,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 6
 			},
@@ -7675,7 +7729,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 7
@@ -7779,7 +7833,7 @@
 			"Burn an ~|evil willow tree|~": {
 				"Items": ["Evil tree kindling"],
 				"Level": 30,
-				"Objects": "Evil willow tree",
+				"Objects": ["Evil willow tree"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -7862,7 +7916,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -7872,7 +7926,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 5
@@ -7883,7 +7937,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 6
@@ -7917,7 +7971,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -7927,7 +7981,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -7938,7 +7992,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -7949,7 +8003,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre (columbarium)",
+				"Objects": ["Funeral pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -8057,7 +8111,7 @@
 			"Burn an ~|evil maple tree|~": {
 				"Items": ["Evil tree kindling"],
 				"Level": 45,
-				"Objects": "Evil maple tree",
+				"Objects": ["Evil maple tree"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -8094,7 +8148,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8104,7 +8158,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -8115,7 +8169,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -8126,7 +8180,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre (columbarium)",
+				"Objects": ["Funeral pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -8232,7 +8286,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -8242,7 +8296,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 5
@@ -8253,7 +8307,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 6
@@ -8264,7 +8318,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre (columbarium)",
+				"Objects": ["Funeral pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 7
@@ -8292,7 +8346,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a arctic pine ~|pyre ship|~": {
+			"Create an arctic pine ~|pyre ship|~": {
 				"Items": ["Arctic pine logs", "Mangled bones"],
 				"Level": 52,
 				"Skills": {
@@ -8301,7 +8355,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a arctic pine ~|pyre ship|~ using chewed bones": {
+			"Create an arctic pine ~|pyre ship|~ using chewed bones": {
 				"Items": ["Arctic pine logs", "Chewed bones"],
 				"Level": 52,
 				"Skills": {
@@ -8339,7 +8393,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8349,7 +8403,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -8360,7 +8414,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -8371,7 +8425,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre (columbarium)",
+				"Objects": ["Funeral pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -8455,7 +8509,7 @@
 			"Burn an ~|evil yew tree|~": {
 				"Items": ["Evil tree kindling"],
 				"Level": 60,
-				"Objects": "Evil yew tree",
+				"Objects": ["Evil yew tree"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -8530,7 +8584,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8540,7 +8594,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -8551,7 +8605,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -8562,7 +8616,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre (columbarium)",
+				"Objects": ["Funeral pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -8573,7 +8627,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 6
@@ -8592,7 +8646,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8602,7 +8656,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -8613,7 +8667,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -8624,7 +8678,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre (columbarium)",
+				"Objects": ["Funeral pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -8635,7 +8689,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 6
@@ -8686,7 +8740,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a eucalyptus ~|pyre ship|~": {
+			"Create an eucalyptus ~|pyre ship|~": {
 				"Items": ["Eucalyptus logs", "Mangled bones"],
 				"Level": 68,
 				"Skills": {
@@ -8695,7 +8749,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a eucalyptus ~|pyre ship|~ using chewed bones": {
+			"Create an eucalyptus ~|pyre ship|~ using chewed bones": {
 				"Items": ["Eucalyptus logs", "Chewed bones"],
 				"Level": 68,
 				"Skills": {
@@ -8773,7 +8827,7 @@
 			"Burn an ~|evil magic tree|~": {
 				"Items": ["Evil tree kindling"],
 				"Level": 75,
-				"Objects": "Evil magic tree",
+				"Objects": ["Evil magic tree"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -8831,11 +8885,8 @@
 			},
 			"Light the ~|Beacon Network|~ beacon near Burthorpe": {
 				"Chunks": ["11575"],
-				"Items": ["Logs+", "Iron bar"],
+				"Items": ["Logs+"],
 				"Level": 76,
-				"Skills": {
-					"Smithing": 56
-				},
 				"Primary": true,
 				"Priority": 3
 			},
@@ -8849,11 +8900,8 @@
 			},
 			"Light the ~|Beacon Network|~ beacon near Death Plateau": {
 				"Chunks": ["11832"],
-				"Items": ["Logs+", "Plank", "Nails+"],
+				"Items": ["Logs+"],
 				"Level": 79,
-				"Skills": {
-					"Construction": 42
-				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -8877,7 +8925,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8887,7 +8935,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -8898,7 +8946,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -8909,7 +8957,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre (columbarium)",
+				"Objects": ["Funeral pyre (columbarium)"],
 				"Output": "Shiny columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -8920,7 +8968,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 6
@@ -8931,7 +8979,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "FiyrRemains",
 				"Primary": true,
 				"Priority": 7
@@ -8969,9 +9017,6 @@
 				"Chunks": ["11577"],
 				"Items": ["Logs+"],
 				"Level": 83,
-				"Skills": {
-					"Agility": 64
-				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8996,34 +9041,17 @@
 			},
 			"Light the ~|Beacon Network|~ beacon near the God Wars Dungeon": {
 				"Chunks": ["11578"],
-				"Items": ["Logs+, Jute fibre"],
+				"Items": ["Logs+"],
 				"Level": 87,
-				"Skills": {
-					"Agility": 64,
-					"Crafting": 60
-				},
 				"Primary": true,
 				"Priority": 1
 			},
-			"Light the ~|Beacon Network|~ beacon near the Wilderness temple (smithing)": {
+			"Light the ~|Beacon Network|~ beacon near the Wilderness temple": {
 				"Chunks": ["11835"],
-				"Items": ["Logs+, Iron bar"],
+				"Items": ["Logs+"],
 				"Level": 89,
-				"Skills": {
-					"Smithing": 70
-				},
 				"Primary": true,
 				"Priority": 1
-			},
-			"Light the ~|Beacon Network|~ beacon near the Wilderness temple (construction)": {
-				"Chunks": ["11835"],
-				"Items": ["Logs+, Plank, Nails+"],
-				"Level": 89,
-				"Skills": {
-					"Construction": 59
-				},
-				"Primary": true,
-				"Priority": 2
 			},
 			"Light a fire using ~|elder logs|~": {
 				"Items": ["Elder logs"],
@@ -9042,7 +9070,7 @@
 			"Burn an ~|evil elder tree|~": {
 				"Items": ["Evil tree kindling"],
 				"Level": 90,
-				"Objects": "Evil elder tree",
+				"Objects": ["Evil elder tree"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -9119,7 +9147,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -9129,7 +9157,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -9140,7 +9168,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -9151,7 +9179,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre (columbarium)",
+				"Objects": ["Funeral pyre (columbarium)"],
 				"Output": "Shiny columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -9162,7 +9190,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 6
@@ -9173,7 +9201,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "FiyrRemains",
 				"Primary": true,
 				"Priority": 7
@@ -9184,7 +9212,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": "Funeral pyre",
+				"Objects": ["Funeral pyre"],
 				"Output": "TorturedSoul",
 				"Primary": true,
 				"Priority": 8
@@ -9211,7 +9239,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a elder ~|pyre ship|~": {
+			"Create an elder ~|pyre ship|~": {
 				"Items": ["Elder logs", "Mangled bones"],
 				"Level": 99,
 				"Skills": {
@@ -9220,7 +9248,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a elder ~|pyre ship|~ using chewed bones": {
+			"Create an elder ~|pyre ship|~ using chewed bones": {
 				"Items": ["Elder logs", "Chewed bones"],
 				"Level": 99,
 				"Skills": {
@@ -14127,6 +14155,592 @@
 				"Output": "Blessed sand",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Craft ~|impious incense sticks|~": {
+				"Items": ["Wooden incense sticks", "Impious ashes"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 1
+				},
+				"Output": "Impious incense sticks",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Burn Loar remains using ~|pyre logs|~": {
+				"Items": ["Loar remains", "Pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 6
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 2
+			},
+			"Burn Phrin remains using ~|pyre logs|~": {
+				"Items": ["Phrin remains", "Pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 6
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Burn Loar remains using ~|oak pyre logs|~": {
+				"Items": ["Loar remains", "Oak pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 4
+			},
+			"Burn Phrin remains using ~|oak pyre logs|~": {
+				"Items": ["Phrin remains", "Oak pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft ~|impious oak incense sticks|~": {
+				"Items": ["Oak incense sticks", "Impious ashes"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Impious oak incense sticks",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft ~|impious willow incense sticks|~": {
+				"Items": ["Willow incense sticks", "Impious ashes"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 30
+				},
+				"Output": "Impious willow incense sticks",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Burn Loar remains using ~|willow pyre logs|~": {
+				"Items": ["Loar remains", "Willow pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 35
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 8
+			},
+			"Burn Phrin remains using ~|willow pyre logs|~": {
+				"Items": ["Phrin remains", "Willow pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 35
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Burn Riyl remains using ~|willow pyre logs|~": {
+				"Items": ["Riyl remains", "Willow pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 35
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Burn Loar remains using ~|teak pyre logs|~": {
+				"Items": ["Loar remains", "Teak pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 40
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 11
+			},
+			"Burn Phrin remains using ~|teak pyre logs|~": {
+				"Items": ["Phrin remains", "Teak pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 40
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Burn Riyl remains using ~|teak pyre logs|~": {
+				"Items": ["Riyl remains", "Teak pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 40
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Burn a vyre corpse using ~|teak pyre logs|~": {
+				"Items": ["Vyre corpse", "Teak pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 40
+				},
+				"Objects": ["Funeral pyre (columbarium)"],
+				"Output": "Columbarium key",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Craft ~|accursed maple incense sticks|~": {
+				"Items": ["Maple incense sticks", "Accursed ashes"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 40
+				},
+				"Output": "Accursed maple incense sticks",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Burn Loar remains using ~|arctic pyre logs|~": {
+				"Items": ["Loar remains", "Arctic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 47
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 16
+			},
+			"Burn Phrin remains using ~|arctic pyre logs|~": {
+				"Items": ["Phrin remains", "Arctic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 47
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 17
+			},
+			"Burn Riyl remains using ~|arctic pyre logs|~": {
+				"Items": ["Riyl remains", "Arctic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 47
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 18
+			},
+			"Burn a vyre corpse using ~|arctic pyre logs|~": {
+				"Items": ["Vyre corpse", "Arctic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 47
+				},
+				"Objects": ["Funeral pyre (columbarium)"],
+				"Output": "Columbarium key",
+				"Primary": true,
+				"Priority": 19
+			},
+			"Craft ~|accursed acadia incense sticks|~": {
+				"Items": ["Acadia incense sticks", "Accursed ashes"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 48
+				},
+				"Output": "Accursed acadia incense sticks",
+				"Primary": true,
+				"Priority": 20
+			},
+			"Burn Loar remains using ~|maple pyre logs|~": {
+				"Items": ["Loar remains", "Maple pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 50
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 21
+			},
+			"Burn Phrin remains using ~|maple pyre logs|~": {
+				"Items": ["Phrin remains", "Maple pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 50
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 22
+			},
+			"Burn Riyl remains using ~|maple pyre logs|~": {
+				"Items": ["Riyl remains", "Maple pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 50
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 23
+			},
+			"Burn a vyre corpse using ~|maple pyre logs|~": {
+				"Items": ["Vyre corpse", "Maple pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 50
+				},
+				"Objects": ["Funeral pyre (columbarium)"],
+				"Output": "Columbarium key",
+				"Primary": true,
+				"Priority": 24
+			},
+			"Burn Loar remains using ~|mahogany pyre logs|~": {
+				"Items": ["Loar remains", "Mahogany pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 55
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 25
+			},
+			"Burn Phrin remains using ~|mahogany pyre logs|~": {
+				"Items": ["Phrin remains", "Mahogany pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 55
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 26
+			},
+			"Burn Riyl remains using ~|mahogany pyre logs|~": {
+				"Items": ["Riyl remains", "Mahogany pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 55
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 27
+			},
+			"Burn a vyre corpse using ~|mahogany pyre logs|~": {
+				"Items": ["Vyre corpse", "Mahogany pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 55
+				},
+				"Objects": ["Funeral pyre (columbarium)"],
+				"Output": "Columbarium key",
+				"Primary": true,
+				"Priority": 28
+			},
+			"Burn Loar remains using ~|eucalyptus pyre logs|~": {
+				"Items": ["Loar remains", "Eucalyptus pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 63
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 29
+			},
+			"Burn Phrin remains using ~|eucalyptus pyre logs|~": {
+				"Items": ["Phrin remains", "Eucalyptus pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 63
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 30
+			},
+			"Burn Riyl remains using ~|eucalyptus pyre logs|~": {
+				"Items": ["Riyl remains", "Eucalyptus pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 63
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 31
+			},
+			"Burn a vyre corpse using ~|eucalyptus pyre logs|~": {
+				"Items": ["Vyre corpse", "Eucalyptus pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 63
+				},
+				"Objects": ["Funeral pyre (columbarium)"],
+				"Output": "Columbarium key",
+				"Primary": true,
+				"Priority": 32
+			},
+			"Burn Asyn remains using ~|eucalyptus pyre logs|~": {
+				"Items": ["Asyn remains", "Eucalyptus pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 63
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "AsynRemains",
+				"Primary": true,
+				"Priority": 33
+			},
+			"Burn Loar remains using ~|yew pyre logs|~": {
+				"Items": ["Loar remains", "Yew pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 65
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 34
+			},
+			"Burn Phrin remains using ~|yew pyre logs|~": {
+				"Items": ["Phrin remains", "Yew pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 65
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 35
+			},
+			"Burn Riyl remains using ~|yew pyre logs|~": {
+				"Items": ["Riyl remains", "Yew pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 65
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 36
+			},
+			"Burn a vyre corpse using ~|yew pyre logs|~": {
+				"Items": ["Vyre corpse", "Yew pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 65
+				},
+				"Objects": ["Funeral pyre (columbarium)"],
+				"Output": "Columbarium key",
+				"Primary": true,
+				"Priority": 37
+			},
+			"Burn Asyn remains using ~|yew pyre logs|~": {
+				"Items": ["Asyn remains", "Yew pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 65
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "AsynRemains",
+				"Primary": true,
+				"Priority": 38
+			},
+			"Craft ~|infernal yew incense sticks|~": {
+				"Items": ["Yew incense sticks", "Infernal ashes"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 65
+				},
+				"Output": "Infernal yew incense sticks",
+				"Primary": true,
+				"Priority": 39
+			},
+			"Craft ~|infernal magic incense sticks|~": {
+				"Items": ["Magic incense sticks", "Infernal ashes"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 75
+				},
+				"Output": "Infernal magic incense sticks",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Light the ~|Beacon Network|~ beacon near the Edgeville Monestary": {
+				"Chunks": ["12086"],
+				"Items": ["Logs+"],
+				"Level": 31,
+				"Skills": {
+					"Firemaking": 68
+				},
+				"Primary": true,
+				"Priority": 2
+			},
+			"Burn Loar remains using ~|magic pyre logs|~": {
+				"Items": ["Loar remains", "Magic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 80
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 41
+			},
+			"Burn Phrin remains using ~|magic pyre logs|~": {
+				"Items": ["Phrin remains", "Magic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 80
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 42
+			},
+			"Burn Riyl remains using ~|magic pyre logs|~": {
+				"Items": ["Riyl remains", "Magic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 80
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 43
+			},
+			"Burn a vyre corpse using ~|magic pyre logs|~": {
+				"Items": ["Vyre corpse", "Magic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 80
+				},
+				"Objects": ["Funeral pyre (columbarium)"],
+				"Output": "Shiny columbarium key",
+				"Primary": true,
+				"Priority": 44
+			},
+			"Burn Asyn remains using ~|magic pyre logs|~": {
+				"Items": ["Asyn remains", "Magic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 80
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "AsynRemains",
+				"Primary": true,
+				"Priority": 45
+			},
+			"Burn Fiyr remains using ~|magic pyre logs|~": {
+				"Items": ["Fiyr remains", "Magic pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 80
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "FiyrRemains",
+				"Primary": true,
+				"Priority": 46
+			},
+			"Burn Loar remains using ~|elder pyre logs|~": {
+				"Items": ["Loar remains", "Elder pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Output": "LoarRemains",
+				"Objects": ["Funeral pyre"],
+				"Primary": true,
+				"Priority": 47
+			},
+			"Burn Phrin remains using ~|elder pyre logs|~": {
+				"Items": ["Phrin remains", "Elder pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "PhrinRemains",
+				"Primary": true,
+				"Priority": 48
+			},
+			"Burn Riyl remains using ~|elder pyre logs|~": {
+				"Items": ["Riyl remains", "Elder pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "RiylRemains",
+				"Primary": true,
+				"Priority": 49
+			},
+			"Burn a vyre corpse using ~|elder pyre logs|~": {
+				"Items": ["Vyre corpse", "Elder pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Objects": ["Funeral pyre (columbarium)"],
+				"Output": "Shiny columbarium key",
+				"Primary": true,
+				"Priority": 50
+			},
+			"Burn Asyn remains using ~|elder pyre logs|~": {
+				"Items": ["Asyn remains", "Elder pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "AsynRemains",
+				"Primary": true,
+				"Priority": 51
+			},
+			"Burn Fiyr remains using ~|elder pyre logs|~": {
+				"Items": ["Fiyr remains", "Elder pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "FiyrRemains",
+				"Primary": true,
+				"Priority": 52
+			},
+			"Burn a tortured soul using ~|elder pyre logs|~": {
+				"Items": ["Tortured soul", "Elder pyre logs"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Objects": ["Funeral pyre"],
+				"Output": "TorturedSoul",
+				"Primary": true,
+				"Priority": 53
 			}
 		},
 		"Ranged": {
@@ -15407,6 +16021,9 @@
 			"Wield a ~|hand cannon|~": {
 				"Items": ["Hand cannon"],
 				"Level": 75,
+				"Skills": {
+					"Firemaking": 61
+				},
 				"Primary": false,
 				"Priority": 3
 			},
@@ -18747,6 +19364,13 @@
 				},
 				"Output": "Spectral spirit shield",
 				"Priority": 6
+			},
+			"Repair the ~|Beacon Network|~ beacon near the Wilderness temple (smithing)": {
+				"Chunks": ["11835"],
+				"Items": ["Iron bar"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 4
 			}
 		},
 		"Strength": {
@@ -92572,32 +93196,6 @@
 				"Silver key brown": "Uncommon",
 				"Silver key red": "Common",
 				"Gold key": "Rare"
-			},
-			"Pyrechew": {
-				"Death rune": "Common",
-				"Blood rune": "Common",
-				"Prayer mix (2)": "Common",
-				"Prayer mix (1)": "Common",
-				"Ranarr potion (unf)": "Common",
-				"Super antipoison mix (1)": "Common",
-				"Super antipoison mix (2)": "Common",
-				"Super strength mix (1)": "Common",
-				"Mithril grapple": "Common",
-				"Silver bolts": "Common",
-				"Rune arrow": "Common",
-				"Adamant dart": "Common",
-				"Diamond": "Uncommon",
-				"Super attack mix (2)": "Uncommon",
-				"Super attack mix (1)": "Uncommon",
-				"Super defence mix (2)": "Uncommon",
-				"Super defence mix (1)": "Uncommon",
-				"Antifire mix (2)": "Uncommon",
-				"Antifire mix (1)": "Uncommon",
-				"Rune bolts": "Uncommon",
-				"Adamant knife": "Uncommon",
-				"Big bones": "Rare",
-				"Fishing mix (2)": "Rare",
-				"Dragon full helm": "1/250"
 			},
 			"Fire spirit (item)": {
 				"Iron stone spirit": "Common",
