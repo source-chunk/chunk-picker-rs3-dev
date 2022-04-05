@@ -9074,13 +9074,6 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Give Firemaking knowledge to a ~|starved ancient effigy|~": {
-				"Items": ["Starved ancient effigy"],
-				"Level": 91,
-				"Output": "Nourished ancient effigy",
-				"Primary": true,
-				"Priority": 1
-			},
 			"Craft ~|fellstalk incense sticks|~": {
 				"Items": ["Infernal magic incense sticks", "Clean fellstalk"],
 				"Level": 91,
@@ -9125,13 +9118,6 @@
 				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 7
-			},
-			"Give Firemaking knowledge to a ~|nourished ancient effigy|~": {
-				"Items": ["Nourished ancient effigy"],
-				"Level": 93,
-				"Output": "Sated ancient effigy",
-				"Primary": true,
-				"Priority": 1
 			},
 			"Craft ~|elder pyre logs|~": {
 				"Items": ["Elder logs", "SacredOil+"],
@@ -9224,20 +9210,6 @@
 				"NPCs": ["Otto Godblessed"],
 				"Primary": true,
 				"Priority": 9
-			},
-			"Give Firemaking knowledge to a ~|sated ancient effigy|~": {
-				"Items": ["Sated ancient effigy"],
-				"Level": 95,
-				"Output": "Gorged ancient effigy",
-				"Primary": true,
-				"Priority": 10
-			},
-			"Give Firemaking knowledge to a ~|gorged ancient effigy|~": {
-				"Items": ["Gorged ancient effigy"],
-				"Level": 97,
-				"Output": "Dragonkin lamp",
-				"Primary": true,
-				"Priority": 1
 			},
 			"Create an elder ~|pyre ship|~": {
 				"Items": ["Elder logs", "Mangled bones"],
