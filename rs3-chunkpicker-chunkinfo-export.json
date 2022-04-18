@@ -48359,7 +48359,6 @@
 				"Hypochondriyak": 1
 			},
 			"Monster": {
-				"Black Knight": 1,
 				"Imp": 1,
 				"Market Guard": 2,
 				"Shady stranger": 2,
@@ -48369,6 +48368,9 @@
 			"Connect": {
 				"9541": true,
 				"12438": true
+			},
+			"Spawn": {
+				"Tomato": 1
 			},
 			"Shop": {
 				"Diango's Toy Store": true,
