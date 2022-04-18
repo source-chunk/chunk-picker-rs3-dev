@@ -1583,11 +1583,563 @@
 			}
 		},
 		"Cooking": {
-			"Unlock ~|the chef|~ in the player-owned port": {
-				"Chunks": ["Player-Owned Port"],
-				"Level": 90,
+			"Cook ~|cooked meat|~": {
+				"Items": ["RawMeat+"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Cooked meat",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|minced meat|~": {
+				"Items": ["Cooked meat", "Bowl"],
+				"Level": 1,
+				"Output": "Minced meat",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make ~|spicy minced meat|~": {
+				"Items": ["Minced meat", "Spice+"],
+				"Level": 1,
+				"Output": "Spicy minced meat",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Grind ~|ground crab meat|~": {
+				"Items": ["Crab meat"],
+				"Level": 1,
+				"Output": "Ground crab meat",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cook ~|cooked ugthanki meat|~": {
+				"Items": ["Raw ugthanki meat"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Ugthanki meat",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cook ~|cooked undead beef|~": {
+				"Items": ["Raw undead beef"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Cooked undead meat",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cook a ~|cooked undead chicken|~": {
+				"Items": ["Raw undead chicken"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Cooked undead chicken",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cook ~|poorly-cooked beast meat|~": {
+				"Items": ["Raw beast meat"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Poorly-cooked beast meat",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cook ~|poorly-cooked bird meat|~": {
+				"Items": ["Raw bird meat"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Poorly-cooked bird meat",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Make a ~|sinew|~": {
+				"Items": ["SinewMeat+"],
+				"Objects": ["Range"],
+				"Level": 1,
+				"Output": "Sinew",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cook ~|shrimps|~": {
+				"Items": ["Raw shrimps"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Shrimps",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Cook a ~|crayfish|~": {
+				"Items": ["Raw crayfish"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Crayfish",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Cook a ~|cooked chicken|~": {
+				"Items": ["Raw chicken"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Cooked chicken",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Cook ~|cooked rabbit|~": {
+				"Items": ["Raw rabbit"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Cooked rabbit",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Cook ~|anchovies|~": {
+				"Items": ["Raw anchovies"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Anchovies",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Cook a ~|sardine|~": {
+				"Items": ["Raw sardine"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Sardine",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Cook a ~|minnow|~": {
+				"Items": ["Raw minnow"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Minnow",
+				"Primary": true,
+				"Priority": 16
+			},
+			"Cook a ~|davio|~": {
+				"Items": ["Raw davio"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Davio",
+				"Primary": true,
+				"Priority": 17
+			},
+			"Make ~|raw swamp paste|~": {
+				"Items": ["Swamp tar", "Pot of flour"],
+				"Level": 1,
+				"Output": "Raw swamp paste",
+				"Primary": true,
+				"Priority": 18
+			},
+			"Cook ~|swamp paste|~": {
+				"Items": ["Raw swamp paste"],
+				"Objects": ["Fire+"],
+				"Level": 1,
+				"Output": "Swamp paste",
+				"Primary": true,
+				"Priority": 19
+			},
+			"Make ~|bread dough|~ from a canister": {
+				"Items": ["Pot of flour", "WaterItem+"],
+				"Level": 1,
+				"Output": "Bread dough",
+				"Primary": true,
+				"Priority": 20
+			},
+			"Make ~|bread dough|~ from a water source": {
+				"Items": ["Pot of flour"],
+				"Objects": ["WaterSource+"],
+				"Level": 1,
+				"Output": "Bread dough",
+				"Primary": true,
+				"Priority": 21
+			},
+			"Bake ~|bread|~": {
+				"Items": ["Bread dough"],
+				"Objects": ["Range"],
+				"Level": 1,
+				"Output": "Bread",
+				"Primary": true,
+				"Priority": 22
+			},
+			"Slice ~|breadcrumbs|~": {
+				"Items": ["Bread"],
+				"Level": 1,
+				"Output": "Breadcrumbs",
+				"Primary": true,
+				"Priority": 23
+			},
+			"Cook a ~|karambwanji|~": {
+				"Items": ["Raw karambwanji"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Karambwanji",
+				"Primary": true,
+				"Priority": 24
+			},
+			"Cook a ~|poison karambwan|~": {
+				"Items": ["Raw karambwan"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Poison karambwan",
+				"Primary": true,
+				"Priority": 25
+			},
+			"Make a ~|pie shell|~": {
+				"Items": ["Pie dish", "Pastry dough"],
+				"Level": 1,
+				"Output": "Pie shell",
+				"Primary": true,
+				"Priority": 26
+			},
+			"Make ~|chopped onion|~": {
+				"Items": ["Bowl", "Onion"],
+				"Level": 1,
+				"Output": "Chopped onion",
+				"Primary": true,
+				"Priority": 27
+			},
+			"Make ~|chopped tomato|~": {
+				"Items": ["Bowl", "Tomato"],
+				"Level": 1,
+				"Output": "Chopped tomato",
+				"Primary": true,
+				"Priority": 28
+			},
+			"Make ~|spicy tomato|~": {
+				"Items": ["Chopped tomato", "Spice+"],
+				"Level": 1,
+				"Output": "Spicy tomato",
+				"Primary": true,
+				"Priority": 30
+			},
+			"Make ~|chopped garlic|~": {
+				"Items": ["Bowl", "Garlic"],
+				"Level": 1,
+				"Output": "Chopped garlic",
+				"Primary": true,
+				"Priority": 30
+			},
+			"Make ~|chopped tuna|~": {
+				"Items": ["Bowl", "Tuna"],
+				"Level": 1,
+				"Output": "Chopped Tuna",
+				"Primary": true,
+				"Priority": 31
+			},
+			"Make ~|nettle-water|~": {
+				"Items": ["Bowl of water", "Nettles"],
+				"Level": 1,
+				"Output": "Nettle-water",
+				"Primary": true,
+				"Priority": 32
+			},
+			"Make ~|sliced mushrooms|~": {
+				"Items": ["Bowl", "Bittercap mushroom"],
+				"Level": 1,
+				"Output": "Sliced mushrooms",
+				"Primary": true,
+				"Priority": 33
+			},
+			"Make an ~|uncooked egg|~": {
+				"Items": ["Bowl", "Egg"],
+				"Level": 1,
+				"Output": "Uncooked eggs",
+				"Primary": true,
+				"Priority": 34
+			},
+			"Make ~|onion & tomato|~": {
+				"Items": ["Chopped onion", "Tomato"],
+				"Level": 1,
+				"Output": "Onion & tomato",
+				"Primary": true,
+				"Priority": 35
+			},
+			"Make a ~|kebab mix|~": {
+				"Items": ["Onion & tomato", "Ugthanki meat"],
+				"Level": 1,
+				"Output": "Kebab mix",
+				"Primary": true,
+				"Priority": 36
+			},
+			"Make an ~|ugthanki kebab|~": {
+				"Items": ["Pitta bread", "Kebab mix"],
+				"Level": 1,
+				"Output": "Ugthanki kebab",
+				"Primary": true,
+				"Priority": 37
+			},
+			"Cut ~|pineapple rings|~": {
+				"Items": ["Pineapple"],
+				"Level": 1,
+				"Output": "Pineapple ring",
+				"Primary": true,
+				"Priority": 38
+			},
+			"Cut ~|pineapple chunks|~": {
+				"Items": ["Pineapple"],
+				"Level": 1,
+				"Output": "Pineapple chunks",
+				"Primary": true,
+				"Priority": 39
+			},
+			"Cut ~|lemon slices|~": {
+				"Items": ["Lemon"],
+				"Level": 1,
+				"Output": "Lemon slices",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Cut ~|lemon chunks|~": {
+				"Items": ["Lemon"],
+				"Level": 1,
+				"Output": "Lemon chunks",
+				"Primary": true,
+				"Priority": 41
+			},
+			"Cut ~|orange slices|~": {
+				"Items": ["Orange"],
+				"Level": 1,
+				"Output": "Orange slices",
+				"Primary": true,
+				"Priority": 42
+			},
+			"Cut ~|orange chunks|~": {
+				"Items": ["Orange"],
+				"Level": 1,
+				"Output": "Orange chunks",
+				"Primary": true,
+				"Priority": 43
+			},
+			"Cut ~|lime slices|~": {
+				"Items": ["Lime"],
+				"Level": 1,
+				"Output": "Lime slices",
+				"Primary": true,
+				"Priority": 42
+			},
+			"Cut ~|lime chunks|~": {
+				"Items": ["Lime"],
+				"Level": 1,
+				"Output": "Lime chunks",
+				"Primary": true,
+				"Priority": 43
+			},
+			"Grind ~|chocolate dust|~": {
+				"Items": ["Chocolate bar"],
+				"Level": 1,
+				"Output": "Chocolate dust",
+				"Primary": true,
+				"Priority": 44
+			},
+			"Make a ~|strange potato|~": {
+				"Items": ["Baked potato", "Juju cooking potion (1)"],
+				"Level": 1,
+				"Output": "Chocolate dust",
+				"Primary": true,
+				"Priority": 45
+			},
+			"Grind ~|ground cod|~": {
+				"Items": ["Raw cod"],
+				"Level": 1,
+				"Output": "Ground cod",
+				"Primary": true,
+				"Priority": 46
+			},
+			"Grind ~|ground kelp|~": {
+				"Items": ["Kelp (Mogre Camp)"],
+				"Level": 1,
+				"Output": "Ground kelp",
+				"Primary": true,
+				"Priority": 47
+			},
+			"Make ~|soda ash|~": {
+				"Items": ["Seaweed+"],
+				"Objects": ["Range+"],
+				"Level": 1,
+				"Output": "Soda ash",
+				"Primary": true,
+				"Priority": 48
+			},
+			"Cut ~|sliced banana|~": {
+				"Items": ["Banana"],
+				"Level": 1,
+				"Output": "Sliced banana",
+				"Primary": true,
+				"Priority": 49
+			},
+			"Cut a ~|watermelon slice|~": {
+				"Items": ["Watermelon"],
+				"Level": 1,
+				"Output": "Watermelon slice",
+				"Primary": true,
+				"Priority": 50
+			},
+			"Cut a ~|coconut (open)|~": {
+				"Items": ["Coconut"],
+				"Level": 1,
+				"Output": "Coconut (open)",
+				"Primary": true,
+				"Priority": 51
+			},
+			"Fill a ~|pot of flour|~": {
+				"Items": ["Empty pot", "Wheat"],
+				"Objects": ["Hopper"],
+				"Level": 1,
+				"Output": "Pot of flour",
+				"Primary": true,
+				"Priority": 52
+			},
+			"Grind ~|ground seaweed|~": {
+				"Items": ["Seaweed"],
+				"Level": 1,
+				"Output": "Ground seaweed",
+				"Primary": true,
+				"Priority": 53
+			},
+			"Grind ~|ground guam|~": {
+				"Items": ["Clean guam"],
+				"Level": 1,
+				"Output": "Ground guam",
+				"Primary": true,
+				"Priority": 54
+			},
+			"Make ~|winter sq'irkjuice|~": {
+				"Items": ["Winter sq'irk", "Beer glass"],
+				"Level": 1,
+				"Output": "Winter sq'irkjuice",
+				"Primary": true,
+				"Priority": 55
+			},
+			"Make ~|spring sq'irkjuice|~": {
+				"Items": ["Spring sq'irk", "Beer glass"],
+				"Level": 1,
+				"Output": "Spring sq'irkjuice",
+				"Primary": true,
+				"Priority": 56
+			},
+			"Make ~|autumn sq'irkjuice|~": {
+				"Items": ["Autumn sq'irk", "Beer glass"],
+				"Level": 1,
+				"Output": "Autumn sq'irkjuice",
+				"Primary": true,
+				"Priority": 57
+			},
+			"Make ~|summer sq'irkjuice|~": {
+				"Items": ["Summer sq'irk", "Beer glass"],
+				"Level": 1,
+				"Output": "Summer sq'irkjuice",
+				"Primary": true,
+				"Priority": 58
+			},
+			"Make ~|chocolatey milk|~": {
+				"Items": ["Bucket of milk", "Chocolate dust"],
+				"Level": 4,
+				"Output": "Chocolatey milk",
 				"Primary": false,
 				"Priority": 1
+			},
+			"Cook a ~|herring|~": {
+				"Items": ["Raw herring"],
+				"Objects": ["Range+"],
+				"Level": 5,
+				"Output": "Herring",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|mixed blast|~": {
+				"Items": ["Cocktail shaker", "Pineapple", "Lemon", "Orange"],
+				"Level": 6,
+				"Output": "Mixed blast",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Make a ~|Fruit Blast|~": {
+				"Items": ["Mixed blast", "Lemon slices", "Cocktail glass"],
+				"Level": 6,
+				"Output": "Fruit Blast",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Bake a ~|baked potato|~": {
+				"Items": ["Raw potato"],
+				"Objects": ["Range"],
+				"Level": 7,
+				"Output": "Baked potato",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|dry rabbit sandwich|~": {
+				"Items": ["Bread", "Cooked rabbit"],
+				"Level": 8,
+				"Output": "Dry rabbit sandwich",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Make a ~|rabbit sandwich|~": {
+				"Items": ["Dry rabbit sandwich", "Tomato"],
+				"Level": 8,
+				"Output": "Rabbit sandwich",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|mixed punch|~": {
+				"Items": ["Cocktail shaker", "Pineapple", "Lemon", "Orange"],
+				"Level": 8,
+				"Output": "Mixed punch",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Make a ~|Pineapple Punch|~": {
+				"Items": ["Mixed punch", "Orange slices", "Lime chunks", "Pineapple chunks", "Cocktail glass"],
+				"Level": 8,
+				"Output": "Pineapple Punch",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Make ~|spicy sauce|~": {
+				"Items": ["Chopped garlic", "Gnome spice"],
+				"Level": 9,
+				"Output": "Spicy sauce",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|chilli con carne|~": {
+				"Items": ["Spicy sauce", "CookedMeat+"],
+				"Level": 9,
+				"Output": "Chili con carne",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Make ~|pastry dough|~ from a canister": {
+				"Items": ["Pot of flour", "WaterItem+"],
+				"Level": 10,
+				"Output": "Pastry dough",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|pastry dough|~ from a water source": {
+				"Items": ["Pot of flour"],
+				"Objects": ["WaterSource+"],
+				"Level": 10,
+				"Output": "Pastry dough",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make an ~|uncooked berry pie|~": {
+				"Items": ["Pie shell", "Redberries"],
+				"Level": 10,
+				"Output": "Uncooked berry pie",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Bake a ~|redberry pie|~": {
+				"Items": ["Uncooked berry pie"],
+				"Objects": ["Range"],
+				"Level": 10,
+				"Output": "Redberry pie",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on an uncooked berry pie": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked berry pie"],
@@ -1598,7 +2150,293 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 5
+			},
+			"Make ~|raw crunchies|~": {
+				"Items": ["Gianne dough", "Crunchy tray"],
+				"Level": 10,
+				"Output": "Raw crunchies",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Bake ~|half baked crunchies|~": {
+				"Items": ["Raw crunchies"],
+				"Objects": ["Range"],
+				"Level": 10,
+				"Output": "Half baked crunchy",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Make ~|half made toad crunchies|~": {
+				"Items": ["Half baked crunchy", "Toad's legs", "Gnome spice"],
+				"Level": 10,
+				"Output": "Half made toad crunchy",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Bake ~|unfinished toad crunchies|~": {
+				"Items": ["Half made toad crunchy"],
+				"Objects": ["Range"],
+				"Level": 10,
+				"Output": "Unfinished toad crunchy",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Finish ~|toad crunchies|~": {
+				"Items": ["Unfinished toad crunchy", "Equa leaves"],
+				"Level": 10,
+				"Output": "Toad crunchies",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Cook a ~|mackerel|~": {
+				"Items": ["Raw mackerel"],
+				"Objects": ["Range+"],
+				"Level": 10,
+				"Output": "Mackerel",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Skewer ~|skewered bird meat|~": {
+				"Items": ["Raw bird meat", "Iron spit"],
+				"Level": 11,
+				"Output": "Skewered bird meat",
+				"Primary": false,
 				"Priority": 1
+			},
+			"Roast ~|roast bird meat|~": {
+				"Items": ["Skewered bird meat"],
+				"Objects": ["Fire+"],
+				"Level": 11,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Roast bird meat",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make ~|half made spicy crunchies|~": {
+				"Items": ["Half baked crunchy", "Equa leaves", "Gnome spice"],
+				"Level": 12,
+				"Output": "Half made spicy crunchy",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Bake ~|unfinished spicy crunchies|~": {
+				"Items": ["Half made spicy crunchy"],
+				"Objects": ["Range"],
+				"Level": 12,
+				"Output": "Unfinished spicy crunchy",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Finish ~|spicy crunchies|~": {
+				"Items": ["Unfinished spicy crunchy", "Gnome spice"],
+				"Level": 12,
+				"Output": "Spicy crunchies",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook ~|thin snail meat|~": {
+				"Items": ["Thin snail"],
+				"Objects": ["Range+"],
+				"Level": 12,
+				"Output": "Thin snail meat",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Make a ~|scrambled egg|~": {
+				"Items": ["Uncooked egg"],
+				"Objects": ["Range"],
+				"Level": 13,
+				"Output": "Scrambled egg",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|apple mush|~": {
+				"Items": ["Cooking apple", "Bucket"],
+				"Objects": ["Apple Barrel"],
+				"Level": 14,
+				"Output": "Apple mush",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Brew ~|cider|~": {
+				"Items": ["Apple mush", "Ale yeast", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 14,
+				"Output": "Cider",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make ~|half made worm crunchies|~": {
+				"Items": ["Half baked crunchy", "King worm", "Equa leaves", "Gnome spice"],
+				"Level": 14,
+				"Output": "Half made worm crunchy",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Bake ~|unfinished worm crunchies|~": {
+				"Items": ["Half made worm crunchy"],
+				"Objects": ["Range"],
+				"Level": 14,
+				"Output": "Unfinished worm crunchy",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Finish ~|worm crunchies|~": {
+				"Items": ["Unfinished worm crunchy", "Gnome spice"],
+				"Level": 14,
+				"Output": "Worm crunchies",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fry ~|bacon|~": {
+				"Items": ["Raw bacon"],
+				"Objects": ["Range+"],
+				"Level": 14,
+				"Output": "Bacon",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Cook a ~|trout|~": {
+				"Items": ["Raw trout"],
+				"Objects": ["Range+"],
+				"Level": 15,
+				"Output": "Trout",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Skewer a ~|skewered rabbit|~": {
+				"Items": ["Raw rabbit", "Iron spit"],
+				"Level": 16,
+				"Output": "Skewered rabbit",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Roast a ~|roast rabbit|~": {
+				"Items": ["Skewered rabbit"],
+				"Objects": ["Fire+"],
+				"Level": 16,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Roast rabbit",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Skewer a ~|spider on a stick (raw)|~": {
+				"Items": ["Spider carcass", "Skewer stick"],
+				"Level": 16,
+				"Output": "Spider on a stick (raw)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Cook a ~|spider on a stick|~": {
+				"Items": ["Spider on a stick (raw)"],
+				"Objects": ["Fire+"],
+				"Level": 16,
+				"Output": "Spider on a stick",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Make ~|half made choc chip crunchies|~": {
+				"Items": ["Half baked crunchy", "Chocolate bar", "Gnome spice"],
+				"Level": 16,
+				"Output": "Half made choc chip crunchy",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Bake ~|unfinished choc chip crunchies|~": {
+				"Items": ["Half made choc chip crunchy"],
+				"Objects": ["Range"],
+				"Level": 16,
+				"Output": "Unfinished choc chip crunchy",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Finish ~|chocchip crunchies|~": {
+				"Items": ["Unfinished choc chip crunchy", "Chocolate dust"],
+				"Level": 16,
+				"Output": "Chocchip crunchies",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Skewer a ~|spider on a shaft (raw)|~": {
+				"Items": ["Spider carcass", "Arrow shaft"],
+				"Level": 16,
+				"Output": "Spider on a shaft (raw)",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Cook a ~|spider on a shaft|~": {
+				"Items": ["Spider on a shaft (raw)"],
+				"Objects": ["Fire+"],
+				"Level": 16,
+				"Output": "Spider on a shaft",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cook ~|lean snail meat|~": {
+				"Items": ["Lean snail"],
+				"Objects": ["Range+"],
+				"Level": 17,
+				"Output": "Lean snail meat",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|mixed blizzard|~": {
+				"Items": ["Cocktail shaker", "Lime", "Lemon", "Orange", "Vodka", "Gin"],
+				"Level": 18,
+				"Output": "Mixed blizzard",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Make a ~|Wizard Blizzard|~": {
+				"Items": ["Mixed blizzard", "Lime slices", "Pineapple chunks", "Cocktail glass"],
+				"Level": 18,
+				"Output": "Wizard Blizzard",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook a ~|cod|~": {
+				"Items": ["Raw cod"],
+				"Objects": ["Range+"],
+				"Level": 18,
+				"Output": "Cod",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Brew ~|Dwarven Stout|~": {
+				"Items": ["Hammerstone hops", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 19,
+				"Output": "Dwarven stout",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook a ~|pike|~": {
+				"Items": ["Raw pike"],
+				"Objects": ["Range+"],
+				"Level": 20,
+				"Output": "Pike",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make an ~|uncooked meat pie|~": {
+				"Items": ["Pie shell", "CookedChicken+"],
+				"Level": 20,
+				"Output": "Uncooked meat pie",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Bake a ~|meat pie|~": {
+				"Items": ["Uncooked meat pie"],
+				"Objects": ["Range"],
+				"Level": 20,
+				"Output": "Meat pie",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Cast ~|bake pie|~ on an uncooked meat pie ": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked meat pie"],
@@ -1609,7 +2447,343 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 4
+			},
+			"Make ~|nettle tea|~": {
+				"Items": ["Nettle-water"],
+				"Objects": ["Range+"],
+				"Level": 20,
+				"Output": "Nettle tea",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Make a ~|cup of tea (Nettle tea)|~": {
+				"Items": ["Empty cup", "Nettle tea"],
+				"Level": 20,
+				"Output": "Cup of tea (Nettle tea)",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Make a ~|cup of tea (Ghosts Ahoy)|~": {
+				"Items": ["Porcelain cup", "NettleTea+"],
+				"Level": 20,
+				"Output": "Cup of tea (Ghosts Ahoy)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Make ~|milky nettle tea|~": {
+				"Items": ["Bucket of milk", "Nettle tea"],
+				"Level": 20,
+				"Output": "Milky nettle tea",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Make a ~|cup of milky tea|~ from a bowl": {
+				"Items": ["Milky nettle tea", "Empty cup"],
+				"Level": 20,
+				"Output": "Cup of milky tea",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Make a ~|cup of milky tea|~ from a cup": {
+				"Items": ["Cup of tea (Nettle tea)", "Bucket of milk"],
+				"Level": 20,
+				"Output": "Cup of milky tea",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Make a ~|cup of milky tea (Ghosts Ahoy)|~ from a bowl": {
+				"Items": ["Milky nettle tea", "Porcelain cup"],
+				"Level": 20,
+				"Output": "Cup of milky tea (Ghosts Ahoy)",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Make a ~|cup of milky tea (Ghosts Ahoy)|~ from a regular cup": {
+				"Items": ["Cup of milky tea", "Porcelain cup"],
+				"Level": 20,
+				"Output": "Cup of milky tea (Ghosts Ahoy)",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Make a ~|cup of milky tea (Ghosts Ahoy)|~ from a porcelain cup": {
+				"Items": ["Cup of tea (Ghosts Ahoy)", "Bucket of milk"],
+				"Level": 20,
+				"Output": "Cup of milky tea (Ghosts Ahoy)",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Make a ~|cup of soul tea|~": {
+				"Items": ["Cup of tea", "Ancient gravel", "Fiery brimstone", "Saltwater mud", "Aerated sediment", "Earthern clay"],
+				"Level": 20,
+				"Output": "Cup of soil tea",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Mix a ~|mixed sgg|~": {
+				"Items": ["Cocktail shaker", "Lime", "Vodka"],
+				"Level": 20,
+				"Output": "Mixed sgg",
+				"Primary": false,
+				"Priority": 15
+			},
+			"Make a ~|Short Green Guy|~": {
+				"Items": ["Mixed sgg", "Lime slices", "Equa leaves", "Cocktail glass"],
+				"Level": 20,
+				"Output": "Short Green Guy",
+				"Primary": true,
+				"Priority": 16
+			},
+			"Churn a ~|pot of cream|~": {
+				"Items": ["Bucket of milk"],
+				"Objects": ["Dairy churn"],
+				"Level": 21,
+				"Output": "Pot of cream",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Cook ~|cooked crab meat|~": {
+				"Items": ["Crab meat"],
+				"Objects": ["Range+"],
+				"Level": 21,
+				"Output": "Cooked crab meat",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Skewer ~|skewered beast|~": {
+				"Items": ["Raw beast meat", "Iron spit"],
+				"Level": 21,
+				"Output": "Skewered beast",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Roast ~|roast beast meat|~": {
+				"Items": ["Skewered beast"],
+				"Objects": ["Fire+"],
+				"Level": 21,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Roast beast meat",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cook ~|fat snail meat|~": {
+				"Items": ["Fat snail"],
+				"Objects": ["Range+"],
+				"Level": 22,
+				"Output": "Fat snail meat",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|egg and tomato|~": {
+				"Items": ["Scrambled egg", "Tomato"],
+				"Level": 23,
+				"Output": "Egg and tomato",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Brew ~|Asgarnian ale|~": {
+				"Items": ["Asgarnian hops", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 24,
+				"Output": "Asgarnian ale",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|raw bacon stack|~": {
+				"Items": ["Raw bacon"],
+				"Level": 24,
+				"Output": "Raw bacon stack",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fry a ~|bacon stack|~": {
+				"Items": ["Raw bacon stack"],
+				"Objects": ["Range+"],
+				"Level": 24,
+				"Output": "Bacon stack",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook a ~|salmon|~": {
+				"Items": ["Raw salmon"],
+				"Objects": ["Range+"],
+				"Level": 25,
+				"Output": "Salmon",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook an ~|incomplete stew (potato)|~": {
+				"Items": ["Bowl of water", "Raw potato"],
+				"Level": 25,
+				"Output": "Incomplete stew (potato)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook an ~|uncooked stew|~": {
+				"Items": ["Incomplete stew (potato)", "CookedChicken+"],
+				"Level": 25,
+				"Output": "Uncooked stew",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook a ~|stew|~": {
+				"Items": ["Uncooked stew"],
+				"Objects": ["Range"],
+				"Level": 25,
+				"Output": "Stew",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Make a ~|raw batta|~": {
+				"Items": ["Gianne dough", "Batta tin"],
+				"Level": 25,
+				"Output": "Raw batta",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Bake a ~|half baked batta|~": {
+				"Items": ["Raw batta"],
+				"Objects": ["Range"],
+				"Level": 25,
+				"Output": "Half baked batta",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|half made fruit batta|~": {
+				"Items": ["Half baked batta", "Lime chunks", "Orange chunks", "Pineapple chunks", "Equa leaves"],
+				"Level": 25,
+				"Output": "Half made fruit batta",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Bake a ~|unfinished fruit batta|~": {
+				"Items": ["Half made fruit batta"],
+				"Objects": ["Range"],
+				"Level": 25,
+				"Output": "Unfinished fruit batta",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Finish a ~|fruit batta|~": {
+				"Items": ["Unfinished fruit batta", "Gnome spice"],
+				"Level": 25,
+				"Output": "Fruit batta",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Make a ~|half made toad batta|~": {
+				"Items": ["Half baked batta", "Gnome spice", "Toad's legs", "Equa leaves", "Cheese"],
+				"Level": 26,
+				"Output": "Half made toad batta",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Bake a ~|toad batta|~": {
+				"Items": ["Half made toad batta"],
+				"Objects": ["Range"],
+				"Level": 26,
+				"Output": "Toad batta",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|half made worm batta|~": {
+				"Items": ["Half baked batta", "Gnome spice", "King worm", "Cheese"],
+				"Level": 27,
+				"Output": "Half made worm batta",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Bake a ~|unfinished worm batta|~": {
+				"Items": ["Half made worm batta"],
+				"Objects": ["Range"],
+				"Level": 27,
+				"Output": "Unfinished worm batta",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Finish a ~|worm batta|~": {
+				"Items": ["Unfinished worm batta", "Equa leaves"],
+				"Level": 27,
+				"Output": "Worm batta",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook ~|cooked sweetcorn|~": {
+				"Items": ["Sweetcorn"],
+				"Objects": ["Range+"],
+				"Level": 28,
+				"Output": "Cooked sweetcorn",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook a ~|cooked slimy eel|~": {
+				"Items": ["Slimy eel"],
+				"Objects": ["Range+"],
+				"Level": 28,
+				"Output": "Cooked slimy eel",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|half made veg batta|~": {
+				"Items": ["Half baked batta", "Tomato", "Dwellberries", "Onions", "Cabbage", "Cheese"],
+				"Level": 28,
+				"Output": "Half made veg batta",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Bake a ~|unfinished veg batta|~": {
+				"Items": ["Half made veg batta"],
+				"Objects": ["Range"],
+				"Level": 28,
+				"Output": "Unfinished veg batta",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Finish a ~|vegetable batta|~": {
+				"Items": ["Unfinished veg batta", "Equa leaves"],
+				"Level": 28,
+				"Output": "Vegetable batta",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Brew ~|Greenman's ale|~": {
+				"Items": ["Clean harralander", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 29,
+				"Output": "Greenman's ale",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|part mud pie 1|~": {
+				"Items": ["Pie shell", "Compost"],
+				"Level": 29,
+				"Output": "Part mud pie 1",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|part mud pie 2|~": {
+				"Items": ["Part mud pie 1", "Bucket of water"],
+				"Level": 29,
+				"Output": "Part mud pie 2",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make a ~|raw mud pie|~": {
+				"Items": ["Part mud pie 2", "Clay"],
+				"Level": 29,
+				"Output": "Raw mud pie",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Bake a ~|mud pie|~": {
+				"Items": ["Raw mud pie"],
+				"Objects": ["Range"],
+				"Level": 29,
+				"Output": "Mud pie",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Cast ~|bake pie|~ on a raw mud pie": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw mud pie"],
@@ -1620,7 +2794,52 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 6
+			},
+			"Make a ~|half made cheese and tom batta|~": {
+				"Items": ["Half baked batta", "Tomato", "Cheese"],
+				"Level": 29,
+				"Output": "Half made cheese and tom batta",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Bake a ~|unfinished cheese and tom batta|~": {
+				"Items": ["Half made cheese and tom batta"],
+				"Objects": ["Range"],
+				"Level": 29,
+				"Output": "Unfinished cheese and tom batta",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Finish a ~|cheese+tom batta|~": {
+				"Items": ["Unfinished cheese and tom batta", "Equa leaves"],
+				"Level": 29,
+				"Output": "Cheese+tom batta",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cook a ~|tuna|~": {
+				"Items": ["Raw tuna"],
+				"Objects": ["Range+"],
+				"Level": 30,
+				"Output": "Tuna",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Make an ~|uncooked apple pie|~": {
+				"Items": ["Pie shell", "Cooking apple"],
+				"Level": 30,
+				"Output": "Uncooked apple pie",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Bake an ~|apple pie|~": {
+				"Items": ["Uncooked apple pie"],
+				"Objects": ["Range"],
+				"Level": 30,
+				"Output": "Apple pie",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Cast ~|bake pie|~ on an uncooked apple pie": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Uncooked apple pie"],
@@ -1631,7 +2850,214 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 4
+			},
+			"Cook a ~|cooked karambwan|~": {
+				"Items": ["Raw karambwan"],
+				"Objects": ["Range+"],
+				"Level": 30,
+				"Output": "Cooked karambwan",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Skewer a ~|skewered chompy|~": {
+				"Items": ["Raw chompy", "Iron spit"],
+				"Level": 30,
+				"Output": "Skewered chompy",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Roast a ~|cooked chompy|~ on a fire": {
+				"Items": ["Skewered chompy"],
+				"Objects": ["Fire+"],
+				"Level": 30,
+				"Skills": {
+					"Firemaking": 20
+				},
+				"Output": "Cooked chompy",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Roast a ~|cooked chompy|~ on an ogre spit-roast": {
+				"Items": ["Raw chompy"],
+				"Objects": ["Ogre spit-roast"],
+				"Level": 30,
+				"Output": "Cooked chompy",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Make a ~|raw gnomebowl|~": {
+				"Items": ["Gianne dough", "Gnomebowl mould"],
+				"Level": 30,
+				"Output": "Raw gnomebowl",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Bake a ~|half baked bowl|~": {
+				"Items": ["Raw gnomebowl"],
+				"Objects": ["Range"],
+				"Level": 30,
+				"Output": "Half baked bowl",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Make a ~|half made worm bowl|~": {
+				"Items": ["Half baked bowl", "King worm", "Gnome spice", "Onion"],
+				"Level": 30,
+				"Output": "Half made worm bowl",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Bake a ~|unfinished worm bowl|~": {
+				"Items": ["Half made worm bowl"],
+				"Objects": ["Range"],
+				"Level": 30,
+				"Output": "Unfinished worm bowl",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Finish a ~|worm hole|~": {
+				"Items": ["Unfinished worm bowl", "Equa leaves"],
+				"Level": 30,
+				"Output": "Worm hole",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Make a ~|raw fishcake|~": {
+				"Items": ["Breadcrumbs", "Ground crab meat", "Ground cod", "Ground kelp"],
+				"Level": 31,
+				"Output": "Raw fishcake",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Bake a ~|cooked fishcake|~": {
+				"Items": ["Raw fishcake"],
+				"Objects": ["Range+"],
+				"Level": 31,
+				"Output": "Cooked fishcake",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make ~|biscuit dough|~": {
+				"Items": ["Pot of flour", "Pat of butter"],
+				"NPCs": ["Head Chef"],
+				"Level": 32,
+				"Output": "Biscuit dough",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Bake ~|biscuits|~": {
+				"Items": ["Biscuit dough"],
+				"NPCs": ["Head Chef"],
+				"Objects": ["Range"],
+				"Level": 32,
+				"Output": "Biscuits",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Churn ~|cream cheese|~": {
+				"Items": ["Bucket of milk"],
+				"NPCs": ["Head Chef"],
+				"Objects": ["Dairy churn"],
+				"Level": 32,
+				"Output": "Cream cheese",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make a ~|cheesecake|~": {
+				"Items": ["Biscuits", "Cream cheese", "Pot of cream", "Cake tin"],
+				"NPCs": ["Head Chef"],
+				"Level": 32,
+				"Output": "Cheesecake",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|mixed dragon (shaker)|~": {
+				"Items": ["Cocktail shaker", "Gin", "Vodka", "Dwellberries"],
+				"Level": 32,
+				"Output": "Mixed dragon (shaker)",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Make a ~|mixed dragon (poured)|~": {
+				"Items": ["Mixed dragon (shaker)", "Cocktail glass"],
+				"Level": 32,
+				"Output": "Mixed dragon (poured)",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Garnish a ~|mixed dragon (garnished)|~": {
+				"Items": ["Mixed dragon (poured)", "Pineapple chunks", "Pot of cream"],
+				"Level": 32,
+				"Output": "Mixed dragon (garnished)",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Finish a ~|Drunk Dragon|~": {
+				"Items": ["Mixed dragon (garnished)"],
+				"Objects": ["Range"],
+				"Level": 32,
+				"Output": "Drunk Dragon",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Mix a ~|mixed saturday (shaker)|~": {
+				"Items": ["Cocktail shaker", "Whisky", "Chocolate bar", "Bucket of milk", "Equa leaves"],
+				"Level": 33,
+				"Output": "Mixed saturday (shaker)",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Make a ~|mixed saturday (poured)|~": {
+				"Items": ["Mixed saturday (shaker)", "Cocktail glass"],
+				"Level": 33,
+				"Output": "Mixed saturday (poured)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Heat a ~|mixed saturday (heated)|~": {
+				"Items": ["Mixed saturday (poured)"],
+				"Objects": ["Range"],
+				"Level": 33,
+				"Output": "Mixed saturday (heated)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Finish a ~|Chocolate Saturday|~": {
+				"Items": ["Mixed saturday (heated)", "Chocolate dust", "Pot of cream"],
+				"Level": 33,
+				"Output": "Chocolate Saturday",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Make a ~|part garden pie 1|~": {
+				"Items": ["Pie shell", "Tomato"],
+				"Level": 34,
+				"Output": "Part garden pie 1",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|part garden pie 2|~": {
+				"Items": ["Part garden pie 1", "Onion"],
+				"Level": 34,
+				"Output": "Part garden pie 2",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|raw garden pie|~": {
+				"Items": ["Part garden pie 2", "Cabbage"],
+				"Level": 34,
+				"Output": "Raw garden pie",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Bake a ~|garden pie|~": {
+				"Items": ["Raw garden pie"],
+				"Objects": ["Range"],
+				"Level": 34,
+				"Output": "Garden pie",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw garden pie": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw garden pie"],
@@ -1642,7 +3068,366 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 5
+			},
+			"Make a ~|raw bacon pile|~": {
+				"Items": ["Raw bacon stack"],
+				"Level": 34,
+				"Output": "Raw bacon pile",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fry a ~|bacon pile|~": {
+				"Items": ["Raw bacon pile"],
+				"Objects": ["Range+"],
+				"Level": 34,
+				"Output": "Bacon pile",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Brew ~|wizard's mind bomb|~": {
+				"Items": ["Yanillian hops", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 34,
+				"Output": "Wizard's mind bomb",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Make a ~|pizza base|~ from a canister": {
+				"Items": ["Pot of flour", "WaterItem+"],
+				"Level": 35,
+				"Output": "Pizza base",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Make a ~|pizza base|~ from a water source": {
+				"Items": ["Pot of flour"],
+				"Objects": ["WaterSource+"],
+				"Level": 35,
+				"Output": "Pizza base",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make an ~|incomplete pizza|~": {
+				"Items": ["Pizza base", "Tomato"],
+				"Level": 35,
+				"Output": "Pizza base",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make an ~|uncooked pizza|~": {
+				"Items": ["Incomplete pizza", "Cheese"],
+				"Level": 35,
+				"Output": "Uncooked pizza",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cook a ~|plain pizza|~": {
+				"Items": ["Uncooked pizza"],
+				"Objects": ["Range"],
+				"Level": 35,
+				"Output": "Plain pizza",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Make a ~|jug of wine|~": {
+				"Items": ["Jug of water", "Grapes"],
+				"Level": 35,
+				"Output": "Jug of wine",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cook a ~|rainbow fish|~": {
+				"Items": ["Raw rainbow fish"],
+				"Objects": ["Range+"],
+				"Level": 35,
+				"Output": "Rainbow fish",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Make a ~|half made veg bowl|~": {
+				"Items": ["Half baked bowl", "Onion", "Gnome spice", "Raw potato"],
+				"Level": 35,
+				"Output": "Half made veg bowl",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Bake a ~|unfinished veg bowl|~": {
+				"Items": ["Half made veg bowl"],
+				"Objects": ["Range"],
+				"Level": 35,
+				"Output": "Unfinished veg bowl",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Finish a ~|veg ball|~": {
+				"Items": ["Unfinished veg bowl", "Equa leaves"],
+				"Level": 35,
+				"Output": "Veg ball",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Churn ~|vanilla cream cheese|~": {
+				"Items": ["Vanilla milk"],
+				"NPCs": ["Head Chef"],
+				"Objects": ["Dairy churn"],
+				"Level": 35,
+				"Output": "Vanilla cream cheese",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Mix a ~|mixed blurberry special|~": {
+				"Items": ["Cocktail shaker", "Brandy", "Vodka", "Gin", "Lemon", "Orange"],
+				"Level": 37,
+				"Output": "Mixed blurberry special",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Make a ~|Blurberry Special|~": {
+				"Items": ["Mixed blurberry special", "Lime slices", "Lemon chunks", "Orange chunks", "Equa leaves", "Cocktail glass"],
+				"Level": 37,
+				"Output": "Blurberry Special",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|vanilla cheesecake|~": {
+				"Items": ["Biscuits", "Vanilla cream cheese", "Pot of cream", "Cake tin"],
+				"NPCs": ["Head Chef"],
+				"Level": 37,
+				"Output": "Vanilla cheesecake",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Churn a ~|pat of butter|~ from milk": {
+				"Items": ["Bucket of milk"],
+				"Objects": ["Dairy churn"],
+				"Level": 38,
+				"Output": "Pat of butter",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Churn a ~|pat of butter|~ from cream": {
+				"Items": ["Pot of cream"],
+				"Objects": ["Dairy churn"],
+				"Level": 38,
+				"Output": "Pat of butter",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook a ~|cave eel|~": {
+				"Items": ["Raw cave eel"],
+				"Objects": ["Range+"],
+				"Level": 38,
+				"Output": "Cave eel",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make a ~|potato with butter|~": {
+				"Items": ["Baked potato", "Pat of butter"],
+				"Level": 39,
+				"Output": "Potato with butter",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Brew ~|Dragon bitter|~": {
+				"Items": ["Krandorian hops", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 39,
+				"Output": "Dragon bitter",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook a ~|lobster|~": {
+				"Items": ["Raw lobster"],
+				"Objects": ["Range+"],
+				"Level": 40,
+				"Output": "Lobster",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make an ~|uncooked cake|~": {
+				"Items": ["Cake tin", "Pot of flour", "Egg", "Bucket of milk"],
+				"Level": 40,
+				"Output": "Uncooked cake",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Bake a ~|cake|~": {
+				"Items": ["Uncooked cake"],
+				"Objects": ["Range"],
+				"Level": 40,
+				"Output": "Cake",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Churn ~|chocolate cream cheese|~": {
+				"Items": ["Chocolatey milk"],
+				"NPCs": ["Head Chef"],
+				"Objects": ["Dairy churn"],
+				"Level": 40,
+				"Output": "Chocolate cream cheese",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Make a ~|half made toad bowl|~": {
+				"Items": ["Half baked bowl", "Toad's legs", "Gnome spice", "Dwellberries", "Equa leaves", "Cheese"],
+				"Level": 40,
+				"Output": "Half made veg bowl",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Bake ~|tangled toads' legs|~": {
+				"Items": ["Half made toad bowl"],
+				"Objects": ["Range"],
+				"Level": 40,
+				"Output": "Tangled toads' legs",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cook a ~|cooked jubbly|~": {
+				"Items": ["Raw jubbly"],
+				"Objects": ["Ogre spit-roast"],
+				"Level": 41,
+				"Output": "Cooked jubbly",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|chilli potato|~": {
+				"Items": ["Potato with butter", "Chili con carne"],
+				"Level": 41,
+				"Output": "Chilli potato",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook ~|fried onions|~": {
+				"Items": ["Chopped onion"],
+				"Objects": ["Range+"],
+				"Level": 42,
+				"Output": "Fried onions",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|half made choc bowl|~": {
+				"Items": ["Half baked bowl", "Chocolate bar", "Equa leaves"],
+				"Level": 42,
+				"Output": "Half made choc bowl",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Bake a ~|unfinished choc bowl|~": {
+				"Items": ["Half made choc bowl"],
+				"Objects": ["Range"],
+				"Level": 42,
+				"Output": "Unfinished choc bowl",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Finish a ~|chocolate bomb|~": {
+				"Items": ["Unfinished choc bowl", "Pot of cream", "Chocolate dust"],
+				"Level": 42,
+				"Output": "Chocolate bomb",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Make a ~|chocolate cheesecake|~": {
+				"Items": ["Biscuits", "Chocolate cream cheese", "Pot of cream", "Cake tin"],
+				"NPCs": ["Head Chef"],
+				"Level": 42,
+				"Output": "Chocolate cheesecake",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Cook a ~|bass|~": {
+				"Items": ["Raw bass"],
+				"Objects": ["Range+"],
+				"Level": 43,
+				"Output": "Bass",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Brew ~|Moonlight mead|~": {
+				"Items": ["Bittercap mushroom", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 44,
+				"Output": "Moonlight mead",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|raw bacon heap|~": {
+				"Items": ["Raw bacon pile"],
+				"Level": 44,
+				"Output": "Raw bacon heap",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fry a ~|bacon heap|~": {
+				"Items": ["Raw bacon heap"],
+				"Objects": ["Range+"],
+				"Level": 44,
+				"Output": "Bacon heap",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook a ~|swordfish|~": {
+				"Items": ["Raw swordfish"],
+				"Objects": ["Range+"],
+				"Level": 45,
+				"Output": "Swordfish",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|meat pizza|~": {
+				"Items": ["Plain pizza", "CookedChicken+"],
+				"Level": 45,
+				"Output": "Meat pizza",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Churn ~|strawberry cream cheese|~": {
+				"Items": ["Strawberry milk"],
+				"NPCs": ["Head Chef"],
+				"Objects": ["Dairy churn"],
+				"Level": 45,
+				"Output": "Strawberry cream cheese",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook ~|fried mushrooms|~": {
+				"Items": ["Sliced mushrooms"],
+				"Objects": ["Range+"],
+				"Level": 46,
+				"Output": "Fried mushrooms",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|part fish pie 1|~": {
+				"Items": ["Pie shell", "Trout"],
+				"Level": 47,
+				"Output": "Part fish pie 1",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|part fish pie 2|~": {
+				"Items": ["Part fish pie 1", "Cod"],
+				"Level": 47,
+				"Output": "Part fish pie 2",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|raw fish pie|~": {
+				"Items": ["Part fish pie 2", "Raw potato"],
+				"Level": 47,
+				"Output": "Raw fish pie",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Bake a ~|fish pie|~": {
+				"Items": ["Raw fish pie"],
+				"Objects": ["Range"],
+				"Level": 47,
+				"Output": "Fish pie",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw fish pie": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw fish pie"],
@@ -1653,7 +3438,293 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 5
+			},
+			"Make a ~|potato with cheese|~": {
+				"Items": ["Potato with butter", "Cheese"],
+				"Level": 47,
+				"Output": "Potato with cheese",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Make a ~|strawberry cheesecake|~": {
+				"Items": ["Biscuits", "Strawberry cream cheese", "Pot of cream", "Cake tin"],
+				"NPCs": ["Head Chef"],
+				"Level": 47,
+				"Output": "Strawberry cheesecake",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Churn a ~|cheese wheel|~ from milk": {
+				"Items": ["Bucket of milk"],
+				"Objects": ["Dairy churn"],
+				"Level": 48,
+				"Output": "Cheese wheel",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Churn a ~|cheese wheel|~ from cream": {
+				"Items": ["Pot of cream"],
+				"Objects": ["Dairy churn"],
+				"Level": 48,
+				"Output": "Cheese wheel",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Churn a ~|cheese wheel|~ from butter": {
+				"Items": ["Pat of butter"],
+				"Objects": ["Dairy churn"],
+				"Level": 48,
+				"Output": "Cheese wheel",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cut ~|cheese|~ from a cheese wheel": {
+				"Items": ["Cheese wheel"],
+				"Level": 48,
+				"Output": "Cheese",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Brew ~|Axeman's folly|~": {
+				"Items": ["Oak roots", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 49,
+				"Output": "Axeman's folly",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|wrapped oomlie|~": {
+				"Items": ["Raw oomlie", "Palm leaf"],
+				"Level": 50,
+				"Output": "Wrapped oomlie",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cooked a ~|cooked oomlie wrap|~": {
+				"Items": ["Wrapped oomlie"],
+				"Objects": ["Range+"],
+				"Level": 50,
+				"Output": "Cooked oomlie wrap",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|chocolate cake|~": {
+				"Items": ["Cake", "Chocolate+"],
+				"Level": 50,
+				"Output": "Chocolate cake",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make an ~|egg potato|~": {
+				"Items": ["Potato with butter", "Egg and tomato"],
+				"Level": 51,
+				"Output": "Egg potato",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook a ~|desert sole|~": {
+				"Items": ["Raw desert sole"],
+				"Objects": ["Range+"],
+				"Level": 52,
+				"Output": "Desert sole",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|lemon cheesecake|~": {
+				"Items": ["Biscuits", "Cream cheese", "Pot of cream", "Lemon", "Cake tin"],
+				"NPCs": ["Head Chef"],
+				"Level": 52,
+				"Output": "Lemon cheesecake",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook a ~|lava eel|~": {
+				"Items": ["Raw lava eel"],
+				"Objects": ["Range+"],
+				"Level": 53,
+				"Output": "Lava eel",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Brew ~|Chef's delight|~": {
+				"Items": ["Chocolate dust", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 54,
+				"Output": "Chef's delight",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|raw bacon mound|~": {
+				"Items": ["Raw bacon heap"],
+				"Level": 54,
+				"Output": "Raw bacon mound",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fry a ~|bacon mound|~": {
+				"Items": ["Raw bacon mound"],
+				"Objects": ["Range+"],
+				"Level": 54,
+				"Output": "Bacon mound",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make an ~|anchovy pizza|~": {
+				"Items": ["Plain pizza", "Anchovies"],
+				"Level": 55,
+				"Output": "Anchovy pizza",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|mushroom & onion|~": {
+				"Items": ["Fried mushrooms", "Fried onion"],
+				"Level": 57,
+				"Output": "Mushroom & onion",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|bacon cheesecake|~": {
+				"Items": ["Biscuits", "Cream cheese", "Pot of cream", "Bacon", "Cake tin"],
+				"NPCs": ["Head Chef"],
+				"Level": 57,
+				"Output": "Bacon cheesecake",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|pitta dough|~ from a canister": {
+				"Items": ["Pot of flour", "WaterItem+"],
+				"Level": 58,
+				"Output": "Pitta dough",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|pitta dough|~ from a water source": {
+				"Items": ["Pot of flour"],
+				"Objects": ["WaterSource+"],
+				"Level": 58,
+				"Output": "Pitta dough",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Bake ~|pitta bread|~": {
+				"Items": ["Pitta dough"],
+				"Objects": ["Range"],
+				"Level": 58,
+				"Output": "Pitta bread",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Brew ~|Slayer's respite|~": {
+				"Items": ["Wildblood hops", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 59,
+				"Output": "Slayer's respite",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|uncooked curry|~": {
+				"Items": ["Uncooked stew", "CurryLeaf+"],
+				"Level": 60,
+				"Output": "Uncooked curry",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook a ~|curry|~": {
+				"Items": ["Uncooked curry"],
+				"Objects": ["Range"],
+				"Level": 60,
+				"Output": "Curry",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook a ~|catfish|~": {
+				"Items": ["Raw catfish"],
+				"Objects": ["Range+"],
+				"Level": 60,
+				"Output": "Catfish",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook a ~|monkfish|~": {
+				"Items": ["Raw monkfish"],
+				"Objects": ["Range+"],
+				"Level": 62,
+				"Output": "Monkfish",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|mushroom potato|~": {
+				"Items": ["Potato with butter", "Mushroom & onion"],
+				"Level": 64,
+				"Output": "Mushroom potato",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Brew ~|Pigswill|~": {
+				"Items": ["Raw bacon", "Ale yeast", "Bucket of water", "Barley malt", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 64,
+				"Output": "Pigswill",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|pineapple pizza|~": {
+				"Items": ["Plain pizza", "PineappleRing+"],
+				"Level": 65,
+				"Output": "Pineapple pizza",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|tuna and corn|~": {
+				"Items": ["Chopped tuna", "Cooked sweetcorn"],
+				"Level": 67,
+				"Output": "Tuna and corn",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|tuna potato|~": {
+				"Items": ["Potato with butter", "Tuna and corn"],
+				"Level": 68,
+				"Output": "Tuna potato",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|Juju gumbo|~": {
+				"Items": ["Strange potato", "Tuna and corn"],
+				"Level": 68,
+				"Output": "Juju gumbo",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|part admiral pie 1|~": {
+				"Items": ["Pie shell", "Salmon"],
+				"Level": 70,
+				"Output": "Part admiral pie 1",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|part admiral pie 2|~": {
+				"Items": ["Part admiral pie 1", "Tuna"],
+				"Level": 70,
+				"Output": "Part admiral pie 2",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|raw admiral pie|~": {
+				"Items": ["Part admiral pie 2", "Raw potato"],
+				"Level": 70,
+				"Output": "Raw admiral pie",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Bake an ~|admiral pie|~": {
+				"Items": ["Raw admiral pie"],
+				"Objects": ["Range"],
+				"Level": 70,
+				"Output": "Admiral pie",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw admiral pie": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw admiral pie"],
@@ -1664,7 +3735,215 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 5
+			},
+			"Cook a ~|beltfish|~": {
+				"Items": ["Raw beltfish"],
+				"Objects": ["Range+"],
+				"Level": 72,
+				"Output": "Beltfish",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Cook a ~|green blubber jellyfish|~": {
+				"Items": ["Raw green blubber jellyfish"],
+				"Objects": ["Range+"],
+				"Level": 72,
+				"Output": "Green blubber jellyfish",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make an ~|uncooked pork pie|~": {
+				"Items": ["Pie shell", "Bacon"],
+				"Level": 74,
+				"Output": "Uncooked pork pie",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Bake a ~|pork pie|~": {
+				"Items": ["Uncooked pork pie"],
+				"Objects": ["Range"],
+				"Level": 74,
+				"Output": "Pork pie",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook ~|arcane apoterrasaur meat|~": {
+				"Items": ["Raw arcane apoterrasaur meat"],
+				"Objects": ["Range+"],
+				"Level": 75,
+				"Output": "Arcane apoterrasaur meat",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook ~|scimitops meat|~": {
+				"Items": ["Raw scimitops meat"],
+				"Objects": ["Range+"],
+				"Level": 75,
+				"Output": "Scimitops meat",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook ~|bagrada rex meat|~": {
+				"Items": ["Raw bagrada rex meat"],
+				"Objects": ["Range+"],
+				"Level": 75,
+				"Output": "Bagrada rex meat",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook a ~|shark|~": {
+				"Items": ["Raw shark"],
+				"Objects": ["Range+"],
+				"Level": 80,
+				"Output": "Shark",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|raw timber fungus soup|~": {
+				"Items": ["Bowl of water", "Enriched timber fungus"],
+				"Level": 80,
+				"Output": "Raw timber fungus soup",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook ~|timber fungus soup|~": {
+				"Items": ["Raw timber fungus soup"],
+				"Objects": ["Range+"],
+				"Level": 80,
+				"Output": "Timber fungus soup",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make ~|raw calcified fungus soup|~": {
+				"Items": ["Bowl of water", "Enriched calcified fungus"],
+				"Level": 80,
+				"Output": "Raw calcified fungus soup",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cook ~|calcified fungus soup|~": {
+				"Items": ["Raw calcified fungus soup"],
+				"Objects": ["Range+"],
+				"Level": 80,
+				"Output": "Calcified fungus soup",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Make ~|raw fungal spore soup|~": {
+				"Items": ["Bowl of water", "Enriched fungal spore"],
+				"Level": 80,
+				"Output": "Raw fungal spore soup",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cook ~|fungal spore soup|~": {
+				"Items": ["Raw fungal spore soup"],
+				"Objects": ["Range+"],
+				"Level": 80,
+				"Output": "Fungal spore soup",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Make ~|raw fungal algae soup|~": {
+				"Items": ["Bowl of water", "Enriched fungal algae"],
+				"Level": 80,
+				"Output": "Raw fungal algae soup",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Cook ~|fungal algae soup|~": {
+				"Items": ["Raw fungal algae soup"],
+				"Objects": ["Range+"],
+				"Level": 80,
+				"Output": "Fungal algae soup",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Cook a ~|baron shark|~": {
+				"Items": ["Raw baron shark"],
+				"Objects": ["Range+"],
+				"Level": 80,
+				"Output": "Baron shark",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Cook ~|spicati apoterrasaur meat|~": {
+				"Items": ["Raw spicati apoterrasaur meat"],
+				"Objects": ["Range+"],
+				"Level": 81,
+				"Output": "Spicati apoterrasaur meat",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook ~|asciatops meat|~": {
+				"Items": ["Raw asciatops meat"],
+				"Objects": ["Range+"],
+				"Level": 81,
+				"Output": "Asciatops meat",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook ~|corbicula rex meat|~": {
+				"Items": ["Raw corbicula rex meat"],
+				"Objects": ["Range+"],
+				"Level": 81,
+				"Output": "Corbicula rex meat",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook a ~|sea turtle|~": {
+				"Items": ["Raw sea turtle"],
+				"Objects": ["Range+"],
+				"Level": 82,
+				"Output": "Sea turtle",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook a ~|great white shark|~": {
+				"Items": ["Raw great white shark"],
+				"Objects": ["Range+"],
+				"Level": 84,
+				"Output": "Great white shark",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|great maki|~": {
+				"Items": ["Raw great white shark", "Seaweed"],
+				"NPCs": ["Prawnbroker"],
+				"Level": 84,
+				"Output": "Great maki",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|part wild pie 1|~": {
+				"Items": ["Pie shell", "Raw bear meat"],
+				"Level": 85,
+				"Output": "Part wild pie 1",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|part wild pie 2|~": {
+				"Items": ["Part wild pie 1", "Raw chompy"],
+				"Level": 85,
+				"Output": "Part wild pie 2",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|raw wild pie|~": {
+				"Items": ["Part wild pie 2", "Raw rabbit"],
+				"Level": 85,
+				"Output": "Raw wild pie",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Bake a ~|wild pie|~": {
+				"Items": ["Raw wild pie"],
+				"Objects": ["Range"],
+				"Level": 85,
+				"Output": "Wild pie",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw wild pie": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw wild pie"],
@@ -1675,7 +3954,215 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 5
+			},
+			"Make a ~|banana pizza|~": {
+				"Items": ["Plain pizza", "Sliced banana", "Nuts", "Curry leaf", "Cooked chicken"],
+				"Level": 85,
+				"Output": "Banana pizza",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Make ~|sliced mushrooms (The Arc)|~": {
+				"Items": ["ArcMushrooms+"],
+				"Level": 86,
+				"Skills": {
+					"Farming": 90
+				},
+				"Output": "Sliced mushrooms (The Arc)",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Cook a ~|cavefish|~": {
+				"Items": ["Raw cavefish"],
+				"Objects": ["Range+"],
+				"Level": 88,
+				"Output": "Cavefish",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook ~|oculi apoterrasaur meat|~": {
+				"Items": ["Raw oculi apoterrasaur meat"],
+				"Objects": ["Range+"],
+				"Level": 89,
+				"Output": "Oculi apoterrasaur meat",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook ~|malletops meat|~": {
+				"Items": ["Raw malletops meat"],
+				"Objects": ["Range+"],
+				"Level": 89,
+				"Output": "Malletops meat",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook ~|pavosaurus rex meat|~": {
+				"Items": ["Raw pavosaurus rex meat"],
+				"Objects": ["Range+"],
+				"Level": 89,
+				"Output": "Pavosaurus rex meat",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Unlock ~|the chef|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Make ~|primal fruit pulp|~": {
+				"Items": ["PrimalFruit+"],
+				"Level": 90,
+				"Skills": {
+					"Herblore": 90
+				},
+				"Output": "Primal fruit pulp",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|raw wilder pie|~": {
+				"Items": ["Raw wild pie", "Crushed dragonstone"],
+				"Level": 90,
+				"Output": "Raw wilder pie",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Bake a ~|wilder pie|~": {
+				"Items": ["Raw wilder pie"],
+				"Objects": ["Range"],
+				"Level": 90,
+				"Output": "Wilder pie",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cook a ~|manta ray|~": {
+				"Items": ["Raw manta ray"],
+				"Objects": ["Range+"],
+				"Level": 91,
+				"Output": "Manta ray",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|great gunkan|~": {
+				"Items": ["Raw great white shark", "Kelp"],
+				"NPCs": ["Prawnbroker"],
+				"Level": 91,
+				"Output": "Great gunkan",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cook a ~|cooked pekin|~": {
+				"Items": ["Raw pekin"],
+				"Objects": ["Range+"],
+				"Level": 91,
+				"Output": "Cooked pekin",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make ~|fish oil|~ using raw tarpon": {
+				"Items": ["Raw tarpon"],
+				"Objects": ["Range+"],
+				"Level": 91,
+				"Output": "Fish oil",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cook a ~|cooked undead pekin|~": {
+				"Items": ["Raw undead pekin"],
+				"Objects": ["Range+"],
+				"Level": 91,
+				"Output": "Cooked undead pekin",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Make ~|wine of Saradomin|~": {
+				"Items": ["Jug of water", "Grapes of Saradomin"],
+				"Level": 92,
+				"Output": "Wine of Saradomin",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|wine of Guthix|~": {
+				"Items": ["Jug of water", "Grapes of Guthix"],
+				"Level": 92,
+				"Output": "Wine of Guthix",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make ~|wine of Zamorak|~": {
+				"Items": ["Jug of water", "Grapes of Zamorak"],
+				"Level": 92,
+				"Output": "Wine of Zamorak",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook a ~|rocktail|~": {
+				"Items": ["Raw rocktail"],
+				"Objects": ["Range+"],
+				"Level": 93,
+				"Output": "Rocktail",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook ~|rocktail soup|~": {
+				"Items": ["Rocktail", "Spices"],
+				"Level": 93,
+				"Output": "Rocktail soup",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make ~|fish oil|~ using raw seerfish": {
+				"Items": ["Raw seerfish"],
+				"Objects": ["Range+"],
+				"Level": 93,
+				"Output": "Fish oil",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make ~|uncooked arc gumbo|~": {
+				"Items": ["Bundle of bamboo", "Tortle shell bowl", "Rumberry", "Fish oil", "Sea salt"],
+				"Level": 94,
+				"Output": "Uncooked arc gumbo",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook ~|arc gumbo|~": {
+				"Items": ["Uncooked arc gumbo"],
+				"Objects": ["Range+"],
+				"Level": 94,
+				"Output": "Arc gumbo",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|part summer pie 1|~": {
+				"Items": ["Pie shell", "Strawberry"],
+				"Level": 95,
+				"Output": "Part summer pie 1",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make a ~|part summer pie 2|~": {
+				"Items": ["Part summer pie 1", "Watermelon"],
+				"Level": 95,
+				"Output": "Part summer pie 2",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make a ~|raw summer pie|~": {
+				"Items": ["Part summer pie 2", "Cooking apple"],
+				"Level": 95,
+				"Output": "Raw summer pie",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Bake a ~|summer pie|~": {
+				"Items": ["Raw summer pie"],
+				"Objects": ["Range"],
+				"Level": 95,
+				"Output": "Summer pie",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw summer pie": {
 				"Items": ["Water rune+", "Fire rune+", "Astral rune", "Raw summer pie"],
@@ -1686,47 +4173,107 @@
 				"Skills": {
 					"Magic": 65
 				},
+				"Priority": 5
+			},
+			"Cook a ~|tiger shark|~": {
+				"Items": ["Raw tiger shark"],
+				"Objects": ["Range+"],
+				"Level": 95,
+				"Output": "Tiger shark",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cook a ~|blue blubber jellyfish|~": {
+				"Items": ["Raw blue blubber jellyfish"],
+				"Objects": ["Range+"],
+				"Level": 95,
+				"Output": "Blue blubber jellyfish",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Make ~|fish oil|~ using raw sillago": {
+				"Items": ["Raw sillago"],
+				"Objects": ["Range+"],
+				"Level": 95,
+				"Output": "Fish oil",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Make ~|wobbegong oil|~": {
+				"Items": ["Raw wobbegong"],
+				"Objects": ["Range+"],
+				"Level": 96,
+				"Output": "Wobbegong oil",
+				"Primary": true,
 				"Priority": 1
 			},
-			"Cook ~|skewered bird meat|~": {
-				"Items": ["Skewered bird meat"],
-				"Level": 11,
-				"Skills": {
-					"Firemaking": 20
-				},
-				"Output": "Roast bird meat",
-				"Primary": false,
-				"Priority": 1
-			},
-			"Cook a ~|skewered rabbit|~": {
-				"Items": ["Skewered rabbit"],
-				"Level": 16,
-				"Skills": {
-					"Firemaking": 20
-				},
-				"Output": "Roast rabbit",
-				"Primary": false,
-				"Priority": 1
-			},
-			"Cook a ~|skewered beast|~": {
-				"Items": ["Skewered beast"],
-				"Level": 21,
-				"Skills": {
-					"Firemaking": 20
-				},
-				"Output": "Roast beast meat",
-				"Primary": false,
-				"Priority": 1
-			},
-			"Cook a ~|skewered chompy|~": {
-				"Items": ["Skewered chompy"],
-				"Level": 30,
-				"Skills": {
-					"Firemaking": 20
-				},
-				"Output": "Roast chompy",
-				"Primary": false,
+			"Make ~|uncooked shark soup|~": {
+				"Items": ["Bundle of bamboo", "Shiny tortle shell bowl", "Sliced mushrooms (The Arc)", "Wobbegong oil", "Alaea sea salt"],
+				"Level": 96,
+				"Output": "Uncooked shark soup",
+				"Primary": true,
 				"Priority": 2
+			},
+			"Cook ~|shark soup|~": {
+				"Items": ["Uncooked shark soup"],
+				"Objects": ["Range+"],
+				"Level": 96,
+				"Output": "Shark soup",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Cook a ~|sailfish|~": {
+				"Items": ["Raw sailfish"],
+				"Objects": ["Range+"],
+				"Level": 99,
+				"Output": "Sailfish",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cook ~|sailfish soup|~": {
+				"Items": ["Sailfish", "Spices"],
+				"Level": 99,
+				"Output": "Sailfish soup",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Obtain the ~|Cooking cape|~": {
+				"Items": ["Cooking cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Make a ~|primal starter|~": {
+				"Items": ["Raw oculi apoterrasaur meat", "Rainbow sweetcorn", "Cannonball cabbage", "Sweet potato"],
+				"Objects": ["Range"],
+				"Level": 99,
+				"Output": "Primal starter",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Make a ~|primal main course|~": {
+				"Items": ["Raw malletops meat", "Raw pavosaurus rew meat", "Red onion", "Heirloom tomato"],
+				"Objects": ["Range"],
+				"Level": 99,
+				"Output": "Primal main course",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Make a ~|primal dessert|~": {
+				"Items": ["White strawberry", "Golden watermelon", "Dragonfruit", "Mango"],
+				"Objects": ["Range"],
+				"Level": 99,
+				"Output": "Primal dessert",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Make a ~|primal feast|~": {
+				"Items": ["Primal starter", "Primal main course", "Primal dessert", "Extreme cooking potion"],
+				"Objects": ["Range"],
+				"Level": 98,
+				"Output": "Primal starter",
+				"Primary": true,
+				"Priority": 1
 			}
 		},
 		"Crafting": {
@@ -7448,6 +9995,16 @@
 				"Output": "Grimy fellstalk",
 				"Primary": false,
 				"Priority": 1
+			},
+			"Make ~|sliced mushrooms (The Arc)|~": {
+				"Items": ["ArcMushrooms+"],
+				"Level": 90,
+				"Skills": {
+					"Cooking": 86
+				},
+				"Output": "Sliced mushrooms (The Arc)",
+				"Primary": true,
+				"Priority": 1
 			}
 		},
 		"Firemaking": {
@@ -11634,6 +14191,16 @@
 				"Outputs": "Blessed flask",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Make ~|primal fruit pulp|~": {
+				"Items": ["PrimalFruit+"],
+				"Level": 90,
+				"Skills": {
+					"Cooking": 90
+				},
+				"Output": "Primal fruit pulp",
+				"Primary": true,
+				"Priority": 2
 			}
 		},
 		"Hunter": {
@@ -24583,6 +27150,61 @@
 				"Items": ["OliveOil+"],
 				"Objects": ["Flamtaer shrine"],
 				"Output": "SacredOils"
+			},
+			"Fill a ~|bowl of water|~": {
+				"Items": ["Bowl"],
+				"Objects": ["WaterSource+"],
+				"Output": "Bowl of water"
+			},
+			"Fill a ~|bucket of water|~": {
+				"Items": ["Bowl"],
+				"Objects": ["WaterSource+"],
+				"Output": "Bucket of water"
+			},
+			"Fill a ~|jug of water|~": {
+				"Items": ["Jug"],
+				"Objects": ["WaterSource+"],
+				"Output": "Jug of water"
+			},
+			"Fill a ~|vial of water|~": {
+				"Items": ["Vial"],
+				"Objects": ["WaterSource+"],
+				"Output": "Vial of water"
+			},
+			"Fill a ~|bucket of milk|~": {
+				"Items": ["Bucket"],
+				"Objects": ["Dairy cow"],
+				"Output": "Bucket of milk"
+			},
+			"Fill a ~|pot of vinegar|~": {
+				"Items": ["Empty pot", "Jug of vinegar"],
+				"Output": "Pot of vinegar"
+			},
+			"Pick ~|wheat|~": {
+				"Objects": ["Wheat"],
+				"Output": "Wheat"
+			},
+			"Make a ~|hangover cure|~": {
+				"Items": ["Chocolatey milk", "Snape grass"],
+				"Output": "Hangover cure"
+			},
+			"Heat a ~|bowl of hot water|~ on a range": {
+				"Items": ["Bowl of water"],
+				"Objects": ["Range+"],
+				"Output": "Bowl of hot water"
+			},
+			"Heat a ~|bowl of hot water|~ on a Geyser titan": {
+				"Items": ["Bowl of water", "Geyser titan pouch"],
+				"Output": "Bowl of hot water"
+			},
+			"Make a ~|cup of hot water|~": {
+				"Items": ["Bowl of water", "Empty cup"],
+				"Output": "Cup of hot water"
+			},
+			"Burn ~|burned meat|~": {
+				"Items": ["Cooked meat"],
+				"Objects": ["Range+"],
+				"Output": "Burned meat"
 			}
 		}
 	},
@@ -69657,7 +72279,19 @@
 			"BalloonLogs+": ["Logs", "Oak logs", "Willow logs", "Teak logs", "Mahogany logs", "Arctic pine logs", "Eucalyptus", "Yew logs", "Magic logs", "Elder logs"],
 			"ArrowShafts+": ["Arrow shaft", "Grenwall spikes"],
 			"OysterPearl+": ["Oyster Pearl", "Oyster Pearls"],
-			"Bamboo+": ["Bamboo", "Golden Bamboo"]
+			"Bamboo+": ["Bamboo", "Golden Bamboo"],
+			"Spice+": ["Spice", "Gnome spice"],
+			"RawMeat+": ["Raw beef", "Raw rat meat", "Raw bear meat", "Raw yak meat", "Raw pawya meat", "Raw wolf meat"],
+			"SinewMeat+": ["Raw beef", "Raw bear meat", "Raw yak meat", "Raw wolf meat"],
+			"CookedMeat+": ["Cooked meat", "Minced meat"],
+			"CookedChicken+": ["Cooked meat", "Cooked chicken"],
+			"NettleTea+": ["Nettle tea", "Cup of tea (Nettle tea)"],
+			"Seaweed+": ["Seaweed", "Swamp weed", "Kelp (Mogre Camp)"],
+			"Chocolate+": ["Chocolate dust", "Chocolate bar"],
+			"CurryLeaf+": ["Curry leaf", "Spice"],
+			"PineappleRing+": ["Pineapple ring", "Pineapple chunks"],
+			"PrimalFruit+": ["Golden dragonfruit", "Carambola", "Lychee", "Guarana", "Mango", "Ciku", "Avocado", "Dragonfruit"],
+			"ArcMushrooms+": ["Corpsebloom", "Immorel", "Snufftruffle", "Wushroom", "Lactarius", "Paraspore", "Purple bellow", "Arc puffball", "Blushroom", "Honeyfungus", "Inky cap", "Sporcini", "Buttercap", "Toadstool", "Russala", "Summertwirl"]
 		},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -69677,8 +72311,10 @@
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"],
-			"WaterObject+": ["Sink", "Fountain", "Well", "Water barrel", "Water trough"],
-			"CurePatch+": ["Allotment patch", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"]
+			"WaterObject+": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough"],
+			"CurePatch+": ["Allotment patch", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
+			"Fire+": ["Fire", "Fireplace"],
+			"Range+": ["Fire", "Range", "Fireplace"]
 		},
 		"monstersPlus": {
 			"Guard+": ["Guard", "Guard (Varrock)"],
