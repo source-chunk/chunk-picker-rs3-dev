@@ -8181,7 +8181,7 @@
 			"Light a ~|Haunted Woods torch|~": {
 				"Items": ["Bark"],
 				"Level": 47,
-				"Objects": "Torch (Haunted Woods)",
+				"Objects": ["Torch (Haunted Woods)"],
 				"Primary": true,
 				"Priority": 8
 			},
