@@ -2879,7 +2879,7 @@
 				"Items": ["clay"],
 				"Level": 1,
 				"Outputs": "Soft clay",
-				"Object": ["WaterObject+"],
+				"Objects": ["WaterObject+"],
 				"Primary": true,
 				"Priority": 25
 			},
@@ -5110,6 +5110,16 @@
 				"Level": 60,
 				"Primary": true,
 				"Priority": 11
+			},
+			"Create an ~|upgraded bone blowpipe|~": {
+				"Items": ["Blowpipe chitin", "Blowpipe feather", "Blowpipe fins", "Bone blowpipe"],
+				"Level": 87,
+				"Skills": {
+					"Fletching": 87
+				},
+				"Output": "Upgraded bone blowpipe",
+				"Primary":  true,
+				"Priority": 5
 			}
 		},
 		"Defence": {
@@ -7451,7 +7461,6 @@
 			"Add ~|normal logs|~ to a bonfire": {
 				"Items": ["Logs"],
 				"Level": 1,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -7465,7 +7474,6 @@
 			"Add ~|achey tree logs|~ to a bonfire": {
 				"Items": ["Achey tree logs"],
 				"Level": 1,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -7518,29 +7526,6 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 11
-			},
-			"Obtain a ~|divine fire spirit|~": {
-				"Chunks": ["9015"],
-				"Items": ["Logs+"],
-				"Level": 1,
-				"Output": "Divine fire spirit (item)",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Obtain a ~|forge phoenix|~": {
-				"Items": ["Logs+", "Orthen furnace core"],
-				"Level": 1,
-				"Output": "Forge phoenix (item)",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Obtain a ~|divine forge phoenix|~": {
-				"Chunks": ["9015"],
-				"Items": ["Logs+", "Orthen furnace core"],
-				"Level": 1,
-				"Output": "Divine forge phoenix (item)",
-				"Primary": true,
-				"Priority": 14
 			},
 			"Light ~|candle latern (white)|~": {
 				"Items": ["Candle latern (white)"],
@@ -7654,7 +7639,6 @@
 			"Add ~|oak logs|~ to a bonfire": {
 				"Items": ["Oak logs"],
 				"Level": 15,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -7826,7 +7810,6 @@
 			"Add ~|willow logs|~ to a bonfire": {
 				"Items": ["Willow logs"],
 				"Level": 30,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -7898,7 +7881,6 @@
 			"Add ~|teak logs|~ to a bonfire": {
 				"Items": ["Teak logs"],
 				"Level": 35,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8076,7 +8058,6 @@
 			"Add ~|arctic pine logs|~ to a bonfire": {
 				"Items": ["Arctic pine logs"],
 				"Level": 42,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8104,7 +8085,6 @@
 			"Add ~|maple logs|~ to a bonfire": {
 				"Items": ["Maple logs"],
 				"Level": 45,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8195,14 +8175,13 @@
 			"Add ~|acadia logs|~ to a bonfire": {
 				"Items": ["Acadia logs"],
 				"Level": 47,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 7
 			},
 			"Light a ~|Haunted Woods torch|~": {
 				"Items": ["Bark"],
 				"Level": 47,
-				"Object": "Torch (Haunted Woods)",
+				"Objects": "Torch (Haunted Woods)",
 				"Primary": true,
 				"Priority": 8
 			},
@@ -8268,7 +8247,6 @@
 			"Add ~|mahogany logs|~ to a bonfire": {
 				"Items": ["Mahogany logs"],
 				"Level": 50,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8474,7 +8452,6 @@
 			"Add ~|eucalyptus logs|~ to a bonfire": {
 				"Items": ["Eucalyptus logs"],
 				"Level": 58,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8502,7 +8479,6 @@
 			"Add ~|yew logs|~ to a bonfire": {
 				"Items": ["Yew logs"],
 				"Level": 60,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8820,7 +8796,6 @@
 			"Add ~|magic logs|~ to a bonfire": {
 				"Items": ["Magic logs"],
 				"Level": 75,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8865,7 +8840,6 @@
 			"Add ~|corrupted magic logs|~ to a bonfire": {
 				"Items": ["Corrupted magic logs"],
 				"Level": 75,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 8
 			},
@@ -8879,7 +8853,6 @@
 			"Add ~|blisterwood logs|~ to a bonfire": {
 				"Items": ["Blisterwood logs"],
 				"Level": 76,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -9002,7 +8975,6 @@
 			"Add ~|cursed magic logs|~ to a bonfire": {
 				"Items": ["Cursed magic logs"],
 				"Level": 82,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -9063,7 +9035,6 @@
 			"Add ~|elder logs|~ to a bonfire": {
 				"Items": ["Elder logs"],
 				"Level": 90,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -9115,7 +9086,6 @@
 			"Add ~|driftwood|~ to a bonfire": {
 				"Items": ["Driftwood"],
 				"Level": 92,
-				"Output": "Fire spirit (item)",
 				"Primary": true,
 				"Priority": 7
 			},
@@ -9988,19 +9958,1646 @@
 			}
 		},
 		"Fletching": {
+			"Fletch ~|arrow shafts|~ using normal logs": {
+				"Items": ["Logs"],
+				"Level": 1,
+				"Output": "Arrow shaft",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|headless arrows|~": {
+				"Items": ["ArrowShafts+", "Feather+"],
+				"Level": 1,
+				"Output": "Headless arrow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Tip ~|bronze arrows|~": {
+				"Items": ["Headless arrow", "Bronze arrowheads"],
+				"Level": 1,
+				"Output": "Bronze arrow",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fletch a ~|shortbow (u)|~": {
+				"Items": ["Logs"],
+				"Level": 1,
+				"Output": "Shortbow (u)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|shortbow|~": {
+				"Items": ["Shortbow (u)", "Bowstring"],
+				"Level": 1,
+				"Output": "Shortbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Fletch ~|ogre arrow shafts|~": {
+				"Items": ["Achey tree logs"],
+				"Level": 5,
+				"Output": "Ogre arrow shaft",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|flighted ogre arrows|~": {
+				"Items": ["Ogre arrow shaft", "Feather+"],
+				"Level": 5,
+				"Output": "Flighted ogre arrow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|wolf bone arrowheads|~": {
+				"Items": ["Wolf bones"],
+				"Level": 5,
+				"Output": "Wolf bone arrowheads",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Tip ~|ogre arrows|~": {
+				"Items": ["Wolf bone arrowheads", "Flighted ogre arrow"],
+				"Level": 5,
+				"Output": "Wolf bone arrowheads",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fletch ~|bronze brutals|~": {
+				"Items": ["Bronze nails", "Flighted ogre arrow"],
+				"Level": 7,
+				"Output": "Bronze brutal",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|bronze bolts|~": {
+				"Items": ["Bronze bolts (unf)", "Feather+"],
+				"Level": 9,
+				"Output": "Bronze bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|wooden stock|~": {
+				"Items": ["Logs"],
+				"Level": 9,
+				"Output": "Wooden stock",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch a ~|bronze crossbow (u)|~": {
+				"Items": ["Wooden stock", "Bronze limbs"],
+				"Level": 9,
+				"Output": "Bronze crossbow (u)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|bronze crossbow|~": {
+				"Items": ["Bronze crossbow (u)", "Crossbow string"],
+				"Level": 9,
+				"Output": "Bronze crossbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|bronze 2h crossbow|~": {
+				"Items": ["Bronze crossbow (u)", "Crossbow string"],
+				"Level": 9,
+				"Output": "Bronze 2h crossbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String an ~|off-hand bronze crossbow|~": {
+				"Items": ["Bronze crossbow (u)", "Crossbow string"],
+				"Level": 9,
+				"Output": "Off-hand bronze crossbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch a ~|shieldbow (u)|~": {
+				"Items": ["Logs"],
+				"Level": 10,
+				"Output": "Shieldbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|shieldbow|~": {
+				"Items": ["Shieldbow (u)", "Bowstring"],
+				"Level": 10,
+				"Output": "Shortbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|opal bolt tips|~": {
+				"Items": ["Opal"],
+				"Level": 11,
+				"Output": "Opal bolt tips",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|opal bolts|~": {
+				"Items": ["Opal tips", "Bronze bolts"],
+				"Level": 11,
+				"Output": "Opal bolts",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|bronze darts|~": {
+				"Items": ["Bronze dart tip", "Feather+"],
+				"Level": 11,
+				"Output": "Bronze dart",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Feather ~|off-hand bronze darts|~": {
+				"Items": ["Bronze dart tip", "Feather+"],
+				"Level": 11,
+				"Output": "Off-hand bronze dart",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fletch ~|arrow shafts|~ using oak logs": {
+				"Items": ["Oak logs"],
+				"Level": 15,
+				"Output": "Arrow shaft",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|iron arrows|~": {
+				"Items": ["Headless arrow", "Iron arrowheads"],
+				"Level": 15,
+				"Output": "Iron arrow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|iron brutals|~": {
+				"Items": ["Iron nails", "Flighted ogre arrow"],
+				"Level": 18,
+				"Output": "Iron brutal",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch an ~|oak shortbow (u)|~": {
+				"Items": ["Oak logs"],
+				"Level": 20,
+				"Output": "Oak shortbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String an ~|oak shortbow|~": {
+				"Items": ["Oak shortbow (u)", "Bowstring"],
+				"Level": 20,
+				"Output": "Oak shortbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|iron darts|~": {
+				"Items": ["Iron dart tip", "Feather+"],
+				"Level": 22,
+				"Output": "Iron dart",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|off-hand iron darts|~": {
+				"Items": ["Iron dart tip", "Feather+"],
+				"Level": 22,
+				"Output": "Off-hand iron dart",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|blurite bolts|~": {
+				"Items": ["Blurite bolts (unf)", "Feather+"],
+				"Level": 24,
+				"Output": "Blurite bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch an ~|oak stock|~": {
+				"Items": ["Oak logs"],
+				"Level": 24,
+				"Output": "Oak stock",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch a ~|blurite crossbow (u)|~": {
+				"Items": ["Oak stock", "Blurite limbs"],
+				"Level": 24,
+				"Output": "Blurite crossbow (u)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|blurite crossbow|~": {
+				"Items": ["Blurite crossbow (u)", "Crossbow string"],
+				"Level": 24,
+				"Output": "Blurite crossbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|blurite 2h crossbow|~": {
+				"Items": ["Blurite crossbow (u)", "Crossbow string"],
+				"Level": 24,
+				"Output": "Blurite 2h crossbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String an ~|off-hand blurite crossbow|~": {
+				"Items": ["Blurite crossbow (u)", "Crossbow string"],
+				"Level": 24,
+				"Output": "Off-hand blurite crossbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch an ~|oak shieldbow (u)|~": {
+				"Items": ["Oak logs"],
+				"Level": 25,
+				"Output": "Oak shieldbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String an ~|oak shieldbow|~": {
+				"Items": ["Oak shieldbow (u)", "Bowstring"],
+				"Level": 25,
+				"Output": "Oak shieldbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|jade bolt tips|~": {
+				"Items": ["Jade"],
+				"Level": 26,
+				"Output": "Jade bolt tips",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|jade bolts|~": {
+				"Items": ["Blurite bolts", "Jade bolt tips"],
+				"Level": 26,
+				"Output": "Jade bolts",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|arrow shafts|~ using willow logs": {
+				"Items": ["Willow logs"],
+				"Level": 30,
+				"Output": "Arrow shaft",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|steel arrows|~": {
+				"Items": ["Headless arrow", "Steel arrowheads"],
+				"Level": 30,
+				"Output": "Steel arrow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch an ~|unstrung comp bow|~": {
+				"Items": ["Achey tree logs", "Wolf bones"],
+				"Level": 30,
+				"Output": "Unstrung comp bow",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|comp ogre bow|~": {
+				"Items": ["Unstrung comp bow", "Bowstring"],
+				"Level": 30,
+				"Output": "Comp ogre bow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fletch ~|kebbit bolts|~": {
+				"Items": ["Kebbit spike"],
+				"Level": 32,
+				"Output": "Kebbit bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch ~|steel brutals|~": {
+				"Items": ["Steel nails", "Flighted ogre arrow"],
+				"Level": 33,
+				"Output": "Steel brutal",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|willow shortbow (u)|~": {
+				"Items": ["Willow logs"],
+				"Level": 35,
+				"Output": "Willow shortbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|willow shortbow|~": {
+				"Items": ["Willow shortbow (u)", "Bowstring"],
+				"Level": 35,
+				"Output": "Willow shortbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|steel darts|~": {
+				"Items": ["Steel dart tip", "Feather+"],
+				"Level": 37,
+				"Output": "Steel dart",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|off-hand steel darts|~": {
+				"Items": ["Steel dart tip", "Feather+"],
+				"Level": 37,
+				"Output": "Off-hand steel dart",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|black brutals|~": {
+				"Items": ["Black nails", "Flighted ogre arrow"],
+				"Level": 38,
+				"Output": "Black brutal",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|iron bolts|~": {
+				"Items": ["Iron bolts (unf)", "Feather+"],
+				"Level": 39,
+				"Output": "Iron bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|willow stock|~": {
+				"Items": ["Willow logs"],
+				"Level": 39,
+				"Output": "Willow stock",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch a ~|iron crossbow (u)|~": {
+				"Items": ["Willow stock", "Iron limbs"],
+				"Level": 39,
+				"Output": "Iron crossbow (u)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|iron crossbow|~": {
+				"Items": ["Iron crossbow (u)", "Crossbow string"],
+				"Level": 39,
+				"Output": "Iron crossbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|iron 2h crossbow|~": {
+				"Items": ["Iron crossbow (u)", "Crossbow string"],
+				"Level": 39,
+				"Output": "Iron 2h crossbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String an ~|off-hand iron crossbow|~": {
+				"Items": ["Iron crossbow (u)", "Crossbow string"],
+				"Level": 39,
+				"Output": "Off-hand iron crossbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch a ~|willow shieldbow (u)|~": {
+				"Items": ["Willow logs"],
+				"Level": 40,
+				"Output": "Willow shieldbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|willow shieldbow|~": {
+				"Items": ["Willow shieldbow (u)", "Bowstring"],
+				"Level": 40,
+				"Output": "Willow shieldbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|pearl bolt tips|~": {
+				"Items": ["OysterPearl+"],
+				"Level": 41,
+				"Output": "Pearl bolt tips",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|pearl bolts|~": {
+				"Items": ["Iron bolts", "Pearl bolt tips"],
+				"Level": 41,
+				"Output": "Pearl bolts",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|silver bolts|~": {
+				"Items": ["Silver bolts (unf)", "Feather+"],
+				"Level": 43,
+				"Output": "Silver bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|mithril arrows|~": {
+				"Items": ["Headless arrow", "Mithril arrowheads"],
+				"Level": 45,
+				"Output": "Mithril arrow",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch ~|arrow shafts|~ using maple logs": {
+				"Items": ["Maple logs"],
+				"Level": 45,
+				"Output": "Arrow shaft",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|arrow shafts|~ using acadia logs": {
+				"Items": ["Acadia logs"],
+				"Level": 45,
+				"Output": "Arrow shaft",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Feather ~|steel bolts|~": {
+				"Items": ["Steel bolts (unf)", "Feather+"],
+				"Level": 46,
+				"Output": "Steel bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|teak stock|~": {
+				"Items": ["Teak logs"],
+				"Level": 46,
+				"Output": "Teak stock",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch a ~|steel crossbow (u)|~": {
+				"Items": ["Teak stock", "Steel limbs"],
+				"Level": 46,
+				"Output": "Steel crossbow (u)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|steel crossbow|~": {
+				"Items": ["Steel crossbow (u)", "Crossbow string"],
+				"Level": 46,
+				"Output": "Steel crossbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|steel 2h crossbow|~": {
+				"Items": ["Steel crossbow (u)", "Crossbow string"],
+				"Level": 46,
+				"Output": "Steel 2h crossbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String an ~|off-hand steel crossbow|~": {
+				"Items": ["Steel crossbow (u)", "Crossbow string"],
+				"Level": 39,
+				"Output": "Off-hand steel crossbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch ~|topaz bolt tips|~": {
+				"Items": ["Red Topaz"],
+				"Level": 48,
+				"Output": "Topaz bolt tips",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|topaz bolts|~": {
+				"Items": ["Steel bolts", "Topaz bolt tips"],
+				"Level": 48,
+				"Output": "Topaz bolts",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|mithril brutals|~": {
+				"Items": ["Mithril nails", "Flighted ogre arrow"],
+				"Level": 49,
+				"Output": "Mithril brutal",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|maple shortbow (u)|~": {
+				"Items": ["Maple logs"],
+				"Level": 50,
+				"Output": "Maple shortbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|maple shortbow|~": {
+				"Items": ["Maple shortbow (u)", "Bowstring"],
+				"Level": 50,
+				"Output": "Maple shortbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Tip ~|barbed bolts|~": {
+				"Items": ["Bronze bolts", "Barb bolttips"],
+				"Level": 51,
+				"Output": "Barbed bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|broad arrows|~": {
+				"Items": ["Broad arrowheads", "Headless arrow"],
+				"Level": 52,
+				"Output": "Broad arrow",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|mithril darts|~": {
+				"Items": ["Mithril dart tip", "Feather+"],
+				"Level": 52,
+				"Output": "Mithril dart",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|off-hand mithril darts|~": {
+				"Items": ["Mithril dart tip", "Feather+"],
+				"Level": 52,
+				"Output": "Off-hand mithril dart",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Feather ~|mithril bolts|~": {
+				"Items": ["Mithril bolts (unf)", "Feather+"],
+				"Level": 54,
+				"Output": "Mithril bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|maple stock|~": {
+				"Items": ["Maple logs"],
+				"Level": 54,
+				"Output": "Maple stock",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch a ~|mithril crossbow (u)|~": {
+				"Items": ["Maple stock", "Mithril limbs"],
+				"Level": 54,
+				"Output": "Mithril crossbow (u)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|mithril crossbow|~": {
+				"Items": ["Mithril crossbow (u)", "Crossbow string"],
+				"Level": 54,
+				"Output": "Mithril crossbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|mithril 2h crossbow|~": {
+				"Items": ["Mithril crossbow (u)", "Crossbow string"],
+				"Level": 54,
+				"Output": "Mithril 2h crossbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String an ~|off-hand mithril crossbow|~": {
+				"Items": ["Mithril crossbow (u)", "Crossbow string"],
+				"Level": 54,
+				"Output": "Off-hand mithril crossbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch a ~|maple shieldbow (u)|~": {
+				"Items": ["Maple logs"],
+				"Level": 55,
+				"Output": "Maple shieldbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|maple shieldbow|~": {
+				"Items": ["Maple shortbow (u)", "Bowstring"],
+				"Level": 55,
+				"Output": "Maple shieldbow",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Feather ~|broad-tipped bolts|~": {
 				"Items": ["Unfinished broad bolts", "Feathers+"],
 				"Level": 55,
 				"Output": "Broad-tipped bolts",
 				"Primary": true,
+				"Priority": 3
+			},
+			"Fletch ~|sapphire bolt tips|~": {
+				"Items": ["Sapphire"],
+				"Level": 56,
+				"Output": "Sapphire bolt tips",
+				"Primary": true,
 				"Priority": 1
 			},
-			"Feather ~|broad arrows|~": {
-				"Items": ["Broad arrowheads", "Headless arrow"],
-				"Level": 55,
-				"Output": "Broad arrow",
+			"Tip ~|sapphire bolts|~": {
+				"Items": ["Mithril bolts", "Sapphire bolt tips"],
+				"Level": 56,
+				"Output": "Sapphire bolts",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Fletch ~|emerald bolt tips|~": {
+				"Items": ["Emerald"],
+				"Level": 58,
+				"Output": "Emerald bolt tips",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|emerald bolts|~": {
+				"Items": ["Mithril bolts", "Emerald bolt tips"],
+				"Level": 58,
+				"Output": "Emerald bolts",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Tip a ~|mithril grapple (unf)|~": {
+				"Items": ["Mithril bolts", "Mithril grapple tip"],
+				"Level": 59,
+				"Output": "Mithril grapple (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|mithril grapple|~": {
+				"Items": ["Mithril grapple (unf)", "Rope"],
+				"Level": 59,
+				"Output": "Mithril grapple",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Fletch ~|arrow shafts|~ using yew logs": {
+				"Items": ["Yew logs"],
+				"Level": 60,
+				"Output": "Arrow shaft",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|adamant arrows|~": {
+				"Items": ["Headless arrow", "Adamant arrowheads"],
+				"Level": 60,
+				"Output": "Adamant arrow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Tip ~|fragment arrows|~": {
+				"Items": ["Bronze arrow", "Ascension fragment"],
+				"Level": 60,
+				"Output": "Fragment arrows",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Feather ~|fragment bolts|~": {
+				"Items": ["Bronze bolts", "Feathers+"],
+				"Level": 60,
+				"Output": "Fragment bolts",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Feather ~|adamant bolts|~": {
+				"Items": ["Adamant bolts (unf)", "Feathers+"],
+				"Level": 61,
+				"Output": "Adamant bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|mahogany stock|~": {
+				"Items": ["Mahogany logs"],
+				"Level": 61,
+				"Output": "Mahogany stock",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch a ~|adamant crossbow (u)|~": {
+				"Items": ["Mahogany stock", "Adamant limbs"],
+				"Level": 61,
+				"Output": "Adamant crossbow (u)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|adamant crossbow|~": {
+				"Items": ["Adamant crossbow (u)", "Crossbow string"],
+				"Level": 61,
+				"Output": "Adamant crossbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|adamant 2h crossbow|~": {
+				"Items": ["Adamant crossbow (u)", "Crossbow string"],
+				"Level": 61,
+				"Output": "Adamant 2h crossbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String an ~|off-hand adamant crossbow|~": {
+				"Items": ["Adamant crossbow (u)", "Crossbow string"],
+				"Level": 61,
+				"Output": "Off-hand adamant crossbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch ~|adamant brutals|~": {
+				"Items": ["Adamant nails", "Flighted ogre arrow"],
+				"Level": 62,
+				"Output": "Adamant brutal",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|yew shortbow (u)|~": {
+				"Items": ["Yew logs"],
+				"Level": 65,
+				"Output": "Yew shortbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|yew shortbow|~": {
+				"Items": ["Yew shortbow (u)", "Bowstring"],
+				"Level": 65,
+				"Output": "Yew shortbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|diamond bolt tips|~": {
+				"Items": ["Diamond"],
+				"Level": 65,
+				"Output": "Diamond bolt tips",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Tip ~|diamond bolts|~": {
+				"Items": ["Adamant bolts", "Diamond bolt tips"],
+				"Level": 65,
+				"Output": "Diamond bolts",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Feather ~|adamant darts|~": {
+				"Items": ["Adamant dart tip", "Feather+"],
+				"Level": 67,
+				"Output": "Adamant dart",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|off-hand adamant darts|~": {
+				"Items": ["Adamant dart tip", "Feather+"],
+				"Level": 67,
+				"Output": "Off-hand adamant dart",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|rune bolts|~": {
+				"Items": ["Rune bolts (unf)", "Feathers+"],
+				"Level": 69,
+				"Output": "Rune bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|yew stock|~": {
+				"Items": ["Yew logs"],
+				"Level": 69,
+				"Output": "Yew stock",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch a ~|runite crossbow (u)|~": {
+				"Items": ["Yew stock", "Rune limbs"],
+				"Level": 69,
+				"Output": "Runite crossbow (u)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String a ~|rune crossbow|~": {
+				"Items": ["Runite crossbow (u)", "Crossbow string"],
+				"Level": 69,
+				"Output": "Rune crossbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|rune 2h crossbow|~": {
+				"Items": ["Runite crossbow (u)", "Crossbow string"],
+				"Level": 69,
+				"Output": "Rune 2h crossbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String an ~|off-hand rune crossbow|~": {
+				"Items": ["Runite crossbow (u)", "Crossbow string"],
+				"Level": 69,
+				"Output": "Off-hand rune crossbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch a ~|yew shieldbow (u)|~": {
+				"Items": ["Yew logs"],
+				"Level": 70,
+				"Output": "Yew shieldbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|yew shieldbow|~": {
+				"Items": ["Yew shortbow (u)", "Bowstring"],
+				"Level": 70,
+				"Output": "Yew shieldbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch a ~|blisterwood stock|~": {
+				"Items": ["Blisterwood logs"],
+				"Level": 70,
+				"Output": "Blisterwood stock",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fletch a ~|blisterwood stake-thrower crossbow (u)|~": {
+				"Items": ["Blisterwood stock", "Silvthril limbs"],
+				"Level": 70,
+				"Output": "Blisterwood stake-thrower crossbow (u)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"String a ~|blisterwood stake-thrower crossbow|~": {
+				"Items": ["Blisterwood stake-thrower crossbow (u)", "Crossbow string"],
+				"Level": 70,
+				"Output": "Blisterwood stake-thrower crossbow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Fletch a ~|blisterwood wand|~": {
+				"Items": ["Blisterwood logs"],
+				"Level": 70,
+				"Output": "Blisterwood wand",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch a ~|blisterwood sickle|~": {
+				"Items": ["Blisterwood logs", "Silver sickle"],
+				"Level": 70,
+				"Output": "Blisterwood sickle",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Fletch an ~|off-hand blisterwood sickle|~": {
+				"Items": ["Blisterwood logs", "Silver sickle"],
+				"Level": 70,
+				"Output": "Off-hand blisterwood sickle",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Fletch a ~|blisterwood stake|~": {
+				"Items": ["Blisterwood logs"],
+				"Level": 70,
+				"Output": "Blisterwood stake",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Fletch an ~|off-hand blisterwood stake|~": {
+				"Items": ["Blisterwood logs"],
+				"Level": 70,
+				"Output": "Off-hand blisterwood stake",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Fletch a ~|blisterwood orb|~": {
+				"Items": ["Blisterwood logs"],
+				"Level": 70,
+				"Output": "Blisterwood orb",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Fletch a ~|blisterwood polearm|~": {
+				"Items": ["Blisterwood logs", "Silver sickle"],
+				"Level": 70,
+				"Output": "Blisterwood polearm",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Fletch a ~|blisterwood staff|~": {
+				"Items": ["Blisterwood logs"],
+				"Level": 70,
+				"Output": "Blisterwood staff",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Fletch ~|dragon bolt tips|~": {
+				"Items": ["Dragonstone"],
+				"Level": 71,
+				"Output": "Dragon bolt tips",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|dragon bolts|~": {
+				"Items": ["Rune bolts", "Dragon bolt tips"],
+				"Level": 71,
+				"Output": "Dragon bolts",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|onyx bolt tips|~": {
+				"Items": ["Onyx"],
+				"Level": 73,
+				"Output": "Onyx bolt tips",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|onyx bolts|~": {
+				"Items": ["Rune bolts", "Onyx bolt tips"],
+				"Level": 73,
+				"Output": "Onyx bolts",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|arrow shafts|~ using magic logs": {
+				"Items": ["Magic logs"],
+				"Level": 75,
+				"Output": "Arrow shaft",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|rune arrows|~": {
+				"Items": ["Headless arrow", "Rune arrowheads"],
+				"Level": 75,
+				"Output": "Rune arrow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Tip ~|dragonbane arrows|~": {
+				"Items": ["Headless arrow", "Dragonbane arrowheads"],
+				"Level": 75,
+				"Output": "Dragonbane arrow",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Tip ~|wallasalkibane arrows|~": {
+				"Items": ["Headless arrow", "Wallasalkibane arrowheads"],
+				"Level": 75,
+				"Output": "Wallasalkibane arrow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Tip ~|basiliskbane arrows|~": {
+				"Items": ["Headless arrow", "Basiliskbane arrowheads"],
+				"Level": 75,
+				"Output": "Basiliskbane arrow",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Tip ~|abyssalbane arrows|~": {
+				"Items": ["Headless arrow", "Abyssalbane arrowheads"],
+				"Level": 75,
+				"Output": "Abyssalbane arrow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch ~|rune brutals|~": {
+				"Items": ["Rune nails", "Flighted ogre arrow"],
+				"Level": 77,
+				"Output": "Rune brutal",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|magic shortbow (u)|~": {
+				"Items": ["Magic logs"],
+				"Level": 80,
+				"Output": "Magic shortbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|magic shortbow|~": {
+				"Items": ["Magic shortbow (u)", "Bowstring"],
+				"Level": 80,
+				"Output": "Magic shortbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|dragonbane bolts|~": {
+				"Items": ["Dragonbane bolts (unf)", "Feathers+"],
+				"Level": 80,
+				"Output": "Dragonbane bolts",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Feather ~|wallasalkibane bolts|~": {
+				"Items": ["Wallasalkibane bolts (unf)", "Feathers+"],
+				"Level": 80,
+				"Output": "Wallasalkibane bolts",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Feather ~|basiliskbane bolts|~": {
+				"Items": ["Basiliskbane bolts (unf)", "Feathers+"],
+				"Level": 80,
+				"Output": "Basiliskbane bolts",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Feather ~|abyssalbane bolts|~": {
+				"Items": ["Abyssalbane bolts (unf)", "Feathers+"],
+				"Level": 80,
+				"Output": "Abyssalbane bolts",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch ~|hydrix bolt tips|~": {
+				"Items": ["Hydrix"],
+				"Level": 80,
+				"Output": "Hydrix bolt tips",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Tip ~|hydrix bolts|~": {
+				"Items": ["Ascension bolts", "Hydrix bolt tips"],
+				"Level": 80,
+				"Output": "Onyx bolts",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Fletch ~|Sana's fyrtorch|~": {
+				"Items": ["Croesus foultorch", "Magic logs", "Croesus flakes", "Timber fungus", "Fungal spore"],
+				"Level": 80,
+				"Output": "Sana's fyrtorch",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Feather ~|rune darts|~": {
+				"Items": ["Rune dart tip", "Feather+"],
+				"Level": 81,
+				"Output": "Rune dart",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|off-hand rune darts|~": {
+				"Items": ["Rune dart tip", "Feather+"],
+				"Level": 81,
+				"Output": "Off-hand rune dart",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Fletch ~|long kebbit bolts|~": {
+				"Items": ["Long kebbit spike"],
+				"Level": 83,
+				"Output": "Long kebbit bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|sagaie shaft|~": {
+				"Items": ["Hardened straight root"],
+				"Level": 83,
+				"Output": "Sagaie shaft",
+				"Primary":  false,
+				"Priority": 2
+			},
+			"Fletch a ~|sagaie|~": {
+				"Items": ["Sagaie shaft", "Mutated vine"],
+				"Level": 83,
+				"Output": "Sagaie",
+				"Primary":  true,
+				"Priority": 3
+			},
+			"Fletch a ~|magic shieldbow (u)|~": {
+				"Items": ["Magic logs"],
+				"Level": 85,
+				"Output": "Magic shieldbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|magic shieldbow|~": {
+				"Items": ["Magic shortbow (u)", "Bowstring"],
+				"Level": 85,
+				"Output": "Magic shieldbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|log-splitting scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 85,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Log-splitting scrimshaw",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|superior log-splitting scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 85,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior log-splitting scrimshaw",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|rock-crushing scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 85,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Rock-crushing scrimshaw",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Create a ~|superior rock-crushing scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 85,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior rock-crushing scrimshaw",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a ~|whopper-baiting scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 85,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Whopper-baiting scrimshaw",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Create a ~|superior whopper-baiting scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 85,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior whopper-baiting scrimshaw",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Create a ~|memory-crushing scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 85,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Memory-crushing scrimshaw",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Create a ~|superior memory-crushing scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 85,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior memory-crushing scrimshaw",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Fletch ~|bolas|~": {
+				"Items": ["Excrescence", "Mutated vine"],
+				"Level": 87,
+				"Output": "Bolas",
+				"Primary":  true,
+				"Priority": 1
+			},
+			"Create an ~|upgraded bone blowpipe|~": {
+				"Items": ["Blowpipe chitin", "Blowpipe feather", "Blowpipe fins", "Bone blowpipe"],
+				"Level": 87,
+				"Skills": {
+					"Crafting": 87
+				},
+				"Output": "Upgraded bone blowpipe",
+				"Primary":  true,
+				"Priority": 2
+			},
+			"Tip ~|opal bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Opal bolt tips"],
+				"Level": 89,
+				"Output": "Opal bakriminel bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch ~|arrow shafts|~ using elder logs": {
+				"Items": ["Elder logs"],
+				"Level": 90,
+				"Output": "Arrow shaft",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch ~|elder arrow shafts|~": {
+				"Items": ["Elder logs"],
+				"Level": 90,
+				"Output": "Elder arrow shaft",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather ~|elder headless arrows|~": {
+				"Items": ["Elder logs", "Feather+"],
+				"Level": 90,
+				"Output": "Elder headless arrow",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Tip ~|dragon arrows|~": {
+				"Items": ["Headless arrow", "Dragon arrowheads"],
+				"Level": 90,
+				"Output": "Dragon arrow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|tree-shaking scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 90,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Tree-shaking scrimshaw",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Create a ~|superior tree-shaking scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 90,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior tree-shaking scrimshaw",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a ~|gem-finding scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 90,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Gem-finding scrimshaw",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Create a ~|superior gem-finding scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 90,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior gem-finding scrimshaw",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Create a ~|casket-salvaging scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 90,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Casket-salvaging scrimshaw",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Create a ~|superior casket-salvaging scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 90,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior casket-salvaging scrimshaw",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Create an ~|energy-gathering scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 90,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Energy-gathering scrimshaw",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Create a ~|superior energy-gathering scrimshaw|~": {
+				"Items": ["Ancient bones"],
+				"Level": 90,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior energy-gathering scrimshaw",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Fletch ~|ascension bolts|~": {
+				"Items": ["Ascension shard"],
+				"Level": 90,
+				"Output": "Ascension bolts",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Fletch an ~|elder shortbow (u)|~": {
+				"Items": ["Elder logs"],
+				"Level": 90,
+				"Output": "Elder shortbow (u)",
+				"Primary": true,
+				"Priority": 14
+			},
+			"String an ~|elder shortbow|~": {
+				"Items": ["Elder shortbow (u)", "Bowstring"],
+				"Level": 90,
+				"Output": "Elder shortbow",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Tip ~|sapphire bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Sapphire bolt tips"],
+				"Level": 90,
+				"Output": "Sapphire bakriminel bolts",
+				"Primary": true,
+				"Priority": 16
+			},
+			"Tip ~|jade bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Jade bolt tips"],
+				"Level": 91,
+				"Output": "Jade bakriminel bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|magic stock|~": {
+				"Items": ["Magic logs"],
+				"Level": 92,
+				"Output": "Magic stock",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|scrimshaw of vampyrism|~": {
+				"Items": ["Ancient bones"],
+				"Level": 92,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Scrimshaw of vampyrism",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|superior scrimshaw of vampyrism|~": {
+				"Items": ["Ancient bones"],
+				"Level": 92,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior scrimshaw of vampyrism",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|scrimshaw of the elements|~": {
+				"Items": ["Ancient bones"],
+				"Level": 92,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Scrimshaw of the elements",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|superior scrimshaw of the elements|~": {
+				"Items": ["Ancient bones"],
+				"Level": 92,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior scrimshaw of the elements",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Create a ~|scrimshaw of cruelty|~": {
+				"Items": ["Ancient bones"],
+				"Level": 92,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Scrimshaw of the cruelty",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a ~|superior scrimshaw of cruelty|~": {
+				"Items": ["Ancient bones"],
+				"Level": 92,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior scrimshaw of cruelty",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Fletch ~|Death Lotus darts|~": {
+				"Items": ["Ancient bones", "Ascension shard"],
+				"Level": 92,
+				"Output": "Death Lotus dart",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Fletch ~|off-hand Death Lotus darts|~": {
+				"Items": ["Ancient bones", "Ascension shard"],
+				"Level": 92,
+				"Output": "Off-hand Death Lotus dart",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Fletch ~|elite Death Lotus darts|~": {
+				"Items": ["Lacquer", "Death Lotus dart", "Death lotus extract"],
+				"Level": 92,
+				"Output": "Elite Death Lotus dart",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Fletch ~|off-hand elite Death Lotus darts|~": {
+				"Items": ["Lacquer", "Off-hand Death Lotus dart", "Death lotus extract"],
+				"Level": 92,
+				"Output": "Off-hand elite Death Lotus dart",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Tip ~|pearl bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Pearl bolt tips"],
+				"Level": 92,
+				"Output": "Pearl bakriminel bolts",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Tip ~|black stone arrows|~": {
+				"Items": ["Elder headless arrow", "Black stone arrow tips"],
+				"NPCs": ["Bryll Thoksdottir"],
+				"Level": 92,
+				"Output": "Black stone arrows",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Fletch ~|bakriminel bolt shafts|~": {
+				"Items": ["Bloodwood logs"],
+				"Level": 93,
+				"Output": "Bakriminel bolt shafts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|bakriminel bolts|~": {
+				"Items": ["Bakriminel bolt shafts", "Bakriminel bolt tips"],
+				"Level": 93,
+				"Output": "Bakriminel bolts",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Tip ~|emerald bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Emerald bolt tips"],
+				"Level": 93,
+				"Output": "Emerald bakriminel bolts",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fletch a ~|dragon crossbow (u)|~": {
+				"Items": ["Magic stock", "Dragon limbs"],
+				"Level": 94,
+				"Output": "Dragon crossbow (u)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"String a ~|dragon crossbow|~": {
+				"Items": ["Dragon crossbow (u)", "Crossbow string"],
+				"Level": 94,
+				"Output": "Rune crossbow",
+				"Primary": true,
+				"Priority": 2
+			},
+			"String a ~|dragon 2h crossbow|~": {
+				"Items": ["Dragon crossbow (u)", "Crossbow string"],
+				"Level": 94,
+				"Output": "Rune 2h crossbow",
+				"Primary": true,
+				"Priority": 3
+			},
+			"String an ~|off-hand dragon crossbow|~": {
+				"Items": ["Dragon crossbow (u)", "Crossbow string"],
+				"Level": 94,
+				"Output": "Off-hand dragon crossbow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Tip ~|red topaz bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Topaz bolt tips"],
+				"Level": 94,
+				"Output": "Red topaz bakriminel bolts",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Feather ~|dragon darts|~": {
+				"Items": ["Dragon dart tip", "Feather+"],
+				"Level": 95,
+				"Output": "Dragon dart",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Feather ~|off-hand dragon darts|~": {
+				"Items": ["Dragon dart tip", "Feather+"],
+				"Level": 95,
+				"Output": "Off-hand dragon dart",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|scrimshaw of ranging|~": {
+				"Items": ["Ancient bones"],
+				"Level": 95,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Scrimshaw of ranging",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|superior scrimshaw of ranging|~": {
+				"Items": ["Ancient bones"],
+				"Level": 95,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior scrimshaw of ranging",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|scrimshaw of magic|~": {
+				"Items": ["Ancient bones"],
+				"Level": 95,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Scrimshaw of magic",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Create a ~|superior scrimshaw of magic|~": {
+				"Items": ["Ancient bones"],
+				"Level": 95,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior scrimshaw of magic",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a ~|scrimshaw of attack|~": {
+				"Items": ["Ancient bones"],
+				"Level": 95,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Scrimshaw of the attack",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Create a ~|superior scrimshaw of attack|~": {
+				"Items": ["Ancient bones"],
+				"Level": 95,
+				"Objects": ["Scrimshaw Crafter"],
+				"Output": "Superior scrimshaw of attack",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Fletch an ~|elder shieldbow (u)|~": {
+				"Items": ["Elder logs"],
+				"Level": 95,
+				"Output": "Elder shieldbow (u)",
+				"Primary": true,
+				"Priority": 9
+			},
+			"String an ~|elder shieldbow|~": {
+				"Items": ["Elder shortbow (u)", "Bowstring"],
+				"Level": 95,
+				"Output": "Elder shieldbow",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Tip ~|dark arrows|~": {
+				"Items": ["Headless arrow", "Dark arrowheads"],
+				"Level": 95,
+				"Output": "Dark arrow",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Fletch ~|stalker arrows|~": {
+				"Items": ["Dark arrow", "Stalker essence"],
+				"Level": 95,
+				"Output": "Stalker arrow",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Tip ~|ruby bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Ruby bolt tips"],
+				"Level": 95,
+				"Output": "Ruby bakriminel bolts",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Tip ~|splintering arrows|~": {
+				"Items": ["Elder headless arrow", "Splintering arrow tips"],
+				"Level": 95,
+				"Output": "Splintering arrows",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Tip ~|deathspore arrows|~": {
+				"Items": ["Elder headless arrow", "Deathspore arrow tips"],
+				"Level": 95,
+				"Output": "Splintering arrows",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Bundle ~|bamboo|~": {
+				"Items": ["Bamboo+"],
+				"Level": 96,
+				"Output": "Bundle of bamboo",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|tortle trap|~": {
+				"Items": ["Bamboo+"],
+				"Level": 96,
+				"Output": "Tortle trap",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Tip ~|diamond bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Diamond bolt tips"],
+				"Level": 96,
+				"Output": "Diamond bakriminel bolts",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create an ~|eldritch crossbow|~": {
+				"Items": ["Eldritch crossbow limb", "Eldritch crossbow stock", "Eldritch crossbow mechanism"],
+				"Level": 96,
+				"Output": "Diamond bakriminel bolts",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Tip ~|dragonstone bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Dragon bolt tips"],
+				"Level": 97,
+				"Output": "Dragonstone bakriminel bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|onyx bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Onyx bolt tips"],
+				"Level": 98,
+				"Output": "Onyx bakriminel bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Tip ~|hydrix bakriminel bolts|~": {
+				"Items": ["Bakriminel bolts", "Hydrix bolt tips"],
+				"Level": 99,
+				"Output": "Hydrix bakriminel bolts",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create ~|Pernix's quiver|~": {
+				"Items": ["Fragments of Pernix's quiver"],
+				"Level": 99,
+				"Output": "Pernix's quiver",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Obtain the ~|Fletching cape|~": {
+				"Items": ["Fletching cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
 			}
 		},
 		"Herblore": {
@@ -45937,7 +47534,8 @@
 				"Furnace": 1,
 				"Fishing spot (lure/bait)": 5,
 				"Canoe": 1,
-				"Vegetable stall": 2
+				"Vegetable stall": 2,
+				"Fishing spot (crayfish)": 5
 			},
 			"NPC": {
 				"Hans": 1,
@@ -68056,7 +69654,10 @@
 			"SacredOil+": ["Sacred oil (1)", "Sacred oil (2)", "Sacred oil (3)", "Sacred oil (4)"],
 			"FiremakingBow+": ["Shortbow", "Oak shortbow", "Willow shortbow", "Maple shortbow", "Yew shortbow", "Magic shortbow", "Elder shortbow", "Hexhunter bow", "Shieldbow", "Oak shieldbow", "Willow shieldbow", "Maple shieldbow", "Yew shieldbow", "Maple shieldbow (sighted)", "Magic shieldbow", "Magic shieldbow (sighted)", "Elder shieldbow", "Elder shieldbow (sighted)", "Dark bow", "Willow composite bow", "Yew composite bow", "Magic composite bow"],
 			"Logs+": ["Logs", "Oak logs", "Willow logs", "Maple logs", "Yew logs", "Magic logs", "Elder logs"],
-			"BalloonLogs+": ["Logs", "Oak logs", "Willow logs", "Teak logs", "Mahogany logs", "Arctic pine logs", "Eucalyptus", "Yew logs", "Magic logs", "Elder logs"]
+			"BalloonLogs+": ["Logs", "Oak logs", "Willow logs", "Teak logs", "Mahogany logs", "Arctic pine logs", "Eucalyptus", "Yew logs", "Magic logs", "Elder logs"],
+			"ArrowShafts+": ["Arrow shaft", "Grenwall spikes"],
+			"OysterPearl+": ["Oyster Pearl", "Oyster Pearls"],
+			"Bamboo+": ["Bamboo", "Golden Bamboo"]
 		},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
