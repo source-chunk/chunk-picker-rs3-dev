@@ -1234,253 +1234,1135 @@
 			}
 		},
 		"Constitution": {
-			"Create a ~|portent of restoration I|~": {
-				"Items": ["Portent of restoration I"],
-				"Level": 10,
-				"Primary": true,
-				"Skills": {
-					"Divination": 2
-				},
-				"Priority": 2
-			},
-			"Create a ~|attuned portent of restoration I|~": {
+			"Use a ~|portent of restoration I|~": {
+		"Items": ["Portent of restoration I"],
+		"Level": 10,
+		"Skills": {
+			"Divination": 2
+		},
+		"Primary": false,
+		"Priority": 1
+	},
+			"Use an ~|attuned portent of restoration I|~": {
 				"Items": ["Attuned portent of restoration I"],
 				"Level": 10,
-				"Primary": true,
 				"Skills": {
 					"Divination": 5
 				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Unlock the ~|Sacrifice|~ ability from Anima Islands": {
+				"Chunks": ["12335"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Unlock the ~|Sacrifice|~ ability from the God Wars Dungeon": {
+				"Chunks": ["God Wars Dungeon"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Unlock the ~|Transfigure|~ ability from Anima Islands": {
+				"Chunks": ["12335"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Unlock the ~|Transfigure|~ ability from the God Wars Dungeon": {
+				"Chunks": ["God Wars Dungeon"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Unlock the ~|Ingenuity of the Humans|~ ability": {
+				"Items": ["Ingenuity of the Humans ability codex"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Unlock the ~|Limitless|~ ability": {
+				"Items": ["Limitless ability codex"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Unlock the ~|Slayer's Insight|~ ability": {
+				"Chunks": ["12593"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Unlock the ~|Kuradal's Favour|~ ability": {
+				"Chunks": ["12593"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Unlock the ~|Dragon Slayer (ability)|~": {
+				"Chunks": ["12593"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Unlock the ~|Demon Slayer (ability)|~": {
+				"Chunks": ["12593"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Unlock the ~|Undead Slayer (ability)|~": {
+				"Chunks": ["12593"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Get the full amount of healing from ~|chilli con carne|~": {
+				"Items": ["Chilli con carne"],
+				"Level": 11,
+				"Primary": false,
 				"Priority": 1
 			},
-			"Create a ~|portent of restoration II|~": {
+			"Get the full amount of healing from ~|trout|~": {
+				"Items": ["Trout"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use a ~|portent of restoration II|~": {
 				"Items": ["Portent of restoration II"],
 				"Level": 15,
-				"Primary": true,
 				"Skills": {
 					"Divination": 15
 				},
+				"Primary": false,
 				"Priority": 2
 			},
-			"Create a ~|attuned portent of restoration II|~": {
+			"Use an ~|attuned portent of restoration II|~": {
 				"Items": ["Attuned portent of restoration II"],
 				"Level": 15,
-				"Primary": true,
 				"Skills": {
 					"Divination": 18
 				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|chocchip crunchies|~": {
+				"Items": ["Chocchip crunchies"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|premade chocchip crunchies|~": {
+				"Items": ["Premade chocolate chip crunchies"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|spicy crunchies|~": {
+				"Items": ["Spicy crunchies"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Get the full amount of healing from ~|premade spicy crunchies|~": {
+				"Items": ["Premade spicy crunchies"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Get the full amount of healing from ~|roast rabbit|~": {
+				"Items": ["Roast rabbit"],
+				"Level": 16,
+				"Primary": false,
 				"Priority": 1
 			},
-			"Create a ~|portent of restoration III|~": {
+			"Get the full amount of healing from ~|cod|~": {
+				"Items": ["Cod"],
+				"Level": 18,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|Wizard Blizzards|~": {
+				"Items": ["Wizard Blizzard"],
+				"Level": 18,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|premade Wizard Blizzards|~": {
+				"Items": ["Premade Wizard Blizzard"],
+				"Level": 18,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|pike|~": {
+				"Items": ["Pike"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|toad crunchies|~": {
+				"Items": ["Toad crunchies"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|premade toad crunchies|~": {
+				"Items": ["Premade toad crunchies"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|Short Green Guys|~": {
+				"Items": ["Short Green Guy"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|premade Short Green Guys|~": {
+				"Items": ["Premade Short Green Guy"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|worm crunchies|~": {
+				"Items": ["Worm crunchies"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Get the full amount of healing from ~|premade worm crunchies|~": {
+				"Items": ["Premade worm crunchies"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Get the full amount of healing from ~|roast beast meat|~": {
+				"Items": ["Roast beast meat"],
+				"Level": 21,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|egg and tomato|~": {
+				"Items": ["Egg and tomato"],
+				"Level": 23,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|salmon|~": {
+				"Items": ["Salmon"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use a ~|portent of restoration III|~": {
 				"Items": ["Portent of restoration III"],
 				"Level": 25,
-				"Primary": true,
 				"Skills": {
 					"Divination": 25
 				},
+				"Primary": false,
 				"Priority": 2
 			},
-			"Create a ~|attuned portent of restoration III|~": {
+			"Use an ~|attuned portent of restoration III|~": {
 				"Items": ["Attuned portent of restoration III"],
 				"Level": 25,
-				"Primary": true,
 				"Skills": {
 					"Divination": 27
 				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|cheese and tomato battas|~": {
+				"Items": ["Cheese+tom batta"],
+				"Level": 28,
+				"Primary": false,
 				"Priority": 1
 			},
-			"Create a ~|portent of restoration IV|~": {
+			"Get the full amount of healing from ~|premade cheese and tomato battas|~": {
+				"Items": ["Premade c+t batta"],
+				"Level": 28,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|tuna|~": {
+				"Items": ["Tuna"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use a ~|portent of restoration IV|~": {
 				"Items": ["Portent of restoration IV"],
 				"Level": 30,
-				"Primary": true,
 				"Skills": {
 					"Divination": 35
 				},
+				"Primary": false,
 				"Priority": 2
 			},
-			"Create a ~|attuned portent of restoration IV|~": {
+			"Use an ~|attuned portent of restoration IV|~": {
 				"Items": ["Attuned portent of restoration IV"],
 				"Level": 30,
-				"Primary": true,
 				"Skills": {
 					"Divination": 37
 				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|cooked chompy|~": {
+				"Items": ["Cooked chompy"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|cheesecakes|~": {
+				"Items": ["Cheesecake"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|chopped tuna|~": {
+				"Items": ["Chopped tuna"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Get the full amount of healing from ~|cooked karambwan|~": {
+				"Items": ["Cooked karambwan"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Get the full amount of healing from ~|Drunk Dragons|~": {
+				"Items": ["Drunk Dragon"],
+				"Level": 32,
+				"Primary": false,
 				"Priority": 1
 			},
-			"Create a ~|portent of restoration V|~": {
+			"Get the full amount of healing from ~|premade Drunk Dragons|~": {
+				"Items": ["Premade Drunk Dragon"],
+				"Level": 32,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|Chocolate Saturdays|~": {
+				"Items": ["Chocolate Saturday"],
+				"Level": 33,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|premade Chocolate Saturdays|~": {
+				"Items": ["Premade Chocolate Saturday"],
+				"Level": 33,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|garden pies|~": {
+				"Items": ["Garden pie"],
+				"Level": 34,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|plain pizzas|~": {
+				"Items": ["Plain pizza"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|fruit battas|~": {
+				"Items": ["Fruit batta"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|premade fruit battas|~": {
+				"Items": ["Premade fruit batta"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|rainbow fish|~": {
+				"Items": ["Rainbow fish"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|toad battas|~": {
+				"Items": ["Toad batta"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|premade toad battas|~": {
+				"Items": ["Premade toad batta"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Get the full amount of healing from ~|vegetable battas|~": {
+				"Items": ["Vegatable batta"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Get the full amount of healing from ~|premade vegetable battas|~": {
+				"Items": ["Premade veg batta"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Get the full amount of healing from ~|worm battas|~": {
+				"Items": ["Worm batta"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Get the full amount of healing from ~|premade worm battas|~": {
+				"Items": ["Premade worm batta"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Get the full amount of healing from ~|vanilla cheesecake|~": {
+				"Items": ["Vanilla cheesecake"],
+				"Level": 36,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|Fruit Blasts|~": {
+				"Items": ["Fruit Blast"],
+				"Level": 37,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|premade Fruit Blasts|~": {
+				"Items": ["Premade Fruit Blast"],
+				"Level": 37,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|Blurberry Specials|~": {
+				"Items": ["Blurberry Special"],
+				"Level": 37,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|premade Blurberry Specials|~": {
+				"Items": ["Premade Blurberry Special"],
+				"Level": 37,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|potatoes with butter|~": {
+				"Items": ["Potato with butter"],
+				"Level": 39,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|cakes|~": {
+				"Items": ["Cake"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use a ~|portent of restoration V|~": {
 				"Items": ["Portent of restoration V"],
 				"Level": 40,
-				"Primary": true,
 				"Skills": {
 					"Divination": 45
 				},
+				"Primary": false,
 				"Priority": 2
 			},
-			"Create a ~|attuned portent of restoration V|~": {
+			"Use an ~|attuned portent of restoration V|~": {
 				"Items": ["Attuned portent of restoration V"],
 				"Level": 40,
-				"Primary": true,
 				"Skills": {
 					"Divination": 47
 				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|veg balls|~": {
+				"Items": ["Veg ball"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|premade veg balls|~": {
+				"Items": ["Premade veg ball"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|worm hole|~": {
+				"Items": ["Worm hole"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Get the full amount of healing from ~|premade worm hole|~": {
+				"Items": ["Premade worm hole"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Get the full amount of healing from ~|cooked jubbly|~": {
+				"Items": ["Cooked jubbly"],
+				"Level": 41,
+				"Primary": false,
 				"Priority": 1
 			},
-			"Create a ~|portent of restoration VI|~": {
+			"Wear a piece of ~|Void Knight equipment|~": {
+				"Chunks": ["10537"],
+				"Level": 42,
+				"Skills": {
+					"Magic": 42,
+					"Ranged": 42,
+					"Attack": 42,
+					"Defence": 42,
+					"Strength": 42,
+					"Prayer": 22
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|chocolate cheesecakes|~": {
+				"Items": ["Chocolate cheesecake"],
+				"Level": 42,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|cooked oomlie wraps|~": {
+				"Items": ["Cooked oomlie wrap"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|potatoes with cheese|~": {
+				"Items": ["Potato with cheese"],
+				"Level": 46,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|fish pies|~": {
+				"Items": ["Fish pie"],
+				"Level": 47,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|lobsters|~": {
+				"Items": ["Lobster"],
+				"Level": 48,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|strawberry cheesecakes|~": {
+				"Items": ["Strawberry cheesecake"],
+				"Level": 48,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|chocolate cakes|~": {
+				"Items": ["Chocolate cake"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use a ~|portent of restoration VI|~": {
 				"Items": ["Portent of restoration VI"],
 				"Level": 50,
-				"Primary": true,
 				"Skills": {
 					"Divination": 55
 				},
+				"Primary": false,
 				"Priority": 2
 			},
-			"Create a ~|attuned portent of restoration VI|~": {
+			"Use an ~|attuned portent of restoration VI|~": {
 				"Items": ["Attuned portent of restoration VI"],
 				"Level": 50,
-				"Primary": true,
 				"Skills": {
 					"Divination": 57
 				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Unlock the ~|Tuska's Wrath|~ ability": {
+				"Chunks": ["12335"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|chilli potatoes|~": {
+				"Items": ["Chilli potato"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|bass|~": {
+				"Items": ["Bass"],
+				"Level": 52,
+				"Primary": false,
 				"Priority": 1
 			},
-			"Create a ~|portent of restoration VII|~": {
+			"Get the full amount of healing from ~|lava eels|~": {
+				"Items": ["Lava eel"],
+				"Level": 53,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|lemon cheesecake|~": {
+				"Items": ["Lemon cheesecake"],
+				"Level": 54,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|anchovy pizzas|~": {
+				"Items": ["Anchovy pizza"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|egg potatoes|~": {
+				"Items": ["Egg potato"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|swordfish|~": {
+				"Items": ["Swordfish"],
+				"Level": 56,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|arcane apoterrasaur meat|~": {
+				"Items": ["Arcane apoterrasaur meat"],
+				"Level": 56,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|bagrada rex meat|~": {
+				"Items": ["Bagrada rex meat"],
+				"Level": 56,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|scimitops meat|~": {
+				"Items": ["Scimitops meat"],
+				"Level": 56,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|desert soles|~": {
+				"Items": ["Desert sole"],
+				"Level": 58,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|bacon cheesecakes|~": {
+				"Items": ["Bacon cheesecake"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|catfish|~": {
+				"Items": ["Catfish"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|chocolate bombs|~": {
+				"Items": ["Chocolate bomb"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|premade chocolate bombs|~": {
+				"Items": ["Premade choc bomb"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|curry|~": {
+				"Items": ["Curry"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|tangled toads' legs|~": {
+				"Items": ["Tangled toads' legs"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Get the full amount of healing from ~|premade tangled toads' legs|~": {
+				"Items": ["Premade ttl"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Use a ~|portent of restoration VII|~": {
 				"Items": ["Portent of restoration VII"],
 				"Level": 62,
-				"Primary": true,
 				"Skills": {
 					"Divination": 65
 				},
-				"Priority": 2
+				"Primary": false,
+				"Priority": 1
 			},
-			"Create a ~|attuned portent of restoration VII|~": {
+			"Use an ~|attuned portent of restoration VII|~": {
 				"Items": ["Attuned portent of restoration VII"],
 				"Level": 62,
-				"Primary": true,
 				"Skills": {
 					"Divination": 67
 				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|monkfish|~": {
+				"Items": ["Monkfish"],
+				"Level": 64,
+				"Primary": false,
 				"Priority": 1
 			},
-			"Create a ~|portent of restoration VIII|~": {
+			"Get the full amount of healing from ~|pineapple pizzas|~": {
+				"Items": ["Pineapple pizza"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|beltfish|~": {
+				"Items": ["Beltfish"],
+				"Level": 66,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|tuna and corn|~": {
+				"Items": ["Tuna and corn"],
+				"Level": 67,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Access ~|Zamorak's Fortress|~ in the God Wars Dungeon": {
+				"Chunks": ["God Wars Dungeon"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Unlock the ~|Storm Shards|~ and Shatter abilities": {
+				"Items": ["StormShards+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|admiral pies|~": {
+				"Items": ["Admiral pies"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|asciatops meat|~": {
+				"Items": ["Asciatops meat"],
+				"Level": 72,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|corbicula rex meat|~": {
+				"Items": ["Corbicula rex meat"],
+				"Level": 72,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|spicati apoterrasaur meat|~": {
+				"Items": ["Spicati apoterrasaur meat"],
+				"Level": 72,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|cooked eeligator|~": {
+				"Items": ["Cooked eeligator"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|evil turnips|~": {
+				"Items": ["Evil turnip"],
+				"Level": 77,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|dragonfruits|~": {
+				"Items": ["Dragonfruit"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|avocados|~": {
+				"Items": ["Avocado"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|cikus|~": {
+				"Items": ["Ciku"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|mangos|~": {
+				"Items": ["Mango"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|guaranas|~": {
+				"Items": ["Guarana"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|lychees|~": {
+				"Items": ["Lychees"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Get the full amount of healing from ~|carambolas|~": {
+				"Items": ["Carambola"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear ~|torva armour|~": {
+				"Items": ["Torva+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear ~|virtus armour|~": {
+				"Items": ["Virtus+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear ~|pernix armour|~": {
+				"Items": ["Pernix+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|sharks|~": {
+				"Items": ["Shark"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Use a ~|portent of restoration VIII|~": {
 				"Items": ["Portent of restoration VIII"],
 				"Level": 80,
-				"Primary": true,
 				"Skills": {
 					"Divination": 75
 				},
-				"Priority": 4
+				"Primary": false,
+				"Priority": 5
 			},
-			"Create a ~|attuned portent of restoration VIII|~": {
+			"Use an ~|attuned portent of restoration VIII|~": {
 				"Items": ["Attuned portent of restoration VIII"],
 				"Level": 80,
-				"Primary": true,
 				"Skills": {
 					"Divination": 77
 				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Use a ~|portent of degradation I|~": {
+				"Items": ["Portent of degradation I"],
+				"Level": 80,
+				"Skills": {
+					"Divination": 75
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Use an ~|attuned portent of degradation I|~": {
+				"Items": ["Attuned portent of degradation I"],
+				"Level": 80,
+				"Skills": {
+					"Divination": 77
+				},
+				"Primary": false,
+				"Priority": 8
+			},
+			"Get the full amount of healing from ~|baron sharks|~": {
+				"Items": ["Baron shark"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Get the full amount of healing from ~|mushroom potato|~": {
+				"Items": ["Mushroom potato"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Get the full amount of healing from ~|sea turtles|~": {
+				"Items": ["Sea turtle"],
+				"Level": 82,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|great maki|~": {
+				"Items": ["Great maki"],
+				"Level": 84,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|tuna potatoes|~": {
+				"Items": ["Tuna potato"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|wild pies|~": {
+				"Items": ["Wild pie"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Unlock the ~|Guthix's Blessing|~ ability": {
+				"Chunks": ["Guthixian ruins"],
+				"Level": 85,
+				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|portent of restoration IX|~": {
+			"Unlock the ~|Reprisal|~ ability": {
+				"Items": ["Reprisal ability codex"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Eat a piece of ~|scorpion meat|~": {
+				"Items": ["Scorpion meat"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|cavefish|~": {
+				"Items": ["Cavefish"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use a ~|portent of restoration IX|~": {
 				"Items": ["Portent of restoration IX"],
 				"Level": 88,
-				"Primary": true,
 				"Skills": {
 					"Divination": 86
 				},
-				"Priority": 4
+				"Primary": false,
+				"Priority": 2
 			},
-			"Create a ~|attuned portent of restoration IX|~": {
+			"Use an ~|attuned portent of restoration IX|~": {
 				"Items": ["Attuned portent of restoration IX"],
 				"Level": 88,
-				"Primary": true,
 				"Skills": {
 					"Divination": 87
 				},
+				"Primary": false,
 				"Priority": 3
 			},
-			"Create a ~|portent of restoration X|~": {
+			"Use a ~|portent of degradation II|~": {
+				"Items": ["Portent of degradation II"],
+				"Level": 88,
+				"Skills": {
+					"Divination": 86
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Use an ~|attuned portent of degradation II|~": {
+				"Items": ["Attuned portent of degradation II"],
+				"Level": 88,
+				"Skills": {
+					"Divination": 87
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|great gunkan|~": {
+				"Items": ["Great gunkan"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|malletops meat|~": {
+				"Items": ["Malletops meat"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Get the full amount of healing from ~|oculi apoterrasaur meat|~": {
+				"Items": ["Oculi apoterrasaur meat"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Get the full amount of healing from ~|pavosaurus rex meat|~": {
+				"Items": ["Pavosaurus rex meat"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Get the full amount of healing from ~|golden dragonfruits|~": {
+				"Items": ["Golden dragonfruit"],
+				"Level": 89,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|Arc gumbo|~": {
+				"Items": ["Arc gumbo"],
+				"Level": 89,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Unlock the ~|Onslaught|~ ability": {
+				"Items": ["Onslaught+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|juju gumbos|~": {
+				"Items": ["Juju gumbo"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Unlock the ~|Ice Asylum|~ ability": {
+				"Items": ["Codex Ultimatus"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|great white sharks|~": {
+				"Items": ["Great white sharks"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|manta rays|~": {
+				"Items": ["Manta ray"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|rocktails|~": {
+				"Items": ["Rocktail"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|primal starter|~s": {
+				"Items": ["Primal starter"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|primal main course|~s": {
+				"Items": ["Primal main course"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Get the full amount of healing from ~|primal dessert|~s": {
+				"Items": ["Primal dessert"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Use a ~|portent of restoration X|~": {
 				"Items": ["Portent of restoration X"],
-				"Level": 95,
-				"Primary": true,
+				"Level": 93,
 				"Skills": {
 					"Divination": 97
 				},
-				"Priority": 2
+				"Primary": false,
+				"Priority": 1
 			},
-			"Create a ~|attuned portent of restoration X|~": {
+			"Use an ~|attuned portent of restoration X|~": {
 				"Items": ["Attuned portent of restoration X"],
-				"Level": 95,
-				"Primary": true,
+				"Level": 93,
 				"Skills": {
 					"Divination": 98
 				},
-				"Priority": 1
-			},
-			"Create a ~|portent of degradation I|~": {
-				"Items": ["Portent of degradation I"],
-				"Level": 80,
-				"Primary": true,
-				"Skills": {
-					"Divination": 77
-				},
+				"Primary": false,
 				"Priority": 2
 			},
-			"Create a ~|attuned portent of degradation I|~": {
-				"Items": ["Attuned portent of degradation I"],
-				"Level": 80,
-				"Primary": true,
-				"Skills": {
-					"Divination": 77
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of degradation II|~": {
-				"Items": ["Portent of degradation II"],
-				"Level": 88,
-				"Primary": true,
-				"Skills": {
-					"Divination": 86
-				},
-				"Priority": 2
-			},
-			"Create a ~|attuned portent of degradation II|~": {
-				"Items": ["Attuned portent of degradation II"],
-				"Level": 88,
-				"Primary": true,
-				"Skills": {
-					"Divination": 87
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of degradation III|~": {
+			"Use a ~|portent of degradation III|~": {
 				"Items": ["Portent of degradation III"],
 				"Level": 93,
-				"Primary": true,
 				"Skills": {
 					"Divination": 97
 				},
-				"Priority": 2
+				"Primary": false,
+				"Priority": 3
 			},
-			"Create a ~|attuned portent of degradation III|~": {
+			"Use an ~|attuned portent of degradation III|~": {
 				"Items": ["Attuned portent of degradation III"],
 				"Level": 93,
-				"Primary": true,
 				"Skills": {
-					"Divination": 97
+					"Divination": 98
 				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Get the full amount of healing from ~|shark soup|~": {
+				"Items": ["Shark soup"],
+				"Level": 94,
+				"Primary": false,
 				"Priority": 1
 			},
-			"Equip ~|void knight equipment|~": {
-				"Items": ["Voidequipment+"],
-				"Level": 42,
+			"Get the full amount of healing from ~|summer pies|~": {
+				"Items": ["Summer pie"],
+				"Level": 95,
 				"Primary": false,
-				"Skills": {
-					"Attack": 42,
-					"Strength": 42,
-					"Defence": 42,
-					"Magic": 42,
-					"Prayer": 22,
-					"Ranged": 42
-				},
 				"Priority": 1
+			},
+			"Get the full amount of healing from ~|tiger sharks|~": {
+				"Items": ["Tiger shark"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|rocktail soup|~": {
+				"Items": ["Rocktail soup"],
+				"Level": 96,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the full amount of healing from ~|sailfish|~": {
+				"Items": ["Sailfish"],
+				"Level": 96,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|fury sharks|~": {
+				"Items": ["Fury shark"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip the ~|Constitution cape|~": {
+				"Items": ["Constitution cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Get the full amount of healing from ~|sailfish soup|~": {
+				"Items": ["Sailfish soup"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
 			}
 		},
 		"Construction": {
@@ -1585,7 +2467,7 @@
 		"Cooking": {
 			"Cook ~|cooked meat|~": {
 				"Items": ["RawMeat+"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Cooked meat",
 				"Primary": true,
@@ -1614,7 +2496,7 @@
 			},
 			"Cook ~|cooked ugthanki meat|~": {
 				"Items": ["Raw ugthanki meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Ugthanki meat",
 				"Primary": true,
@@ -1622,7 +2504,7 @@
 			},
 			"Cook ~|cooked undead beef|~": {
 				"Items": ["Raw undead beef"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Cooked undead meat",
 				"Primary": true,
@@ -1630,7 +2512,7 @@
 			},
 			"Cook a ~|cooked undead chicken|~": {
 				"Items": ["Raw undead chicken"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Cooked undead chicken",
 				"Primary": true,
@@ -1638,7 +2520,7 @@
 			},
 			"Cook ~|poorly-cooked beast meat|~": {
 				"Items": ["Raw beast meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Poorly-cooked beast meat",
 				"Primary": true,
@@ -1646,7 +2528,7 @@
 			},
 			"Cook ~|poorly-cooked bird meat|~": {
 				"Items": ["Raw bird meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Poorly-cooked bird meat",
 				"Primary": true,
@@ -1654,7 +2536,7 @@
 			},
 			"Make a ~|sinew|~": {
 				"Items": ["SinewMeat+"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 1,
 				"Output": "Sinew",
 				"Primary": true,
@@ -1662,7 +2544,7 @@
 			},
 			"Cook ~|shrimps|~": {
 				"Items": ["Raw shrimps"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Shrimps",
 				"Primary": true,
@@ -1670,7 +2552,7 @@
 			},
 			"Cook a ~|crayfish|~": {
 				"Items": ["Raw crayfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Crayfish",
 				"Primary": true,
@@ -1678,7 +2560,7 @@
 			},
 			"Cook a ~|cooked chicken|~": {
 				"Items": ["Raw chicken"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Cooked chicken",
 				"Primary": true,
@@ -1686,7 +2568,7 @@
 			},
 			"Cook ~|cooked rabbit|~": {
 				"Items": ["Raw rabbit"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Cooked rabbit",
 				"Primary": true,
@@ -1694,7 +2576,7 @@
 			},
 			"Cook ~|anchovies|~": {
 				"Items": ["Raw anchovies"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Anchovies",
 				"Primary": true,
@@ -1702,7 +2584,7 @@
 			},
 			"Cook a ~|sardine|~": {
 				"Items": ["Raw sardine"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Sardine",
 				"Primary": true,
@@ -1710,7 +2592,7 @@
 			},
 			"Cook a ~|minnow|~": {
 				"Items": ["Raw minnow"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Minnow",
 				"Primary": true,
@@ -1718,7 +2600,7 @@
 			},
 			"Cook a ~|davio|~": {
 				"Items": ["Raw davio"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Davio",
 				"Primary": true,
@@ -1756,7 +2638,7 @@
 			},
 			"Bake ~|bread|~": {
 				"Items": ["Bread dough"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 1,
 				"Output": "Bread",
 				"Primary": true,
@@ -1771,7 +2653,7 @@
 			},
 			"Cook a ~|karambwanji|~": {
 				"Items": ["Raw karambwanji"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Karambwanji",
 				"Primary": true,
@@ -1779,7 +2661,7 @@
 			},
 			"Cook a ~|poison karambwan|~": {
 				"Items": ["Raw karambwan"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Poison karambwan",
 				"Primary": true,
@@ -1955,7 +2837,7 @@
 			},
 			"Make ~|soda ash|~": {
 				"Items": ["Seaweed+"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 1,
 				"Output": "Soda ash",
 				"Primary": true,
@@ -2041,7 +2923,7 @@
 			},
 			"Cook a ~|herring|~": {
 				"Items": ["Raw herring"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 5,
 				"Output": "Herring",
 				"Primary": true,
@@ -2063,7 +2945,7 @@
 			},
 			"Bake a ~|baked potato|~": {
 				"Items": ["Raw potato"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 7,
 				"Output": "Baked potato",
 				"Primary": true,
@@ -2135,7 +3017,7 @@
 			},
 			"Bake a ~|redberry pie|~": {
 				"Items": ["Uncooked berry pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 10,
 				"Output": "Redberry pie",
 				"Primary": true,
@@ -2161,7 +3043,7 @@
 			},
 			"Bake ~|half baked crunchies|~": {
 				"Items": ["Raw crunchies"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 10,
 				"Output": "Half baked crunchy",
 				"Primary": true,
@@ -2176,7 +3058,7 @@
 			},
 			"Bake ~|unfinished toad crunchies|~": {
 				"Items": ["Half made toad crunchy"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 10,
 				"Output": "Unfinished toad crunchy",
 				"Primary": true,
@@ -2191,7 +3073,7 @@
 			},
 			"Cook a ~|mackerel|~": {
 				"Items": ["Raw mackerel"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 10,
 				"Output": "Mackerel",
 				"Primary": true,
@@ -2224,7 +3106,7 @@
 			},
 			"Bake ~|unfinished spicy crunchies|~": {
 				"Items": ["Half made spicy crunchy"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 12,
 				"Output": "Unfinished spicy crunchy",
 				"Primary": true,
@@ -2239,7 +3121,7 @@
 			},
 			"Cook ~|thin snail meat|~": {
 				"Items": ["Thin snail"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 12,
 				"Output": "Thin snail meat",
 				"Primary": true,
@@ -2247,7 +3129,7 @@
 			},
 			"Make a ~|scrambled egg|~": {
 				"Items": ["Uncooked egg"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 13,
 				"Output": "Scrambled egg",
 				"Primary": true,
@@ -2278,7 +3160,7 @@
 			},
 			"Bake ~|unfinished worm crunchies|~": {
 				"Items": ["Half made worm crunchy"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 14,
 				"Output": "Unfinished worm crunchy",
 				"Primary": true,
@@ -2293,7 +3175,7 @@
 			},
 			"Fry ~|bacon|~": {
 				"Items": ["Raw bacon"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 14,
 				"Output": "Bacon",
 				"Primary": true,
@@ -2301,7 +3183,7 @@
 			},
 			"Cook a ~|trout|~": {
 				"Items": ["Raw trout"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 15,
 				"Output": "Trout",
 				"Primary": true,
@@ -2349,7 +3231,7 @@
 			},
 			"Bake ~|unfinished choc chip crunchies|~": {
 				"Items": ["Half made choc chip crunchy"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 16,
 				"Output": "Unfinished choc chip crunchy",
 				"Primary": true,
@@ -2379,7 +3261,7 @@
 			},
 			"Cook ~|lean snail meat|~": {
 				"Items": ["Lean snail"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 17,
 				"Output": "Lean snail meat",
 				"Primary": true,
@@ -2401,7 +3283,7 @@
 			},
 			"Cook a ~|cod|~": {
 				"Items": ["Raw cod"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 18,
 				"Output": "Cod",
 				"Primary": true,
@@ -2417,7 +3299,7 @@
 			},
 			"Cook a ~|pike|~": {
 				"Items": ["Raw pike"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 20,
 				"Output": "Pike",
 				"Primary": true,
@@ -2432,7 +3314,7 @@
 			},
 			"Bake a ~|meat pie|~": {
 				"Items": ["Uncooked meat pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 20,
 				"Output": "Meat pie",
 				"Primary": true,
@@ -2451,7 +3333,7 @@
 			},
 			"Make ~|nettle tea|~": {
 				"Items": ["Nettle-water"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 20,
 				"Output": "Nettle tea",
 				"Primary": true,
@@ -2544,7 +3426,7 @@
 			},
 			"Cook ~|cooked crab meat|~": {
 				"Items": ["Crab meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 21,
 				"Output": "Cooked crab meat",
 				"Primary": true,
@@ -2570,7 +3452,7 @@
 			},
 			"Cook ~|fat snail meat|~": {
 				"Items": ["Fat snail"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 22,
 				"Output": "Fat snail meat",
 				"Primary": true,
@@ -2600,7 +3482,7 @@
 			},
 			"Fry a ~|bacon stack|~": {
 				"Items": ["Raw bacon stack"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 24,
 				"Output": "Bacon stack",
 				"Primary": true,
@@ -2608,7 +3490,7 @@
 			},
 			"Cook a ~|salmon|~": {
 				"Items": ["Raw salmon"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 25,
 				"Output": "Salmon",
 				"Primary": true,
@@ -2630,7 +3512,7 @@
 			},
 			"Cook a ~|stew|~": {
 				"Items": ["Uncooked stew"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 25,
 				"Output": "Stew",
 				"Primary": true,
@@ -2645,7 +3527,7 @@
 			},
 			"Bake a ~|half baked batta|~": {
 				"Items": ["Raw batta"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 25,
 				"Output": "Half baked batta",
 				"Primary": true,
@@ -2660,7 +3542,7 @@
 			},
 			"Bake a ~|unfinished fruit batta|~": {
 				"Items": ["Half made fruit batta"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 25,
 				"Output": "Unfinished fruit batta",
 				"Primary": true,
@@ -2682,7 +3564,7 @@
 			},
 			"Bake a ~|toad batta|~": {
 				"Items": ["Half made toad batta"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 26,
 				"Output": "Toad batta",
 				"Primary": true,
@@ -2697,7 +3579,7 @@
 			},
 			"Bake a ~|unfinished worm batta|~": {
 				"Items": ["Half made worm batta"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 27,
 				"Output": "Unfinished worm batta",
 				"Primary": true,
@@ -2712,7 +3594,7 @@
 			},
 			"Cook ~|cooked sweetcorn|~": {
 				"Items": ["Sweetcorn"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 28,
 				"Output": "Cooked sweetcorn",
 				"Primary": true,
@@ -2720,7 +3602,7 @@
 			},
 			"Cook a ~|cooked slimy eel|~": {
 				"Items": ["Slimy eel"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 28,
 				"Output": "Cooked slimy eel",
 				"Primary": true,
@@ -2735,7 +3617,7 @@
 			},
 			"Bake a ~|unfinished veg batta|~": {
 				"Items": ["Half made veg batta"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 28,
 				"Output": "Unfinished veg batta",
 				"Primary": true,
@@ -2779,7 +3661,7 @@
 			},
 			"Bake a ~|mud pie|~": {
 				"Items": ["Raw mud pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 29,
 				"Output": "Mud pie",
 				"Primary": true,
@@ -2805,7 +3687,7 @@
 			},
 			"Bake a ~|unfinished cheese and tom batta|~": {
 				"Items": ["Half made cheese and tom batta"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 29,
 				"Output": "Unfinished cheese and tom batta",
 				"Primary": true,
@@ -2820,7 +3702,7 @@
 			},
 			"Cook a ~|tuna|~": {
 				"Items": ["Raw tuna"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 30,
 				"Output": "Tuna",
 				"Primary": true,
@@ -2835,7 +3717,7 @@
 			},
 			"Bake an ~|apple pie|~": {
 				"Items": ["Uncooked apple pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 30,
 				"Output": "Apple pie",
 				"Primary": true,
@@ -2854,7 +3736,7 @@
 			},
 			"Cook a ~|cooked karambwan|~": {
 				"Items": ["Raw karambwan"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 30,
 				"Output": "Cooked karambwan",
 				"Primary": true,
@@ -2895,7 +3777,7 @@
 			},
 			"Bake a ~|half baked bowl|~": {
 				"Items": ["Raw gnomebowl"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 30,
 				"Output": "Half baked bowl",
 				"Primary": true,
@@ -2910,7 +3792,7 @@
 			},
 			"Bake a ~|unfinished worm bowl|~": {
 				"Items": ["Half made worm bowl"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 30,
 				"Output": "Unfinished worm bowl",
 				"Primary": false,
@@ -2932,7 +3814,7 @@
 			},
 			"Bake a ~|cooked fishcake|~": {
 				"Items": ["Raw fishcake"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 31,
 				"Output": "Cooked fishcake",
 				"Primary": true,
@@ -2949,7 +3831,7 @@
 			"Bake ~|biscuits|~": {
 				"Items": ["Biscuit dough"],
 				"NPCs": ["Head Chef"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 32,
 				"Output": "Biscuits",
 				"Primary": true,
@@ -2995,7 +3877,7 @@
 			},
 			"Finish a ~|Drunk Dragon|~": {
 				"Items": ["Mixed dragon (garnished)"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 32,
 				"Output": "Drunk Dragon",
 				"Primary": true,
@@ -3017,7 +3899,7 @@
 			},
 			"Heat a ~|mixed saturday (heated)|~": {
 				"Items": ["Mixed saturday (poured)"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 33,
 				"Output": "Mixed saturday (heated)",
 				"Primary": false,
@@ -3053,7 +3935,7 @@
 			},
 			"Bake a ~|garden pie|~": {
 				"Items": ["Raw garden pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 34,
 				"Output": "Garden pie",
 				"Primary": true,
@@ -3079,7 +3961,7 @@
 			},
 			"Fry a ~|bacon pile|~": {
 				"Items": ["Raw bacon pile"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 34,
 				"Output": "Bacon pile",
 				"Primary": true,
@@ -3124,7 +4006,7 @@
 			},
 			"Cook a ~|plain pizza|~": {
 				"Items": ["Uncooked pizza"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 35,
 				"Output": "Plain pizza",
 				"Primary": true,
@@ -3139,7 +4021,7 @@
 			},
 			"Cook a ~|rainbow fish|~": {
 				"Items": ["Raw rainbow fish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 35,
 				"Output": "Rainbow fish",
 				"Primary": true,
@@ -3154,7 +4036,7 @@
 			},
 			"Bake a ~|unfinished veg bowl|~": {
 				"Items": ["Half made veg bowl"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 35,
 				"Output": "Unfinished veg bowl",
 				"Primary": false,
@@ -3216,7 +4098,7 @@
 			},
 			"Cook a ~|cave eel|~": {
 				"Items": ["Raw cave eel"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 38,
 				"Output": "Cave eel",
 				"Primary": true,
@@ -3239,7 +4121,7 @@
 			},
 			"Cook a ~|lobster|~": {
 				"Items": ["Raw lobster"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 40,
 				"Output": "Lobster",
 				"Primary": true,
@@ -3254,7 +4136,7 @@
 			},
 			"Bake a ~|cake|~": {
 				"Items": ["Uncooked cake"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 40,
 				"Output": "Cake",
 				"Primary": true,
@@ -3278,7 +4160,7 @@
 			},
 			"Bake ~|tangled toads' legs|~": {
 				"Items": ["Half made toad bowl"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 40,
 				"Output": "Tangled toads' legs",
 				"Primary": true,
@@ -3301,7 +4183,7 @@
 			},
 			"Cook ~|fried onions|~": {
 				"Items": ["Chopped onion"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 42,
 				"Output": "Fried onions",
 				"Primary": true,
@@ -3316,7 +4198,7 @@
 			},
 			"Bake a ~|unfinished choc bowl|~": {
 				"Items": ["Half made choc bowl"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 42,
 				"Output": "Unfinished choc bowl",
 				"Primary": false,
@@ -3339,7 +4221,7 @@
 			},
 			"Cook a ~|bass|~": {
 				"Items": ["Raw bass"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 43,
 				"Output": "Bass",
 				"Primary": true,
@@ -3362,7 +4244,7 @@
 			},
 			"Fry a ~|bacon heap|~": {
 				"Items": ["Raw bacon heap"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 44,
 				"Output": "Bacon heap",
 				"Primary": true,
@@ -3370,7 +4252,7 @@
 			},
 			"Cook a ~|swordfish|~": {
 				"Items": ["Raw swordfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 45,
 				"Output": "Swordfish",
 				"Primary": true,
@@ -3394,7 +4276,7 @@
 			},
 			"Cook ~|fried mushrooms|~": {
 				"Items": ["Sliced mushrooms"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 46,
 				"Output": "Fried mushrooms",
 				"Primary": true,
@@ -3423,7 +4305,7 @@
 			},
 			"Bake a ~|fish pie|~": {
 				"Items": ["Raw fish pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 47,
 				"Output": "Fish pie",
 				"Primary": true,
@@ -3503,7 +4385,7 @@
 			},
 			"Cooked a ~|cooked oomlie wrap|~": {
 				"Items": ["Wrapped oomlie"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 50,
 				"Output": "Cooked oomlie wrap",
 				"Primary": true,
@@ -3525,7 +4407,7 @@
 			},
 			"Cook a ~|desert sole|~": {
 				"Items": ["Raw desert sole"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 52,
 				"Output": "Desert sole",
 				"Primary": true,
@@ -3541,7 +4423,7 @@
 			},
 			"Cook a ~|lava eel|~": {
 				"Items": ["Raw lava eel"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 53,
 				"Output": "Lava eel",
 				"Primary": true,
@@ -3564,7 +4446,7 @@
 			},
 			"Fry a ~|bacon mound|~": {
 				"Items": ["Raw bacon mound"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 54,
 				"Output": "Bacon mound",
 				"Primary": true,
@@ -3609,7 +4491,7 @@
 			},
 			"Bake ~|pitta bread|~": {
 				"Items": ["Pitta dough"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 58,
 				"Output": "Pitta bread",
 				"Primary": true,
@@ -3632,7 +4514,7 @@
 			},
 			"Cook a ~|curry|~": {
 				"Items": ["Uncooked curry"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 60,
 				"Output": "Curry",
 				"Primary": true,
@@ -3640,7 +4522,7 @@
 			},
 			"Cook a ~|catfish|~": {
 				"Items": ["Raw catfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 60,
 				"Output": "Catfish",
 				"Primary": true,
@@ -3648,7 +4530,7 @@
 			},
 			"Cook a ~|monkfish|~": {
 				"Items": ["Raw monkfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 62,
 				"Output": "Monkfish",
 				"Primary": true,
@@ -3720,7 +4602,7 @@
 			},
 			"Bake an ~|admiral pie|~": {
 				"Items": ["Raw admiral pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 70,
 				"Output": "Admiral pie",
 				"Primary": true,
@@ -3739,7 +4621,7 @@
 			},
 			"Cook a ~|beltfish|~": {
 				"Items": ["Raw beltfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 72,
 				"Output": "Beltfish",
 				"Primary": true,
@@ -3747,7 +4629,7 @@
 			},
 			"Cook a ~|green blubber jellyfish|~": {
 				"Items": ["Raw green blubber jellyfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 72,
 				"Output": "Green blubber jellyfish",
 				"Primary": true,
@@ -3762,7 +4644,7 @@
 			},
 			"Bake a ~|pork pie|~": {
 				"Items": ["Uncooked pork pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 74,
 				"Output": "Pork pie",
 				"Primary": true,
@@ -3770,7 +4652,7 @@
 			},
 			"Cook ~|arcane apoterrasaur meat|~": {
 				"Items": ["Raw arcane apoterrasaur meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 75,
 				"Output": "Arcane apoterrasaur meat",
 				"Primary": true,
@@ -3778,7 +4660,7 @@
 			},
 			"Cook ~|scimitops meat|~": {
 				"Items": ["Raw scimitops meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 75,
 				"Output": "Scimitops meat",
 				"Primary": true,
@@ -3786,7 +4668,7 @@
 			},
 			"Cook ~|bagrada rex meat|~": {
 				"Items": ["Raw bagrada rex meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 75,
 				"Output": "Bagrada rex meat",
 				"Primary": true,
@@ -3794,7 +4676,7 @@
 			},
 			"Cook a ~|shark|~": {
 				"Items": ["Raw shark"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 80,
 				"Output": "Shark",
 				"Primary": true,
@@ -3809,7 +4691,7 @@
 			},
 			"Cook ~|timber fungus soup|~": {
 				"Items": ["Raw timber fungus soup"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 80,
 				"Output": "Timber fungus soup",
 				"Primary": true,
@@ -3824,7 +4706,7 @@
 			},
 			"Cook ~|calcified fungus soup|~": {
 				"Items": ["Raw calcified fungus soup"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 80,
 				"Output": "Calcified fungus soup",
 				"Primary": true,
@@ -3839,7 +4721,7 @@
 			},
 			"Cook ~|fungal spore soup|~": {
 				"Items": ["Raw fungal spore soup"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 80,
 				"Output": "Fungal spore soup",
 				"Primary": true,
@@ -3854,7 +4736,7 @@
 			},
 			"Cook ~|fungal algae soup|~": {
 				"Items": ["Raw fungal algae soup"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 80,
 				"Output": "Fungal algae soup",
 				"Primary": true,
@@ -3862,7 +4744,7 @@
 			},
 			"Cook a ~|baron shark|~": {
 				"Items": ["Raw baron shark"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 80,
 				"Output": "Baron shark",
 				"Primary": true,
@@ -3870,7 +4752,7 @@
 			},
 			"Cook ~|spicati apoterrasaur meat|~": {
 				"Items": ["Raw spicati apoterrasaur meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 81,
 				"Output": "Spicati apoterrasaur meat",
 				"Primary": true,
@@ -3878,7 +4760,7 @@
 			},
 			"Cook ~|asciatops meat|~": {
 				"Items": ["Raw asciatops meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 81,
 				"Output": "Asciatops meat",
 				"Primary": true,
@@ -3886,7 +4768,7 @@
 			},
 			"Cook ~|corbicula rex meat|~": {
 				"Items": ["Raw corbicula rex meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 81,
 				"Output": "Corbicula rex meat",
 				"Primary": true,
@@ -3894,7 +4776,7 @@
 			},
 			"Cook a ~|sea turtle|~": {
 				"Items": ["Raw sea turtle"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 82,
 				"Output": "Sea turtle",
 				"Primary": true,
@@ -3902,7 +4784,7 @@
 			},
 			"Cook a ~|great white shark|~": {
 				"Items": ["Raw great white shark"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 84,
 				"Output": "Great white shark",
 				"Primary": true,
@@ -3939,7 +4821,7 @@
 			},
 			"Bake a ~|wild pie|~": {
 				"Items": ["Raw wild pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 85,
 				"Output": "Wild pie",
 				"Primary": true,
@@ -3975,7 +4857,7 @@
 			},
 			"Cook a ~|cavefish|~": {
 				"Items": ["Raw cavefish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 88,
 				"Output": "Cavefish",
 				"Primary": true,
@@ -3983,7 +4865,7 @@
 			},
 			"Cook ~|oculi apoterrasaur meat|~": {
 				"Items": ["Raw oculi apoterrasaur meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 89,
 				"Output": "Oculi apoterrasaur meat",
 				"Primary": true,
@@ -3991,7 +4873,7 @@
 			},
 			"Cook ~|malletops meat|~": {
 				"Items": ["Raw malletops meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 89,
 				"Output": "Malletops meat",
 				"Primary": true,
@@ -3999,7 +4881,7 @@
 			},
 			"Cook ~|pavosaurus rex meat|~": {
 				"Items": ["Raw pavosaurus rex meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 89,
 				"Output": "Pavosaurus rex meat",
 				"Primary": true,
@@ -4030,7 +4912,7 @@
 			},
 			"Bake a ~|wilder pie|~": {
 				"Items": ["Raw wilder pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 90,
 				"Output": "Wilder pie",
 				"Primary": true,
@@ -4038,7 +4920,7 @@
 			},
 			"Cook a ~|manta ray|~": {
 				"Items": ["Raw manta ray"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 91,
 				"Output": "Manta ray",
 				"Primary": true,
@@ -4054,7 +4936,7 @@
 			},
 			"Cook a ~|cooked pekin|~": {
 				"Items": ["Raw pekin"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 91,
 				"Output": "Cooked pekin",
 				"Primary": true,
@@ -4062,7 +4944,7 @@
 			},
 			"Make ~|fish oil|~ using raw tarpon": {
 				"Items": ["Raw tarpon"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 91,
 				"Output": "Fish oil",
 				"Primary": true,
@@ -4070,7 +4952,7 @@
 			},
 			"Cook a ~|cooked undead pekin|~": {
 				"Items": ["Raw undead pekin"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 91,
 				"Output": "Cooked undead pekin",
 				"Primary": true,
@@ -4099,7 +4981,7 @@
 			},
 			"Cook a ~|rocktail|~": {
 				"Items": ["Raw rocktail"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 93,
 				"Output": "Rocktail",
 				"Primary": true,
@@ -4114,7 +4996,7 @@
 			},
 			"Make ~|fish oil|~ using raw seerfish": {
 				"Items": ["Raw seerfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 93,
 				"Output": "Fish oil",
 				"Primary": true,
@@ -4129,7 +5011,7 @@
 			},
 			"Cook ~|arc gumbo|~": {
 				"Items": ["Uncooked arc gumbo"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 94,
 				"Output": "Arc gumbo",
 				"Primary": true,
@@ -4158,7 +5040,7 @@
 			},
 			"Bake a ~|summer pie|~": {
 				"Items": ["Raw summer pie"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 95,
 				"Output": "Summer pie",
 				"Primary": true,
@@ -4177,7 +5059,7 @@
 			},
 			"Cook a ~|tiger shark|~": {
 				"Items": ["Raw tiger shark"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 95,
 				"Output": "Tiger shark",
 				"Primary": true,
@@ -4185,7 +5067,7 @@
 			},
 			"Cook a ~|blue blubber jellyfish|~": {
 				"Items": ["Raw blue blubber jellyfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 95,
 				"Output": "Blue blubber jellyfish",
 				"Primary": true,
@@ -4193,7 +5075,7 @@
 			},
 			"Make ~|fish oil|~ using raw sillago": {
 				"Items": ["Raw sillago"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 95,
 				"Output": "Fish oil",
 				"Primary": true,
@@ -4201,7 +5083,7 @@
 			},
 			"Make ~|wobbegong oil|~": {
 				"Items": ["Raw wobbegong"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 96,
 				"Output": "Wobbegong oil",
 				"Primary": true,
@@ -4216,7 +5098,7 @@
 			},
 			"Cook ~|shark soup|~": {
 				"Items": ["Uncooked shark soup"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 96,
 				"Output": "Shark soup",
 				"Primary": true,
@@ -4224,7 +5106,7 @@
 			},
 			"Cook a ~|sailfish|~": {
 				"Items": ["Raw sailfish"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Level": 99,
 				"Output": "Sailfish",
 				"Primary": true,
@@ -4245,7 +5127,7 @@
 			},
 			"Make a ~|primal starter|~": {
 				"Items": ["Raw oculi apoterrasaur meat", "Rainbow sweetcorn", "Cannonball cabbage", "Sweet potato"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 99,
 				"Output": "Primal starter",
 				"Primary": true,
@@ -4253,7 +5135,7 @@
 			},
 			"Make a ~|primal main course|~": {
 				"Items": ["Raw malletops meat", "Raw pavosaurus rew meat", "Red onion", "Heirloom tomato"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 99,
 				"Output": "Primal main course",
 				"Primary": true,
@@ -4261,7 +5143,7 @@
 			},
 			"Make a ~|primal dessert|~": {
 				"Items": ["White strawberry", "Golden watermelon", "Dragonfruit", "Mango"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 99,
 				"Output": "Primal dessert",
 				"Primary": true,
@@ -4269,7 +5151,7 @@
 			},
 			"Make a ~|primal feast|~": {
 				"Items": ["Primal starter", "Primal main course", "Primal dessert", "Extreme cooking potion"],
-				"Objects": ["Range"],
+				"Objects": ["Cooking range+"],
 				"Level": 98,
 				"Output": "Primal starter",
 				"Primary": true,
@@ -27190,7 +28072,7 @@
 			},
 			"Heat a ~|bowl of hot water|~ on a range": {
 				"Items": ["Bowl of water"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Output": "Bowl of hot water"
 			},
 			"Heat a ~|bowl of hot water|~ on a Geyser titan": {
@@ -27203,7 +28085,7 @@
 			},
 			"Burn ~|burned meat|~": {
 				"Items": ["Cooked meat"],
-				"Objects": ["Range+"],
+				"Objects": ["Cooking object+"],
 				"Output": "Burned meat"
 			},
 			"Take a ~|bucket of water|~": {
@@ -30201,7 +31083,7 @@
 		},
 		"4675": {
 			"Object": {
-				"Range": 1,
+				"Cooking range+": 1,
 				"Barrel": 1,
 				"Cauldron": 1,
 				"Pot": 4,
@@ -30239,7 +31121,7 @@
 		},
 		"4676": {
 			"Object": {
-				"Range": 1,
+				"Cooking range+": 1,
 				"Barrel": 1,
 				"Cauldron": 1,
 				"Pot": 4,
@@ -30510,7 +31392,7 @@
 		},
 		"4931": {
 			"Object": {
-				"Range": 1,
+				"Cooking range+": 1,
 				"Barrel": 1,
 				"Cauldron": 1,
 				"Pot": 4,
@@ -30526,7 +31408,7 @@
 		},
 		"4932": {
 			"Object": {
-				"Range": 1,
+				"Cooking range+": 1,
 				"Barrel": 1,
 				"Cauldron": 1,
 				"Pot": 4,
@@ -30680,7 +31562,7 @@
 				"Combat Scroll": 1,
 				"Closed chest": 1,
 				"Fountain": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Drawers": 2,
 				"Oak": 5,
 				"Yew": 2,
@@ -31710,7 +32592,7 @@
 				"Bookcase": 2,
 				"Shelf": 4,
 				"Dying tree": 4,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Drawers": 1,
 				"Young tree": 2,
 				"Anvil": 2,
@@ -32950,7 +33832,7 @@
 				"Dying tree": 4,
 				"Closed chest": 3,
 				"Fountain": 1,
-				"Range": 5,
+				"Cooking range+": 5,
 				"Drawers": 5,
 				"Oak": 1,
 				"Tree": 10,
@@ -33548,7 +34430,7 @@
 		},
 		"8004": {
 			"Object": {
-				"Range": 1
+				"Cooking range+": 1
 			},
 			"Monster": {
 				"Elite Khazard guard": 8
@@ -34128,7 +35010,7 @@
 				"Yew": 1,
 				"Tree": 1,
 				"Bookcase": 3,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Catacombs": 1,
 				"Clan Cup plaque": 1,
 				"Al Kharid": 1,
@@ -36513,7 +37395,7 @@
 				"Dead tree": 37,
 				"Sink": 1,
 				"Washbasin": 2,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Small furnace": 1,
 				"Hole": 2,
 				"Barrel": 7,
@@ -36741,7 +37623,7 @@
 				"Bookcase": 1,
 				"Sacks": 1,
 				"Drawers": 1,
-				"Range": 1
+				"Cooking range+": 1
 			}
 		},
 		"9305": {
@@ -37358,7 +38240,7 @@
 				"Crate": 6,
 				"Fountain": 1,
 				"Furnace": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Bank booth": 1,
 				"Jars": 1,
 				"Hammocks": 1,
@@ -37550,7 +38432,7 @@
 		},
 		"9560": {
 			"Object": {
-				"Range": 1,
+				"Cooking range+": 1,
 				"Furnace": 1
 			}
 		},
@@ -37934,7 +38816,7 @@
 				"Well": 1,
 				"Crate": 4,
 				"Crates": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Orrery": 1,
 				"Fire": 1,
 				"Star chart": 8,
@@ -38184,7 +39066,8 @@
 				"Gulluck and Sons": true,
 				"Funch's Fine Groceries": true,
 				"Grand Tree Groceries": true,
-				"Rometti's Fine Fashions": true
+				"Rometti's Fine Fashions": true,
+				"Gianne's Restaurant": true
 			},
 			"Nickname": "Grand Tree"
 		},
@@ -38987,7 +39870,7 @@
 				"Sink": 1,
 				"Fountain": 1,
 				"Ropeswing": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Fire": 2,
 				"Lever": 1,
 				"Bush": 5,
@@ -39104,7 +39987,7 @@
 				"Manhole": 2,
 				"Fire": 1,
 				"Drawers": 23,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Sink": 1,
 				"Waterpump": 2,
 				"Sacks": 5,
@@ -39597,7 +40480,7 @@
 				"Tools": 1,
 				"Bookcase": 3,
 				"Drawers": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Catacombs": 1
 			}
 		},
@@ -40035,7 +40918,7 @@
 				"Climbing rocks": 1,
 				"Fireplace": 1,
 				"Cooking pot": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Bush": 8,
 				"Crate": 5,
 				"Bell": 1,
@@ -40105,7 +40988,7 @@
 			"Object": {
 				"Fireplace": 2,
 				"Cooking pot": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Closed chest": 2,
 				"Cupboard": 1,
 				"Sink": 4,
@@ -40142,7 +41025,7 @@
 				"Well": 1,
 				"Fireplace": 2,
 				"Cooking pot": 1,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Oak": 11,
 				"Tree": 64,
 				"Crate": 2,
@@ -40330,7 +41213,7 @@
 				"Oak": 12,
 				"Tree": 28,
 				"Bank booth": 2,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Noticeboard": 1,
 				"Fishing spot (cage/harpoon)": 7,
 				"Fishing spot (net(big)/harpoon)": 7
@@ -41059,7 +41942,7 @@
 				"Trawler net": 1,
 				"Gangplank": 5,
 				"Cooking pot": 1,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Fire": 1,
 				"Boxes": 1,
 				"Antiques Shop stall": 1,
@@ -41142,7 +42025,7 @@
 				"Fur stall": 1,
 				"Drawers": 14,
 				"Sink": 2,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Fountain": 2,
 				"Sacks": 4,
 				"Boxes": 1,
@@ -41280,7 +42163,7 @@
 				"Oak": 15,
 				"Tree": 33,
 				"Crate": 2,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Hemenster": 1,
 				"Seers' Village": 1,
 				"Ranging Guild": 1,
@@ -41602,7 +42485,7 @@
 				"Potato": 66,
 				"Closed chest": 3,
 				"Cabbage": 31,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
@@ -42165,7 +43048,7 @@
 				"Large cupboard": 1,
 				"Bookcase": 5,
 				"Flax": 51,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Young tree": 2,
 				"Oak": 25,
 				"Tree": 55,
@@ -42201,7 +43084,7 @@
 				"Fountain": 2,
 				"Dead tree": 8,
 				"Fireplace": 2,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Filing cabinet": 1,
 				"Bookcase": 7,
 				"Crate": 8,
@@ -42275,7 +43158,7 @@
 				"Drawers": 8,
 				"Dairy churn": 1,
 				"Sink": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Spiders' nest": 1,
 				"Sinclair family compost heap": 1,
 				"Sinclair family beehive": 1,
@@ -42464,7 +43347,7 @@
 			"Object": {
 				"Chest": 4,
 				"Small obelisk": 1,
-				"Range": 1
+				"Cooking range+": 1
 			},
 			"Connect": {
 				"13117": true
@@ -42577,7 +43460,7 @@
 		"10834": {
 			"Object": {
 				"Chest": 11,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Sink": 2,
 				"Tri-Anvil": 1,
 				"Sandpit": 1,
@@ -43188,7 +44071,7 @@
 				"Portal": 1,
 				"Wheat": 8,
 				"Fireplace": 2,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Closed chest": 3,
 				"Open chest": 4,
 				"Sink": 2,
@@ -43333,7 +44216,7 @@
 				"Oak": 6,
 				"Yew": 8,
 				"Tree": 4,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Bakery stall": 1,
 				"Wine stall": 2,
 				"Well": 1,
@@ -43635,7 +44518,7 @@
 			"Object": {
 				"Potato": 20,
 				"Cabbage": 7,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Dead tree": 99
 			},
 			"NPC": {
@@ -44222,7 +45105,7 @@
 				"Gangplank": 2,
 				"Mysterious ruins": 1,
 				"Sand pit": 1,
-				"Range": 3,
+				"Cooking range+": 3,
 				"Candles": 1,
 				"Bookcase": 3,
 				"Willow": 15,
@@ -44601,7 +45484,7 @@
 				"Open chest": 1,
 				"Sink": 1,
 				"Fountain": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Tall Reeds": 4,
 				"Trellis top": 2,
 				"Trellis": 2
@@ -44736,7 +45619,7 @@
 				"Dresser": 3,
 				"Books": 8,
 				"Book": 2,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Fireplace": 2,
 				"Chain": 2
 			},
@@ -45300,7 +46183,7 @@
 				"Drawers": 1,
 				"Pottery Oven": 1,
 				"Spinning wheel": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Sand": 1,
 				"Dairy cow": 2,
 				"Bookcase": 1,
@@ -45795,7 +46678,7 @@
 				"Sink": 1,
 				"Fountain": 1,
 				"Ropeswing": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Fire": 2,
 				"Lever": 1,
 				"Bush": 5,
@@ -46449,7 +47332,7 @@
 				"Campfire": 1,
 				"Closed chest": 1,
 				"Sink": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Piano": 1,
 				"Bookcase": 4,
 				"Drawers": 1,
@@ -46564,7 +47447,7 @@
 				"Suit of armour": 11,
 				"Bookcase": 1,
 				"Torch": 87,
-				"Range": 3,
+				"Cooking range+": 3,
 				"Closed chest": 7,
 				"Tree": 12,
 				"Memorial Plaque": 1,
@@ -47235,7 +48118,7 @@
 				"Furnace": 1,
 				"Bookcase": 5,
 				"Drawers": 11,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Sink": 1,
 				"Anvil": 1,
 				"Forge": 1
@@ -47327,13 +48210,6 @@
 				"Oak": 16,
 				"Yew": 4,
 				"Tree": 31,
-				"Draynor": 2,
-				"Clan Camp, Port Sarim": 1,
-				"Falador": 1,
-				"Draynor Village": 1,
-				"Rimmington": 1,
-				"Port Sarim": 1,
-				"Clan Camp, Falador": 1,
 				"Crate": 2,
 				"Storm cellar": 1,
 				"Water barrel": 5,
@@ -47392,7 +48268,7 @@
 				"Fountain": 1,
 				"Bookcase": 1,
 				"Torch": 54,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Closed chest": 2,
 				"Tree": 2,
 				"Bank deposit box": 1,
@@ -47487,7 +48363,7 @@
 				"Altar": 1,
 				"Bloodwood tree": 1,
 				"Roses": 8,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Crate": 3,
 				"Crates": 2,
 				"Bookcase": 5,
@@ -47631,7 +48507,7 @@
 			"Object": {
 				"Fire": 3,
 				"Pile of Crates": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Fishing spot (net(small)/bait)": 1
 			},
 			"Monster": {
@@ -48180,7 +49056,7 @@
 		"12329": {
 			"Object": {
 				"House portal": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Fishing spot (menaphos)": 2
 			},
 			"NPC": {
@@ -48190,7 +49066,7 @@
 		},
 		"12330": {
 			"Object": {
-				"Range": 3,
+				"Cooking range+": 3,
 				"Fountain": 1,
 				"Steps": 11,
 				"Fairy ring": 1
@@ -48366,6 +49242,10 @@
 				"Suspicious outsider": 1,
 				"Jail guard": 5
 			},
+			"Spawn": {
+				"Cheese": 1,
+				"Tomato": 1
+			},
 			"Connect": {
 				"9541": true,
 				"12438": true
@@ -48391,10 +49271,6 @@
 				"Food larder": 1,
 				"Closed chest": 1,
 				"Dead tree": 5,
-				"Draynor Manor": 1,
-				"Lumbridge": 1,
-				"Draynor Village, Wizards' Tower": 1,
-				"Falador, Port Sarim, Clan Camp": 1,
 				"Death's Hourglass": 1,
 				"Brazier": 3,
 				"Stile": 3,
@@ -49047,7 +49923,7 @@
 			"Object": {
 				"Spinning wheel": 3,
 				"Loom": 1,
-				"Range": 3,
+				"Cooking range+": 3,
 				"Shifting tombs": 1,
 				"Anvil": 2,
 				"Forge": 1
@@ -49105,7 +49981,7 @@
 			"Object": {
 				"Pottery oven": 1,
 				"Pottery wheel": 2,
-				"Range": 8,
+				"Cooking range+": 8,
 				"Well": 1,
 				"Fountain": 1,
 				"Acadia tree": 2,
@@ -49155,7 +50031,7 @@
 		},
 		"12588": {
 			"Object": {
-				"Range": 2
+				"Cooking range+": 2
 			},
 			"Monster": {
 				"Crimson skillchompa": 14
@@ -49355,7 +50231,7 @@
 			"Object": {
 				"Cupboard": 1,
 				"Closed chest": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Oak": 3,
 				"Tree": 27,
 				"Varrock": 1,
@@ -49411,7 +50287,7 @@
 				"Shelves": 2,
 				"Study desk": 1,
 				"Closed chest": 3,
-				"Range": 5,
+				"Cooking range+": 5,
 				"Piano": 1,
 				"Doogle bush": 1,
 				"Oak": 6,
@@ -49836,7 +50712,7 @@
 			"Object": {
 				"Crate": 14,
 				"Chest": 4,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Book": 1
 			},
 			"NPC": {
@@ -49905,7 +50781,7 @@
 			"Object": {
 				"Sink": 1,
 				"Loom": 2,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Fishing spot (menaphos)": 2
 			},
 			"NPC": {
@@ -49944,7 +50820,7 @@
 				"Lamp stall": 1,
 				"Silk stall": 1,
 				"Obelisk": 1,
-				"Range": 6,
+				"Cooking range+": 6,
 				"Fountain": 3,
 				"Bank booth": 6,
 				"Bank deposit box": 1,
@@ -50104,7 +50980,7 @@
 				"Tools": 1,
 				"Bookcase": 3,
 				"Drawers": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Catacombs": 1,
 				"Purification bowl (chaos)": 4,
 				"Purification bowl (battle)": 4,
@@ -50341,7 +51217,7 @@
 				"Plaque": 1,
 				"Dying tree": 3,
 				"Bookcase": 3,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Drawers": 4,
 				"Spinning wheel": 1,
 				"Willow": 2,
@@ -50413,7 +51289,7 @@
 				"Dying tree": 6,
 				"Combat Scroll": 1,
 				"Fountain": 5,
-				"Range": 4,
+				"Cooking range+": 4,
 				"Drawers": 2,
 				"Map": 9,
 				"Information booth": 1,
@@ -51281,7 +52157,7 @@
 				"Shelves": 3,
 				"Bank booth": 5,
 				"Furnace": 2,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Water trough": 1,
 				"Carved fountain": 1
 			},
@@ -51350,7 +52226,7 @@
 				"Varrock": 1,
 				"Al Kharid, Shantay Pass": 1,
 				"Lumbridge": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Boxes": 2,
 				"Scoreboard": 1
 			},
@@ -51534,7 +52410,7 @@
 				"Crate": 28,
 				"Bookcase": 3,
 				"Dying tree": 7,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Drawers": 2,
 				"Fence": 1,
 				"Oak": 13,
@@ -51656,7 +52532,7 @@
 			"Object": {
 				"Chest": 4,
 				"Small obelisk": 1,
-				"Range": 1
+				"Cooking range+": 1
 			},
 			"NPC": {
 				"Mysterious ghost": 1,
@@ -52032,7 +52908,7 @@
 		},
 		"13212": {
 			"Object": {
-				"Range": 1,
+				"Cooking range+": 1,
 				"Keypad": 1,
 				"Human detection spell": 9,
 				"Fire trap": 3,
@@ -52859,7 +53735,7 @@
 				"Cave": 1,
 				"Altar": 1,
 				"Statue of Saint Elspeth": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Sink": 1,
 				"Crate": 1,
 				"Footlocker": 12,
@@ -54836,7 +55712,7 @@
 			"Object": {
 				"Chest": 6,
 				"Lever": 1,
-				"Range": 1
+				"Cooking range+": 1
 			},
 			"Monster": {
 				"Vyrewatch": 9,
@@ -55153,7 +56029,7 @@
 				"Hopper controls": 1,
 				"Shelves": 2,
 				"Study desk": 1,
-				"Range": 5,
+				"Cooking range+": 5,
 				"Piano": 1,
 				"Doogle bush": 1,
 				"Tree": 1,
@@ -55587,7 +56463,7 @@
 				"Shelf": 2,
 				"Plaque": 1,
 				"Bookcase": 3,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Tree": 2,
 				"Dead tree": 16,
 				"Chaos altar": 1
@@ -55621,7 +56497,7 @@
 				"Cadava bush": 1,
 				"Shelf": 10,
 				"Combat Scroll": 1,
-				"Range": 4,
+				"Cooking range+": 4,
 				"Dead tree": 16,
 				"Moving egg": 1,
 				"Altar slab": 1,
@@ -55886,7 +56762,7 @@
 				"Closed chest": 2,
 				"Tree": 69,
 				"Sink": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Bank booth": 1,
 				"Calendar": 1,
 				"Altar": 1,
@@ -56172,7 +57048,7 @@
 				"Dead tree": 54,
 				"Bookcase": 3,
 				"Dying tree": 7,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Drawers": 2
 			},
 			"Name": "New Varrock"
@@ -58705,7 +59581,7 @@
 				"Gangplank": 2,
 				"Mysterious ruins": 1,
 				"Sand pit": 1,
-				"Range": 3,
+				"Cooking range+": 3,
 				"Candles": 1,
 				"Bookcase": 3,
 				"Willow": 15,
@@ -59327,7 +60203,7 @@
 				"Web": 3,
 				"Oak": 1,
 				"Torch": 54,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Closed chest": 1,
 				"Tree": 2,
 				"Bank deposit box": 1,
@@ -59359,7 +60235,7 @@
 				"Altar": 1,
 				"Bloodwood tree": 1,
 				"Roses": 8,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Crate": 3,
 				"Crates": 2,
 				"Bookcase": 5,
@@ -63185,7 +64061,7 @@
 				"Crate": 6,
 				"Fountain": 1,
 				"Furnace": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Bank booth": 1,
 				"Jars": 1,
 				"Hammocks": 1,
@@ -64208,7 +65084,7 @@
 				"Chest": 23,
 				"Bank booth": 6,
 				"Fountain": 4,
-                "Range": 2,
+                "Cooking range+": 2,
                 "Sink": 2,
                 "Tri-Anvil": 1,
                 "Sandpit": 1,
@@ -64988,7 +65864,7 @@
 				"Dying tree": 9,
 				"Closed chest": 7,
 				"Fountain": 5,
-				"Range": 7,
+				"Cooking range+": 7,
 				"Drawers": 13,
 				"Oak": 14,
 				"Tree": 85,
@@ -66478,7 +67354,7 @@
 		},
 		"Xmas 2011": {
 			"Object": {
-				"Range": 4,
+				"Cooking range+": 4,
 				"Barrel": 4,
 				"Cauldron": 4,
 				"Pot": 16,
@@ -66706,7 +67582,7 @@
 				"Sink": 1,
 				"Fountain": 1,
 				"Ropeswing": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Fire": 2,
 				"Lever": 1,
 				"Bush": 5,
@@ -67275,7 +68151,7 @@
 		},
 		"Movario's base": {
 			"Object": {
-				"Range": 1,
+				"Cooking range+": 1,
 				"Painting": 1,
 				"Bookcase": 8,
 				"Pile of weights": 1,
@@ -67296,7 +68172,7 @@
 				"Open chest": 1,
 				"Sink": 1,
 				"Fountain": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Tall Reeds": 4,
 				"Trellis top": 2,
 				"Trellis": 2
@@ -68300,7 +69176,7 @@
 				"Potato": 86,
 				"Closed chest": 3,
 				"Cabbage": 38,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
@@ -68598,7 +69474,7 @@
 			"Object": {
 				"Chest": 7,
 				"Small obelisk": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Crate": 28,
 				"Altar": 3,
 				"Sack": 20,
@@ -69465,7 +70341,7 @@
 			"Object": {
 				"Crate": 14,
 				"Chest": 4,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Book": 1
 			},
 			"NPC": {
@@ -70186,7 +71062,7 @@
 		"Chaos Temple Dungeon": {
 			"Object": {
 				"Balcony": 6,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Keypad": 1,
 				"Human detection spell": 9,
 				"Fire trap": 3,
@@ -71026,7 +71902,7 @@
 				"Hopper controls": 1,
 				"Shelves": 2,
 				"Study desk": 1,
-				"Range": 13,
+				"Cooking range+": 13,
 				"Piano": 1,
 				"Doogle bush": 1,
 				"Tree": 5,
@@ -71617,7 +72493,7 @@
 				"Drawers": 14,
 				"Workshop Plan": 2,
 				"Oak": 1,
-				"Range": 2,
+				"Cooking range+": 2,
 				"Closed chest": 3,
 				"Tree": 2,
 				"Anvil": 4,
@@ -71703,7 +72579,7 @@
 				"Tree": 93,
 				"Closed chest": 2,
 				"Sink": 1,
-				"Range": 1,
+				"Cooking range+": 1,
 				"Bank booth": 1,
 				"Calendar": 1,
 				"Altar": 1,
@@ -72329,7 +73205,12 @@
 			"CurryLeaf+": ["Curry leaf", "Spice"],
 			"PineappleRing+": ["Pineapple ring", "Pineapple chunks"],
 			"PrimalFruit+": ["Golden dragonfruit", "Carambola", "Lychee", "Guarana", "Mango", "Ciku", "Avocado", "Dragonfruit"],
-			"ArcMushrooms+": ["Corpsebloom", "Immorel", "Snufftruffle", "Wushroom", "Lactarius", "Paraspore", "Purple bellow", "Arc puffball", "Blushroom", "Honeyfungus", "Inky cap", "Sporcini", "Buttercap", "Toadstool", "Russala", "Summertwirl"]
+			"ArcMushrooms+": ["Corpsebloom", "Immorel", "Snufftruffle", "Wushroom", "Lactarius", "Paraspore", "Purple bellow", "Arc puffball", "Blushroom", "Honeyfungus", "Inky cap", "Sporcini", "Buttercap", "Toadstool", "Russala", "Summertwirl"],
+			"StormShards+": ["Mazcab ability codex", "Storm Shards and Shatter Ability Codex"],
+			"Onslaught+": ["Mazcab ability codex", "Onslaught Ability Codex"],
+			"Torva+": ["Torva full helm", "Torva platebody", "Torva platelegs", "Torva gloves", "Torva boots"],
+			"Pernix+": ["Pernix cowl", "Pernix body", "Pernix chaps", "Pernix gloves", "Pernix boots"],
+			"Virtus+": ["Virtus mask", "Virtus robe top", "Virtus robe legs", "Virtus gloves", "Virtus boots"]
 		},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -72351,8 +73232,9 @@
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"],
 			"WaterObject+": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough"],
 			"CurePatch+": ["Allotment patch", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
-			"Fire+": ["Fire", "Fireplace"],
-			"Range+": ["Fire", "Range", "Fireplace"]
+			"Fire+": ["Fire", "Fireplace", "Player fire", "Campfire"],
+			"Cooking object+": ["Fire", "Cooking range", "Cooking range+", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire"],
+			"Cooking range+": ["Cooking range", "Cooking range+", "Stove", "Clay oven"]
 		},
 		"monstersPlus": {
 			"Guard+": ["Guard", "Guard (Varrock)"],
