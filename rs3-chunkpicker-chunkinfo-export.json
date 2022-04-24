@@ -923,6 +923,24 @@
 					"Magic": 80
 				},
 				"Priority": 15
+			},
+			"Wield an ~|attuned crystal weapon|~": {
+				"Items": ["AttunedCrystalWeapon+"],
+				"Level": 50,
+				"Skills": {
+					"Attack": 80
+				},
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wield a ~|crystal weapon|~": {
+				"Items": ["CrystalWeapon+"],
+				"Level": 50,
+				"Skills": {
+					"Attack": 70
+				},
+				"Primary": false,
+				"Priority": 17
 			}
 		},
 		"Archaeology": {
@@ -984,39 +1002,476 @@
 			}
 		},
 		"Attack": {
-			"Equip ~|void knight equipment|~": {
-				"Items": ["Voidequipment+"],
-				"Level": 42,
+			"Wield a ~|bronze weapon|~": {
+				"Items": ["BronzeWeapon+"],
+				"Level": 1,
 				"Primary": false,
+				"Priority": 1
+			},
+			"Wield ~|Reese's sword|~": {
+				"Items": ["Reese's sword"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield ~|Reese's off-hand sword|~": {
+				"Items": ["Reese's off-hand sword"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield the ~|Silverlight|~": {
+				"Items": ["Silverlight"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield the ~|Wolfbane|~": {
+				"Items": ["Wolfbane"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield the ~|Darklight|~": {
+				"Items": ["Darklight"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|Fremennik blade|~": {
+				"Items": ["Fremennik blade"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|dark dagger|~": {
+				"Items": ["Dark dagger"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield the ~|shadow sword|~": {
+				"Items": ["Shadow sword"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|bone weapon|~": {
+				"Items": ["BoneWeapon+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield a ~|mjolnir|~": {
+				"Items": ["Mjolnir+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield the ~|Gadderhammer|~": {
+				"Items": ["Gadderhammer"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wield a ~|blessed hatchet|~": {
+				"Items": ["Blessed hatchet"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wield a ~|pogo stick|~": {
+				"Items": ["Pogo stick"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wear a ~|bladestorm drape|~": {
+				"Items": ["Bladestorm drape"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wield a ~|bronze defender|~": {
+				"Items": ["Bronze defender"],
+				"Level": 1,
 				"Skills": {
-					"Strength": 42,
+					"Defence": 1
+				},
+				"Primary": false,
+				"Priority": 19
+			},
+			"Wield a ~|wooden spoon|~": {
+				"Items": ["Wooden spoon"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Wield a ~|egg whisk|~": {
+				"Items": ["Egg whisk"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 21
+			},
+			"Wield a ~|keenblade|~": {
+				"Items": ["Keenblade"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|basic decorative sword|~": {
+				"Items": ["Basic decorative sword"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|ogre club|~": {
+				"Items": ["Ogre club"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|raider axe|~": {
+				"Items": ["Raider axe"],
+				"Level": 8,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|iron weapon|~": {
+				"Items": ["IronWeapon+"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|iron defender|~": {
+				"Items": ["Iron defender"],
+				"Level": 10,
+				"Skills": {
+					"Defence": 10
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield ~|Uraeus|~": {
+				"Items": ["Uraeus"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|blurite weapon|~": {
+				"Items": ["BluriteWeapon+"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|spork|~": {
+				"Items": ["Spork"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|spatula|~": {
+				"Items": ["Spatula"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|oak blackjack (o)|~": {
+				"Items": ["Oak blackjack (o)"],
+				"Level": 10,
+				"Skills": {
+					"Thieving": 10
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield an ~|ancient mace|~": {
+				"Items": ["Ancient mace"],
+				"Level": 15,
+				"Skills": {
+					"Prayer": 25
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|steel weapon|~": {
+				"Items": ["SteelWeapon+"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|steel defender|~": {
+				"Items": ["Steel defender"],
+				"Level": 20,
+				"Skills": {
+					"Defence": 20
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|detailed decorative sword|~": {
+				"Items": ["Detailed decorative sword"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a corrupt ~|Ancient Warriors|~ weapon": {
+				"Items": ["CorruptWeapon+"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield ~|Harry's cutlass|~": {
+				"Items": ["Harry's cutlass"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|frying pan|~": {
+				"Items": ["Frying pan"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield an ~|willow blackjack (o)|~": {
+				"Items": ["Willow blackjack (o)"],
+				"Level": 20,
+				"Skills": {
+					"Thieving": 20
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|black cane|~": {
+				"Items": ["Black cane"],
+				"Level": 23,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|black weapon|~": {
+				"Items": ["BlackWeapon+"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|white weapon|~": {
+				"Items": ["WhiteWeapon+"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|black defender|~": {
+				"Items": ["Black defender"],
+				"Level": 25,
+				"Skills": {
+					"Defence": 25
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|mithril weapon|~": {
+				"Items": ["MithrilWeapon+"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|mithril defender|~": {
+				"Items": ["Mithril defender"],
+				"Level": 30,
+				"Skills": {
+					"Defence": 30
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear the ~|brawler's jab necklace|~": {
+				"Items": ["Brawler's jab necklace"],
+				"Level": 30,
+				"Skills": {
+					"Dungeoneering": 30
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|intricate decorative sword|~": {
+				"Items": ["Intricate decorative sword"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield the ~|Excalibur|~": {
+				"Items": ["Excalibur"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|lucky cutlass|~": {
+				"Items": ["Lucky cutlass"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|skewer|~": {
+				"Items": ["Skewer"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield an ~|maple blackjack (o)|~": {
+				"Items": ["Maple blackjack (o)"],
+				"Level": 30,
+				"Skills": {
+					"Thieving": 30
+				},
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield an ~|adamant cane|~": {
+				"Items": ["Adamant cane"],
+				"Level": 38,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|adamant weapon|~": {
+				"Items": ["AdamantWeapon+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|adamant defender|~": {
+				"Items": ["Adamant defender"],
+				"Level": 40,
+				"Skills": {
+					"Defence": 40
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|profound decorative sword|~": {
+				"Items": ["Profound decorative sword"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|brine sabre|~": {
+				"Items": ["Brine sabre"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|animal staff|~": {
+				"Items": ["AnimalStaff+"],
+				"Level": 40,
+				"Skills": {
+					"Magic": 40,
+					"Prayer": 60,
+					"Defence": 20
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|rapier|~": {
+				"Items": ["Rapier"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|rolling pin|~": {
+				"Items": ["Rolling pin"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|kitchen knife|~": {
+				"Items": ["Kitchen knife"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|meat tenderiser|~": {
+				"Items": ["Meat tenderiser"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|cleaver|~": {
+				"Items": ["Cleaver"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|Void Knight equipment|~": {
+				"Chunks": ["10537"],
+				"Level": 42,
+				"Skills": {
+					"Magic": 42,
+					"Ranged": 42,
 					"Constitution": 42,
 					"Defence": 42,
-					"Magic": 42,
-					"Prayer": 22,
-					"Ranged": 42
+					"Strength": 42,
+					"Prayer": 22
 				},
-				"Priority": 1
-			},
-			"Wield ~|Korasi's sword|~": {
-				"Items": ["Korasi's sword"],
-				"Level": 75,
 				"Primary": false,
 				"Priority": 1
 			},
-			"Wield ~|Jessika's sword|~": {
-				"Items": ["Jessika's sword"],
-				"Level": 75,
+			"Wield a ~|rune cane|~": {
+				"Items": ["Rune cane"],
+				"Level": 48,
 				"Primary": false,
 				"Priority": 1
 			},
-			"Wield the ~|Barrelchest anchor|~": {
-				"Items": ["Barrelchest anchor"],
-				"Level": 60,
+			"Wield a ~|rune weapon|~": {
+				"Items": ["RuneWeapon+"],
+				"Level": 50,
 				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|rune defender|~": {
+				"Items": ["Rune defender"],
+				"Level": 50,
 				"Skills": {
-					"Strength": 40
+					"Defence": 50
 				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear the ~|brawler's hook necklace|~": {
+				"Items": ["Brawler's hook necklace"],
+				"Level": 50,
+				"Skills": {
+					"Dungeoneering": 50
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|leaf-bladed weapon|~": {
+				"Items": ["LeafWeapon+"],
+				"Level": 50,
+				"Skills": {
+					"Slayer": 55
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield the ~|Keris|~": {
+				"Items": ["Keris"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|sacred clay scimitar|~": {
+				"Items": ["Sacred clay scimitar"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|gravite weapon|~": {
+				"Items": ["GraviteWeapon+"],
+				"Level": 55,
+				"Skills": {
+					"Dungeoneering": 45
+				},
+				"Primary": false,
 				"Priority": 1
 			},
 			"Wield a ~|granite maul|~": {
@@ -1037,89 +1492,516 @@
 				},
 				"Priority": 2
 			},
-			"Wield a ~|TzHaar-Ket-Em|~": {
-				"Items": ["TzHaar-Ket-Em"],
+			"Wield a ~|gud raider axe|~": {
+				"Items": ["Gud raider axe"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|corrupt dragon weapon|~": {
+				"Items": ["CorruptDragonWeapon+"],
 				"Level": 60,
 				"Primary": false,
-				"Skills": {
-					"Strength": 60
-				},
 				"Priority": 1
 			},
-			"Wield ~|Torag's hammers|~": {
-				"Items": ["Torag's hammer"],
-				"Level": 70,
+			"Wield a ~|dragon weapon|~": {
+				"Items": ["DragonWeapon+"],
+				"Level": 60,
 				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|orikalkum weapon|~": {
+				"Items": ["OrikalkumWeapon+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|dragon defender|~": {
+				"Items": ["Dragon defender"],
+				"Level": 60,
 				"Skills": {
-					"Strength": 70
+					"Defence": 60
 				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield the ~|barrelchest anchor|~": {
+				"Items": ["Barrelchest anchor"],
+				"Level": 60,
+				"Skills": {
+					"Strength": 40
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield an ~|obsidian weapon|~": {
+				"Items": ["ObsidianWeapon+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|brackish blade|~": {
+				"Items": ["Brackish blade"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|superior ancient mace|~": {
+				"Items": ["Superior ancient mace"],
+				"Level": 60,
+				"Skills": {
+					"Prayer": 60
+				},
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear the ~|ring of vigour|~": {
+				"Items": ["Ring of vigour"],
+				"Level": 62,
+				"Skills": {
+					"Dungeoneering": 62
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Unlock the ~|Bladed Dive|~ ability": {
+				"Chunks": ["12593"],
+				"Level": 65,
+				"Primary": false,
 				"Priority": 1
 			},
 			"Wield ~|Dharok's greataxe|~": {
 				"Items": ["Dharok's greataxe"],
 				"Level": 70,
-				"Primary": false,
 				"Skills": {
 					"Strength": 70
 				},
-				"Priority": 2
-			},
-			"Wield a ~|leaf-bladed spear|~": {
-				"Items": ["Leaf-bladed spear"],
-				"Level": 50,
 				"Primary": false,
-				"Priority": 1,
-				"Skills": {
-					"Slayer": 55
-				}
-			},
-			"Wield a ~|leaf-bladed sword|~": {
-				"Items": ["Leaf-bladed sword"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 2,
-				"Skills": {
-					"Slayer": 55
-				}
-			},
-			"Wield a ~|off-hand leaf-bladed sword|~": {
-				"Items": ["Off-hand leaf-bladed sword"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 3,
-				"Skills": {
-					"Slayer": 55
-				}
-			},
-			"Wield an ~|ancient mace|~": {
-				"Items": ["Ancient mace"],
-				"Level": 15,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 25
-				},
 				"Priority": 1
 			},
-			"Wield an ~|animal staff|~": {
-				"Items": ["AnimalStaff+"],
-				"Level": 40,
-				"Primary": false,
+			"Wield ~|Torag's hammer|~": {
+				"Items": ["Torag's hammer"],
+				"Level": 70,
 				"Skills": {
-					"Prayer": 60,
-					"Defence": 20,
-					"Magic": 40
+					"Strength": 70
 				},
-				"priority": 1
+				"Primary": false,
+				"Priority": 2
 			},
 			"Wield ~|Akrisae's war mace|~": {
 				"Items": ["Akrisae's war mace"],
 				"Level": 70,
-				"Primary": false,
 				"Skills": {
-					"Prayer": 70,
-					"Magic": 70
+					"Magic": 70,
+					"Prayer": 70
 				},
+				"Primary": false,
 				"Priority": 3
+			},
+			"Wield ~|Verac's flail|~": {
+				"Items": ["Verac's flail"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield ~|Guthan's warspear|~": {
+				"Items": ["Guthan's warspear"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|necronium weapon|~": {
+				"Items": ["NecroniumWeapon+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|corrupted defender|~": {
+				"Items": ["Corrupted defender"],
+				"Level": 70,
+				"Skills": {
+					"Defence": 70
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield an ~|abyssal whip|~": {
+				"Items": ["Abyssal whip"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|blisterwood weapon|~": {
+				"Items": ["BlisterwoodWeapon+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|crystal weapon|~": {
+				"Items": ["CrystalWeapon+"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 50
+				},
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield the ~|Kyzaj|~": {
+				"Items": ["Kyzaj+"],
+				"Level": 70,
+				"Skills": {
+					"Strength": 70
+				},
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|superior dragon weapon|~": {
+				"Items": ["SuperiorDragonWeapon+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield ~|Thalassia's Revenge|~": {
+				"Items": ["Thalassia's Revenge"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wield a ~|Saradomin sword|~": {
+				"Items": ["Saradomin sword"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|Zamorakian spear|~": {
+				"Items": ["Zamorakian spear"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield any ~|Godsword|~ from the God Wars Dungeon": {
+				"Items": ["Godsword+"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield an ~|abyssal vine whip|~": {
+				"Items": ["Abyssal vine whip"],
+				"Level": 75,
+				"Skills": {
+					"Slayer": 80
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Unlock the ~|Blood Tendrils|~ ability": {
+				"Items": ["Codex Ultimatus"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|superior kyzaj|~": {
+				"Items": ["SuperiorKyzaj+"],
+				"Level": 75,
+				"Skills": {
+					"Strength": 75
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield ~|Balmung|~": {
+				"Items": ["Balmung"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield the ~|Vanquish (melee)|~": {
+				"Items": ["Vanquish (melee)"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield the ~|sunspear|~": {
+				"Items": ["Sunspear"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield ~|Korasi's sword|~": {
+				"Items": ["Korasi's sword"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield ~|Jessika's sword|~": {
+				"Items": ["Jessika's sword"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield one of the ~|Ancient Warriors weapons|~": {
+				"Items": ["AncientWarriorWeapon+"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield ~|Sunspear (melee)|~": {
+				"Items": ["Sunspear (melee)"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|bane weapon|~": {
+				"Items": ["BaneWeapon+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|chaotic weapon|~": {
+				"Items": ["ChaoticWeapon+"],
+				"Level": 80,
+				"Skills": {
+					"Dungeoneering": 80
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear ~|goliath gloves|~": {
+				"Items": ["Goliath gloves"],
+				"Level": 80,
+				"Skills": {
+					"Defence": 80
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear the ~|brawler's knockout necklace|~": {
+				"Items": ["Brawler's knockout necklace"],
+				"Level": 80,
+				"Skills": {
+					"Dungeoneering": 70
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|attuned crystal weapon|~": {
+				"Items": ["AttunedCrystalWeapon+"],
+				"Level": 80,
+				"Skills": {
+					"Agility": 50
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield an ~|ancient defender|~": {
+				"Items": ["Ancient defender"],
+				"Level": 80,
+				"Skills": {
+					"Defence": 80
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield ~|Swordy McSwordFace|~": {
+				"Items": ["Swordy McSwordFace"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|Second-Age sword|~": {
+				"Items": ["Second-Age sword"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield ~|Linza's hammer|~": {
+				"Items": ["Linza's hammer"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield ~|Matusa's warspear|~": {
+				"Items": ["Matusa's warspear"],
+				"Level": 82,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|khopesh of the Kharidian|~": {
+				"Items": ["KharidianKhopesh+"],
+				"Level": 82,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield ~|Laniakea's spear|~": {
+				"Items": ["Laniakea's spear"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Unlock the ~|Balanced Strike|~ ability": {
+				"Chunks": ["Guthixian ruins"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|tetsu katana|~": {
+				"Items": ["Tetsu katana"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|tetsu wakizashi|~": {
+				"Items": ["Tetsu wakizashi"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|lava whip|~": {
+				"Items": ["Lava whip"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|ripper claw|~": {
+				"Items": ["RipperClaw+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|Dragon Rider lance|~": {
+				"Items": ["Dragon Rider lance"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|fury blade|~": {
+				"Items": ["FuryBlade+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield the ~|mizuyari|~": {
+				"Items": ["Mizuyari"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|Dark ice|~ weapon": {
+				"Items": ["DarkIce+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield the ~|Annihilation|~": {
+				"Items": ["Annihilation"],
+				"Level": 87,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield one of the superior ~|Ancient Warriors weapons|~": {
+				"Items": ["SuperiorAncientWarriorWeapon+"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|elite tetsu katana|~": {
+				"Items": ["Elite tetsu katana"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield an ~|elite tetsu wakizashi|~": {
+				"Items": ["Elite tetsu wakizashi"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield an ~|elder rune weapon|~": {
+				"Items": ["ElderRuneWeapon+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield the ~|Dominion sword|~": {
+				"Items": ["Dominion sword"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield the ~|Spear of Annihilation|~": {
+				"Items": ["Spear of Annihilation"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|drygore weapon|~": {
+				"Items": ["DrygoreWeapon+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|noxious scythe|~": {
+				"Items": ["Noxious scythe"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|kalphite defender|~": {
+				"Items": ["Kalphite defender"],
+				"Level": 90,
+				"Skills": {
+					"Defence": 90
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield the ~|Zaros godsword|~": {
+				"Items": ["Zaros godsword"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield the ~|khopesh of Tumeken|~": {
+				"Items": ["Khopesh of Tumeken"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield the ~|khopesh of Elidinis|~": {
+				"Items": ["Khopesh of Elidinis"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield the ~|abyssal scourge|~": {
+				"Items": ["Abyssal scourge"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield the ~|Masterwork Spear of Annihilation|~": {
+				"Items": ["Masterwork Spear of Annihilation"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield the ~|Dark Shard of Leng|~": {
+				"Items": ["Dark Shard of Leng"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield the ~|Dark Sliver of Leng|~": {
+				"Items": ["Dark Sliver of Leng"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear the ~|Attack cape|~": {
+				"Items": ["Attack cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Combat": {
@@ -7681,7 +8563,7 @@
 				"Priority": 32
 			},
 			"Craft an ~|opal necklace|~":{
-				"Items": ["Opal","Silver bar"],
+				"Items": ["Opal", "Silver bar"],
 				"Level": 16,
 				"Outputs": "Opal necklace",
 				"Objects": ["Furnace"],
@@ -7783,7 +8665,7 @@
 				"Priority": 2
 			},
 			"String a ~|sapphire amulet|~":{
-				"Items": ["Sapphire amulet (unstrung)","Ball of wool"],
+				"Items": ["Sapphire amulet (unstrung)", "Ball of wool"],
 				"Level": 24,
 				"Outputs": "Sapphire amulet",
 				"Primary": true,
@@ -7822,7 +8704,7 @@
 				"Priority": 3
 			},
 			"String an ~|emerald amulet|~":{
-				"Items": ["Emerald amulet (unstrung)","Ball of wool"],
+				"Items": ["Emerald amulet (unstrung)", "Ball of wool"],
 				"Level": 31,
 				"Outputs": "Emerald amulet",
 				"Primary": true,
@@ -10744,7 +11626,61 @@
 				},
 				"Primary": true,
 				"Priority": 1
-			}
+			},
+			"Wear the ~|brawler's jab necklace|~": {
+				"Items": ["Brawler's jab necklace"],
+				"Level": 30,
+				"Skills": {
+					"Attack": 30
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear the ~|brawler's hook necklace|~": {
+				"Items": ["Brawler's hook necklace"],
+				"Level": 50,
+				"Skills": {
+					"Attack": 50
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|gravite weapon|~": {
+				"Items": ["GraviteWeapon+"],
+				"Level": 45,
+				"Skills": {
+					"Attack": 55
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear the ~|ring of vigour|~": {
+				"Items": ["Ring of vigour"],
+				"Level": 62,
+				"Skills": {
+					"Attack": 62
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|chaotic weapon|~": {
+				"Items": ["ChaoticWeapon+"],
+				"Level": 80,
+				"Skills": {
+					"Attack": 80
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear the ~|brawler's knockout necklace|~": {
+				"Items": ["Brawler's knockout necklace"],
+				"Level": 70,
+				"Skills": {
+					"Attack": 80
+				},
+				"Primary": false,
+				"Priority": 5
+	}
 		},
 		"Farming": {
 			"Unlock the ~|Livid farm|~ spells": {
@@ -16842,7 +17778,7 @@
 			},
 			"Cast ~|Anachronia teleport|~": {
 				"Items": ["Law rune", "Nature rune", "Earth rune+"],
-				"Chunks": ["15936","16453"],
+				"Chunks": ["15936", "16453"],
 				"Level": 72,
 				"Primary": true,
 				"Priority": 4
@@ -19759,6 +20695,15 @@
 				"Output": "TorturedSoul",
 				"Primary": true,
 				"Priority": 53
+			},
+			"Wield a ~|superior ancient mace|~": {
+				"Items": ["Superior ancient mace"],
+				"Level": 60,
+				"Skills": {
+					"Attack": 60
+				},
+				"Primary": false,
+				"Priority": 12
 			}
 		},
 		"Ranged": {
@@ -23595,6 +24540,15 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Abyssal lord"
+			},
+			"Wield an ~|abyssal vine whip|~": {
+				"Items": ["Abyssal vine whip"],
+				"Level": 80,
+				"Skills": {
+					"Attack": 75
+				},
+				"Primary": false,
+				"Priority": 4
 			}
 		},
 		"Smithing": {
@@ -24762,6 +25716,24 @@
 				"Level": 80,
 				"Primary": false,
 				"Priority": 2
+			},
+			"Wield the ~|Kyzaj|~": {
+				"Items": ["Kyzaj+"],
+				"Level": 70,
+				"Skills": {
+					"Attack": 70
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|superior kyzaj|~": {
+				"Items": ["SuperiorKyzaj+"],
+				"Level": 75,
+				"Skills": {
+					"Attack": 75
+				},
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Summoning": {
@@ -27401,6 +28373,33 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 3
+			},			
+			"Wield an ~|oak blackjack (o)|~": {
+				"Items": ["Oak blackjack (o)"],
+				"Level": 10,
+				"Skills": {
+					"Attack": 10
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield an ~|willow blackjack (o)|~": {
+				"Items": ["Willow blackjack (o)"],
+				"Level": 20,
+				"Skills": {
+					"Attack": 20
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield an ~|maple blackjack (o)|~": {
+				"Items": ["Maple blackjack (o)"],
+				"Level": 30,
+				"Skills": {
+					"Attack": 30
+				},
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Woodcutting": {
@@ -28091,6 +29090,22 @@
 			"Take a ~|bucket of water|~": {
 				"Objects": ["Buckets"],
 				"Output": "Bucket of water"
+			},
+			"Create a ~|corrupted defender|~": {
+				"Items": ["BarrowsWeapons+"],
+				"Output": "Corrupted defender"
+			},
+			"Create an ~|ancient defender|~": {
+				"Items": ["Ancient emblem", "Chaotic splint"],
+				"Output": "Ancient defender"
+			},
+			"Create a ~|kalphite defender|~": {
+				"Items": ["DrygoreWeapon+", "Perfect chitin"],
+				"Output": "Kalphite defender"
+			},
+			"Create ~|Laniakea's spear|~": {
+				"Items": ["Savage spear shaft", "Savage spear tip", "Savage spear cap", "Savage plume"],
+				"Output": "Laniakea's spear"
 			}
 		}
 	},
@@ -73210,7 +74225,45 @@
 			"Onslaught+": ["Mazcab ability codex", "Onslaught Ability Codex"],
 			"Torva+": ["Torva full helm", "Torva platebody", "Torva platelegs", "Torva gloves", "Torva boots"],
 			"Pernix+": ["Pernix cowl", "Pernix body", "Pernix chaps", "Pernix gloves", "Pernix boots"],
-			"Virtus+": ["Virtus mask", "Virtus robe top", "Virtus robe legs", "Virtus gloves", "Virtus boots"]
+			"Virtus+": ["Virtus mask", "Virtus robe top", "Virtus robe legs", "Virtus gloves", "Virtus boots"],
+			"BronzeWeapon+": ["Bronze battleaxe", "Bronze claws", "Bronze dagger", "Bronze hasta", "Bronze hatchet", "Bronze longsword", "Bronze mace", "Bronze pickaxe", "Bronze scimitar", "Bronze sword", "Bronze warhammer", "Bronze off hand battleaxe", "Bronze off hand dagger", "Bronze off hand claws", "Bronze off hand longsword", "Bronze off hand mace", "Bronze off hand scimitar", "Bronze off hand sword", "Bronze off hand warhammer", "Bronze 2h sword", "Bronze halberd", "Bronze spear"],
+			"BoneWeapon+": ["Bone dagger", "Bone spear", "Bone club"],
+			"Mjolnir+": ["Saradomin mjolnir", "Guthix mjolnir", "Zamorak mjolnir"],
+			"BluriteWeapon+": ["Blurite sword", "Off-hand blurite sword"],
+			"CorruptWeapon+": ["Corrupt Statius's warhammer", "Corrupt Vesta's longsword", "Corrupt Vesta's spear"],
+			"AncientWarriorWeapon+": ["Statius's warhammer", "Vesta's longsword", "Vesta's spear"],
+			"SuperiorAncientWarriorWeapon+": ["Superior Statius's warhammer", "Superior Vesta's longsword", "Superior Vesta's spear"],
+			"LeafWeapon+": ["Leaf-bladed spear", "Leaf-bladed sword", "off-hand leaf-bladed sword"],
+			"GraviteWeapon+": ["Gravite rapier", "Off-hand gravite rapier", "Gravite longsword", "Off-hand gravite longsword", "Gravite 2h sword"],
+			"GraniteWeapon+": ["Granite mace", "Granite maul"],
+			"BarrowsWeapon+": ["Dharok's greataxe", "Guthan's warspear", "Torag's hammer", "Verac's flail"],
+			"CorruptDragonWeapon+": ["Corrupt dragon battleaxe", "Corrupt dragon dagger", "Corrupt dragon longsword", "Corrupt dragon mace", "Corrupt dragon scimitar", "Corrupt dragon spear"],
+			"DragonWeapon+": ["Dragon battleaxe", "Dragon claw", "Dragon dagger", "Dragon hasta", "Dragon hatchet", "Dragon longsword", "Dragon mace", "Dragon scimitar", "Dragon warhammer", "Off-hand dragon battleaxe", "Off-hand dragon claw", "Off-hand dragon dagger", "Off-hand dragon longsword", "Off-hand dragon mace", "Off-hand dragon scimitar", "Off-hand dragon warhammer", "Dragon 2h sword", "Dragon halberd", "Dragon spear"],
+			"SuperiorDragonWeapon+": ["Superior dragon claw", "Superior dragon dagger", "Superior dragon longsword", "Superior dragon mace", "Superior dragon scimitar", "Superior off-hand dragon claw", "Superior off-hand dragon dagger", "Superior off-hand dragon longsword", "Superior off-hand dragon mace", "Superior off-hand dragon scimitar"],
+			"ObsidianWeapon+": ["Toktz-xil-ak", "TzHaar-Ket-Em", "Totz-xil-ek"],
+			"BlisterwoodWeapon+": ["Blisterwood polearm", "Blisterwood sickle", "Off-hand blisterwood sickle"],
+			"CrystalWeapon+": ["Crystal dagger", "Crystal halberd", "Crystal hatchet", "Off-hand crystal dagger"],
+			"AttunedCrystalWeapon+": ["Attuned crystal dagger", "Attuned crystal halberd", "Off-hand attuned crystal dagger"],
+			"RipperClaw+": ["Ripper claw", "Off-hand ripper claw"],
+			"FuryBlade+": ["Blade of Avaryss", "Blade of Nymora"],
+			"DarkIce+": ["Dark ice shard", "Dark ice sliver"],
+			"KharidianKhopesh+": ["Khopesh of the Kharidian", "Off-hand khopesh of the Kharidian"],
+			"Kyzaj+": ["Kyzaj", "Honourable kyzaj", "Bloodied kyzaj"],
+			"SuperiorKyzaj+": ["Superior honourable kyzaj", "Superior bloodied kyzaj"],
+			"Godsword+": ["Armadyl godsword", "Bandos godsword", "Saradomin godsword", "Zamorak godsword"],
+			"ChaoticWeapon+": ["Chaotic rapier", "Off-hand chaotic rapier", "Chaotic longsword", "Off-hand chaotic longsword", "Chaotic claw", "Off-hand chaotic claw", "Chaotic maul", "Chaotic spear"],
+			"DrygoreWeapon+": ["Drygore longsword", "Off-hand drygore longsword", "Drygore mace", "Off-hand drygore mace", "Drygore rapier", "Off-hand drygore rapier"],
+			"IronWeapon+": ["Iron battleaxe", "Iron claws", "Iron dagger", "Iron hasta", "Iron hatchet", "Iron longsword", "Iron mace", "Iron scimitar", "Iron sword", "Iron warhammer", "Iron off hand battleaxe", "Iron off hand dagger", "Iron off hand claws", "Iron off hand longsword", "Iron off hand mace", "Iron off hand scimitar", "Iron off hand sword", "Iron off hand warhammer", "Iron 2h sword", "Iron halberd", "Iron spear", "Iron battleaxe + 1", "Iron claws + 1", "Iron dagger + 1", "Iron longsword + 1", "Iron mace", "Iron scimitar + 1", "Iron sword + 1", "Iron warhammer + 1", "Iron off hand battleaxe + 1", "Iron off hand dagger + 1", "Iron off hand claws + 1", "Iron off hand longsword + 1", "Iron off hand mace + 1", "Iron off hand scimitar + 1", "Iron off hand sword + 1", "Iron off hand warhammer + 1", "Iron 2h sword + 1"],
+			"SteelWeapon+": ["Steel battleaxe", "Steel claws", "Steel dagger", "Steel hasta", "Steel hatchet", "Steel longsword", "Steel mace", "Steel scimitar", "Steel sword", "Steel warhammer", "Steel off hand battleaxe", "Steel off hand dagger", "Steel off hand claws", "Steel off hand longsword", "Steel off hand mace", "Steel off hand scimitar", "Steel off hand sword", "Steel off hand warhammer", "Steel 2h sword", "Steel halberd", "Steel spear", "Steel battleaxe + 1", "Steel claws + 1", "Steel dagger + 1", "Steel longsword + 1", "Steel mace + 1", "Steel scimitar + 1", "Steel sword + 1", "Steel warhammer + 1", "Steel off hand battleaxe + 1", "Steel off hand dagger + 1", "Steel off hand claws + 1", "Steel off hand longsword + 1", "Steel off hand mace + 1", "Steel off hand scimitar + 1", "Steel off hand sword + 1", "Steel off hand warhammer + 1", "Steel 2h sword + 1"],
+			"WhiteWeapon+": ["White battleaxe", "White claw", "White dagger", "White longsword", "White mace", "White scimitar", "White sword", "White warhammer", "Off-hand white claw", "White 2h sword", "White halberd"],
+			"BlackWeapon+": ["Black battleaxe", "Black claw", "Black dagger", "Black hatchet", "Black longsword", "Black mace", "Steel scimitar", "Black sword", "Black warhammer", "Off-hand black battleaxe", "Off-hand black dagger", "Off-hand black claw", "Off-hand black longsword", "Off-hand black mace", "Off-hand black scimitar", "Off-hand black sword", "Off-hand black warhammer", "Black 2h sword", "Black halberd", "Black spear"],
+			"MithrilWeapon+": ["Mithril battleaxe", "Mithril claws", "Mithril dagger", "Mithril hasta", "Mithril hatchet", "Mithril longsword", "Mithril mace", "Mithril scimitar", "Mithril sword", "Mithril warhammer", "Mithril off hand battleaxe", "Mithril off hand dagger", "Mithril off hand claws", "Mithril off hand longsword", "Mithril off hand mace", "Mithril off hand scimitar", "Mithril off hand sword", "Mithril off hand warhammer", "Mithril 2h sword", "Mithril halberd", "Mithril spear", "Mithril battleaxe + 1", "Mithril claws + 1", "Mithril dagger + 1", "Mithril longsword + 1", "Mithril mace + 1", "Mithril scimitar + 1", "Mithril sword + 1", "Mithril warhammer + 1", "Mithril off hand battleaxe + 1", "Mithril off hand dagger + 1", "Mithril off hand claws + 1", "Mithril off hand longsword + 1", "Mithril off hand mace + 1", "Mithril off hand scimitar + 1", "Mithril off hand sword + 1", "Mithril off hand warhammer + 1", "Mithril 2h sword + 1", "Mithril battleaxe + 2", "Mithril claws + 2", "Mithril dagger + 2", "Mithril longsword + 2", "Mithril mace + 2", "Mithril scimitar + 2", "Mithril sword + 2", "Mithril warhammer + 2", "Mithril off hand battleaxe + 2", "Mithril off hand dagger + 2", "Mithril off hand claws + 2", "Mithril off hand longsword + 2", "Mithril off hand mace + 2", "Mithril off hand scimitar + 2", "Mithril off hand sword + 2", "Mithril off hand warhammer + 2", "Mithril 2h sword + 2"],
+			"AdamantWeapon+": ["Adamant battleaxe", "Adamant claws", "Adamant dagger", "Adamant hasta", "Adamant hatchet", "Adamant longsword", "Adamant mace", "Adamant scimitar", "Adamant sword", "Adamant warhammer", "Adamant off hand battleaxe", "Adamant off hand dagger", "Adamant off hand claws", "Adamant off hand longsword", "Adamant off hand mace", "Adamant off hand scimitar", "Adamant off hand sword", "Adamant off hand warhammer", "Adamant 2h sword", "Adamant halberd", "Adamant spear", "Adamant battleaxe + 1", "Adamant claws + 1", "Adamant dagger + 1", "Adamant longsword + 1", "Adamant mace + 1", "Adamant scimitar + 1", "Adamant sword + 1", "Adamant warhammer + 1", "Adamant off hand battleaxe + 1", "Adamant off hand dagger + 1", "Adamant off hand claws + 1", "Adamant off hand longsword + 1", "Adamant off hand mace + 1", "Adamant off hand scimitar + 1", "Adamant off hand sword + 1", "Adamant off hand warhammer + 1", "Adamant 2h sword + 1", "Adamant battleaxe + 2", "Adamant claws + 2", "Adamant dagger + 2", "Adamant longsword + 2", "Adamant mace + 2", "Adamant scimitar + 2", "Adamant sword + 2", "Adamant warhammer + 2", "Adamant off hand battleaxe + 2", "Adamant off hand dagger + 2", "Adamant off hand claws + 2", "Adamant off hand longsword + 2", "Adamant off hand mace + 2", "Adamant off hand scimitar + 2", "Adamant off hand sword + 2", "Adamant off hand warhammer + 2", "Adamant 2h sword + 2"],
+			"RuneWeapon+": ["Rune battleaxe", "Rune claws", "Rune dagger", "Rune hasta", "Rune hatchet", "Rune longsword", "Rune mace", "Rune scimitar", "Rune sword", "Rune warhammer", "Rune off hand battleaxe", "Rune off hand dagger", "Rune off hand claws", "Rune off hand longsword", "Rune off hand mace", "Rune off hand scimitar", "Rune off hand sword", "Rune off hand warhammer", "Rune 2h sword", "Rune halberd", "Rune spear", "Rune battleaxe + 1", "Rune claws + 1", "Rune dagger + 1", "Rune longsword + 1", "Rune mace + 1", "Rune scimitar + 1", "Rune sword + 1", "Rune warhammer + 1", "Rune off hand battleaxe + 1", "Rune off hand dagger + 1", "Rune off hand claws + 1", "Rune off hand longsword + 1", "Rune off hand mace + 1", "Rune off hand scimitar + 1", "Rune off hand sword + 1", "Rune off hand warhammer + 1", "Rune 2h sword + 1", "Rune battleaxe + 2", "Rune claws + 2", "Rune dagger + 2", "Rune longsword + 2", "Rune mace + 2", "Rune scimitar + 2", "Rune sword + 2", "Rune warhammer + 2", "Rune off hand battleaxe + 2", "Rune off hand dagger + 2", "Rune off hand claws + 2", "Rune off hand longsword + 2", "Rune off hand mace + 2", "Rune off hand scimitar + 2", "Rune off hand sword + 2", "Rune off hand warhammer + 2", "Rune 2h sword + 2", "Rune battleaxe + 3", "Rune claws + 3", "Rune dagger + 3", "Rune longsword + 3", "Rune mace + 3", "Rune scimitar + 3", "Rune sword + 3", "Rune warhammer + 3", "Rune off hand battleaxe + 3", "Rune off hand dagger + 3", "Rune off hand claws + 3", "Rune off hand longsword + 3", "Rune off hand mace + 3", "Rune off hand scimitar + 3", "Rune off hand sword + 3", "Rune off hand warhammer + 3", "Rune 2h sword + 3"],
+			"OrikalkumWeapon+": ["Orikalkum warhammer", "Orikalkum off hand warhammer", "Orikalkum 2h warhammer", "Orikalkum warhammer + 1", "Orikalkum off hand warhammer + 1", "Orikalkum 2h warhammer + 1", "Orikalkum warhammer + 2", "Orikalkum off hand warhammer + 2", "Orikalkum 2h warhammer + 2", "Orikalkum warhammer + 3", "Orikalkum off hand warhammer + 3", "Orikalkum 2h warhammer + 3"],
+			"NecroniumWeapon+": ["Necronium battleaxe", "Necronium off hand battleaxe", "Necronium 2h greataxe", "Necronium battleaxe + 1", "Necronium off hand battleaxe + 1", "Necronium 2h greataxe + 1", "Necronium battleaxe + 2", "Necronium off hand battleaxe + 2", "Necronium 2h greataxe + 2", "Necronium battleaxe + 3", "Necronium off hand battleaxe + 3", "Necronium 2h greataxe + 3", "Necronium battleaxe + 4", "Necronium off hand battleaxe + 4", "Necronium 2h greataxe + 4"],
+			"BaneWeapon+": ["Bane longsword", "Bane off hand longsword", "Bane 2h sword", "Bane longsword + 1", "Bane off hand longsword + 1", "Bane 2h sword + 1", "Bane longsword + 2", "Bane off hand longsword + 2", "Bane 2h sword + 2", "Bane longsword + 3", "Bane off hand longsword + 3", "Bane 2h sword + 3", "Bane longsword + 4", "Bane off hand longsword + 4", "Bane 2h sword + 4", "Abyssal bane longsword", "Abyssal bane off hand longsword", "Abyssal bane 2h sword", "Dragon bane longsword", "Dragon bane off hand longsword", "Dragon bane 2h sword", "Revenant bane longsword", "Revenant bane off hand longsword", "Revenant bane 2h sword"],
+			"ElderRuneWeapon+": ["Elder rune longsword", "Elder rune off hand longsword", "Elder rune 2h sword", "Elder rune longsword + 1", "Elder rune off hand longsword + 1", "Elder rune 2h sword + 1", "Elder rune longsword + 2", "Elder rune off hand longsword + 2", "Elder rune 2h sword + 2", "Elder rune longsword + 3", "Elder rune off hand longsword + 3", "Elder rune 2h sword + 3", "Elder rune longsword + 4", "Elder rune off hand longsword + 4", "Elder rune 2h sword + 4", "Elder rune longsword + 5", "Elder rune off hand longsword + 5", "Elder rune 2h sword + 5"]
 		},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
