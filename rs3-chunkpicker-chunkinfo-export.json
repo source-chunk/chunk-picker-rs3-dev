@@ -30506,11 +30506,11 @@
 				"Output": "Laniakea's spear"
 			},
 			"Acquire the ~|anti-dragon shield|~": {
-				"NPCs": "Duke Horacio",
+				"NPCs": ["Duke Horacio"],
 				"Output": "Anti-dragon shield"
 			},
 			"Craft the ~|unsullied ability codex|~": {
-				"Items": "Vital spark",
+				"Items": ["Vital spark"],
 				"Output": "Unsullied ability codex"
 			},
 			"Craft the ~|superior skeletal helm|~": {
