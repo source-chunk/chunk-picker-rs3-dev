@@ -941,6 +941,24 @@
 				},
 				"Primary": false,
 				"Priority": 17
+			},
+			"Wield one of the ~|crystal shields|~": {
+				"Items": ["CrystalShield+"],
+				"Level": 50,
+				"Skills": {
+					"Defence": 70
+				},
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wield one of the ~|attuned crystal shields|~": {
+				"Items": ["AttunedCrystalShield+"],
+				"Level": 50,
+				"Skills": {
+					"Defence": 80
+				},
+				"Primary": false,
+				"Priority": 19
 			}
 		},
 		"Archaeology": {
@@ -9434,129 +9452,89 @@
 			}
 		},
 		"Defence": {
-			"Wear a ~|black mask|~": {
-				"Items": ["Black mask"],
-				"Level": 10,
+			"Wear a piece of ~|bronze armour|~": {
+				"Items": ["BronzeArmor+"],
+				"Level": 1,
 				"Primary": false,
-				"Skills": {
-					"Combat": 40,
-					"Strength": 20
-				},
 				"Priority": 1
 			},
-			"Wear a ~|Slayer helmet|~": {
-				"Items": ["Slayer helmet"],
-				"Level": 10,
-				"Primary": false,
+			"Wield a ~|bronze defender|~": {
+				"Items": ["Bronze defender"],
+				"Level": 1,
 				"Skills": {
-					"Strength": 20
+					"Attack": 1
 				},
+				"Primary": false,
 				"Priority": 2
 			},
-			"Wear a ~|full slayer helmet|~": {
-				"Items": ["Full slayer helmet"],
-				"Level": 20,
+			"Wield the ~|anti-dragon shield|~": {
+				"Items": ["Anti-dragon shield"],
+				"Level": 1,
 				"Primary": false,
-				"Skills": {
-					"Strength": 20,
-					"Magic": 20,
-					"Ranged": 20
-				},
-				"Priority": 1
-			},
-			"Wear a ~|reinforced slayer helmet|~": {
-				"Items": ["Reinforced slayer helmet"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Strength": 20,
-					"Magic": 20,
-					"Ranged": 20
-				},
-				"Priority": 1
-			},
-			"Wear a ~|strong slayer helmet|~": {
-				"Items": ["Strong slayer helmet"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Strength": 20,
-					"Magic": 20,
-					"Ranged": 20
-				},
-				"Priority": 1
-			},
-			"Wear a ~|mighty slayer helmet|~": {
-				"Items": ["Mighty slayer helmet"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Strength": 20,
-					"Magic": 20,
-					"Ranged": 20
-				},
-				"Priority": 1
-			},
-			"Wear a ~|corrupted slayer helmet|~": {
-				"Items": ["Corrupter slayer helmet"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Strength": 20,
-					"Magic": 20,
-					"Ranged": 20
-				},
-				"Priority": 2
-			},
-			"Wear a ~|hexcrest|~": {
-				"Items": ["Hexcrest"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Magic": 20
-				},
-				"Priority": 2
-			},
-			"Wear a ~|focus sight|~": {
-				"Items": ["Focus sight"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 20
-				},
 				"Priority": 3
 			},
-			"Wear ~|void knight equipment|~": {
-				"Items": ["Voidequipment+"],
-				"Level": 42,
+			"Wear a piece of ~|soft leather armor|~": {
+				"Items": ["SoftLeatherArmor+"],
+				"Level": 1,
 				"Primary": false,
-				"Skills": {
-					"Attack": 42,
-					"Constitution": 42,
-					"Strength": 42,
-					"Magic": 42,
-					"Prayer": 22,
-					"Ranged": 42
-				},
-				"Priority": 1
+				"Priority": 4
 			},
-			"Wear ~|granite equipment|~": {
-				"Items": ["GraniteArmour+"],
-				"Level": 55,
+			"Wear a piece of ~|wizard robes|~": {
+				"Items": ["WizardRobes+"],
+				"Level": 1,
 				"Primary": false,
-				"Skills": {
-					"Strength": 55
-				},
-				"Priority": 1
+				"Priority": 5
 			},
-			"Wield a ~|mirror shield|~": {
-				"Items": ["Mirror shield"],
-				"Level": 20,
+			"Wield ~|Sir Owen Sonde's shield|~": {
+				"Items": ["Sire Owen Sonde's shield"],
+				"Level": 1,
 				"Primary": false,
-				"Priority": 4,
+				"Priority": 6
+			},
+			"Unlock the ~|Devotion|~ ability from Anima Islands": {
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Unlock the ~|Devotion|~ ability from the God Wars Dungeon": {
+				"Chunks": ["God Wars Dungeon"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Unlock the ~|Unsullied|~ ability": {
+				"Items": ["Unsullied ability codex"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Unlock the ~|Aggression|~ ability": {
+				"Chunks": ["12593"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|pathfinder armor|~": {
+				"Items": ["PathfinderArmor+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|shieldbow|~": {
+				"Items": ["Shieldbow"],
+				"Level": 1,
 				"Skills": {
-					"Slayer": 25
-				}
+					"Ranged": 1
+				},
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield a ~|wooden shield|~": {
+				"Items": ["Wooden shield"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 13
 			},
 			"Wear a ~|spiny helmet|~": {
 				"Items": ["Spiny helmet"],
@@ -9568,189 +9546,1202 @@
 				"Items": ["Spiked helmet"],
 				"Level": 5,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 2
 			},
-			"Wear ~|seasinger's robes|~": {
-				"Items": ["SeaSingerRobe+"],
-				"Level": 85,
+			"Wear a ~|Tyras helm|~": {
+				"Items": ["Tyras helm"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|mycelium web armor|~": {
+				"Items": ["MyceliumWebArmor+"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield the ~|goblin cower shield|~": {
+				"Items": ["Goblin cower shield"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|raider equipment|~": {
+				"Items": ["Raider+"],
+				"Level": 8,
 				"Primary": false,
 				"Priority": 1
 			},
-			"Equip ~|frog-leather armour|~": {
-				"Items": ["Frog-leather+"],
-				"Level": 25,
+			"Wear a piece of ~|iron armor|~": {
+				"Items": ["IronArmor+"],
+				"Level": 10,
 				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|iron defender|~": {
+				"Items": ["Iron defender"],
+				"Level": 10,
 				"Skills": {
-					"Ranged": 25
+					"Attack": 10
 				},
-				"Priority": 1
-			},
-			"Equip a piece of ~|elite Robin Hood armour|~": {
-				"Items": ["Elite Robin Hood+"],
-				"Level": 82,
 				"Primary": false,
-				"Skills": {
-					"Ranged": 40
-				},
-				"Priority": 1
+				"Priority": 2
 			},
-			"Wield a ~|shieldbow|~": {
-				"Items": ["Shieldbow"],
-				"Level": 1,
+			"Wear a piece of ~|hard leather armor|~": {
+				"Items": ["HardLeatherArmor+"],
+				"Level": 10,
 				"Primary": false,
-				"Skills": {
-					"Ranged": 1
-				},
-				"Priority": 1
+				"Priority": 3
+			},
+			"Wear a piece of ~|imphide robes|~": {
+				"Items": ["ImphideRobes+"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield ~|Aten|~": {
+				"Items": ["Aten"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 5
 			},
 			"Wield an ~|oak shieldbow|~": {
 				"Items": ["Oak shieldbow"],
 				"Level": 10,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 10
 				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a ~|slayer helmet|~": {
+				"Items": ["Slayer helmet"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear a ~|black mask|~": {
+				"Items": ["Black mask"],
+				"Level": 10,
+				"Skills": {
+					"Strength": 20,
+					"Combat": 40
+				},
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear a piece of ~|steel armor|~": {
+				"Items": ["SteelArmor+"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|steel defender|~": {
+				"Items": ["Steel defender"],
+				"Level": 20,
+				"Skills": {
+					"Attack": 20
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|studded leather armor|~": {
+				"Items": ["StuddedLeatherArmor+"],
+				"Level": 20,
+				"Primary": false,
 				"Priority": 3
+			},
+			"Wear a piece of ~|combat robes|~": {
+				"Items": ["CombatRobes+"],
+				"Level": 20,
+				"Skills": {
+					"Magic": 20
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|spider silk robes|~": {
+				"Items": ["SpiderSilkRobes+"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield an ~|animal staff|~": {
+				"Items": ["AnimalStaff+"],
+				"Level": 20,
+				"Skills": {
+					"Magic": 40,
+					"Prayer": 60,
+					"Attack": 40
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of ~|yak-hide armor|~": {
+				"Items": ["YakHide+"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 7
 			},
 			"Wield a ~|willow shieldbow|~": {
 				"Items": ["Willow shieldbow"],
 				"Level": 20,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 20
 				},
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|mirror shield|~": {
+				"Items": ["Mirror sield"],
+				"Level": 20,
+				"Skills": {
+					"Slayer": 25
+				},
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear a piece of ~|basic decorative equipment|~": {
+				"Items": ["BasicDecorativeArmor+"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a ~|hexcrest|~": {
+				"Items": ["Hexcrest"],
+				"Level": 20,
+				"Skills": {
+					"Magic": 20
+				},
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a ~|focus sight|~": {
+				"Items": ["Focus sight"],
+				"Level": 20,
+				"Skills": {
+					"Ranged": 20
+				},
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wear a ~|full slayer helmet|~": {
+				"Items": ["Full slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wear an ~|amulet of defence|~": {
+				"Items": ["Amulet of defence"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wear a piece of ~|black armor|~": {
+				"Items": ["BlackArmor+"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|black defender|~": {
+				"Items": ["Black defender"],
+				"Level": 25,
+				"Skills": {
+					"Attack": 25
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|white armor|~": {
+				"Items": ["WhiteArmor+"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|initiate armor|~": {
+				"Items": ["InitiateArmor+"],
+				"Level": 25,
+				"Skills": {
+					"Prayer": 10
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield a ~|Fremennik round shield|~": {
+				"Items": ["Fremmenik round shield"],
+				"Level": 25,
+				"Primary": false,
 				"Priority": 5
+			},
+			"Wear a piece of ~|frog-leather armor|~": {
+				"Items": ["FrogLeatherArmor+"],
+				"Level": 25,
+				"Skills": {
+					"Ranged": 25
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of ~|fungal armor|~": {
+				"Items": ["FungalArmor+"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear a piece of ~|mithril armor|~": {
+				"Items": ["MithrilArmor+"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|mithril defender|~": {
+				"Items": ["Mithril defender"],
+				"Level": 30,
+				"Skills": {
+					"Attack": 30
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a ~|ram skull helm|~": {
+				"Items": ["Ram skull helm"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|proselyte armor|~": {
+				"Items": ["ProselyteArmor+"],
+				"Level": 30,
+				"Skills": {
+					"Prayer": 20
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|snakeskin armor|~": {
+				"Items": ["SnakeskinArmor+"],
+				"Level": 30,
+				"Skills": {
+					"Ranged": 30
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|carapace armor|~": {
+				"Items": ["CarapaceArmor+"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a ~|reinforced slayer helmet|~": {
+				"Items": ["Reinforced slayer helmet"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear a piece of ~|batwing armor|~": {
+				"Items": ["BatwingRobes+"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 8
 			},
 			"Wield a ~|maple shieldbow|~": {
 				"Items": ["Maple shieldbow"],
 				"Level": 30,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 30
 				},
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear the ~|asylum doctor's ring|~": {
+				"Items": ["Asylum doctor's ring"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a ~|Fremennik helm|~": {
+				"Items": ["Fremennik helm"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield a ~|Fremennik shield|~": {
+				"Items": ["Fremennik shield"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wear a piece of ~|body equipment|~": {
+				"Items": ["BodyArmor+"],
+				"Level": 33,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|druidic mage robes|~": {
+				"Items": ["DruidicMageRobes+"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|adamant armor|~": {
+				"Items": ["AdamantArmor+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|adamant defender|~": {
+				"Items": ["Adamant defender"],
+				"Level": 40,
+				"Skills": {
+					"Attack": 40
+				},
+				"Primary": false,
 				"Priority": 2
+			},
+			"Wear a piece of ~|elite black armor|~": {
+				"Items": ["EliteBlackArmor+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|Dagon'hai robes|~": {
+				"Items": ["Dagon'haiRobes+"],
+				"Level": 40,
+				"Skills": {
+					"Magic": 40
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|Corrupt Statius's equipment|~": {
+				"Items": ["CorruptStatiusArmor+"],
+				"Level": 40,
+				"Skills": {
+					"Strength": 65
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|Corrupt Vesta's equipment|~": {
+				"Items": ["CorruptVestaArmor+"],
+				"Level": 40,
+				"Skills": {
+					"Strength": 65
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of ~|Corrupt Zuriel's equipment|~": {
+				"Items": ["CorruptZurielArmor+"],
+				"Level": 40,
+				"Skills": {
+					"Magic": 65
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear a piece of ~|Corrupt Morrigan's equipment|~": {
+				"Items": ["CorruptMorriganArmor+"],
+				"Level": 40,
+				"Skills": {
+					"Ranged": 65
+				},
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear a piece of ~|necromancer robes|~": {
+				"Items": ["NecromancerRobes+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear a piece of ~|splitbark armor|~": {
+				"Items": ["SplitbarkArmor+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|lunar armor|~": {
+				"Items": ["LunarArmor+"],
+				"Level": 40,
+				"Skills": {
+					"Magic": 60
+				},
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|detailed decorative equipment|~": {
+				"Items": ["DetailedDecorativeArmor+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of ~|green dragonhide armor|~": {
+				"Items": ["GreenDragonhideArmor+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a ~|fighter hat|~": {
+				"Items": ["FighterHat+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wear a ~|ranger hat|~": {
+				"Items": ["RangerHat+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wear a ~|runner hat|~": {
+				"Items": ["RunnerHat+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wear a ~|healer hat|~": {
+				"Items": ["HealerHat+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wear a ~|fighter torso|~": {
+				"Items": ["FighterTorso+"],
+				"Level": 40,
+				"Skills": {
+					"Strength": 50
+				},
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wear a ~|penance skirt|~": {
+				"Items": ["PenanceSkirt+"],
+				"Level": 40,
+				"Skills": {
+					"Ranged": 50
+				},
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wear ~|penance gloves|~": {
+				"Items": ["PenanceGloves+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wear ~|runner boots|~": {
+				"Items": ["RunnerBoots+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Wield a ~|spirit shield|~": {
+				"Items": ["Spirit shield"],
+				"Level": 40,
+				"Skills": {
+					"Prayer": 50
+				},
+				"Primary": false,
+				"Priority": 20
 			},
 			"Wield a ~|yew shieldbow|~": {
 				"Items": ["Yew shieldbow"],
 				"Level": 40,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 40
 				},
+				"Primary": false,
+				"Priority": 21
+			},
+			"Wear a piece of ~|cosmic armor|~": {
+				"Items": ["CosmicArmor+"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Wear ~|basilisk boots|~": {
+				"Items": ["Basilisk boots"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 23
+			},
+			"Wear a piece of ~|Void Knight equipment|~": {
+				"Chunks": ["10537"],
+				"Level": 42,
+				"Skills": {
+					"Magic": 42,
+					"Ranged": 42,
+					"Attack": 42,
+					"Constitution": 42,
+					"Strength": 42,
+					"Prayer": 22
+				},
+				"Primary": false,
 				"Priority": 1
+			},
+			"Wield an ~|adamant spikeshield|~": {
+				"Items": ["Adamant spikeshield"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield an ~|adamant berserker shield|~": {
+				"Items": ["Adamant berserker shield"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|enchanted robe armor|~": {
+				"Items": ["EnchantedRobes+"],
+				"Level": 45,
+				"Skills": {
+					"Magic": 40
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear one of the ~|Fremennik helmets|~": {
+				"Items": ["FremennikHelm+"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 3
 			},
 			"Wield a ~|maple shieldbow (sighted)|~": {
 				"Items": ["Maple shieldbow (sighted)"],
 				"Level": 45,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 45,
 					"Dungeoneering": 45
 				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Unlock the ~|Divert|~ ability": {
+				"Items": ["Divert ability codex"],
+				"Level": 48,
+				"Primary": false,
 				"Priority": 1
+			},
+			"Wear a piece of ~|rune armor|~": {
+				"Items": ["RuneArmor+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|rune defender|~": {
+				"Items": ["Rune defender"],
+				"Level": 50,
+				"Skills": {
+					"Attack": 50
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|mystic robes|~": {
+				"Items": ["MysticRobes+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of melee ~|sacred clay equipment|~": {
+				"Items": ["MeleeSacredClay+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ranged ~|sacred clay equipment|~": {
+				"Items": ["RangedSacredClay+"],
+				"Level": 50,
+				"Skills": {
+					"Ranged": 50
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of magic ~|sacred clay equipment|~": {
+				"Items": ["MageSacredClay+"],
+				"Level": 50,
+				"Skills": {
+					"Magic": 50
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of ~|battle robes|~": {
+				"Items": ["BattleRobes+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear a piece of ~|chaos armor|~": {
+				"Items": ["ChaosArmor+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear a piece of ~|blue dragonhide armor|~": {
+				"Items": ["BlueDragonhideArmor+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear a piece of ~|skeletal armor|~": {
+				"Items": ["SkeletalArmor+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|rock-shell armor|~": {
+				"Items": ["RockShellArmor+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of ~|spined armor|~": {
+				"Items": ["SpinedArmor+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wear a piece of ~|spirit cape|~": {
+				"Items": ["Spirit cape"],
+				"Level": 50,
+				"Skills": {
+					"Summoning": 50,
+					"Dungeoneering": 50
+				},
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wear a piece of ~|dragonstone armor|~": {
+				"Items": ["DragonstoneArmor+"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wear a ~|strong slayer helmet|~": {
+				"Items": ["Strong slayer helmet"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 15
 			},
 			"Wield a ~|magic shieldbow|~": {
 				"Items": ["Magic shieldbow"],
 				"Level": 50,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 50
 				},
-				"Priority": 2
+				"Primary": false,
+				"Priority": 16
 			},
-			"Equip a piece of ~|sacred clay ranged equipment|~": {
-				"Items": ["Sacred Clay Ranged+"],
+			"Wear a ~|dwarven helmet|~": {
+				"Items": ["Dwarven helmet"],
 				"Level": 50,
 				"Primary": false,
-				"Skills": {
-					"Defence": 50
-				},
-				"Priority": 3
+				"Priority": 17
 			},
-			"Equip a ~|ranger hat|~": {
-				"Items": ["Ranger hat"],
-				"Level": 40,
+			"Wear ~|turoth boots|~": {
+				"Items": ["Turoth boots"],
+				"Level": 50,
 				"Primary": false,
-				"Skills": {
-					"Ranged": 50
-				},
+				"Priority": 18
+			},
+			"Wield a ~|rune spikeshield|~": {
+				"Items": ["Rune spikeshield"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|rune berserker shield|~": {
+				"Items": ["Rune berserker shield"],
+				"Level": 55,
+				"Primary": false,
 				"Priority": 2
 			},
-			"Wield a ~|hardened ranger hat|~": {
-				"Items": ["Hardened ranger hat"],
-				"Level": 40,
+			"Wear a piece of ~|infinity robes|~": {
+				"Items": ["InfinityRobes+"],
+				"Level": 55,
 				"Primary": false,
-				"Skills": {
-					"Ranged": 50
-				},
 				"Priority": 3
+			},
+			"Wear a piece of ~|red dragonhide armor|~": {
+				"Items": ["RedDragonhideArmor+"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|granite armor|~": {
+				"Items": ["GraniteArmor+"],
+				"Level": 55,
+				"Skills": {
+					"Strength": 55
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear the ~|helm of neitiznot|~": {
+				"Items": ["Helm of neitiznot"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of gud ~|raider equipment|~": {
+				"Items": ["GudRaider+"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield the ~|anti-dragon shield (mole)|~": {
+				"Items": ["Anti-dragon shield (mole)"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 6
 			},
 			"Wield a ~|magic shieldbow (sighted)|~": {
 				"Items": ["Magic shieldbow (sighted)"],
 				"Level": 55,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 55,
 					"Dungeoneering": 45
 				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield a ~|Guthix bow|~": {
+				"Items": ["Guthix bow"],
+				"Level": 55,
+				"Skills": {
+					"Ranged": 55
+				},
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|Saradomin bow|~": {
+				"Items": ["Saradomin bow"],
+				"Level": 55,
+				"Skills": {
+					"Ranged": 55
+				},
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield a ~|Zamorak bow|~": {
+				"Items": ["Zamorak bow"],
+				"Level": 55,
+				"Skills": {
+					"Ranged": 55
+				},
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|dragon armor|~": {
+				"Items": ["DragonArmor+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|dragon defender|~": {
+				"Items": ["Dragon defender"],
+				"Level": 60,
+				"Skills": {
+					"Attack": 60
+				},
+				"Primary": false,
 				"Priority": 2
+			},
+			"Wear a piece of ~|corrupt dragon armor|~": {
+				"Items": ["CorruptDragonArmor+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|orikalkum armor|~": {
+				"Items": ["OrikalkumArmor+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|intricate decorative equipment|~": {
+				"Items": ["IntricateDecorativeArmor+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|black dragonhide armor|~": {
+				"Items": ["BlackDragonhideArmor+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|Toktz-ket-xil|~": {
+				"Items": ["Tokz-ket-xil"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear a piece of ~|grifolic armor|~": {
+				"Items": ["GrifolicArmor+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wield an ~|anti-poison totem|~": {
+				"Items": ["Anti-poison totem"],
+				"Level": 60,
+				"Skills": {
+					"Herblore": 70,
+					"Dungeoneering": 60
+				},
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear ~|Dragon Rider gloves|~": {
+				"Items": ["Dragon Rider gloves"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear ~|Dragon Rider boots|~": {
+				"Items": ["Dragon Rider boots"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of ~|obsidian armor|~": {
+				"Items": ["ObsidianArmor+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wear a ~|relic helm|~": {
+				"Items": ["RelicHelm+"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 13
 			},
 			"Wield an ~|elder shieldbow|~": {
 				"Items": ["Elder shieldbow"],
 				"Level": 60,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 60
 				},
-				"Priority": 1
+				"Primary": false,
+				"Priority": 14
 			},
-			"Equip a piece of ~|demon slayer equipment|~": {
+			"Wear a piece of ~|demon slayer equipment|~": {
 				"Items": ["Demon Slayer+"],
 				"Level": 60,
 				"Primary": false,
 				"Skills": {
 					"Ranged": 60
 				},
-				"Priority": 2
+				"Priority": 15
 			},
-			"Wield an ~|elder shieldbow (sighted)|~": {
-				"Items": ["Elder shieldbow (sighted)"],
+			"Wear ~|corrupt rogue gloves|~": {
+				"Items": ["Corrupt rogue gloves"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wear ~|kurask boots|~": {
+				"Items": ["Kurask boots"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wear a piece of ~|third age melee armor|~": {
+				"Items": ["ThirdAgeMeleeArmor+"],
 				"Level": 65,
 				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|third age mage armor|~": {
+				"Items": ["ThirdAgeMageArmor+"],
+				"Level": 65,
+				"Skills": {
+					"Magic": 65
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|third age ranged armor|~": {
+				"Items": ["ThirdAgeRangedArmor+"],
+				"Level": 65,
+				"Skills": {
+					"Ranged": 65
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|Third age prayer armor|~": {
+				"Items": ["ThirdAgePrayerArmor+"],
+				"Level": 65,
+				"Skills": {
+					"Prayer": 65
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|royal dragonhide armor|~": {
+				"Items": ["RoyalDragonhideArmor+"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|sacred clay shield|~": {
+				"Items": ["SacredClayShield+"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|elder shieldbow (sighted)|~": {
+				"Items": ["Elder shieldbow (sighted)"],
+				"Level": 65,
 				"Skills": {
 					"Ranged": 65,
 					"Dungeoneering": 45
 				},
-				"Priority": 1
+				"Primary": false,
+				"Priority": 7
 			},
-			"Equip a piece of ~|third age ranger equipment|~": {
-				"Items": ["Third age ranger+"],
+			"Wear a piece of ~|superior skeletal armor|~": {
+				"Items": ["SuperiorSkeletalArmor+"],
 				"Level": 65,
 				"Primary": false,
-				"Skills": {
-					"Ranged": 65
-				},
-				"Priority": 2
+				"Priority": 8
 			},
-			"Wield a ~|dark bow|~": {
-				"Items": ["Dark bow"],
+			"Wear a piece of ~|superior rock-shell armor|~": {
+				"Items": ["SuperiorRockShellArmor+"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear a piece of ~|superior spined armor|~": {
+				"Items": ["SuperiorSpinedArmor+"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear ~|nasty rogue gloves|~": {
+				"Items": ["Nasty rogue gloves"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of ~|necronium armor|~": {
+				"Items": ["NecroniumArmor+"],
 				"Level": 70,
 				"Primary": false,
+				"Priority": 1
+			},
+			"Wield one of the ~|crystal shields|~": {
+				"Items": ["CrystalShield+"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 50
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|crystal armor|~": {
+				"Items": ["CrystalArmor+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|Ahrim's robes|~": {
+				"Items": ["AhrimArmor+"],
+				"Level": 70,
+				"Skills": {
+					"Magic": 70
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|Dharok's armor|~": {
+				"Items": ["DharokArmor+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|Guthan's armor|~": {
+				"Items": ["GuthanArmor+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of ~|Karil's armor|~": {
+				"Items": ["KarilArmor+"],
+				"Level": 70,
 				"Skills": {
 					"Ranged": 70
 				},
-				"Priority": 3
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear a piece of ~|Torag's armor|~": {
+				"Items": ["ToragArmor+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear a piece of ~|Verac's armor|~": {
+				"Items": ["VeracArmor+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear a piece of ~|Akrisae's robes|~": {
+				"Items": ["AkrisaeArmor+"],
+				"Level": 70,
+				"Skills": {
+					"Magic": 70,
+					"Prayer": 70
+				},
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|Bandos armor|~": {
+				"Items": ["BandosArmor+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of ~|Armadyl armor|~": {
+				"Items": ["ArmadylArmor+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wield a ~|blessed spirit shield|~": {
+				"Items": ["Blessed spirit shield"],
+				"Level": 70,
+				"Skills": {
+					"Prayer": 60
+				},
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wield one of the ~|dragonfire shields|~": {
+				"Items": ["DragonfireShield+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wear a piece of the ~|robes of subjugation|~": {
+				"Items": ["SubjugationRobes+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wear a ~|mighty slayer helmet|~": {
+				"Items": ["Mighty slayer helmet"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wear a ~|corrupted slayer helmet|~": {
+				"Items": ["Corrupted slayer helmet"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wear a piece of tier 3 ~|Ghost Hunter equipment|~": {
+				"Items": ["GhostHunter+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wield a ~|corrupted defender|~": {
+				"Items": ["Corrupted defender"],
+				"Level": 70,
+				"Skills": {
+					"Attack": 70
+				},
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wield a ~|blighted rebounder|~": {
+				"Items": ["Blighted rebounder"],
+				"Level": 70,
+				"Skills": {
+					"Magic": 70
+				},
+				"Primary": false,
+				"Priority": 19
 			},
 			"Wield a ~|tainted repriser|~": {
 				"Items": ["Tainted repriser"],
 				"Level": 70,
-				"Primary": false,
 				"Skills": {
 					"Ranged": 70
 				},
-				"Priority": 4
+				"Primary": false,
+				"Priority": 20
 			},
-			"Equip ~|mercenary's gloves|~": {
+			"Wield a ~|dark bow|~": {
+				"Items": ["Dark bow"],
+				"Level": 70,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Primary": false,
+				"Priority": 21
+			},
+			"Use the ~|piety|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 70
+				},
+				"Priority": 22
+			},
+			"Use the ~|augury|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 70
+				},
+				"Priority": 23
+			},
+			"Use the ~|rigour|~ prayer": {
+				"Chunks": ["11062"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 70
+				},
+				"Priority": 24
+			},
+			"Wear a tier 70 piece of ~|Dragon Rider armor|~": {
+				"Items": ["DragonRiderArmor+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 25
+			},
+			"Wear a piece of the ~|High Armour of Hanto|~": {
+				"Items": ["HighArmorOfHanto+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 26
+			},
+			"Wear a piece of the ~|House Drakan outfit|~": {
+				"Items": ["DrakanOutfit+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 27
+			},
+			"Wear ~|malicious rogue gloves|~": {
+				"Items": ["Malicious rogue gloves"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 28
+			},
+			"Wear ~|mercenary's gloves|~": {
 				"Items": ["Mercenary's gloves"],
 				"Level": 73,
 				"Primary": false,
@@ -9760,233 +10751,242 @@
 				},
 				"Priority": 1
 			},
-			"Equip ~|Swift gloves|~": {
+			"Wield a ~|arcane spirit shield|~": {
+				"Items": ["Arcane spirit shield"],
+				"Level": 75,
+				"Skills": {
+					"Prayer": 75
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|spectral spirit shield|~": {
+				"Items": ["Spectral spirit shield"],
+				"Level": 75,
+				"Skills": {
+					"Prayer": 75
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|elysian spirit shield|~": {
+				"Items": ["Elysian spirit shield"],
+				"Level": 75,
+				"Skills": {
+					"Prayer": 75
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wield a ~|divine spirit shield|~": {
+				"Items": ["Divine spirit shield"],
+				"Level": 75,
+				"Skills": {
+					"Prayer": 75
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|ganodermic armor|~": {
+				"Items": ["GanodermicArmor+"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|dinosaurhide armor|~": {
+				"Items": ["DinosaurhideArmor+"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of tier 3 ~|warpriest armor|~": {
+				"Items": ["Warpriest+"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear a piece of the tier 75 ~|globetrotter outfit|~": {
+				"Items": ["GlobetrotterOutfit+"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear ~|loathsome rogue gloves|~": {
+				"Items": ["Loathsome rogue gloves"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear the ~|Abomination cape|~": {
+				"Items": ["Abomination cape"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear a piece of ~|Ancient Warriors's armor|~": {
+				"Items": ["AncientWarriorArmor+"],
+				"Level": 78,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|bane armor|~": {
+				"Items": ["BaneArmor+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|Linza's armor|~": {
+				"Items": ["LinzaArmor+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear ~|torva armor|~": {
+				"Items": ["Torva+"],
+				"Level": 80,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear ~|virtus armor|~": {
+				"Items": ["Virtus+"],
+				"Level": 80,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear ~|pernix armor|~": {
+				"Items": ["Pernix+"],
+				"Level": 80,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|profound decorative equipment|~": {
+				"Items": ["ProfoundDecorativeArmor+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of ~|chaotic armor|~": {
+				"Items": ["ChaoticArmor+"],
+				"Level": 80,
+				"Skills": {
+					"Dungeoneering": 80
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wield one of the ~|attuned crystal shields|~": {
+				"Items": ["AttunedCrystalShield+"],
+				"Level": 80,
+				"Skills": {
+					"Agility": 50
+				},
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear a piece of ~|attuned crystal armor|~": {
+				"Items": ["AttunedCrystalArmor+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wield an ~|ancient defender|~": {
+				"Items": ["Ancient defender"],
+				"Level": 80,
+				"Skills": {
+					"Attack": 80
+				},
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wield an ~|ancient lantern|~": {
+				"Items": ["Ancient lantern"],
+				"Level": 80,
+				"Skills": {
+					"Magic": 80
+				},
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wield an ~|ancient repriser|~": {
+				"Items": ["Ancient repriser"],
+				"Level": 80,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wear a piece of the ~|Anima core of Seren armor|~": {
+				"Items": ["SerenAnimaCore+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wear a piece of the ~|Anima core of Sliske armor|~": {
+				"Items": ["SliskeAnimaCore+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wear a piece of the ~|Anima core of Zamorak armor|~": {
+				"Items": ["SerenZamorakCore+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wear a piece of the ~|Anima core of Zaros armor|~": {
+				"Items": ["ZarosAnimaCore+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wear a piece of ~|second-age melee armor|~": {
+				"Items": ["SecondAgeMeleeArmor+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wear a piece of ~|second-age magic armor|~": {
+				"Items": ["SecondAgeMagicArmor+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wear a piece of ~|second-age range armor|~": {
+				"Items": ["SecondAgeRangedArmor+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Wear ~|laceration boots|~": {
+				"Items": ["Laceration boots"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Wear ~|blast diffusion boots|~": {
+				"Items": ["Blast diffusion boots"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 21
+			},
+			"Wear ~|swift gloves|~": {
 				"Items": ["Swift gloves"],
 				"Level": 80,
 				"Primary": false,
 				"Skills": {
 					"Ranged": 80
 				},
-				"Priority": 1
-			},
-			"Wield an ~|ancient repriser|~": {
-				"Items": ["Ancient repriser"],
-				"Level": 80,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 80
-				},
-				"Priority": 2
-			},
-			"Wield a ~|kalphite repriser|~": {
-				"Items": ["Kalphite repriser"],
-				"Level": 90,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 90
-				},
-				"Priority": 1
-			},
-			"Equip a piece of ~|initiate armour|~": {
-				"Items": ["Initiate+"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 10
-				},
-				"Priority": 6
-			},
-			"Equip a piece of ~|proselyte armour|~": {
-				"Items": ["Proselyte+"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 20
-				},
-				"Priority": 3
-			},
-			"Wield an ~|unblessed spirit shield|~": {
-				"Items": ["Spirit shield"],
-				"Level": 40,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 55
-				},
-				"Priority": 4
-			},
-			"Wield an ~|animal staff|~": {
-				"Items": ["AnimalStaff+"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Attack": 40,
-					"Prayer": 60,
-					"Magic": 40
-				},
-				"priority": 7
-			},
-			"Wield a ~|blessed spirit shield|~": {
-				"Items": ["Blessed spirit shield"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 60
-				},
-				"Priority": 5
-			},
-			"Use the ~|piety|~ prayer": {
-				"Chunks": ["11062"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 70
-				},
-				"Priority": 6
-			},
-			"Use the ~|augury|~ prayer": {
-				"Chunks": ["11062"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 70
-				},
-				"Priority": 7
-			},
-			"Use the ~|rigour|~ prayer": {
-				"Chunks": ["11062"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 70
-				},
-				"Priority": 8
-			},
-			"Wield an ~|arcane spirit shield|~": {
-				"Items": ["Arcane spirit shield"],
-				"Level": 75,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 75
-				},
-				"Priority": 1
-			},
-			"Wield a ~|spectral spirit shield|~": {
-				"Items": ["Spectral spirit shield"],
-				"Level": 75,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 75
-				},
-				"Priority": 2
-			},
-			"Wear a piece of ~|Akrisae the Doomed's equipment|~": {
-				"Items": ["AkrisaeGear+"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 70,
-					"Magic": 70
-				},
-				"Priority": 9
-			},
-			"Wield a ~|divine spirit shield|~": {
-				"Items": ["Divine spirit shield"],
-				"Level": 75,
-				"Primary": false,
-				"Skills": {
-					"Defence": 75
-				},
-				"Priority": 3
-			},
-			"Wield an ~|elysian spirit shield|~": {
-				"Items": ["Elysian spirit shield"],
-				"Level": 75,
-				"Primary": false,
-				"Skills": {
-					"Defence": 75
-				},
-				"Priority": 4
-			},
-			"Wear a piece of ~|combat robes|~": {
-				"Items": ["Combat Robes+"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Magic": 20
-				},
-				"Priority": 8
-			},
-			"Wear a piece of ~|necromancer robes|~": {
-				"Items": ["Necromancer Robes+"],
-				"Level": 40,
-				"Primary": false,
-				"Skills": {
-					"Magic": 40
-				},
-				"Priority": 5
-			},
-			"Wear a piece of ~|Dagon'hai robes|~": {
-				"Items": ["Dagon'hai Robes+"],
-				"Level": 40,
-				"Primary": false,
-				"Skills": {
-					"Magic": 40
-				},
-				"Priority": 6
-			},
-			"Wear a piece of ~|sacred clay robes|~": {
-				"Items": ["SacredClayRobe+"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Magic": 50
-				},
-				"Priority": 4
-			},
-			"Wear a piece of ~|lunar equipment|~": {
-				"Items": ["LunarEquipment+"],
-				"Level": 40,
-				"Primary": false,
-				"Skills": {
-					"Magic": 60
-				},
-				"Priority": 6
-			},
-			"Wear a piece of ~|third age mage robes|~": {
-				"Items": ["ThirdAgeRobes+"],
-				"Level": 65,
-				"Primary": false,
-				"Skills": {
-					"Magic": 65
-				},
-				"Priority": 3
-			},
-			"Wield a ~|blighted rebounder|~": {
-				"Items": ["Blighted rebounder"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Magic": 70
-				},
-				"Priority": 10
-			},
-			"Wear a piece of ~|Ahrim's robes|~": {
-				"Items": ["AhrimRobes+"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Magic": 70
-				},
-				"Priority": 11
-			},
-			"Wield an ~|ancient lantern|~": {
-				"Items": ["Ancient lantern"],
-				"Level": 80,
-				"Primary": false,
-				"Skills": {
-					"Magic": 80
-				},
-				"Priority": 3
+				"Priority": 22
 			},
 			"Wear ~|spellcaster gloves|~": {
 				"Items": ["Spellcaster gloves"],
@@ -9995,16 +10995,385 @@
 				"Skills": {
 					"Magic": 80
 				},
+				"Priority": 23
+			},
+			"Wear the ~|ancient gladiator helm|~": {
+				"Chunks": ["14897"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 24
+			},
+			"Wear a piece of ~|gemstone armor|~": {
+				"Items": ["GemstoneArmor+"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 25
+			},
+			"Wear ~|goliath gloves|~": {
+				"Items": ["Goliath gloves"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Attack": 80
+				},
+				"Priority": 26
+			},
+			"Wear ~|atrocious rogue gloves|~": {
+				"Items": ["Atrocious rogue gloves"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 27
+			},
+			"Wear ~|fleeting boots|~": {
+				"Items": ["Fleeting boots"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 28
+			},
+			"Wear a piece of the ~|elite Robin Hood armor|~": {
+				"Items": ["EliteRobinHoodArmor+"],
+				"Level": 82,
+				"Skills": {
+					"Ranged": 40
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a pair of ~|glacyte boots|~": {
+				"Items": ["GlacyteBoots+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|battle-mage robes|~": {
+				"Items": ["BattleMageRobes+"],
+				"Level": 85,
+				"Skills": {
+					"Magic": 85,
+					"Strength": 85
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|trickster armor|~": {
+				"Items": ["TricksterArmor+"],
+				"Level": 85,
+				"Skills": {
+					"Magic": 85,
+					"Ranged": 85
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|vangaurd armor|~": {
+				"Items": ["TricksterArmor+"],
+				"Level": 85,
+				"Skills": {
+					"Strength": 85,
+					"Ranged": 85
+				},
+				"Primary": false,
 				"Priority": 4
+			},
+			"Wear a piece of ~|tetsu armor|~": {
+				"Items": ["TetsuArmor+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|seasinger's armor|~": {
+				"Items": ["SeasingerArmor+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear a piece of ~|Death Lotus armor|~": {
+				"Items": ["DeathLotusArmor+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Unlock the ~|Natural Instinct|~ ability": {
+				"Chunks": ["Guthixian ruins"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear a pair of ~|automaton gloves|~": {
+				"Items": ["AutomatonGloves+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear the ~|reefwalker's cape|~": {
+				"Items": ["Reefwalker's cape"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear the ~|leviathan ring|~": {
+				"Items": ["Leviathan ring"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear a piece of the ~|refined anima core of Seren armor|~": {
+				"Items": ["RefinedSerenAnimaCore+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wear a piece of the ~|refined anima core of Sliske armor|~": {
+				"Items": ["RefinedSliskeAnimaCore+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wear a piece of the ~|refined anima core of Zamorak armor|~": {
+				"Items": ["RefinedSerenZamorakCore+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wear a piece of the ~|refined anima core of Zaros armor|~": {
+				"Items": ["RefinedZarosAnimaCore+"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wear ~|nightmare gauntlets|~": {
+				"Items": ["Nightmare gauntlets"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Wear ~|Kerapac's wrist wraps|~": {
+				"Items": ["Kerapac's wrist wraps"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wield a ~|strykebow|~": {
+				"Items": ["Strykebow"],
+				"Level": 85,
+				"Skills": {
+					"Ranged": 85
+				},
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wear the ~|asylum surgeon's ring|~": {
+				"Items": ["Asylum surgeon's ring"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Wear the ~|jaws of the Abyss|~": {
+				"Items": ["Jaws of the Abyss"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Wear ~|gloves of passage|~": {
+				"Items": ["Gloves of passage"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 21
+			},
+			"Wear ~|cinderbane gloves|~": {
+				"Items": ["Cinderbane gloves"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Wear a piece of ~|Superior Ancient Warriors's armor|~": {
+				"Items": ["SuperiorAncientWarriorArmor+"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|elder rune armor|~": {
+				"Items": ["ElderRuneArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|masterwork armor|~": {
+				"Items": ["MasterworkArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|tectonic armor|~": {
+				"Items": ["TectonicArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a piece of ~|sirenic armor|~": {
+				"Items": ["SirenicArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|malevolent armor|~": {
+				"Items": ["MalevolentArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wield a ~|Shadow Realm shield|~": {
+				"Items": ["ShadowRealmShield+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wear ~|razorback gauntlets|~": {
+				"Items": ["Razorback gauntlets"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Wear ~|ascension grips|~": {
+				"Items": ["ascension grips"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear ~|celestial handwraps|~": {
+				"Items": ["Celestial handwraps"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Wear ~|emberkeen boots|~": {
+				"Items": ["Emberkeen boots"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Wear ~|flarefrost boots|~": {
+				"Items": ["Flarefrost boots"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Wear ~|hailfire boots|~": {
+				"Items": ["Hailfire boots"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Wear a piece of ~|Teralith armor|~": {
+				"Items": ["TeralithArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Wear a piece of ~|Primeval armor|~": {
+				"Items": ["PrimevalArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Wear a piece of ~|Tempest armor|~": {
+				"Items": ["TempestArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wield a ~|kalphite defender|~": {
+				"Items": ["Kalphite defender"],
+				"Level": 90,
+				"Skills": {
+					"Attack": 90
+				},
+				"Primary": false,
+				"Priority": 16
 			},
 			"Wield a ~|kalphite rebounder|~": {
 				"Items": ["Kalphite rebounder"],
 				"Level": 90,
-				"Primary": false,
 				"Skills": {
 					"Magic": 90
 				},
+				"Primary": false,
+				"Priority": 17
+			},
+			"Wield a ~|kalphite repriser|~": {
+				"Items": ["Kalphite repriser"],
+				"Level": 90,
+				"Skills": {
+					"Ranged": 90
+				},
+				"Primary": false,
+				"Priority": 18
+			},
+			"Wear a piece of ~|cryptbloom armor|~": {
+				"Items": ["CryptbloomArmor+"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Wear ~|enhanced Kerapac's wrist wraps|~": {
+				"Items": ["Enhanced Kerapac's wrist wraps"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Wear ~|enhanced gloves of passage|~": {
+				"Items": ["Enhanced gloves of passage"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 21
+			},
+			"Wear ~|enhanced nightmare gauntlets|~": {
+				"Items": ["Enhanced nightmare gauntlets"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Wear ~|enhanced fleeting boots|~": {
+				"Items": ["Enhanced fleeting boots"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 23
+			},
+			"Wear ~|enhanced blast diffusion boots|~": {
+				"Items": ["Enhanced blast diffusion boots"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 24
+			},
+			"Wear ~|enhanced laceration boots|~": {
+				"Items": ["Enhanced laceration boots"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 25
+			},
+			"Wear a piece of ~|trimmed masterwork armor|~": {
+				"Items": ["TrimmedMasterworkArmor+"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a piece of ~|elite tectonic armor|~": {
+				"Items": ["EliteTectonicArmor+"],
+				"Level": 92,
+				"Primary": false,
 				"Priority": 2
+			},
+			"Wear a piece of ~|eite sirenic armor|~": {
+				"Items": ["EliteSirenicArmor+"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Equip the ~|Defence cape|~": {
+				"Items": ["Defence cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Divination": {
@@ -11670,7 +13039,7 @@
 					"Attack": 80
 				},
 				"Primary": false,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Wear the ~|brawler's knockout necklace|~": {
 				"Items": ["Brawler's knockout necklace"],
@@ -11680,7 +13049,26 @@
 				},
 				"Primary": false,
 				"Priority": 5
-	}
+			},
+			"Wield an ~|anti-poison totem|~": {
+				"Items": ["Anti-poison totem"],
+				"Level": 60,
+				"Skills": {
+					"Herblore": 70,
+					"Defence": 60
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a piece of ~|chaotic armor|~": {
+				"Items": ["ChaoticArmor+"],
+				"Level": 80,
+				"Skills": {
+					"Defence": 80
+				},
+				"Primary": false,
+				"Priority": 4
+			}
 		},
 		"Farming": {
 			"Unlock the ~|Livid farm|~ spells": {
@@ -15908,7 +17296,7 @@
 			"Tip ~|deathspore arrows|~": {
 				"Items": ["Elder headless arrow", "Deathspore arrow tips"],
 				"Level": 95,
-				"Output": "Splintering arrows",
+				"Output": "Deathspore arrows",
 				"Primary": true,
 				"Priority": 15
 			},
@@ -16019,6 +17407,16 @@
 				"Output": "Primal fruit pulp",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Wield an ~|anti-poison totem|~": {
+				"Items": ["Anti-poison totem"],
+				"Level": 70,
+				"Skills": {
+					"Defence": 60,
+					"Dungeoneering": 60
+				},
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Hunter": {
@@ -29106,6 +30504,82 @@
 			"Create ~|Laniakea's spear|~": {
 				"Items": ["Savage spear shaft", "Savage spear tip", "Savage spear cap", "Savage plume"],
 				"Output": "Laniakea's spear"
+			},
+			"Acquire the ~|anti-dragon shield|~": {
+				"NPCs": "Duke Horacio",
+				"Output": "Anti-dragon shield"
+			},
+			"Craft the ~|unsullied ability codex|~": {
+				"Items": "Vital spark",
+				"Output": "Unsullied ability codex"
+			},
+			"Craft the ~|superior skeletal helm|~": {
+				"Items": ["Fremennik equipment patch", "Skeletal helm"],
+				"Output": "Superior skeletal helm"
+			},
+			"Craft the ~|superior skeletal top|~": {
+				"Items": ["Fremennik equipment patch", "Skeletal top"],
+				"Output": "Superior skeletal top"
+			},
+			"Craft the ~|superior skeletal bottoms|~": {
+				"Items": ["Fremennik equipment patch", "Skeletal bottoms"],
+				"Output": "Superior skeletal bottom"
+			},
+			"Craft the ~|superior skeletal gloves|~": {
+				"Items": ["Fremennik equipment patch", "Skeletal gloves"],
+				"Output": "Superior skeletal gloves"
+			},
+			"Craft the ~|superior skeletal boots|~": {
+				"Items": ["Fremennik equipment patch", "Skeletal boots"],
+				"Output": "Superior skeletal boots"
+			},
+			"Craft the ~|superior spined helm|~": {
+				"Items": ["Fremennik equipment patch", "Spined helm"],
+				"Output": "Superior spined helm"
+			},
+			"Craft the ~|superior spined body|~": {
+				"Items": ["Fremennik equipment patch", "Spined body"],
+				"Output": "Superior spined body"
+			},
+			"Craft the ~|superior spined chaps|~": {
+				"Items": ["Fremennik equipment patch", "Spined chaps"],
+				"Output": "Superior spined chaps"
+			},
+			"Craft the ~|superior spined gloves|~": {
+				"Items": ["Fremennik equipment patch", "Spined gloves"],
+				"Output": "Superior spined gloves"
+			},
+			"Craft the ~|superior spined boots|~": {
+				"Items": ["Fremennik equipment patch", "Spined boots"],
+				"Output": "Superior spined boots"
+			},
+			"Craft the ~|superior rock-shell helm|~": {
+				"Items": ["Fremennik equipment patch", "Rock-shell helm"],
+				"Output": "Superior rock-shell helm"
+			},
+			"Craft the ~|superior rock-shell plate|~": {
+				"Items": ["Fremennik equipment patch", "Rock-shell plate"],
+				"Output": "Superior rock-shell plate"
+			},
+			"Craft the ~|superior rock-shell legs|~": {
+				"Items": ["Fremennik equipment patch", "Rock-shell legs"],
+				"Output": "Superior rock-shell legs"
+			},
+			"Craft the ~|superior rock-shell gloves|~": {
+				"Items": ["Fremennik equipment patch", "Rock-shell gloves"],
+				"Output": "Superior rock-shell gloves"
+			},
+			"Craft the ~|superior rock-shell boots|~": {
+				"Items": ["Fremennik equipment patch", "Rock-shell boots"],
+				"Output": "Superior rock-shell boots"
+			},
+			"Craft the ~|superior Dragon Rider boots|~": {
+				"Items": ["Dragon Rider kit", "Dragon Rider boots"],
+				"Output": "Superior Dragon Rider boots"
+			},
+			"Craft the ~|superior Dragon Rider gloves|~": {
+				"Items": ["Dragon Rider kit", "Dragon Rider gloves"],
+				"Output": "Superior Dragon Rider gloves"
 			}
 		}
 	},
@@ -46265,7 +47739,7 @@
 			"Monster": {
 				"Chicken": 4,
 				"Rooster": 1,
-				"Cyclops": 12
+				"Cyclops (Warrior)": 12
 			},
 			"NPC": {
 				"Harrallak Menarous": 2,
@@ -65547,7 +67021,7 @@
 				"Sergeant Steelwill": 1,
 				"Sergeant Grimspike": 1,
 				"Jogre": 12,
-				"Cyclops": 12,
+				"Cyclops (GWD)": 12,
 				"Ork": 21,
 				"Hobgoblin": 11,
 				"Goblin": 16,
@@ -74263,7 +75737,154 @@
 			"OrikalkumWeapon+": ["Orikalkum warhammer", "Orikalkum off hand warhammer", "Orikalkum 2h warhammer", "Orikalkum warhammer + 1", "Orikalkum off hand warhammer + 1", "Orikalkum 2h warhammer + 1", "Orikalkum warhammer + 2", "Orikalkum off hand warhammer + 2", "Orikalkum 2h warhammer + 2", "Orikalkum warhammer + 3", "Orikalkum off hand warhammer + 3", "Orikalkum 2h warhammer + 3"],
 			"NecroniumWeapon+": ["Necronium battleaxe", "Necronium off hand battleaxe", "Necronium 2h greataxe", "Necronium battleaxe + 1", "Necronium off hand battleaxe + 1", "Necronium 2h greataxe + 1", "Necronium battleaxe + 2", "Necronium off hand battleaxe + 2", "Necronium 2h greataxe + 2", "Necronium battleaxe + 3", "Necronium off hand battleaxe + 3", "Necronium 2h greataxe + 3", "Necronium battleaxe + 4", "Necronium off hand battleaxe + 4", "Necronium 2h greataxe + 4"],
 			"BaneWeapon+": ["Bane longsword", "Bane off hand longsword", "Bane 2h sword", "Bane longsword + 1", "Bane off hand longsword + 1", "Bane 2h sword + 1", "Bane longsword + 2", "Bane off hand longsword + 2", "Bane 2h sword + 2", "Bane longsword + 3", "Bane off hand longsword + 3", "Bane 2h sword + 3", "Bane longsword + 4", "Bane off hand longsword + 4", "Bane 2h sword + 4", "Abyssal bane longsword", "Abyssal bane off hand longsword", "Abyssal bane 2h sword", "Dragon bane longsword", "Dragon bane off hand longsword", "Dragon bane 2h sword", "Revenant bane longsword", "Revenant bane off hand longsword", "Revenant bane 2h sword"],
-			"ElderRuneWeapon+": ["Elder rune longsword", "Elder rune off hand longsword", "Elder rune 2h sword", "Elder rune longsword + 1", "Elder rune off hand longsword + 1", "Elder rune 2h sword + 1", "Elder rune longsword + 2", "Elder rune off hand longsword + 2", "Elder rune 2h sword + 2", "Elder rune longsword + 3", "Elder rune off hand longsword + 3", "Elder rune 2h sword + 3", "Elder rune longsword + 4", "Elder rune off hand longsword + 4", "Elder rune 2h sword + 4", "Elder rune longsword + 5", "Elder rune off hand longsword + 5", "Elder rune 2h sword + 5"]
+			"ElderRuneWeapon+": ["Elder rune longsword", "Elder rune off hand longsword", "Elder rune 2h sword", "Elder rune longsword + 1", "Elder rune off hand longsword + 1", "Elder rune 2h sword + 1", "Elder rune longsword + 2", "Elder rune off hand longsword + 2", "Elder rune 2h sword + 2", "Elder rune longsword + 3", "Elder rune off hand longsword + 3", "Elder rune 2h sword + 3", "Elder rune longsword + 4", "Elder rune off hand longsword + 4", "Elder rune 2h sword + 4", "Elder rune longsword + 5", "Elder rune off hand longsword + 5", "Elder rune 2h sword + 5"],
+			"FighterHat+": ["Fighter hat", "Hardened fighter hat"],
+			"FighterTorso+": ["Fighter torso", "Hardened fighter torso"],
+			"RangerHat+": ["Ranger hat", "Hardened ranger hat"],
+			"RunnerHat+": ["Runner hat", "Hardened runner hat"],
+			"HealerHat+": ["Healer hat", "Hardened healer hat"],
+			"PenanceSkirt+": ["Penance skirt", "Hardened penance skirt"],
+			"PenanceGloves+": ["Penance gloves", "Hardened penance gloves"],
+			"RunnerBoots+": ["Runner boots", "Hardened runner boots"],
+			"GlobetrotterOutfit+": ["Globetrotter jacket", "Globetrotter shorts", "Globetrotter boots", "Globetrotter arm guards", "Globetrotter backpack"],
+			"GlacyteBoots+": ["Steadfast boots", "Glaven boots", "Ragefire boots"],
+			"AutomatonGloves+": ["Pneumatic gloves", "Tracking gloves", "Static gloves"],
+			"CrystalShield+": ["Crystal deflector", "Crystal shield", "Crystal ward"],
+			"AttunedCrystalShield+": ["Attuned crystal deflector", "Attuned crystal shield", "Attuned crystal ward"],
+			"DragonfireShield+": ["Dragonfire deflector", "Dragonfire shield", "Dragonfire ward"],
+			"ChaoticArmor+": ["Chaotic kiteshield", "Eagle-eye kiteshield", "Farseer kiteshield"],
+			"FremennikHelm+": ["Warrior helm", "Berserker helm", "Archer helm", "Farseer helm"],
+			"SacredClayShield+": ["Sacred clay shield (melee)", "Sacred clay shield (magic)", "Sacred clay shield (ranged)"],
+			"ShadowRealmShield+": ["Malevolent kiteshield", "Merciless kiteshield", "Vengeful kiteshield"],
+			"RelicHelm+": ["Relic helm of Armadyl", "Relic helm of Bandos", "Relic helm of Saradomin", "Relic helm of Seren", "Relic helm of Sliske", "Relic helm of Zamorak", "Relic helm of Zaros", "Relic helm of the Godless", "Relic helm of V"],
+			"PathfinderArmor+": ["Pathfinder hood", "Pathfinder jacket", "Pathfinder trousers", "Pathfinder gloves", "Pathfinder boots", "Pathfinder cape", "Amulet of potency"],
+			"Raider+": ["Raider chainbody", "Raider shield"],
+			"GudRaider+": ["Gud raider chainbody", "Gud raider shield"],
+			"YakHide+": ["Yak-hide armour (top)", "Yak-hide armour (legs)"],
+			"BasicDecorativeArmor+": ["Basic decorative helm", "Basic decorative platebody", "Basic decorative platelegs", "Basic decorative shield"],
+			"DetailedDecorativeArmor+": ["Detailed decorative helm", "Detailed decorative platebody", "Detailed decorative platelegs", "Detailed decorative shield"],
+			"IntricateDecorativeArmor+": ["Intricate decorative helm", "Intricate decorative platebody", "Intricate decorative platelegs", "Intricate decorative shield"],
+			"ProfoundDecorativeArmor+": ["Profound decorative helm", "Profound decorative platebody", "Profound decorative platelegs", "Profound decorative shield"],
+			"GhostHunter+": ["Ghost hunter goggles", "Ghost hunter body", "Ghost hunter logs", "Ghost hunter backpack"],
+			"FrogLeatherArmor+": ["Frog-leather body", "Frog-leather chaps", "Frog-leather boots"],
+			"DrakanOutfit+": ["House Drakan hood", "House Drakan top", "House Drakan trousers", "House Drakan boots"],
+			"SerenAnimaCore+": ["Anima core helm of Seren", "Anima core body of Seren", "Anima core legs of Seren"],
+			"RefinedSerenAnimaCore+": ["Refined anima core helm of Seren", "Refined anima core body of Seren", "Refined anima core legs of Seren"],
+			"SliskeAnimaCore+": ["Anima core helm of Sliske", "Anima core body of Sliske", "Anima core legs of Sliske"],
+			"RefinedSliskeAnimaCore+": ["Refined anima core helm of Sliske", "Refined anima core body of Sliske", "Refined anima core legs of Sliske"],
+			"ZamorakAnimaCore+": ["Anima core helm of Zamorak", "Anima core body of Zamorak", "Anima core legs of Zamorak"],
+			"RefinedZamorakAnimaCore+": ["Refined anima core helm of Zamorak", "Refined anima core body of Zamorak", "Refined anima core legs of Zamorak"],
+			"ZarosAnimaCore+": ["Anima core helm of Zaros", "Anima core body of Zaros", "Anima core legs of Zaros"],
+			"RefinedZarosAnimaCore+": ["Refined anima core helm of Zaros", "Refined anima core body of Zaros", "Refined anima core legs of Zaros"],
+			"TetsuArmor+": ["Tetsu helm", "Tetsu body", "Tetsu platelegs", "Superior tetsu helm", "Superior tetsu body", "Superior tetsu platelegs", "Superior tetsu kote", "Superior tetsu kogake"],
+			"SeasingerArmor+": ["Seasinger's hood", "Seasinger's robe top", "Seasinger's robe bottom", "Superior seasinger's hood", "Superior seasinger's robe top", "Superior seasinger's robe bottom", "Superior seasinger aonori", "Superior seasinger asari"],
+			"DeathLotusArmor+": ["Death Lotus hood", "Death Lotus chestplate", "Death Lotus chaps", "Superior Death Lotus hood", "Superior Death Lotus chestplate", "Superior Death Lotus chaps", "Superior Death Lotus tabi", "Superior Death Lotus tekoh"],
+			"ThirdAgeMeleeArmor+": ["Third age full helmet", "Third age platebody", "Third age platelegs", "Third age kiteshield"],
+			"ThirdAgeMageArmor+": ["Third age mage hat", "Third age robe top", "Third age robe bottom", "Third age amulet"],
+			"ThirdAgeRangedArmor+": ["Third age ranger coif", "Third age ranger body", "Third age chaps", "Third age vambraces"],
+			"ThirdAgePrayerArmor+": ["Third age druidic wreath", "Third age druidic robe top", "Third age druidic robe bottom", "Third age druidic cloak"],
+			"SecondAgeMeleeArmor+": ["Second-age full helmet", "Second-age platebody", "Second-age platelegs"],
+			"SecondAgeMageArmor+": ["Second-age mage mask", "Second-age robe top", "Second-age robe bottom"],
+			"SecondAgeRangedArmor+": ["Second-age range coif", "Second-age range body", "Second-age range legs"],
+			"Warpriest+": ["Warpriest of Saradomin helm", "Warpriest of Saradomin cuirass", "Warpriest of Saradomin greaves", "Warpriest of Saradomin gauntlets", "Warpriest of Saradomin boots", "Warpriest of Saradomin cape", "Warpriest of Zamorak helm", "Warpriest of Zamorak cuirass", "Warpriest of Zamorak greaves", "Warpriest of Zamorak gauntlets", "Warpriest of Zamorak boots", "Warpriest of Zamorak cape", "Warpriest of Armadyl helm", "Warpriest of Armadyl cuirass", "Warpriest of Armadyl greaves", "Warpriest of Armadyl gauntlets", "Warpriest of Armadyl boots", "Warpriest of Armadyl cape", "Warpriest of Bandos helm", "Warpriest of Bandos cuirass", "Warpriest of Bandos greaves", "Warpriest of Bandos gauntlets", "Warpriest of Bandos boots", "Warpriest of Bandos cape", "Warpriest of Tuska helm", "Warpriest of Tuska cuirass", "Warpriest of Tuska robe legs", "Warpriest of Tuska gauntlets", "Warpriest of Tuska boots", "Warpriest of Tuska cape"],
+			"BodyArmor+": ["Body helmet", "Body body", "Body shield", "Body gloves", "Body boots"],
+			"CosmicArmor+": ["Cosmic helmet", "Cosmic body", "Cosmic shield", "Cosmic gloves", "Cosmic boots"],
+			"ChaosArmor+": ["Chaos helmet", "Chaos body", "Chaos shield", "Chaos gloves", "Chaos boots"],
+			"GraniteArmor+": ["Granite helm", "Granite body", "Granite shield", "Granite legs"],
+			"SkeletalArmor+": ["Skeletal helm", "Skeletal top", "Skeletal bottoms", "Skeletal gloves", "Skeletal boots"],
+			"SuperiorSkeletalArmor+": ["Superior skeletal helm", "Superior skeletal top", "Superior skeletal bottoms", "Superior skeletal gloves", "Superior skeletal boots"],
+			"RockShellArmor+": ["Rock-shell helm", "Rock-shell plate", "Rock-shell legs", "Rock-shell gloves", "Rock-shell boots"],
+			"SuperiorRockShellArmor+": ["Superior rock-shell helm", "Superior rock-shell plate", "Superior rock-shell legs", "Superior rock-shell gloves", "Superior rock-shell boots"],
+			"SpinedArmor+": ["Spined helm", "Spined body", "Spined chaps", "Spined gloves", "Spined boots"],
+			"SuperiorSpinedArmor+": ["Superior spined helm", "Superior spined body", "Superior spined chaps", "Superior spined gloves", "Superior spined boots"],
+			"DragonstoneArmor+": ["Dragonstone helm", "Dragonstone hauberk", "Dragonstone greaves", "Dragonstone gauntlets", "Dragonstone boots"],
+			"GemstoneArmor+": ["Gemstone helm", "Gemstone hauberk", "Gemstone greaves", "Gemstone gauntlets", "Gemstone boots"],
+			"BandosArmor+": ["Bandos helmet", "Bandos chestplate", "Bandos tassets", "Bandos gloves", "Bandos boots", "Bandos warshield"],
+			"ArmadylArmor+": ["Armadyl helmet", "Armadyl chestplate", "Armadyl chainskirt", "Armadyl gloves", "Armadyl boots", "Armadyl buckler"],
+			"SubjugationRobes+": ["Hood of subjugation", "Garb of subjugation", "Gloves of subjugation", "Gown of subjugation", "Boots of subjugation", "Ward of subjugation"],
+			"CrystalArmor+": ["Crystal helm", "Crystal body", "Crystal legs", "Crystal boots", "Crystal gloves"],
+			"AttunedCrystalArmor+": ["Attuned crystal helm", "Attuned crystal body", "Attuned crystal legs", "Attuned crystal boots", "Attuned crystal gloves"],
+			"EliteBlackArmor+": ["Elite black full helm", "Elite black platebody", "Elite black platelegs"],
+			"AhrimArmor+": ["Ahrim's hood", "Ahrim's robe top", "Ahrim's robe skirt"],
+			"AkrisaeArmor+": ["Akrisae's hood", "Akrisae's robe top", "Akrisae's robe skirt"],
+			"DharokArmor+": ["Dharok's helm", "Dharok's platebody", "Dharok's platelegs"],
+			"ToragArmor+": ["Torag's helm", "Torag's platebody", "Torag's platelegs"],
+			"GuthanArmor+": ["Guthan's helm", "Guthan's platebody", "Guthan's chainskirt"],
+			"KarilArmor+": ["Karil's coif", "Karil's top", "Karil's skirt"],
+			"VeracArmor+": ["Verac's helm", "Verac's brassard", "Verac's plateskirt"],
+			"LinzaArmor+": ["Linza's helm", "Linza's cuirass", "Linza's greaves", "Linza's shield"],
+			"TectonicArmor+": ["Elite tectonic mask", "Elite tectonic robe top", "Elite tectonic robe bottom"],
+			"EliteTectonicArmor+": ["Tectonic mask", "Tectonic robe top", "Tectonic robe bottom"],
+			"SirenicArmor+": ["Sirenic mask", "Sirenic hauberk", "Sirenic chaps"],
+			"EliteSirenicArmor+": ["Elite sirenic mask", "Elite sirenic hauberk", "Elite sirenic chaps"],
+			"MalevolentArmor+": ["Malevolent helm", "Malevolent cuirass", "Malevolent greaves"],
+			"MeleeSacredClay+": ["Sacred clay helm", "Sacred clay platebody", "Sacred clay platelegs"],
+			"RangedSacredClay+": ["Sacred clay coif", "Sacred clay body", "Sacred clay chaps"],
+			"MageSacredClay+": ["Sacred clay hat", "Sacred clay robe top", "Sacred clay robe bottom"],
+			"CorruptStatiusArmor+": ["Corrupt Statius's full helm", "Corrupt Statius's platebody", "Corrupt Statius's platelegs"],
+			"CorruptVestaArmor+": ["Corrupt Vesta's chainbody", "Corrupt Vesta's plateskirt"],
+			"CorruptZurielArmor+": ["Corrupt Zuriel's hood", "Corrupt Zuriel's robe bottom", "Corrupt Zuriel's robe top"],
+			"CorruptMorriganArmor+": ["Corrupt Morrigan's coif", "Corrupt Morrigan's leather body", "Corrupt Morrigan's leather chaps"],
+			"AncientWarriorArmor+": ["Morrigan's coif", "Morrigan's leather body", "Morrigan's leather chaps", "Zuriel's hood", "Zuriel's robe bottom", "Zuriel's robe top", "Vesta's chainbody", "Vesta's plateskirt", "Statius's full helm", "Statius's platebody", "Statius's platelegs"],
+			"SuperiorAncientWarriorArmor+": ["Superior Morrigan's coif", "Superior Morrigan's leather body", "Superior Morrigan's leather chaps", "Superior Zuriel's hood", "Superior Zuriel's robe bottom", "Superior Zuriel's robe top", "Superior Vesta's chainbody", "Superior Vesta's plateskirt", "Superior Statius's full helm", "Superior Statius's platebody", "Superior Statius's platelegs"],
+			"BronzeArmor+": ["Bronze full helm", "Bronze med helm", "Bronze platebody", "Bronze chainbody", "Bronze kiteshield", "Bronze square shield", "Bronze gauntlets", "Bronze platelegs", "Bronze plateskirt", "Bronze armoured boots"],
+			"IronArmor+": ["Iron full helm", "Iron med helm", "Iron platebody", "Iron chainbody", "Iron kiteshield", "Iron square shield", "Iron gauntlets", "Iron platelegs", "Iron plateskirt", "Iron armoured boots", "Iron full helm + 1", "Iron med helm + 1", "Iron platebody + 1", "Iron chainbody + 1", "Iron kiteshield + 1", "Iron square shield + 1", "Iron gauntlets + 1", "Iron platelegs + 1", "Iron plateskirt + 1", "Iron armoured boots + 1"],
+			"SteelArmor+": ["Steel full helm", "Steel med helm", "Steel platebody", "Steel chainbody", "Steel kiteshield", "Steel square shield", "Steel gauntlets", "Steel platelegs", "Steel plateskirt", "Steel armoured boots", "Steel full helm + 1", "Steel med helm + 1", "Steel platebody + 1", "Steel chainbody + 1", "Steel kiteshield + 1", "Steel square shield + 1", "Steel gauntlets + 1", "Steel platelegs + 1", "Steel plateskirt + 1", "Steel armoured boots + 1"],
+			"BlackArmor+": ["Black full helm", "Black helm", "Black platebody", "Black chainbody", "Black kiteshield", "Black sq shield", "Black gauntlets", "Black platelegs", "Black plateskirt", "Black boots"],
+			"WhiteArmor+": ["White full helm", "White helm", "White platebody", "White chainbody", "White kiteshield", "White sq shield", "White gauntlets", "White platelegs", "White plateskirt", "White boots"],
+			"InitiateArmor+": ["Initiate sallet", "Initiate hauberk", "Initiate cuisse", "Initiate tasset"],
+			"ProselyteArmor+": ["Proselyte sallet", "Proselyte hauberk", "Proselyte cuisse", "Proselyte tasset"],
+			"MithrilArmor+": ["Mithril full helm", "Mithril med helm", "Mithril platebody", "Mithril chainbody", "Mithril kiteshield", "Mithril square shield", "Mithril gauntlets", "Mithril platelegs", "Mithril plateskirt", "Mithril armoured boots", "Mithril full helm + 1", "Mithril med helm + 1", "Mithril platebody + 1", "Mithril chainbody + 1", "Mithril kiteshield + 1", "Mithril square shield + 1", "Mithril gauntlets + 1", "Mithril platelegs + 1", "Mithril plateskirt + 1", "Mithril armoured boots + 1", "Mithril full helm + 2", "Mithril med helm + 2", "Mithril platebody + 2", "Mithril chainbody + 2", "Mithril kiteshield + 2", "Mithril square shield + 2", "Mithril gauntlets + 2", "Mithril platelegs + 2", "Mithril plateskirt + 2", "Mithril armoured boots + 2"],
+			"AdamantArmor+": ["Adamant full helm", "Adamant med helm", "Adamant platebody", "Adamant chainbody", "Adamant kiteshield", "Adamant square shield", "Adamant gauntlets", "Adamant platelegs", "Adamant plateskirt", "Adamant armoured boots", "Adamant full helm + 1", "Adamant med helm + 1", "Adamant platebody + 1", "Adamant chainbody + 1", "Adamant kiteshield + 1", "Adamant square shield + 1", "Adamant gauntlets + 1", "Adamant platelegs + 1", "Adamant plateskirt + 1", "Adamant armoured boots + 1", "Adamant full helm + 2", "Adamant med helm + 2", "Adamant platebody + 2", "Adamant chainbody + 2", "Adamant kiteshield + 2", "Adamant square shield + 2", "Adamant gauntlets + 2", "Adamant platelegs + 2", "Adamant plateskirt + 2", "Adamant armoured boots + 2"],
+			"RuneArmor+": ["Rune full helm", "Rune med helm", "Rune platebody", "Rune chainbody", "Rune kiteshield", "Rune square shield", "Rune gauntlets", "Rune platelegs", "Rune plateskirt", "Rune armoured boots", "Rune full helm + 1", "Rune med helm + 1", "Rune platebody + 1", "Rune chainbody + 1", "Rune kiteshield + 1", "Rune square shield + 1", "Rune gauntlets + 1", "Rune platelegs + 1", "Rune plateskirt + 1", "Rune armoured boots + 1", "Rune full helm + 2", "Rune med helm + 2", "Rune platebody + 2", "Rune chainbody + 2", "Rune kiteshield + 2", "Rune square shield + 2", "Rune gauntlets + 2", "Rune platelegs + 2", "Rune plateskirt + 2", "Rune armoured boots + 2", "Rune full helm + 3", "Rune med helm + 3", "Rune platebody + 3", "Rune chainbody + 3", "Rune kiteshield + 3", "Rune square shield + 3", "Rune gauntlets + 3", "Rune platelegs + 3", "Rune plateskirt + 3", "Rune armoured boots + 3"],
+			"DragonArmor+": ["Dragon full helm", "Dragon helm", "Dragon platebody", "Dragon chainbody", "Dragon kiteshield", "Dragon sq shield", "Dragon gauntlets", "Dragon platelegs", "Dragon plateskirt", "Dragon boots", "Dragon ward"],
+			"CorruptDragonArmor+": ["Corrupt dragon helm", "Corrupt dragon chainbody", "Corrupt dragon sq shield", "Corrupt dragon platelegs", "Corrupt dragon plateskirt"],
+			"OrikalkumArmor+": ["Orikalkum full helm", "Orikalkum platebody", "Orikalkum kiteshield", "Orikalkum gauntlets", "Orikalkum platelegs", "Orikalkum armoured boots", "Orikalkum full helm + 1", "Orikalkum platebody + 1", "Orikalkum kiteshield + 1", "Orikalkum gauntlets + 1", "Orikalkum platelegs + 1", "Orikalkum armoured boots + 1", "Orikalkum full helm + 2", "Orikalkum platebody + 2", "Orikalkum kiteshield + 2", "Orikalkum gauntlets + 2", "Orikalkum platelegs + 2", "Orikalkum armoured boots + 2", "Orikalkum full helm + 3", "Orikalkum platebody + 3", "Orikalkum kiteshield + 3", "Orikalkum gauntlets + 3", "Orikalkum platelegs + 3", "Orikalkum armoured boots + 3"],
+			"NecroniumArmor+": ["Necronium full helm", "Necronium platebody", "Necronium kiteshield", "Necronium gauntlets", "Necronium platelegs", "Necronium armoured boots", "Necronium full helm + 1", "Necronium platebody + 1", "Necronium kiteshield + 1", "Necronium gauntlets + 1", "Necronium platelegs + 1", "Necronium armoured boots + 1", "Necronium full helm + 2", "Necronium platebody + 2", "Necronium kiteshield + 2", "Necronium gauntlets + 2", "Necronium platelegs + 2", "Necronium armoured boots + 2", "Necronium full helm + 3", "Necronium platebody + 3", "Necronium kiteshield + 3", "Necronium gauntlets + 3", "Necronium platelegs + 3", "Necronium armoured boots + 3", "Necronium full helm + 4", "Necronium platebody + 4", "Necronium kiteshield + 4", "Necronium gauntlets + 4", "Necronium platelegs + 4", "Necronium armoured boots + 4"],
+			"BaneArmor+": ["Bane full helm", "Bane platebody", "Bane square shield", "Bane gauntlets", "Bane platelegs", "Bane armoured boots", "Bane full helm + 1", "Bane platebody + 1", "Bane square shield + 1", "Bane gauntlets + 1", "Bane platelegs + 1", "Bane armoured boots + 1", "Bane full helm + 2", "Bane platebody + 2", "Bane square shield + 2", "Bane gauntlets + 2", "Bane platelegs + 2", "Bane armoured boots + 2", "Bane full helm + 3", "Bane platebody + 3", "Bane square shield + 3", "Bane gauntlets + 3", "Bane platelegs + 3", "Bane armoured boots + 3", "Bane full helm + 4", "Bane platebody + 4", "Bane square shield + 4", "Bane gauntlets + 4", "Bane platelegs + 4", "Bane armoured boots + 4", "Abyssal bane square shield", "Dragon bane square shield", "Revenant bane square shield"],
+			"ElderRuneArmor+": ["Elder rune full helm", "Elder rune platebody", "Elder rune round shield", "Elder rune gauntlets", "Elder rune platelegs", "Elder rune armoured boots", "Elder rune full helm + 1", "Elder rune platebody + 1", "Elder rune round shield + 1", "Elder rune gauntlets + 1", "Elder rune platelegs + 1", "Elder rune armoured boots + 1", "Elder rune full helm + 2", "Elder rune platebody + 2", "Elder rune round shield + 2", "Elder rune gauntlets + 2", "Elder rune platelegs + 2", "Elder rune armoured boots + 2", "Elder rune full helm + 3", "Elder rune platebody + 3", "Elder rune round shield + 3", "Elder rune gauntlets + 3", "Elder rune platelegs + 3", "Elder rune armoured boots + 3", "Elder rune full helm + 4", "Elder rune platebody + 4", "Elder rune round shield + 4", "Elder rune gauntlets + 4", "Elder rune platelegs + 4", "Elder rune armoured boots + 4", "Elder rune full helm + 5", "Elder rune platebody + 5", "Elder rune round shield + 5", "Elder rune gauntlets + 5", "Elder rune platelegs + 5", "Elder rune armoured boots + 5"],
+			"MasterworkArmor+": ["Masterwork helm", "Masterwork platebody", "Masterwork gloves", "Masterwork platelegs", "Masterwork boots"],
+			"TrimmedMasterworkArmor+": ["Trimmed masterwork helm", "Trimmed masterwork platebody", "Trimmed masterwork gloves", "Trimmed masterwork platelegs", "Trimmed masterwork boots"],
+			"ObsidianArmor+": ["Obsidian warrior helm", "Obsidian mage helm", "Obsidian ranger helm", "Obsidian platebody", "Obsidian kiteshield", "Obsidian platelegs", "Obsidian plateskirt", "Obsidian gloves", "Obsidian boots"],
+			"SoftLeatherArmor+": ["Leather cowl", "Leather body", "Leather gloves", "Leather vambraces", "Leather chaps", "Leather boots", "Leather shield"],
+			"HardLeatherArmor+": ["Hard leather cowl", "Hard leather body", "Hard leather gloves", "Hard leather chaps", "Hard leather boots", "Hard leather shield"],
+			"StuddedLeatherArmor+": ["Studded leather cowl", "Studded body", "Studded leather gloves", "Studded chaps", "Studded leather boots", "Studded leather shield"],
+			"SnakeskinArmor+": ["Snakeskin bandana", "Snakeskin body", "Snakeskin vambraces", "Snakeskin chaps", "Snakeskin boots"],
+			"CarapaceArmor+": ["Carapace helm", "Carapace torso", "Carapace gloves", "Carapace legs", "Carapace boots", "Carapace shield"],
+			"GreenDragonhideArmor+": ["Green dragonhide coif", "Green dragonhide body", "Green dragonhide vambraces", "Green dragonhide chaps", "Green dragonhide boots", "Green dragonhide shield"],
+			"BlueDragonhideArmor+": ["Blue dragonhide coif", "Blue dragonhide body", "Blue dragonhide vambraces", "Blue dragonhide chaps", "Blue dragonhide boots", "Blue dragonhide shield"],
+			"RedDragonhideArmor+": ["Red dragonhide coif", "Red dragonhide body", "Red dragonhide vambraces", "Red dragonhide chaps", "Red dragonhide boots", "Red dragonhide shield"],
+			"BlackDragonhideArmor+": ["Black dragonhide coif", "Black dragonhide body", "Black dragonhide vambraces", "Black dragonhide chaps", "Black dragonhide boots", "Black dragonhide shield"],
+			"RoyalDragonhideArmor+": ["Royal dragonhide coif", "Royal dragonhide body", "Royal dragonhide vambraces", "Royal dragonhide chaps", "Dinosaurhide boots"],
+			"DinosaurhideArmor+": ["Dinosaurhide cowl", "Dinosaurhide body", "Dinosaurhide gloves", "Dinosaurhide chaps", "Dinosaurhide boots"],
+			"EliteRobinHoodArmor+": ["Elite Robin Hood hat", "Elite Robin Hood tunic", "Elite Robin Hood tights", "Elite Robin Hood boots"],
+			"WizardRobes+": ["Wizard hat (blue)", "Wizard robe top", "Wizard robe skirt", "Wizard gloves", "Wizard boots", "Wizard shield", "Black wizard hat", "Black wizard robe top", "Black wizard robe skirt", "Black wizard gloves", "Black wizard boots", "Black wizard shield"],
+			"MyceliumWebArmor+": ["Mycelium visor web", "Mycelium poncho web", "Mycelium leggings web"],
+			"ImphideRobes+": ["Imphide hood", "Imphide robe top", "Imphide robe bottom", "Imphide gloves", "Imphide boots", "Imphide shield"],
+			"CombatRobes+": ["Combat hood", "Combat robe top", "Combat robe bottom"],
+			"SpiderSilkRobes+": ["Spider silk hood", "Spider silk robe top", "Spider silk robe bottom", "Spider silk gloves", "Spider silk boots", "Spider silk shield"],
+			"FungalArmor+": ["Fungal visor", "Fungal poncho", "Fungal leggings"],
+			"BatwingRobes+": ["Batwing hood", "Batwing torso", "Batwing legs", "Batwing gloves", "Batwing boots", "Batwing shield"],
+			"DruidicMageRobes+": ["Druidic mage hood", "Druidic mage top", "Druidic mage bottom"],
+			"Dagon'haiRobes+": ["Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom"],
+			"NecromancerRobes+": ["Necromancer hood", "Necromancer robe top", "Necromancer robe bottom"],
+			"SplitbarkArmor+": ["Splitbark helm", "Splitbark body", "Splitbark legs", "Splitbark gauntlets", "Splitbark boots", "Splitbark shield"],
+			"LunarArmor+": ["Lunar helm", "Lunar torso", "Lunar legs", "Lunar gloves", "Lunar boots", "Lunar cape", "Lunar ring"],
+			"EnchantedRobes+": ["Enchanted hat", "Enchanted top", "Enchanted robe"],
+			"MysticRobes+": ["Mystic hat (blue)", "Mystic robe top (blue)", "Mystic robe bottom (blue)", "Mystic gloves (blue)", "Mystic boots (blue)", "Mystic shield", "Dark mystic hat", "Dark mystic robe top", "Dark mystic robe bottom", "Dark mystic gloves", "Dark mystic boots", "Light mystic hat", "Light mystic robe top", "Light mystic robe bottom", "Light mystic gloves", "Light mystic boots"],
+			"BattleRobes+": ["Battle hood", "Battle robe top", "Battle robe bottom"],
+			"BattleMageRobes+": ["Battle-mage helm", "Battle-mage robe", "Battle-mage legs", "Battle-mage gloves", "Battle-mage boots"],
+			"TricksterArmor+": ["Trickster helm", "Trickster robe", "Trickster robe legs", "Trickster gloves", "Trickster boots"],
+			"VangaurdArmor+": ["Vangaurd helm", "Vangaurd body", "Vangaurd legs", "Vangaurd gloves", "Vangaurd boots"],
+			"InfinityRobes+": ["Infinity hat", "Infinity top", "Infinity bottoms", "Infinity gloves", "Infinity boots"],
+			"DragonRiderArmor+": ["Dragon Rider helm", "Dragon Rider body", "Dragon Rider chaps", "Dragon Rider cape", "Superior Dragon Rider gloves", "Superior Dragon Rider boots"],
+			"HighArmorOfHanto+": ["High Armour of Hanto headpiece", "High Armour of Hanto cuirass", "High Armour of Hanto handguards", "High Armour of Hanto legguards", "High Armour of Hanto sabatons"],
+			"GrifolicArmor+": ["Grifolic visor", "Grifolic poncho", "Grifolic leggings", "Grifolic gloves", "Grifolic shield"],
+			"GanodermicArmor+": ["Ganodermic visor", "Ganodermic poncho", "Ganodermic leggings", "Ganodermic gloves", "Ganodermic boots"],
+			"TeralithArmor+": ["Teralith helmet", "Teralith cuirass", "Teralith leggings", "Teralith gauntlets", "Teralith boots", "Acho Teralith helmet", "Acho Teralith cuirass", "Acho Teralith leggings", "Acho Teralith gauntlets", "Acho Teralith boots"],
+			"PrimevalArmor+": ["Primeval mask", "Primeval robe top", "Primeval robe legs", "Primeval gloves", "Primeval boots", "Acho Primeval mask", "Acho Primeval robe top", "Acho Primeval robe legs", "Acho Primeval gloves", "Acho Primeval boots"],
+			"TempestArmor+": ["Tempest cowl", "Tempest body", "Tempest chaps", "Tempest gloves", "Tempest boots", "Acho Tempest cowl", "Acho Tempest body", "Acho Tempest chaps", "Acho Tempest gloves", "Acho Tempest boots"],
+			"CryptbloomArmor+": ["Cryptbloom helm", "Cryptbloom top", "Cryptbloom bottoms", "Cryptbloom gloves", "Cryptbloom boots"]
 		},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -78734,6 +80355,91 @@
 			"Tiny plated steel salvage": "Uncommon",
 			"Small plated mithril salvage": "Rare",
 			"Tiny plated rune salvage": "Very rare",
+			"Law rune": "Rare",
+			"Death rune": "Rare",
+			"Nature rune": "Rare",
+			"Mind rune": "Rare",
+			"Cosmic rune": "Rare",
+			"Water rune": "Rare",
+			"Fire rune": "Rare",
+			"Body talisman": "Uncommon",
+			"Fire talisman": "Uncommon",
+			"Redberry seed": "Unknown",
+			"Woad seed": "Unknown",
+			"Hammerstone seed": "Unknown",
+			"Potato seed": "Unknown",
+			"Sweetcorn seed": "Unknown",
+			"Watermelon seed": "Unknown",
+			"Avantoe seed": "Unknown",
+			"Marrentill seed": "Unknown",
+			"Strawberry seed": "Unknown",
+			"Bittercap mushroom spore": "Unknown",
+			"Belladonna seed": "Unknown",
+			"Wildblood seed": "Unknown",
+			"Cabbage seed": "Unknown",
+			"Yanillian seed": "Unknown",
+			"Ranarr seed": "Unknown",
+			"Tarromin seed": "Unknown",
+			"Harralander seed": "Unknown",
+			"Whiteberry seed": "Unknown",
+			"Jangerberry seed": "Rare",
+			"Spirit weed seed": "Rare",
+			"Dwarf weed seed": "Rare",
+			"Cactus seed": "Rare",
+			"Cadantine seed": "Rare",
+			"Limpwurt seed": "Rare",
+			"Irit seed": "Very rare",
+			"Lantadyme seed": "Very rare",
+			"Toadflax seed": "Very Rare",
+			"Grimy dwarf weed": "Rare",
+			"Grimy irit": "Rare",
+			"Grimy avantoe": "Rare",
+			"Grimy guam": "Rare",
+			"Grimy ranarr": "Rare",
+			"Grimy kwuarm": "Rare",
+			"Grimy tarromin": "Rare",
+			"Grimy harralander": "Rare",
+			"Grimy lantadyme": "Rare",
+			"Grimy marrentill": "Rare",
+			"Grimy cadantine": "Rare",
+			"Limpwurt root": "Common",
+			"Long bone": "1/400",
+			"Curved bone": "1/5000",
+			"Shoulder bone": "Common",
+			"Sealed clue scroll (hard)": "1/512",
+			"Starved ancient effigy": "Very rare",
+			"Rare drop table": "Rare"
+		},
+		"Cyclops (Warrior)": {
+			"Big bones": "Always",
+			"Coins": "Common",
+			"Beer": "Common",
+			"Black sword": "Common",
+			"Off-hand black sword": "Common",
+			"Black dagger": "Common",
+			"Off-hand black dagger": "Very Rare",
+			"Black knife": "Common",
+			"Off-hand black knife": "Common",
+			"Black longsword": "Common",
+			"Off-hand black longsword": "Common",
+			"Black 2h sword": "Uncommon",
+			"Steel arrow": "Rare",
+			"Medium bladed iron salvage": "Common",
+			"Tiny blunt steel salvage": "Common",
+			"Tiny spiky steel salvage": "Common",
+			"Small bladed steel salvage": "Common",
+			"Medium bladed steel salvage": "Common",
+			"Tiny spiky mithril salvage": "Uncommon",
+			"Small bladed mithril salvage": "Uncommon",
+			"Tiny blunt adamant salvage": "Uncommon",
+			"Medium bladed adamant salvage": "Rare",
+			"Tiny spiky rune salvage": "Very rare",
+			"Medium plated iron salvage": "Uncommon",
+			"Medium plated steel salvage": "Common",
+			"Small plated iron salvage": "Uncommon",
+			"Tiny plated steel salvage": "Uncommon",
+			"Small plated mithril salvage": "Rare",
+			"Tiny plated rune salvage": "Very rare",
 			"Bronze defender": "uncommon",
 			"Iron defender": "uncommon",
 			"Steel defender": "uncommon",
@@ -78742,6 +80448,91 @@
 			"Adamant defender": "uncommon",
 			"Rune defender": "uncommon",
 			"Dragon defender": "uncommon",
+			"Law rune": "Rare",
+			"Death rune": "Rare",
+			"Nature rune": "Rare",
+			"Mind rune": "Rare",
+			"Cosmic rune": "Rare",
+			"Water rune": "Rare",
+			"Fire rune": "Rare",
+			"Body talisman": "Uncommon",
+			"Fire talisman": "Uncommon",
+			"Redberry seed": "Unknown",
+			"Woad seed": "Unknown",
+			"Hammerstone seed": "Unknown",
+			"Potato seed": "Unknown",
+			"Sweetcorn seed": "Unknown",
+			"Watermelon seed": "Unknown",
+			"Avantoe seed": "Unknown",
+			"Marrentill seed": "Unknown",
+			"Strawberry seed": "Unknown",
+			"Bittercap mushroom spore": "Unknown",
+			"Belladonna seed": "Unknown",
+			"Wildblood seed": "Unknown",
+			"Cabbage seed": "Unknown",
+			"Yanillian seed": "Unknown",
+			"Ranarr seed": "Unknown",
+			"Tarromin seed": "Unknown",
+			"Harralander seed": "Unknown",
+			"Whiteberry seed": "Unknown",
+			"Jangerberry seed": "Rare",
+			"Spirit weed seed": "Rare",
+			"Dwarf weed seed": "Rare",
+			"Cactus seed": "Rare",
+			"Cadantine seed": "Rare",
+			"Limpwurt seed": "Rare",
+			"Irit seed": "Very rare",
+			"Lantadyme seed": "Very rare",
+			"Toadflax seed": "Very Rare",
+			"Grimy dwarf weed": "Rare",
+			"Grimy irit": "Rare",
+			"Grimy avantoe": "Rare",
+			"Grimy guam": "Rare",
+			"Grimy ranarr": "Rare",
+			"Grimy kwuarm": "Rare",
+			"Grimy tarromin": "Rare",
+			"Grimy harralander": "Rare",
+			"Grimy lantadyme": "Rare",
+			"Grimy marrentill": "Rare",
+			"Grimy cadantine": "Rare",
+			"Limpwurt root": "Common",
+			"Long bone": "1/400",
+			"Curved bone": "1/5000",
+			"Shoulder bone": "Common",
+			"Sealed clue scroll (hard)": "1/512",
+			"Starved ancient effigy": "Very rare",
+			"Rare drop table": "Rare"
+		},
+		"Cyclops (GWD)": {
+			"Big bones": "Always",
+			"Coins": "Common",
+			"Beer": "Common",
+			"Black sword": "Common",
+			"Off-hand black sword": "Common",
+			"Black dagger": "Common",
+			"Off-hand black dagger": "Very Rare",
+			"Black knife": "Common",
+			"Off-hand black knife": "Common",
+			"Black longsword": "Common",
+			"Off-hand black longsword": "Common",
+			"Black 2h sword": "Uncommon",
+			"Steel arrow": "Rare",
+			"Medium bladed iron salvage": "Common",
+			"Tiny blunt steel salvage": "Common",
+			"Tiny spiky steel salvage": "Common",
+			"Small bladed steel salvage": "Common",
+			"Medium bladed steel salvage": "Common",
+			"Tiny spiky mithril salvage": "Uncommon",
+			"Small bladed mithril salvage": "Uncommon",
+			"Tiny blunt adamant salvage": "Uncommon",
+			"Medium bladed adamant salvage": "Rare",
+			"Tiny spiky rune salvage": "Very rare",
+			"Medium plated iron salvage": "Uncommon",
+			"Medium plated steel salvage": "Common",
+			"Small plated iron salvage": "Uncommon",
+			"Tiny plated steel salvage": "Uncommon",
+			"Small plated mithril salvage": "Rare",
+			"Tiny plated rune salvage": "Very rare",
 			"Law rune": "Rare",
 			"Death rune": "Rare",
 			"Nature rune": "Rare",
