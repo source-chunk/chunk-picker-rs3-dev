@@ -169,6 +169,7 @@
 				"Priority": 3
 			},
 			"Play a game of ~|Gnome ball|~": {
+				"Category": ["Minigame"],
 				"Chunks": ["9526"],
 				"Level": 1,
 				"Primary": true,
@@ -793,6 +794,7 @@
 				"Priority": 1
 			},
 			"Complete the ~|flash powder factory|~ minegame": {
+				"Category": ["Minigame"],
 				"Level": 75,
 				"Chunks": ["Rogues' Den"],
 				"Output": "FlashPowder",
@@ -4066,6 +4068,20 @@
 				"Output": "Summer sq'irkjuice",
 				"Primary": true,
 				"Priority": 60
+			},
+			"Cut ~|roe|~ from a leaping fish": {
+				"Items": ["LeapingFish+"],
+				"Level": 1,
+				"Output": "Roe",
+				"Primary": true,
+				"Priority": 61
+			},
+			"Cut ~|caviar|~ from a leaping sturgeon": {
+				"Items": ["Leaping sturgeon"],
+				"Level": 1,
+				"Output": "Caviar",
+				"Primary": true,
+				"Priority": 62
 			},
 			"Make ~|chocolatey milk|~": {
 				"Items": ["Bucket of milk", "Chocolate dust"],
@@ -13432,6 +13448,24 @@
 				},
 				"Primary": false,
 				"Priority": 1
+			},
+			"Equip the ~|herbicide|~": {
+				"Items": ["Herbicide"],
+				"Level": 21,
+				"Skills": {
+					"Herblore": 21
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Read the ~|scroll of cleansing|~": {
+				"Items": ["Scroll of cleansing"],
+				"Level": 49,
+				"Skills": {
+					"Herblore": 49
+				},
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Farming": {
@@ -14731,6 +14765,13 @@
 				"Output": "Green manure",
 				"Primary": false,
 				"Priority": 12
+			},
+			"Pick a ~|star flower|~": {
+				"Objects": ["Star flower"],
+				"Level": 49,
+				"Output": "Star flower",
+				"Primary": false,
+				"Priority": 13
 			},
 			"Grow a ~|grimy aventoe|~": {
 				"Items": ["Aventoe seed"],
@@ -21190,7 +21231,626 @@
 			}
 		},
 		"Herblore": {
-			"Complete the ~|flash powder factory|~ minegame": {
+			"Clean a ~|grimy guam|~": {
+				"Items": ["Grimy guam"],
+				"Level": 1,
+				"Output": "Clean guam",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|guam potion (unf)|~": {
+				"Items": ["Clean guam", "Vial of water"],
+				"Level": 1,
+				"Output": "Guam potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|attack potion|~": {
+				"Items": ["Guam potion (unf)", "Eye of newt"],
+				"Level": 1,
+				"Output": "Attack potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Grind ~|unicorn horn dust|~": {
+				"Items": ["Unicorn horn"],
+				"Level": 1,
+				"Output": "Unicorn horn dust",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Grind ~|kebbit teeth dust|~": {
+				"Items": ["Kebbit teeth"],
+				"Level": 1,
+				"Output": "Kebbit teeth dust",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Grind ~|gorak claw powder|~": {
+				"Items": ["Gorak claw"],
+				"Level": 1,
+				"Output": "Gorak claw powder",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Grind a ~|crushed nest|~": {
+				"Items": ["Bird's nest (empty)"],
+				"Level": 1,
+				"Output": "Crushed nest",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Grind ~|goat horn dust|~": {
+				"Items": ["Desert goat horn"],
+				"Level": 1,
+				"Output": "Goat horn dust",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Grind ~|dragon scale dust|~": {
+				"Items": ["Blue dragon scale"],
+				"Level": 1,
+				"Output": "Dragon scale dust",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Grind ~|ground mud runes|~": {
+				"Items": ["Mud rune"],
+				"Level": 1,
+				"Output": "Ground mud runes",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Grind ~|ground ashes|~": {
+				"Items": ["Ashes"],
+				"Level": 1,
+				"Output": "Ground ashes",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Grind ~|dust of Armadyl|~": {
+				"Items": ["Shards of Armadyl"],
+				"Level": 1,
+				"Output": "Dust of Armadyl",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Grind a ~|ground tooth|~": {
+				"Items": ["Suqah tooth"],
+				"Level": 1,
+				"Output": "Ground tooth",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Grind ~|silver dust|~": {
+				"Items": ["Silver bar"],
+				"Level": 1,
+				"Output": "Silver dust",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Grind a ~|crushed dragonstone|~": {
+				"Items": ["Dragonstone"],
+				"Level": 1,
+				"Output": "Crushed dragonstone",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Fill a vial of ~|coconut milk|~": {
+				"Items": ["Coconut (open)"],
+				"Level": 1,
+				"Output": "Coconut milk",
+				"Primary": true,
+				"Priority": 17
+			},
+			"Grind ~|ground wyvern bones|~": {
+				"Items": ["Wyvern bones"],
+				"Level": 1,
+				"Output": "Ground wyvern bones",
+				"Primary": true,
+				"Priority": 18
+			},
+			"Mix a ~|ranging potion|~": {
+				"Items": ["Guam potion (unf)", "Redberries"],
+				"Level": 3,
+				"Output": "Ranging potion",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy rogue's purse|~": {
+				"Items": ["Grimy rogue's purse"],
+				"Level": 3,
+				"Output": "Clean rogue's purse",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Clean a ~|grimy snake weed|~": {
+				"Items": ["Grimy snake weed"],
+				"Level": 3,
+				"Output": "Clean snake weed",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make ~|neem oil|~": {
+				"Items": ["Neem dupe", "Jug"],
+				"Level": 3,
+				"Output": "Neem oil",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|attack mix|~": {
+				"Items": ["AttackPotion+", "Roe"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 4,
+				"Output": "Attack mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy tarromin|~": {
+				"Items": ["Grimy tarromin"],
+				"Level": 5,
+				"Output": "Clean tarromin",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|tarromin potion (unf)|~": {
+				"Items": ["Clean tarromin", "Vial of water"],
+				"Level": 5,
+				"Output": "Tarromin potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|magic potion|~": {
+				"Items": ["Tarromin potion (unf)", "ImpBead+"],
+				"Level": 5,
+				"Output": "Magic potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|ranging mix|~": {
+				"Items": ["RangingPotion+", "Roe"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 5,
+				"Output": "Ranging mix (2)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|rogue's purse potion (unf)|~": {
+				"Items": ["Clean rogue's purse", "Vial of water"],
+				"Level": 5,
+				"Output": "Rogue's purse potion (unf)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix a ~|strength potion|~": {
+				"Items": ["Tarromin potion (unf)", "Limpwurt root"],
+				"Level": 7,
+				"Output": "Strength potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|magic mix|~": {
+				"Items": ["MagicPotion+", "Roe"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 7,
+				"Output": "Magic mix (2)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix ~|Relicym's balm|~": {
+				"Items": ["Rogue's purse potion (unf)", "Clean snake weed"],
+				"Level": 8,
+				"Output": "Relicym's balm (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy marrentill|~": {
+				"Items": ["Grimy marrentill"],
+				"Level": 9,
+				"Output": "Clean marrentill",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|marrentill potion (unf)|~": {
+				"Items": ["Clean marrentill", "Vial of water"],
+				"Level": 9,
+				"Output": "Marrentill potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|defence potion|~": {
+				"Items": ["Marrentill potion (unf)", "Bear fur"],
+				"Level": 9,
+				"Output": "Defence potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix ~|Relicym's mix|~": {
+				"Items": ["RelicymBalm+", "Roe"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 9,
+				"Output": "Relicym's mix (2)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|strength mix|~": {
+				"Items": ["StrengthPotion+", "Roe"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 9,
+				"Output": "Strength mix (2)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix a ~|defence mix|~": {
+				"Items": ["DefencePotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 11,
+				"Output": "Defence mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|antipoison|~": {
+				"Items": ["Marrentill potion (unf)", "Unicorn horn dust"],
+				"Level": 13,
+				"Output": "Antipoison (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|antipoison mix|~": {
+				"Items": ["AntipoisonPotion+", "Roe"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 15,
+				"Output": "Antipoison mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix ~|serum 207|~": {
+				"Chunks": ["13875"],
+				"Items": ["Tarromin potion (unf)", "Ashes"],
+				"Level": 15,
+				"Output": "Serum 207 (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|Guthix rest|~": {
+				"Items": ["Harralander potion (unf)", "Clean marrentill"],
+				"Level": 18,
+				"Output": "Guthix rest (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|guam tar|~": {
+				"Items": ["Clean guam", "Swamp tar"],
+				"Level": 19,
+				"Output": "Guam tar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy harralander|~": {
+				"Items": ["Grimy harralander"],
+				"Level": 20,
+				"Output": "Clean harralander",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|harralander potion (unf)|~": {
+				"Items": ["Clean harralander", "Vial of water"],
+				"Level": 20,
+				"Output": "Harralander potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Equip the ~|herbicide|~": {
+				"Items": ["Herbicide"],
+				"Level": 21,
+				"Skills": {
+					"Dungeoneering": 21
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Mix a ~|restore potion|~": {
+				"Items": ["Harralander potion (unf)", "Red spiders' eggs"],
+				"Level": 22,
+				"Output": "Restore potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|Guthix balance (unf)|~": {
+				"Items": ["Restore potion (3)", "Garlic"],
+				"Level": 22,
+				"Output": "Guthix balance (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|Guthix balance|~": {
+				"Items": ["Guthix balance (unf)", "Silver dust"],
+				"Level": 22,
+				"Output": "Guthix balance (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|restore mix|~": {
+				"Items": ["RestorePotion+", "Roe"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 24,
+				"Output": "Restore mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix ~|blamish oil|~": {
+				"Items": ["Harralander potion (unf)", "Blamish snail slime"],
+				"Level": 25,
+				"Output": "Blamish oil",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy ranarr|~": {
+				"Items": ["Grimy ranarr"],
+				"Level": 25,
+				"Output": "Clean ranarr",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|ranarr potion (unf)|~": {
+				"Items": ["Clean ranarr", "Vial of water"],
+				"Level": 25,
+				"Output": "Ranarr potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|energy potion|~": {
+				"Items": ["Harralander potion (unf)", "Chocolate dust"],
+				"Level": 26,
+				"Output": "Energy potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|energy mix|~": {
+				"Items": ["EnergyPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 29,
+				"Output": "Energy mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy toadflax|~": {
+				"Items": ["Grimy toadflax"],
+				"Level": 30,
+				"Output": "Clean toadflax",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|toadflax potion (unf)|~": {
+				"Items": ["Clean toadflax", "Vial of water"],
+				"Level": 30,
+				"Output": "Toadlfax potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Make ~|marrentill tar|~": {
+				"Items": ["Clean marrentill", "Swamp tar"],
+				"Level": 31,
+				"Output": "Marrentill tar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super fishing explosive|~": {
+				"Items": ["Guam potion (unf)", "Rubium"],
+				"Level": 31,
+				"Output": "Super fishing explosive",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|troll potion|~": {
+				"Items": ["Ranarr potion (unf)", "Ground thistle"],
+				"Level": 31,
+				"Output": "Troll potion",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|agility potion|~": {
+				"Items": ["Toadflax potion (unf)", "Toad's legs"],
+				"Level": 34,
+				"Output": "Agility potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy spirit weed|~": {
+				"Items": ["Grimy spirit weed"],
+				"Level": 35,
+				"Output": "Clean spirit weed",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|spirit weed potion (unf)|~": {
+				"Items": ["Clean spirit weed", "Vial of water"],
+				"Level": 35,
+				"Output": "Spirit weed potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|combat potion|~": {
+				"Items": ["Harralander potion (unf)", "Goat horn dust"],
+				"Level": 36,
+				"Output": "Combat potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|agility mix|~": {
+				"Items": ["AgilityPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 37,
+				"Output": "Agility mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|goblin potion|~": {
+				"Items": ["Toadflax potion (unf)", "Pharmakos berries"],
+				"Level": 37,
+				"Output": "Goblin potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|prayer potion|~": {
+				"Items": ["Ranarr potion (unf)", "Snape grass"],
+				"Level": 38,
+				"Output": "Prayer potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|tarromin tar|~": {
+				"Items": ["Clean tarromin", "Swamp tar"],
+				"Level": 39,
+				"Output": "Tarromin tar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|summoning potion|~": {
+				"Items": ["Spirit weed potion (unf)", "Cockatrice egg"],
+				"Level": 40,
+				"Output": "Summoning potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy irit|~": {
+				"Items": ["Grimy irit"],
+				"Level": 40,
+				"Output": "Clean irit",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|irit potion (unf)|~": {
+				"Items": ["Clean irit", "Vial of water"],
+				"Level": 40,
+				"Output": "Irit potion (unf)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|combat mix|~": {
+				"Items": ["CombatPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 40,
+				"Output": "Combat mix (2)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Clean a ~|grimy wergali|~": {
+				"Items": ["Grimy wergali"],
+				"Level": 41,
+				"Output": "Clean wergali",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|wergali potion (unf)|~": {
+				"Items": ["Clean wergali", "Vial of water"],
+				"Level": 41,
+				"Output": "Wergali potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|crafting potion|~": {
+				"Items": ["Wergali potion (unf)", "Frog spawn"],
+				"Level": 42,
+				"Output": "Crafting potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|prayer mix|~": {
+				"Items": ["PrayerPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 42,
+				"Output": "Prayer mix (2)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|divination potion|~": {
+				"Items": ["Spirit weed potion (unf)", "Rabbit foot"],
+				"Level": 43,
+				"Output": "Divination potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Make ~|harralander tar|~": {
+				"Items": ["Clean harralander", "Swamp tar"],
+				"Level": 44,
+				"Output": "Harralander tar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super attack|~": {
+				"Items": ["Irit potion (unf)", "Eye of newt"],
+				"Level": 45,
+				"Output": "Super attack (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|vial of stench|~": {
+				"Items": ["Irit potion (unf)", "Chopped onion"],
+				"Level": 46,
+				"Output": "Vial of stench",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super attack mix|~": {
+				"Items": ["SuperAttackPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 47,
+				"Output": "Super attack mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy avantoe|~": {
+				"Items": ["Grimy avantoe"],
+				"Level": 48,
+				"Output": "Clean avantoe",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|avantoe potion (unf)|~": {
+				"Items": ["Clean avantoe", "Vial of water"],
+				"Level": 48,
+				"Output": "Avantoe potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|super antipoison|~": {
+				"Items": ["Irit potion (unf)", "Unicorn horn dust"],
+				"Level": 48,
+				"Output": "Super antipoison (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Read the ~|scroll of cleansing|~": {
+				"Items": ["Scroll of cleansing"],
+				"Level": 49,
+				"Skills": {
+					"Dungeoneering": 49
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Mix a ~|woodcutting potion|~": {
+				"Items": ["Avantoe potion (unf)", "Timber fungus"],
+				"Level": 49,
+				"Output": "Woodcutting potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|fishing potion|~": {
+				"Items": ["Avantoe potion (unf)", "Snape grass"],
+				"Level": 50,
+				"Output": "Fishing potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wear ~|irit gloves|~": {
+				"Items": ["Irit gloves"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Complete the ~|flash powder factory|~ minigame": {
 				"Level": 50,
 				"Chunks": ["Rogues' Den"],
 				"Output": "FlashPowder",
@@ -21199,30 +21859,916 @@
 					"Thieving": 75
 				},
 				"Primary": false,
-				"Priority": 1
+				"Priority": 3
 			},
-			"Ground ~|shards of Armadyl|~": {
-				"Items": ["Shards of Armadyl"],
-				"Level": 1,
-				"Output": "Dust of Armadyl",
+			"Mix a ~|super antipoison mix|~": {
+				"Items": ["SuperAntipoisonPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 51,
+				"Output": "Super antipoison mix (2)",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Unlock ~|the biologist|~ in the player-owned port": {
-				"Chunks": ["Player-Owned Port"],
+			"Mix a ~|mining potion|~": {
+				"Items": ["Avantoe potion (unf)", "Calcified fungus"],
+				"Level": 51,
+				"Output": "Mining potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|super energy|~": {
+				"Items": ["Avantoe potion (unf)", "Mort myre fungus"],
+				"Level": 52,
+				"Output": "Super energy (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|hunter potion|~": {
+				"Items": ["Avantoe potion (unf)", "Kebbit teeth dust"],
+				"Level": 53,
+				"Output": "Hunter potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|fishing mix|~": {
+				"Items": ["FishingPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 53,
+				"Output": "Fishing mix (2)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Clean a ~|grimy erzille|~": {
+				"Items": ["Grimy erzille"],
+				"Level": 54,
+				"Output": "Clean erzille",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|erzille potion (unf)|~": {
+				"Items": ["Clean erzille", "Juju vial of water"],
+				"Level": 54,
+				"Output": "Erzille potion (unf)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|juju hunter potion|~": {
+				"Items": ["Erzille potion (unf)", "Corrupt vine"],
+				"Level": 54,
+				"Output": "Juju hunter potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Clean a ~|grimy kwuarm|~": {
+				"Items": ["Grimy kwuarm"],
+				"Level": 54,
+				"Output": "Clean kwuarm",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|kwuarm potion (unf)|~": {
+				"Items": ["Clean kwuarm", "Vial of water"],
+				"Level": 54,
+				"Output": "Kwuarm potion (unf)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix a ~|runecrafting potion|~": {
+				"Items": ["Wergali potion (unf)", "SeasonalWool+"],
+				"Level": 54,
+				"Output": "Runecrafting potion (3)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Mix a ~|super strength|~": {
+				"Items": ["Kwuarm potion (unf)", "Limpwurt root"],
+				"Level": 55,
+				"Output": "Super strength (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy ugune|~": {
+				"Items": ["Grimy ugune"],
+				"Level": 55,
+				"Output": "Clean ugune",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|cooking potion|~": {
+				"Items": ["Harralander potion (unf)", "Swordfish"],
+				"Level": 55,
+				"Output": "Cooking potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Clean a ~|grimy argway|~": {
+				"Items": ["Grimy argway"],
+				"Level": 56,
+				"Output": "Clean argway",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super energy mix|~": {
+				"Items": ["SuperEnergyPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 56,
+				"Output": "Super energy mix (2)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix ~|magic essence (unf)|~": {
+				"Items": ["Star flower", "Vial of water"],
+				"Level": 57,
+				"Output": "Magic essence (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix ~|magic essence|~": {
+				"Items": ["Magic essence (unf)", "Gorak claw powder"],
+				"Level": 57,
+				"Output": "Magic essence (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Clean a ~|grimy shengo|~": {
+				"Items": ["Grimy shengo"],
+				"Level": 57,
+				"Output": "Clean shengo",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Clean a ~|grimy bloodweed|~": {
+				"Items": ["Grimy bloodweed"],
+				"Level": 57,
+				"Output": "Clean bloodweed",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|bloodweed potion (unf)|~": {
+				"Items": ["Clean bloodweed", "Vial of water"],
+				"Level": 57,
+				"Output": "Bloodweed potion (unf)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix a ~|luck potion|~": {
+				"Items": ["Bloodweed potion (unf)", "Crushed dragonstone"],
+				"Level": 57,
+				"Output": "Luck potion",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Mix a ~|fletching potion|~": {
+				"Items": ["Wergali potion (unf)", "Wimpy feather"],
+				"Level": 58,
+				"Output": "Fletching potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy samaden|~": {
+				"Items": ["Grimy samaden"],
+				"Level": 58,
+				"Output": "Clean samaden",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|hunting mix|~": {
+				"Items": ["HunterPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 58,
+				"Output": "Hunting mix (2)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|argway potion (unf)|~": {
+				"Items": ["Clean argway", "Juju vial of water"],
+				"Level": 59,
+				"Output": "Argway potion (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|scentless potion|~": {
+				"Items": ["Argway potion (unf)", "Shadow vine"],
+				"Level": 59,
+				"Output": "Scentless potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Clean a ~|grimy snapdragon|~": {
+				"Items": ["Grimy snapdragon"],
+				"Level": 59,
+				"Output": "Clean snapdragon",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|snapdragon potion (unf)|~": {
+				"Items": ["Clean snapdragon", "Vial of water"],
+				"Level": 59,
+				"Output": "Snapdragon potion (unf)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|super strength mix|~": {
+				"Items": ["SuperStrengthPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 59,
+				"Output": "Super strength mix (2)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Grind ~|harmony dust|~": {
+				"Items": ["CrystalUrchin+"],
+				"Level": 59,
+				"Output": "Harmony dust",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Mix ~|weapon poison|~": {
+				"Items": ["Kwuarm potion (unf)", "Dragon scale dust"],
+				"Level": 60,
+				"Output": "Weapon poison (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wear ~|avantoe gloves|~": {
+				"Items": ["Avantoe gloves"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Mix a ~|magic essence mix|~": {
+				"Items": ["MagicEssPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 61,
+				"Output": "Magic essence mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super restore|~": {
+				"Items": ["Snapdragon potion (unf)", "Red spiders' eggs"],
+				"Level": 63,
+				"Output": "Super restore (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|ugune potion (unf)|~": {
+				"Items": ["Clean ugune", "Juju vial of water"],
+				"Level": 64,
+				"Output": "Ugune potion (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|juju farming potion|~": {
+				"Items": ["Ugune potion (unf)", "Marble vine"],
+				"Level": 64,
+				"Output": "Juju farming potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|super hunter|~": {
+				"Items": ["HunterPotion+", "Rabbit teeth"],
+				"Level": 64,
+				"Output": "Super hunter (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|mixture - step 1|~": {
+				"Items": ["SuperRestorePotion+", "Unicorn horn dust"],
+				"Level": 65,
+				"Output": "Mixture - step 1",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|mixture - step 2|~": {
+				"Items": ["Mixture - step 1", "Clean snake weed"],
+				"Level": 65,
+				"Output": "Mixture - step 2",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|Sanfew serum|~": {
+				"Items": ["Mixture - step 2", "Nail beast nails"],
+				"Level": 65,
+				"Output": "Sanfew serum (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Clean a ~|grimy cadantine|~": {
+				"Items": ["Grimy cadantine"],
+				"Level": 65,
+				"Output": "Clean cadantine",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|cadantine potion (unf)|~": {
+				"Items": ["Clean cadantine", "Vial of water"],
+				"Level": 65,
+				"Output": "Cadantine potion (unf)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix a ~|camouflage potion|~": {
+				"Items": ["Bloodweed potion (unf)", "Black salamander"],
+				"Level": 65,
+				"Output": "Camouflage potion (3)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Mix a ~|super defence|~": {
+				"Items": ["Cadantine potion (unf)", "White berries"],
+				"Level": 66,
+				"Output": "Super defence (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|shengo potion (unf)|~": {
+				"Items": ["Clean shengo", "Juju vial of water"],
+				"Level": 67,
+				"Output": "Shengo potion (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|juju cooking potion|~": {
+				"Items": ["Shengo potion (unf)", "Plant teeth"],
+				"Level": 67,
+				"Output": "Juju cooking potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Clean a ~|grimy lantadyme|~": {
+				"Items": ["Grimy lantadyme"],
+				"Level": 67,
+				"Output": "Clean lantadyme",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|lantadyme potion (unf)|~": {
+				"Items": ["Clean lantadyme", "Vial of water"],
+				"Level": 67,
+				"Output": "Lantadyme potion (unf)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|super restore mix|~": {
+				"Items": ["SuperRestorePotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 67,
+				"Output": "Super restore mix (2)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix an ~|antipoison+ (unf)|~": {
+				"Items": ["Coconut milk", "Clean toadflax"],
+				"Level": 68,
+				"Output": "Antipoison+ (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|antipoison+|~": {
+				"Items": ["Antipoison+ (unf)", "Yew roots"],
+				"Level": 68,
+				"Output": "Antipoison+ (4)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|antifire|~": {
+				"Items": ["Lantadyme potion (unf)", "Dragon scale dust"],
+				"Level": 69,
+				"Output": "Antifire (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|juju fishing potion|~": {
+				"Items": ["Shengo potion (unf)", "Aquatic vine"],
+				"Level": 70,
+				"Output": "Juju fishing potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy dwarf weed|~": {
+				"Items": ["Grimy dwarf weed"],
+				"Level": 70,
+				"Output": "Clean dwarf weed",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|dwarf weed potion (unf)|~": {
+				"Items": ["Clean dwarf weed", "Vial of water"],
+				"Level": 70,
+				"Output": "Dwarf weed potion (unf)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Wear ~|kwuarm gloves|~": {
+				"Items": ["Kwuarm gloves"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wield an ~|anti-poison totem|~": {
+				"Items": ["Anti-poison totem"],
+				"Level": 70,
+				"Skills": {
+					"Defence": 60,
+					"Dungeoneering": 60
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Mix a ~|super divination|~": {
+				"Items": ["DivinationPotion+", "Zygomite fruit"],
+				"Level": 70,
+				"Output": "Super divination (3)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Mix an ~|samaden potion (unf)|~": {
+				"Items": ["Clean samaden", "Juju vial of water"],
+				"Level": 71,
+				"Output": "Samaden potion (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|juju woodcutting potion|~": {
+				"Items": ["Samaden potion (unf)", "Oily vine"],
+				"Level": 71,
+				"Output": "Juju woodcutting potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|super defence mix|~": {
+				"Items": ["SuperDefencePotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 71,
+				"Output": "Super defence mix (2)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|super woodcutting potion|~": {
+				"Items": ["WoodcuttingPotion+", "Enriched timber fungus"],
+				"Level": 71,
+				"Output": "Super woodcutting potion (3)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|super ranging potion|~": {
+				"Items": ["Dwarf weed potion (unf)", "Wine of Zamorak"],
+				"Level": 72,
+				"Output": "Super ranging potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|weapon poison+ (unf)|~": {
+				"Items": ["Coconut milk", "Cactus spine"],
+				"Level": 73,
+				"Output": "Weapon poison+ (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|weapon poison+|~": {
+				"Items": ["Weapon poison+ (unf)", "Red spiders' eggs"],
+				"Level": 73,
+				"Output": "Weapon poison+ (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|juju mining potion|~": {
+				"Items": ["Samaden potion (unf)", "Draconic vine"],
+				"Level": 74,
+				"Output": "Juju mining potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|antipoison+ mix|~": {
+				"Items": ["Antipoison+Potion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 74,
+				"Output": "Antipoison+ mix (2)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|super mining potion|~": {
+				"Items": ["MiningPotion+", "Enriched calcified fungus"],
+				"Level": 74,
+				"Output": "Super mining potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|Saradomin's blessing|~": {
+				"Items": ["Samaden potion (unf)", "Saradomin vine"],
+				"Level": 75,
+				"Output": "Saradomin's blessing (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|Guthix's gift|~": {
+				"Items": ["Samaden potion (unf)", "Guthix vine"],
+				"Level": 75,
+				"Output": "Guthix's gift (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|Zamorak's favour|~": {
+				"Items": ["Samaden potion (unf)", "Zamorak vine"],
+				"Level": 75,
+				"Output": "Zamorak's favour (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Clean a ~|grimy torstol|~": {
+				"Items": ["Grimy torstol"],
+				"Level": 75,
+				"Output": "Clean torstol",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|torstol potion (unf)|~": {
+				"Items": ["Clean torstol", "Vial of water"],
+				"Level": 75,
+				"Output": "Torstol potion (unf)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix an ~|antifire mix|~": {
+				"Items": ["AntifirePotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 75,
+				"Output": "Antifire mix (2)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Mix a ~|grand strength potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperStrengthPotion+", "StrengthPotion+", "Crystal flask"],
+				"Level": 75,
+				"Output": "Grand strength potion (6)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Mix a ~|perfect juju woodcutting potion|~": {
+				"Items": ["JujuWoodcuttingPotion+", "Harmony moss"],
+				"Level": 75,
+				"Output": "Perfect juju woodcutting potion (3)",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Mix a ~|super runecrafting|~": {
+				"Items": ["RunecraftingPotion+", "Yak milk"],
+				"Level": 75,
+				"Output": "Super runecrafting (3)",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Mix a ~|super fishing potion|~": {
+				"Items": ["FishingPotion+", "Enriched fungal algae"],
+				"Level": 75,
+				"Output": "Super fishing potion (3)",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Mix a ~|super magic potion|~": {
+				"Items": ["Lantadyme potion (unf)", "Potato cactus"],
+				"Level": 76,
+				"Output": "Super magic potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|grand ranging potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperRangingPotion+", "RangingPotion+", "Crystal flask"],
+				"Level": 76,
+				"Output": "Grand ranging potion (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|grand magic potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperMagicPotion+", "MagicPotion+", "Crystal flask"],
+				"Level": 77,
+				"Output": "Grand magic potion (6)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|perfect juju farming potion|~": {
+				"Items": ["JujuFarmingPotion+", "Harmony moss"],
+				"Level": 77,
+				"Output": "Perfect juju farming potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|enhanced luck potion|~": {
+				"Items": ["Luck potion", "Onyx bolt tips"],
+				"Level": 77,
+				"Output": "Enhanced luck potion",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|invention potion|~": {
+				"Items": ["Snapdragon potion (unf)", "Chinchompa residue"],
+				"Level": 77,
+				"Output": "Invention potion (3)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Clean a ~|grimy arbuck|~": {
+				"Items": ["Grimy arbuck"],
+				"Level": 77,
+				"Output": "Clean arbuck",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix an ~|arbuck potion (unf)|~": {
+				"Items": ["Clean arbuck", "Vial of water"],
+				"Level": 77,
+				"Output": "Arbuck potion (unf)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Mix a ~|stamina potion|~": {
+				"Items": ["Arbuck potion (unf)", "SuperEnergyPotion+"],
+				"Level": 77,
+				"Output": "Stamina potion (3)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Mix a ~|Zamorak brew|~": {
+				"Items": ["Torstol potion (unf)", "Jangerberries"],
+				"Level": 78,
+				"Output": "Zamorak brew (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|grand attack potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperAttackPotion+", "AttackPotion+", "Crystal flask"],
+				"Level": 78,
+				"Output": "Grand attack potion (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|archaeology potion|~": {
+				"Items": ["Avantoe potion (unf)", "ArchaeologyDirt+", "Archaeology potion recipe"],
+				"Level": 78,
+				"Output": "Archaeology potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|antipoison++ (unf)|~": {
+				"Items": ["Coconut milk", "Clean irit"],
+				"Level": 79,
+				"Output": "Antipoison++ (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|antipoison++|~": {
+				"Items": ["Antipoison++ (unf)", "Magic roots"],
+				"Level": 79,
+				"Output": "Antipoison++ (4)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|grand defence potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperDefencePotion+", "DefencePotion+", "Crystal flask"],
+				"Level": 79,
+				"Output": "Grand defence potion (6)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|super cooking potion|~": {
+				"Items": ["CookingPotion+", "Zygomite fruit"],
+				"Level": 79,
+				"Output": "Super cooking potion (3)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|super ranging mix|~": {
+				"Items": ["SuperRangingPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 80,
+				"Output": "Super ranging mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wear ~|cadantine gloves|~": {
+				"Items": ["Cadantine gloves"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Mix a ~|perfect juju mining potion|~": {
+				"Items": ["JujuMiningPotion+", "Harmony moss"],
+				"Level": 80,
+				"Output": "Perfect juju mining potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|extreme hunter|~": {
+				"Items": ["SuperHunterPotion+", "Bull horns"],
+				"Level": 80,
+				"Output": "Extreme hunter (3)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|Saradomin brew|~": {
+				"Items": ["Torstol potion (unf)", "Crushed nest"],
+				"Level": 81,
+				"Output": "Saradomin brew (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super melee potion|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["SuperAttackPotion+", "SuperDefencePotion+", "SuperStrengthPotion+", "Crystal flask"],
+				"Level": 81,
+				"Output": "Super melee potion (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|weapon poison++ (unf)|~": {
+				"Items": ["Coconut milk", "Cave nightshade"],
+				"Level": 82,
+				"Output": "Weapon poison++ (unf)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|weapon poison++|~": {
+				"Items": ["Weapon poison++ (unf)", "Poison ivy berries"],
+				"Level": 82,
+				"Output": "Weapon poison++ (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|perfect juju smithing potion|~": {
+				"Items": ["JujuHunterPotion+", "Harmony moss"],
+				"Level": 82,
+				"Output": "Perfect juju smithing potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|aggression potion|~": {
+				"Items": ["Bloodweed potion (unf)", "Searing ashes"],
+				"Level": 82,
+				"Output": "Aggression potion (3)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|super magic mix|~": {
+				"Items": ["SuperMagicPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 83,
+				"Output": "Super magic mix (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|adrenaline potion|~": {
+				"Items": ["SuperEnergyPotion+", "Papaya fruit"],
+				"Level": 84,
+				"Output": "Adrenaline potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super antifire|~": {
+				"Items": ["AntifirePotion+", "Phoenix feather"],
+				"Level": 85,
+				"Output": "Super antifire (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|Zamorak mix|~": {
+				"Items": ["ZamorakPotion+", "Caviar"],
+				"NPCs": ["Otto Godblessed"],
+				"Level": 85,
+				"Output": "Zamorak mix (2)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|super warmaster's potion|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["SuperAttackPotion+", "SuperDefencePotion+", "SuperStrengthPotion+", "SuperMagicPotion+", "SuperRangingPotion+", "Crystal flask"],
+				"Level": 85,
+				"Output": "Super warmaster's potion (6)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|perfect juju agility potion|~": {
+				"Items": ["ScentlessPotion+", "Harmony moss"],
+				"Level": 85,
+				"Output": "Perfect juju agility potion (3)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Wear ~|lantadyme gloves|~": {
+				"Items": ["Lantadyme gloves"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear ~|dwarf weed gloves|~": {
+				"Items": ["Dwarf weed gloves"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Mix a ~|replenishment potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperRestorePotion+", "AdrenalinePotion+", "Crystal flask"],
+				"Level": 87,
+				"Output": "Replenishment potion (6)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|perfect juju prayer potion|~": {
+				"Items": ["JujuSaradominPotion+", "Harmony moss"],
+				"Level": 87,
+				"Output": "Perfect juju prayer potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|super adrenaline potion|~": {
+				"Items": ["AdrenalinePotion+", "Adrenaline crystal"],
+				"Level": 87,
+				"Output": "Super adrenaline potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|super invention|~": {
+				"Items": ["InventionPotion+", "Spider fangs"],
+				"Level": 87,
+				"Output": "Super invention (3)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix an ~|extreme attack|~": {
+				"Items": ["SuperAttackPotion+", "Clean avantoe"],
+				"Level": 88,
+				"Output": "Extreme attack (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|summoning renewal|~": {
+				"Items": ["Spirit weed potion (unf)", "Tombshroom", "Summoning renewal recipe"],
+				"Level": 88,
+				"Output": "Summoning renewal (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|extreme strength|~": {
+				"Items": ["SuperStrengthPotion+", "Clean dwarf weed"],
+				"Level": 89,
+				"Output": "Extreme strength (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|wyrmfire potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["AntifirePotion+", "SuperAntifirePotion+", "Crystal flask"],
+				"Level": 89,
+				"Output": "Wyrmfire potion (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|extreme divination|~": {
+				"Items": ["SuperDivinationPotion+", "Yak tuft"],
+				"Level": 89,
+				"Output": "Extreme divination (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|extreme defence|~": {
+				"Items": ["SuperDefencePotion+", "Clean lantadyme"],
+				"Level": 90,
+				"Output": "Extreme defence (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|perfect juju herblore potion|~": {
+				"Items": ["JujuGuthixPotion+", "Harmony moss"],
+				"Level": 90,
+				"Output": "Perfect juju herblore potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Wear ~|torstol gloves|~": {
+				"Items": ["Torstol gloves"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 3
 			},
-			"Craft a ~|blessed flask|~":{
-				"Items": ["Blessed flask shell", "Glorious silvthril chain", "Holy elixir", "Holy water", "Light core", "Holy overload potion (6)", "Extreme prayer (4)", "Postive energy"],
-				"Level": 118,
-				"Skills":{
-					"Crafting": 96
-				},
-				"Outputs": "Blessed flask",
+			"Mix an ~|enhanced replenishment potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["ReplenishmentPotion+", "Adrenaline crystal"],
+				"Level": 90,
+				"Output": "Enhanced replenishment potion (6)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 4
+			},
+			"Mix an ~|extended super antifire|~": {
+				"Items": ["SuperAntifirePotion+", "Clean arbuck"],
+				"Level": 90,
+				"Output": "Extended super antifire (3)",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Make ~|primal fruit pulp|~": {
 				"Items": ["PrimalFruit+"],
@@ -21232,15 +22778,459 @@
 				},
 				"Output": "Primal fruit pulp",
 				"Primary": true,
+				"Priority": 6
+			},
+			"Make ~|primal extract|~": {
+				"Items": ["Primal fruit pulp", "Vial"],
+				"Level": 90,
+				"Output": "Primal fruit pulp",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Unlock ~|the biologist|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Mix an ~|extreme magic|~": {
+				"Items": ["SuperMagicPotion+", "Ground mud runes"],
+				"Level": 91,
+				"Output": "Extreme magic (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Clean a ~|grimy fellstalk|~": {
+				"Items": ["Grimy fellstalk"],
+				"Level": 91,
+				"Output": "Clean fellstalk",
+				"Primary": true,
 				"Priority": 2
 			},
-			"Wield an ~|anti-poison totem|~": {
-				"Items": ["Anti-poison totem"],
-				"Level": 70,
-				"Skills": {
-					"Defence": 60,
-					"Dungeoneering": 60
+			"Mix an ~|fellstalk potion (unf)|~": {
+				"Items": ["Clean fellstalk", "Vial of water"],
+				"Level": 91,
+				"Output": "Fellstalk potion (unf)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|extreme brawler's potion|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["ExtremeAttackPotion+", "ExtremeDefencePotion+", "ExtremeStrengthPotion+", "Crystal flask"],
+				"Level": 91,
+				"Output": "Extreme brawler's potion (6)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix an ~|extreme battlemage's potion|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["ExtremeMagicPotion+", "ExtremeDefencePotion+", "Crystal flask"],
+				"Level": 91,
+				"Output": "Extreme battlemage's potion (6)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix a ~|perfect juju dungeoneering potion|~": {
+				"Items": ["JujuZamorakPotion+", "Harmony moss"],
+				"Level": 91,
+				"Output": "Perfect juju dungeoneering potion (3)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Mix an ~|extreme runecrafting|~": {
+				"Items": ["SuperRunecraftingPotion+", "Spider venom"],
+				"Level": 91,
+				"Output": "Extreme runecrafting (3)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Mix an ~|extreme ranging|~": {
+				"Items": ["SuperRangingPotion+", "Grenwall spikes"],
+				"Level": 92,
+				"Output": "Extreme ranging (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|extreme sharpshooter's potion|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["ExtremeRangingPotion+", "ExtremeDefencePotion+", "Crystal flask"],
+				"Level": 92,
+				"Output": "Extreme sharpshooter's potion (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|perfect juju fishing potion|~": {
+				"Items": ["JujuFishingPotion+", "Harmony dust"],
+				"Level": 92,
+				"Output": "Perfect juju fishing potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|super Zamorak brew|~": {
+				"Items": ["ZamorakPotion+", "Wine of Zamorak"],
+				"Level": 93,
+				"Output": "Super Zamorak brew (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super Saradomin brew|~": {
+				"Items": ["SaradominPotion+", "Wine of Saradomin"],
+				"Level": 93,
+				"Output": "Super Saradomin brew (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|super Guthix rest|~": {
+				"Items": ["GuthixPotion+", "Wine of Guthix"],
+				"Level": 93,
+				"Output": "Super Guthix rest (3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Make an ~|adrenaline crystal|~": {
+				"Items": ["Inert adrenaline crystal", "Spark chitin", "Primal extract"],
+				"Level": 93,
+				"Output": "Adrenaline crystal",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix an ~|extreme warmaster's potion|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["ExtremeRangingPotion+", "ExtremeDefencePotion+", "ExtremeAttackPotion+", "ExtremeStrengthPotion+", "ExtremeMagicPotion+", "Crystal flask"],
+				"Level": 93,
+				"Output": "Extreme warmaster's potion (6)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Mix a ~|supreme strength potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperStrengthPotion+", "ExtremeStrengthPotion+", "Crystal flask"],
+				"Level": 93,
+				"Output": "Supreme strength potion (6)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Mix a ~|supreme attack potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperAttackPotion+", "ExtremeAttackPotion+", "Crystal flask"],
+				"Level": 93,
+				"Output": "Supreme attack potion (6)",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Mix a ~|supreme defence potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperDefencePotion+", "ExtremeDefencePotion+", "Crystal flask"],
+				"Level": 93,
+				"Output": "Supreme defence potion (6)",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Mix a ~|supreme magic potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperMagicPotion+", "ExtremeMagicPotion+", "Crystal flask"],
+				"Level": 93,
+				"Output": "Supreme magic potion (6)",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Mix a ~|supreme ranging potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperRangingPotion+", "ExtremeRangingPotion+", "Crystal flask"],
+				"Level": 93,
+				"Output": "Supreme ranging potion (6)",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Mix a ~|super prayer|~": {
+				"Items": ["PrayerPotion+", "Ground wyvern bones"],
+				"Level": 94,
+				"Output": "Super prayer (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|prayer renewal|~": {
+				"Items": ["Fellstalk potion (unf)", "Morchella mushroom"],
+				"Level": 94,
+				"Output": "Prayer renewal (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|brightfire potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SuperAntifirePotion+", "PrayerRenewalPotion+", "Crystal flask"],
+				"Level": 94,
+				"Output": "Brightfire potion (6)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|extreme invention|~": {
+				"Items": ["SuperInventionPotion+", "Mycelial webbing"],
+				"Level": 95,
+				"Output": "Extreme invention (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|harvest potion|~": {
+				"Items": ["Primal extract", "Clean arbuck", "Watermelon"],
+				"Level": 95,
+				"Output": "Harvest potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|overload|~": {
+				"Items": ["ExtremeAttackPotion+", "ExtremeStrengthPotion+", "ExtremeDefencePotion+", "ExtremeMagicPotion+", "ExtremeRangingPotion+", "Clean torstol"],
+				"Level": 96,
+				"Output": "Overload (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|super prayer renewal potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["PrayerPotion+", "PrayerRenewalPotion+", "Crystal flask"],
+				"Level": 96,
+				"Output": "Super prayer renewal potion (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|aggroverload|~": {
+				"Chunks": ["8757"],
+				"Items": ["AggressionPotion+", "OverloadPotion+", "Clean arbuck", "Crystal flask"],
+				"Level": 96,
+				"Output": "Aggroverload (6)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix an ~|overload salve|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["OverloadPotion+", "PrayerRenewalPotion+", "PrayerPotion+", "SuperAntipoisonPotion+", "AntifirePotion+", "SuperAntifirePotion+", "Crystal flask"],
+				"Level": 97,
+				"Output": "Overload salve (6)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|holy overload potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["OverloadPotion+", "PrayerRenewalPotion+", "Crystal flask"],
+				"Level": 97,
+				"Output": "Holy overload potion (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|searing overload potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["OverloadPotion+", "SuperAntifirePotion+", "Crystal flask"],
+				"Level": 97,
+				"Output": "Searing overload potion (6)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|supreme overload potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["OverloadPotion+", "SuperAttackPotion+", "SuperDefencePotion+", "SuperStrengthPotion+", "SuperRangingPotion+", "SuperMagicPotion+", "Crystal flask"],
+				"Level": 98,
+				"Output": "Supreme overload potion (6)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|holy aggroverload|~ from an overload": {
+				"Chunks": ["8757"],
+				"Items": ["OverloadPotion+", "AggressionPotion+", "PrayerRenewalPotion+", "Spider venom", "Crystal flask", "Holy aggroverload recipe"],
+				"Level": 98,
+				"Output": "Holy aggroverload (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|holy aggroverload|~ from an aggroverload": {
+				"Chunks": ["8757"],
+				"Items": ["AggroverloadPotion+", "PrayerRenewalPotion+", "Spider venom", "Holy aggroverload recipe"],
+				"Level": 98,
+				"Output": "Holy aggroverload (6)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Mix a ~|holy aggroverload|~ from a holy overload": {
+				"Chunks": ["8757"],
+				"Items": ["HolyOverloadPotion+", "AggressionPotion+", "Spider venom", "Holy aggroverload recipe"],
+				"Level": 98,
+				"Output": "Holy aggroverload (6)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Mix a ~|supreme overload salve|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["SupremeOverloadPotion+", "PrayerRenewalPotion+", "PrayerPotion+", "SuperAntipoisonPotion+", "AntifirePotion+", "SuperAntifirePotion+"],
+				"Level": 99,
+				"Output": "Supreme overload salve (6)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|perfect plus potion|~": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["OverloadPotion+", "Harmony moss", "Crystal tree blossom", "Crystal flask"],
+				"Level": 99,
+				"Output": "Perfect plus potion (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|poison bomb|~": {
+				"Items": ["Bomb vial", "Primal extract", "Clean irit", "Poison slime", "WeaponPoison++Potion+"],
+				"Level": 99,
+				"Output": "Poison bomb",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Wear the ~|Herblore cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Herblore cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Mix ~|weapon poison+++|~": {
+				"Items": ["WeaponPoison++Potion+", "Poison slime", "Primal extract"],
+				"Level": 100,
+				"Output": "Weapon poison+++ (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|sticky bomb|~": {
+				"Items": ["Bomb vial", "Primal extract", "Beak snot", "Dinosaur claws", "Clean cadantine"],
+				"Level": 101,
+				"Output": "Sticky bomb",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|charming potion|~": {
+				"Items": ["Primal extract", "Gold charm", "Green charm", "Crimson charm", "Blue charm", "Spark chitin"],
+				"Level": 102,
+				"Output": "Charming potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|vulnerability bomb|~": {
+				"Items": ["Bomb vial", "Primal extract", "Soul rune", "Chaos rune", "Bottled dinosaur roar", "Clean dwarf weed"],
+				"Level": 103,
+				"Output": "Vulnerability bomb",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|powerburst of opportunity|~": {
+				"Items": ["Powerburst vial", "Primal extract", "Dinosaur claws", "Phasmatite", "Third Age iron", "Powerburst of opportunity recipe"],
+				"Level": 103,
+				"Output": "Powerburst of opportunity",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix an ~|extreme cooking potion|~": {
+				"Items": ["Primal extract", "SuperCookingPotion+", "Beak snot"],
+				"Level": 104,
+				"Output": "Extreme cooking potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|powerburst of vitality|~": {
+				"Items": ["Powerburst vial", "Primal extract", "Poison slime", "SaradominPotion+", "Rocktail"],
+				"Level": 105,
+				"Output": "Powerburst of vitality",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|elder overload potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["SupremeOverloadPotion+", "Primal extract", "Clean fellstalk"],
+				"Level": 106,
+				"Output": "Elder overload salve (6)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|elder overload salve|~ from an elder overload": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["ElderOverloadPotion+", "PrayerRenewalPotion+", "PrayerPotion+", "SuperAntipoisonPotion+", "AntifirePotion+", "SuperAntifirePotion+"],
+				"Level": 107,
+				"Output": "Elder overload salve (6)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|elder overload salve|~ from a supreme overload salve": {
+				"Chunks": ["8757", "13626", "13882"],
+				"Items": ["SupremeOverloadSalvePotion+", "Primal extract", "Clean fellstalk"],
+				"Level": 107,
+				"Output": "Elder overload salve (6)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Mix a ~|powerburst of masterstroke|~": {
+				"Items": ["Powerburst vial", "Primal extract", "Runite stone spirit", "Necrite stone spirit", "Bottled dinosaur roar"],
+				"Level": 108,
+				"Output": "Powerburst of masterstroke",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|powerburst of sorcery|~": {
+				"Items": ["Powerburst vial", "Primal extract", "SuperRunecraftingPotion+", "Blood rune", "Beak snot"],
+				"Level": 109,
+				"Output": "Powerburst of sorcery",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|spiritual prayer potion|~": {
+				"Chunks": ["8757"],
+				"Items": ["Crystal flask", "Primal extract", "PrayerPotion+", "SummoningPotion+"],
+				"Level": 110,
+				"Output": "Spiritual prayer potion (6)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|powerburst of acceleration|~": {
+				"Items": ["Powerburst vial", "Primal extract", "StaminaPotion+", "EnergyPotion+", "Spark chitin"],
+				"Level": 111,
+				"Output": "Powerburst of acceleration",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|powerburst of feats|~": {
+				"Items": ["Powerburst vial", "Primal extract", "Clean snapdragon", "SummoningPotion+", "Bottled dinosaur roar"],
+				"Level": 114,
+				"Output": "Powerburst of feats",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|adrenaline renewal potion|~": {
+				"Items": ["SuperAdrenalinePotion+", "Primal extract", "Clean arbuck", "Bottled dinosaur roar"],
+				"Level": 115,
+				"Output": "Adrenaline renewal potion (4)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix a ~|spirit attraction potion|~": {
+				"Items": ["Primal extract", "Enhanced luck potion", "Timeworn tincture", "Spirit attraction recipe"],
+				"Level": 116,
+				"Output": "Spirit attraction potion (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix an ~|extreme prayer|~": {
+				"Items": ["Primal extract", "SuperPrayerPotion+", "Spark chitin"],
+				"Level": 117,
+				"Output": "Extreme prayer (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft a ~|blessed flask|~":{
+				"Items": ["Blessed flask shell", "Glorious silvthril chain", "Holy elixir", "Holy water", "Light core", "Holy overload potion (6)", "Extreme prayer (4)", "Postive energy"],
+				"Level": 118,
+				"Skills":{
+					"Crafting": 96
 				},
+				"Outputs": "Blessed flask",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear the ~|Herblore master cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Herblore master cape"],
+				"Level": 120,
 				"Primary": false,
 				"Priority": 1
 			}
@@ -36032,6 +38022,7 @@
 				"Priority": 2
 			},
 			"Complete the ~|flash powder factory|~ minegame": {
+				"Category": ["Minigame"],
 				"Level": 75,
 				"Chunks": ["Rogues' Den"],
 				"Output": "FlashPowder",
@@ -37240,6 +39231,24 @@
 			"Open a ~|toad egg sac|~": {
 				"Items": ["Toad egg sac"],
 				"Output": "Swamp toad"
+			},
+			"Pick ~|troll thistle|~": {
+				"Chunks": ["11577"],
+				"Output": "Troll thistle"
+			},
+			"Dry a ~|troll thistle|~": {
+				"Items": ["Troll thistle"],
+				"Objects": ["Fire+"],
+				"Output": "Dried thistle"
+			},
+			"Crush ~|ground thistle|~": {
+				"Items": ["Dried thistle"],
+				"Output": "Ground thistle"
+			},
+			"Fill a ~|juju vial of water|~": {
+				"Items": ["Juju vial"],
+				"Objects": ["WaterObject+"],
+				"Output": "Juju vial of water"
 			}
 		}
 	},
@@ -82697,7 +84706,80 @@
 			"VariantCorbicula+": ["Corbicula gelum (unchecked)", "Corbicula malum (unchecked)"],
 			"VariantOculiApoterrasaur+": ["Oculi apoterrasaur oceanum (unchecked)", "Oculi apoterrasaur glacies (unchecked)"],
 			"VariantMalletops+": ["Malletops palus (unchecked)", "Malletops purpura (unchecked)"],
-			"VariantPavosaurus+": ["Pavosaurus nemus (unchecked)", "Pavosaurus desertum (unchecked)"]
+			"VariantPavosaurus+": ["Pavosaurus nemus (unchecked)", "Pavosaurus desertum (unchecked)"],
+			"LeapingFish+": ["Leaping trout", "Leaping salmon"],
+			"AttackPotion+": ["Attack potion (1)", "Attack potion (2)", "Attack potion (3)", "Attack potion (4)"],
+			"RangingPotion+": ["Ranging potion (1)", "Ranging potion (2)", "Ranging potion (3)", "Ranging potion (4)"],
+			"MagicPotion+": ["Magic potion (1)", "Magic potion (2)", "Magic potion (3)", "Magic potion (4)"],
+			"RelicymBalm+": ["Relicym's balm (1)", "Relicym's balm (2)", "Relicym's balm (3)", "Relicym's balm (4)"],
+			"StrengthPotion+": ["Strength potion (1)", "Strength potion (2)", "Strength potion (3)", "Strength potion (4)"],
+			"DefencePotion+": ["Defence potion (1)", "Defence potion (2)", "Defence potion (3)", "Defence potion (4)"],
+			"AntipoisonPotion+": ["Antipoison (1)", "Antipoison (2)", "Antipoison (3)", "Antipoison (4)"],
+			"Antipoison+Potion+": ["Antipoison+ (1)", "Antipoison+ (2)", "Antipoison+ (3)", "Antipoison+ (4)"],
+			"WeaponPoison++Potion+": ["Weapon poison++ (1)", "Weapon poison++ (2)", "Weapon poison++ (3)", "Weapon poison++ (4)"],
+			"RestorePotion+": ["Restore potion (1)", "Restore potion (2)", "Restore potion (3)", "Restore potion (4)"],
+			"EnergyPotion+": ["Energy potion (1)", "Energy potion (2)", "Energy potion (3)", "Energy potion (4)"],
+			"AgilityPotion+": ["Agility potion (1)", "Agility potion (2)", "Agility potion (3)", "Agility potion (4)"],
+			"CombatPotion+": ["Combat potion (1)", "Combat potion (2)", "Combat potion (3)", "Combat potion (4)"],
+			"PrayerPotion+": ["Prayer potion (1)", "Prayer potion (2)", "Prayer potion (3)", "Prayer potion (4)"],
+			"SuperAttackPotion+": ["Super attack (1)", "Super attack (2)", "Super attack (3)", "Super attack (4)"],
+			"SuperAntipoisonPotion+": ["Super antipoison (1)", "Super antipoison (2)", "Super antipoison (3)", "Super antipoison (4)"],
+			"FishingPotion+": ["Fishing potion (1)", "Fishing potion (2)", "Fishing potion (3)", "Fishing potion (4)"],
+			"HunterPotion+": ["Hunter potion (1)", "Hunter potion (2)", "Hunter potion (3)", "Hunter potion (4)"],
+			"DivinationPotion+": ["Divination potion (1)", "Divination potion (2)", "Divination potion (3)", "Divination potion (4)"],
+			"WoodcuttingPotion+": ["Woodcutting potion (1)", "Woodcutting potion (2)", "Woodcutting potion (3)", "Woodcutting potion (4)"],
+			"JujuWoodcuttingPotion+": ["Juju woodcutting potion (1)", "Juju woodcutting potion (2)", "Juju woodcutting potion (3)", "Juju woodcutting potion (4)"],
+			"JujuFarmingPotion+": ["Juju farming potion (1)", "Juju farming potion (2)", "Juju farming potion (3)", "Juju farming potion (4)"],
+			"JujuMiningPotion+": ["Juju mining potion (1)", "Juju mining potion (2)", "Juju mining potion (3)", "Juju mining potion (4)"],
+			"JujuHunterPotion+": ["Juju hunter potion (1)", "Juju hunter potion (2)", "Juju hunter potion (3)", "Juju hunter potion (4)"],
+			"JujuFishingPotion+": ["Juju fishing potion (1)", "Juju fishing potion (2)", "Juju fishing potion (3)", "Juju fishing potion (4)"],
+			"JujuSaradominPotion+": ["Saradomin's blessing (1)", "Saradomin's blessing (2)", "Saradomin's blessing (3)", "Saradomin's blessing (4)"],
+			"JujuGuthixPotion+": ["Guthix's gift (1)", "Guthix's gift (2)", "Guthix's gift (3)", "Guthix's gift (4)"],
+			"JujuZamorakPotion+": ["Zamorak's favour (1)", "Zamorak's favour (2)", "Zamorak's favour (3)", "Zamorak's favour (4)"],
+			"ScentlessPotion+": ["Scentless potion (1)", "Scentless potion (2)", "Scentless potion (3)", "Scentless potion (4)"],
+			"MiningPotion+": ["Mining potion (1)", "Mining potion (2)", "Mining potion (3)", "Mining potion (4)"],
+			"RunecraftingPotion+": ["Runecrafting potion (1)", "Runecrafting potion (2)", "Runecrafting potion (3)", "Runecrafting potion (4)"],
+			"CookingPotion+": ["Cooking potion (1)", "Cooking potion (2)", "Cooking potion (3)", "Cooking potion (4)"],
+			"SummoningPotion+": ["Summoning potion (1)", "Summoning potion (2)", "Summoning potion (3)", "Summoning potion (4)"],
+			"AdrenalinePotion+": ["Adrenaline potion (1)", "Adrenaline potion (2)", "Adrenaline potion (3)", "Adrenaline potion (4)"],
+			"InventionPotion+": ["Invention potion (1)", "Invention potion (2)", "Invention potion (3)", "Invention potion (4)"],
+			"StaminaPotion+": ["Stamina potion (1)", "Stamina potion (2)", "Stamina potion (3)", "Stamina potion (4)"],
+			"ReplenishmentPotion+": ["Replenishment potion (1)", "Replenishment potion (2)", "Replenishment potion (3)", "Replenishment potion (4)", "Replenishment potion (5)", "Replenishment potion (6)"],
+			"AntifirePotion+": ["Antifire (1)", "Antifire (2)", "Antifire (3)", "Antifire (4)"],
+			"OverloadPotion+": ["Overload (1)", "Overload (2)", "Overload (3)", "Overload (4)"],
+			"AggroverloadPotion+": ["Aggroverload (1)", "Aggroverload (2)", "Aggroverload (3)", "Aggroverload (4)", "Aggroverload (5)", "Aggroverload (6)"],
+			"HolyOverloadPotion+": ["Holy overload potion (1)", "Holy overload potion (2)", "Holy overload potion (3)", "Holy overload potion (4)", "Holy overload potion (5)", "Holy overload potion (6)"],
+			"SupremeOverloadPotion+": ["Supreme overload potion (1)", "Supreme overload potion (2)", "Supreme overload potion (3)", "Supreme overload potion (4)", "Supreme overload potion (5)", "Supreme overload potion (6)"],
+			"SupremeOverloadSalvePotion+": ["Supreme overload salve (1)", "Supreme overload salve (2)", "Supreme overload salve (3)", "Supreme overload salve (4)", "Supreme overload salve (5)", "Supreme overload salve (6)"],
+			"ElderOverloadPotion+": ["Elder overload potion (1)", "Elder overload potion (2)", "Elder overload potion (3)", "Elder overload potion (4)", "Elder overload potion (5)", "Elder overload potion (6)"],
+			"MagicEssPotion+": ["Magic essence (1)", "Magic essence (2)", "Magic essence (3)", "Magic essence (4)"],
+			"PrayerRenewalPotion+": ["Prayer renewal (1)", "Prayer renewal (2)", "Prayer renewal (3)", "Prayer renewal (4)"],
+			"ZamorakPotion+": ["Zamorak brew (1)", "Zamorak brew (2)", "Zamorak brew (3)", "Zamorak brew (4)"],
+			"SaradominPotion+": ["Saradomin brew (1)", "Saradomin brew (2)", "Saradomin brew (3)", "Saradomin brew (4)"],
+			"GuthixPotion+": ["Guthix rest (1)", "Guthix rest (2)", "Guthix rest (3)", "Guthix rest (4)"],
+			"SuperEnergyPotion+": ["Super energy (1)", "Super energy (2)", "Super energy (3)", "Super energy (4)"],
+			"SuperStrengthPotion+": ["Super strength (1)", "Super strength (2)", "Super strength (3)", "Super strength (4)"],
+			"SuperRestorePotion+": ["Super restore (1)", "Super restore (2)", "Super restore (3)", "Super restore (4)"],
+			"SuperDefencePotion+": ["Super defence (1)", "Super defence (2)", "Super defence (3)", "Super defence (4)"],
+			"SuperRangingPotion+": ["Super ranging potion (1)", "Super ranging potion (2)", "Super ranging potion (3)", "Super ranging potion (4)"],
+			"SuperHunterPotion+": ["Super hunter potion (1)", "Super hunter potion (2)", "Super hunter potion (3)", "Super hunter potion (4)"],
+			"SuperDivinationPotion+": ["Super divination potion (1)", "Super divination potion (2)", "Super divination potion (3)", "Super divination potion (4)"],
+			"SuperCookingPotion+": ["Super cooking potion (1)", "Super cooking potion (2)", "Super cooking potion (3)", "Super cooking potion (4)"],
+			"SuperRunecraftingPotion+": ["Super runecrafting (1)", "Super runecrafting (2)", "Super runecrafting (3)", "Super runecrafting (4)"],
+			"SuperInventionPotion+": ["Super invention (1)", "Super invention (2)", "Super invention (3)", "Super invention (4)"],
+			"SuperPrayerPotion+": ["Super prayer (1)", "Super prayer (2)", "Super prayer (3)", "Super prayer (4)"],
+			"SuperAntifirePotion+": ["Super antifire (1)", "Super antifire (2)", "Super antifire (3)", "Super antifire (4)"],
+			"SuperMagicPotion+": ["Super magic potion (1)", "Super magic potion (2)", "Super magic potion (3)", "Super magic potion (4)"],
+			"SuperAdrenalinePotion+": ["Super adrenaline potion (1)", "Super adrenaline potion (2)", "Super adrenaline potion (3)", "Super adrenaline potion (4)"],
+			"ExtremeStrengthPotion+": ["Extreme strength (1)", "Extreme strength (2)", "Extreme strength (3)", "Extreme strength (4)"],
+			"ExtremeAttackPotion+": ["Extreme attack (1)", "Extreme attack (2)", "Extreme attack (3)", "Extreme attack (4)"],
+			"ExtremeDefencePotion+": ["Extreme defence (1)", "Extreme defence (2)", "Extreme defence (3)", "Extreme defence (4)"],
+			"ExtremeMagicPotion+": ["Extreme magic (1)", "Extreme magic (2)", "Extreme magic (3)", "Extreme magic (4)"],
+			"ExtremeRangingPotion+": ["Extreme ranging (1)", "Extreme ranging (2)", "Extreme ranging (3)", "Extreme ranging (4)"],
+			"ImpBead+": ["Black bead", "White bead", "Yellow bead", "Red bead"],
+			"SeasonalWool+": ["Summerdown wool", "Springsheared wool", "Winterwold wool", "Fallfaced wool"],
+			"ArchaeologyDirt+": ["Ancient gravel", "Fiery brimstone", "Saltwater mud", "Aerated sediment", "Earthern clay"],
+			"CrystalUrchin+": ["Small crystal urchin", "Medium crystal urchin", "Large crystal urchin"]
 		},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
