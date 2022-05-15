@@ -1079,7 +1079,7 @@
 		},
 		"Archaeology": {
 			"Complete the ~|Archaeology tutorial|~": {
-				"Chunks": ["13364", "13364", "13365"],
+				"Chunks": ["13364", "13365"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1
