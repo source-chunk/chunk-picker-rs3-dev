@@ -1063,6 +1063,16 @@
 				"Output": "BlackWarlockAnachronia",
 				"Primary": true,
 				"Priority": 6
+			},
+			"Grow a ~|barberry bush|~": {
+				"Items": ["Barberry seed"],
+				"Objects": ["Bush patch"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 77
+				},
+				"Primary": true,
+				"Priority": 7
 			}
 		},
 		"Archaeology": {
@@ -3496,6 +3506,115 @@
 				"Level": 59,
 				"Primary": true,
 				"Priority": 1
+			},
+			"Access the ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Level": 20,
+				"Skills": {
+					"Farming": 17
+				},
+				"Output Object": "Small animal pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a second small pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Oak plank", "SteelNails+"],
+				"Level": 20,
+				"Skills": {
+					"Farming": 28
+				},
+				"Output Object": "Small animal pen",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Build a medium pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Teak plank", "MithrilNails+"],
+				"Level": 40,
+				"Skills": {
+					"Farming": 35
+				},
+				"Output Object": "Medium animal pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["POR+"],
+				"Items": ["Wood", "Vines", "Stone"],
+				"Level": 45,
+				"Skills": {
+					"Farming": 42
+				},
+				"Output Object": "Small dinosaur pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a large pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Mahogany plank", "Rune nails"],
+				"Level": 60,
+				"Skills": {
+					"Farming": 49
+				},
+				"Output Object": "Large animal pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a second medium pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Teak plank", "MithrilNails+"],
+				"Level": 40,
+				"Skills": {
+					"Farming": 64
+				},
+				"Output Object": "Medium animal pen",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Build a second large pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Mahogany plank", "Rune nails"],
+				"Level": 60,
+				"Skills": {
+					"Farming": 71
+				},
+				"Output Object": "Large animal pen",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["POR+"],
+				"Items": ["Wood", "Vines", "Stone"],
+				"Level": 80,
+				"Skills": {
+					"Farming": 76
+				},
+				"Output Object": "Medium dinosaur pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["POR+"],
+				"Items": ["Wood", "Vines", "Stone"],
+				"Level": 90,
+				"Skills": {
+					"Farming": 98
+				},
+				"Output Object": "Large dinosaur pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["POR+"],
+				"Items": ["Wood", "Vines", "Stone"],
+				"Level": 90,
+				"Skills": {
+					"Farming": 104
+				},
+				"Output Object": "Large dinosaur pen",
+				"Primary": false,
+				"Priority": 2
 			}
 		},
 		"Cooking": {
@@ -11569,6 +11688,16 @@
 				"Level": 120,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Grow a ~|prickly pear|~": {
+				"Items": ["Prickly pear seed"],
+				"Objects": ["Cactus patch"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 76
+				},
+				"Primary": true,
+				"Priority": 14
 			}
 		},
 		"Divination": {
@@ -13294,25 +13423,320 @@
 				},
 				"Primary": false,
 				"Priority": 4
+			},
+			"Read the ~|scroll of life|~": {
+				"Items": ["Scroll of life"],
+				"Level": 25,
+				"Skills": {
+					"Farming": 25
+				},
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Farming": {
-			"Unlock the ~|Livid farm|~ spells": {
-				"Level": 60,
-				"Chunks": ["8253", "8509"],
+			"Pick ~|flax|~": {
+				"Objects": ["Flax"],
+				"Level": 1,
+				"Output": "Flax",
 				"Primary": true,
+				"Priority": 1
+			},
+			"Shovel a ~|manure mound|~": {
+				"Objects": ["Manure mound"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Rake a ~|farming patch|~": {
+				"Objects": ["FarmingPatch+"],
+				"Level": 1,
+				"Output": "Weeds",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Fill ~|compost|~ from a bin": {
+				"Items": ["Bucket", "CompostItem+"],
+				"Objects": ["Compost bin"],
+				"Level": 1,
+				"Output": "Compost",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Apply ~|compost|~ to a farming patch": {
+				"Items": ["Compost"],
+				"Objects": ["FarmingPatch+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Fill ~|supercompost|~ from a bin": {
+				"Items": ["Bucket", "SupercompostItem+"],
+				"Objects": ["Compost bin"],
+				"Level": 1,
+				"Output": "Supercompost",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Apply ~|supercompost|~ to a farming patch": {
+				"Items": ["Supercompost"],
+				"Objects": ["FarmingPatch+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Fill ~|ultracompost|~ from a bin": {
+				"Items": ["Bucket", "Dragon manure"],
+				"Objects": ["Compost bin"],
+				"Level": 1,
+				"Output": "Ultracompost",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Apply ~|ultracompost|~ to a farming patch": {
+				"Items": ["Ultracompost"],
+				"Objects": ["FarmingPatch+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Grow a ~|potato|~": {
+				"Items": ["Potato seed"],
+				"Objects": ["PotatoPatch+"],
+				"Level": 1,
+				"Output": "Potato",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Nurture a ~|normal evil tree|~ sapling": {
+				"Objects": ["Evil tree"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Play ~|Vinesweeper|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Vinesweeper"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 12
+			},
+			"Harvest a ~|winter sq'irk|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
 				"Skills": {
-					"Construction": 50,
-					"Crafting": 60,
-					"Agility": 60,
-					"Magic": 70
+					"Thieving": 1
 				},
+				"Primary": true,
+				"Output": "Winter sq'irk",
+				"Priority": 13
+			},
+			"Harvest herbs from the ~|winter garden|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Thieving": 1
+				},
+				"Primary": true,
+				"Output": "WinterHerbs",
+				"Priority": 14
+			},
+			"Harvest a ~|spring sq'irk|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Thieving": 25
+				},
+				"Primary": true,
+				"Output": "Spring sq'irk",
+				"Priority": 15
+			},
+			"Harvest herbs from the ~|sorceress' spring garden|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Thieving": 25
+				},
+				"Primary": true,
+				"Output": "SpringHerbs",
+				"Priority": 16
+			},
+			"Harvest an ~|autumn sq'irk|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Thieving": 45
+				},
+				"Primary": true,
+				"Output": "Autumn sq'irk",
+				"Priority": 17
+			},
+			"Harvest herbs from the ~|sorceress' autumn garden|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Thieving": 45
+				},
+				"Primary": true,
+				"Output": "AutumnHerbs",
+				"Priority": 18
+			},
+			"Harvest a ~|summer sq'irk|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Thieving": 65
+				},
+				"Primary": true,
+				"Output": "Summer sq'irk",
+				"Priority": 19
+			},
+			"Harvest herbs from the ~|sorceress' summer garden|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Thieving": 65
+				},
+				"Primary": true,
+				"Output": "SummerHerbs",
+				"Priority": 20
+			},
+			"Cast ~|Cure Plant|~ on a diseased farming patch": {
+				"Items": ["Earth rune+", "Astral rune"],
+				"Objects": ["FarmingPatch+"],
+				"Chunks": ["8508"],
+				"Level": 1,
+				"Primary": false,
+				"Skills": {
+					"Magic": 66
+				},
+				"Priority": 21
+			},
+			"Cast ~|Fertile Soil|~ on a farming patch": {
+				"Items": ["Earth rune+", "Astral rune", "Nature rune"],
+				"Objects": ["FarmingPatch+"],
+				"Chunks": ["8508"],
+				"Level": 1,
+				"Primary": false,
+				"Skills": {
+					"Magic": 83
+				},
+				"Priority": 22
+			},
+			"Grow ~|marigolds|~": {
+				"Items": ["Marigold seed"],
+				"Objects": ["Flower patch"],
+				"Level": 2,
+				"Output": "Marigolds",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow ~|barley|~": {
+				"Items": ["Barley seed"],
+				"Objects": ["Hops patch"],
+				"Level": 3,
+				"Output": "Barley",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow ~|Hammerstone hops|~": {
+				"Items": ["Hammerstone seed"],
+				"Objects": ["Hops patch"],
+				"Level": 4,
+				"Output": "Hammerstone hops",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow an ~|onion|~": {
+				"Items": ["Onion seed"],
+				"Objects": ["Allotment"],
+				"Level": 5,
+				"Output": "Onion",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|cabbage|~": {
+				"Items": ["Cabbage seed"],
+				"Objects": ["Allotment"],
+				"Level": 7,
+				"Output": "Cabbage",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Nurture an ~|evil oak tree|~ sapling": {
+				"Objects": ["Evil oak tree"],
+				"Level": 7,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow ~|Asgarnian hops|~": {
+				"Items": ["Asgarnian seed"],
+				"Objects": ["Hops patch"],
+				"Level": 8,
+				"Output": "Asgarnian hops",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy guam|~": {
+				"Items": ["Guam seed"],
+				"Objects": ["Herb patch"],
+				"Level": 9,
+				"Output": "Grimy guam",
+				"Primary": false,
 				"Priority": 1
 			},
 			"Harvest a grimy guam from a ~|divine herb patch I|~": {
 				"Items": ["Divine herb patch I"],
 				"Level": 9,
 				"Output": "Grimy guam",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|redberry bush|~": {
+				"Items": ["Redberry seed"],
+				"Objects": ["Bush patch"],
+				"Level": 10,
+				"Output": "Redberries",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow ~|rosemary|~": {
+				"Items": ["Rosemary seed"],
+				"Objects": ["Flower patch"],
+				"Level": 11,
+				"Output": "Rosemary",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|tomato|~": {
+				"Items": ["Tomato seed"],
+				"Objects": ["Allotment"],
+				"Level": 12,
+				"Output": "Tomato",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow ~|jute|~": {
+				"Items": ["Jute seed"],
+				"Objects": ["Hops patch"],
+				"Level": 13,
+				"Output": "Jute fibre",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy marrentill|~": {
+				"Items": ["Marrentill seed"],
+				"Objects": ["Herb patch"],
+				"Level": 14,
+				"Output": "Grimy marrentill",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -13321,12 +13745,295 @@
 				"Level": 14,
 				"Output": "Grimy marrentill",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Plant an ~|oak seedling|~": {
+				"Items": ["Plant pot", "Acorn"],
+				"Level": 15,
+				"Output": "Oak seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water an ~|oak seedling|~": {
+				"Items": ["Oak seedling", "WateringCan+"],
+				"Level": 15,
+				"Output": "Oak sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow an ~|oak tree|~": {
+				"Items": ["Oak sapling"],
+				"Objects": ["Tree patch"],
+				"Level": 15,
+				"Output": "Oak roots",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Nurture an ~|evil willow tree|~ sapling": {
+				"Objects": ["Evil willow tree"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Grow ~|Yanillian hops|~": {
+				"Items": ["Yanillian seed"],
+				"Objects": ["Hops patch"],
+				"Level": 16,
+				"Output": "Yanillian hops",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Access the ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Level": 17,
+				"Skills": {
+					"Construction": 20
+				},
+				"Output Object": "Small animal pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|common brown rabbit|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Common brown rabbit (unchecked)"],
+				"Level": 17,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|Rellekkan cream rabbit|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Rellekkan cream rabbit (unchecked)"],
+				"Level": 17,
+				"Output": "RabbitOutput",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|Piscatorian cottontail rabbit|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Piscatorian cottontail rabbit (unchecked)"],
+				"Level": 17,
+				"Output": "RabbitOutput",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Harvest a ~|delicious honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Marigolds"],
+				"Level": 17,
+				"Output": "Delicious honeycomb",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Harvest a ~|dense honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Rosemary"],
+				"Level": 17,
+				"Output": "Dense honeycomb",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Harvest a ~|medicinal honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Woad leaf"],
+				"Level": 17,
+				"Output": "Medicinal honeycomb",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Harvest a ~|runny honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Nasturtiums"],
+				"Level": 17,
+				"Output": "Runny honeycomb",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Harvest a ~|sweet honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Snape grass"],
+				"Level": 17,
+				"Output": "Sweet honeycomb",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Harvest a ~|fertile honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Roses"],
+				"Level": 17,
+				"Output": "Fertile honeycomb",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Harvest a ~|candied honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Irises"],
+				"Level": 17,
+				"Output": "Candied honeycomb",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Harvest a ~|nutritious honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Hydrangeas"],
+				"Level": 17,
+				"Output": "Nutritious honeycomb",
+				"Primary": false,
+				"Priority": 13
+			},
+			"Harvest a ~|moreish honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Hollylocks"],
+				"Level": 17,
+				"Output": "Moreish honeycomb",
+				"Primary": false,
+				"Priority": 14
+			},
+			"Harvest a ~|shimmering honeycomb|~ from a beehive": {
+				"Chunks": ["10548"],
+				"Items": ["Golden roses"],
+				"Level": 17,
+				"Output": "Shimmering honeycomb",
+				"Primary": false,
+				"Priority": 15
+			},
+			"Breed a ~|common brown rabbit|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantRabbit+"],
+				"Level": 17,
+				"Output": "CommonBrownBreed",
+				"Primary": false,
+				"Priority": 16
+			},
+			"Breed a ~|Rellekkan cream rabbit|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common brown rabbit (unchecked)", "Piscatorian cottontail rabbit (unchecked)"],
+				"Level": 17,
+				"Output": "RellekkanCreamBreed",
+				"Primary": false,
+				"Priority": 17
+			},
+			"Breed a ~|Piscatorian cottontail rabbit|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common brown rabbit (unchecked)", "Rellekkan cream rabbit (unchecked)"],
+				"Level": 17,
+				"Output": "PiscatorianCottontailBreed",
+				"Primary": false,
+				"Priority": 18
+			},
+			"Muck out ~|mammal droppings|~ from a rabbit": {
+				"Objects": ["Small animal pen"],
+				"Items": ["AllRabbits+"],
+				"Level": 17,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Grow a ~|grimy tarromin|~": {
+				"Items": ["Tarromin seed"],
+				"Objects": ["Herb patch"],
+				"Level": 19,
+				"Output": "Grimy tarromin",
+				"Primary": false,
 				"Priority": 1
 			},
 			"Harvest a grimy tarromin from a ~|divine herb patch I|~": {
 				"Items": ["Divine herb patch I"],
 				"Level": 19,
 				"Output": "Grimy tarromin",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow ~|sweetcorn|~": {
+				"Items": ["Sweetcorn seed"],
+				"Objects": ["Allotment"],
+				"Level": 20,
+				"Output": "Sweetcorn",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow ~|Krandorian hops|~": {
+				"Items": ["Krandorian seed"],
+				"Objects": ["Hops patch"],
+				"Level": 21,
+				"Output": "Krandorian hops",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|cadavaberry bush|~": {
+				"Items": ["Cadavaberry seed"],
+				"Objects": ["Bush patch"],
+				"Level": 22,
+				"Output": "Cadava berries",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Nurture an ~|evil maple tree|~ sapling": {
+				"Objects": ["Evil maple tree"],
+				"Level": 22,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Gather a ~|hay sack|~": {
+				"Items": ["Empty sack"],
+				"Objects": ["Haystack+"],
+				"Level": 23,
+				"Output": "Hay sack",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Make a ~|hay sack (spear)|~": {
+				"Items": ["Hay sack", "Bronze spear"],
+				"Objects": ["Haystack+"],
+				"Level": 23,
+				"Output": "Hay sack (spear)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Construct a ~|scarecrow|~": {
+				"Items": ["Hay sack (spear)", "Watermelon"],
+				"Objects": ["Haystack+"],
+				"Level": 23,
+				"Output": "Scarecrow",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Grow ~|nasturtiums|~": {
+				"Items": ["Nasturtium seed"],
+				"Objects": ["Flower patch"],
+				"Level": 24,
+				"Output": "Nasturtiums",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|woad plant|~": {
+				"Items": ["Woad seed"],
+				"Objects": ["Flower patch"],
+				"Level": 25,
+				"Output": "Woad leaf",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Read the ~|scroll of life|~": {
+				"Items": ["Scroll of life"],
+				"Level": 25,
+				"Skills": {
+					"Dungeoneering": 25
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|limpwurt plant|~": {
+				"Items": ["Limpwurt seed"],
+				"Objects": ["Flower patch"],
+				"Level": 26,
+				"Output": "Limpwurt root",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy harralander|~": {
+				"Items": ["Harralander seed"],
+				"Objects": ["Herb patch"],
+				"Level": 26,
+				"Output": "Grimy harralander",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -13335,6 +14042,192 @@
 				"Level": 26,
 				"Output": "Grimy harralander",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Plant an ~|apple seedling|~": {
+				"Items": ["Plant pot", "Apple tree seed"],
+				"Level": 27,
+				"Output": "Apple seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water an ~|apple seedling|~": {
+				"Items": ["Apple seedling", "WateringCan+"],
+				"Level": 27,
+				"Output": "Apple sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow an ~|apple tree|~": {
+				"Items": ["Apple sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 27,
+				"Output": "Cooking apple",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow ~|wildblood hops|~": {
+				"Items": ["Wildblood seed"],
+				"Objects": ["Hops patch"],
+				"Level": 28,
+				"Output": "Wildblood hops",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a second small pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Oak plank", "SteelNails+"],
+				"Level": 28,
+				"Skills": {
+					"Construction": 20
+				},
+				"Output Object": "Small animal pen",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|common white hen|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["CommonWhiteHen+"],
+				"Level": 28,
+				"Output": "HenOutput",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|rooster|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Rooster+"],
+				"Level": 28,
+				"Output": "Feather",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Raise a ~|bandosian bantam hen|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Bandosian bantam hen (unchecked)"],
+				"Level": 28,
+				"Output": "HenOutput",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Raise a ~|varrockian red hen|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Varrockian red hen (unchecked)"],
+				"Level": 28,
+				"Output": "HenOutput",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Raise a ~|oomlie hen|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Oomlie hen (unchecked)"],
+				"Level": 28,
+				"Output": "HenOutput",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Breed a ~|common white hen|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantChicken+"],
+				"Level": 28,
+				"Output": "CommonWhiteBreed",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Breed a ~|bandosian bantam hen|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Rooster+", "CommonWhiteHen+"],
+				"Level": 28,
+				"Output": "BandosianBantanBreed",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Breed a ~|varrockian red hen|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Rooster+", "CommonWhiteHen+"],
+				"Level": 28,
+				"Output": "VarrockianRedBreed",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Breed a ~|oomlie hen|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Rooster+", "CommonWhiteHen+"],
+				"Level": 28,
+				"Output": "OomlieBreed",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Muck out ~|bird droppings|~ from a chicken": {
+				"Objects": ["Small animal pen"],
+				"Items": ["AllChickens+"],
+				"Level": 28,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Grow ~|goutweed|~": {
+				"Items": ["Gout tuber"],
+				"Objects": ["Hops patch"],
+				"Level": 29,
+				"Output": "Goutweed",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Plant a ~|willow seedling|~": {
+				"Items": ["Plant pot", "Willow seed"],
+				"Level": 30,
+				"Output": "Willow seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|willow seedling|~": {
+				"Items": ["Willow seedling", "WateringCan+"],
+				"Level": 30,
+				"Output": "Willow sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|willow tree|~": {
+				"Items": ["Willow sapling"],
+				"Objects": ["Tree patch"],
+				"Level": 30,
+				"Output": "Willow roots",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Nurture an ~|evil yew tree|~ sapling": {
+				"Objects": ["Evil yew tree"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Cultivate a ~|rose bush|~": {
+				"Objects": ["Rose bush"],
+				"Level": 30,
+				"Output": "CultivateHetBush",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Harvest a ~|rose bush|~": {
+				"Objects": ["Rose bush"],
+				"Level": 30,
+				"Output": "RoseBushYield",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Grow a ~|strawberry plant|~": {
+				"Items": ["Strawberry seed"],
+				"Objects": ["Allotment"],
+				"Level": 31,
+				"Output": "Strawberry",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy ranarr|~": {
+				"Items": ["Ranarr seed"],
+				"Objects": ["Herb patch"],
+				"Level": 32,
+				"Output": "Grimy ranarr",
+				"Primary": false,
 				"Priority": 1
 			},
 			"Harvest a grimy ranarr from a ~|divine herb patch I|~": {
@@ -13342,12 +14235,194 @@
 				"Level": 32,
 				"Output": "Grimy ranarr",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Plant a ~|banana seedling|~": {
+				"Items": ["Plant pot", "Banana tree seed"],
+				"Level": 33,
+				"Output": "Banana seedling",
+				"Primary": false,
 				"Priority": 1
+			},
+			"Water a ~|banana seedling|~": {
+				"Items": ["Banana seedling", "WateringCan+"],
+				"Level": 33,
+				"Output": "Banana sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|banana tree|~": {
+				"Items": ["Banana sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 33,
+				"Output": "Banana",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Build a medium pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Teak plank", "MithrilNails+"],
+				"Level": 35,
+				"Skills": {
+					"Construction": 40
+				},
+				"Output Object": "Medium animal pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|white sheep|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["WhiteSheep+"],
+				"Level": 35,
+				"Output": "Wool",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|black sheep|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["BlackSheep+"],
+				"Level": 35,
+				"Output": "Black wool",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|fallfaced sheep|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["FallfacedSheep+"],
+				"Level": 35,
+				"Output": "Fallfaced wool",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Raise a ~|springsheared sheep|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["SpringshearedSheep+"],
+				"Level": 35,
+				"Output": "Springsheared wool",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Raise a ~|summerdown sheep|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["SummerdownSheep+"],
+				"Level": 35,
+				"Output": "Summerdown wool",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Raise a ~|winterwold sheep|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["WinterwoldSheep+"],
+				"Level": 35,
+				"Output": "Winterwold wool",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Breed a ~|white sheep|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantEwe+", "VariantRam+"],
+				"Level": 35,
+				"Output": "WhiteSheepBreed",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Breed a ~|black sheep|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
+				"Level": 35,
+				"Output": "BlackSheepBreed",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Breed a ~|fallfaced sheep|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
+				"Level": 35,
+				"Output": "FallfacedSheepBreed",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Breed a ~|springsheared sheep|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
+				"Level": 35,
+				"Output": "SpringshearedSheepBreed",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Breed a ~|summerdown sheep|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
+				"Level": 35,
+				"Output": "SummerdownSheepBreed",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Breed a ~|winterwold sheep|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
+				"Level": 35,
+				"Output": "WinterwoldSheepBreed",
+				"Primary": false,
+				"Priority": 13
+			},
+			"Harvest ~|manure|~ from a sheep": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["ManureSheep+", "Empty bucket"],
+				"Level": 35,
+				"Output": "Manure",
+				"Primary": false,
+				"Priority": 14
+			},
+			"Muck out ~|manure|~ from a sheep": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["ManureSheep+"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Harvest ~|green manure|~ from a sheep": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["ManureSheep+", "Empty bucket"],
+				"Level": 35,
+				"Output": "Green manure",
+				"Primary": false,
+				"Priority": 16
+			},
+			"Grow a ~|dwellberry bush|~": {
+				"Items": ["Dwellberry seed"],
+				"Objects": ["Bush patch"],
+				"Level": 36,
+				"Output": "Dwellberries",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy spirit weed|~": {
+				"Items": ["Spirit weed seed"],
+				"Objects": ["Herb patch"],
+				"Level": 36,
+				"Output": "Grimy spirit weed",
+				"Primary": false,
+				"Priority": 2
 			},
 			"Harvest a grimy spirit weed from a ~|divine herb patch I|~": {
 				"Items": ["Divine herb patch I"],
 				"Level": 36,
 				"Output": "Grimy spirit weed",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Nurture an ~|evil magic tree|~ sapling": {
+				"Objects": ["Evil magic tree"],
+				"Level": 37,
+				"Primary": false,
+				"Priority":1
+			},
+			"Grow a ~|grimy toadflax|~": {
+				"Items": ["Toadflax seed"],
+				"Objects": ["Herb patch"],
+				"Level": 38,
+				"Output": "Grimy toadflax",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -13356,12 +14431,183 @@
 				"Level": 38,
 				"Output": "Grimy toadflax",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Plant an ~|orange seedling|~": {
+				"Items": ["Plant pot", "Orange tree seed"],
+				"Level": 39,
+				"Output": "Orange seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water an ~|orange seedling|~": {
+				"Items": ["Orange seedling", "WateringCan+"],
+				"Level": 39,
+				"Output": "Orange sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow an ~|orange tree|~": {
+				"Items": ["Orange sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 39,
+				"Output": "Orange",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Plant a ~|curry seedling|~": {
+				"Items": ["Plant pot", "Curry tree seed"],
+				"Level": 42,
+				"Output": "Curry seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|curry seedling|~": {
+				"Items": ["Curry seedling", "WateringCan+"],
+				"Level": 42,
+				"Output": "Curry sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|curry tree|~": {
+				"Items": ["Curry sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 42,
+				"Output": "Curry leaf",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow an ~|evil turnip|~": {
+				"Items": ["Evil turnip seed"],
+				"Objects": ["Evil turnip patch"],
+				"Level": 42,
+				"Output": "Evil turnip",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Nurture an ~|evil elder tree|~ sapling": {
+				"Objects": ["Evil elder tree"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["POR+"],
+				"Items": ["Wood", "Vines", "Stone"],
+				"Level": 42,
+				"Skills": {
+					"Construction": 45
+				},
+				"Output Object": "Small dinosaur pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|common green frog|~": {
+				"Objects": ["Small dinosaur pen"],
+				"Items": ["Common green frog (unchecked)"],
+				"Level": 42,
+				"Output": "Poison slime",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|phantasmal poison frog|~": {
+				"Objects": ["Small dinosaur pen"],
+				"Items": ["Phantasmal poison frog (unchecked)"],
+				"Level": 42,
+				"Output": "Poison slime",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|sky-blue poison frog|~": {
+				"Objects": ["Small dinosaur pen"],
+				"Items": ["Sky-blue poison frog (unchecked)"],
+				"Level": 42,
+				"Output": "Poison slime",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Raise a ~|golden poison frog|~": {
+				"Objects": ["Small dinosaur pen"],
+				"Items": ["Golden poison frog (unchecked)"],
+				"Level": 42,
+				"Output": "Poison slime",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|common green frog|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantFrog+"],
+				"Level": 42,
+				"Output": "GreenFrogBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Breed a ~|phantasmal poison frog|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common green frog (unchecked)"],
+				"Level": 42,
+				"Output": "PhantasmalFrogBreed",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Breed a ~|sky-blue poison frog|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common green frog (unchecked)"],
+				"Level": 42,
+				"Output": "SkyblueFrogBreed",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Breed a ~|golden poison frog|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common green frog (unchecked)"],
+				"Level": 42,
+				"Output": "GoldenFrogBreed",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Grow a ~|grimy irit|~": {
+				"Items": ["Irit seed"],
+				"Objects": ["Herb patch"],
+				"Level": 44,
+				"Output": "Grimy irit",
+				"Primary": false,
 				"Priority": 1
 			},
 			"Harvest a grimy irit from a ~|divine herb patch II|~": {
 				"Items": ["Divine herb patch II"],
 				"Level": 44,
 				"Output": "Grimy irit",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Plant a ~|maple seedling|~": {
+				"Items": ["Plant pot", "Maple seed"],
+				"Level": 45,
+				"Output": "Maple seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|maple seedling|~": {
+				"Items": ["Maple seedling", "WateringCan+"],
+				"Level": 45,
+				"Output": "Maple sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|maple tree|~": {
+				"Items": ["Maple sapling"],
+				"Objects": ["Tree patch"],
+				"Level": 45,
+				"Output": "Maple roots",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow a ~|grimy wergali|~": {
+				"Items": ["Wergali seed"],
+				"Objects": ["Herb patch"],
+				"Level": 46,
+				"Output": "Grimy wergali",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -13370,12 +14616,296 @@
 				"Level": 46,
 				"Output": "Grimy wergali",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|watermelon|~": {
+				"Items": ["Watermelon seed"],
+				"Objects": ["Allotment"],
+				"Level": 47,
+				"Output": "Watermelon",
+				"Primary": false,
 				"Priority": 1
+			},
+			"Grow a ~|jangerberry bush|~": {
+				"Items": ["Jangerberry seed"],
+				"Objects": ["Bush patch"],
+				"Level": 48,
+				"Output": "Jangerberries",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a large pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Mahogany plank", "Rune nails"],
+				"Level": 49,
+				"Skills": {
+					"Construction": 60
+				},
+				"Output Object": "Large animal pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|Kandarin cow|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["Kandarin cow (unchecked)"],
+				"Level": 49,
+				"Output": "CowOutput",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|chocolate cow|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["Chocolate cow (unchecked)"],
+				"Level": 49,
+				"Output": "ChocolateCowOutput",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|strawberry cow|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["Strawberry cow (unchecked)"],
+				"Level": 49,
+				"Output": "StrawberryCowOutput",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Raise a ~|vanilla cow|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["Vanilla cow (unchecked)"],
+				"Level": 49,
+				"Output": "VanillaCowOutput",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|Kandarin cow|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantCow+"],
+				"Level": 49,
+				"Output": "KandarinCowBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Breed a ~|chocolate cow|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Kandarin Cow (unchecked)"],
+				"Level": 49,
+				"Output": "ChocolateCowBreed",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Breed a ~|strawberry cow|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Kandarin Cow (unchecked)"],
+				"Level": 49,
+				"Output": "StrawberryCowBreed",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Breed a ~|vanilla cow|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Kandarin Cow (unchecked)"],
+				"Level": 49,
+				"Output": "VanillaCowBreed",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Harvest ~|manure|~ from a cow": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureCow+", "Empty bucket"],
+				"Level": 49,
+				"Output": "Manure",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Muck out ~|manure|~ from a cow": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureCow+"],
+				"Level": 49,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Harvest ~|green manure|~ from a cow": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureCow+", "Empty bucket"],
+				"Level": 49,
+				"Output": "Green manure",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Grow a ~|grimy aventoe|~": {
+				"Items": ["Aventoe seed"],
+				"Objects": ["Herb patch"],
+				"Level": 50,
+				"Output": "Grimy aventoe",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cultivate an ~|iris bush|~": {
+				"Objects": ["Iris bush"],
+				"Level": 50,
+				"Output": "CultivateHetBush",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Harvest an ~|iris bush|~": {
+				"Objects": ["Iris bush"],
+				"Level": 50,
+				"Output": "IrisBushYield",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Harvest a grimy avantoe from a ~|divine herb patch II|~": {
 				"Items": ["Divine herb patch II"],
 				"Level": 50,
 				"Output": "Grimy avantoe",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Plant a ~|pineapple seedling|~": {
+				"Items": ["Plant pot", "Pineapple seed"],
+				"Level": 51,
+				"Output": "Pineapple seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|pineapple seedling|~": {
+				"Items": ["Pineapple seedling", "WateringCan+"],
+				"Level": 51,
+				"Output": "Pineapple sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|pineapple plant|~": {
+				"Items": ["Pineapple sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 51,
+				"Output": "Pineapple",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow a ~|white lily|~": {
+				"Items": ["White lily seed"],
+				"Objects": ["Flower patch"],
+				"Level": 52,
+				"Output": "Ashes",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|bittercap mushroom|~": {
+				"Items": ["Bittercap mushroom spore"],
+				"Objects": ["Mushroom patch"],
+				"Level": 53,
+				"Output": "BittercapOutput",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|jade vine|~": {
+				"Items": ["Jade vine seed"],
+				"Objects": ["Jade vine patch"],
+				"Level": 53,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|red vine blossom|~": {
+				"Items": ["Red blossom seed"],
+				"Objects": ["Vine flower patch"],
+				"Level": 54,
+				"Output": "Red vine blossom",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|blue vine blossom|~": {
+				"Items": ["Blue blossom seed"],
+				"Objects": ["Vine flower patch"],
+				"Level": 54,
+				"Output": "Blue vine blossom",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|green vine blossom|~": {
+				"Items": ["Green blossom seed"],
+				"Objects": ["Vine flower patch"],
+				"Level": 54,
+				"Output": "Green vine blossom",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|grey chinchompa|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Grey chinchompa (unchecked)"],
+				"Level": 54,
+				"Output": "GreyChinOutput",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|carnivorous chinchompa|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Carnivorous chinchompa (unchecked)"],
+				"Level": 54,
+				"Output": "CarnivorousChinOutput",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|cobalt chinchompa|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Cobalt chinchompa (unchecked)"],
+				"Level": 54,
+				"Output": "CobaltChinOutput",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|viridian chinchompa|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Viridian chinchompa (unchecked)"],
+				"Level": 54,
+				"Output": "ViridianChinOutput",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Raise a ~|azure chinchompa|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Azure chinchompa (unchecked)"],
+				"Level": 54,
+				"Output": "AzureChinOutput",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Raise a ~|crimson chinchompa|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Crimson chinchompa (unchecked)"],
+				"Level": 54,
+				"Output": "CrimsonChinOutput",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Raise a ~|crystal chinchompa|~": {
+				"Objects": ["Small animal pen"],
+				"Items": ["Crystal chinchompa (unchecked)"],
+				"Level": 54,
+				"Output": "CrystalChinOutput",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Muck out ~|mammal droppings|~ from a chinchompa": {
+				"Objects": ["Small animal pen"],
+				"Items": ["AllChins+"],
+				"Level": 54,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Grow a ~|cactus|~": {
+				"Items": ["Cactus seed"],
+				"Objects": ["Cactus patch"],
+				"Level": 55,
+				"Output": "Cactus spine",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy kwuarm|~": {
+				"Items": ["Kwuarm seed"],
+				"Objects": ["Herb patch"],
+				"Level": 56,
+				"Output": "Grimy kwuarm",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -13384,12 +14914,240 @@
 				"Level": 56,
 				"Output": "Grimy kwuarm",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Plant a ~|papaya seedling|~": {
+				"Items": ["Plant pot", "Papaya tree seed"],
+				"Level": 57,
+				"Output": "Papaya seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|papaya seedling|~": {
+				"Items": ["Papaya seedling", "WateringCan+"],
+				"Level": 57,
+				"Output": "Papaya sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|papaya tree|~": {
+				"Items": ["Papaya sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 57,
+				"Output": "Papaya fruit",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow a ~|grimy bloodweed|~": {
+				"Items": ["Kwuarm seed"],
+				"Objects": ["Herb patch"],
+				"Chunks": ["12603"],
+				"Level": 57,
+				"Output": "Grimy bloodweed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Grow a ~|grimy erzille|~": {
+				"Items": ["Erzille seed"],
+				"Objects": ["Vine herb patch"],
+				"Level": 58,
+				"Output": "Grimy erzille",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|whiteberry bush|~": {
+				"Items": ["White berry seed"],
+				"Objects": ["Bush patch"],
+				"Level": 59,
+				"Output": "White berries",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Plant a ~|yew seedling|~": {
+				"Items": ["Plant pot", "Yew seed"],
+				"Level": 60,
+				"Output": "Yew seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|yew seedling|~": {
+				"Items": ["Yew seedling", "WateringCan+"],
+				"Level": 60,
+				"Output": "Yew sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|yew tree|~": {
+				"Items": ["Yew sapling"],
+				"Objects": ["Tree patch"],
+				"Level": 60,
+				"Output": "Yew roots",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Unlock the ~|Livid farm|~ spells": {
+				"Chunks": ["8509", "8253"],
+				"Level": 60,
+				"Skills": {
+					"Construction": 50,
+					"Agility": 60,
+					"Crafting": 60,
+					"Magic": 70
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Grow a ~|lergberry bush|~": {
+				"Items": ["Lergberry seed"],
+				"Objects": ["Vine bush patch"],
+				"Level": 61,
+				"Output": "Lergberries",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy snapdragon|~": {
+				"Items": ["Snapdragon seed"],
+				"Objects": ["Herb patch"],
+				"Level": 62,
+				"Output": "Grimy snapdragon",
+				"Primary": false,
 				"Priority": 1
 			},
 			"Harvest a grimy snapdragon from a ~|divine herb patch II|~": {
 				"Items": ["Divine herb patch II"],
 				"Level": 62,
 				"Output": "Grimy snapdragon",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|belladonna|~": {
+				"Items": ["Belladonna seed"],
+				"Objects": ["Belladonna patch"],
+				"Level": 63,
+				"Output": "Cave nightshade",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a second medium pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Teak plank", "MithrilNails+"],
+				"Level": 64,
+				"Skills": {
+					"Construction": 40
+				},
+				"Output Object": "Medium animal pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|spirit spider|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["SpiritSpider+"],
+				"Level": 64,
+				"Output": "SpiderOutput",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|night spider|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Night spider (unchecked)"],
+				"Level": 64,
+				"Output": "SpiderOutput",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|corpse spider|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Corpse spider (unchecked)"],
+				"Level": 64,
+				"Output": "SeasonalSpiderOutput",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Raise an ~|ice spider|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Ice spider (unchecked)"],
+				"Level": 64,
+				"Output": "SeasonalSpiderOutput",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Raise a ~|fever spider|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Fever spider (unchecked)"],
+				"Level": 64,
+				"Output": "SeasonalSpiderOutput",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Raise a ~|giant spider|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Giant spider (unchecked)"],
+				"Level": 64,
+				"Output": "SeasonalSpiderOutput",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Breed a ~|spirit spider|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantSpider+"],
+				"Level": 64,
+				"Output": "SpiritSpiderBreed",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Breed a ~|night spider|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["SpiritSpider+"],
+				"Level": 64,
+				"Output": "NightSpiderBreed",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Breed a ~|corpse spider|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["SpiritSpider+"],
+				"Level": 64,
+				"Output": "CorpseSpiderBreed",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Breed an ~|ice spider|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["SpiritSpider+"],
+				"Level": 64,
+				"Output": "IceSpiderBreed",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Breed a ~|fever spider|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["SpiritSpider+"],
+				"Level": 64,
+				"Output": "FeverSpiderBreed",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Breed a ~|giant spider|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["SpiritSpider+"],
+				"Level": 64,
+				"Output": "GiantSpiderBreed",
+				"Primary": false,
+				"Priority": 13
+			},
+			"Grow a ~|grimy argway|~": {
+				"Items": ["Argway seed"],
+				"Objects": ["Vine herb patch"],
+				"Level": 65,
+				"Output": "Grimy argway",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy cadantine|~": {
+				"Items": ["Cadantine seed"],
+				"Objects": ["Herb patch"],
+				"Level": 67,
+				"Output": "Grimy cadantine",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -13398,12 +15156,445 @@
 				"Level": 67,
 				"Output": "Grimy cadantine",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Plant a ~|palm seedling|~": {
+				"Items": ["Plant pot", "Palm tree seed"],
+				"Level": 68,
+				"Output": "Palm seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|palm seedling|~": {
+				"Items": ["Palm seedling", "WateringCan+"],
+				"Level": 68,
+				"Output": "Palm sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|palm tree|~": {
+				"Items": ["Palm sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 68,
+				"Output": "Coconut",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow a ~|poison ivy bush|~": {
+				"Items": ["Poison ivy seed"],
+				"Objects": ["Bush patch"],
+				"Level": 70,
+				"Output": "Poison ivy berries",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy ugune|~": {
+				"Items": ["Ugune seed"],
+				"Objects": ["Vine herb patch"],
+				"Level": 70,
+				"Output": "Grimy ugune",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|devil's snare|~": {
+				"Items": ["Devil's snare seed"],
+				"Objects": ["Fertile soil patch"],
+				"Level": 70,
+				"Output Object": "Devil's snare",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Cultivate a ~|hydrangea bush|~": {
+				"Objects": ["Hydrangea bush"],
+				"Level": 70,
+				"Output": "CultivateHetBush",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Harvest a ~|hydrangea bush|~": {
+				"Objects": ["Hydrangea bush"],
+				"Level": 70,
+				"Output": "HydrangeaBushYield",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Build a second large pen in your ~|player-owned farm|~": {
+				"Chunks": ["10548"],
+				"Items": ["Mahogany plank", "Rune nails"],
+				"Level": 71,
+				"Skills": {
+					"Construction": 60
+				},
+				"Output Object": "Large animal pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|Fremennik yak|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["Fremennik yak (unchecked)"],
+				"Level": 71,
+				"Output": "YakOutput",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|spirit yak|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["Spirit yak (unchecked)"],
+				"Level": 71,
+				"Output": "SpiritYakOutput",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed a ~|Fremennik yak|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Spirit yak (unchecked)"],
+				"Level": 71,
+				"Output": "YakBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|spirit yak|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Fremennik yak (unchecked)"],
+				"Level": 71,
+				"Output": "SpiritYakBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Harvest ~|manure|~ from a yak": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureYak+", "Empty bucket"],
+				"Level": 71,
+				"Output": "Manure",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Muck out ~|manure|~ from a yak": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureYak+"],
+				"Level": 71,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Harvest ~|green manure|~ from a yak": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureYak+", "Empty bucket"],
+				"Level": 71,
+				"Output": "Green manure",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Plant a ~|calquat seedling|~": {
+				"Items": ["Plant pot", "Calquat tree seed"],
+				"Level": 72,
+				"Output": "Calquat seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|calquat seedling|~": {
+				"Items": ["Calquat seedling", "WateringCan+"],
+				"Level": 72,
+				"Output": "Calquat sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|calquat tree|~": {
+				"Items": ["Calquat sapling"],
+				"Objects": ["Calquat patch"],
+				"Level": 72,
+				"Output": "Calquat fruit",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow a ~|grimy lantadyme|~": {
+				"Items": ["Lantadyme seed"],
+				"Objects": ["Herb patch"],
+				"Level": 73,
+				"Output": "Grimy lantadyme",
+				"Primary": false,
 				"Priority": 1
 			},
 			"Harvest a grimy lantadyme from a ~|divine herb patch III|~": {
 				"Items": ["Divine herb patch III"],
 				"Level": 73,
 				"Output": "Grimy lantadyme",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|morchella mushroom|~": {
+				"Items": ["Morchella mushroom spore"],
+				"Objects": ["Mushroom patch"],
+				"Level": 74,
+				"Output": "MorchellaOutput",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Plant a ~|magic seedling|~": {
+				"Items": ["Plant pot", "Magic seed"],
+				"Level": 75,
+				"Output": "Magic seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|magic seedling|~": {
+				"Items": ["Magic seedling", "WateringCan+"],
+				"Level": 75,
+				"Output": "Magic sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|magic tree|~": {
+				"Items": ["Magic sapling"],
+				"Objects": ["Tree patch"],
+				"Level": 75,
+				"Output": "Magic roots",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow ~|harmony moss|~": {
+				"Items": ["Harmony moss seed"],
+				"Objects": ["Harmony pillar"],
+				"Level": 75,
+				"Output": "Harmony moss",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Grow a ~|luminous snaggler|~": {
+				"Items": ["Luminous snaggler seed"],
+				"Objects": ["Fertile soil patch"],
+				"Level": 75,
+				"Output Object": "Luminous snaggler",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["POR+"],
+				"Items": ["Wood", "Vines", "Stone"],
+				"Level": 76,
+				"Skills": {
+					"Construction": 80
+				},
+				"Output Object": "Medium dinosaur pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|common jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Withered vine",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise an ~|amphibious jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Amphibious jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Oily vine",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise an ~|aquatic jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Aquatic jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Aquatic vine",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Raise a ~|camouflaged jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Camouflaged jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Striped vine",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Raise a ~|cannibal jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Cannibal jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Plant vine",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Raise a ~|carrion jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Carrion jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Pungent vine",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Raise a ~|diseased jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Diseased jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Corrupt vine",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Raise a ~|draconic jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Draconic jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Draconic vine",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Raise an ~|igneous jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Igenous jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Marble vine",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Raise a ~|shadow jadinko|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Shadow jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "Shadow vine",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Breed a ~|common jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantJadinko+"],
+				"Level": 76,
+				"Output": "CommonJadinkoBreed",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Breed an ~|amphibious jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "AmphibiousJadinkoBreed",
+				"Primary": false,
+				"Priority": 13
+			},
+			"Breed an ~|aquatic jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "AquaticJadinkoBreed",
+				"Primary": false,
+				"Priority": 14
+			},
+			"Breed a ~|camouflaged jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "CamouflagedJadinkoBreed",
+				"Primary": false,
+				"Priority": 15
+			},
+			"Breed a ~|cannibal jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "CannibalJadinkoBreed",
+				"Primary": false,
+				"Priority": 16
+			},
+			"Breed a ~|carrion jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "CarrionJadinkoBreed",
+				"Primary": false,
+				"Priority": 17
+			},
+			"Breed a ~|diseased jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "DiseasedJadinkoBreed",
+				"Primary": false,
+				"Priority": 18
+			},
+			"Breed a ~|draconic jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "DraconicJadinkoBreed",
+				"Primary": false,
+				"Priority": 19
+			},
+			"Breed an ~|igneous jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "IgneousJadinkoBreed",
+				"Primary": false,
+				"Priority": 20
+			},
+			"Breed a ~|shadow jadinko|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Common jadinko (unchecked)"],
+				"Level": 76,
+				"Output": "ShadowJadinkoBreed",
+				"Primary": false,
+				"Priority": 21
+			},
+			"Grow a ~|grimy shengo|~": {
+				"Items": ["Shengo seed"],
+				"Objects": ["Vine herb patch"],
+				"Level": 76,
+				"Output": "Grimy shengo",
+				"Primary": false,
+				"Priority": 22
+			},
+			"Grow a ~|prickly pear|~": {
+				"Items": ["Prickly pear seed"],
+				"Objects": ["Cactus patch"],
+				"Level": 76,
+				"Skills": {
+					"Defense": 1
+				},
+				"Primary": false,
+				"Priority": 23
+			},
+			"Grow a ~|grimy arbuck|~": {
+				"Items": ["Arbuck seed"],
+				"Objects": ["Herb patch"],
+				"Level": 77,
+				"Output": "Grimy arbuck",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|kalferberry bush|~": {
+				"Items": ["Kalferberry seed"],
+				"Objects": ["Vine bush patch"],
+				"Level": 77,
+				"Output": "Kalferberries",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|barberry bush|~": {
+				"Items": ["Barberry seed"],
+				"Objects": ["Bush patch"],
+				"Level": 77,
+				"Skills": {
+					"Agility": 1
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow ~|reeds|~": {
+				"Items": ["Kalferberry seed"],
+				"Objects": ["Hops patch"],
+				"Level": 78,
+				"Output": "ReedYield",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|grimy dwarf weed|~": {
+				"Items": ["Dwarf weed seed"],
+				"Objects": ["Herb patch"],
+				"Level": 79,
+				"Output": "Grimy dwarf weed",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -13412,6 +15603,134 @@
 				"Level": 79,
 				"Output": "Grimy dwarf weed",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Grow ~|snape grass|~": {
+				"Items": ["Snape grass seed"],
+				"Objects": ["Allotment"],
+				"Level": 80,
+				"Output": "Snape grass",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Craft a ~|polypore staff|~": {
+				"Items": ["Polypore stick", "Polypore spore", "Fire rune"],
+				"Level": 80,
+				"Output": "Polypore staff",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|grimy samaden|~": {
+				"Items": ["Samaden seed"],
+				"Objects": ["Vine herb patch"],
+				"Level": 80,
+				"Output": "Grimy samaden",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a piece of any ~|farmer outfit|~": {
+				"Items": ["Master farmer fragment"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 80,
+				"Skills": {
+					"Invention": 20
+				},
+				"Primary": false,
+				"Output": "MasterFarmerOutfit",
+				"Priority": 4
+			},
+			"Raise a ~|gloomshroom zygomite|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Gloomshroom zygomite (unchecked)"],
+				"Level": 81,
+				"Output": "ZygoOutput",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|zanarian zygomite|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Zanarian zygomite (unchecked)"],
+				"Level": 81,
+				"Output": "ZanarisZygoOutput",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|daemoncap zygomite|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Daemoncap zygomite (unchecked)"],
+				"Level": 81,
+				"Output": "DaemZygoOutput",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|arcspore zygomite|~": {
+				"Objects": ["Medium animal pen"],
+				"Items": ["Arcspore zygomite (unchecked)"],
+				"Level": 81,
+				"Output": "DaemZygoOutput",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|zanarian zygomite|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["ZanarianZygoParents"],
+				"Level": 81,
+				"Output": "ZanarianZygoBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|daemoncap zygomite|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["DaemonZygoParents"],
+				"Level": 81,
+				"Output": "DaemonZygoBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Breed a ~|arcspore zygomite|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["ArcZygoParents"],
+				"Level": 81,
+				"Output": "ArcZygoBreed",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Grow a ~|lampenflora|~": {
+				"Items": ["Lampenflora seed"],
+				"Objects": ["Fertile soil patch"],
+				"Level": 82,
+				"Output Object": "Lampenflora",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Plant a ~|spirit seedling|~": {
+				"Items": ["Plant pot", "Spirit seed"],
+				"Level": 83,
+				"Output": "Spirit seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|spirit seedling|~": {
+				"Items": ["Spirit seedling", "WateringCan+"],
+				"Level": 83,
+				"Output": "Spirit sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|spirit tree|~": {
+				"Items": ["Spirit sapling"],
+				"Objects": ["Sprit tree patch"],
+				"Level": 83,
+				"Output Object": "Spirit tree",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow a ~|grimy torstol|~": {
+				"Items": ["Torstol seed"],
+				"Objects": ["Herb patch"],
+				"Level": 85,
+				"Output": "Grimy torstol",
+				"Primary": false,
 				"Priority": 1
 			},
 			"Harvest a grimy torstol from a ~|divine herb patch III|~": {
@@ -13419,14 +15738,307 @@
 				"Level": 85,
 				"Output": "Grimy torstol",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 2
 			},
-			"Harvest a grimy fellstalk from a ~|divine herb patch III|~": {
-				"Items": ["Divine herb patch III"],
-				"Level": 91,
-				"Output": "Grimy fellstalk",
+			"Grow a ~|potato cactus|~": {
+				"Items": ["Potato cactus seed"],
+				"Objects": ["Cactus patch"],
+				"Level": 86,
+				"Output": "Potato cactus",
 				"Primary": false,
 				"Priority": 1
+			},
+			"Forage a ~|wild rumberry bush|~": {
+				"Objects": ["Rumberry bush"],
+				"Level": 86,
+				"Output": "WildRumberryBush",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|rumberry bush|~": {
+				"Items": ["Rumberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Rumberry",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Forage a ~|wild exuberry bush|~": {
+				"Objects": ["Exuberry bush"],
+				"Level": 86,
+				"Output": "WildExuberryBush",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow an ~|exuberry bush|~": {
+				"Items": ["Exuberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Exuberry",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Cross-pollinate a ~|fireberry seed|~": {
+				"Items": ["Exuberry seed", "Rumberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Fireberry seed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Grow a ~|fireberry bush|~": {
+				"Items": ["Fireberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Fireberry",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Cross-pollinate a ~|blisterberry seed|~": {
+				"Items": ["Fireberry seed", "Rumberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Blisterberry seed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Grow a ~|blisterberry bush|~": {
+				"Items": ["Blisterberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Blisterberry",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Cross-pollinate a ~|mournberry seed|~": {
+				"Items": ["Fireberry seed", "Exuberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Mournberry seed",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Grow a ~|mournberry bush|~": {
+				"Items": ["Mournberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Mournberry",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Grow a ~|stoneberry bush|~": {
+				"Items": ["Stoneberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Stoneberry",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Grow a ~|stormberry bush|~": {
+				"Items": ["Stormberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Stormberry",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Cross-pollinate a ~|rosaberry seed|~": {
+				"Items": ["Rumberry seed", "Stoneberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Rosaberry seed",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Grow a ~|rosaberry bush|~": {
+				"Items": ["Rosaberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Rosaberry",
+				"Primary": false,
+				"Priority": 13
+			},
+			"Cross-pollinate a ~|squiffberry seed|~": {
+				"Items": ["Rumberry seed", "Blisterberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Squiffberry seed",
+				"Primary": false,
+				"Priority": 14
+			},
+			"Grow a ~|squiffberry bush|~": {
+				"Items": ["Squiffberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Squiffberry",
+				"Primary": false,
+				"Priority": 15
+			},
+			"Cross-pollinate a ~|meloberry seed|~": {
+				"Items": ["Rumberry seed", "Mournberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Meloberry seed",
+				"Primary": false,
+				"Priority": 16
+			},
+			"Grow a ~|meloberry bush|~": {
+				"Items": ["Meloberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Meloberry",
+				"Primary": false,
+				"Priority": 17
+			},
+			"Cross-pollinate a ~|jitterberry seed|~": {
+				"Items": ["Exuberry seed", "Blisterberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Jitterberry seed",
+				"Primary": false,
+				"Priority": 18
+			},
+			"Grow a ~|jitterberry bush|~": {
+				"Items": ["Jitterberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Jitterberry",
+				"Primary": false,
+				"Priority": 19
+			},
+			"Cross-pollinate a ~|cocoaberry seed|~": {
+				"Items": ["Exuberry seed", "Mournberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Cocoaberry seed",
+				"Primary": false,
+				"Priority": 18
+			},
+			"Grow a ~|cocoaberry bush|~": {
+				"Items": ["Cocoaberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Cocoaberry",
+				"Primary": false,
+				"Priority": 19
+			},
+			"Cross-pollinate a ~|smoulderberry seed|~": {
+				"Items": ["Blisterberry seed", "Fireberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Smoulderberry seed",
+				"Primary": false,
+				"Priority": 20
+			},
+			"Grow a ~|smoulderberry bush|~": {
+				"Items": ["Smoulderberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Smoulderberry",
+				"Primary": false,
+				"Priority": 21
+			},
+			"Cross-pollinate a ~|sourberry seed|~": {
+				"Items": ["Mournberry seed", "Fireberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Sourberry seed",
+				"Primary": false,
+				"Priority": 22
+			},
+			"Grow a ~|sourberry bush|~": {
+				"Items": ["Sourberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Sourberry",
+				"Primary": false,
+				"Priority": 23
+			},
+			"Cross-pollinate a ~|gloomberry seed|~": {
+				"Items": ["Mournberry seed", "Blisterberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Gloomberry seed",
+				"Primary": false,
+				"Priority": 24
+			},
+			"Grow a ~|gloomberry bush|~": {
+				"Items": ["Gloomberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Gloomberry",
+				"Primary": false,
+				"Priority": 25
+			},
+			"Cross-pollinate a ~|musaberry seed|~": {
+				"Items": ["Exuberry seed", "Stormberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Musaberry seed",
+				"Primary": false,
+				"Priority": 26
+			},
+			"Grow a ~|musaberry bush|~": {
+				"Items": ["Musaberry seed"],
+				"Objects": ["Berry planter"],
+				"Level": 86,
+				"Output": "Musaberry",
+				"Primary": false,
+				"Priority": 27
+			},
+			"Grow a ~|sunchoke|~": {
+				"Items": ["Sunchoke seed"],
+				"Objects": ["Allotment"],
+				"Level": 87,
+				"Skills": {
+					"Strength": 1
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|butterfly flower|~": {
+				"Items": ["Butterfly flower seed"],
+				"Objects": ["Flower patch"],
+				"Level": 88,
+				"Output": "Ruby harvest",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Plant an ~|elder seedling|~": {
+				"Items": ["Plant pot", "Elder seed"],
+				"Level": 90,
+				"Output": "Elder seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water an ~|elder seedling|~": {
+				"Items": ["Elder seedling", "WateringCan+"],
+				"Level": 90,
+				"Output": "Elder sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow an ~|elder tree|~": {
+				"Items": ["Elder sapling"],
+				"Objects": ["Elder tree patch"],
+				"Level": 90,
+				"Output": "Elder logs",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Harvest a ~|mushroom cluster|~ on The Islands That Once Were Turtles": {
+				"Objects": ["Mushroom cluster"],
+				"Level": 90,
+				"Output": "TITOWTMushroomYield",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Harvest a ~|mushroom cluster|~ on Goshima": {
+				"Objects": ["Mushroom cluster"],
+				"Level": 90,
+				"Output": "GoshimaMushroomYield",
+				"Primary": false,
+				"Priority": 2
 			},
 			"Make ~|sliced mushrooms (The Arc)|~": {
 				"Items": ["ArcMushrooms+"],
@@ -13435,7 +16047,929 @@
 					"Cooking": 86
 				},
 				"Output": "Sliced mushrooms (The Arc)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Grow a ~|liverwort|~": {
+				"Items": ["Liverwort seed"],
+				"Objects": ["Fertile soil patch"],
+				"Level": 90,
+				"Output Object": "Liverwort",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Cultivate a ~|hollyhock bush|~": {
+				"Objects": ["Hollyhock bush"],
+				"Level": 90,
+				"Output": "CultivateHetBush",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Harvest a ~|hollyhock bush|~": {
+				"Objects": ["Hollyhock bush"],
+				"Level": 90,
+				"Output": "HollyhockBushYield",
 				"Primary": true,
+				"Priority": 6
+			},
+			"Grow a ~|grimy fellstalk|~": {
+				"Items": ["Fellstalk seed"],
+				"Objects": ["Herb patch"],
+				"Level": 91,
+				"Output": "Grimy fellstalk",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a grimy fellstalk from a ~|divine herb patch III|~": {
+				"Items": ["Divine herb patch III"],
+				"Level": 91,
+				"Output": "Grimy fellstalk",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|green dragon|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["GreenDragonEgg+"],
+				"Level": 92,
+				"Output": "Green dragonhide",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|blue dragon|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["BlueDragonEgg+"],
+				"Level": 92,
+				"Output": "Blue dragonhide",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|red dragon|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["RedDragonEgg+"],
+				"Level": 92,
+				"Output": "Red dragonhide",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|black dragon|~": {
+				"Objects": ["Large animal pen"],
+				"Items": ["BlackDragonEgg+"],
+				"Level": 92,
+				"Output": "Black dragonhide",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|green dragon|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantDragon+"],
+				"Level": 92,
+				"Output": "GreenDragonBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|blue dragon|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["GreenDragonEgg+"],
+				"Level": 92,
+				"Output": "BlueDragonBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Breed a ~|red dragon|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["GreenDragonEgg+"],
+				"Level": 92,
+				"Output": "RedDragonBreed",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Breed a ~|black dragon|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["GreenDragonEgg+"],
+				"Level": 92,
+				"Output": "BlackDragonBreed",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Harvest ~|green manure|~ from a baby dragon": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureDragon+", "Empty bucket"],
+				"Level": 92,
+				"Output": "Green manure",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Muck out ~|manure|~ from a dragon": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureDragon+"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Harvest ~|dragon manure|~ from a dragon": {
+				"Objects": ["Large animal pen"],
+				"Items": ["ManureDragon+", "Empty bucket"],
+				"Level": 92,
+				"Output": "Dragon manure",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Grow a ~|fly trap|~": {
+				"Items": ["Fly trap seed"],
+				"Objects": ["Allotment"],
+				"Level": 93,
+				"Skills": {
+					"Thieving": 1
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Harvest a ~|mushroom cluster|~ on an Uncharted Isle": {
+				"Objects": ["Mushroom cluster"],
+				"Level": 94,
+				"Output": "UnchartedIsleMushroomYield",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|crystal tree|~": {
+				"Items": ["Crystal acorn"],
+				"Objects": ["Crystal tree patch"],
+				"Level": 94,
+				"Output": "Crystal tree blossom",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|grapevine|~": {
+				"Items": ["Grapevine seed"],
+				"Objects": ["Hops patch"],
+				"Level": 95,
+				"Output": "GodGrapes",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Grow a ~|dragonfruit cactus|~": {
+				"Items": ["Dragonfruit seed"],
+				"Objects": ["Cactus patch"],
+				"Level": 95,
+				"Output": "Dragonfruit",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|feral dinosaur|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Feral dinosaur (unchecked)"],
+				"Level": 97,
+				"Output": "Dinosaur claws",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|venomous dinosaur|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Venomous dinosaur (unchecked)"],
+				"Level": 97,
+				"Output": "Poison slime",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|ripper dinosaur|~": {
+				"Objects": ["Medium dinosaur pen"],
+				"Items": ["Ripper dinosaur (unchecked)"],
+				"Level": 97,
+				"Output": "Dinosaur claws",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed a ~|feral dinosaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantVaranusaur+"],
+				"Level": 97,
+				"Output": "FeralDinosaurBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|venomous dinosaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Feral dinosaur (unchecked)"],
+				"Level": 97,
+				"Output": "VenomousDinosaurBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|ripper dinosaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantVaranusaur+"],
+				"Level": 97,
+				"Output": "RipperDinosaurBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["POR+"],
+				"Items": ["Wood", "Vines", "Stone"],
+				"Level": 98,
+				"Skills": {
+					"Construction": 90
+				},
+				"Output Object": "Large dinosaur pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise an ~|arcane apoterrasaur|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Arcane apoterrasaur (unchecked)"],
+				"Level": 98,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise an ~|arcane apoterrasaur natura|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Arcane apoterrasaur natura (unchecked)"],
+				"Level": 98,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise an ~|arcane apoterrasaur iratum|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Arcane apoterrasaur iratum (unchecked)"],
+				"Level": 98,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed an ~|arcane apoterrasaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantApoterrasaur+"],
+				"Level": 98,
+				"Output": "ArcaneApoterrasaurBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed an ~|arcane apoterrasaur natura|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Arcane apoterrasaur (unchecked)"],
+				"Level": 98,
+				"Output": "ApoterrasaurNaturaBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Breed an ~|arcane apoterrasaur iratum|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Arcane apoterrasaur (unchecked)"],
+				"Level": 98,
+				"Output": "ApoterrasaurIratumBreed",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Grow an ~|avocado bush|~": {
+				"Items": ["Dragonfruit seed"],
+				"Objects": ["Bush patch"],
+				"Level": 99,
+				"Output": "Avocado",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Buy the ~|Farming cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Farming cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Farming cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Farming cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|brutish dinosaur|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Brutish dinosaur (unchecked)"],
+				"Level": 100,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|beach dinosaur|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Beach dinosaur (unchecked)"],
+				"Level": 100,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|forest dinosaur|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Forest dinosaur (unchecked)"],
+				"Level": 100,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed a ~|brutish dinosaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantBrutishDino+"],
+				"Level": 100,
+				"Output": "BrutishDinoBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|beach dinosaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Brutish dinosaur (unchecked)"],
+				"Level": 100,
+				"Output": "BeachDinoBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|forest dinosaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Brutish dinosaur (unchecked)"],
+				"Level": 100,
+				"Output": "ForestDinoBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Plant a ~|ciku seedling|~": {
+				"Items": ["Plant pot", "Ciku seed"],
+				"Level": 101,
+				"Output": "Ciku seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|ciku seedling|~": {
+				"Items": ["Ciku seedling", "WateringCan+"],
+				"Level": 101,
+				"Output": "Ciku sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|ciku tree|~": {
+				"Items": ["Ciku sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 101,
+				"Output": "Ciku",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|green salamander|~": {
+				"Objects": ["Small dinosaur pen"],
+				"Items": ["Green salamander (unchecked)"],
+				"Level": 102,
+				"Output": "Swamp tar",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise an ~|orange salamander|~": {
+				"Objects": ["Small dinosaur pen"],
+				"Items": ["Orange salamander (unchecked)"],
+				"Level": 102,
+				"Output": "Swamp tar",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|red salamander|~": {
+				"Objects": ["Small dinosaur pen"],
+				"Items": ["Red salamander (unchecked)"],
+				"Level": 102,
+				"Output": "Swamp tar",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|black salamander|~": {
+				"Objects": ["Small dinosaur pen"],
+				"Items": ["Black salamander (unchecked)"],
+				"Level": 102,
+				"Output": "Swamp tar",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|green salamander|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantSalamander+"],
+				"Level": 102,
+				"Output": "GreenSalamanderBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed an ~|orange salamander|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Green salamander (unchecked)"],
+				"Level": 102,
+				"Output": "OrangeSalamanderBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Breed a ~|red salamander|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Green salamander (unchecked)"],
+				"Level": 102,
+				"Output": "RedSalamanderBreed",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Breed a ~|black salamander|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Green salamander (unchecked)"],
+				"Level": 102,
+				"Output": "BlackSalamanderBreed",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Grow a ~|stinkshroom|~": {
+				"Items": ["Stinkshroom spore"],
+				"Objects": ["Mushroom patch"],
+				"Level": 103,
+				"Output": "Stinkfly",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["POR+"],
+				"Items": ["Wood", "Vines", "Stone"],
+				"Level": 104,
+				"Skills": {
+					"Construction": 90
+				},
+				"Output Object": "Large dinosaur pen",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|scimitops|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Scimitops (unchecked)"],
+				"Level": 104,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|scimitops palus|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Scimitops palus (unchecked)"],
+				"Level": 104,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|scimitops blavum|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Scimitops blavum (unchecked)"],
+				"Level": 104,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|scimitops|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantScimitops+"],
+				"Level": 104,
+				"Output": "ScimitopsBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|scimitops palus|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Scimitops (unchecked)"],
+				"Level": 104,
+				"Output": "ScimitopsPalusBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Breed a ~|scimitops blavum|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Scimitops (unchecked)"],
+				"Level": 104,
+				"Output": "ScimitopsBlavumBreed",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Grow a ~|mango bush|~": {
+				"Items": ["Mango seed"],
+				"Objects": ["Bush patch"],
+				"Level": 105,
+				"Output": "Mango",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|bagrada rex|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Bagrada rex (unchecked)"],
+				"Level": 106,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|bagrada nemus|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Bagrada nemus (unchecked)"],
+				"Level": 106,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|bagrada purpura|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Bagrada purpura (unchecked)"],
+				"Level": 106,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed a ~|bagrada rex|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantBagrada+"],
+				"Level": 106,
+				"Output": "BagradaRexBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|bagrada nemus|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Bagrada rex (unchecked)"],
+				"Level": 106,
+				"Output": "BagradaNemusBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|bagrada purpura|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Bagrada rex (unchecked)"],
+				"Level": 106,
+				"Output": "BagradaPurpuraBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Plant a ~|guarana seedling|~": {
+				"Items": ["Plant pot", "Guarana seed"],
+				"Level": 107,
+				"Output": "Guarana seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|guarana seedling|~": {
+				"Items": ["Guarana seedling", "WateringCan+"],
+				"Level": 107,
+				"Output": "Guarana sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|guarana tree|~": {
+				"Items": ["Guarana sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 107,
+				"Output": "Guarana",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise a ~|spicati apoterrasaur|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Spicati apoterrasaur (unchecked)"],
+				"Level": 108,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|spicati apoterrasaur tilia|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Spicati apoterrasaur tilia (unchecked)"],
+				"Level": 108,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|spicati apoterrasaur purpura|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Spicati apoterrasaur purpura (unchecked)"],
+				"Level": 108,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed a ~|spicati apoterrasaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantSpicatiApoterrasaur+"],
+				"Level": 108,
+				"Output": "SpicatiApoterrasaurBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|spicati apoterrasaur tilia|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Spicati apoterrasaur (unchecked)"],
+				"Level": 108,
+				"Output": "ApoterrasaurTiliaBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|spicati apoterrasaur purpura|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Spicati apoterrasaur (unchecked)"],
+				"Level": 108,
+				"Output": "ApoterrasaurPurpuraBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Grow a ~|tombshroom|~": {
+				"Items": ["Tombshroom spore"],
+				"Objects": ["Mushroom patch"],
+				"Level": 109,
+				"Output": "Tombshroom",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise an ~|asciatops|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Asciatops (unchecked)"],
+				"Level": 110,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise an ~|asciatops acta|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Asciatops acta (unchecked)"],
+				"Level": 110,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise an ~|asciatops aurum|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Asciatops aurum (unchecked)"],
+				"Level": 110,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed an ~|asciatops|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantAsciatops+"],
+				"Level": 110,
+				"Output": "AsciatopsBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed an ~|asciatops acta|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Asciatops (unchecked)"],
+				"Level": 110,
+				"Output": "AsciatopsActaBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed an ~|asciatops aurum|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Asciatops (unchecked)"],
+				"Level": 110,
+				"Output": "AsciatopsAurumBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Grow a ~|lychee bush|~": {
+				"Items": ["Lychee seed"],
+				"Objects": ["Bush patch"],
+				"Level": 111,
+				"Output": "Lychee",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|corbicula rex|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Corbicula rex (unchecked)"],
+				"Level": 112,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|corbicula gelum|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Corbicula gelum (unchecked)"],
+				"Level": 112,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|corbicula malum|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Corbicula malum (unchecked)"],
+				"Level": 112,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed a ~|corbicula rex|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantCorbicula+"],
+				"Level": 112,
+				"Output": "CorbiculaRexBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|corbicula gelum|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Corbicula rex (unchecked)"],
+				"Level": 112,
+				"Output": "CorbiculaGelumBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|corbicula malum|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Corbicula rex (unchecked)"],
+				"Level": 112,
+				"Output": "CorbiculaMalumBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Plant a ~|carambola seedling|~": {
+				"Items": ["Plant pot", "Carambola seed"],
+				"Level": 113,
+				"Output": "Carambola seedling",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Water a ~|carambola seedling|~": {
+				"Items": ["Carambola seedling", "WateringCan+"],
+				"Level": 113,
+				"Output": "Carambola sapling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Grow a ~|carambola tree|~": {
+				"Items": ["Carambola sapling"],
+				"Objects": ["Fruit tree patch"],
+				"Level": 113,
+				"Output": "Carambola",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Raise an ~|oculi apoterrasaur|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Oculi apoterrasaur (unchecked)"],
+				"Level": 115,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise an ~|oculi apoterrasaur oceanum|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Oculi apoterrasaur oceanum (unchecked)"],
+				"Level": 115,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise an ~|oculi apoterrasaur glacies|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Oculi apoterrasaur glacies (unchecked)"],
+				"Level": 115,
+				"Output": "Beak snot",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed an ~|oculi apoterrasaur|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantOculiApoterrasaur+"],
+				"Level": 115,
+				"Output": "OculiApoterrasaurBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed an ~|oculi apoterrasaur oceanum|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Oculi apoterrasaur (unchecked)"],
+				"Level": 115,
+				"Output": "ApoterrasaurOceanumBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed an ~|oculi apoterrasaur glacies|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Oculi apoterrasaur (unchecked)"],
+				"Level": 115,
+				"Output": "ApoterrasaurGlaciesBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Grow a ~|golden dragonfruit cactus|~": {
+				"Items": ["Golden dragonfruit sapling"],
+				"Objects": ["Cactus patch"],
+				"Level": 116,
+				"Output": "Golden dragonfruit",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|malletops|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Malletops (unchecked)"],
+				"Level": 117,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|malletops palus|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Malletops palus (unchecked)"],
+				"Level": 117,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|malletops purpura|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Malletops purpura (unchecked)"],
+				"Level": 117,
+				"Output": "Spark chitin",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed a ~|malletops|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantMalletops+"],
+				"Level": 117,
+				"Output": "MalletopsBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|malletops palus|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Malletops (unchecked)"],
+				"Level": 117,
+				"Output": "MalletopsPalusBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|malletops purpura|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Malletops (unchecked)"],
+				"Level": 117,
+				"Output": "MalletopsPurpuraBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Raise a ~|pavosaurus rex|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Pavosaurus rex (unchecked)"],
+				"Level": 112,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Raise a ~|pavosaurus nemus|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Pavosaurus nemus (unchecked)"],
+				"Level": 118,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Raise a ~|pavosaurus desertum|~": {
+				"Objects": ["Large dinosaur pen"],
+				"Items": ["Pavosaurus desertum (unchecked)"],
+				"Level": 118,
+				"Output": "Bottled dinosaur roar",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Breed a ~|pavosaurus rex|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["VariantPavosaurus+"],
+				"Level": 118,
+				"Output": "PavosaurusRexBreed",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Breed a ~|pavosaurus nemus|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Pavosaurus rex (unchecked)"],
+				"Level": 118,
+				"Output": "PavosaurusNemusBreed",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Breed a ~|pavosaurus desertum|~": {
+				"Objects": ["Breeding paddock"],
+				"Items": ["Pavosaurus rex (unchecked)"],
+				"Level": 118,
+				"Output": "PavosaurusDesertumBreed",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Grow a ~|money tree|~": {
+				"Items": ["Money tree seed"],
+				"Objects": ["Money tree patch"],
+				"Level": 119,
+				"Output": "Money tree cash bag",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Buy the ~|Farming master cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Farming master cape"],
+				"Level": 120,
+				"Primary": false,
 				"Priority": 1
 			}
 		},
@@ -19402,6 +22936,17 @@
 				"Primary": false,
 				"Output": "TrapperOutfit",
 				"Priority": 1
+			},
+			"Create a piece of any ~|farmer outfit|~": {
+				"Items": ["Master farmer fragment"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 20,
+				"Skills": {
+					"Farming": 80
+				},
+				"Primary": false,
+				"Output": "MasterFarmerOutfit",
+				"Priority": 2
 			}
 		},
 		"Magic": {
@@ -22171,6 +25716,28 @@
 				"Items": ["Magic master cape"],
 				"Level": 120,
 				"Primary": false,
+				"Priority": 1
+			},
+			"Cast ~|Cure Plant|~ on a diseased farming patch": {
+				"Items": ["Earth rune+", "Astral rune"],
+				"Objects": ["FarmingPatch+"],
+				"Chunks": ["8508"],
+				"Level": 66,
+				"Primary": true,
+				"Skills": {
+					"Farming": 1
+				},
+				"Priority": 4
+			},
+			"Cast ~|Fertile Soil|~ on a farming patch": {
+				"Items": ["Earth rune+", "Astral rune", "Nature rune"],
+				"Objects": ["FarmingPatch+"],
+				"Chunks": ["8508"],
+				"Level": 83,
+				"Primary": true,
+				"Skills": {
+					"Farming": 1
+				},
 				"Priority": 1
 			}
 		},
@@ -29800,6 +33367,16 @@
 				"Level": 120,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Grow a ~|sunchoke|~": {
+				"Items": ["Sunchoke seed"],
+				"Objects": ["Allotment"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 87
+				},
+				"Primary": true,
+				"Priority": 1
 			}
 		},
 		"Summoning": {
@@ -32527,6 +36104,96 @@
 				},
 				"Primary": false,
 				"Priority": 4
+			},
+			"Harvest a ~|winter sq'irk|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "Winter sq'irk",
+				"Priority": 6
+			},
+			"Harvest herbs from the ~|winter garden|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "WinterHerbs",
+				"Priority": 7
+			},
+			"Harvest a ~|spring sq'irk|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 25,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "Spring sq'irk",
+				"Priority": 3
+			},
+			"Harvest herbs from the ~|sorceress' spring garden|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 25,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "SpringHerbs",
+				"Priority": 4
+			},
+			"Harvest an ~|autumn sq'irk|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 45,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "Autumn sq'irk",
+				"Priority": 3
+			},
+			"Harvest herbs from the ~|sorceress' autumn garden|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 45,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "AutumnHerbs",
+				"Priority": 4
+			},
+			"Harvest a ~|summer sq'irk|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 65,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "Summer sq'irk",
+				"Priority": 6
+			},
+			"Harvest herbs from the ~|sorceress' summer garden|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 65,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "SummerHerbs",
+				"Priority": 7
+			},
+			"Grow a ~|fly trap|~": {
+				"Items": ["Fly trap seed"],
+				"Objects": ["Allotment"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 93
+				},
+				"Primary": true,
+				"Priority": 8
 			}
 		},
 		"Woodcutting": {
@@ -33547,6 +37214,32 @@
 			"Open a ~|crystal impling jar|~": {
 				"Items": ["Crystal impling jar"],
 				"Output": "CrystalImpling"
+			},
+			"Fill a ~|watering can|~ from a cannister": {
+				"Items": ["Watering can", "WaterItem+"],
+				"Output": "Watering can (8)"
+			},
+			"Fill a ~|watering can|~ from a water source": {
+				"Items": ["Watering can"],
+				"Objects": ["WaterObject+"],
+				"Output": "Watering can (8)"
+			},
+			"Fill a ~|plant pot|~": {
+				"Items": ["Plant pot (empty)"],
+				"Objects": ["FarmingPatch+"],
+				"Output": "Plant pot"
+			},
+			"Carve an ~|evil turnip|~": {
+				"Items": ["Evil turnip"],
+				"Output": "Carved evil turnip"
+			},
+			"Carve an ~|calquat keg|~": {
+				"Items": ["Calquat fruit"],
+				"Output": "Calquat keg"
+			},
+			"Open a ~|toad egg sac|~": {
+				"Items": ["Toad egg sac"],
+				"Output": "Swamp toad"
 			}
 		}
 	},
@@ -78954,7 +82647,57 @@
 			"KyattFur+": ["Kyatt fur", "Tatty kyatt fur"],
 			"YaktweeStick+": ["Yaktwee stick", "Enhanced yaktwee stick"],
 			"Wingsuit+": ["Wingsuit v1", "Wingsuit v2", "Wingsuit v3"],
-			"ButterflyNet+": ["Butterfly net", "Magic butterfly net", "Sacred clay butterfly net", "Volatile clay butterfly net"]
+			"ButterflyNet+": ["Butterfly net", "Magic butterfly net", "Sacred clay butterfly net", "Volatile clay butterfly net"],
+			"CompostItem+": ["Weeds", "Manure", "Fever grass", "Flax", "Primweed", "Stinkbloom", "Tansymum", "Leaves", "Lavender", "Raw potato", "Onion", "Cabbage", "Tomato", "Sweetcorn"],
+			"SupercompostItem+": ["Curry leaf", "Seaweed", "Banana", "Orange", "Lime", "Lemon", "Cooking apple", "Cabbage", "Wheat", "Grimy guam", "Grimy tarromin", "Grimy harralander", "Grimy marrentill", "Grimy ranarr", "Clean guam", "Clean tarromin", "Clean harralander", "Clean marrentill", "Clean ranarr", "Magic roots", "Maple roots", "Oak roots", "Willow roots", "Yew roots", "Calquat fruit", "Coconut shell", "Jangerberries", "Bittercap mushroom", "Papaya fruit", "Pineapple", "Poison ivy berries", "Watermelon", "White berries", "Grimy avantoe", "Grimy cadantine", "Grimy dwarf weed", "Grimy kwuarm", "Grimy lantadyme", "Grimy snapdragon", "Grimy torstol", "Grimy toadflax", "Clean avantoe", "Clean cadantine", "Clean dwarf weed", "Clean kwuarm", "Clean lantadyme", "Clean snapdragon", "Clean torstol", "Clean toadflax", "Grapes of Guthix", "Green manure", "Pungent vine", "White tree fruit"],
+			"WateringCan+": ["Watering can (8)", "Magic watering can"],
+			"SteelNails+": ["Steel nails", "Black nails", "Mithril nails", "Adamant nails", "Rune nails"],
+			"MithrilNails+": ["Mithril nails", "Adamant nails", "Rune nails"],
+			"AllRabbits+": ["Common brown rabbit (unchecked)", "Rellekkan cream rabbit (unchecked)", "Piscatorian cottontail rabbit (unchecked)"],
+			"VariantRabbit+": ["Rellekkan cream rabbit (unchecked)", "Piscatorian cottontail rabbit (unchecked)"],
+			"Rooster+": ["Rooster (unchecked)", "Chicken egg (unchecked)"],
+			"CommonWhiteHen+": ["Common white hen (unchecked)", "Chicken egg (unchecked)"],
+			"VariantChicken+": ["Bandosian bantam hen (unchecked)", "Varrockian red hen (unchecked)", "Oomlie hen (unchecked)"],
+			"AllChickens+": ["Common white hen (unchecked)", "Bandosian bantam hen (unchecked)", "Varrockian red hen (unchecked)", "Oomlie hen (unchecked)"],
+			"WhiteSheep+": ["White ram (unchecked)", "White ewe (unchecked)"],
+			"BlackSheep+": ["Black ram (unchecked)", "Black ewe (unchecked)"],
+			"FallfacedSheep+": ["Fallfaced ram (unchecked)", "Fallfaced ewe (unchecked)"],
+			"SpringshearedSheep+": ["Springsheared ram (unchecked)", "Springsheared ewe (unchecked)"],
+			"SummerdownSheep+": ["Summerdown ram (unchecked)", "Summerdown ewe (unchecked)"],
+			"WinterwoldSheep+": ["Winterwold ram (unchecked)", "Winterwold ewe (unchecked)"],
+			"VariantEwe+": ["Black ewe (unchecked)", "Fallfaced ewe (unchecked)", "Springsheared ewe (unchecked)", "Summerdown ewe (unchecked)", "Winterwold ewe (unchecked)"],
+			"VariantRam+": ["Black ram (unchecked)", "Fallfaced ram (unchecked)", "Springsheared ram (unchecked)", "Summerdown ram (unchecked)", "Winterwold ram (unchecked)"],
+			"ManureSheep+": ["White ram (unchecked)", "White ewe (unchecked)", "Black ram (unchecked)", "Black ewe (unchecked)", "Fallfaced ram (unchecked)", "Fallfaced ewe (unchecked)", "Springsheared ram (unchecked)", "Springsheared ewe (unchecked)", "Summerdown ram (unchecked)", "Summerdown ewe (unchecked)", "Winterwold ram (unchecked)", "Winterwold ewe (unchecked)"],
+			"VariantFrog+": ["Phantasmal poison frog (unchecked)", "Sky-blue poison frog (unchecked)", "Golden poison frog (unchecked)"],
+			"VariantCow+": ["Chocolate cow (unchecked)", "Strawberry cow (unchecked)", "Vanilla cow (unchecked)"],
+			"ManureCow+": ["Kandarin cow (unchecked)", "Chocolate cow (unchecked)", "Strawberry cow (unchecked)", "Vanilla cow (unchecked)"],
+			"VariantChin+": ["Carnivorous chinchompa (unchecked)", "Cobalt chinchompa (unchecked)", "Viridian chinchompa (unchecked)", "Azure chinchompa (unchecked)", "Crimson chinchompa (unchecked)", "Crystal chinchompa (unchecked)"],
+			"AllChins+": ["Grey chinchompa (unchecked)", "Carnivorous chinchompa (unchecked)", "Cobalt chinchompa (unchecked)", "Viridian chinchompa (unchecked)", "Azure chinchompa (unchecked)", "Crimson chinchompa (unchecked)", "Crystal chinchompa (unchecked)"],
+			"VariantSpider+": ["Night spider (unchecked)", "Corpse spider (unchecked)", "Ice spider (unchecked)", "Fever spider (unchecked)", "Giant spider (unchecked)"],
+			"SpiritSpider+": ["Spirit spider (unchecked)", "Spider egg (unchecked)"],
+			"ManureYak+": ["Fremennik yak (unchecked)", "Spirit yak (unchecked)"],
+			"VariantJadinko+": ["Amphibious jadinko (unchecked)", "Aquatic jadinko (unchecked)", "Camouflaged jadinko (unchecked)", "Cannibal jadinko (unchecked)", "Carrion jadinko (unchecked)", "Diseased jadinko (unchecked)", "Draconic jadinko (unchecked)", "Igneous jadinko (unchecked)", "Shadow jadinko (unchecked)"],
+			"ZanarianZygoParents+": ["Gloomshroom zygomite (unchecked)", "Daemoncap zygomite (unchecked)", "Arcspore zygomite (unchecked)"],
+			"DaemonZygoParents+": ["Gloomshroom zygomite (unchecked)", "Zanarian zygomite (unchecked)", "Arcspore zygomite (unchecked)"],
+			"ArcZygoParents+": ["Gloomshroom zygomite (unchecked)", "Zanarian zygomite (unchecked)", "Arcspore zygomite (unchecked)"],
+			"GreenDragonEgg+": ["Green dragon (unchecked)", "Green dragon egg (unchecked)"],
+			"BlueDragonEgg+": ["Blue dragon (unchecked)", "Blue dragon egg (unchecked)"],
+			"RedDragonEgg+": ["Red dragon (unchecked)", "Red dragon egg (unchecked)"],
+			"BlackDragonEgg+": ["Black dragon (unchecked)", "Black dragon egg (unchecked)"],
+			"VariantDragon+": ["Blue dragon (unchecked)", "Blue dragon egg (unchecked)", "Red dragon (unchecked)", "Red dragon egg (unchecked)", "Black dragon (unchecked)", "Black dragon egg (unchecked)"],
+			"ManureDragon+": ["Green dragon (unchecked)", "Green dragon egg (unchecked)", "Blue dragon (unchecked)", "Blue dragon egg (unchecked)", "Red dragon (unchecked)", "Red dragon egg (unchecked)", "Black dragon (unchecked)", "Black dragon egg (unchecked)"],
+			"VariantVaranusaur+": ["Venomous dinosaur (unchecked)", "Ripper dinosaur (unchecked)"],
+			"VariantApoterrasaur+": ["Arcane apoterrasaur natura (unchecked)", "Arcane apoterrasaur iratum (unchecked)"],
+			"VariantBrutishDino+": ["Beach dinosaur (unchecked)", "Forest dinosaur (unchecked)"],
+			"VariantSalamander+": ["Orange salamander (unchecked)", "Red salamander (unchecked)", "Black salamander (unchecked)"],
+			"VariantScimitops+": ["Scimitops palus (unchecked)", "Scimitops blavum (unchecked)"],
+			"VariantBagrada+": ["Bagrada nemus (unchecked)", "Bagrada purpura (unchecked)"],
+			"VariantSpicatiApoterrasaur+": ["Spicati apoterrasaur tilia (unchecked)", "Spicati apoterrasaur purpura (unchecked)"],
+			"VariantAsciatops+": ["Asciatops acta (unchecked)", "Asciatops aurum (unchecked)"],
+			"VariantCorbicula+": ["Corbicula gelum (unchecked)", "Corbicula malum (unchecked)"],
+			"VariantOculiApoterrasaur+": ["Oculi apoterrasaur oceanum (unchecked)", "Oculi apoterrasaur glacies (unchecked)"],
+			"VariantMalletops+": ["Malletops palus (unchecked)", "Malletops purpura (unchecked)"],
+			"VariantPavosaurus+": ["Pavosaurus nemus (unchecked)", "Pavosaurus desertum (unchecked)"]
 		},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -78981,7 +82724,8 @@
 			"IgneousJadinkoAnachronia+": ["15684", "16704"],
 			"AquaticJadinkoAnachronia+": ["15170", "16195"],
 			"DiseasedJadinkoAnachronia+": ["16965", "16709", "16194"],
-			"CarrionJadinkoAnachronia+": ["15430", "16448"]
+			"CarrionJadinkoAnachronia+": ["15430", "16448"],
+			"POR+": ["1495", "14916", "14660", "14659"]
 	},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
@@ -78992,7 +82736,10 @@
 			"Fire+": ["Fire", "Fireplace", "Player fire", "Campfire"],
 			"Cooking object+": ["Fire", "Cooking range", "Cooking range+", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire"],
 			"Cooking range+": ["Cooking range", "Cooking range+", "Stove", "Clay oven"],
-			"SnowPile+": ["Snow pile", "Snow drift"]
+			"SnowPile+": ["Snow pile", "Snow drift"],
+			"FarmingPatch+": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Belladonna patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
+			"PotatoPatch+": ["Allotment", "Potato patch"],
+			"Haystack+": ["Haystack", "Hay bale"]
 		},
 		"monstersPlus": {
 			"Guard+": ["Guard", "Guard (Varrock)"],
@@ -104285,6 +108032,475 @@
 				"Sign of the porter V": "Common",
 				"Luminous energy": "Common",
 				"Portent of item protection": "Common"
+			}
+		},
+		"Farming": {
+			"WinterHerbs": {
+				"Clean guam": "Common",
+				"Clean marrentill": "Common",
+				"Clean tarromin": "Common",
+				"Clean harralander": "Common"
+			},
+			"SpringHerbs": {
+				"Clean guam": "Common",
+				"Clean marrentill": "Common",
+				"Clean tarromin": "Common",
+				"Clean harralander": "Common",
+				"Clean irit": "Common",
+				"Clean avantoe": "Common"
+			},
+			"AutumnHerbs": {
+				"Clean guam": "Common",
+				"Clean marrentill": "Common",
+				"Clean tarromin": "Common",
+				"Clean harralander": "Common",
+				"Clean irit": "Common",
+				"Clean avantoe": "Common",
+				"Clean ranarr": "Common",
+				"Clean kwuarm": "Common",
+				"Clean cadantine": "Common"
+			},
+			"SummerHerbs": {
+				"Clean guam": "Common",
+				"Clean marrentill": "Common",
+				"Clean tarromin": "Common",
+				"Clean harralander": "Common",
+				"Clean irit": "Common",
+				"Clean avantoe": "Common",
+				"Clean ranarr": "Common",
+				"Clean kwuarm": "Common",
+				"Clean cadantine": "Common",
+				"Clean lantadyme": "Common",
+				"Clean dwarf weed": "Common"
+			},
+			"RabbitOutput": {
+				"Rabbit teeth": "Common",
+				"Rabbit foot": "Uncommon"
+			},
+			"CommonBrownBreed": {
+				"Common brown rabbit (unchecked)": "Unknown"
+			},
+			"RellekkanCreamBreed": {
+				"Rellekkan cream rabbit (unchecked)": "Unknown"
+			},
+			"PiscatorianCottontailBreed": {
+				"Piscatorian cottontail rabbit (unchecked)": "Unknown"
+			},
+			"HenOutput": {
+				"Feather": "Always",
+				"Egg": "Always"
+			},
+			"BandosianBantanBreed": {
+				"Bandosian bantan hen (unchecked)": "Unknown"
+			},
+			"VarrockianRedBreed": {
+				"Varrockian red hen (unchecked)": "Unknown"
+			},
+			"OomlieBreed": {
+				"Oomlie hen (unchecked)": "Unknown"
+			},
+			"CommonWhiteBreed": {
+				"Common white hen (unchecked)": "Unknown",
+				"Rooster (unchecked)": "Unknown"
+			},
+			"CultivateHetBush": {
+				"Piece of Het": ["Uncommon"]
+			},
+			"RoseBushYield": {
+				"Roses": "Always",
+				"Golden roses": "Rare"
+			},
+			"WhiteSheepBreed": {
+				"White ewe (unchecked)": "Unknown",
+				"White ram (unchecked)": "Unknown"
+			},
+			"BlackSheepBreed": {
+				"Black ewe (unchecked)": "Unknown",
+				"Black ram (unchecked)": "Unknown"
+			},
+			"FallfacedSheepBreed": {
+				"Fallfaced ewe (unchecked)": "Unknown",
+				"Fallfaced ram (unchecked)": "Unknown"
+			},
+			"SpringshearedSheepBreed": {
+				"Springsheared ewe (unchecked)": "Unknown",
+				"Springsheared ram (unchecked)": "Unknown"
+			},
+			"SummerdownSheepBreed": {
+				"Summerdown ewe (unchecked)": "Unknown",
+				"Summerdown ram (unchecked)": "Unknown"
+			},
+			"WinterwoldSheepBreed": {
+				"Winterwold ewe (unchecked)": "Unknown",
+				"Winterwold ram (unchecked)": "Unknown"
+			},
+			"GreenFrogBreed": {
+				"Common green frog (unchecked)": "Unknown"
+			},
+			"PhantasmalFrogBreed": {
+				"Phantasmal poison frog (unchecked)": "Unknown"
+			},
+			"SkyblueFrogBreed": {
+				"Sky-blue poison frog (unchecked)": "Unknown"
+			},
+			"GoldenFrogBreed": {
+				"Golden poison frog (unchecked)": "Unknown"
+			},
+			"CowOutput": {
+				"Cowhide": "Always",
+				"Bucket of milk": "Always"
+			},
+			"ChocolateCowOutput": {
+				"Cowhide": "Always",
+				"Chocolatey milk": "Always"
+			},
+			"StrawberryCowOutput": {
+				"Cowhide": "Always",
+				"Strawberry milk": "Always"
+			},
+			"VanillaCowOutput": {
+				"Cowhide": "Always",
+				"Vanilla milk": "Always"
+			},
+			"KandarinCowBreed": {
+				"Kandarin cow (unchecked)": "Unknown"
+			},
+			"ChocolateCowBreed": {
+				"Chocolate cow (unchecked)": "Unknown"
+			},
+			"StrawberryCowBreed": {
+				"Strawberry cow (unchecked)": "Unknown"
+			},
+			"VanillaCowBreed": {
+				"Vanilla cow (unchecked)": "Unknown"
+			},
+			"IrisBushYield": {
+				"Irises": "Always",
+				"Golden roses": "Rare"
+			},
+			"GreyChinOutput": {
+				"Chinchompa residue": "Always",
+				"Grey chinchompa": "Always"
+			},
+			"CarnivorousChinOutput": {
+				"Chinchompa residue": "Always",
+				"Red chinchompa": "Always"
+			},
+			"CobaltChinOutput": {
+				"Chinchompa residue": "Always",
+				"Cobalt skillchompa": "Always"
+			},
+			"ViridianChinOutput": {
+				"Chinchompa residue": "Always",
+				"Viridian skillchompa": "Always"
+			},
+			"AzureChinOutput": {
+				"Chinchompa residue": "Always",
+				"Azure skillchompa": "Always"
+			},
+			"CrimsonChinOutput": {
+				"Chinchompa residue": "Always",
+				"Crimson skillchompa": "Always"
+			},
+			"CrystalChinOutput": {
+				"Chinchompa residue": "Always",
+				"Crystal skillchompa": "Always"
+			},
+			"SpiderOutput": {
+				"Spider silk": "Always",
+				"Spider fangs": "Always"
+			},
+			"SeasonalSpiderOutput": {
+				"Spider silk": "Always",
+				"Spider venom": "Always",
+				"Spider fangs": "Always"
+			},
+			"SpiritSpiderBreed": {
+				"Spirit spider (unchecked)": "Unknown"
+			},
+			"NightSpiderBreed": {
+				"Night spider (unchecked)": "Unknown"
+			},
+			"CorpseSpiderBreed": {
+				"Corpse spider (unchecked)": "Unknown"
+			},
+			"IceSpiderBreed": {
+				"Ice spider (unchecked)": "Unknown"
+			},
+			"FeverSpiderBreed": {
+				"Fever spider (unchecked)": "Unknown"
+			},
+			"GiantSpiderBreed": {
+				"Giant spider (unchecked)": "Unknown"
+			},
+			"HydrangeaBushYield": {
+				"Hydrangeas": "Always",
+				"Golden roses": "Rare"
+			},
+			"YakOutput": {
+				"Yak-hide": "Always",
+				"Hair": "Always",
+				"Yak milk": "1/2"
+			},
+			"SpiritYakOutput": {
+				"Yak-hide": "Always",
+				"Hair": "Always",
+				"Yak tuft": "Always"
+			},
+			"YakBreed": {
+				"Fremennik yak (unchecked)": "Unknown"
+			},
+			"SpiritYakBreed": {
+				"Spirit yak (unchecked)": "Unknown"
+			},
+			"AmphibiousJadinkoBreed": {
+				"Amphibious jadinko (unchecked)": "Unknown"
+			},
+			"AquaticJadinkoBreed": {
+				"Aquatic jadinko (unchecked)": "Unknown"
+			},
+			"CamouflagedJadinkoBreed": {
+				"Camouflaged jadinko (unchecked)": "Unknown"
+			},
+			"CannibalJadinkoBreed": {
+				"Cannibal jadinko (unchecked)": "Unknown"
+			},
+			"CarrionJadinkoBreed": {
+				"Carrion jadinko (unchecked)": "Unknown"
+			},
+			"DiseasedJadinkoBreed": {
+				"Diseased jadinko (unchecked)": "Unknown"
+			},
+			"DraconicJadinkoBreed": {
+				"Draconic jadinko (unchecked)": "Unknown"
+			},
+			"IgneousJadinkoBreed": {
+				"Igneous jadinko (unchecked)": "Unknown"
+			},
+			"ShadowJadinkoBreed": {
+				"Shadow jadinko (unchecked)": "Unknown"
+			},
+			"CommonJadinkoBreed": {
+				"Common jadinko (unchecked)": "Unknown"
+			},
+			"ReedYield": {
+				"Toad egg sac": "Always",
+				"Green salamander": "Unknown",
+				"Swamp tar": "Unknown"
+			},
+			"MasterFarmerOutfit": {
+				"Animal farmer hat": "1/15",
+				"Animal farmer jacket": "1/15",
+				"Animal farmer legwear": "1/15",
+				"Animal farmer gloves": "1/15",
+				"Animal farmer boots": "1/15",
+				"Crop farmer hat": "1/15",
+				"Crop farmer jacket": "1/15",
+				"Crop farmer legwear": "1/15",
+				"Crop farmer gloves": "1/15",
+				"Crop farmer boots": "1/15",
+				"Tree farmer hat": "1/15",
+				"Tree farmer jacket": "1/15",
+				"Tree farmer legwear": "1/15",
+				"Tree farmer gloves": "1/15",
+				"Tree farmer boots": "1/15"
+			},
+			"MorchellaOutput": {
+				"Morchella mushroom": "Always",
+				"Gloomshroom zygomite (unchecked)": "1/50"
+			},
+			"BittercapOutput": {
+				"Bittercap mushroom": "Always",
+				"Gloomshroom zygomite (unchecked)": "1/50"
+			},
+			"ZygoOutput": {
+				"Zygomite fruit": "Always",
+				"Mort myre fungus": "Always"
+			},
+			"ZanarianOutput": {
+				"Zygomite fruit": "Always",
+				"Morchella mushroom spore": "Always",
+				"Mycelial webbing": "Always"
+			},
+			"DaemOutput": {
+				"Zygomite fruit": "Always",
+				"Mort myre fungus": "Always",
+				"Mycelial webbing": "Always"
+			},
+			"ZanarianZygoBreed": {
+				"Zanarian zygomite (unchecked)": "Unknown"
+			},
+			"DaemonZygoBreed": {
+				"Daemoncap zygomite (unchecked)": "Unknown"
+			},
+			"ArcZygoBreed": {
+				"Arcspore zygomite (unchecked)": "Unknown"
+			},
+			"WildRumberryBush": {
+				"Rumberry": "Always",
+				"Rumberry seed": "Rare"
+			},
+			"WildExuberryBush": {
+				"Exuberry": "Always",
+				"Exuberry seed": "Rare"
+			},
+			"TITOWTMushroomYield": {
+				"Wushroom": "6918/9138",
+				"Lactarius": "916/9138",
+				"Paraspore": "897/9138",
+				"Purple bellow": "385/9138",
+				"Toadstool": "22/9138",
+				"Gloomshroom zygomite (unchecked)": "1/4000"
+			},
+			"GoshimaMushroomYield": {
+				"Wushroom": "7227/9405",
+				"Corpsebloom": "904/9405",
+				"Snufftruffle": "380/9405",
+				"Immorel": "883/9405",
+				"Buttercap": "11/9405",
+				"Gloomshroom zygomite (unchecked)": "1/4000"
+			},
+			"UnchartedIsleMushroomYield": {
+				"Blushroom": "3979/6689",
+				"Honeyfungus": "709/6689",
+				"Sporcini": "615/6689",
+				"Inky cap": "625/6689",
+				"Arc puffball": "641/6689",
+				"Russula": "75/6689",
+				"Summertwirl": "53/6689",
+				"Gloomshroom zygomite (unchecked)": "1/400"
+			},
+			"HollyhockBushYield": {
+				"Hollyhocks": "Always",
+				"Golden roses": "Rare"
+			},
+			"GreenDragonBreed": {
+				"Green dragon (unchecked)": "Unknown"
+			},
+			"BlueDragonBreed": {
+				"Blue dragon (unchecked)": "Unknown"
+			},
+			"RedDragonBreed": {
+				"Red dragon (unchecked)": "Unknown"
+			},
+			"BlackDragonBreed": {
+				"Black dragon (unchecked)": "Unknown"
+			},
+			"GodGrapes": {
+				"Grapes of Guthix": "1/3",
+				"Grapes of Saradomin": "1/3",
+				"Grapes of Zamorak": "1/3"
+			},
+			"FeralDinosaurBreed": {
+				"Feral dinosaur (unchecked)": "Unknown"
+			},
+			"VenomousDinosaurBreed": {
+				"Venomous dinosaur (unchecked)": "Unknown"
+			},
+			"RipperDinosaurBreed": {
+				"Ripper dinosaur (unchecked)": "Unknown"
+			},
+			"ArcaneApoterrasaurBreed": {
+				"Arcane apoterrasaur (unchecked)": "Unknown"
+			},
+			"ApoterrasaurNaturaBreed": {
+				"Arcane apoterrasaur natura (unchecked)": "Unknown"
+			},
+			"ApoterrasaurIratumBreed": {
+				"Arcane apoterrasaur iratum (unchecked)": "Unknown"
+			},
+			"BrutishDinoBreed": {
+				"Brutish dinosaur (unchecked)": "Unknown"
+			},
+			"BeachDinoBreed": {
+				"Beach dinosaur (unchecked)": "Unknown"
+			},
+			"ForestDinoBreed": {
+				"Forest dinosaur (unchecked)": "Unknown"
+			},
+			"GreenSalamanderBreed": {
+				"Green salamander (unchecked)": "Unknown"
+			},
+			"OrangeSalamanderBreed": {
+				"Orange salamander (unchecked)": "Unknown"
+			},
+			"RedSalamanderBreed": {
+				"Red salamander (unchecked)": "Unknown"
+			},
+			"BlackSalamanderBreed": {
+				"Black salamander (unchecked)": "Unknown"
+			},
+			"ScimitopsBreed": {
+				"Scimitops (unchecked)": "Unknown"
+			},
+			"ScimitopsPalusBreed": {
+				"Scimitops palus (unchecked)": "Unknown"
+			},
+			"ScimitopsBlavumBreed": {
+				"Scimitops blavum (unchecked)": "Unknown"
+			},
+			"BagradaRexBreed": {
+				"Bagrada rex (unchecked)": "Unknown"
+			},
+			"BagradaNemusBreed": {
+				"Bagrada nemus (unchecked)": "Unknown"
+			},
+			"BagradaPurpuraBreed": {
+				"Bagrada purpura (unchecked)": "Unknown"
+			},
+			"SpicatiApoterrasaurBreed": {
+				"Spicati apoterrasaur (unchecked)": "Unknown"
+			},
+			"ApoterrasaurTiliaBreed": {
+				"Spicati apoterrasaur tilia (unchecked)": "Unknown"
+			},
+			"ApoterrasaurPurpuraBreed": {
+				"Spicati apoterrasaur purpura (unchecked)": "Unknown"
+			},
+			"AsciatopsBreed": {
+				"Asciatops (unchecked)": "Unknown"
+			},
+			"AsciatopsActaBreed": {
+				"Asciatops acta (unchecked)": "Unknown"
+			},
+			"AsciatopsAurumBreed": {
+				"Asciatops aurum (unchecked)": "Unknown"
+			},
+			"CorbiculaRexBreed": {
+				"Corbicula rex (unchecked)": "Unknown"
+			},
+			"CorbiculaGelumBreed": {
+				"Corbicula gelum (unchecked)": "Unknown"
+			},
+			"CorbiculaMalumBreed": {
+				"Corbicula malum (unchecked)": "Unknown"
+			},
+			"OculiApoterrasaurBreed": {
+				"Oculi apoterrasaur (unchecked)": "Unknown"
+			},
+			"ApoterrasaurOceanumBreed": {
+				"Oculi apoterrasaur oceanum (unchecked)": "Unknown"
+			},
+			"ApoterrasaurGlaciesBreed": {
+				"Oculi apoterrasaur glacies (unchecked)": "Unknown"
+			},
+			"MalletopsBreed": {
+				"Malletops (unchecked)": "Unknown"
+			},
+			"MalletopsPalusBreed": {
+				"Malletops palus (unchecked)": "Unknown"
+			},
+			"MalletopsPurpuraBreed": {
+				"Malletops purpura (unchecked)": "Unknown"
+			},
+			"PavosaurusRexBreed": {
+				"Pavosaurus rex (unchecked)": "Unknown"
+			},
+			"PavosaurusNemusBreed": {
+				"Pavosaurus nemus (unchecked)": "Unknown"
+			},
+			"PavosaurusDesertumBreed": {
+				"Pavosaurus desertum (unchecked)": "Unknown"
 			}
 		},
 		"Firemaking": {
