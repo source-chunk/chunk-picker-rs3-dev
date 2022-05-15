@@ -33333,42 +33333,42 @@
 			},
 			"Get a ~|polar camo top|~ made": {
 				"Items": ["Polar kebbit fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Polar camo top"
 			},
 			"Get ~|polar camo legs|~ made": {
 				"Items": ["Polar kebbit fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Polar camo legs"
 			},
 			"Get a ~|woodland camo top|~ made": {
 				"Items": ["Common kebbit fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Woodland camo top"
 			},
 			"Get ~|woodland camo legs|~ made": {
 				"Items": ["Common kebbit fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Woodland camo legs"
 			},
 			"Get a ~|jungle camo top|~ made": {
 				"Items": ["Feldip weasel fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Jungle camo top"
 			},
 			"Get ~|jungle camo legs|~ made": {
 				"Items": ["Feldip weasel fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Jungle camo legs"
 			},
 			"Get a ~|desert camo top|~ made": {
 				"Items": ["Desert devil fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Desert camo top"
 			},
 			"Get ~|desert camo legs|~ made": {
 				"Items": ["Desert devil fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Desert camo legs"
 			},
 			"Open a ~|baby impling jar|~": {
@@ -33385,17 +33385,17 @@
 			},
 			"Get a ~|larupia top|~ made": {
 				"Items": ["LarupiaFur+"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Larupia top"
 			},
 			"Get ~|larupia legs|~ made": {
 				"Items": ["LarupiaFur+"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Larupia legs"
 			},
 			"Get a ~|larupia hat|~ made": {
 				"Items": ["Larupia fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Larupia hat"
 			},
 			"Open an ~|earth impling jar|~": {
@@ -33404,17 +33404,17 @@
 			},
 			"Get a ~|graahk top|~ made": {
 				"Items": ["GraahkFur+"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Graahk top"
 			},
 			"Get ~|graahk legs|~ made": {
 				"Items": ["GraahkFur+"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Graahk legs"
 			},
 			"Get a ~|graahk headdress|~ made": {
 				"Items": ["Graahk fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Graahk headdress"
 			},
 			"Light a ~|lit torch|~": {
@@ -33423,7 +33423,7 @@
 			},
 			"Get a ~|spotted cape|~ made": {
 				"Items": ["Spotted kebbit fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Spotted cape"
 			},
 			"Transform a proto-tool into a ~|sacred clay butterfly net|~": {
@@ -33452,17 +33452,17 @@
 			},
 			"Get a ~|kyatt top|~ made": {
 				"Items": ["KyattFur+"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Kyatt top"
 			},
 			"Get ~|kyatt legs|~ made": {
 				"Items": ["KyattFur+"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Kyatt legs"
 			},
 			"Get a ~|kyatt hat|~ made": {
 				"Items": ["Kyatt fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Kyatt hat"
 			},
 			"Open a ~|spirit impling jar|~": {
@@ -33471,7 +33471,7 @@
 			},
 			"Get ~|gloves of silence|~ made": {
 				"Items": ["Dark kebbit fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Gloves of silence"
 			},
 			"Open a ~|nature impling jar|~": {
@@ -33489,7 +33489,7 @@
 			},
 			"Get a ~|spottier cape|~ made": {
 				"Items": ["Dashing kebbit fur"],
-				"NPCs": "Fancy-dress shop owner",
+				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Spottier cape"
 			},
 			"Receive a ~|witchdoctor mask|~": {
