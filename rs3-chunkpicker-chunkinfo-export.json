@@ -734,14 +734,14 @@
 				"Chunks": ["3910"],
 				"Level": 80,
 				"Primary": true,
-				"Priority": 1
+				"Priority": 3
 			},
 			"Cross the advanced ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["3849"],
 				"Level": 80,
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Cross the ~|chasm (Fremennik Slayer Dungeon)|~": {
 				"Category": ["Shortcut"],
@@ -959,6 +959,110 @@
 				},
 				"Primary": false,
 				"Priority": 19
+			},
+			"Buy the ~|Agility cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Agility cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Agility cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Agility cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Buy the ~|Agility master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Agility master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Barehand catch a ~|ruby harvest|~ in Piscatoris": {
+				"Chunks": ["Piscatoris+"],
+				"NPCs": ["Ruby harvest"],
+				"Level": 75,
+				"Skills": {
+					"Hunter": 80
+				},
+				"Output": "RubyHarvest",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Barehand catch a ~|ruby harvest|~ on Anachronia": {
+				"Chunks": ["RubyAnachronia+"],
+				"Level": 75,
+				"Skills": {
+					"Hunter": 80
+				},
+				"Output": "RubyHarvestAnachronia",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Barehand catch a ~|sapphire glacialis|~": {
+				"NPCs": ["Sapphire glacialis"],
+				"Level": 80,
+				"Skills": {
+					"Hunter": 85
+				},
+				"Output": "SapphireGlacialis",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Catch a ~|torn blueprint fragment|~": {
+				"Chunks": ["Stormgaurd citadel"],
+				"Items": ["Wingsuit+"],
+				"Level": 80,
+				"Skills": {
+					"Hunter": 85
+				},
+				"Output": "Torn blueprint fragment",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Catch a ~|charming moth|~": {
+				"NPCs": ["Charming moth"],
+				"Level": 83,
+				"Skills": {
+					"Hunter": 88
+				},
+				"Output": "CharmingMoth",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Barehand catch a ~|snowy knight|~": {
+				"NPCs": ["Snowy knight"],
+				"Level": 85,
+				"Skills": {
+					"Hunter": 90
+				},
+				"Output": "SnowyKnight",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Barehand catch a ~|black warlock|~ in the Feldip Hills": {
+				"Chunks": ["FeldipHills+"],
+				"NPCs": ["Black warlock"],
+				"Level": 90,
+				"Skills": {
+					"Hunter": 95
+				},
+				"Output": "BlackWarlock",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Barehand catch a ~|black warlock|~ on Anachronia": {
+				"Chunks": ["BlackAnachronia+"],
+				"Level": 90,
+				"Skills": {
+					"Hunter": 95
+				},
+				"Output": "BlackWarlockAnachronia",
+				"Primary": true,
+				"Priority": 6
 			}
 		},
 		"Archaeology": {
@@ -2015,9 +2119,24 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Wear the ~|Attack cape|~": {
+			"Buy the ~|Attack cape|~": {
+				"Category": ["Skillcape"],
 				"Items": ["Attack cape"],
 				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Attack cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Attack cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Buy the ~|Attack master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Attack master cape"],
+				"Level": 120,
 				"Primary": false,
 				"Priority": 1
 			}
@@ -3252,17 +3371,32 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Equip the ~|Constitution cape|~": {
+			"Buy the ~|Constitution cape|~": {
+				"Category": ["Skillcape"],
 				"Items": ["Constitution cape"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 2
 			},
+			"Buy the ~|Constitution cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Constitution cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Buy the ~|Constitution master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Constitution master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Get the full amount of healing from ~|sailfish soup|~": {
 				"Items": ["Sailfish soup"],
 				"Level": 99,
 				"Primary": false,
-				"Priority": 3
+				"Priority": 4
 			}
 		},
 		"Construction": {
@@ -3530,7 +3664,7 @@
 			},
 			"Make ~|bread dough|~ from a water source": {
 				"Items": ["Pot of flour"],
-				"Objects": ["WaterSource+"],
+				"Objects": ["WaterObject+"],
 				"Level": 1,
 				"Output": "Bread dough",
 				"Primary": true,
@@ -3902,7 +4036,7 @@
 			},
 			"Make ~|pastry dough|~ from a water source": {
 				"Items": ["Pot of flour"],
-				"Objects": ["WaterSource+"],
+				"Objects": ["WaterObject+"],
 				"Level": 10,
 				"Output": "Pastry dough",
 				"Primary": true,
@@ -4884,7 +5018,7 @@
 			},
 			"Make a ~|pizza base|~ from a water source": {
 				"Items": ["Pot of flour"],
-				"Objects": ["WaterSource+"],
+				"Objects": ["WaterObject+"],
 				"Level": 35,
 				"Output": "Pizza base",
 				"Primary": true,
@@ -5383,7 +5517,7 @@
 			},
 			"Make a ~|pitta dough|~ from a water source": {
 				"Items": ["Pot of flour"],
-				"Objects": ["WaterSource+"],
+				"Objects": ["WaterObject+"],
 				"Level": 58,
 				"Output": "Pitta dough",
 				"Primary": true,
@@ -6019,11 +6153,26 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Obtain the ~|Cooking cape|~": {
+			"Buy the ~|Cooking cape|~": {
+				"Category": ["Skillcape"],
 				"Items": ["Cooking cape"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 3
+			},
+			"Buy the ~|Cooking cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Cooking cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Buy the ~|Cooking master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Cooking master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			},
 			"Make a ~|primal starter|~": {
 				"Items": ["Raw oculi apoterrasaur meat", "Rainbow sweetcorn", "Cannonball cabbage", "Sweet potato"],
@@ -6031,7 +6180,7 @@
 				"Level": 99,
 				"Output": "Primal starter",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 5
 			},
 			"Make a ~|primal main course|~": {
 				"Items": ["Raw malletops meat", "Raw pavosaurus rew meat", "Red onion", "Heirloom tomato"],
@@ -6039,7 +6188,7 @@
 				"Level": 99,
 				"Output": "Primal main course",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 6
 			},
 			"Make a ~|primal dessert|~": {
 				"Items": ["White strawberry", "Golden watermelon", "Dragonfruit", "Mango"],
@@ -6047,7 +6196,7 @@
 				"Level": 99,
 				"Output": "Primal dessert",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 7
 			},
 			"Make a ~|primal feast|~": {
 				"Items": ["Primal starter", "Primal main course", "Primal dessert", "Extreme cooking potion"],
@@ -9449,6 +9598,37 @@
 				"Output": "Upgraded bone blowpipe",
 				"Primary":  true,
 				"Priority": 5
+			},
+			"Buy the ~|Crafting cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Crafting cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Buy the ~|Crafting cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Crafting cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Buy the ~|Crafting master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Crafting master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Unlock ~|Invention|~": {
+				"Chunks": ["11829"],
+				"Level": 80,
+				"Skills": {
+					"Divination": 80,
+					"Smithing": 80
+				},
+				"primary": false,
+				"Priority": 8
 			}
 		},
 		"Defence": {
@@ -11369,9 +11549,24 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Equip the ~|Defence cape|~": {
+			"Buy the ~|Defence cape|~": {
+				"Category": ["Skillcape"],
 				"Items": ["Defence cape"],
 				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Buy the ~|Defence cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Defence cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Defence master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Defence master cape"],
+				"Level": 120,
 				"Primary": false,
 				"Priority": 1
 			}
@@ -12754,6 +12949,37 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 10
+			},
+			"Buy the ~|Divination cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Divination cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Buy the ~|Divination cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Divination cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Buy the ~|Divination master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Divination master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Unlock ~|Invention|~": {
+				"Chunks": ["11829"],
+				"Level": 80,
+				"Skills": {
+					"Crafting": 80,
+					"Smithing": 80
+				},
+				"primary": false,
+				"Priority": 6
 			}
 		},
 		"Dungeoneering": {
@@ -13218,6 +13444,7 @@
 				"Items": ["Logs"],
 				"Level": 1,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -13231,6 +13458,7 @@
 				"Items": ["Achey tree logs"],
 				"Level": 1,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -13396,6 +13624,7 @@
 				"Items": ["Oak logs"],
 				"Level": 15,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -13517,6 +13746,7 @@
 				"Items": ["Logs", "FiremakingBow+"],
 				"Level": 21,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"NPCs": ["Otto Godblessed"],
 				"Primary": true,
 				"Priority": 1
@@ -13567,6 +13797,7 @@
 				"Items": ["Willow logs"],
 				"Level": 30,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -13638,6 +13869,7 @@
 				"Items": ["Teak logs"],
 				"Level": 35,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -13815,6 +14047,7 @@
 				"Items": ["Arctic pine logs"],
 				"Level": 42,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -13842,6 +14075,7 @@
 				"Items": ["Maple logs"],
 				"Level": 45,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -13932,6 +14166,7 @@
 				"Items": ["Acadia logs"],
 				"Level": 47,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -14004,6 +14239,7 @@
 				"Items": ["Mahogany logs"],
 				"Level": 50,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -14209,6 +14445,7 @@
 				"Items": ["Eucalyptus logs"],
 				"Level": 58,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -14236,6 +14473,7 @@
 				"Items": ["Yew logs"],
 				"Level": 60,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -14553,6 +14791,7 @@
 				"Items": ["Magic logs"],
 				"Level": 75,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -14610,6 +14849,7 @@
 				"Items": ["Blisterwood logs"],
 				"Level": 76,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -14792,6 +15032,7 @@
 				"Items": ["Elder logs"],
 				"Level": 90,
 				"Output": "Ashes",
+				"Output Object": "Player fire",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -14971,11 +15212,26 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Equip the ~|Firemaking cape|~": {
+			"Buy the ~|Firemaking cape|~": {
+				"Category": ["Skillcape"],
 				"Items": ["Firemaking cape"],
 				"Level": 99,
 				"Primary": true,
 				"Priority": 4
+			},
+			"Buy the ~|Firemaking cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Firemaking cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Buy the ~|Firemaking master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Firemaking master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Fishing": {
@@ -15718,6 +15974,27 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 5
+			},
+			"Buy the ~|Fishing cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Fishing cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Buy the ~|Fishing cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Fishing cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Fishing master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Fishing master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Fletching": {
@@ -16400,8 +16677,8 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Feather ~|fragment bolts|~": {
-				"Items": ["Bronze bolts", "Feathers+"],
+			"Tip ~|fragment bolts|~": {
+				"Items": ["Bronze bolts", "Ascension fragment"],
 				"Level": 60,
 				"Output": "Fragment bolts",
 				"Primary": true,
@@ -17356,11 +17633,26 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Obtain the ~|Fletching cape|~": {
+			"Buy the ~|Fletching cape|~": {
+				"Category": ["Skillcape"],
 				"Items": ["Fletching cape"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 3
+			},
+			"Buy the ~|Fletching cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Fletching cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Buy the ~|Fletching master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Fletching master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Herblore": {
@@ -17420,46 +17712,96 @@
 			}
 		},
 		"Hunter": {
+			"Catch a ~|polar kebbit|~ with a noose wand": {
+				"Objects": ["SnowPile+"],
+				"Level": 1,
+				"Output": "PolarKebbit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|crimson swift|~": {
+				"Items": ["Bird snare"],
+				"NPCs": ["Crimson swift"],
+				"Level": 1,
+				"Output": "CrimsonSwift",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Wear the ~|polar camo outfit|~": {
+				"Items": ["PolarCamo+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear the ~|woodland camo outfit|~": {
+				"Items": ["WoodlandCamo+"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Catch a ~|red soporith moth|~": {
+				"Items": ["Protea flower", "Moth jar"],
+				"NPCs": ["Red soporith moth"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Catch a ~|plain whirligig|~": {
+				"NPCs": ["HetCrocodile+"],
+				"Level": 1,
+				"Output": "PlainWhirligig",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Catch a ~|dazzling whirligig|~": {
+				"Items": ["Golden roses"],
+				"NPCs": ["HetCrocodile+"],
+				"Objects": ["Flower basket"],
+				"Level": 1,
+				"Output": "DazzlingWhirligig",
+				"Primary": true,
+				"Priority": 7
+			},
 			"Catch a polar kebbit from a ~|divine kebbit burrow|~": {
 				"Items": ["Divine kebbit burrow"],
 				"Level": 1,
-				"Output": "Polar Kebbit",
+				"Output": "PolarKebbit",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 8
+			},
+			"Catch a crimson swift from a ~|divine bird snare|~": {
+				"Items": ["Divine bird snare"],
+				"Level": 1,
+				"Output": "CrimsonSwift",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Catch a ~|common kebbit|~": {
+				"Chunks": ["9271"],
+				"Level": 3,
+				"Output": "CommonKebbit",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Catch a common kebbit from a ~|divine kebbit burrow|~": {
 				"Items": ["Divine kebbit burrow"],
 				"Level": 3,
 				"Output": "Common kebbit fur",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 2
 			},
-			"Catch a Feldip weasel from a ~|divine kebbit burrow|~": {
-				"Items": ["Divine kebbit burrow"],
-				"Level": 7,
-				"Output": "Feldip weasel fur",
+			"Wear the ~|jungle camo outfit|~": {
+				"Items": ["JungleCamo+"],
+				"Level": 4,
 				"Primary": false,
 				"Priority": 1
 			},
-			"Catch a desert devil from a ~|divine kebbit burrow|~": {
-				"Items": ["Divine kebbit burrow"],
-				"Level": 13,
-				"Output": "Desert devil fur",
-				"Primary": false,
-				"Priority": 1
-			},
-			"Catch a razor-backed kebbit from a ~|divine kebbit burrow|~": {
-				"Items": ["Divine kebbit burrow"],
-				"Level": 49,
-				"Output": "Long kebbit spike",
-				"Primary": false,
-				"Priority": 1
-			},
-			"Catch a crimson swift from a ~|divine bird snare|~": {
-				"Items": ["Divine bird snare"],
-				"Level": 1,
-				"Output": "Crimson Swift",
-				"Primary": false,
+			"Catch a ~|golden warbler|~": {
+				"Items": ["Bird snare"],
+				"NPCs": ["Golden Warbler"],
+				"Level": 5,
+				"Output": "GoldenWarbler",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a golden warbler from a ~|divine bird snare|~": {
@@ -17467,6 +17809,28 @@
 				"Level": 5,
 				"Output": "Yellow feather",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|Feldip weasel|~": {
+				"Chunks": ["10029"],
+				"Level": 7,
+				"Output": "FeldipWeasel",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a Feldip weasel from a ~|divine kebbit burrow|~": {
+				"Items": ["Divine kebbit burrow"],
+				"Level": 7,
+				"Output": "Feldip weasel fur",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|copper longtail|~": {
+				"Items": ["Bird snare"],
+				"NPCs": ["Copper longtail"],
+				"Level": 9,
+				"Output": "CopperLongtail",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a copper longtail from a ~|divine bird snare|~": {
@@ -17474,6 +17838,20 @@
 				"Level": 9,
 				"Output": "Orange feather",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Wear the ~|desert camo outfit|~": {
+				"Items": ["DesertCamo+"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|cerulean twitch|~": {
+				"Items": ["Bird snare"],
+				"NPCs": ["Cerulean twitch"],
+				"Level": 11,
+				"Output": "CeruleanTwitch",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a cerulean twitch from a ~|divine bird snare|~": {
@@ -17481,6 +17859,73 @@
 				"Level": 11,
 				"Output": "Blue feather",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|desert devil|~": {
+				"Chunks": ["13616"],
+				"Level": 13,
+				"Output": "DesertDevil",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|orange soporith moth|~": {
+				"Items": ["Protea flower", "Moth jar"],
+				"NPCs": ["Orange soporith moth"],
+				"Level": 13,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a desert devil from a ~|divine kebbit burrow|~": {
+				"Items": ["Divine kebbit burrow"],
+				"Level": 13,
+				"Output": "Desert devil fur",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|ruby harvest|~ with a net in Piscatoris": {
+				"Chunks": ["Piscatoris+"],
+				"Items": ["Butterfly jar", "ButterflyNet+"],
+				"NPCs": ["Ruby harvest"],
+				"Level": 15,
+				"Output": "RubyHarvest",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|ruby harvest|~ with a net on Anachronia": {
+				"Chunks": ["RubyAnachronia+"],
+				"Items": ["Butterfly jar", "ButterflyNet+"],
+				"Level": 15,
+				"Output": "RubyHarvestAnachronia",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|baby impling|~ in Puro-Puro": {
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 17,
+				"Output": "Baby impling jar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|baby impling|~": {
+				"NPCs": ["Baby impling"],
+				"Level": 17,
+				"Output": "BabyImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Access ~|Puro-Puro|~" : {
+				"Chunks" : [ "Puro-Puro" ],
+				"Level" : 17,
+				"Primary" : false,
+				"Priority": 3
+			},
+			"Catch a ~|tropical wagtail|~": {
+				"Items": ["Bird snare"],
+				"NPCs": ["Tropical Wagtail"],
+				"Level": 19,
+				"Output": "TropicalWagtail",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a tropical wagtail from a ~|divine bird snare|~": {
@@ -17488,13 +17933,29 @@
 				"Level": 19,
 				"Output": "Stripy feather",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|young impling|~ in Puro-Puro": {
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 22,
+				"Output": "Young impling jar",
+				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a wimpy bird from a ~|divine bird snare|~": {
-				"Items": ["Divine bird snare"],
-				"Level": 39,
-				"Output": "Wimpy feather",
+			"Catch a ~|young impling|~": {
+				"NPCs": ["Young impling"],
+				"Level": 22,
+				"Output": "YoungImpling",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|wild kebbit|~": {
+				"NPCs": ["Wild kebbit"],
+				"Items": ["Logs"],
+				"Level": 23,
+				"Output": "WildKebbit",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a wild kebbit from a ~|divine deadfall trap|~": {
@@ -17502,34 +17963,439 @@
 				"Level": 23,
 				"Output": "Kebbit claws",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Wear a ~|strung rabbit foot|~": {
+				"Items": ["Strung rabbit foot"],
+				"Level": 24,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|sapphire glacialis|~ with a net": {
+				"Items": ["Butterfly jar", "ButterflyNet+"],
+				"NPCs": ["Sapphire glacialis"],
+				"Level": 25,
+				"Output": "SapphireGlacialis",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|yellow soporith moth|~": {
+				"Items": ["Protea flower", "Moth jar"],
+				"NPCs": ["Yellow soporith moth"],
+				"Level": 26,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|ferret|~": {
+				"Chunks": ["9270"],
+				"Items": ["Box trap"],
+				"NPCs": ["Ferret"],
+				"Level": 27,
+				"Output": "Ferret",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|gecko|~": {
+				"Items": ["Box trap"],
+				"NPCs": ["Gecko+"],
+				"Level": 27,
+				"Skills": {
+					"Summoning": 10
+				},
+				"Output": "Gecko",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|raccoon|~": {
+				"Items": ["Box trap"],
+				"NPCs": ["Baby raccoon"],
+				"Level": 27,
+				"Skills": {
+					"Summoning": 80
+				},
+				"Output": "Raccoon",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|monkey|~": {
+				"Items": ["Box trap", "Banana"],
+				"NPCs": ["Baby monkey"],
+				"Level": 27,
+				"Skills": {
+					"Summoning": 95
+				},
+				"Output": "Monkey",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Catch a ~|white rabbit|~": {
+				"Items": ["Rabbit snare", "Ferret"],
+				"Objects": ["Rabbit hole"],
+				"Level": 27,
+				"Output": "WhiteRabbit",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Catch a ~|cobalt skillchompa|~": {
+				"Items": ["Box trap"],
+				"Monsters": ["Cobalt skillchompa"],
+				"Level": 27,
+				"Output": "CobaltSkillchompa",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Travel using a ~|giant eagle|~": {
+				"Items": ["Rope"],
+				"NPCs": ["Eagle"],
+				"Level": 27,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Catch a ~|gourmet impling|~ in Puro-Puro": {
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 28,
+				"Output": "Gourmet impling jar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|gourmet impling|~": {
+				"NPCs": ["Gourmet impling"],
+				"Level": 28,
+				"Output": "GourmetImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear the ~|larupia outfit|~": {
+				"Items": ["LarupiaOutfit+"],
+				"Level": 28,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|green salamander|~": {
+				"Items": ["Small fishing net", "Rope"],
+				"NPCs": ["Green salamander"],
+				"Level": 29,
+				"Output": "Green salamander",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|squirrel|~": {
+				"Items": ["Small fishing net", "Rope", "Nuts"],
+				"NPCs": ["Baby squirrel"],
+				"Level": 29,
+				"Skills": {
+					"Summoning": 60
+				},
+				"Output": "Squirrel",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|gliding whirligig|~": {
+				"Items": ["Roses"],
+				"NPCs": ["HetCrocodile+"],
+				"Objects": ["Flower basket"],
+				"Level": 30,
+				"Output": "GlidingWhirligig",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|spined larupia|~": {
+				"Items": ["Logs", "Teasing stick"],
+				"Monsters": ["Spined larupia"],
+				"Level": 31,
+				"Output": "SpinedLarupia",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|barb-tailed kebbit|~": {
+				"NPCs": ["Barb-tailed kebbit"],
+				"Items": ["Logs"],
+				"Level": 33,
+				"Output": "BarbKebbit",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a barb-tailed kebbit from a ~|divine deadfall trap|~": {
 				"Items": ["Divine deadfall trap"],
 				"Level": 33,
-				"Output": "Barb-tailed harpoon",
+				"Output": "Barb-tail harpoon",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|snowy knight|~ with a net": {
+				"Items": ["Butterfly jar", "ButterflyNet+"],
+				"NPCs": ["Snowy knight"],
+				"Level": 35,
+				"Output": "SnowyKnight",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch an ~|earth impling|~ in Puro-Puro": {
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 36,
+				"Output": "Earth impling jar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch an ~|earth impling|~": {
+				"NPCs": ["Earth impling"],
+				"Level": 36,
+				"Output": "EarthImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|prickly kebbit|~": {
+				"NPCs": ["Prickly kebbit"],
+				"Items": ["Logs"],
+				"Level": 37,
+				"Output": "PricklyKebbit",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a prickly kebbit from a ~|divine deadfall trap|~": {
 				"Items": ["Divine deadfall trap"],
 				"Level": 37,
-				"Output": "Kebbit spike",
+				"Output": "Kebbit claws",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear the ~|graahk outfit|~": {
+				"Items": ["GraahkOutfit+"],
+				"Level": 38,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Smoke a trap with a ~|lit torch|~": {
+				"Items": ["Lit torch"],
+				"Level": 39,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|wimpy bird|~": {
+				"Items": ["Bird snare"],
+				"NPCs": ["Wimpy bird"],
+				"Level": 39,
+				"Output": "WimpyBird",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|green soporith moth|~": {
+				"Items": ["Protea flower", "Moth jar"],
+				"NPCs": ["Green soporith moth"],
+				"Level": 39,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a wimpy bird from a ~|divine bird snare|~": {
+				"Items": ["Divine bird snare"],
+				"Level": 39,
+				"Output": "Wimpy feather",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a ~|spotted cape|~": {
+				"Items": ["Spotted cape"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Build the first tier of the hunter lodge in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|horned graahk|~": {
+				"Items": ["Logs", "Teasing stick"],
+				"Monsters": ["Horned graahk"],
+				"Level": 41,
+				"Output": "HornedGraahk",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch an ~|essence impling|~ in Puro-Puro": {
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 42,
+				"Output": "Essence impling jar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch an ~|essence impling|~": {
+				"NPCs": ["Essence impling"],
+				"Level": 42,
+				"Output": "EssenceImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|spotted kebbit|~": {
+				"NPCs": ["Matthias", "Spotted kebbit"],
+				"Level": 43,
+				"Output": "SpottedKebbit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|penguin|~ with a noose wand": {
+				"Chunks": ["10814"],
+				"Level": 45,
+				"Output": "Penguin",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|black warlock|~ with a net in the Feldip Hills": {
+				"Chunks": ["FeldipHills+"],
+				"Items": ["Butterfly jar", "ButterflyNet+"],
+				"NPCs": ["Black warlock"],
+				"Level": 45,
+				"Output": "BlackWarlock",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|black warlock|~ with a net on Anachronia": {
+				"Chunks": ["BlackAnachronia+"],
+				"Items": ["Butterfly jar", "ButterflyNet+"],
+				"Level": 45,
+				"Output": "BlackWarlockAnachronia",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|viridian skillchompa|~": {
+				"Items": ["Box trap"],
+				"Monsters": ["Viridian skillchompa"],
+				"Level": 46,
+				"Output": "ViridianSkillchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|orange salamander|~": {
+				"Items": ["Small fishing net", "Rope"],
+				"NPCs": ["Orange salamander"],
+				"Level": 47,
+				"Output": "Orange salamander",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|diseased kebbit|~": {
+				"NPCs": ["Diseased kebbit"],
+				"Items": ["Logs", "Fever grass"],
+				"Level": 48,
+				"Output": "DiseasedKebbit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|platypus|~": {
+				"Items": ["Box trap", "Smouldering lavender"],
+				"NPCs": ["Baby platypus"],
+				"Level": 48,
+				"Skills": {
+					"Summoning": 10
+				},
+				"Output": "Platypus",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Catch a diseased kebbit from a ~|divine deadfall trap|~": {
 				"Items": ["Divine deadfall trap"],
 				"Level": 44,
 				"Output": "Diseased kebbit fur",
 				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|razor-backed kebbit|~": {
+				"Chunks": ["9272"],
+				"Level": 49,
+				"Output": "RazorKebbit",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Catch a razor-backed from a ~|divine kebbit burrow|~": {
+				"Items": ["Divine kebbit burrow"],
+				"Level": 49,
+				"Output": "Long kebbit spike",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|sacred clay butterfly net|~": {
+				"Items": ["Sacred clay butterfly net"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|volatile clay butterfly net|~": {
+				"Items": ["Volatile clay butterfly net"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|penguin|~ with a net trap": {
+				"Chunks": ["10814"],
+				"Items": ["Small fishing net", "Rope"],
+				"NPCs": ["Penguin"],
+				"Level": 50,
+				"Output": "Penguin",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch an ~|eclectic impling|~ in Puro-Puro": {
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 50,
+				"Output": "Eclectic impling jar",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Catch an ~|eclectic impling|~": {
+				"NPCs": ["Eclectic impling"],
+				"Level": 50,
+				"Output": "EclecticImpling",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Catch a ~|sabre-toothed kebbit|~": {
+				"NPCs": ["Sabre-toothed kebbit"],
+				"Items": ["Logs"],
+				"Level": 51,
+				"Output": "SabreKebbit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|penguin|~ with a deadfall trap": {
+				"Chunks": ["10814"],
+				"Items": ["Logs"],
+				"NPCs": ["Penguin"],
+				"Level": 51,
+				"Output": "Penguin",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Catch a sabre-toothed kebbit from a ~|divine deadfall trap|~": {
 				"Items": ["Divine deadfall trap"],
 				"Level": 51,
 				"Output": "Kebbit teeth",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Wear the ~|kyatt outfit|~": {
+				"Items": ["KyattOutfit+"],
+				"Level": 52,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|blue soporith moth|~": {
+				"Items": ["Protea flower", "Moth jar"],
+				"NPCs": ["Blue soporith moth"],
+				"Level": 52,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|chinchompa|~": {
+				"Items": ["Box trap"],
+				"Monsters": ["Chinchompa"],
+				"Level": 53,
+				"Output": "GreyChinchompa",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a chinchompa from a ~|divine box trap|~": {
@@ -17537,77 +18403,980 @@
 				"Level": 53,
 				"Output": "Chinchompa",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|spirit impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 54,
+				"Output": "Spirit impling jar",
+				"Primary": false,
 				"Priority": 1
 			},
-			"Catch a red chinchompa from a ~|divine box trap|~": {
+			"Catch a ~|spirit impling|~": {
+				"NPCs": ["Spirit impling"],
+				"Level": 54,
+				"Output": "SpiritImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear ~|gloves of silence|~": {
+				"Items": ["Gloves of silence"],
+				"Level": 54,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|wild broav|~": {
+				"Items": ["Logs", "Teasing stick", "Mort myre fungus"],
+				"Monsters": ["Wild broav"],
+				"Level": 55,
+				"Output": "Unconscious broav",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|sabre-toothed kyatt|~": {
+				"Items": ["Logs", "Teasing stick"],
+				"Monsters": ["Sabre-toothed kyatt"],
+				"Level": 55,
+				"Output": "SabreKyatt",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|penguin|~ with a box trap": {
+				"Chunks": ["10814"],
+				"Items": ["Box trap"],
+				"NPCs": ["Penguin"],
+				"Level": 56,
+				"Output": "Penguin",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|dark kebbit|~": {
+				"NPCs": ["Matthias", "Dark kebbit"],
+				"Level": 57,
+				"Output": "DarkKebbit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|nature impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 58,
+				"Output": "Nature impling jar",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|nature impling|~": {
+				"NPCs": ["Nature impling"],
+				"Level": 58,
+				"Output": "NatureImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|red salamander|~": {
+				"Items": ["Small fishing net", "Rope"],
+				"NPCs": ["Red salamander"],
+				"Level": 59,
+				"Output": "Red salamander",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|carnivorous chinchompa|~": {
+				"Items": ["Box trap"],
+				"Monsters": ["Carnivorous Chinchompa"],
+				"Level": 63,
+				"Output": "RedChinchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a carnivorous chinchompa from a ~|divine box trap|~": {
 				"Items": ["Divine box trap"],
 				"Level": 63,
 				"Output": "Red chinchompa",
 				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|magpie impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 65,
+				"Output": "Magpie impling jar",
+				"Primary": false,
 				"Priority": 1
+			},
+			"Catch a ~|magpie impling|~": {
+				"NPCs": ["Magpie impling"],
+				"Level": 65,
+				"Output": "MagpieImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|purple soporith moth|~": {
+				"Items": ["Protea flower", "Moth jar"],
+				"NPCs": ["Purple soporith moth"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|pawya|~ in Tirannwn": {
+				"Chunks": ["Tirannwn+"],
+				"Items": ["Box trap", "Papaya"],
+				"NPCs": ["Pawya"],
+				"Level": 66,
+				"Output": "Pawya",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|pawya|~ on Anachronia": {
+				"Chunks": ["PawyaAnachronia+"],
+				"Items": ["Box trap", "Papaya"],
+				"Level": 66,
+				"Output": "PawyaAnachronia",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Wear a ~|spottier cape|~": {
+				"Items": ["Spottier cape"],
+				"Level": 66,
+				"Primary": false,
+				"Priority": 3
 			},
 			"Catch a pawya from a ~|divine box trap|~": {
 				"Items": ["Divine box trap"],
 				"Level": 66,
 				"Output": "Raw pawya meat",
 				"Primary": false,
+				"Priority": 4
+			},
+			"Catch a ~|pawya|~ in the Gorajo Resource Dungeon": {
+				"Chunks": ["Gorajo resource dungeon"],
+				"Items": ["Box trap", "Papaya"],
+				"NPCs": ["Pawya"],
+				"Level": 66,
+				"Output": "Pawya",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Catch a ~|black salamander|~": {
+				"Items": ["Small fishing net", "Rope"],
+				"NPCs": ["Black salamander"],
+				"Level": 67,
+				"Output": "Black salamander",
+				"Primary": true,
 				"Priority": 1
+			},
+			"Catch a ~|azure skillchompa|~": {
+				"Items": ["Box trap"],
+				"Monsters": ["Azure skillchompa"],
+				"Level": 68,
+				"Output": "AzureSkillchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|dashing kebbit|~": {
+				"NPCs": ["Matthias", "Dashing kebbit"],
+				"Level": 69,
+				"Output": "DashingKebbit",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|common jadinko|~ in the Herblore Habitat": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Common jadinko"],
+				"Chunks": ["11821"],
+				"Level": 70,
+				"Output": "CommonJadinko",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wear the ~|witchdoctor camo outfit|~": {
+				"Items": ["WitchDoctorCamo+"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|polar kebbit|~ with a box trap": {
+				"Objects": ["Polar kebbit portal"],
+				"Items": ["Box trap", "Polar kebbit quota ticket"],
+				"Level": 70,
+				"Output": "PolarKebbit",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Build the second tier of the hunter lodge in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Catch a ~|hasty whirligig|~": {
+				"Items": ["Hydrangeas"],
+				"NPCs": ["HetCrocodile+"],
+				"Objects": ["Flower basket"],
+				"Level": 70,
+				"Output": "HastyWhirligig",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Catch an imp using a ~|magic box|~": {
+				"Items": ["Magic box"],
+				"Monsters": ["Imp"],
+				"Level": 71,
+				"Output": "Imp-in-a-box (2)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|shadow jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Shadow jadinko"],
+				"Chunks": ["11821"],
+				"Level": 71,
+				"Output": "ShadowJadinko",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|charm sprite|~": {
+				"Items": ["YaktweeStick+", "Sprite lure"],
+				"NPCs": ["Charm sprite"],
+				"Level": 72,
+				"Output": "CharmSprite",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|plover bird|~": {
+				"Items": ["Logs"],
+				"NPCs": ["Plover bird"],
+				"Level": 73,
+				"Output": "PloverBird",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch an ~|igneous jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Igneous jadinko"],
+				"Chunks": ["11821"],
+				"Items": ["Marasamaw plant"],
+				"Level": 74,
+				"Output": "IgneousJadinko",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|ninja impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 74,
+				"Output": "Ninja impling jar",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|ninja impling|~": {
+				"NPCs": ["Ninja impling"],
+				"Level": 74,
+				"Output": "NinjaImpling",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|cannibal jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Cannibal jadinko"],
+				"Items": ["Marasamaw plant"],
+				"Chunks": ["11821"],
+				"Level": 75,
+				"Output": "CannibalJadinko",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Get the pickpocket bonus from the ~|exoskeleton bracers|~": {
+				"Items": ["Exoskeleton bracers"],
+				"Level": 75,
+				"Skills": {
+					"Thieving": 75
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Hunt an ~|arcane apoterrasaur|~": {
+				"NPCs": ["Arcane apoterrasaur"],
+				"Items": ["Raw shark"],
+				"Level": 75,
+				"Skills": {
+					"Slayer": 55
+				},
+				"Output": "ArcaneApoterrasaur",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Hunt a ~|scimitops|~": {
+				"NPCs": ["Scimitops"],
+				"Items": ["Raw sailfish"],
+				"Level": 75,
+				"Skills": {
+					"Slayer": 55
+				},
+				"Output": "Scimitops",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Hunt a ~|bagrada rex|~": {
+				"NPCs": ["Bagrada rex"],
+				"Items": ["Raw manta ray"],
+				"Level": 75,
+				"Skills": {
+					"Slayer": 55
+				},
+				"Output": "BagradaRex",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Catch a ~|aquatic jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Aquatic jadinko"],
+				"Items": ["Marasamaw plant"],
+				"Chunks": ["11821"],
+				"Level": 76,
+				"Output": "AquaticJadinko",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|pirate impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 76,
+				"Output": "Pirate impling jar",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|pirate impling|~": {
+				"NPCs": ["Pirate impling"],
+				"Level": 76,
+				"Output": "PirateImpling",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|grenwall|~ in Tirannwn": {
+				"Chunks": ["GrenwallTirannwn+"],
+				"Items": ["Box trap", "Raw pawya meat"],
+				"NPCs": ["Grenwall"],
+				"Level": 77,
+				"Output": "Grenwall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|grenwall|~ on Anachronia": {
+				"Chunks": ["GrenwallAnachronia+"],
+				"Items": ["Box trap", "Raw pawya meat"],
+				"Level": 77,
+				"Output": "GrenwallAnachronia",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|amphibious jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Amphibious jadinko"],
+				"Items": ["Marasamaw plant"],
+				"Chunks": ["11821"],
+				"Level": 77,
+				"Output": "AmphibiousJadinko",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Catch a grenwall from a ~|divine box trap|~": {
 				"Items": ["Divine box trap"],
 				"Level": 77,
 				"Output": "Grenwall spikes",
 				"Primary": false,
+				"Priority": 4
+			},
+			"Catch a ~|grenwall|~ in the Gorajo Resource Dungeon": {
+				"Chunks": ["Gorajo resource dungeon"],
+				"Items": ["Box trap", "Pawya meat"],
+				"Level": 77,
+				"Output": "Grenwall",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Catch a ~|carrion jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Carrion jadinko"],
+				"Items": ["Marasamaw plant"],
+				"Chunks": ["11821"],
+				"Level": 78,
+				"Output": "CarrionJadinko",
+				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|platypus|~": {
-				"Level": 48,
-				"Chunks": ["10284"],
-				"Primary": false,
-				"Skills": {
-					"Summoning": 10
-				},
-				"Priority": 1
-			},
-			"Catch a ~|squirrel|~": {
-				"Level": 29,
-				"NPCs": ["Baby squirrel"],
-				"Primary": false,
-				"Skills": {
-					"Summoning": 60
-				},
-				"Priority": 1
-			},
-			"Catch a ~|monkey (pet)|~": {
-				"Level": 27,
-				"NPCs": ["Baby monkey"],
-				"Primary": false,
-				"Skills": {
-					"Summoning": 95
-				},
-				"Priority": 1
-			},
-			"Catch a ~|gecko|~": {
-				"Level": 27,
-				"NPCs": ["Baby gecko"],
-				"Primary": false,
-				"Skills": {
-					"Summoning": 10
-				},
+			"Catch a ~|diseased jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Diseased jadinko"],
+				"Chunks": ["11821"],
+				"Level": 78,
+				"Output": "DiseasedJadinko",
+				"Primary": true,
 				"Priority": 2
 			},
-			"Obtain a ~|raccoon|~": {
-				"Level": 27,
-				"NPCs": ["Baby raccoon"],
+			"Catch a ~|grey soporith moth|~": {
+				"Items": ["Protea flower", "Moth jar"],
+				"NPCs": ["Grey soporith moth"],
+				"Level": 78,
 				"Primary": false,
-				"Skills": {
-					"Summoning": 80
-				},
 				"Priority": 3
+			},
+			"Catch a ~|camouflaged jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Camouflaged jadinko"],
+				"Chunks": ["11821"],
+				"Level": 79,
+				"Output": "CamouflagedJadinko",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|divine impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 79,
+				"Output": "Divine impling jar",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|divine impling|~": {
+				"NPCs": ["Divine impling"],
+				"Level": 79,
+				"Output": "DivineImpling",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Hunt a ~|spicati apoterrasaur|~": {
+				"NPCs": ["Spicati apoterrasaur"],
+				"Items": ["Raw bagrada rex meat"],
+				"Level": 80,
+				"Skills": {
+					"Slayer": 60
+				},
+				"Output": "SpicatiApoterrasaur",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|draconic jadinko|~ in the Herblore Habitat": {
+				"NPCs": ["Draconic jadinko"],
+				"Chunks": ["11821"],
+				"Level": 80,
+				"Output": "DraconicJadinko",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Barehand catch a ~|ruby harvest|~ in Piscatoris": {
+				"Chunks": ["Piscatoris+"],
+				"NPCs": ["Ruby harvest"],
+				"Level": 80,
+				"Skills": {
+					"Agility": 75
+				},
+				"Output": "RubyHarvest",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Barehand catch a ~|ruby harvest|~ on Anachronia": {
+				"Chunks": ["RubyAnachronia+"],
+				"Level": 80,
+				"Skills": {
+					"Agility": 75
+				},
+				"Output": "RubyHarvestAnachronia",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a piece of any ~|trapper outfit|~": {
+				"Items": ["Trapper fragment", "Inventor's workbench"],
+				"Level": 80,
+				"Skills": {
+					"Invention": 20
+				},
+				"Primary": false,
+				"Output": "TrapperOutfit",
+				"Priority": 5
+			},
+			"Catch a ~|common jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Common jadinko"],
+				"Chunks": ["CommonJadinkoAnachronia+"],
+				"Level": 80,
+				"Output": "CommonJadinko",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Catch a ~|Saradomin jadinko|~": {
+				"NPCs": ["Saradomin jadinko"],
+				"Chunks": ["11821"],
+				"Level": 81,
+				"Output": "SaradominJadinko",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|Guthix jadinko|~": {
+				"NPCs": ["Guthix jadinko"],
+				"Chunks": ["11821"],
+				"Level": 81,
+				"Output": "GuthixJadinko",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|Zamorak jadinko|~": {
+				"NPCs": ["Zamorak jadinko"],
+				"Chunks": ["11821"],
+				"Level": 81,
+				"Output": "ZamorakJadinko",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|shadow jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Shadow jadinko"],
+				"Chunks": ["16962"],
+				"Level": 81,
+				"Output": "ShadowJadinko",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|dragon impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 83,
+				"Output": "Dragon impling jar",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|dragon impling|~": {
+				"NPCs": ["Dragon impling"],
+				"Level": 83,
+				"Output": "DragonImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|igneous jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Igneous jadinko"],
+				"Chunks": ["IgneousJadinkoAnachronia+"],
+				"Level": 84,
+				"Output": "IgneousJadinko",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Barehand catch a ~|sapphire glacialis|~": {
+				"NPCs": ["Sapphire glacialis"],
+				"Level": 85,
+				"Skills": {
+					"Agility": 80
+				},
+				"Output": "SapphireGlacialis",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|torn blueprint fragment|~": {
+				"Chunks": ["Stormgaurd citadel"],
+				"Items": ["Wingsuit+"],
+				"Level": 85,
+				"Skills": {
+					"Agility": 80
+				},
+				"Output": "Torn blueprint fragment",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Hunt an ~|asciatops|~": {
+				"NPCs": ["Asciatops"],
+				"Items": ["Raw arcane apoterrasaur meat"],
+				"Level": 85,
+				"Skills": {
+					"Slayer": 65
+				},
+				"Output": "Asciatops",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|cannibal jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Cannibal jadinko"],
+				"Chunks": ["15430"],
+				"Level": 85,
+				"Output": "CannibalJadinko",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|yellow salamander|~": {
+				"Items": ["Small fishing net", "Rope"],
+				"NPCs": ["Yellow salamander"],
+				"Level": 86,
+				"Output": "YellowSalamander",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|aquatic jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Aquatic jadinko"],
+				"Chunks": ["AquaticJadinkoAnachronia+"],
+				"Level": 85,
+				"Output": "AquaticJadinko",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|zombie impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 87,
+				"Output": "Zombie impling jar",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|zombie impling|~": {
+				"NPCs": ["Zombie impling"],
+				"Level": 87,
+				"Output": "ZombieImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|amphibious jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Amphibious jadinko"],
+				"Chunks": ["16196"],
+				"Level": 87,
+				"Output": "AmphibiousJadinko",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|charming moth|~": {
+				"NPCs": ["Charming moth"],
+				"Level": 88,
+				"Skills": {
+					"Agility": 83
+				},
+				"Output": "CharmingMoth",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|diseased jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Diseased jadinko"],
+				"Chunks": ["DiseasedJadinkoAnachronia+"],
+				"Level": 88,
+				"Output": "DiseasedJadinko",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|carrion jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Carrion jadinko"],
+				"Chunks": ["CarrionJadinkoAnachronia+"],
+				"Level": 88,
+				"Output": "CarrionJadinko",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|crimson skillchompa|~": {
+				"Items": ["Box trap"],
+				"Monsters": ["Crimson skillchompa"],
+				"Level": 89,
+				"Output": "CrimsonSkillchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Barehand catch a ~|snowy knight|~": {
+				"NPCs": ["Snowy knight"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 85
+				},
+				"Output": "SnowyKnight",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|tortle|~": {
+				"Items": ["Tortle trap"],
+				"NPCs": ["Tortle"],
+				"Level": 90,
+				"Output": "Tortle",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch an ~|oily bakami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "OilyBakami",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|bundling bakami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "BundlingBakami",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Catch a ~|salty bakami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "SaltyBakami",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Catch a ~|stalking bakami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "StalkingBakami",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Catch a ~|foraging bakami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "ForagingBakami",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Catch an ~|ancestral bakami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "AncestralBakami",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Catch a ~|murderous bakami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "MurderousBakami",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Catch an ~|fortunate bakami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 90,
+				"Output": "FortunateBakami",
+				"Primary": false,
+				"Priority": 10
 			},
 			"Unlock ~|the trapper|~ in the player-owned port": {
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Build the third tier of the hunter lodge in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Hunt a ~|corbicula rex|~": {
+				"NPCs": ["Corbicula rex"],
+				"Items": ["Raw scimitops meat"],
+				"Level": 90,
+				"Skills": {
+					"Slayer": 70
+				},
+				"Output": "CorbiculaRex",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Catch a ~|draconic jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant"],
+				"NPCs": ["Draconic jadinko"],
+				"Chunks": ["15682"],
+				"Level": 90,
+				"Output": "DraconicJadinko",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Catch a ~|speedy whirligig|~": {
+				"Items": ["Hollyhocks"],
+				"NPCs": ["HetCrocodile+"],
+				"Objects": ["Flower basket"],
+				"Level": 90,
+				"Output": "SpeedyWhirligig",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Catch a ~|kingly impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 91,
+				"Output": "Kingly impling jar",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|kingly impling|~": {
+				"NPCs": ["Kingly impling"],
+				"Level": 91,
+				"Output": "KinglyImpling",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|black soporith moth|~": {
+				"Items": ["Protea flower", "Moth jar"],
+				"NPCs": ["Black soporith moth"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Hunt an ~|oculi apoterrasaur|~": {
+				"NPCs": ["Oculi apoterrasaur"],
+				"Items": ["Raw asciatops meat"],
+				"Level": 94,
+				"Skills": {
+					"Slayer": 74
+				},
+				"Output": "OculiApoterrasaur",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Barehand catch a ~|black warlock|~ in the Feldip Hills": {
+				"Chunks": ["FeldipHills+"],
+				"NPCs": ["Black warlock"],
+				"Level": 95,
+				"Skills": {
+					"Agility": 90
+				},
+				"Output": "BlackWarlock",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Barehand catch a ~|black warlock|~ on Anachronia": {
+				"Chunks": ["BlackAnachronia+"],
+				"Level": 95,
+				"Skills": {
+					"Agility": 90
+				},
+				"Output": "BlackWarlockAnachronia",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|crystal impling|~ in Puro-Puro": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 95,
+				"Output": "Crystal impling jar",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|crystal impling|~": {
+				"NPCs": ["Crystal impling"],
+				"Level": 95,
+				"Output": "CrystalImpling",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Hunt a ~|malletops|~": {
+				"NPCs": ["Oculi apoterrasaur"],
+				"Items": ["Raw corbicula rex meat"],
+				"Level": 95,
+				"Skills": {
+					"Slayer": 75
+				},
+				"Output": "Malletops",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Catch an ~|oily orokami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "OilyOrokami",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Catch a ~|bundling orokami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "BundlingOrokami",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Catch a ~|salty orokami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "SaltyOrokami",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Catch a ~|stalking orokami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "StalkingOrokami",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Catch a ~|foraging orokami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "ForagingOrokami",
+				"Primary": false,
+				"Priority": 10
+			},
+			"Catch an ~|ancestral orokami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "AncestralOrokami",
+				"Primary": false,
+				"Priority": 11
+			},
+			"Catch a ~|murderous orokami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "MurderousOrokami",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Catch an ~|fortunate orokami|~": {
+				"Chunks": ["The Arc"],
+				"Level": 95,
+				"Output": "FortunateOrokami",
+				"Primary": false,
+				"Priority": 13
+			},
+			"Hunt a ~|pavosaurus rex|~": {
+				"NPCs": ["Pavosaurus rex"],
+				"Items": ["Raw spicati apoterrasaur meat"],
+				"Level": 96,
+				"Skills": {
+					"Slayer": 76
+				},
+				"Output": "PavosaurusRex",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch an ~|ornate tortle|~": {
+				"Items": ["Tortle trap"],
+				"NPCs": ["Ornate tortle"],
+				"Level": 96,
+				"Output": "OranteTortle",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|crystal skillchompa|~": {
+				"Items": ["Box trap"],
+				"Monsters": ["Crystal skillchompa"],
+				"Level": 97,
+				"Output": "CrystalSkillchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Buy the ~|Hunter cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Hunter cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Buy the ~|Hunter cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Hunter cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Hunter master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Hunter master cape"],
+				"Level": 120,
 				"Primary": false,
 				"Priority": 1
 			}
@@ -17622,6 +19391,16 @@
 				"Outputs": "Alchemical onyx",
 				"Objects": ["Inventor's workbench"],
 				"Primary": true,
+				"Priority": 1
+			},
+			"Create a piece of any ~|trapper outfit|~": {
+				"Items": ["Trapper fragment", "Inventor's workbench"],
+				"Level": 20,
+				"Skills": {
+					"Invention": 80
+				},
+				"Primary": false,
+				"Output": "TrapperOutfit",
 				"Priority": 1
 			}
 		},
@@ -20372,6 +22151,27 @@
 				"Output": "Hydrix bakriminel bolts (e)",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Buy the ~|Magic cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Magic cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Buy the ~|Magic cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Magic cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Buy the ~|Magic master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Magic master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Mining": {
@@ -21040,6 +22840,27 @@
 				"Level": 50,
 				"Primary": false,
 				"Priority": 6
+			},
+			"Buy the ~|Mining cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Mining cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Buy the ~|Mining cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Mining cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Mining master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Mining master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Prayer": {
@@ -22102,6 +23923,27 @@
 				},
 				"Primary": false,
 				"Priority": 12
+			},
+			"Buy the ~|Prayer cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Prayer cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Buy the ~|Prayer cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Prayer cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Buy the ~|Prayer master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Prayer master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Ranged": {
@@ -22332,7 +24174,7 @@
 				}
 			},
 			"Equip a ~|broad bolt|~": {
-				"Items": ["Broad bolt"],
+				"Items": ["Broad-tipped bolts"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 2,
@@ -22445,6 +24287,30 @@
 				"Primary": false,
 				"Priority": 17
 			},
+			"Equip a ~|bronze arrow|~": {
+				"Items": ["Bronze arrow"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Equip a ~|bronze bolt|~": {
+				"Items": ["Bronze bolts"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Equip a ~|coral bolt|~": {
+				"Items": ["Coral bolts"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Equip a ~|barbed bolt|~": {
+				"Items": ["Barbed bolts"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 21
+			},
 			"Wield a ~|quickbow|~": {
 				"Items": ["Quickbow"],
 				"Level": 5,
@@ -22456,6 +24322,12 @@
 				"Level": 5,
 				"Primary": false,
 				"Priority": 2
+			},
+			"Equip a ~|bronze brutal|~": {
+				"Items": ["Bronze brutal"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 3
 			},
 			"Wield an ~|oak shortbow|~": {
 				"Items": ["Oak shortbow"],
@@ -22503,7 +24375,7 @@
 				"Priority": 7
 			},
 			"Wield an ~|iron javelin|~": {
-				"Items": ["Bronze javelin"],
+				"Items": ["Iron javelin"],
 				"Level": 10,
 				"Primary": false,
 				"Priority": 8
@@ -22532,11 +24404,47 @@
 				"Primary": false,
 				"Priority": 12
 			},
+			"Equip an ~|iron arrow|~": {
+				"Items": ["Iron arrow"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Equip an ~|iron brutal|~": {
+				"Items": ["Iron brutal"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Equip an ~|iron bolt|~": {
+				"Items": ["Iron bolts"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Equip an ~|opal bolt|~": {
+				"Items": ["Opal bolts"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Equip a ~|steel brutal|~": {
+				"Items": ["Steel brutal"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 2
+			},
 			"Wield a ~|blurite crossbow|~": {
 				"Items": ["Blurite crossbow"],
 				"Level": 16,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Equip a ~|blurite bolt|~": {
+				"Items": ["Blurite bolts"],
+				"Level": 16,
+				"Primary": false,
+				"Priority": 2
 			},
 			"Wield a ~|willow shortbow|~": {
 				"Items": ["Willow shortbow"],
@@ -22631,6 +24539,42 @@
 				"Primary": false,
 				"Priority": 26
 			},
+			"Equip a ~|steel arrow|~": {
+				"Items": ["Steel arrow"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 27
+			},
+			"Equip a ~|black brutal|~": {
+				"Items": ["Black brutal"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 28
+			},
+			"Equip a ~|steel bolt|~": {
+				"Items": ["Steel bolts"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 29
+			},
+			"Equip a ~|pearl bolt|~": {
+				"Items": ["Pearl bolts"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 30
+			},
+			"Equip an ~|enchanted opal bolt|~": {
+				"Items": ["Opal bolts (e)"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 31
+			},
+			"Equip a ~|mithril brutal|~": {
+				"Items": ["Mithril brutal"],
+				"Level": 23,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Wield a ~|black crossbow|~": {
 				"Items": ["Black crossbow"],
 				"Level": 25,
@@ -22682,11 +24626,35 @@
 				},
 				"Priority": 8
 			},
+			"Equip a ~|jade bolt|~": {
+				"Items": ["Jade bolts"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Equip a ~|silver bolt|~": {
+				"Items": ["Silver bolts"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Equip a ~|black bolt|~": {
+				"Items": ["Black bolts"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 11
+			},
 			"Wield a ~|Dorgeshuun crossbow|~": {
 				"Items": ["Dorgeshuun crossbow"],
 				"Level": 28,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Equip a ~|bone bolt|~": {
+				"Items": ["Bone bolts"],
+				"Level": 28,
+				"Primary": false,
+				"Priority": 2
 			},
 			"Wield a ~|maple shortbow|~": {
 				"Items": ["Maple shortbow"],
@@ -22796,9 +24764,51 @@
 				},
 				"Priority": 17
 			},
-			"Equip ~|adamant brutal|~": {
+			"Equip a ~|mithril arrow|~": {
+				"Items": ["Mithril arrow"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Equip an ~|ogre arrow|~": {
+				"Items": ["Ogre arrow"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Equip a ~|mithril bolt|~": {
+				"Items": ["Mithril bolts"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Equip a ~|topaz bolt|~": {
+				"Items": ["Topaz bolts"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 21
+			},
+			"Equip an ~|enchanted pearl bolt|~": {
+				"Items": ["Pearl bolts (e)"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Equip ~|guam tar|~": {
+				"Items": ["Guam tar"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 23
+			},
+			"Equip an ~|adamant brutal|~": {
 				"Items": ["Adamant brutal"],
 				"Level": 33,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip an ~|enchanted jade bolt|~": {
+				"Items": ["Jade bolts (e)"],
+				"Level": 35,
 				"Primary": false,
 				"Priority": 1
 			},
@@ -22898,7 +24908,37 @@
 				},
 				"Priority": 15
 			},
-			"Equip ~|rune brutal|~": {
+			"Equip an ~|adamant arrow|~": {
+				"Items": ["Adamant arrow"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Equip a ~|adamant bolt|~": {
+				"Items": ["Adamant bolts"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Equip a ~|sapphire bolt|~": {
+				"Items": ["Sapphire bolts"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Equip an ~|enchanted topaz bolt|~": {
+				"Items": ["Topaz bolts (e)"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Equip an ~|ice arrow|~": {
+				"Items": ["Ice arrows"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Equip a ~|rune brutal|~": {
 				"Items": ["Rune brutal"],
 				"Level": 43,
 				"Primary": false,
@@ -23088,6 +25128,84 @@
 				"Primary": false,
 				"Priority": 27
 			},
+			"Equip a ~|rune arrow|~": {
+				"Items": ["Rune arrow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 28
+			},
+			"Equip a ~|Saradomin arrow|~": {
+				"Items": ["Saradomin arrows"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 29
+			},
+			"Equip a ~|Guthix arrow|~": {
+				"Items": ["Guthix arrows"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 30
+			},
+			"Equip a ~|Zamorak arrow|~": {
+				"Items": ["Zamorak arrows"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 31
+			},
+			"Equip a ~|fragment arrow|~": {
+				"Items": ["Fragment arrows"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 32
+			},
+			"Equip a ~|rune bolt|~": {
+				"Items": ["Rune bolts"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 33
+			},
+			"Equip a ~|kebbit bolt|~": {
+				"Items": ["Kebbit bolts"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 34
+			},
+			"Equip a ~|long kebbit bolt|~": {
+				"Items": ["Long kebbit bolts"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 35
+			},
+			"Equip a ~|fragment bolt|~": {
+				"Items": ["Fragment bolts"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 36
+			},
+			"Equip an ~|emerald bolt|~": {
+				"Items": ["Emerald bolts"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 37
+			},
+			"Equip a ~|ruby bolt|~": {
+				"Items": ["Ruby bolts"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 38
+			},
+			"Equip an ~|enchanted sapphire bolt|~": {
+				"Items": ["Sapphire bolts (e)"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 39
+			},
+			"Equip ~|marrentill tar|~": {
+				"Items": ["Marrentill tar"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 40
+			},
 			"Wield a ~|gravite chargebow|~": {
 				"Items": ["Gravite chargebow"],
 				"Level": 55,
@@ -23233,6 +25351,90 @@
 				},
 				"Priority": 17
 			},
+			"Equip a ~|dragon arrow|~": {
+				"Items": ["Dragon arrow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Equip an ~|abyssalbane arrow|~": {
+				"Items": ["Abyssalbane arrow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Equip a ~|basiliskbane arrow|~": {
+				"Items": ["Basiliskbane arrow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 21
+			},
+			"Equip a ~|dragonbane arrow|~": {
+				"Items": ["Dragonbane arrow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Equip a ~|wallasalkibane arrow|~": {
+				"Items": ["Wallasalkibane arrow"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 23
+			},
+			"Equip a ~|diamond bolt|~": {
+				"Items": ["Diamond bolts"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 24
+			},
+			"Equip a ~|dragon bolt|~": {
+				"Items": ["Dragon bolts"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 25
+			},
+			"Equip an ~|enchanted emerald bolt|~": {
+				"Items": ["Emerald bolts (e)"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 26
+			},
+			"Equip an ~|enchanted ruby bolt|~": {
+				"Items": ["Ruby bolts (e)"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 27
+			},
+			"Equip an ~|abyssalbane bolt|~": {
+				"Items": ["Abyssalbane bolts"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 28
+			},
+			"Equip a ~|basiliskbane bolt|~": {
+				"Items": ["Basiliskbane bolts"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 29
+			},
+			"Equip a ~|dragonbane bolt|~": {
+				"Items": ["Dragonbane bolts"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 30
+			},
+			"Equip a ~|wallasalkibane bolt|~": {
+				"Items": ["Wallasalkibane bolts"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 31
+			},
+			"Equip ~|tarromin tar|~": {
+				"Items": ["Tarromin tar"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 32
+			},
 			"Wield an ~|elder shieldbow (sighted)|~": {
 				"Items": ["Elder shieldbow (sighted)"],
 				"Level": 65,
@@ -23351,6 +25553,42 @@
 				},
 				"Priority": 14
 			},
+			"Equip a ~|dark arrow|~": {
+				"Items": ["Dark arrow"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Equip a ~|bolt rack|~": {
+				"Items": ["Bolt rack"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Equip an ~|onyx bolt|~": {
+				"Items": ["Onyx bolts"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Equip an ~|enchanted diamond bolt|~": {
+				"Items": ["Diamond bolts (e)"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Equip an ~|enchanted dragon bolt|~": {
+				"Items": ["Dragon bolts (e)"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Equip ~|harralander tar|~": {
+				"Items": ["Harralander tar"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 21
+			},
 			"Wield a ~|sagaie|~": {
 				"Items": ["Sagaie"],
 				"Level": 72,
@@ -23399,6 +25637,12 @@
 				"Level": 75,
 				"Primary": false,
 				"Priority": 5
+			},
+			"Equip a ~|hand cannon shot|~": {
+				"Items": ["Hand cannon shot"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 7
 			},
 			"Wield a ~|bolas|~": {
 				"Items": ["Bolas"],
@@ -23520,6 +25764,30 @@
 				},
 				"Priority": 13
 			},
+			"Equip a ~|stalker arrow|~": {
+				"Items": ["Stalker arrow"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Equip a ~|barkriminel bolt|~": {
+				"Items": ["Barkriminel bolts"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Equip a ~|royal bolt|~": {
+				"Items": ["Royal bolts"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Equip an ~|enchanted onyx bolt|~": {
+				"Items": ["Onyx bolts (e)"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 17
+			},
 			"Wield a ~|shadow glaive|~": {
 				"Items": ["Shadow glaive"],
 				"Level": 85,
@@ -23555,6 +25823,18 @@
 				"Level": 85,
 				"Primary": false,
 				"Priority": 6
+			},
+			"Equip a ~|wild arrow|~": {
+				"Items": ["Wild arrow"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Equip a ~|wyvern spine|~": {
+				"Items": ["Wyvern spines"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 9
 			},
 			"Wield ~|Decimation|~": {
 				"Items": ["Decimation"],
@@ -23631,6 +25911,90 @@
 				},
 				"Priority": 6
 			},
+			"Equip an ~|araxyte arrow|~": {
+				"Items": ["Araxyte arrow"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Equip an ~|ascension bolt|~": {
+				"Items": ["Ascension bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Equip an ~|ascendri bolt|~": {
+				"Items": ["Ascendri bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Equip a ~|saphhire barkriminel bolt|~": {
+				"Items": ["Sapphire barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Equip a ~|ruby barkriminel bolt|~": {
+				"Items": ["Ruby barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Equip a ~|red topaz barkriminel bolt|~": {
+				"Items": ["Red topaz barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 12
+			},
+			"Equip a ~|pearl barkriminel bolt|~": {
+				"Items": ["Pearl barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Equip an ~|opal barkriminel bolt|~": {
+				"Items": ["Opal barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Equip an ~|onyx barkriminel bolt|~": {
+				"Items": ["Onyx barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Equip a ~|jade barkriminel bolt|~": {
+				"Items": ["Jade barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 16
+			},
+			"Equip a ~|hydrix barkriminel bolt|~": {
+				"Items": ["Hydrix barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 17
+			},
+			"Equip an ~|emerald barkriminel bolt|~": {
+				"Items": ["Emerald barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 18
+			},
+			"Equip a ~|dragonstone barkriminel bolt|~": {
+				"Items": ["Dragonstone barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 19
+			},
+			"Equip a ~|diamond barkriminel bolt|~": {
+				"Items": ["Diamond barkriminel bolts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 20
+			},
 			"Wield a ~|Seren godbow|~": {
 				"Items": ["Seren godbow"],
 				"Level": 92,
@@ -23654,6 +26018,96 @@
 				"Level": 92,
 				"Primary": false,
 				"Priority": 4
+			},
+			"Equip a ~|black stone arrow|~": {
+				"Items": ["Black stone arrows"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Equip a ~|blight bolt|~": {
+				"Items": ["Blight bolts"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Equip a ~|deathspore arrow|~": {
+				"Items": ["Deathspore arrows"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip a ~|splintering arrow|~": {
+				"Items": ["Splintering arrow"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Equip an ~|enchanted saphhire barkriminel bolt|~": {
+				"Items": ["Sapphire barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip an ~|enchanted ruby barkriminel bolt|~": {
+				"Items": ["Ruby barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Equip an ~|enchanted red topaz barkriminel bolt|~": {
+				"Items": ["Red topaz barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Equip an ~|enchanted pearl barkriminel bolt|~": {
+				"Items": ["Pearl barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Equip an ~|enchanted opal barkriminel bolt|~": {
+				"Items": ["Opal barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Equip an ~|enchanted onyx barkriminel bolt|~": {
+				"Items": ["Onyx barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Equip an ~|enchanted jade barkriminel bolt|~": {
+				"Items": ["Jade barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Equip an ~|enchanted hydrix barkriminel bolt|~": {
+				"Items": ["Hydrix barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Equip an ~|enchanted emerald barkriminel bolt|~": {
+				"Items": ["Emerald barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Equip an ~|enchanted dragonstone barkriminel bolt|~": {
+				"Items": ["Dragonstone barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Equip an ~|enchanted diamond barkriminel bolt|~": {
+				"Items": ["Diamond barkriminel bolts (e)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 11
 			},
 			"Use the ~|greater dazing shot|~ ability": {
 				"Chunks": ["12592"],
@@ -23702,6 +26156,27 @@
 				"Level": 85,
 				"Primary": false,
 				"Priority": 7
+			},
+			"Buy the ~|Ranged cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Ranged cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 12
+			},
+			"Buy the ~|Ranged cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Ranged cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 13
+			},
+			"Buy the ~|Ranged master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Ranged master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Runecrafting": {
@@ -24509,6 +26984,27 @@
 				},
 				"Primary": true,
 				"Priority": 7
+			},
+			"Buy the ~|Runecrafting cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Runecrafting cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Buy the ~|Runecrafting cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Runecrafting cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Runecrafting master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Runecrafting master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Slayer": {
@@ -25947,6 +28443,126 @@
 				},
 				"Primary": false,
 				"Priority": 4
+			},
+			"Buy the ~|Slayer cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Slayer cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Buy the ~|Slayer cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Slayer cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Buy the ~|Slayer master cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Slayer master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Hunt an ~|arcane apoterrasaur|~": {
+				"NPCs": ["Arcane apoterrasaur"],
+				"Items": ["Raw shark"],
+				"Level": 55,
+				"Skills": {
+					"Hunter": 75
+				},
+				"Output": "ArcaneApoterrasaur",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Hunt a ~|scimitops|~": {
+				"NPCs": ["Scimitops"],
+				"Items": ["Raw sailfish"],
+				"Level": 55,
+				"Skills": {
+					"Hunter": 75
+				},
+				"Output": "Scimitops",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Hunt a ~|bagrada rex|~": {
+				"NPCs": ["Bagrada rex"],
+				"Items": ["Raw manta ray"],
+				"Level": 55,
+				"Skills": {
+					"Hunter": 75
+				},
+				"Output": "BagradaRex",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Hunt a ~|spicati apoterrasaur|~": {
+				"NPCs": ["Spicati apoterrasaur"],
+				"Items": ["Raw bagrada rex meat"],
+				"Level": 60,
+				"Skills": {
+					"Hunter": 80
+				},
+				"Output": "SpicatiApoterrasaur",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Hunt an ~|asciatops|~": {
+				"NPCs": ["Asciatops"],
+				"Items": ["Raw arcane apoterrasaur meat"],
+				"Level": 65,
+				"Skills": {
+					"hunter": 85
+				},
+				"Output": "Asciatops",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Hunt a ~|corbicula rex|~": {
+				"NPCs": ["Corbicula rex"],
+				"Items": ["Raw scimitops meat"],
+				"Level": 70,
+				"Skills": {
+					"Hunter": 90
+				},
+				"Output": "CorbiculaRex",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Hunt an ~|oculi apoterrasaur|~": {
+				"NPCs": ["Oculi apoterrasaur"],
+				"Items": ["Raw asciatops meat"],
+				"Level": 74,
+				"Skills": {
+					"Hunter": 94
+				},
+				"Output": "OculiApoterrasaur",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Hunt a ~|malletops|~": {
+				"NPCs": ["Oculi apoterrasaur"],
+				"Items": ["Raw corbicula rex meat"],
+				"Level": 75,
+				"Skills": {
+					"Hunter": 95
+				},
+				"Output": "Malletops",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Hunt a ~|pavosaurus rex|~": {
+				"NPCs": ["Pavosaurus rex"],
+				"Items": ["Raw spicati apoterrasaur meat"],
+				"Level": 76,
+				"Skills": {
+					"Hunter": 96
+				},
+				"Output": "PavosaurusRex",
+				"Primary": true,
+				"Priority": 8
 			}
 		},
 		"Smithing": {
@@ -26741,6 +29357,37 @@
 				"Level": 70,
 				"Primary": true,
 				"Priority": 4
+			},
+			"Buy the ~|Smithing cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Smithing cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 21
+			},
+			"Buy the ~|Smithing cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Smithing cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Buy the ~|Smithing master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Smithing master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Unlock ~|Invention|~": {
+				"Chunks": ["11829"],
+				"Level": 80,
+				"Skills": {
+					"Divination": 80,
+					"Crafting": 80
+				},
+				"primary": false,
+				"Priority": 21
 			}
 		},
 		"Strength": {
@@ -27130,6 +29777,27 @@
 				"Skills": {
 					"Attack": 75
 				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Buy the ~|Strength cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Strength cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Buy the ~|Strength cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Strength cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Strength master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Strength master cape"],
+				"Level": 120,
 				"Primary": false,
 				"Priority": 1
 			}
@@ -28891,15 +31559,6 @@
 				"Primary": false,
 				"Priority": 14
 			},
-			"Obtain a ~|platypus|~": {
-				"Level": 10,
-				"Chunks": ["10284"],
-				"Primary": false,
-				"Skills": {
-					"Hunter": 48
-				},
-				"Priority": 5
-			},
 			"Obtain a ~|pig (pet)|~": {
 				"Level": 14,
 				"Chunks": ["12083"],
@@ -28940,15 +31599,6 @@
 				"Primary": false,
 				"Priority": 8
 			},
-			"Obtain a ~|squirrel|~": {
-				"Level": 60,
-				"NPCs": ["Baby squirrel"],
-				"Primary": false,
-				"Skills": {
-					"Hunter": 29
-				},
-				"Priority": 1
-			},
 			"Obtain a ~|hermit crab|~": {
 				"Level": 75,
 				"Chunks": ["9012"],
@@ -28961,15 +31611,6 @@
 				"Chunks": ["Pet shop+"],
 				"Primary": false,
 				"Priority": 5
-			},
-			"Obtain a ~|monkey (pet)|~": {
-				"Level": 95,
-				"NPCs": ["Baby monkey"],
-				"Primary": false,
-				"Skills": {
-					"Hunter": 27
-				},
-				"Priority": 3
 			},
 			"Obtain a ~|phoenix eggling|~": {
 				"Level": 72,
@@ -28989,15 +31630,6 @@
 					"Slayer": 5
 				},
 				"Priority": 15
-			},
-			"Obtain a ~|gecko|~": {
-				"Level": 10,
-				"NPCs": ["Baby gecko"],
-				"Primary": false,
-				"Skills": {
-					"Hunter": 27
-				},
-				"Priority": 6
 			},
 			"Obtain a ~|guthix raptor|~": {
 				"Items": ["Bird's egg (green)"],
@@ -29035,15 +31667,6 @@
 				},
 				"Priority": 3
 			},
-			"Obtain a ~|raccoon|~": {
-				"Level": 80,
-				"NPCs": ["Baby raccoon"],
-				"Primary": false,
-				"Skills": {
-					"Hunter": 27
-				},
-				"Priority": 4
-			},
 			"Obtain a ~|chameleon|~": {
 				"Items": ["Chameleon egg"],
 				"Level": 90,
@@ -29078,6 +31701,82 @@
 				"Chunks": ["Pet shop+"],
 				"Primary": false,
 				"Priority": 8
+			},
+			"Buy the ~|Summoning cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Summoning cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 9
+			},
+			"Buy the ~|Summoning cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Summoning cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Buy the ~|Summoning master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Summoning master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|gecko|~": {
+				"Items": ["Box trap"],
+				"NPCs": ["Gecko+"],
+				"Level": 10,
+				"Skills": {
+					"Hunter": 27
+				},
+				"Output": "Gecko",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Catch a ~|raccoon|~": {
+				"Items": ["Box trap"],
+				"NPCs": ["Baby raccoon"],
+				"Level": 80,
+				"Skills": {
+					"Hunter": 27
+				},
+				"Output": "Raccoon",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Catch a ~|monkey|~": {
+				"Items": ["Box trap", "Banana"],
+				"NPCs": ["Baby monkey"],
+				"Level": 95,
+				"Skills": {
+					"Hunter": 27
+				},
+				"Output": "Monkey",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|squirrel|~": {
+				"Items": ["Small fishing net", "Rope", "Nuts"],
+				"NPCs": ["Baby squirrel"],
+				"Level": 60,
+				"Skills": {
+					"Hunter": 29
+				},
+				"Output": "Squirrel",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Catch a ~|platypus|~": {
+				"Items": ["Box trap", "Smouldering lavender"],
+				"NPCs": ["Baby platypus"],
+				"Level": 10,
+				"Skills": {
+					"Hunter": 48
+				},
+				"Output": "Platypus",
+				"Primary": false,
+				"Priority": 5
 			}
 		},
 		"Thieving": {
@@ -29798,6 +32497,36 @@
 				},
 				"Primary": false,
 				"Priority": 1
+			},
+			"Buy the ~|Thieving cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Thieving cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Buy the ~|Thieving cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Thieving cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Thieving master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Thieving master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Get the pickpocket bonus from the ~|exoskeleton bracers|~": {
+				"Items": ["Exoskeleton bracers"],
+				"Level": 75,
+				"Skills": {
+					"Hunter": 75
+				},
+				"Primary": false,
+				"Priority": 4
 			}
 		},
 		"Woodcutting": {
@@ -30240,6 +32969,27 @@
 				},
 				"Primary": false,
 				"Priority": 2
+			},
+			"Buy the ~|Woodcutting cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Woodcutting cape"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Buy the ~|Woodcutting cape (t)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Woodcutting cape (t)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy the ~|Woodcutting master cape|~": {
+				"Category": ["Master skillcape"],
+				"Items": ["Woodcutting master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Quests": {},
@@ -30432,22 +33182,22 @@
 			},
 			"Fill a ~|bowl of water|~": {
 				"Items": ["Bowl"],
-				"Objects": ["WaterSource+"],
+				"Objects": ["WaterObject+"],
 				"Output": "Bowl of water"
 			},
 			"Fill a ~|bucket of water|~": {
 				"Items": ["Empty bucket"],
-				"Objects": ["WaterSource+"],
+				"Objects": ["WaterObject+"],
 				"Output": "Bucket of water"
 			},
 			"Fill a ~|jug of water|~": {
 				"Items": ["Jug"],
-				"Objects": ["WaterSource+"],
+				"Objects": ["WaterObject+"],
 				"Output": "Jug of water"
 			},
 			"Fill a ~|vial of water|~": {
 				"Items": ["Vial"],
-				"Objects": ["WaterSource+"],
+				"Objects": ["WaterObject+"],
 				"Output": "Vial of water"
 			},
 			"Fill a ~|bucket of milk|~": {
@@ -30580,6 +33330,223 @@
 			"Craft the ~|superior Dragon Rider gloves|~": {
 				"Items": ["Dragon Rider kit", "Dragon Rider gloves"],
 				"Output": "Superior Dragon Rider gloves"
+			},
+			"Get a ~|polar camo top|~ made": {
+				"Items": ["Polar kebbit fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Polar camo top"
+			},
+			"Get ~|polar camo legs|~ made": {
+				"Items": ["Polar kebbit fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Polar camo legs"
+			},
+			"Get a ~|woodland camo top|~ made": {
+				"Items": ["Common kebbit fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Woodland camo top"
+			},
+			"Get ~|woodland camo legs|~ made": {
+				"Items": ["Common kebbit fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Woodland camo legs"
+			},
+			"Get a ~|jungle camo top|~ made": {
+				"Items": ["Feldip weasel fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Jungle camo top"
+			},
+			"Get ~|jungle camo legs|~ made": {
+				"Items": ["Feldip weasel fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Jungle camo legs"
+			},
+			"Get a ~|desert camo top|~ made": {
+				"Items": ["Desert devil fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Desert camo top"
+			},
+			"Get ~|desert camo legs|~ made": {
+				"Items": ["Desert devil fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Desert camo legs"
+			},
+			"Open a ~|baby impling jar|~": {
+				"Items": ["Baby impling jar"],
+				"Output": "BabyImpling"
+			},
+			"Open a ~|young impling jar|~": {
+				"Items": ["Young impling jar"],
+				"Output": "YoungImpling"
+			},
+			"Open a ~|gourmet impling jar|~": {
+				"Items": ["Gourmet impling jar"],
+				"Output": "GourmetImpling"
+			},
+			"Get a ~|larupia top|~ made": {
+				"Items": ["LarupiaFur+"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Larupia top"
+			},
+			"Get ~|larupia legs|~ made": {
+				"Items": ["LarupiaFur+"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Larupia legs"
+			},
+			"Get a ~|larupia hat|~ made": {
+				"Items": ["Larupia fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Larupia hat"
+			},
+			"Open an ~|earth impling jar|~": {
+				"Items": ["Earth impling jar"],
+				"Output": "EarthImpling"
+			},
+			"Get a ~|graahk top|~ made": {
+				"Items": ["GraahkFur+"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Graahk top"
+			},
+			"Get ~|graahk legs|~ made": {
+				"Items": ["GraahkFur+"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Graahk legs"
+			},
+			"Get a ~|graahk headdress|~ made": {
+				"Items": ["Graahk fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Graahk headdress"
+			},
+			"Light a ~|lit torch|~": {
+				"Items": ["Unlit torch"],
+				"Output": "Lit torch"
+			},
+			"Get a ~|spotted cape|~ made": {
+				"Items": ["Spotted kebbit fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Spotted cape"
+			},
+			"Transform a proto-tool into a ~|sacred clay butterfly net|~": {
+				"Items": ["Proto-tool"],
+				"Output": "Sacred clay butterfly net"
+			},
+			"Transform a volatile tool into a ~|volatile clay butterfly net|~": {
+				"Items": ["Volatile tool"],
+				"Output": "Volatile clay butterfly net"
+			},
+			"Open an ~|essence impling jar|~": {
+				"Items": ["Essence impling jar"],
+				"Output": "EssenceImpling"
+			},
+			"Pick ~|lavender|~": {
+				"Objects": ["Lavender"],
+				"Output": "Lavender"
+			},
+			"Light ~|smouldering lavender|~": {
+				"Items": ["Lavender"],
+				"Output": "Smouldering lavender"
+			},
+			"Open an ~|eclectic impling jar|~": {
+				"Items": ["Eclectic impling jar"],
+				"Output": "EclecticImpling"
+			},
+			"Get a ~|kyatt top|~ made": {
+				"Items": ["KyattFur+"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Kyatt top"
+			},
+			"Get ~|kyatt legs|~ made": {
+				"Items": ["KyattFur+"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Kyatt legs"
+			},
+			"Get a ~|kyatt hat|~ made": {
+				"Items": ["Kyatt fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Kyatt hat"
+			},
+			"Open a ~|spirit impling jar|~": {
+				"Items": ["Spirit impling jar"],
+				"Output": "SpiritImpling"
+			},
+			"Get ~|gloves of silence|~ made": {
+				"Items": ["Dark kebbit fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Gloves of silence"
+			},
+			"Open a ~|nature impling jar|~": {
+				"Items": ["Nature impling jar"],
+				"Output": "NatureImpling"
+			},
+			"Open a ~|magpie impling jar|~": {
+				"Items": ["Magpie impling jar"],
+				"Output": "MagpieImpling"
+			},
+			"Loot the ~|sinister chest|~": {
+				"Chunks": ["Yanille Agility Dungeon"],
+				"Items": ["Sinister key"],
+				"Output": "SinisterChest"
+			},
+			"Get a ~|spottier cape|~ made": {
+				"Items": ["Dashing kebbit fur"],
+				"NPCs": "Fancy-dress shop owner",
+				"Output": "Spottier cape"
+			},
+			"Receive a ~|witchdoctor mask|~": {
+				"NPCs": "Papa Mambo",
+				"Output": "Witchdoctor mask"
+			},
+			"Receive ~|witchdoctor legs|~": {
+				"NPCs": "Papa Mambo",
+				"Output": "Witchdoctor legs"
+			},
+			"Receive ~|witchdoctor robes|~": {
+				"NPCs": "Papa Mambo",
+				"Output": "Witchdoctor robes"
+			},
+			"Create a gold charm": {
+				"Items": ["Gold charm slice"],
+				"Output": "Gold charm"
+			},
+			"Create a green charm": {
+				"Items": ["Green charm slice"],
+				"Output": "Green charm"
+			},
+			"Create a crimson charm": {
+				"Items": ["Crimson charm slice"],
+				"Output": "Crimson charm"
+			},
+			"Create a blue charm": {
+				"Items": ["Blue charm slice"],
+				"Output": "Blue charm"
+			},
+			"Open a ~|ninja impling jar|~": {
+				"Items": ["Ninja impling jar"],
+				"Output": "NinjaImpling"
+			},
+			"Open a ~|pirate impling jar|~": {
+				"Items": ["Pirate impling jar"],
+				"Output": "PirateImpling"
+			},
+			"Open a ~|divine impling jar|~": {
+				"Items": ["Divine impling jar"],
+				"Output": "DivineImpling"
+			},
+			"Open a ~|dragon impling jar|~": {
+				"Items": ["Dragon impling jar"],
+				"Output": "DragonImpling"
+			},
+			"Open a ~|zombie impling jar|~": {
+				"Items": ["Zombie impling jar"],
+				"Output": "ZombieImpling"
+			},
+			"Open a ~|kingly impling jar|~": {
+				"Items": ["Kingly impling jar"],
+				"Output": "KinglyImpling"
+			},
+			"Open a ~|crystal impling jar|~": {
+				"Items": ["Crystal impling jar"],
+				"Output": "CrystalImpling"
 			}
 		}
 	},
@@ -35027,7 +37994,7 @@
 				"Flags and ogleroots": true,
 				"Mrs Winkin's World of Seeds": true
 			},
-			"Name": "Field"
+			"Name": "Vinesweeper"
 		},
 		"6475": {
 			"Object": {
@@ -41332,6 +44299,7 @@
 				"Captain Belmondo": 1
 			},
 			"Connect": {
+				"6473": true,
 				"9362": true
 			},
 			"Spawn": {
@@ -41486,6 +44454,9 @@
 				"Will o' the wisp": 3,
 				"Mieliki Tapio": 1,
 				"Gnome banker": 5
+			},
+			"Connect": {
+				"6483": true
 			},
 			"Spawn": {
 				"Knife": 1
@@ -43452,6 +46423,7 @@
 				"Pillory guard": 1
 			},
 			"Connect": {
+				"6483": true,
 				"10131": true,
 				"10307": true,
 				"10388": true,
@@ -43542,6 +46514,7 @@
 				"Monk": 4
 			},
 			"Connect": {
+				"6483": true,
 				"10390": true
 			},
 			"Spawn": {
@@ -43859,6 +46832,9 @@
 				"Chicken": 7,
 				"Rooster": 1,
 				"Rabbit": 3
+			},
+			"Connect": {
+				"6483": true
 			},
 			"Shop": {
 				"Etceteria Fish": true,
@@ -44563,6 +47539,7 @@
 				"Sparky": 1
 			},
 			"Connect": {
+				"6483": true,
 				"9541": true,
 				"10647": true,
 				"11595": true
@@ -44632,6 +47609,9 @@
 				"Farmer in need (easy)": 1,
 				"Farmer in need (medium)": 1,
 				"Farmer in need (hard)": 1
+			},
+			"Connect": {
+				"6483": true
 			},
 			"Shop": {
 				"Farmers' Market": true,
@@ -44751,10 +47731,13 @@
 				"Tool leprechaun": 2,
 				"Musician": 1
 			},
+			"Connect": {
+				"6483": true
+			},
 			"Shop": {
 				"farming supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fremennik Road"
 		},
 		"10552": {
 			"Object": {
@@ -46538,6 +49521,9 @@
 				"Drummer": 1,
 				"Zombie pirate head": 1
 			},
+			"Connect": {
+				"6483": true
+			},
 			"Spawn": {
 				"Seaweed": 5
 			},
@@ -46635,11 +49621,12 @@
 				"Tool leprechaun": 1,
 				"Shark": 1
 			},
+			"Connect": {
+				"6483": true,
+				"10307": true
+			},
 			"Shop": {
 				"Trader Stan's Trading Post": true
-			},
-			"Connect": {
-				"10307": true
 			},
 			"Nickname": "Brimhaven Docks"
 		},
@@ -46683,6 +49670,9 @@
 				"Auguste": 1,
 				"Tool leprechaun": 1
 			},
+			"Connect": {
+				"6483": true
+			},
 			"Spawn": {
 				"Vial": 2,
 				"Seaweed": 6
@@ -46691,7 +49681,7 @@
 				"Farming Supplies": true,
 				"Frincos's Fabulous Herb Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Entrana"
 		},
 		"11061": {
 			"Object": {
@@ -46780,6 +49770,7 @@
 				"Sir Palomedes": 1
 			},
 			"Connect": {
+				"6483": true,
 				"10307": true,
 				"11418": true
 			},
@@ -46849,6 +49840,7 @@
 				"Philipe Carnillean": 1
 			},
 			"Connect": {
+				"6483": true,
 				"11165": true,
 				"11421": true
 			},
@@ -46861,7 +49853,7 @@
 			"Shop": {
 				"Leprechaun Larry's Farming Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mountain Camp"
 		},
 		"11066": {
 			"Object": {
@@ -47668,6 +50660,7 @@
 				"Fisherman": 1
 			},
 			"Connect": {
+				"6483": true,
 				"11417": true
 			},
 			"Spawn": {
@@ -48663,6 +51656,7 @@
 				"Jessika": 1
 			},
 			"Connect": {
+				"6483": true,
 				"11670": true
 			},
 			"Nickname": "Melzar's Maze"
@@ -48903,6 +51897,7 @@
 				"Rabbit": 33
 			},
 			"Connect": {
+				"6483": true,
 				"8774": true,
 				"11418": true
 			},
@@ -49676,12 +52671,13 @@
 				"Zamorak jadinko": 6
 			},
 			"Connect": {
+				"6483": true,
 				"12176": true
 			},
 			"Shop": {
 				"Papa Mambo's Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Herblore Habitat"
 		},
 		"11822": {
 			"Object": {
@@ -50008,6 +53004,9 @@
 				"Saradominist crusader": 10,
 				"Sir Atcha": 1
 			},
+			"Connect": {
+				"6483": true
+			},
 			"Spawn": {
 				"Hammer": 1,
 				"Cooked chicken": 1,
@@ -50017,7 +53016,6 @@
 			},
 			"Shop": {
 				"Cassie's Shield Shop": true,
-				"Slayer Equipment": true,
 				"Rising Sun Inn": true,
 				"Flynn's Mace Market": true,
 				"Herquin's Gems": true,
@@ -50666,6 +53664,7 @@
 				"Gudrik": 1
 			},
 			"Connect": {
+				"6483": true,
 				"7099": true,
 				"7350": true,
 				"8120": true,
@@ -50735,7 +53734,8 @@
 				"Egg": 2
 			},
 			"Connect": {
-				"4185": true
+				"4185": true,
+				"6483": true
 			},
 			"Shop": {
 				"Farming supplies": true,
@@ -51831,6 +54831,9 @@
 				"Maemi": 1,
 				"Terry": 1
 			},
+			"Connect": {
+				"6483": true
+			},
 			"Spawn": {
 				"Bronze med helm": 1,
 				"Bucket": 1,
@@ -52510,6 +55513,7 @@
 				"Tool leprechaun": 1
 			},
 			"Connect": {
+				"6483": true,
 				"8300": true
 			},
 			"Spawn": {
@@ -52753,7 +55757,8 @@
 				"Mystic Marge": 1
 			},
 			"Connect": {
-				"4441": true
+				"4441": true,
+				"6483": true
 			},
 			"Shop": {
 				"Marvellous Mysticism": true,
@@ -52941,12 +55946,15 @@
 			"NPC": {
 				"Goth leprechaun": 1
 			},
+			"Connect": {
+				"6483": true
+			},
 			"Spawn": {
 				"Chaos rune": 6,
 				"Black dagger": 1,
 				"Vial": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Wilderness Pond"
 		},
 		"12604": {
 			"Monster": {
@@ -53600,6 +56608,7 @@
 				"Cow": 5
 			},
 			"Connect": {
+				"6483": true,
 				"12950": true
 			},
 			"Spawn": {
@@ -53684,6 +56693,7 @@
 			},
 			"Connect": {
 				"4186": true,
+				"6483": true,
 				"18522": true,
 				"18524": true,
 				"19034": true,
@@ -53940,6 +56950,9 @@
 				"Gideon Bede": 1,
 				"Aeonisig Raispher": 1,
 				"Sir Amik Varze": 1
+			},
+			"Connect": {
+				"6483": true
 			},
 			"Spawn": {
 				"Pie dish": 1,
@@ -54743,6 +57756,7 @@
 				"Zeid the Tailor": 1
 			},
 			"Connect": {
+				"6483": true,
 				"10315": true
 			},
 			"Shop": {
@@ -56379,6 +59393,7 @@
 				"Efaritay": 1
 			},
 			"Connect": {
+				"6483": true,
 				"9541": true,
 				"13722": true
 			},
@@ -57923,10 +60938,13 @@
 				"Alice's husband": 1,
 				"Tool leprechaun": 1
 			},
+			"Connect": {
+				"6483": true
+			},
 			"Shop": {
 				"Alice's Farming Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Alice's Farm"
 		},
 		"14406": {
 			"Object": {
@@ -59132,6 +62150,7 @@
 				"Zombie pirate": 20
 			},
 			"Connect": {
+				"6483": true,
 				"15248": true
 			},
 			"Spawn": {
@@ -60082,7 +63101,10 @@
 			"Object": {
 				"Portal": 1
 			},
-			"Name": "Clan Citadel"
+			"Connect": {
+				"6483": true
+			},
+			"Nickname": "North Anachronia Pass"
 		},
 		"15943": {
 			"Object": {
@@ -68829,7 +71851,7 @@
 				"13103": true
 			}
 		},
-		"Field": {
+		"Vinesweeper": {
 			"Object": {
 				"Stile": 4,
 				"Instruction sign": 4,
@@ -68846,6 +71868,40 @@
 			"Shop": {
 				"Flags and ogleroots": true,
 				"Mrs Winkin's World of Seeds": true
+			},
+			"Connect": {
+				"9777": true,
+				"9781": true,
+				"10288": true,
+				"10290": true,
+				"10300": true,
+				"10547": true,
+				"10548": true,
+				"10551": true,
+				"11056": true,
+				"11058": true,
+				"11060": true,
+				"11062": true,
+				"11065": true,
+				"11317": true,
+				"11570": true,
+				"11574": true,
+				"11821": true,
+				"11828": true,
+				"12082": true,
+				"12083": true,
+				"12340": true,
+				"12587": true,
+				"12596": true,
+				"12603": true,
+				"12850": true,
+				"12851": true,
+				"12854": true,
+				"13106": true,
+				"13622": true,
+				"14391": true,
+				"15148": true,
+				"15942": true
 			}
 		},
 		"King Black Dragon's Lair": {
@@ -75884,7 +78940,21 @@
 			"TeralithArmor+": ["Teralith helmet", "Teralith cuirass", "Teralith leggings", "Teralith gauntlets", "Teralith boots", "Acho Teralith helmet", "Acho Teralith cuirass", "Acho Teralith leggings", "Acho Teralith gauntlets", "Acho Teralith boots"],
 			"PrimevalArmor+": ["Primeval mask", "Primeval robe top", "Primeval robe legs", "Primeval gloves", "Primeval boots", "Acho Primeval mask", "Acho Primeval robe top", "Acho Primeval robe legs", "Acho Primeval gloves", "Acho Primeval boots"],
 			"TempestArmor+": ["Tempest cowl", "Tempest body", "Tempest chaps", "Tempest gloves", "Tempest boots", "Acho Tempest cowl", "Acho Tempest body", "Acho Tempest chaps", "Acho Tempest gloves", "Acho Tempest boots"],
-			"CryptbloomArmor+": ["Cryptbloom helm", "Cryptbloom top", "Cryptbloom bottoms", "Cryptbloom gloves", "Cryptbloom boots"]
+			"CryptbloomArmor+": ["Cryptbloom helm", "Cryptbloom top", "Cryptbloom bottoms", "Cryptbloom gloves", "Cryptbloom boots"],
+			"PolarCamo+": ["Polar camo top", "Polar camo legs"],
+			"WoodlandCamo+": ["Woodland camo top", "Woodland camo legs"],
+			"JungleCamo+": ["Jungle camo top", "Jungle camo legs"],
+			"DesertCamo+": ["Desert camo top", "Desert camo legs"],
+			"WitchDoctorCamo+": ["Witchdoctor robes", "Witchdoctor legs", "Witchdoctor mask"],
+			"LarupiaOutfit+": ["Larupia top", "Larupia legs", "Larupia hat"],
+			"GraahkOutfit+": ["Graahk top", "Graahk legs", "Graahk headdress"],
+			"KyattOutfit+": ["Kyatt top", "Kyatt legs", "Kyatt hat"],
+			"LarupiaFur+": ["Larupia fur", "Tatty larupia fur"],
+			"GraahkFur+": ["Graahk fur", "Tatty graahk fur"],
+			"KyattFur+": ["Kyatt fur", "Tatty kyatt fur"],
+			"YaktweeStick+": ["Yaktwee stick", "Enhanced yaktwee stick"],
+			"Wingsuit+": ["Wingsuit v1", "Wingsuit v2", "Wingsuit v3"],
+			"ButterflyNet+": ["Butterfly net", "Magic butterfly net", "Sacred clay butterfly net", "Volatile clay butterfly net"]
 		},
 		"chunksPlus": {
 			"Thievesguild+": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -75898,7 +78968,20 @@
 			"Kandarin safes+": ["10032", "10291", "10547", "10806"],
 			"Pet shop+": ["10288", "11573"],
 			"PVP+": ["8493", "9005", "9520", "11831", "11832", "11833", "11834", "11837", "12087", "12088", "12089", "12090", "12091", "12092", "12343", "12344", "12347", "12348", "12599", "12600", "12603", "12604", "12605", "12855", "12856", "12859", "13111", "13114", "13367", "13368", "13372", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
-			"Lunar/Ancients+": ["8508", "Jaldraocht Pyramid"]
+			"Lunar/Ancients+": ["8508", "Jaldraocht Pyramid"],
+			"Piscatoris+": ["9271", "9272"],
+			"FeldipHills+": ["10285", "10029"],
+			"Tirannwn+": ["8754", "8753", "9010", "9009"],
+			"GrenwallTirannwn+": ["8754", "8753", "9010"],
+			"RubyAnachronia+": ["15428", "15427", "15171", "15172"],
+			"BlackAnachronia+": ["15171", "1693", "16703", "16447", "16448"],
+			"PawyaAnachronia+": ["15170"],
+			"GrenwallAnachronia+": ["16193", "16197"],
+			"CommonJadinkoAnachronia+": ["16964", "15938"],
+			"IgneousJadinkoAnachronia+": ["15684", "16704"],
+			"AquaticJadinkoAnachronia+": ["15170", "16195"],
+			"DiseasedJadinkoAnachronia+": ["16965", "16709", "16194"],
+			"CarrionJadinkoAnachronia+": ["15430", "16448"]
 	},
 		"objectsPlus": {
 			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
@@ -75908,7 +78991,8 @@
 			"CurePatch+": ["Allotment patch", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"Fire+": ["Fire", "Fireplace", "Player fire", "Campfire"],
 			"Cooking object+": ["Fire", "Cooking range", "Cooking range+", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire"],
-			"Cooking range+": ["Cooking range", "Cooking range+", "Stove", "Clay oven"]
+			"Cooking range+": ["Cooking range", "Cooking range+", "Stove", "Clay oven"],
+			"SnowPile+": ["Snow pile", "Snow drift"]
 		},
 		"monstersPlus": {
 			"Guard+": ["Guard", "Guard (Varrock)"],
@@ -75917,7 +79001,9 @@
 		"npcsPlus": {
 			"Wisp+": ["Pale wisp", "Cursed wisp"],
 			"Master Farmers+": ["Master Farmer", "Martin the Master Gardener"],
-			"Tanner+": ["Tanner", "Ellis", "Sbott", "Tanya Hyde"]
+			"Tanner+": ["Tanner", "Ellis", "Sbott", "Tanya Hyde"],
+			"HetCrocodile+": ["Chito", "Frito"],
+			"Gecko+": ["Gecko", "Baby gecko"]
 		},
 		"rangedItems": [
 			["Chargebow"],
@@ -101401,13 +104487,1419 @@
 			}
 		},
 		"Hunter": {
-			"Polar Kebbit": {
+			"PolarKebbit": {
+				"Bones": "Always",
+				"Raw beast meat": "Always",
 				"Polar kebbit fur": "Always",
-				"Raw beast meat": "Always"
+				"Old boot": "Unknown"
 			},
-			"Crimson Swift": {
-				"Red feather": "Always",
-				"Raw bird meat": "Always"
+			"CrimsonSwift": {
+				"Bones": "Always",
+				"Raw bird meat": "Always",
+				"Red feather": "Always"
+			},
+			"PlainWhirligig": {
+				"Plain whirligig shell": "Always",
+				"Piece of Het": "Uncommon"
+			},
+			"DazzlingWhirligig": {
+				"Dazzling whirligig shell": "Always",
+				"Piece of Het": "Uncommon"
+			},
+			"CommonKebbit": {
+				"Bones": "Always",
+				"Raw beast meat": "Always",
+				"Common kebbit fur": "Always"
+			},
+			"GoldenWarbler": {
+				"Bones": "Always",
+				"Raw bird meat": "Always",
+				"Yellow feather": "Always"
+			},
+			"FeldipWeasel": {
+				"Bones": "Always",
+				"Raw beast meat": "Always",
+				"Feldip weasel fur": "Always"
+			},
+			"CopperLongtail": {
+				"Bones": "Always",
+				"Raw bird meat": "Always",
+				"Orange feather": "Always"
+			},
+			"CeruleanTwitch": {
+				"Bones": "Always",
+				"Raw bird meat": "Always",
+				"Blue feather": "Always"
+			},
+			"DesertDevil": {
+				"Bones": "Always",
+				"Raw beast meat": "Always",
+				"Desert devil fur": "Always"
+			},
+			"RubyHarvest": {
+				"Ruby harvest": "Always",
+				"Crystal triskelion fragment 1": "Rare",
+				"Crystal triskelion fragment 2": "Rare",
+				"Crystal triskelion fragment 3": "Rare"
+			},
+			"RubyHarvestAnachronia": {
+				"Ruby harvest": "Always",
+				"Dinosaur rib bone": "1/1000",
+				"Reinforced dinosaur pelt": "1/1000",
+				"Compacted hides": "Uncommon",
+				"Crystal triskelion fragment 1": "Rare",
+				"Crystal triskelion fragment 2": "Rare",
+				"Crystal triskelion fragment 3": "Rare"
+			},
+			"BabyImpling": {
+				"Chisel": "168/1673",
+				"Thread": "148/1673",
+				"Needle": "170/1673",
+				"Knife": "167/1673",
+				"Cheese": "169/1673",
+				"Hammer": "163/1673",
+				"Ball of wool": "181/1673",
+				"Bucket of milk": "172/1673",
+				"Anchovies": "169/1673",
+				"Flax": "13/1673",
+				"Seaweed": "20/1673",
+				"Silver stone spirit": "24/1673",
+				"Sapphire": "22/1673",
+				"Lobster": "18/1673",
+				"Soft clay": "17/1673",
+				"Mud pie": "14/1673",
+				"Air talisman": "12/1673",
+				"Spice": "13/1673",
+				"Hard leather": "13/1673"
+			},
+			"TropicalWagtail": {
+				"Bones": "Always",
+				"Raw bird meat": "Always",
+				"Stripy feather": "Always"
+			},
+			"YoungImpling": {
+				"Steel nails": "Common",
+				"Lockpick": "Common",
+				"Pure essence": "Common",
+				"Tuna": "Common",
+				"Chocolate slice": "Common",
+				"Tiny bladed steel salvage": "Common",
+				"Meat pizza": "Common",
+				"Coal stone spirit": "Common",
+				"Bowstring": "Common",
+				"Snape grass": "Rare",
+				"Soft clay": "Rare",
+				"Studded chaps": "Rare",
+				"Small plated steel salvage": "Rare",
+				"Oak plank": "Rare",
+				"Defense potion (3)": "Rare",
+				"Mithril stone spirit": "Rare",
+				"Yew shieldbow": "Rare",
+				"Garden pie": "Rare",
+				"Jangerberries": "Rare"
+			},
+			"WildKebbit": {
+				"Bones": "Always",
+				"Kebbit claws": "Always",
+				"Long, sharp claws": "Common"
+			},
+			"SapphireGlacialis": {
+				"Sapphire glacialis": "Always",
+				"Crystal triskelion fragment 1": "Rare",
+				"Crystal triskelion fragment 2": "Rare",
+				"Crystal triskelion fragment 3": "Rare"
+			},
+			"WhiteRabbit": {
+				"Bones": "Always",
+				"Raw rabbit": "Always",
+				"Rabbit foot": "Always",
+				"Piscatorian cottontail rabbit (unchecked)": "Unknown"
+			},
+			"CobaltSkillchompa": {
+				"Cobalt skillchompa": "Always",
+				"Cobalt chinchompa (unchecked)": "1/1500"
+			},
+			"GourmetImpling": {
+				"Bass": "Common",
+				"Tuna": "Common",
+				"Curry": "Common",
+				"Meat pie": "Common",
+				"Chocolate cake": "Common",
+				"Frog spawn": "Common",
+				"Spice": "Common",
+				"Curry leaves": "Common",
+				"Lobster": "Uncommon",
+				"Ugthanki kebab": "Rare",
+				"Shark": "Rare",
+				"Chef's delight": "Rare",
+				"Fish pie": "Rare",
+				"Rainbow fish": "Rare",
+				"Garden pie": "Rare",
+				"Swordfish": "Rare",
+				"Strawberries (5)": "Rare",
+				"Cooked karambwan": "Rare"
+			},
+			"GlidingWhirligig": {
+				"Gliding whirligig shell": "Always",
+				"Piece of Het": "Uncommon"
+			},
+			"SpinedLarupia": {
+				"Big bones": "Always",
+				"Tatty larupia fur": "1/2",
+				"Larupia fur": "1/2"
+			},
+			"BarbKebbit": {
+				"Bones": "Always",
+				"Barb-tail harpoon": "Always"
+			},
+			"SnowyKnight": {
+				"Snowy knight": "Always",
+				"Crystal triskelion fragment 1": "Rare",
+				"Crystal triskelion fragment 2": "Rare",
+				"Crystal triskelion fragment 3": "Rare"
+			},
+			"EarthImpling": {
+				"Fire talisman": "Common",
+				"Earth talisman": "Common",
+				"Earth tiara": "Common",
+				"Earth rune": "Common",
+				"Mithril stone spirit": "Common",
+				"Unicorn horn": "Common",
+				"Compost": "Common",
+				"Gold stone spirit": "Common",
+				"Bucket of sand": "Common",
+				"Coal stone spirit": "Rare",
+				"Small spiky mithril salvage": "Rare",
+				"Wildblood seed": "Rare",
+				"Jangerberry seed": "Rare",
+				"Supercompost": "Rare",
+				"Harallander seed": "Rare",
+				"Emerald": "Rare",
+				"Ruby": "Rare"
+			},
+			"PricklyKebbit": {
+				"Bones": "Always",
+				"Kebbit spike": "Always"
+			},
+			"WimpyBird": {
+				"Bones": "Always",
+				"Raw bird meat": "Always",
+				"Wimpy feather": "Always"
+			},
+			"HornedGraahk": {
+				"Big bones": "Always",
+				"Tatty graahk fur": "1/2",
+				"Graahk fur": "1/2"
+			},
+			"EssenceImpling": {
+				"Pure essence": "Common",
+				"Water rune": "Common",
+				"Air rune": "Common",
+				"Fire rune": "Common",
+				"Mind rune": "Common",
+				"Body rune": "Common",
+				"Chaos rune": "Common",
+				"Cosmic rune": "Common",
+				"Mind talisman": "Common",
+				"Lava rune": "Rare",
+				"Mud rune": "Rare",
+				"Smoke rune": "Rare",
+				"Steam rune": "Rare",
+				"Death rune": "Rare",
+				"Law rune": "Rare",
+				"Blood rune": "Rare",
+				"Soul rune": "Rare",
+				"Nature rune": "Rare"
+			},
+			"SpottedKebbit": {
+				"Bones": "Always",
+				"Raw beast meat": "Always",
+				"Spotted kebbit fur": "Always"
+			},
+			"Penguin": {
+				"Penguin (item)": "1/2",
+				"Kgp agent (item)": "1/2"
+			},
+			"BlackWarlock": {
+				"Black warlock": "Always",
+				"Crystal triskelion fragment 1": "Rare",
+				"Crystal triskelion fragment 2": "Rare",
+				"Crystal triskelion fragment 3": "Rare"
+			},
+			"BlackWarlockAnachronia": {
+				"Black warlock": "Always",
+				"Dinosaur rib bone": "1/1000",
+				"Reinforced dinosaur pelt": "1/1000",
+				"Compacted hides": "Uncommon",
+				"Crystal triskelion fragment 1": "Rare",
+				"Crystal triskelion fragment 2": "Rare",
+				"Crystal triskelion fragment 3": "Rare"
+			},
+			"ViridianSkillchompa": {
+				"Viridian skillchompa": "Always",
+				"Viridian chinchompa (unchecked)": "1/1500"
+			},
+			"DiseasedKebbit": {
+				"Bones": "Always",
+				"Diseased kebbit fur": "Always"
+			},
+			"RazorKebbit": {
+				"Bones": "Always",
+				"Raw beast meat": "Always",
+				"Long kebbit spike": "Unknown"
+			},
+			"EclecticImpling": {
+				"Small spiky mithril salvage": "Common",
+				"Curry leaf": "Common",
+				"Snape grass": "Common",
+				"Air rune": "Common",
+				"Oak plank": "Common",
+				"Candle lantern (empty)": "Common",
+				"Gold stone spirit": "Common",
+				"Unicorn horn": "Common",
+				"Medium plated adamant salvage": "Rare",
+				"Blue dragonhide chaps": "Rare",
+				"Red spiky vambraces": "Rare",
+				"Tiny spiky rune salvage": "Rare",
+				"Battlestaff": "Rare",
+				"Adamantite stone spirit": "Rare",
+				"Slayer's respite": "Rare",
+				"Wild pie": "Rare",
+				"Watermelong seed": "Rare",
+				"Diamond": "Rare"
+			},
+			"SabreKebbit": {
+				"Bones": "Always",
+				"Kebbit teeth": "Always"
+			},
+			"GreyChinchompa": {
+				"Chinchompa": "Always",
+				"Grey chinchompa (unchecked)": "1/1500"
+			},
+			"SpiritImpling": {
+				"Gold charm": "Common",
+				"Green charm": "Common",
+				"Crimson charm": "Common",
+				"Blue charm": "Common",
+				"Pouch": "Common",
+				"Iron ingot": "Uncommon",
+				"Cockatrice egg": "Rare",
+				"Saratrice egg": "Rare",
+				"Vulatrice egg": "Rare",
+				"Zamatrice egg": "Rare",
+				"Pengatrice egg": "Rare",
+				"Guthatrice egg": "Rare",
+				"Coraxatrice egg": "Rare",
+				"Bronze bar": "Unknown",
+				"Iron bar": "Unknown",
+				"Mithril bar": "Unknown",
+				"Adamant bar": "Unknown",
+				"Rune bar": "Unknown",
+				"Iron platebody": "Unknown",
+				"Steel ingot": "Unknown",
+				"Bronze claws": "Unknown",
+				"Gold ring": "Unknown",
+				"Raw rat meat": "Unknown",
+				"Raw chicken": "Unknown",
+				"Raw bird meat": "Unknown",
+				"Raw rabbit": "Unknown",
+				"Raw beef": "Unknown",
+				"Thin snail": "Unknown",
+				"Larupia fur": "Unknown",
+				"Kyatt fur": "Unknown",
+				"Yak-hide": "Unknown",
+				"Dagannoth hide": "Unknown",
+				"Tortoise shell": "Unknown",
+				"Spider carcass": "Unknown",
+				"Proboscis": "Unknown",
+				"Wolf bones": "Unknown",
+				"Unicorn horn": "Unknown",
+				"Green salamander": "Unknown",
+				"Swamp toad": "Unknown",
+				"Honeycomb": "Unknown",
+				"Pot of flour": "Unknown",
+				"Compost": "Unknown",
+				"Marigolds": "Unknown",
+				"Evil turnip seed": "Unknown",
+				"Evil turnip": "Unknown",
+				"Carved evil turnip": "Unknown",
+				"Willow logs": "Unknown",
+				"Willow branch": "Unknown",
+				"Banana": "Unknown",
+				"Bagged plant 1": "Unknown",
+				"Potato cactus": "Unknown",
+				"Red flowers": "Unknown",
+				"Ruby harvest": "Unknown",
+				"Clean guam": "Unknown",
+				"Tinderbox": "Unknown",
+				"Harpoon": "Unknown",
+				"Fishbowl": "Unknown",
+				"Granite (500g)": "Unknown",
+				"Fire talisman": "Unknown",
+				"Air talisman": "Unknown",
+				"Water orb": "Unknown",
+				"Goat horn dust": "Unknown",
+				"Chinchompa": "Unknown",
+				"Raw shark": "Unknown",
+				"Water talisman": "Unknown",
+				"Vampyre dust": "Unknown"
+			},
+			"SabreKyatt": {
+				"Big bones": "Always",
+				"Tatty kyatt fur": "1/2",
+				"Kyatt fur": "1/2"
+			},
+			"DarkKebbit": {
+				"Bones": "Always",
+				"Raw beast meat": "Always",
+				"Dark kebbit fur": "Always"
+			},
+			"NatureImpling": {
+				"Cactus spine": "106/1075",
+				"Coconut": "110/1075",
+				"Magic logs": "101/1075",
+				"Clean tarromin": "87/1075",
+				"Clean snapdragon": "12/1075",
+				"Clean torstol": "10/1075",
+				"Harralander seed": "113/1075",
+				"Avantoe seed": "9/1075",
+				"Irit seed": "117/1075",
+				"Kwuarm seed": "9/1075",
+				"Ranarr seed": "12/1075",
+				"Torstol seed": "8/1075",
+				"Dwarf weed seed": "7/1075",
+				"Belladonna seed": "112/1075",
+				"Jangerberry seed": "114/1075",
+				"Limpwurt seed": "120/1075",
+				"Curry tree seed": "11/1075",
+				"Orange tree seed": "8/1075",
+				"Willow seed": "10/1075"
+			},
+			"RedChinchompa": {
+				"Red chinchompa": "Always",
+				"Carnivorous chinchompa (unchecked)": "1/1500"
+			},
+			"MagpieImpling": {
+				"Diamond amulet": "Common",
+				"Ring of forging": "Common",
+				"Splitbark gauntlets": "Common",
+				"Amulet of power": "Common",
+				"Mystic cloth": "Common",
+				"Nature tiara": "Common",
+				"Black dragonhide": "Common",
+				"Medium blunt rune salvage": "Uncommon",
+				"Ring of life": "Uncommon",
+				"Runite stone spirit": "Uncommon",
+				"Sinister key": "Uncommon",
+				"Dragon dagger": "Rare",
+				"Medium plated rune salvage": "Rare",
+				"Diamond": "Rare",
+				"Pineapple seed": "Rare",
+				"Loop half of a key": "Rare",
+				"Tooth half of a key": "Rare",
+				"Snapdragon seed": "Very rare"
+			},
+			"Pawya": {
+				"Raw pawya meat": "Always",
+				"Bones": "Always"
+			},
+			"PawyaAnachronia": {
+				"Raw pawya meat": "Always",
+				"Bones": "Always",
+				"Dinosaur rib bone": "1/1000",
+				"Reinforced dinosaur pelt": "1/1000",
+				"Compacted hides": "Uncommon"
+			},
+			"AzureSkillchompa": {
+				"Azure skillchompa": "Always",
+				"Azure chinchompa (unchecked)": "1/1500"
+			},
+			"DashingKebbit": {
+				"Bones": "Always",
+				"Raw beast meat": "Always",
+				"Dashing kebbit fur": "Always"
+			},
+			"CommonJadinko": {
+				"Withered vine": "Always",
+				"Red blossom seed": "77/3402",
+				"Green blossom seed": "70/3402",
+				"Blue blossom seed": "82/3402",
+				"Erzille seed": "43/3402",
+				"Argway seed": "42/3402",
+				"Ugune seed": "39/3402",
+				"Shengo seed": "52/3402",
+				"Samaden seed": "38/3402",
+				"Lergberry seed": "91/3402",
+				"Kalferberry seed": "98/3402",
+				"Apple tree seed": "16/3402",
+				"Orange tree seed": "12/3402",
+				"Banana tree seed": "9/3402",
+				"Barberry seed": "45/3402",
+				"Butterfly flower seed": "45/3402",
+				"Fly trap seed": "47/3402",
+				"Grapevine seed": "7/3402",
+				"Potato cactus seed": "21/3402",
+				"Prickly pear seed": "45/3402",
+				"Reed seed": "29/3402",
+				"Snape grass seed": "34/3402",
+				"Sunchoke seed": "38/3402",
+				"Common jadinko (unchecked)": "1/500"
+			},
+			"HastyWhirligig": {
+				"Hasty whirligig shell": "Always",
+				"Piece of Het": "Uncommon"
+			},
+			"ShadowJadinko": {
+				"Shadow vine": "Always",
+				"Red blossom seed": "31/3195",
+				"Green blossom seed": "32/3195",
+				"Blue blossom seed": "40/3195",
+				"Erzille seed": "25/3195",
+				"Argway seed": "17/3195",
+				"Ugune seed": "23/3195",
+				"Shengo seed": "16/3195",
+				"Samaden seed": "17/3195",
+				"Lergberry seed": "40/3195",
+				"Kalferberry seed": "43/3195",
+				"Apple tree seed": "8/3195",
+				"Orange tree seed": "8/3195",
+				"Banana tree seed": "9/3195",
+				"Barberry seed": "7/500",
+				"Butterfly flower seed": "8/500",
+				"Fly trap seed": "7/500",
+				"Grapevine seed": "5/500",
+				"Potato cactus seed": "1/500",
+				"Prickly pear seed": "12/500",
+				"Reed seed": "6/500",
+				"Snape grass seed": "5/500",
+				"Sunchoke seed": "10/500",
+				"Shadow jadinko (unchecked)": "1/500"
+			},
+			"CharmSprite": {
+				"Gold charm slice": "Common",
+				"Green charm slice": "Common",
+				"Crimson charm slice": "Uncommon",
+				"Blue charm slice": "Uncommon",
+				"Mystical charm slice": "Uncommon"
+			},
+			"PloverBird": {
+				"Plover bird": "Always",
+				"Pygmy giant scarab": "Rare",
+				"Clicker kalphite": "Rare"
+			},
+			"IgneousJadinko": {
+				"Marble vine": "Always",
+				"Lergberry seed": "206/6793",
+				"Kalferberry seed": "133/6793",
+				"Barberry seed": "90/6793",
+				"Butterfly flower seed": "92/6793",
+				"Fly trap seed": "105/6793",
+				"Grapevine seed": "44/6793",
+				"Potato cactus seed": "72/6793",
+				"Prickly pear seed": "100/6793",
+				"Reed seed": "57/6793",
+				"Snape grass seed": "68/6793",
+				"Sunchoke seed": "85/6793",
+				"Igneous jadinko (unchecked)": "1/500"
+			},
+			"NinjaImpling": {
+				"Snakeskin boots": "Common",
+				"Splitbark helm": "Common",
+				"Splitbark gauntlets": "Common",
+				"Mystic cloth": "Common",
+				"Tiny spiky rune salvage": "Common",
+				"Opal machette": "Common",
+				"Rune arrow": "Common",
+				"Rune dart": "Common",
+				"Rune knife": "Common",
+				"Rune throwing axe": "Common",
+				"Black dragonhide": "Common",
+				"Prayer potion (3)": "Common",
+				"Large plated rune salvage": "Uncommon",
+				"Medium bladed rune salvage": "Uncommon",
+				"Medium blunt rune salvage": "Uncommon",
+				"Dragon dagger": "Uncommon",
+				"Onyx bolts": "Uncommon",
+				"Weapon poison+ (3)": "Uncommon",
+				"Dagannoth hide": "Uncommon",
+				"Onyx bolt tips": "Rare",
+				"Runite stone spirit": "Rare"
+			},
+			"CannibalJadinko": {
+				"Plant teeth": "Always",
+				"Lergberry seed": "30/1312",
+				"Kalferberry seed": "34/1312",
+				"Barberry seed": "17/1312",
+				"Butterfly flower seed": "15/1312",
+				"Fly trap seed": "14/1312",
+				"Grapevine seed": "5/1312",
+				"Potato cactus seed": "15/1312",
+				"Prickly pear seed": "14/1312",
+				"Reed seed": "8/1312",
+				"Snape grass seed": "9/1312",
+				"Sunchoke seed": "12/1312",
+				"Cannibal jadinko (unchecked)": "1/500"
+			},
+			"ArcaneApoterrasaur": {
+				"Raw arcane apoterrasaur meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut ruby": "Common",
+				"Raw shark": "Common",
+				"Grenwall spikes": "Common",
+				"Pineapple seed": "Common",
+				"Maple seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy irit": "Common",
+				"Grimy cadantine": "Common",
+				"Grimy kwuarm": "Common",
+				"Grimy lantadyme": "Common",
+				"Grimy torstol": "Common",
+				"Green dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Uncommon",
+				"Stinkshroom spore": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Ciku seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Grimy avantoe": "Unknown",
+				"Compacted hides": "7/100",
+				"Arcane apoterrasaur (unchecked)": "1/65"
+			},
+			"Scimitops": {
+				"Raw scimitops meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut ruby": "Common",
+				"Raw shark": "Common",
+				"Grenwall spikes": "Common",
+				"Pineapple seed": "Common",
+				"Maple seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy irit": "Common",
+				"Grimy cadantine": "Common",
+				"Grimy kwuarm": "Common",
+				"Grimy lantadyme": "Common",
+				"Grimy dwarf weed": "Common",
+				"Green dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Uncommon",
+				"Stinkshroom spore": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Ciku seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Grimy avantoe": "Common",
+				"Compacted hides": "7/100",
+				"Scimitops (unchecked)": "1/65"
+			},
+			"BagradaRex": {
+				"Raw bagrada rex meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut ruby": "Common",
+				"Raw shark": "Common",
+				"Grenwall spikes": "Common",
+				"Pineapple seed": "Common",
+				"Maple seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy irit": "Common",
+				"Grimy cadantine": "Common",
+				"Grimy kwuarm": "Common",
+				"Grimy lantadyme": "Common",
+				"Grimy torstol": "Common",
+				"Green dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Uncommon",
+				"Stinkshroom spore": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Ciku seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Grimy avantoe": "Common",
+				"Compacted hides": "7/100",
+				"Bagrada rex (unchecked)": "1/65"
+			},
+			"AquaticJadinko": {
+				"Aquatic vine": "Always",
+				"Red blossom seed": "49/2221",
+				"Green blossom seed": "30/2221",
+				"Blue blossom seed": "27/2221",
+				"Barberry seed": "28/2221",
+				"Butterfly flower seed": "32/2221",
+				"Fly trap seed": "33/2221",
+				"Grapevine seed": "5/2221",
+				"Potato cactus seed": "28/2221",
+				"Prickly pear seed": "21/2221",
+				"Reed seed": "28/2221",
+				"Snape grass seed": "18/2221",
+				"Sunchoke seed": "27/2221",
+				"Aquatic jadinko (unchecked)": "1/500"
+			},
+			"PirateImpling": {
+				"Gold stone spirit": "Common",
+				"Pirate shirt (red)": "Common",
+				"Pirate shirt (blue)": "Common",
+				"Pirate shirt (purple)": "Common",
+				"Pirate shirt (brown)": "Common",
+				"Pirate shirt (grey)": "Common",
+				"Pirate shirt (white)": "Common",
+				"Pirate shirt (orange)": "Common",
+				"Pirate leggings (red)": "Common",
+				"Pirate leggings (blue)": "Common",
+				"Pirate leggings (purple)": "Common",
+				"Pirate leggings (brown)": "Common",
+				"Pirate leggings (grey)": "Common",
+				"Pirate leggings (white)": "Common",
+				"Pirate leggings (orange)": "Common",
+				"Pirate bandana (red)": "Common",
+				"Pirate bandana (blue)": "Common",
+				"Pirate bandana (purple)": "Common",
+				"Pirate bandana (brown)": "Common",
+				"Pirate bandana (grey)": "Common",
+				"Pirate bandana (white)": "Common",
+				"Pirate bandana (orange)": "Common",
+				"Bandana and eyepatch (red)": "Common",
+				"Bandana and eyepatch (blue)": "Common",
+				"Bandana and eyepatch (brown)": "Common",
+				"Bandana and eyepatch (grey)": "Common",
+				"Pirate boots": "Uncommon",
+				"Left eyepatch": "Uncommon",
+				"Pieces of eight": "Very Rare"
+			},
+			"Grenwall": {
+				"Grenwall spikes": "Always",
+				"Bones": "Always",
+				"Grimy ranarr": "6/100",
+				"Grimy toadlfax": "3/100",
+				"Grimy irit": "6/100",
+				"Grimy avantoe": "6/100",
+				"Grimy kwuarm": "3/100",
+				"Grimy cadantine": "3/100",
+				"Grimy lantadyme": "3/100",
+				"Grimy dwarf weed": "3/100"
+			},
+			"GrenwallAnachronia": {
+				"Raw pawya meat": "Always",
+				"Bones": "Always",
+				"Grimy ranarr": "6/100",
+				"Grimy toadlfax": "3/100",
+				"Grimy irit": "6/100",
+				"Grimy avantoe": "6/100",
+				"Grimy kwuarm": "3/100",
+				"Grimy cadantine": "3/100",
+				"Grimy lantadyme": "3/100",
+				"Grimy dwarf weed": "3/100",
+				"Dinosaur rib bone": "1/1000",
+				"Reinforced dinosaur pelt": "1/1000",
+				"Compacted hides": "Uncommon"
+			},
+			"AmphibiousJadinko": {
+				"Oily vine": "Always",
+				"Apple tree seed": "50/2046",
+				"Orange tree seed": "27/2046",
+				"Banana tree seed": "36/2046",
+				"Barberry seed": "35/2046",
+				"Butterfly flower seed": "30/2046",
+				"Fly trap seed": "24/2046",
+				"Grapevine seed": "11/2046",
+				"Potato cactus seed": "21/2046",
+				"Prickly pear seed": "21/2046",
+				"Reed seed": "18/2046",
+				"Snape grass seed": "18/2046",
+				"Sunchoke seed": "36/2046",
+				"Amphibious jadinko (unchecked)": "1/500"
+			},
+			"CarrionJadinko": {
+				"Pungent vine": "Always",
+				"Erzille seed": "230/6360",
+				"Argway seed": "169/6360",
+				"Ugune seed": "167/6360",
+				"Shengo seed": "95/6360",
+				"Samaden seed": "80/6360",
+				"Barberry seed": "100/6360",
+				"Butterfly flower seed": "96/6360",
+				"Fly trap seed": "89/6360",
+				"Grapevine seed": "37/6360",
+				"Potato cactus seed": "58/6360",
+				"Prickly pear seed": "107/6360",
+				"Reed seed": "52/6360",
+				"Snape grass seed": "70/6360",
+				"Sunchoke seed": "92/6360",
+				"Carrion jadinko (unchecked)": "1/500"
+			},
+			"DiseasedJadinko": {
+				"Corrupt vine": "Always",
+				"Red blossom seed": "119/15461",
+				"Green blossom seed": "104/15461",
+				"Blue blossom seed": "18/15461",
+				"Erzille seed": "113/15461",
+				"Argway seed": "92/15461",
+				"Ugune seed": "117/15461",
+				"Shengo seed": "82/15461",
+				"Samaden seed": "115/15461",
+				"Lergberry seed": "249/15461",
+				"Kalferberry seed": "207/15461",
+				"Apple tree seed": "24/15461",
+				"Orange tree seed": "12/15461",
+				"Banana tree seed": "34/15461",
+				"Barberry seed": "5/15461",
+				"Butterfly flower seed": "3/15461",
+				"Fly trap seed": "8/15461",
+				"Grapevine seed": "Unknown",
+				"Potato cactus seed": "5/15461",
+				"Prickly pear seed": "2/15461",
+				"Reed seed": "3/15461",
+				"Snape grass seed": "5/15461",
+				"Sunchoke seed": "7/15461",
+				"Diseased jadinko (unchecked)": "1/500"
+			},
+			"CamouflagedJadinko": {
+				"Striped vine": "Always",
+				"Red blossom seed": "11/1805",
+				"Green blossom seed": "6/1805",
+				"Blue blossom seed": "10/1805",
+				"Erzille seed": "6/1805",
+				"Argway seed": "7/1805",
+				"Ugune seed": "3/1805",
+				"Shengo seed": "7/1805",
+				"Samaden seed": "5/1805",
+				"Lergberry seed": "74/1805",
+				"Kalferberry seed": "42/1805",
+				"Apple tree seed": "2/1805",
+				"Orange tree seed": "2/1805",
+				"Banana tree seed": "2/1805",
+				"Barberry seed": "14/1805",
+				"Butterfly flower seed": "17/1805",
+				"Fly trap seed": "13/1805",
+				"Grapevine seed": "5/1805",
+				"Potato cactus seed": "8/1805",
+				"Prickly pear seed": "18/1805",
+				"Reed seed": "9/1805",
+				"Snape grass seed": "9/1805",
+				"Sunchoke seed": "23/1805",
+				"Camouflaged jadinko (unchecked)": "1/500"
+			},
+			"DivineImpling": {
+				"Pale energy": "1/13",
+				"Flickering energy": "1/13",
+				"Bright energy": "1/13",
+				"Glowing energy": "1/13",
+				"Sparkling energy": "1/13",
+				"Gleaming energy": "1/13",
+				"Vibrant energy": "1/13",
+				"Lustrous energy": "1/13",
+				"Elder energy": "1/13",
+				"Brilliant energy": "1/13",
+				"Radiant energy": "1/13",
+				"Luminous energy": "1/13",
+				"Incandescent energy": "1/13",
+				"Elder charm": "Common",
+				"Sign of life": "Uncommon",
+				"Sign of death": "Uncommon",
+				"Sign of the porter I": "Uncommon",
+				"Sign of the porter II": "Uncommon",
+				"Sign of the porter III": "Uncommon",
+				"Sign of the porter IV": "Uncommon",
+				"Sign of the porter V": "Uncommon",
+				"Sign of the porter VI": "Uncommon",
+				"Portent of life": "Uncommon",
+				"Portent of death": "Uncommon",
+				"Portent of restoration I": "Uncommon",
+				"Portent of restoration II": "Uncommon",
+				"Portent of restoration III": "Uncommon",
+				"Portent of restoration IV": "Uncommon",
+				"Portent of restoration V": "Uncommon",
+				"Portent of restoration VI": "Uncommon",
+				"Portent of restoration VII": "Uncommon",
+				"Portent of restoration VIII": "Uncommon",
+				"Portent of restoration IX": "Uncommon",
+				"Portent of restoration X": "Uncommon",
+				"Nightmare muspah pouch": "Rare"
+			},
+			"SpicatiApoterrasaur": {
+				"Raw spicati apoterrasaur meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut diamond": "Common",
+				"Raw manta ray": "Common",
+				"Grenwall spikes": "Common",
+				"Papaya tree seed": "Common",
+				"Yew seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy avantoe": "Unknown",
+				"Grimy dwarf weed": "Unknown",
+				"Grimy irit": "Common",
+				"Grimy cadantine": "Common",
+				"Grimy kwuarm": "Common",
+				"Grimy lantadyme": "Common",
+				"Grimy torstol": "Common",
+				"Green dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Uncommon",
+				"Lychee seed": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Guarana seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Compacted hides": "7/100",
+				"Spicati apoterrasaur (unchecked)": "1/65"
+			},
+			"DraconicJadinko": {
+				"Erzille seed": "99/6343",
+				"Argway seed": "73/6343",
+				"Ugune seed": "85/6343",
+				"Shengo seed": "47/6343",
+				"Samaden seed": "35/6343",
+				"Barberry seed": "79/6343",
+				"Butterfly flower seed": "100/6343",
+				"Fly trap seed": "80/6343",
+				"Grapevine seed": "33/6343",
+				"Potato cactus seed": "72/6343",
+				"Prickly pear seed": "101/6343",
+				"Reed seed": "62/6343",
+				"Snape grass seed": "66/6343",
+				"Sunchoke seed": "100/6343",
+				"Draconic jadinko (unchecked)": "1/500"
+			},
+			"TrapperOutfit": {
+				"Volcanic trapper head": "1/15",
+				"Volcanic trapper chest": "1/15",
+				"Volcanic trapper legguards": "1/15",
+				"Volcanic trapper arms": "1/15",
+				"Volcanic trapper boots": "1/15",
+				"Desert trapper head": "1/15",
+				"Desert trapper chest": "1/15",
+				"Desert trapper legguards": "1/15",
+				"Desert trapper arms": "1/15",
+				"Desert trapper boots": "1/15",
+				"Arctic trapper head": "1/15",
+				"Arctic trapper chest": "1/15",
+				"Arctic trapper legguards": "1/15",
+				"Arctic trapper arms": "1/15",
+				"Arctic trapper boots": "1/15"
+			},
+			"SaradominJadinko": {
+				"Saradomin vine": "Always",
+				"Red blossom seed": "35/2616",
+				"Green blossom seed": "25/2616",
+				"Blue blossom seed": "32/2616",
+				"Erzille seed": "13/2616",
+				"Argway seed": "15/2616",
+				"Ugune seed": "18/2616",
+				"Shengo seed": "19/2616",
+				"Samaden seed": "11/2616",
+				"Lergberry seed": "33/2616",
+				"Kalferberry seed": "39/2616",
+				"Apple tree seed": "7/2616",
+				"Orange tree seed": "8/2616",
+				"Banana tree seed": "9/2616",
+				"Barberry seed": "54/2616",
+				"Butterfly flower seed": "41/2616",
+				"Fly trap seed": "43/2616",
+				"Grapevine seed": "13/2616",
+				"Potato cactus seed": "19/2616",
+				"Prickly pear seed": "42/2616",
+				"Reed seed": "27/2616",
+				"Snape grass seed": "17/2616",
+				"Sunchoke seed": "39/2616"
+			},
+			"GuthixJadinko": {
+				"Guthix vine": "Always",
+				"Red blossom seed": "13/1064",
+				"Green blossom seed": "10/1064",
+				"Blue blossom seed": "11/1064",
+				"Erzille seed": "4/1064",
+				"Argway seed": "11/1064",
+				"Ugune seed": "6/1064",
+				"Shengo seed": "7/1064",
+				"Samaden seed": "5/1064",
+				"Lergberry seed": "16/1064",
+				"Kalferberry seed": "17/1064",
+				"Apple tree seed": "4/1064",
+				"Orange tree seed": "2/1064",
+				"Banana tree seed": "Unknown",
+				"Barberry seed": "20/1064",
+				"Butterfly flower seed": "18/1064",
+				"Fly trap seed": "16/1064",
+				"Grapevine seed": "6/1064",
+				"Potato cactus seed": "11/1064",
+				"Prickly pear seed": "21/1064",
+				"Reed seed": "12/1064",
+				"Snape grass seed": "10/1064",
+				"Sunchoke seed": "15/1064"
+			},
+			"ZamorakJadinko": {
+				"Zamorak vine": "Always",
+				"Red blossom seed": "8/1010",
+				"Green blossom seed": "9/1010",
+				"Blue blossom seed": "6/1010",
+				"Erzille seed": "6/1010",
+				"Argway seed": "6/1010",
+				"Ugune seed": "3/1010",
+				"Shengo seed": "7/1010",
+				"Samaden seed": "9/1010",
+				"Lergberry seed": "11/1010",
+				"Kalferberry seed": "11/1010",
+				"Apple tree seed": "Unknown",
+				"Orange tree seed": "Unknown",
+				"Banana tree seed": "1/1010",
+				"Barberry seed": "15/1010",
+				"Butterfly flower seed": "14/1010",
+				"Fly trap seed": "18/1010",
+				"Grapevine seed": "4/1010",
+				"Potato cactus seed": "11/1010",
+				"Prickly pear seed": "13/1010",
+				"Reed seed": "17/1010",
+				"Snape grass seed": "8/1010",
+				"Sunchoke seed": "28/1010"
+			},
+			"DragonImpling": {
+				"Dragon arrow": "Common",
+				"Dragon bolts": "Common",
+				"Dragon longsword": "Common",
+				"Dragon dart tip": "Common",
+				"Dragon arrowheads": "Common",
+				"Dragon bolt tips": "Common",
+				"Baby dragon bones": "Common",
+				"Dragon dagger": "Uncommon",
+				"Dragon dart": "Uncommon",
+				"Magic seed": "Uncommon",
+				"Dragon bones": "Uncommon",
+				"Dragonstone": "Uncommon",
+				"Amulet of glory": "Rare",
+				"Mystic cloth": "Rare",
+				"Dragonstone amulet": "Rare",
+				"Snapdragon seed": "Rare",
+				"Summer pie": "Rare"
+			},
+			"Asciatops": {
+				"Raw asciatops meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut diamond": "Common",
+				"Raw manta ray": "Common",
+				"Grenwall spikes": "Common",
+				"Papaya tree seed": "Common",
+				"Yew seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy avantoe": "Unknown",
+				"Grimy dwarf weed": "Common",
+				"Grimy irit": "Common",
+				"Grimy cadantine": "Common",
+				"Grimy kwuarm": "Common",
+				"Grimy lantadyme": "Unknown",
+				"Grimy torstol": "Common",
+				"Green dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Uncommon",
+				"Lychee seed": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Guarana seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Compacted hides": "7/100",
+				"Asciatops (unchecked)": "1/65"
+			},
+			"YellowSalamander": {
+				"Dinosaur rib bone": "1/1000",
+				"Reinforced dinosaur pelt": "1/1000",
+				"Compacted hides": "Uncommon"
+			},
+			"ZombieImpling": {
+				"Big bones": "Common",
+				"Baby dragon bones": "Common",
+				"Dragon bones": "Uncommon",
+				"Wyvern bones": "Uncommon",
+				"Curved bone": "Rare",
+				"Long bone": "Rare",
+				"Fayr bone": "Rare",
+				"Raugr bone": "Rare",
+				"Ourg bone": "Rare",
+				"Monkey skull": "1/3000"
+			},
+			"CharmingMoth": {
+				"Gold charm": "2/5",
+				"Green charm": "1/3",
+				"Crimson charm": "1/5",
+				"Blue charm": "1/10"
+			},
+			"CrimsonSkillchompa": {
+				"Crimson skillchompa": "Always",
+				"Crimson chinchompa (unchecked)": "1/1500"
+			},
+			"Tortle": {
+				"Shell chippings": "Always",
+				"Chimes": "Uncommon",
+				"Taijitu": "Rare"
+			},
+			"OilyBakami": {
+				"Raw seerfish": "Common",
+				"Raw tarpon": "Common",
+				"Wushanko fishing bait": "Common",
+				"Fish oil": "Common",
+				"Raw sillago": "Uncommon"
+			},
+			"BundlingBakami": {
+				"Bamboo": "Common",
+				"Driftwood": "Common",
+				"Bundle of bamboo": "Common"
+			},
+			"SaltyBakami": {
+				"Sea salt": "Always"
+			},
+			"StalkingBakami": {
+				"Shell chippings": "Common",
+				"Tortle shell bowl": "Common"
+			},
+			"ForagingBakami": {
+				"Rumberry": "Unknown",
+				"Exuberry seed": "Unknown",
+				"Exuberry": "Unknown",
+				"Rumberry seed": "Unknown"
+			},
+			"AncestralBakami": {
+				"Positive energy": "Common",
+				"Negative energy": "Common",
+				"Ancestral energy": "Uncommon"
+			},
+			"MurderousBakami": {
+				"Spirit dragon charm": "Common",
+				"Sapphire amulet": "Uncommon",
+				"Sapphire bracelet": "Uncommon",
+				"Water battlestaff": "Uncommon",
+				"Magic potion (2)": "Uncommon",
+				"Water talisman": "Uncommon",
+				"Magic stock": "Uncommon",
+				"Tiny spiky mithril salvage": "Uncommon",
+				"Small plated mithril salvage": "Uncommon",
+				"Medium plated mithril salvage": "Uncommon",
+				"Unpowered orb": "Uncommon",
+				"Weapon poison+ (2)": "Uncommon",
+				"Ring of recoil": "Rare"
+			},
+			"FortunateBakami": {
+				"Arc gumbo": "Unknown",
+				"Uncooked arc gumbo": "Unknown",
+				"Iron stone spirit": "Unknown",
+				"Chimes": "Unknown"
+			},
+			"CorbiculaRex": {
+				"Raw corbicula rex meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut diamond": "Common",
+				"Raw manta ray": "Common",
+				"Grenwall spikes": "Common",
+				"Papaya tree seed": "Common",
+				"Yew seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy avantoe": "Unknown",
+				"Grimy dwarf weed": "Common",
+				"Grimy irit": "Common",
+				"Grimy cadantine": "Common",
+				"Grimy kwuarm": "Common",
+				"Grimy lantadyme": "Unknown",
+				"Grimy torstol": "Unknown",
+				"Green dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Uncommon",
+				"Lychee seed": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Guarana seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Compacted hides": "7/100",
+				"Corbicula rex (unchecked)": "1/65"
+			},
+			"SpeedyWhirligig": {
+				"Speedy whirligig shell": "Always",
+				"Piece of Het": "Uncommon"
+			},
+			"KinglyImpling": {
+				"Uncut diamond": "Common",
+				"Amulet of glory": "Common",
+				"Dragonstone amulet": "Common",
+				"Crystal key": "Common",
+				"Royal amulet": "Uncommon",
+				"Royal crown": "Uncommon",
+				"Royal leggings": "Uncommon",
+				"Royal shirt": "Uncommon",
+				"Royal sceptre": "Uncommon",
+				"Dragon arrow": "Uncommon",
+				"Dragon arrowheads": "Uncommon",
+				"Dragon bolt tips": "Uncommon",
+				"Dragon dart": "Uncommon",
+				"Dragon dart tip": "Uncommon",
+				"Dragon longsword": "Uncommon",
+				"Dragon spear": "Uncommon",
+				"Uncut dragonstone": "Uncommon",
+				"Dragonstone": "Uncommon",
+				"Dragon bolts": "Uncommon",
+				"Onyx bolts": "Uncommon",
+				"Runite stone spirit": "Uncommon",
+				"Onyx bolt tips": "Rare",
+				"Dragon 2h sword": "Very rare",
+				"Shield left half": "Very rare",
+				"Uncut onyx": "Very rare",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare"
+
+			},
+			"OculiApoterrasaur": {
+				"Raw oculi apoterrasaur meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut dragonstone": "Common",
+				"Raw rocktail": "Common",
+				"Grenwall spikes": "Common",
+				"Palm tree seed": "Common",
+				"Magic seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy avantoe": "Rare",
+				"Grimy dwarf weed": "Rare",
+				"Grimy irit": "Rare",
+				"Grimy cadantine": "Rare",
+				"Grimy kwuarm": "Rare",
+				"Grimy lantadyme": "Rare",
+				"Grimy torstol": "Rare",
+				"Green dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Common",
+				"Lychee seed": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Crambola seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Compacted hides": "7/100",
+				"Tribal fin": "1/1000",
+				"Golden dragonfruit seed": "Very rare",
+				"Oculi apoterrasaur (unchecked)": "1/65"
+			},
+			"CrystalImpling": {
+				"Tooth half of a key": "Common",
+				"Loop half of a key": "Common",
+				"Crystal weapon seed": "Uncommon",
+				"Crystal tool seed": "Uncommon",
+				"Crystal seed": "Uncommon",
+				"Super restore (4)": "Uncommon",
+				"Prayer potion (4)": "Uncommon",
+				"Uncut diamond": "Uncommon",
+				"Uncut dragonstone": "Uncommon",
+				"Elder seed": "Uncommon",
+				"Magic seed": "Uncommon",
+				"Lantadyme seed": "Uncommon",
+				"Torstol seed": "Uncommon",
+				"Magic logs": "Uncommon",
+				"Coconut": "Uncommon",
+				"Onyx bolt tips": "Uncommon",
+				"Golden rock": "Uncommon",
+				"Crystal acorn": "Rare",
+				"Thinker boots": "1/500",
+				"Thinker gloves": "1/500",
+				"Crystal triskelion fragment 1": "Very rare",
+				"Crystal triskelion fragment 2": "Very rare",
+				"Crystal triskelion fragment 3": "Very rare"
+			},
+			"Malletops": {
+				"Raw malletops meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut dragonstone": "Common",
+				"Raw rocktail": "Common",
+				"Grenwall spikes": "Common",
+				"Palm tree seed": "Common",
+				"Magic seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy avantoe": "Common",
+				"Grimy dwarf weed": "Common",
+				"Grimy irit": "Common",
+				"Grimy cadantine": "Common",
+				"Grimy kwuarm": "Common",
+				"Grimy lantadyme": "Common",
+				"Grimy torstol": "Common",
+				"Green dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Uncommon",
+				"Lychee seed": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Crambola seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Compacted hides": "7/100",
+				"Volcanic fragments": "1/1000",
+				"Golden dragonfruit seed": "Very rare",
+				"Malletops (unchecked)": "1/65"
+			},
+			"OilyOrokami": {
+				"Raw seerfish": "Common",
+				"Raw tarpon": "Common",
+				"Wushanko fishing bait": "Common",
+				"Fish oil": "Common",
+				"Wobbegong oil": "Common",
+				"Raw sillago": "Common",
+				"Raw wobbegong": "Common",
+				"Ikuchi orokami mask": "1/100"
+			},
+			"BundlingOrokami": {
+				"Bamboo": "Common",
+				"Driftwood": "Common",
+				"Bundle of bamboo": "Common",
+				"Kodama orokami mask": "1/92"
+			},
+			"SaltyOrokami": {
+				"Area salt": "Common",
+				"Akkorokamui orokami maks": "1/90",
+				"Golden idol": "Very rare"
+			},
+			"StalkingOrokami": {
+				"Shiny hsell chippings": "Common",
+				"Shiny tortle shell bowl": "Common",
+				"Karasu orokami mask": "1/84"
+			},
+			"ForagingOrokami": {
+				"Rumberry seed": "Common",
+				"Exuberry seed": "Common",
+				"Blushroom": "Common",
+				"Wushroom": "Common",
+				"Akateko orokami mask": "1/80"
+			},
+			"AncestralOrokami": {
+				"Ancestral energy": "Common",
+				"Nue orokami mask": "1/72"
+			},
+			"MurderousOrokami": {
+				"Spirit dragon charm": "Uncommon",
+				"Sapphire amulet": "Unknown",
+				"Sapphire bracelet": "Unknown",
+				"Water battlestaff": "Unknown",
+				"Magic potion (2)": "Unknown",
+				"Water talisman": "Unknown",
+				"Magic stock": "Unknown",
+				"Tiny spiky adamant salvage": "Uncommon",
+				"Small plated adamant salvage": "Uncommon",
+				"Unpowered orb": "Unknown",
+				"Weapon poison+ (2)": "Unknown",
+				"Water orb": "Unknown",
+				"Ring of recoil": "Unknown",
+				"Shinigami orokami mask": "1/60"
+			},
+			"FortunateOrokami": {
+				"Shark soup": "Common",
+				"Uncooked shark soup": "Common",
+				"Taijitu": "Unknown",
+				"Chimes": "Common",
+				"Oni orokami mask": "1/64"
+			},
+			"PavosaurusRex": {
+				"Raw pavosaurus rex meat": "Always",
+				"Dinosaur bones": "Always",
+				"Dinosaur scale": "Always",
+				"Damaged dinosaur hide": "1/2",
+				"Dinosaur hide": "1/2",
+				"Uncut dragonstone": "Common",
+				"Raw rocktail": "Common",
+				"Grenwall spikes": "Common",
+				"Palm tree seed": "Common",
+				"Magic seed": "Common",
+				"Arbuck seed": "Common",
+				"Grimy avantoe": "Common",
+				"Grimy dwarf weed": "Common",
+				"Grimy cadantine": "Common",
+				"Grimy lantadyme": "Common",
+				"Green dragonhide": "Common",
+				"Blue dragonhide": "Common",
+				"Red dragonhide": "Common",
+				"Black dragonhide": "Common",
+				"Larde bladed adamant salvage": "Uncommon",
+				"Lychee seed": "Uncommon",
+				"Compass arrow": "1/20",
+				"Totem of Summoning base": "1/50",
+				"Totem of the Abyss middle": "1/50",
+				"Totem of Treasure top": "1/50",
+				"Reinforced dinosaur pelt": "150",
+				"Dinosaur rib bone": "1/150",
+				"Crambola seed": "Rare",
+				"Dragon mattock": "1/101",
+				"Compacted hides": "7/100",
+				"Superior long bone": "1/1000",
+				"Golden dragonfruit seed": "Very rare",
+				"Pavosaurus rex (unchecked)": "1/65"
+			},
+			"OrnateTortle": {
+				"Shiny shell chippings": "Always",
+				"Chimes": "Uncommon",
+				"Taijitu": "Rare"
+			},
+			"CrystalSkillchompa": {
+				"Crystal skillchompa": "Always",
+				"Crystal chinchompa (unchecked)": "1/1500"
 			}
 		},
 		"Magic": {
@@ -103143,6 +107635,14 @@
 				"Sacred oil (2)": "Always",
 				"Sacred oil (3)": "Always",
 				"Sacred oil (4)": "Always"
+			},
+			"SinisterChest": {
+				"Grimy harralander": "Always",
+				"Grimy ranarr": "Always",
+				"Grimy irit": "Always",
+				"Grimy avantoe": "Always",
+				"Grimy kwuarm": "Always",
+				"Grimy torstol": "Always"
 			}
 		}
 	},
