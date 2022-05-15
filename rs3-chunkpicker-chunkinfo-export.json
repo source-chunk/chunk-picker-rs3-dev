@@ -33493,15 +33493,15 @@
 				"Output": "Spottier cape"
 			},
 			"Receive a ~|witchdoctor mask|~": {
-				"NPCs": "Papa Mambo",
+				"NPCs": ["Papa Mambo"],
 				"Output": "Witchdoctor mask"
 			},
 			"Receive ~|witchdoctor legs|~": {
-				"NPCs": "Papa Mambo",
+				"NPCs": ["Papa Mambo"],
 				"Output": "Witchdoctor legs"
 			},
 			"Receive ~|witchdoctor robes|~": {
-				"NPCs": "Papa Mambo",
+				"NPCs": ["Papa Mambo"],
 				"Output": "Witchdoctor robes"
 			},
 			"Create a gold charm": {
