@@ -653,7 +653,7 @@ let universalPrimary = {
     "Construction": ["Primary+"],
     "Combat": ["Combat+"],
     "Divination": ["Primary+"],
-    "Archeology": ["Primary+"],
+    "Archaeology": ["Primary+"],
     "Dungeoneering": ["Primary+"],
     "Summoning": ["Primary+"],
     "Invention": ["Primary+"]
@@ -685,7 +685,7 @@ let processingSkill = {
     "Construction": true,
     "Combat": true,
     "Divination": true,
-    "Archeology": true,
+    "Archaeology": true,
     "Dungeoneering": false,
     "Summoning": true,
     "Invention": true
