@@ -14213,25 +14213,25 @@
 					"Strength": 55
 				},
 				"Primary": false,
-				"Priority": 4
+				"Priority": 5
 			},
 			"Wear the ~|helm of neitiznot|~": {
 				"Items": ["Helm of neitiznot"],
 				"Level": 55,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 6
 			},
 			"Wear a piece of gud ~|raider equipment|~": {
 				"Items": ["GudRaider+"],
 				"Level": 55,
 				"Primary": false,
-				"Priority": 5
+				"Priority": 7
 			},
 			"Wield the ~|anti-dragon shield (mole)|~": {
 				"Items": ["Anti-dragon shield (mole)"],
 				"Level": 55,
 				"Primary": false,
-				"Priority": 6
+				"Priority": 8
 			},
 			"Wield a ~|magic shieldbow (sighted)|~": {
 				"Items": ["Magic shieldbow (sighted)"],
@@ -14241,7 +14241,7 @@
 					"Dungeoneering": 45
 				},
 				"Primary": false,
-				"Priority": 7
+				"Priority": 9
 			},
 			"Wield a ~|Guthix bow|~": {
 				"Items": ["Guthix bow"],
@@ -14250,7 +14250,7 @@
 					"Ranged": 55
 				},
 				"Primary": false,
-				"Priority": 8
+				"Priority": 10
 			},
 			"Wield a ~|Saradomin bow|~": {
 				"Items": ["Saradomin bow"],
@@ -14259,7 +14259,7 @@
 					"Ranged": 55
 				},
 				"Primary": false,
-				"Priority": 9
+				"Priority": 11
 			},
 			"Wield a ~|Zamorak bow|~": {
 				"Items": ["Zamorak bow"],
@@ -14268,7 +14268,7 @@
 					"Ranged": 55
 				},
 				"Primary": false,
-				"Priority": 10
+				"Priority": 12
 			},
 			"Wear a piece of ~|dragon armor|~": {
 				"Items": ["DragonArmor+"],
@@ -61469,7 +61469,6 @@
 				"Rabbit": 33
 			},
 			"Connect": {
-				"6483": true,
 				"8774": true,
 				"11418": true
 			},
@@ -63162,7 +63161,7 @@
 			"Shop": {
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Asgarnian Ice Dungeon"
 		},
 		"12082": {
 			"Object": {
@@ -65329,8 +65328,7 @@
 				"Mystic Marge": 1
 			},
 			"Connect": {
-				"4441": true,
-				"6483": true
+				"4441": true
 			},
 			"Shop": {
 				"Marvellous Mysticism": true,
@@ -66332,8 +66330,7 @@
 				"Man": 1
 			},
 			"Connect": {
-				"10307": true,
-				"12952": true
+				"10307": true
 			},
 			"Spawn": {
 				"Iron dagger": 1,
