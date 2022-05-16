@@ -148,7 +148,7 @@ const skillNames = [
     "Construction",
     "Combat",
     "Divination",
-    "Archeology",
+    "Archaeology",
     "Dungeoneering",
     "Summoning",
     "Invention"
