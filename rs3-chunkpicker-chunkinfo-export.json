@@ -7795,7 +7795,7 @@
 			"Build a ~|tool store 2|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
-				"Objects": "Tool stole 1",
+				"Objects": ["Tool stole 1"],
 				"Items": ["Oak plank"],
 				"Level": 25,
 				"Output": "ToolStore2",
@@ -8163,7 +8163,7 @@
 			"Build a ~|tool store 3|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
-				"Objects": "Tool stole 2",
+				"Objects": ["Tool stole 2"],
 				"Items": ["Oak plank"],
 				"Level": 35,
 				"Output": "ToolStore3",
@@ -8635,7 +8635,7 @@
 			"Build a ~|tool store 4|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
-				"Objects": "Tool stole 3",
+				"Objects": ["Tool stole 3"],
 				"Items": ["Oak plank"],
 				"Level": 44,
 				"Output": "ToolStore4",
@@ -9206,7 +9206,7 @@
 			"Build a ~|tool store 5|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
-				"Objects": "Tool stole 4",
+				"Objects": ["Tool stole 4"],
 				"Items": ["Oak plank"],
 				"Level": 55,
 				"Output": "ToolStore5",
