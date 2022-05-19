@@ -7244,7 +7244,7 @@
 			"Move your ~|player-owned house|~ to Rimmington": {
 				"Category": ["Construction Milestones"],
 				"NPCs": ["Estate agent"],
-				"Chunks": ["11573"],
+				"Chunks": ["11826"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 13
@@ -7252,7 +7252,7 @@
 			"Move your ~|player-owned house|~ to Taverley": {
 				"Category": ["Construction Milestones"],
 				"NPCs": ["Estate agent"],
-				"Chunks": ["11826"],
+				"Chunks": ["11573"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 14
@@ -53381,99 +53381,9 @@
 			"Name": "Swamp"
 		},
 		"7503": {
-			"Object": {
-				"Treasure space": 4,
-				"Monster space": 4,
-				"Decoration space": 88,
-				"Dresser space": 4,
-				"Rug space": 812,
-				"Fireplace space": 12,
-				"Clock space": 4,
-				"Icon space": 4,
-				"Altar space": 4,
-				"Lamp space": 8,
-				"Statue space": 12,
-				"Musical space": 4,
-				"Combat ring space": 172,
-				"Storage space": 4,
-				"Seating space": 80,
-				"Bell pull space": 4,
-				"Door hotspot": 616,
-				"Guard space": 20,
-				"Trap space": 32,
-				"Lighting space": 116,
-				"Game space": 4,
-				"Prize chest space": 4,
-				"Stone space": 4,
-				"Elemental balance space": 4,
-				"Ranging game space": 4,
-				"Floor space mid": 16,
-				"Floor space side": 32,
-				"Floor space corner": 16,
-				"Floor space": 80,
-				"Prison space": 48,
-				"Centrepiece space": 12,
-				"Big Tree space": 4,
-				"Tree space": 4,
-				"Big Plant space 1": 4,
-				"Big Plant space 2": 4,
-				"Small Plant space 1": 4,
-				"Small Plant space 2": 4,
-				"Fencing": 80,
-				"Hedging": 80,
-				"Big plant": 8,
-				"Big plant 2": 8,
-				"Small plant": 16,
-				"Small plant 2": 16,
-				"Stair Space": 20,
-				"Head trophy space": 8,
-				"Fishing trophy space": 8,
-				"Armour space": 16,
-				"Rune case space": 8,
-				"Portrait space": 8,
-				"Landscape space": 8,
-				"Guild trophy space": 8,
-				"Sword space": 8,
-				"Map space": 8,
-				"Bookcase space": 24,
-				"Stove space": 4,
-				"Shelf space": 12,
-				"Barrel space": 4,
-				"Larder space": 4,
-				"Sink space": 4,
-				"Portal space": 12,
-				"Lectern space": 4,
-				"Globe space": 4,
-				"Crystal ball space": 4,
-				"Telescope space": 4,
-				"Throne space": 8,
-				"Lever space": 4,
-				"Workbench space": 4,
-				"Nothing": 8,
-				"Clockmaking space": 4,
-				"Tool space": 20,
-				"Repair space": 4,
-				"Heraldry space": 4,
-				"Cape rack space": 4,
-				"Toy box space": 4,
-				"Treasure chest space": 4,
-				"Fancy dress box space": 4,
-				"Armour case space": 4,
-				"Pit guardian": 4,
-				"Pit trap": 16,
-				"Habitat space": 8,
-				"Pet house space": 4,
-				"Pet feeder space": 4,
-				"Obelisk space": 4,
-				"Bathysphere": 4,
-				"Diving suit hotspot": 4,
-				"Fish-head hotspot": 4,
-				"Centrepiece hotspot": 4,
-				"Supply hotspot": 4,
-				"Prawnbroker hotspot": 4,
-				"RuneFest case space": 8
+			"Connect": {	
 			},
-			"Name": "Swamp"
+			"Name": "Player-owned house"
 		},
 		"7504": {
 			"Object": {
@@ -53906,99 +53816,8 @@
 			"Name": "Swamp"
 		},
 		"7759": {
-			"Object": {
-				"Treasure space": 3,
-				"Monster space": 3,
-				"Decoration space": 66,
-				"Dresser space": 3,
-				"Rug space": 614,
-				"Fireplace space": 9,
-				"Clock space": 3,
-				"Icon space": 3,
-				"Altar space": 3,
-				"Lamp space": 6,
-				"Statue space": 9,
-				"Musical space": 3,
-				"Combat ring space": 129,
-				"Storage space": 3,
-				"Seating space": 60,
-				"Bell pull space": 3,
-				"Door hotspot": 486,
-				"Guard space": 15,
-				"Trap space": 24,
-				"Lighting space": 84,
-				"Game space": 3,
-				"Prize chest space": 3,
-				"Stone space": 3,
-				"Elemental balance space": 3,
-				"Ranging game space": 3,
-				"Floor space mid": 12,
-				"Floor space side": 24,
-				"Floor space corner": 12,
-				"Floor space": 60,
-				"Prison space": 36,
-				"Centrepiece space": 11,
-				"Big Tree space": 4,
-				"Tree space": 4,
-				"Big Plant space 1": 4,
-				"Big Plant space 2": 4,
-				"Small Plant space 1": 4,
-				"Small Plant space 2": 4,
-				"Fencing": 80,
-				"Hedging": 80,
-				"Big plant": 8,
-				"Big plant 2": 8,
-				"Small plant": 16,
-				"Small plant 2": 16,
-				"Stair Space": 15,
-				"Head trophy space": 6,
-				"Fishing trophy space": 6,
-				"Armour space": 12,
-				"Rune case space": 6,
-				"Portrait space": 6,
-				"Landscape space": 6,
-				"Guild trophy space": 6,
-				"Sword space": 6,
-				"Map space": 6,
-				"Bookcase space": 18,
-				"Stove space": 3,
-				"Shelf space": 9,
-				"Barrel space": 3,
-				"Larder space": 3,
-				"Sink space": 3,
-				"Portal space": 9,
-				"Lectern space": 3,
-				"Globe space": 3,
-				"Crystal ball space": 3,
-				"Telescope space": 3,
-				"Throne space": 6,
-				"Lever space": 3,
-				"Workbench space": 3,
-				"Nothing": 6,
-				"Clockmaking space": 3,
-				"Tool space": 15,
-				"Repair space": 3,
-				"Heraldry space": 3,
-				"Cape rack space": 3,
-				"Toy box space": 3,
-				"Treasure chest space": 3,
-				"Fancy dress box space": 3,
-				"Armour case space": 3,
-				"Pit guardian": 3,
-				"Pit trap": 12,
-				"Habitat space": 8,
-				"Pet house space": 4,
-				"Pet feeder space": 4,
-				"Obelisk space": 4,
-				"Bathysphere": 3,
-				"Diving suit hotspot": 3,
-				"Fish-head hotspot": 3,
-				"Centrepiece hotspot": 3,
-				"Supply hotspot": 3,
-				"Prawnbroker hotspot": 3,
-				"RuneFest case space": 6
-			},
-			"Name": "Swamp"
+			"Object": {},
+			"Name": "Player-owned house"
 		},
 		"7760": {
 			"Object": {
@@ -55187,6 +55006,7 @@
 				"Blissful shadow": 3
 			},
 			"Connect": {
+				"7503": true,
 				"9541": true
 			},
 			"Shop": {
@@ -59663,6 +59483,7 @@
 				"Herald": 1
 			},
 			"Connect": {
+				"7503": true,
 				"9541": true
 			},
 			"Spawn": {
@@ -63886,6 +63707,7 @@
 				"Herald": 1
 			},
 			"Connect": {
+				"7503": true,
 				"11157": true
 			},
 			"Spawn": {
@@ -66144,6 +65966,7 @@
 				"The Pick and Lute": true
 			},
 			"Connect": {
+				"7503": true,
 				"11417": true,
 				"12109": true
 			},
@@ -67160,6 +66983,7 @@
 			},
 			"Connect": {
 				"4707": true,
+				"7503": true,
 				"10307": true
 			},
 			"Spawn": {
@@ -68854,6 +68678,9 @@
 			"NPC": {
 				"Portmaster Kags": 1
 			},
+			"Connect": {
+				"7503": true
+			},
 			"Nickname": "Menaphos West Port District"
 		},
 		"12330": {
@@ -68890,6 +68717,15 @@
 			},
 			"Nickname": "RuneScape Surface"
 		},
+		"12334": {
+			"Object": {
+				"World window": 1
+			},
+			"Connect": {
+				"17164": true
+			},
+			"Nickname": "Tuska's Back North"
+		},
 		"12335": {
 			"Object": {
 				"Bank chest": 1,
@@ -68903,7 +68739,7 @@
 				"Kara-Meir": 1,
 				"Tunks": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Tuska's Back South"
 		},
 		"12337": {
 			"Object": {
@@ -72897,6 +72733,7 @@
 				"Menaphite Thug": 10
 			},
 			"Connect": {
+				"7503": true,
 				"13458": true
 			},
 			"Spawn": {
@@ -85913,6 +85750,19 @@
 		"Certers office": {},
 		"Sandwich shop": {},
 		"Party room": {},
+		"Player-owned house": {
+			"Connect": {
+				"8500": true,
+				"10032": true,
+				"10552": true,
+				"11057": true,
+				"11573": true,
+				"11826": true,
+				"12329": true,
+				"13358": true,
+				"17164": true
+			}
+		},
 		"Maze": {
 			"Object": {
 				"Strange shrine": 1,
@@ -91955,6 +91805,10 @@
 			},
 			"Monster": {
 				"Airut": 20
+			},
+			"Connect": {
+				"7503": true,
+				"12334": true
 			}
 		},
 		"Nemi forest clearing": {
