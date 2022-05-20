@@ -47909,6 +47909,528 @@
 			},
 			"Obtain a ~|strange egg|~": {
 				"Items": ["Strange egg"]
+			},
+			"~|Hide-hole|~: Lumbridge Swamp shed": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12849"],
+				"Items": ["Bronze dagger", "Iron full helm", "Gold ring"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Wizard tower bridge": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12337"],
+				"Items": ["Leather gloves", "Iron med helm", "Emerald ring"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Draynor Village market": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12338"],
+				"Items": ["Studded chaps", "Iron kiteshield", "Steel longsword"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Silvarea quarry": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13366"],
+				"Items": ["Steel pickaxe", "Bronze platelegs", "Steel med helm"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: outside the Legends' Guild gate": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10804"],
+				"Items": ["Oak shieldbow", "Iron platelegs", "Emerald amulet"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Mudskipper point": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11824"],
+				"Items": ["Gold ring", "Leather chaps", "Steel mace"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: near the Entrana ferry in Port Sarim": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12082"],
+				"Items": ["Studded leather coif", "Steel plateskirt", "Sapphire necklace"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: south of the Al Kharid mine": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13107"],
+				"Items": ["Leather gloves", "Leather boots", "Polar camo top"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Draynor manor fountain": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12340"],
+				"Items": ["Bronze full helm", "Studded chaps", "Iron platebody"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Lumbridge windmill": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12595"],
+				"Items": ["Sapphire necklace", "Polar camo legs", "Oak shortbow"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: crossroads north of Draynor village": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12339"],
+				"Items": ["Iron chainbody", "Sapphire ring", "Shieldbow"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Rimmington mine": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11826"],
+				"Items": ["Gold necklace", "Gold ring", "Bronze spear"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Varrack palace library": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12854"],
+				"Items": ["Holy symbol", "Leather vambraces", "Iron warhammer"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Windmill north-west of the Manor farm": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10548"],
+				"Items": ["Tiara", "Wood camo top", "Emerald ring"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Falador party room": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12084"],
+				"Items": ["Steel full helm", "Steel platebody", "Iron plateskirt"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Taverley stone circle": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11574"],
+				"Items": ["Air tiara", "Bronze 2h sword", "Gold amulet"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Catherby beehives": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11061"],
+				"Items": ["Iron armoured boots", "Unholy symbol", "Steel hatchet"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: monkey cage in Ardougne zoo": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10291"],
+				"Items": ["Studded body", "Bronze platelegs", "Mud pie"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: crossroads north of Rimmington": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11826"],
+				"Items": ["Sapphire ring", "Leather chaps", "Yellow flowers"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Fishing guild entrance": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10292"],
+				"Items": ["Bronze chainbody", "Sapphire amulet", "Emerald ring"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: entrance to Keep Le Faye": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11061"],
+				"Items": ["Iron platebody", "Studded leather coif", "Leather gloves"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: junction south of Sinclair mansion": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10807"],
+				"Items": ["Leather cowl", "Amulet of strength", "Iron scimitar"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Varrock digsite exam centre": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13364"],
+				"Items": ["Ruby amulet", "Blue flowers", "Leather gloves"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: near the lumberyard sawmill operator": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13110"],
+				"Items": ["Bronze hatchet", "Leather chaps", "Hard leather body"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: entrance to Het's oasis": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13106"],
+				"Items": ["Studded leather coif", "Leather chaps", "Iron chainbody"],
+				"Tasks": {
+					"Build an easy ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: outside the Hair of the Dog tavern in Canifis": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13878"],
+				"Items": ["Mithril platelegs", "Spiny helmet", "Iron 2h sword"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: mausoleum off the northern Morytania coast": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13879"],
+				"Items": ["Maple shieldbow", "Mithril plateskirt"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: east of the barbarian village bridge": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12341"],
+				"Items": ["Mithril full helm", "Steel kiteshield", "Iron hatchet"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Tai Bwo Wannai village": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11056"],
+				"Items": ["Mithril med helm", "Green dragonhide chaps", "Ring of dueling"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Castle Wars lobby": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["9776"],
+				"Items": ["Ruby amulet", "Mithril scimitar", "Iron square shield"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: barbarian outpost agility course": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10039"],
+				"Items": ["Steel platebody", "Maple shortbow", "Bronze armoured boots"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Gnome stronghold agility course": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["9781"],
+				"Items": ["Green dragonhide chaps", "Steel kiteshield", "Ring of forging"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Yanille bank": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10288"],
+				"Items": ["Snakeskin chaps", "Iron crossbow", "Adamant med helm"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: top floor of the Kandarin observatory": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["9777"],
+				"Items": ["Green dragonhide chaps", "Mithril chainbody", "Ruby amulet"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: combat training camp north of West Ardougne": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10036"],
+				"Items": ["Green dragonhide chaps", "Green dragonhide body", "Steel sq shield"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Varrock digstie north-eastern winch": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13365"],
+				"Items": ["Snakeskin boots", "Blood'n'tar snelm", "Iron pickaxe"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Hickton's Archery emporium in Catherby": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11317", "11318"],
+				"Items": ["blood'n'tar snelm", "Hard leather body", "Silver sickle"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Shantay pass": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13104"],
+				"Items": ["Bruise blue snelm (pointed)", "Staff of air"],
+				"Tasks": {
+					"Build a medium ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Chaos temple in level 12 wilderness": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12856"],
+				"Items": ["Bronze platelegs", "Iron platebody", "Blue dragonhide vambraces"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Fishing guild bank": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10293"],
+				"Items": ["Blue dragonhide chaps", "Rune warhammer", "Elemental shield"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: top of the Kandarin lighthouse": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["10040"],
+				"Items": ["Blue dragonhide body", "Blue dragonhide vambraces"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Jamila's craft stall in Sophanem": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13099"],
+				"Items": ["Adamant 2h sword", "Ring of life", "Amulet of glory"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: obelisk north of the wilderness bandit camp": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12090"],
+				"Items": ["Iron squire shield", "Iron pickaxe", "Blue dragonhide vambraces"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Musa Point banana plantation": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11569"],
+				"Items": ["Diamond ring", "Amulet of power"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: mountain camp goat enclosure": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11065"],
+				"Items": ["Rune full helm", "Fire battlestaff", "Blue dragonhide chaps"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: gnome glider on White Wolf Mountain": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11318"],
+				"Items": ["Ring of life", "Rune hatchet", "Mithril platelegs"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Shilo village bank": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11310"],
+				"Items": ["Splitbark helm", "Mud pie", "Rune platebody"],
+				"Tasks": {
+					"Build a hard ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: sulphur pit south-east of the Fight cave in Mor Ul Rek": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["TzHaar City"],
+				"Items": ["Fire cape", "Toktz-ket-xil", "Spork"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: south-west of the charm sprite dolmen": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["9524"],
+				"Items": ["Enhanced yaktwee stick", "Dagon'hai hat", "Amulet of ranging"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: northern Waiko docks": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["The Arc"],
+				"Items": ["Culinaromancer's gloves 10", "Infinity boots", "Dark bow"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Morytania slayer tower": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["13623"],
+				"Items": ["Imphide hood", "Priffdinian musician's robe top", "Amulet of magic"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Green Ghost Inn in Port Phasmatys": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["14646"],
+				"Items": ["Iban's staff", "Ghostly cloak", "Cavalier+"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: grand library of Menaphos": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12586"],
+				"Items": ["Asylum surgeon's ring", "Scabaras mask"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: inside the invention guild": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["11829"],
+				"Items": ["Lab coat top", "Lab coat legs", "Staff of light"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: celestial dragon dungeon on Dragontooth Island": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["Celestial Dragon Dungeon"],
+				"Items": ["Dragon Rider amulet", "Dragon defender", "DragonMask+"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Lumbridge fishing supplies shop": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12594"],
+				"Items": ["Demon slayer gloves", "Cape of legends", "Boater+"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Hefin district agility course": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["8757"],
+				"Items": ["Prifddinian worker's trousers", "Berserker ring", "Ancient staff"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
+			},
+			"~|Hide-hole|~: Edgeville monastery": {
+				"Category": ["Fill Stash"],
+				"Label": "Fill hidey-holes",
+				"Chunks": ["12086"],
+				"Items": ["Holy Cithara", "Saradomin's murmur", "Ring of devotion"],
+				"Tasks": {
+					"Build a master ~|hidey-hole|~": "Construction"
+				}
 			}
 		},
 		"Nonskill": {
@@ -57351,7 +57873,8 @@
 			},
 			"Connect": {
 				"15159": true
-			}
+			},
+			"Name": "Celestial Dragon Dungeon"
 		},
 		"9056": {
 			"Object": {
@@ -88000,6 +88523,14 @@
 			}
 		},
 		"TzHaar Theatre": {},
+		"Celestial Dragon Dungeon": {
+			"Monster": {
+				"Celestial dragon": 12
+			},
+			"Connect": {
+				"15159": true
+			}
+		},
 		"TokTz-Ket-Dill's Lair": {},
 		"Armadillo nest": {},
 		"TzHaar tunnels": {
@@ -94032,6 +94563,14 @@
 				"Blurite sword",
 				"Off-hand blurite sword"
 			],
+			"Boater+": [
+				"Red boater",
+				"Orange boater",
+				"Green boater",
+				"Blue boater",
+				"Black boater",
+				"Gilded boater"
+			],
 			"BodyArmour+": [
 				"Body body",
 				"Body boots",
@@ -94124,6 +94663,14 @@
 				"Catspeak amulet (e)",
 				"Catspeak amulet",
 				"Cramulet"
+			],
+			"Cavalier+": [
+				"Tan cavalier",
+				"Dark cavalier",
+				"Black cavalier",
+				"Gilded cavalier",
+				"Cavalier and mask",
+				"Gilded cavalier and mask"
 			],
 			"ChaosArmour+": [
 				"Chaos body",
@@ -94392,6 +94939,22 @@
 				"King black dragon head",
 				"Red dragonhide",
 				"Royal dragonhide"
+			],
+			"DragonMask+": [
+				"Green dragon mask",
+				"Blue dragon mask",
+				"Red dragon mask",
+				"Black dragon mask",
+				"Bronze dragon mask",
+				"Iron dragon mask",
+				"Steel dragon mask",
+				"Mithril dragon mask",
+				"Frost dragon mask",
+				"Adamant dragon mask",
+				"Rune dragon mask",
+				"Dragonstone dragon mask",
+				"Onyx dragon mask",
+				"Hydrix dragon mask"
 			],
 			"DragonRiderArmour+": [
 				"Dragon Rider body",
@@ -97057,6 +97620,7 @@
 			"BlueDragonEgg+": "Any breedable blue dragon",
 			"BlueDragonhideArmour+": "Any piece of blue dragonhide armour",
 			"BluriteWeapon+": "Any blurite melee weapon",
+			"Boater+": "Any boater for the master emote clue",
 			"BodyArmour+": "Any piece of elemental workshop body armour",
 			"BoneWeapon+": "Any bone melee weapon",
 			"Brightboon+": "Any energy that can be used to make a bright boon",
@@ -97068,6 +97632,7 @@
 			"ButterflyNet+": "Any butterfly net",
 			"CarapaceArmour+": "Any piece of carapace armour",
 			"CatspeakAmulet+": "Any amulet that allows you to speak with cats",
+			"Cavalier+": "Any cavalier for the master emote clue",
 			"ChaosArmour+": "Any piece of elemental workshop chaos armour",
 			"ChaoticArmour+": "Any chaotic shield variant",
 			"ChaoticMageWeapon+": "Any chaotic mage weapon",
@@ -97110,6 +97675,7 @@
 			"DragonArmour+": "Any piece of dragon armour",
 			"DragonfireShield+": "Any dragonfire shield variant",
 			"DragonFocus+": "Any item to tune banite ore to dragons",
+			"DragonMask+": "Any dragon mask for the master emote clue",
 			"DragonRiderArmour+": "Any piece of dragonrider armour",
 			"DragonstoneArmour+": "Any piece of dragonstone armour",
 			"DragonWeapon+": "Any dragon melee weapon",
