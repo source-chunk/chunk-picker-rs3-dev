@@ -5888,6 +5888,12 @@
 				"Skills": {
 					"Slayer": 90
 				}
+			},
+			"Get access to ~|War's retreat|~": {
+				"Chunks": ["12339"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Constitution": {
@@ -8047,6 +8053,13 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Build a ~|hidey-hole (grapple)|~ at the Falador north wall": {
+				"Chunks": ["11829"],
+				"Items": ["Plank", "Bronze crossbow", "Mithril grapple", "Nails+"],
+				"Level": 29,
+				"Primary": true,
+				"Priority": 5
+			},
 			"Build a ~|hoop and stick|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -8117,6 +8130,13 @@
 				"Level": 31,
 				"Primary": true,
 				"Priority": 2
+			},
+			"Build a ~|hidey-hole (grapple)|~ at the Yanille south wall": {
+				"Chunks": ["10032"],
+				"Items": ["Plank", "Bronze crossbow", "Mithril grapple", "Nails+"],
+				"Level": 31,
+				"Primary": true,
+				"Priority": 3
 			},
 			"Build a ~|boxing ring|~": {
 				"Category": ["InsidePOH Primary"],
@@ -8880,6 +8900,13 @@
 				"Primary": false,
 				"Priority": 7
 			},
+			"Build a ~|hidey-hole (grapple)|~ at the Catherby cliff": {
+				"Chunks": ["11317"],
+				"Items": ["Oak plank", "Iron crossbow", "Mithril grapple"],
+				"Level": 45,
+				"Primary": true,
+				"Priority": 8
+			},
 			"Build a ~|steel framed bench|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -8960,6 +8987,13 @@
 				"Level": 47,
 				"Primary": true,
 				"Priority": 7
+			},
+			"Build a ~|hidey-hole (grapple)|~ at the River Lum": {
+				"Chunks": ["12849"],
+				"Items": ["Oak plank", "Steel crossbow", "Mithril grapple"],
+				"Level": 47,
+				"Primary": true,
+				"Priority": 8
 			},
 			"Build a ~|Chef's delight (barrel)|~": {
 				"Category": ["InsidePOH Primary"],
@@ -9051,6 +9085,13 @@
 				"Level": 49,
 				"Primary": true,
 				"Priority": 5
+			},
+			"Build a ~|hidey-hole (grapple)|~ at the water obelisk island near catherby": {
+				"Chunks": ["11317", "11573"],
+				"Items": ["Teak plank", "Mithril crossbow", "Mithril grapple"],
+				"Level": 49,
+				"Primary": true,
+				"Priority": 6
 			},
 			"Build a ~|mahogany armchair|~": {
 				"Category": ["InsidePOH Primary"],
@@ -9220,6 +9261,13 @@
 				"Output Object": "Teak pet house",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Build a ~|hidey-hole (grapple)|~ at Musa Point": {
+				"Chunks": ["11312", "11313"],
+				"Items": ["Mahogany plank", "Mithril crossbow", "Mithril grapple"],
+				"Level": 52,
+				"Primary": true,
+				"Priority": 6
 			},
 			"Build a ~|4-poster|~": {
 				"Category": ["InsidePOH Primary"],
@@ -10454,6 +10502,13 @@
 				"Output": "Stonemason",
 				"Primary": true,
 				"Priority": 11
+			},
+			"Build a ~|hidey-hole (grapple)|~ at Prifddinas waterfall": {
+				"Chunks": ["9012"],
+				"Items": ["Mahogany plank", "Rune crossbow", "Mithril grapple"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 12
 			},
 			"Build a ~|mounted shark|~": {
 				"Category": ["InsidePOH Primary"],
@@ -16733,7 +16788,7 @@
 				"Outputs": "Jade ring",
 				"Objects": ["Furnace"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Craft a ~|jade necklace|~":{
 				"Items": ["Jade", "Silver bar"],
@@ -17677,6 +17732,107 @@
 				},
 				"Primary": false,
 				"Priority": 9
+			},
+			"Craft a ~|toy horsey|~": {
+				"Objects": ["Crafting table 1"],
+				"Items": ["Plank"],
+				"Level": 10,
+				"Output": "Toy horsey",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|wooden cat|~": {
+				"Objects": ["Crafting table 1"],
+				"Items": ["Plank", "CatFur+"],
+				"Level": 10,
+				"Output": "Wooden cat",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|clockwork|~": {
+				"Objects": ["Crafting table 2"],
+				"Items": ["Steel bar"],
+				"Level": 8,
+				"Output": "Clockwork",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|toy soldier|~": {
+				"Objects": ["Crafting table 3"],
+				"Items": ["Clockwork", "Plank"],
+				"Level": 13,
+				"Output": "Toy soldier",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|toy doll|~": {
+				"Objects": ["Crafting table 3"],
+				"Items": ["Clockwork", "Plank"],
+				"Level": 18,
+				"Output": "Toy doll",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|clockwork suit|~": {
+				"Objects": ["Crafting table 3"],
+				"Items": ["Clockwork", "Plank", "Silk"],
+				"Level": 30,
+				"Output": "Clockwork suit",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft a ~|sextant|~": {
+				"Objects": ["Crafting table 4"],
+				"Items": ["Steel bar"],
+				"Level": 23,
+				"Output": "Sextant",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft a ~|watch|~": {
+				"Objects": ["Crafting table 4"],
+				"Items": ["Clockwork", "Steel bar"],
+				"Level": 28,
+				"Output": "Watch",
+				"Primary": true,
+				"Priority": 3 
+			},
+			"Craft a ~|toy mouse|~": {
+				"Objects": ["Crafting table 4"],
+				"Items": ["Clockwork", "Plank"],
+				"Level": 33,
+				"Output": "Toy mouse",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft a ~|clockwork cat|~": {
+				"Objects": ["Crafting table 4"],
+				"Items": ["Clockwork", "Steel bar"],
+				"Level": 85,
+				"Output": "Clockwork cat",
+				"Primary": true,
+				"Priority": 24
+			},
+			"Decorate a ~|heraldic helm|~": {
+				"Objects": ["Pluming stand"],
+				"Items": ["HeraldicHelm+"],
+				"Level": 38,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Decorate a ~|heraldic shield|~": {
+				"Objects": ["Shield easel"],
+				"Items": ["HeraldicShield+"],
+				"Level": 43,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Decorate a ~|heraldic banner|~": {
+				"Objects": ["Banner easel"],
+				"Items": ["Plank", "Bolts of cloth"],
+				"Level": 48,
+				"Primary": false,
+				"Priority": 4
 			}
 		},
 		"Defence": {
@@ -94659,6 +94815,11 @@
 				"Carapace shield",
 				"Carapace torso"
 			],
+			"CatFur+": [
+				"Bear fur",
+				"Fur",
+				"Grey wolf fur"
+			],
 			"CatspeakAmulet+": [
 				"Catspeak amulet (e)",
 				"Catspeak amulet",
@@ -95491,6 +95652,14 @@
 			"HealerHat+": [
 				"Hardened healer hat",
 				"Healer hat"
+			],
+			"HeraldicHelm+": [
+				"Steel full helm",
+				"Rune full helm"
+			],
+			"HeraldicShield+": [
+				"Steel kiteshield",
+				"Rune kiteshield"
 			],
 			"HighArmourOfHanto+": [
 				"High Armour of Hanto cuirass",
@@ -97631,6 +97800,7 @@
 			"BugLantern+": "Any slayer bug lantern",
 			"ButterflyNet+": "Any butterfly net",
 			"CarapaceArmour+": "Any piece of carapace armour",
+			"CatFur+": "Any fur that can be used to make a wooden cat",
 			"CatspeakAmulet+": "Any amulet that allows you to speak with cats",
 			"Cavalier+": "Any cavalier for the master emote clue",
 			"ChaosArmour+": "Any piece of elemental workshop chaos armour",
@@ -97744,6 +97914,8 @@
 			"GuthixPotion+": "Any Guthix potion",
 			"HardLeatherArmour+": "Any piece of hard-leather armour",
 			"HealerHat+": "Any healer hat variant",
+			"HeraldicHelm+": "Any full helm that can be decorated at a poh",
+			"HeraldicShield+": "Any kiteshield that can be decorated at a poh",
 			"HighArmourOfHanto+": "Any piece of the high armour of Hanto",
 			"HolyOverloadPotion+": "Any holy overload potion",
 			"HunterPotion+": "Any hunter potion",
