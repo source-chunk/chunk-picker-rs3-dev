@@ -7701,7 +7701,15 @@
 				"Items": ["Oak plank", "Bolt of cloth"],
 				"Level": 18,
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
+			},
+			"Build a ~|rope rack|~ in the Eagles' Peak eyrie": {
+				"Chunks": ["9270"],
+				"Items": ["Plank", "Rope", "Nails+"],
+				"Level": 18,
+				"Output": "Rope",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Build an ~|oak chair|~": {
 				"Category": ["InsidePOH Primary"],
@@ -7831,6 +7839,14 @@
 				"Level": 24,
 				"Primary": true,
 				"Priority": 1
+			},
+			"Build a ~|rope rack|~ in the Baxtorian Falls house": {
+				"Chunks": ["10038"],
+				"Items": ["Oak plank", "Rope"],
+				"Level": 24,
+				"Output": "Rope",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Build a ~|crafting table 2|~": {
 				"Category": ["InsidePOH Primary"],
@@ -7990,6 +8006,14 @@
 				"Level": 28,
 				"Primary": true,
 				"Priority": 7
+			},
+			"Build a ~|rope rack|~ in the Karamja eyrie": {
+				"Chunks": ["11566"],
+				"Items": ["Oak plank", "Rope"],
+				"Level": 28,
+				"Output": "Rope",
+				"Primary": true,
+				"Priority": 8
 			},
 			"Build a ~|large oven|~": {
 				"Category": ["InsidePOH Primary"],
@@ -8380,6 +8404,14 @@
 				"Level": 38,
 				"Primary": true,
 				"Priority": 6
+			},
+			"Build a ~|rope rack|~ in the Feldip eyrie": {
+				"Chunks": ["9270"],
+				"Items": ["Teak plank", "Rope"],
+				"Level": 38,
+				"Output": "Rope",
+				"Primary": true,
+				"Priority": 7
 			},
 			"Build an ~|oak wardrobe|~": {
 				"Category": ["InsidePOH Primary"],
@@ -21062,7 +21094,6 @@
 		},
 		"Dungeoneering": {
 			"Unlock ~|frozen floors|~": {
-				"Category": ["Dungeoneering Floor Types"],
 				"Chunks": ["13626"],
 				"Level": 1,
 				"Primary": true,
@@ -21665,6 +21696,7 @@
 				"Priority": 5
 			},
 			"Obtain a ~|sneakerpeeper spawn|~": {
+				"Category": ["Pet"],
 				"Level": 80,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -21686,6 +21718,7 @@
 				"Priority": 1
 			},
 			"Obtain a ~|Forsty|~ pet": {
+				"Category": ["Pet"],
 				"Level": 85,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -21735,6 +21768,7 @@
 				"Priority": 1
 			},
 			"Obtain a ~|Mini-Blink|~ pet": {
+				"Category": ["Pet"],
 				"Level": 95,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -21760,6 +21794,7 @@
 				"Priority": 1
 			},
 			"Obtain a ~|Hope Nibbler|~ pet": {
+				"Category": ["Pet"],
 				"Level": 101,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -46269,6 +46304,7 @@
 				"Priority": 3
 			},
 			"Obtain a ~|sneakerpeeper spawn|~": {
+				"Category": ["Pet"],
 				"Level": 80,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -46408,6 +46444,7 @@
 				"Priority": 9
 			},
 			"Obtain a ~|forsty pet|~": {
+				"Category": ["Pet"],
 				"Level": 99,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
