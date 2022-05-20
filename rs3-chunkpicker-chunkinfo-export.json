@@ -8406,7 +8406,7 @@
 				"Priority": 6
 			},
 			"Build a ~|rope rack|~ in the Feldip eyrie": {
-				"Chunks": ["9270"],
+				"Chunks": ["10029"],
 				"Items": ["Teak plank", "Rope"],
 				"Level": 38,
 				"Output": "Rope",
@@ -48614,6 +48614,26 @@
 			"Create a Chaotic spear": {
 				"Items": ["Zamorakian spear", "Chaotic spike"],
 				"Output": "Chaotic Spear"
+			},
+			"Make ~|planks|~": {
+				"NPCs": ["SawmillOperator+"],
+				"Items": ["Logs"],
+				"Output": "Plank"
+			},
+			"Make ~|oak planks|~": {
+				"NPCs": ["SawmillOperator+"],
+				"Items": ["Oak logs"],
+				"Output": "Oak plank"
+			},
+			"Make ~|teak planks|~": {
+				"NPCs": ["SawmillOperator+"],
+				"Items": ["Teak logs"],
+				"Output": "Teak plank"
+			},
+			"Make ~|mahogany planks|~": {
+				"NPCs": ["SawmillOperator+"],
+				"Items": ["Mahogany logs"],
+				"Output": "Mahogany plank"
 			}
 		}
 	},
@@ -97530,6 +97550,7 @@
 			"Gecko+": ["Gecko", "Baby gecko"],
 			"HetCrocodile+": ["Chito", "Frito"],
 			"Master Farmers+": ["Master Farmer", "Martin the Master Gardener"],
+			"SawmillOperator+": ["Sawmill operator", "Sawmill operator (Prifddinas)", "Plank maker"],
 			"Tanner+": ["Tanner", "Ellis", "Sbott", "Tanya Hyde"],
 			"Wisp+": ["Pale wisp", "Cursed wisp"]
 		},
@@ -97537,6 +97558,7 @@
 			"Gecko+": "Any catchable gecko pet",
 			"HetCrocodile+": "Either crocodile at Het's oasis",
 			"Master Farmers+": "Any master farmer",
+			"SawmillOperator+": "Any plank makers",
 			"Tanner+": "Any hide tanner",
 			"Wisp+": "Any level 1 wisp"
 		},
