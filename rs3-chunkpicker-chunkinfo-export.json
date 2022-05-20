@@ -1086,6 +1086,47 @@
 				"Output": "Dinosaur 'propellant'",
 				"Primary": true,
 				"priority": 8
+			},
+			"Enter a tier one ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 50,
+				"Skills": {
+					"Dungeoneering": 50,
+					"Thieving": 50,
+					"Construction": 50
+				},
+				"Primary": false,
+				"Priority": 20
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 70,
+				"Skills": {
+					"Dungeoneering": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Runecrafting": 70,
+					"Prayer": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 90,
+				"Skills": {
+					"Dungeoneering": 90,
+					"Thieving": 90,
+					"Construction": 90,
+					"Crafting": 90,
+					"Runecrafting": 90,
+					"Prayer": 90,
+					"Divination": 90
+				},
+				"Primary": false,
+				"Priority": 7
 			}
 		},
 		"Archaeology": {
@@ -5529,6 +5570,15 @@
 				"Level": 80,
 				"Primary": false,
 				"Priority": 9
+			},
+			"Buy a ~|chaotic spike|~": {
+				"Level": 80,
+				"Skills": {
+					"Dungeoneering": 80
+				},
+				"Output": "Chaotic spike",
+				"Primary": false,
+				"Priority": 10
 			},
 			"Wield ~|Matusa's warspear|~": {
 				"Items": ["Matusa's warspear"],
@@ -11239,6 +11289,56 @@
 				"Level": 120,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Read the ~|scroll of proficiency|~": {
+				"Items": ["Scroll of proficiency"],
+				"Level": 60,
+				"Skills": {
+					"Dungeoneering": 60
+				},
+				"Primary": false,
+				"Priority": 12
+			},
+			"Enter a tier one ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 50,
+				"Skills": {
+					"Agility": 50,
+					"Thieving": 50,
+					"Dungeoneering": 50
+				},
+				"Primary": false,
+				"Priority": 12
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Thieving": 70,
+					"Dungeoneering": 70,
+					"Crafting": 70,
+					"Runecrafting": 70,
+					"Prayer": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 9
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Thieving": 90,
+					"Dungeoneering": 90,
+					"Crafting": 90,
+					"Runecrafting": 90,
+					"Prayer": 90,
+					"Divination": 90
+				},
+				"Primary": false,
+				"Priority": 9
 			}
 		},
 		"Cooking": {
@@ -14779,7 +14879,7 @@
 				"Priority": 2
 			},
 			"Craft an ~|elite sirenic hauberk|~": {
-				"Items": ["Ancient scale", "Algarum Thread", "Praesulic essence (ranged)"],
+				"Items": ["Ancient scale", "Algarum Thread", "Praesulic essence (ranged)", "Chaotic spike"],
 				"Level": 93,
 				"Outputs": "Elite sirenic hauberk",
 				"Primary": true,
@@ -15195,6 +15295,7 @@
 				"Priority": 23
 			},
 			"Create ~|soft clay|~ with a container":{
+				"Category": ["Token"],
 				"Items": ["Clay", "WaterItem+"],
 				"Level": 1,
 				"Outputs": "Soft clay",
@@ -15202,6 +15303,7 @@
 				"Priority": 24
 			},
 			"Create ~|soft clay|~ with a watersource":{
+				"Category": ["Token"],
 				"Items": ["clay"],
 				"Level": 1,
 				"Outputs": "Soft clay",
@@ -17495,6 +17597,54 @@
 				"Output": "Tannery",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Equip a ~|gem bag|~": {
+				"Items": ["Gem bag"],
+				"Level": 25,
+				"Skills": {
+					"Dungeoneering": 25
+				},
+				"Primary": false,
+				"Priority": 9
+			},
+			"Read the ~|scroll of dexterity|~": {
+				"Items": ["Scroll of dexterity"],
+				"Level": 60,
+				"Skills": {
+					"Dungeoneering": 60
+				},
+				"Primary": false,
+				"Priority": 12
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Dungeoneering": 70,
+					"Runecrafting": 70,
+					"Prayer": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Thieving": 90,
+					"Construction": 90,
+					"Dungeoneering": 90,
+					"Runecrafting": 90,
+					"Prayer": 90,
+					"Divination": 90
+				},
+				"Primary": false,
+				"Priority": 9
 			}
 		},
 		"Defence": {
@@ -20878,35 +21028,141 @@
 				"Output": "Golem framework",
 				"Primary": false,
 				"Priority": 5
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Runecrafting": 70,
+					"Prayer": 70,
+					"Dungeoneering": 70
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Thieving": 90,
+					"Construction": 90,
+					"Crafting": 90,
+					"Runecrafting": 90,
+					"Prayer": 90,
+					"Dungeoneering": 90
+				},
+				"Primary": false,
+				"Priority": 11
 			}
 		},
 		"Dungeoneering": {
-			"Obtain a ~|sneakerpeeper spawn|~": {
-				"Level": 80,
-				"NPCs": ["Rewards trader"],
+			"Unlock ~|frozen floors|~": {
+				"Category": ["Dungeoneering Floor Types"],
+				"Chunks": ["13626"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Participate in ~|Elite Dungeons|~": {
+				"Chunks": ["EliteDungeons+"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Enter the ~|Edgeville Dungeon chaos druids dungeon|~": {
+				"Chunks": ["Edgeville Dungeon"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Enter the ~|Dwarven Mine resource dungeon|~": {
+				"Chunks": ["Dwarven Mine"],
+				"Level": 15,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Enter the ~|Edgeville Dungeon hill giants dungeon|~": {
+				"Chunks": ["Edgeville Dungeon"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|bonecrusher|~": {
+				"Items": ["Bonecrusher"],
+				"Level": 21,
 				"Primary": false,
 				"Skills": {
-					"Summoning": 80
+					"Prayer": 21
 				},
 				"Priority": 1
 			},
-			"wield a ~|magical blastbox|~": {
-				"Items": ["Magical blastbox"],
+			"Equip the ~|herbicide|~": {
+				"Items": ["Herbicide"],
+				"Level": 21,
+				"Skills": {
+					"Herblore": 21
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Equip the ~|charming imp|~": {
+				"Items": ["Charming imp"],
+				"Level": 21,
+				"Skills": {
+					"Summoning": 21
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Unlock ~|abandoned floors|~": {
+				"Category": ["Dungeoneering Floor Types"],
+				"Chunks": ["13626"],
+				"Level": 23,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Read the ~|scroll of life|~": {
+				"Items": ["Scroll of life"],
+				"Level": 25,
+				"Skills": {
+					"Farming": 25
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip a ~|gem bag|~": {
+				"Items": ["Gem bag"],
+				"Level": 25,
+				"Skills": {
+					"Crafting": 25
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Enter the ~|Karamja Volcano resource dungeon|~": {
+				"Chunks": ["Karamja Volcano Dungeon"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Unlock ~|furnished floors|~": {
+				"Category": ["Dungeoneering Floor Types"],
+				"Chunks": ["13626"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear an ~|arcane pulse necklace|~": {
+				"Items": ["Arcane pulse necklace"],
 				"Level": 30,
 				"Primary": false,
 				"Skills": {
-					"Runecrafting": 30,
 					"Magic": 30
-				},
-				"Priority": 1
-			},
-			"wield a ~|celestial surgebox|~": {
-				"Items": ["Celestial surgebox"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Runecrafting": 70,
-					"Magic": 70
 				},
 				"Priority": 1
 			},
@@ -20919,6 +21175,66 @@
 				},
 				"Priority": 2
 			},
+			"Wear the ~|brawler's jab necklace|~": {
+				"Items": ["Brawler's jab necklace"],
+				"Level": 30,
+				"Skills": {
+					"Attack": 30
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear a ~|twisted bird skull necklace|~": {
+				"Items": ["Twisted bird skull necklace"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 30
+				},
+				"Priority": 4
+			},
+			"Wield a ~|magical blastbox|~": {
+				"Items": ["Magical blastbox"],
+				"Level": 30,
+				"Primary": false,
+				"Skills": {
+					"Runecrafting": 30,
+					"Magic": 30
+				},
+				"Priority": 5
+			},
+			"Enter the ~|Daemonheim Peninsula resource dungeon|~": {
+				"Chunks": ["13881"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Equip a ~|smithing autoheater|~": {
+				"Items": ["Smithing autoheater"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Smithing": 35
+				},
+				"Priority": 1
+			},
+			"Enter the ~|Baxtorian Falls resource dungeon|~": {
+				"Chunks": ["Baxtorian Falls"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Craft ~|gem bag (upgraded)|~": {
+				"Items": ["Gem bag"],
+				"NPCs": ["Rewards trader"],
+				"Level": 40,
+				"Outputs": "Gem bag (upgraded)",
+				"Skills": {
+					"Crafting": 45
+				},
+				"Primary": false,
+				"Priority": 1
+			},
 			"Wield a ~|maple shieldbow (sighted)|~": {
 				"Items": ["Maple shieldbow (sighted)"],
 				"Level": 45,
@@ -20929,15 +21245,6 @@
 				},
 				"Priority": 1
 			},
-			"Wield a ~|gravite chargebow|~": {
-				"Items": ["Gravite chargebow"],
-				"Level": 45,
-				"Primary": false,
-				"Skills": {
-					"Defence": 55
-				},
-				"Priority": 2
-			},
 			"Wield a ~|magic shieldbow (sighted)|~": {
 				"Items": ["Magic shieldbow (sighted)"],
 				"Level": 45,
@@ -20946,7 +21253,7 @@
 					"Defence": 55,
 					"Ranged": 55
 				},
-				"Priority": 3
+				"Priority": 2
 			},
 			"Wield an ~|elder shieldbow (sighted)|~": {
 				"Items": ["Elder shieldbow (sighted)"],
@@ -20956,77 +21263,7 @@
 					"Defence": 65,
 					"Ranged": 65
 				},
-				"Priority": 4
-			},
-			"Equip ~|mercenary's gloves|~": {
-				"Items": ["Mercenary's gloves"],
-				"Level": 73,
-				"Primary": false,
-				"Skills": {
-					"Defence": 73,
-					"Ranged": 73
-				},
-				"Priority": 1
-			},
-			"Wield a ~|farsight sniper necklace|~": {
-				"Items": ["Farsight sniper necklace"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 80
-				},
-				"Priority": 2
-			},
-			"Use the ~|bonecrusher|~": {
-				"Items": ["Bonecrusher"],
-				"Level": 21,
-				"Primary": true,
-				"Skills": {
-					"Prayer": 21
-				},
-				"Priority": 1
-			},
-			"Wear a ~|twisted bird skull necklace|~": {
-				"Items": ["Twisted bird skull necklace"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 30
-				},
 				"Priority": 3
-			},
-			"Wear an ~|amulet of zealots|~": {
-				"Items": ["Amulet of zealots"],
-				"Level": 48,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 48
-				},
-				"Priority": 1
-			},
-			"Wear a ~|split dragontooth necklace|~": {
-				"Items": ["Split dragontooth necklace"],
-				"Level": 60,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 60
-				},
-				"Priority": 1
-			},
-			"Use the ~|rapid renewal|~": {
-				"Chunks": ["13625"],
-				"Level": 65,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 65
-				},
-				"Priority": 1
-			},
-			"Unlock ~|the exile|~ in the player-owned port": {
-				"Chunks": ["Player-Owned Port"],
-				"Level": 90,
-				"Primary": false,
-				"Priority": 1
 			},
 			"Wield a ~|law staff|~": {
 				"Items": ["Law staff"],
@@ -21035,108 +21272,16 @@
 				"Skills": {
 					"Magic": 45
 				},
-				"Priority": 5
-			},
-			"Wield a ~|tome of frost|~": {
-				"Items": ["Tome of frost"],
-				"Level": 48,
-				"Primary": false,
-				"Skills": {
-					"Magic": 48
-				},
-				"Priority": 2
-			},
-			"Wield a ~|nature staff|~": {
-				"Items": ["Nature staff"],
-				"Level": 53,
-				"Primary": false,
-				"Skills": {
-					"Magic": 53
-				},
-				"Priority": 1
-			},
-			"Wield a ~|gravite staff|~": {
-				"Items": ["Gravite staff"],
-				"Level": 45,
-				"Primary": false,
-				"Skills": {
-					"Magic": 55
-				},
-				"Priority": 6
-			},
-			"Wear an ~|arcane pulse necklace|~": {
-				"Items": ["Arcane pulse necklace"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Magic": 30
-				},
 				"Priority": 4
 			},
-			"Wear an ~|arcane blast necklace|~": {
-				"Items": ["Arcane blast necklace"],
-				"Level": 50,
+			"Wield a ~|gravite mage weapon|~": {
+				"Items": ["GraviteMageWeapon+"],
+				"Level": 55,
 				"Primary": false,
 				"Skills": {
-					"Magic": 50
+					"Dungeoneering": 45
 				},
-				"Priority": 1
-			},
-			"Wield a ~|chaotic staff|~": {
-				"Items": ["Chaotic staff"],
-				"Level": 80,
-				"Primary": false,
-				"Skills": {
-					"Magic": 80
-				},
-				"Priority": 2
-			},
-			"Wear an ~|arcane stream necklace|~": {
-				"Items": ["Arcane stream necklace"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Magic": 80
-				},
-				"Priority": 3
-			},
-			"Wear an ~|arcane blood necklace|~": {
-				"Items": ["Arcane blood necklace"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Magic": 80
-				},
-				"Priority": 4
-			},
-			"Craft ~|gem bag (upgraded)|~": {
-				"Items": ["Gem bag"],
-				"NPCs": ["Rewards trader"],
-				"Level": 40,
-				"Outputs": "Gem bag (upgraded)",
-				"Skills": {
-					"Crafting": 45
-				},
-				"Primary": true,
-				"Priority": 1
-			},
-			"Wear the ~|brawler's jab necklace|~": {
-				"Items": ["Brawler's jab necklace"],
-				"Level": 30,
-				"Skills": {
-					"Attack": 30
-				},
-				"Primary": false,
 				"Priority": 5
-			},
-			"Wear the ~|brawler's hook necklace|~": {
-				"Items": ["Brawler's hook necklace"],
-				"Level": 50,
-				"Skills": {
-					"Attack": 50
-				},
-				"Primary": false,
-				"Priority": 2
 			},
 			"Wield a ~|gravite weapon|~": {
 				"Items": ["GraviteWeapon+"],
@@ -21145,70 +21290,39 @@
 					"Attack": 55
 				},
 				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|gravite chargebow|~": {
+				"Items": ["Gravite chargebow"],
+				"Level": 45,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 55
+				},
 				"Priority": 7
 			},
-			"Wear the ~|ring of vigour|~": {
-				"Items": ["Ring of vigour"],
-				"Level": 62,
-				"Skills": {
-					"Attack": 62
-				},
+			"Enter the ~|Mining Guild resource dungeon|~": {
+				"Chunks": ["Dwarven Mine"],
+				"Level": 45,
 				"Primary": false,
+				"Priority": 8
+			},
+			"Wield a ~|tome of frost|~": {
+				"Items": ["Tome of frost"],
+				"Level": 48,
+				"Primary": false,
+				"Skills": {
+					"Magic": 48
+				},
 				"Priority": 1
 			},
-			"Wield a ~|chaotic weapon|~": {
-				"Items": ["ChaoticWeapon+"],
-				"Level": 80,
-				"Skills": {
-					"Attack": 80
-				},
+			"Wear an ~|amulet of zealots|~": {
+				"Items": ["Amulet of zealots"],
+				"Level": 48,
 				"Primary": false,
-				"Priority": 3
-			},
-			"Wear the ~|brawler's knockout necklace|~": {
-				"Items": ["Brawler's knockout necklace"],
-				"Level": 70,
 				"Skills": {
-					"Attack": 80
+					"Prayer": 48
 				},
-				"Primary": false,
-				"Priority": 5
-			},
-			"Wield an ~|anti-poison totem|~": {
-				"Items": ["Anti-poison totem"],
-				"Level": 60,
-				"Skills": {
-					"Herblore": 70,
-					"Defence": 60
-				},
-				"Primary": false,
-				"Priority": 2
-			},
-			"Wear a piece of ~|chaotic armour|~": {
-				"Items": ["ChaoticArmour+"],
-				"Level": 80,
-				"Skills": {
-					"Defence": 80
-				},
-				"Primary": false,
-				"Priority": 4
-			},
-			"Read the ~|scroll of life|~": {
-				"Items": ["Scroll of life"],
-				"Level": 25,
-				"Skills": {
-					"Farming": 25
-				},
-				"Primary": false,
-				"Priority": 1
-			},
-			"Equip the ~|herbicide|~": {
-				"Items": ["Herbicide"],
-				"Level": 21,
-				"Skills": {
-					"Herblore": 21
-				},
-				"Primary": false,
 				"Priority": 2
 			},
 			"Read the ~|scroll of cleansing|~": {
@@ -21220,6 +21334,326 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Wear a ~|spirit cape|~": {
+				"Items": ["Spirit cape"],
+				"Level": 50,
+				"Skills": {
+					"Summoning": 50,
+					"Defence": 50
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|nature staff|~": {
+				"Items": ["Nature staff"],
+				"Level": 53,
+				"Primary": false,
+				"Skills": {
+					"Magic": 53
+				},
+				"Priority": 1
+			},
+			"Read the ~|scroll of efficiency|~": {
+				"Items": ["Scroll of efficiency"],
+				"Level": 55,
+				"Skills": {
+					"Smithing": 55
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear an ~|arcane blast necklace|~": {
+				"Items": ["Arcane blast necklace"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Magic": 50
+				},
+				"Priority": 2
+			},
+			"Wield a ~|farsight snap shot necklace|~": {
+				"Items": ["Farsight snap shot necklace"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 50
+				},
+				"Priority": 3
+			},
+			"Wear the ~|brawler's hook necklace|~": {
+				"Items": ["Brawler's hook necklace"],
+				"Level": 50,
+				"Skills": {
+					"Attack": 50
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Enter the ~|Braindeath Island 'Rum'-geon|~": {
+				"Chunks": ["Braindeath island"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Enter a tier one ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 50,
+				"Skills": {
+					"Agility": 50,
+					"Thieving": 50,
+					"Construction": 50
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Enter the ~|Taverley hellhound resource dungeon|~": {
+				"Chunks": ["Taverley Dungeon"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Unlock ~|abandoned 2 floors|~": {
+				"Category": ["Dungeoneering Floor Types"],
+				"Chunks": ["13626"],
+				"Level": 59,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wear a ~|split dragontooth necklace|~": {
+				"Items": ["Split dragontooth necklace"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 1
+			},
+			"Wield an ~|anti-poison totem|~": {
+				"Items": ["Anti-poison totem"],
+				"Level": 60,
+				"Skills": {
+					"Herblore": 70,
+					"Defence": 60
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Read the ~|scroll of proficiency|~": {
+				"Items": ["Scroll of proficiency"],
+				"Level": 60,
+				"Skills": {
+					"Construction": 60
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Read the ~|scroll of dexterity|~": {
+				"Items": ["Scroll of dexterity"],
+				"Level": 60,
+				"Skills": {
+					"Crafting": 60
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Equip a ~|gold accumulator|~": {
+				"Items": ["Gold accumulator"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Equip an ~|advanced gold accumulator|~": {
+				"Items": ["Gold accumulator"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Read the ~|scroll of quick teleportation|~": {
+				"Items": ["Scroll of quick teleportation"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Enter the ~|Taverley blue dragon resource dungeon|~": {
+				"Chunks": ["Taverley Dungeon"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Wear the ~|ring of vigour|~": {
+				"Items": ["Ring of vigour"],
+				"Level": 62,
+				"Skills": {
+					"Attack": 62
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Use the ~|rapid renewal|~": {
+				"Chunks": ["13625"],
+				"Level": 65,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 65
+				},
+				"Priority": 1
+			},
+			"Enter the ~|Varrock Sewers resource dungeon|~": {
+				"Chunks": ["Edgeville Dungeon"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Enter the ~|Dragontooth Island resource dungeon|~": {
+				"Chunks": ["15159"],
+				"Level": 67,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Equip an ~|advanced smithing autoheater|~": {
+				"Items": ["Advanced smithing autoheater"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Smithing": 70
+				},
+				"Priority": 1
+			},
+			"Read the ~|scroll of Daemonheim|~": {
+				"Items": ["Scroll of Daemonheim"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wear an ~|arcane stream necklace|~": {
+				"Items": ["Arcane stream necklace"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 3
+			},
+			"Wield a ~|farsight sniper necklace|~": {
+				"Items": ["Farsight sniper necklace"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 4
+			},
+			"Wear the ~|brawler's knockout necklace|~": {
+				"Items": ["Brawler's knockout necklace"],
+				"Level": 70,
+				"Skills": {
+					"Attack": 80
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Buy a ~|chaotic remnant|~": {
+				"Level": 70,
+				"Output": "Chaotic remnant",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Wield a ~|celestial surgebox|~": {
+				"Items": ["Celestial surgebox"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Runecrafting": 70,
+					"Magic": 70
+				},
+				"Priority": 7
+			},
+			"Enter the ~|Chaos Tunnels resource dungeon|~": {
+				"Chunks": ["Chaos Tunnels"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Runecrafting": 70,
+					"Prayer": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 9
+			},
+			"Unlock ~|occult floors|~": {
+				"Category": ["Dungeoneering Floor Types"],
+				"Chunks": ["13626"],
+				"Level": 71,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wear ~|mercenary's gloves|~": {
+				"Items": ["Mercenary's gloves"],
+				"Level": 73,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 73,
+					"Defence": 73
+				},
+				"Priority": 1
+			},
+			"Unlock the ability to find a ~|Meilyr potion recipe|~": {
+				"Level": 75,
+				"Chunks": ["13626"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Enter the ~|Al Kharid resource dungeon|~": {
+				"Chunks": ["13107"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Buy a ~|chaotic spike|~": {
+				"Level": 80,
+				"Skills": {
+					"Attack": 80
+				},
+				"Output": "Chaotic spike",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wield a ~|chaotic weapon|~": {
+				"Items": ["ChaoticWeapon+"],
+				"Level": 80,
+				"Skills": {
+					"Dungeoneering": 80
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|chaotic mage weapon|~": {
+				"Items": ["ChaoticMageWeapon+"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 80
+				},
+				"Priority": 3
+			},
+			"Wear a piece of ~|chaotic armor|~": {
+				"Items": ["ChaoticArmor+"],
+				"Level": 80,
+				"Skills": {
+					"Defence": 80
+				},
+				"Primary": false,
+				"Priority": 4
+			},
 			"Craft the ~|Abyssal Gatestone|~": {
 				"Items": ["Chaotic gatestone", "Chaos star"],
 				"Level": 80,
@@ -21229,6 +21663,120 @@
 				"Output": "Abyssal Gatestone",
 				"Primary": false,
 				"Priority": 5
+			},
+			"Obtain a ~|sneakerpeeper spawn|~": {
+				"Level": 80,
+				"NPCs": ["Rewards trader"],
+				"Primary": false,
+				"Skills": {
+					"Summoning": 80
+				},
+				"Priority": 6
+			},
+			"Enter the ~|Brimhaven Dungeon resource dungeon|~": {
+				"Chunks": ["Brimhaven Dungeon"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 7
+			},
+			"Enter the ~|Polypore Dungeon resource dungeon|~": {
+				"Chunks": ["Polypore Dungeon"],
+				"Level": 82,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Obtain a ~|Forsty|~ pet": {
+				"Level": 85,
+				"NPCs": ["Rewards trader"],
+				"Primary": false,
+				"Skills": {
+					"Summoning": 99
+				},
+				"Priority": 1
+			},
+			"Enter the ~|Asgarnian Ice Dungeon resource dungeon|~": {
+				"Chunks": ["Asgarnian Ice Dungeon"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Unlock ~|the exile|~ in the player-owned port": {
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Enter the ~|Kal'gerion resource dungeon|~": {
+				"Chunks": ["13625"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Thieving": 90,
+					"Construction": 90,
+					"Crafting": 90,
+					"Runecrafting": 90,
+					"Prayer": 90,
+					"Divination": 90
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Unlock ~|warped floors|~": {
+				"Category": ["Dungeoneering Floor Types"],
+				"Chunks": ["13626"],
+				"Level": 95,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Obtain a ~|Mini-Blink|~ pet": {
+				"Level": 95,
+				"NPCs": ["Rewards trader"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Enter the ~|Gorajo resource dungeon|~": {
+				"Chunks": ["8757"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Wear the ~|Dungeoneering cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Dungeoneering cape"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Enter the ~|Morytania Slayer Tower resource dungeon|~": {
+				"Chunks": ["13623"],
+				"Level": 100,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Obtain a ~|Hope Nibbler|~ pet": {
+				"Level": 101,
+				"NPCs": ["Rewards trader"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Enter the ~|Edimmu resource dungeon|~": {
+				"Chunks": ["8757"],
+				"Level": 115,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear the ~|Dungeoneering master cape|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Dungeoneering master cape"],
+				"Level": 120,
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Farming": {
@@ -29493,6 +30041,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|guam potion (unf)|~": {
+				"Category": ["Token"],
 				"Items": ["Clean guam", "Vial of water"],
 				"Level": 1,
 				"Output": "Guam potion (unf)",
@@ -29507,6 +30056,7 @@
 				"Priority": 3
 			},
 			"Grind ~|unicorn horn dust|~": {
+				"Category": ["Token"],
 				"Items": ["Unicorn horn"],
 				"Level": 1,
 				"Output": "Unicorn horn dust",
@@ -29514,6 +30064,7 @@
 				"Priority": 4
 			},
 			"Grind ~|kebbit teeth dust|~": {
+				"Category": ["Token"],
 				"Items": ["Kebbit teeth"],
 				"Level": 1,
 				"Output": "Kebbit teeth dust",
@@ -29521,6 +30072,7 @@
 				"Priority": 5
 			},
 			"Grind ~|gorak claw powder|~": {
+				"Category": ["Token"],
 				"Items": ["Gorak claw"],
 				"Level": 1,
 				"Output": "Gorak claw powder",
@@ -29536,6 +30088,7 @@
 				"Priority": 7
 			},
 			"Grind ~|goat horn dust|~": {
+				"Category": ["Token"],
 				"Items": ["Desert goat horn"],
 				"Level": 1,
 				"Output": "Goat horn dust",
@@ -29543,6 +30096,7 @@
 				"Priority": 8
 			},
 			"Grind ~|dragon scale dust|~": {
+				"Category": ["Token"],
 				"Items": ["Blue dragon scale"],
 				"Level": 1,
 				"Output": "Dragon scale dust",
@@ -29550,6 +30104,7 @@
 				"Priority": 9
 			},
 			"Grind ~|ground mud runes|~": {
+				"Category": ["Token"],
 				"Items": ["Mud rune"],
 				"Level": 1,
 				"Output": "Ground mud runes",
@@ -29572,6 +30127,7 @@
 				"Priority": 12
 			},
 			"Grind a ~|ground tooth|~": {
+				"Category": ["Token"],
 				"Items": ["Suqah tooth"],
 				"Level": 1,
 				"Output": "Ground tooth",
@@ -29579,6 +30135,7 @@
 				"Priority": 13
 			},
 			"Grind ~|silver dust|~": {
+				"Category": ["Token"],
 				"Items": ["Silver bar"],
 				"Level": 1,
 				"Output": "Silver dust",
@@ -29586,6 +30143,7 @@
 				"Priority": 14
 			},
 			"Grind a ~|crushed dragonstone|~": {
+				"Category": ["Token"],
 				"Items": ["Dragonstone"],
 				"Level": 1,
 				"Output": "Crushed dragonstone",
@@ -34148,8 +34706,8 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Wield a ~|gravite staff|~": {
-				"Items": ["Gravite staff"],
+			"Wield a ~|gravite mage weapon|~": {
+				"Items": ["GraviteMageWeapon+"],
 				"Level": 55,
 				"Primary": false,
 				"Skills": {
@@ -35128,8 +35686,8 @@
 				"Primary": false,
 				"Priority": 17
 			},
-			"Wield a ~|chaotic staff|~": {
-				"Items": ["Chaotic staff"],
+			"Wield a ~|chaotic mage weapon|~": {
+				"Items": ["ChaoticMageWeapon+"],
 				"Level": 80,
 				"Primary": false,
 				"Skills": {
@@ -37779,6 +38337,36 @@
 				"Level": 120,
 				"Primary": false,
 				"Priority": 1
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Runecrafting": 70,
+					"Dungeoneering": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Thieving": 90,
+					"Construction": 90,
+					"Crafting": 90,
+					"Runecrafting": 90,
+					"Dungeoneering": 90,
+					"Divination": 90
+				},
+				"Primary": false,
+				"Priority": 8
 			}
 		},
 		"Ranged": {
@@ -40850,6 +41438,36 @@
 				},
 				"Primary": false,
 				"Priority": 2
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Dungeoneering": 70,
+					"Prayer": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Thieving": 90,
+					"Construction": 90,
+					"Crafting": 90,
+					"Dungeoneering": 90,
+					"Prayer": 90,
+					"Divination": 90
+				},
+				"Primary": false,
+				"Priority": 6
 			}
 		},
 		"Slayer": {
@@ -43343,6 +43961,33 @@
 				},
 				"Primary": false,
 				"Priority": 3
+			},
+			"Equip a ~|smithing autoheater|~": {
+				"Items": ["Smithing autoheater"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 35
+				},
+				"Priority": 2
+			},
+			"Equip an ~|advanced smithing autoheater|~": {
+				"Items": ["Advanced smithing autoheater"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 70
+				},
+				"Priority": 5
+			},
+			"Read the ~|scroll of efficiency|~": {
+				"Items": ["Scroll of efficiency"],
+				"Level": 55,
+				"Skills": {
+					"Dungeoneering": 55
+				},
+				"Primary": false,
+				"Priority": 1
 			}
 		},
 		"Strength": {
@@ -45742,6 +46387,34 @@
 				"Output": "Platypus",
 				"Primary": false,
 				"Priority": 5
+			},
+			"Equip the ~|charming imp|~": {
+				"Items": ["Charming imp"],
+				"Level": 21,
+				"Skills": {
+					"Dungeoneering": 21
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Wear a ~|spirit cape|~": {
+				"Items": ["Spirit cape"],
+				"Level": 50,
+				"Skills": {
+					"Defence": 50,
+					"Dungeoneering": 50
+				},
+				"Primary": false,
+				"Priority": 9
+			},
+			"Obtain a ~|forsty pet|~": {
+				"Level": 99,
+				"NPCs": ["Rewards trader"],
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 85
+				},
+				"Priority": 11
 			}
 		},
 		"Thieving": {
@@ -46583,6 +47256,47 @@
 				},
 				"Primary": true,
 				"Priority": 8
+			},
+			"Enter a tier one ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 50,
+				"Skills": {
+					"Agility": 50,
+					"Dungeoneering": 50,
+					"Construction": 50
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Dungeoneering": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Runecrafting": 70,
+					"Prayer": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Dungeoneering": 90,
+					"Construction": 90,
+					"Crafting": 90,
+					"Runecrafting": 90,
+					"Prayer": 90,
+					"Divination": 90
+				},
+				"Primary": false,
+				"Priority": 4
 			}
 		},
 		"Woodcutting": {
@@ -47851,10 +48565,25 @@
 				"Items": ["Kalphite Queen head"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Kalphite Queen head (stuffed)"
+			},
+			"Create a Chaotic claw": {
+				"Items": ["Dragon claw", "Chaotic spike"],
+				"Output": "Chaotic claw"
+			},
+			"Create a Off-hand chaotic claw": {
+				"Items": ["Off-hand dragon claw", "Chaotic spike"],
+				"Output": "Off-hand chaotic claw"
+			},
+			"Create a Chaotic spear": {
+				"Items": ["Zamorakian spear", "Chaotic spike"],
+				"Output": "Chaotic Spear"
 			}
 		}
 	},
 	"chunks": {
+		"1": {
+			"Name": "Giant Mole Lair"
+		},
 		"258": {
 			"Spawn": {
 				"Broken glass": 8
@@ -58580,7 +59309,6 @@
 				"Gnome banker": 5
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Spawn": {
 				"Knife": 1
@@ -60548,7 +61276,6 @@
 				"Pillory guard": 1
 			},
 			"Connect": {
-				"6483": true,
 				"10131": true,
 				"10307": true,
 				"10388": true,
@@ -60639,7 +61366,6 @@
 				"Monk": 4
 			},
 			"Connect": {
-				"6483": true,
 				"10390": true
 			},
 			"Spawn": {
@@ -60959,7 +61685,6 @@
 				"Rabbit": 3
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Shop": {
 				"Etceteria Fish": true,
@@ -61664,7 +62389,6 @@
 				"Sparky": 1
 			},
 			"Connect": {
-				"6483": true,
 				"9541": true,
 				"10647": true,
 				"11595": true
@@ -61736,7 +62460,6 @@
 				"Farmer in need (hard)": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Shop": {
 				"Farmers' Market": true,
@@ -61857,7 +62580,6 @@
 				"Musician": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Shop": {
 				"farming supplies": true
@@ -63647,7 +64369,6 @@
 				"Zombie pirate head": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Spawn": {
 				"Seaweed": 5
@@ -63748,7 +64469,6 @@
 				"Shark": 1
 			},
 			"Connect": {
-				"6483": true,
 				"10307": true
 			},
 			"Shop": {
@@ -63797,7 +64517,6 @@
 				"Tool leprechaun": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Spawn": {
 				"Vial": 2,
@@ -63896,7 +64615,6 @@
 				"Sir Palomedes": 1
 			},
 			"Connect": {
-				"6483": true,
 				"10307": true,
 				"11418": true
 			},
@@ -63966,7 +64684,6 @@
 				"Philipe Carnillean": 1
 			},
 			"Connect": {
-				"6483": true,
 				"11165": true,
 				"11421": true
 			},
@@ -64786,7 +65503,6 @@
 				"Fisherman": 1
 			},
 			"Connect": {
-				"6483": true,
 				"11417": true
 			},
 			"Spawn": {
@@ -65782,7 +66498,6 @@
 				"Jessika": 1
 			},
 			"Connect": {
-				"6483": true,
 				"11670": true
 			},
 			"Nickname": "Melzar's Maze"
@@ -66797,7 +67512,6 @@
 				"Zamorak jadinko": 6
 			},
 			"Connect": {
-				"6483": true,
 				"12176": true
 			},
 			"Shop": {
@@ -67132,7 +67846,7 @@
 				"Sir Atcha": 1
 			},
 			"Connect": {
-				"6483": true
+				"1": true
 			},
 			"Spawn": {
 				"Hammer": 1,
@@ -67791,7 +68505,6 @@
 				"Gudrik": 1
 			},
 			"Connect": {
-				"6483": true,
 				"7099": true,
 				"7350": true,
 				"8120": true,
@@ -67861,8 +68574,7 @@
 				"Egg": 2
 			},
 			"Connect": {
-				"4185": true,
-				"6483": true
+				"4185": true
 			},
 			"Shop": {
 				"Farming supplies": true,
@@ -68932,6 +69644,7 @@
 			},
 			"Connect": {
 				"10307": true,
+				"12438": true,
 				"13214": true
 			},
 			"Spawn": {
@@ -68971,7 +69684,6 @@
 				"Terry": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Spawn": {
 				"Bronze med helm": 1,
@@ -69652,7 +70364,6 @@
 				"Tool leprechaun": 1
 			},
 			"Connect": {
-				"6483": true,
 				"8300": true
 			},
 			"Spawn": {
@@ -70085,7 +70796,6 @@
 				"Goth leprechaun": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Spawn": {
 				"Chaos rune": 6,
@@ -70746,7 +71456,6 @@
 				"Cow": 5
 			},
 			"Connect": {
-				"6483": true,
 				"12950": true
 			},
 			"Spawn": {
@@ -70831,7 +71540,6 @@
 			},
 			"Connect": {
 				"4186": true,
-				"6483": true,
 				"18522": true,
 				"18524": true,
 				"19034": true,
@@ -71089,7 +71797,6 @@
 				"Sir Amik Varze": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Spawn": {
 				"Pie dish": 1,
@@ -71893,7 +72600,6 @@
 				"Zeid the Tailor": 1
 			},
 			"Connect": {
-				"6483": true,
 				"10315": true
 			},
 			"Shop": {
@@ -73531,7 +74237,6 @@
 				"Efaritay": 1
 			},
 			"Connect": {
-				"6483": true,
 				"9541": true,
 				"13722": true
 			},
@@ -75077,7 +75782,6 @@
 				"Tool leprechaun": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Shop": {
 				"Alice's Farming Shop": true
@@ -76288,7 +76992,6 @@
 				"Zombie pirate": 20
 			},
 			"Connect": {
-				"6483": true,
 				"15248": true
 			},
 			"Spawn": {
@@ -77240,7 +77943,6 @@
 				"Portal": 1
 			},
 			"Connect": {
-				"6483": true
 			},
 			"Nickname": "North Anachronia Pass"
 		},
@@ -92729,6 +93431,14 @@
 			"Connect": {
 				"6994": true
 			}
+		},
+		"Giant Mole Lair": {
+			"Monster": {
+				"Giant mole": 1
+			},
+			"Connect": {
+				"11828": true
+			}
 		}
 	},
 	"codeItems": {
@@ -93369,6 +94079,11 @@
 				"Chaotic kiteshield",
 				"Eagle-eye kiteshield",
 				"Farseer kiteshield"
+			],
+			"ChaoticMageWeapon+": [
+				"Chaotic staff",
+				"Chaotic wand",
+				"Chaotic orb"
 			],
 			"ChaoticWeapon+": [
 				"Chaotic claw",
@@ -96298,6 +97013,7 @@
 			"CatspeakAmulet+": "Any amulet that allows you to speak with cats",
 			"ChaosArmour+": "Any piece of elemental workshop chaos armour",
 			"ChaoticArmour+": "Any chaotic shield variant",
+			"ChaoticMageWeapon+": "Any chaotic mage weapon",
 			"ChaoticWeapon+": "Any chaotic melee weapon",
 			"Chocolate+": "Any cooking chocolate",
 			"Cockatricepouch+": "Any spirit cockatrice variant",
@@ -96678,6 +97394,7 @@
 			"CommonJadinkoAnachronia+": ["16964", "15938"],
 			"DiseasedJadinkoAnachronia+": ["16965", "16709", "16194"],
 			"EasyHideyHoles+": ["12849", "12337", "12338", "13366", "10804", "11824", "12082", "13107", "12340", "12595", "12339", "11826", "12854", "10548", "12084", "11574", "11061", "10291", "10292", "10807", "13394", "13110", "13106"],
+			"EliteDungeons+": ["13372", "The Arc", "13881"],
 			"Everlight+": ["14899", "14898", "15154", "14897", "15153", "14641"],
 			"FeldipHills+": ["10285", "10029"],
 			"GrenwallAnachronia+": ["16193", "16197"],
@@ -96712,6 +97429,7 @@
 			"CommonJadinkoAnachronia+": "Any chunk with common jadinkos on Anachronia",
 			"DiseasedJadinkoAnachronia+": "Any chunk with diseased jadinkos on Anachronia",
 			"EasyHideyHoles+": "Any chunk with an easy hideyhole",
+			"EliteDungeons+": "Any chunk that gives access to an elite dungeon",
 			"Everlight+": "Any chunk that is part of the Everlight digsite",
 			"FeldipHills+": "Any chunk that is part of the Feldip hills hunting area",
 			"GrenwallAnachronia+": "Any chunk with grenwalls on Anachronia",
