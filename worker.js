@@ -670,7 +670,6 @@ var calcChallenges = function(chunks, baseChunkData) {
 
 
     do {
-        console.log(_.isEqual(valids, newValids));
         i++;
         postMessage(((i + 1) * 10) + '%');
         valids = newValids;
@@ -690,7 +689,6 @@ var calcChallenges = function(chunks, baseChunkData) {
         let savedValids = {};
         let passedByTasks = {};
         while (leftoversCount < 10 && (Object.keys(leftovers).length > 0 && (!_.isEqual(leftovers, validsList) || !_.isEqual(newValids, savedValids)))) {
-            console.log('inner loop');
             validsList = {...leftovers};
             savedValids = JSON.parse(JSON.stringify(newValids));
             leftovers = {};

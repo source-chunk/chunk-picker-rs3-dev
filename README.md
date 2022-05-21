@@ -1,4 +1,4 @@
-# https://source-chunk.github.io/chunk-picker-rs3/
+# https://source-chunk.github.io/chunk-picker-rs3-dev/
 
 Chunk Picker website for the Runescape3 fan-made gamemode: One Chunk Man.
 

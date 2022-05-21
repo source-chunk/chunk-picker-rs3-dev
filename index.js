@@ -4726,7 +4726,7 @@ var openFriendsList = function() {
     $('.friends-list-data').empty();
     $('.friends-list-data').append(`<div class='addEntry noscroll' onclick='openFriendsListAdd()'>Add Map Entry</div>`);
     Object.keys(friends).forEach(friendMid => {
-        $('.friends-list-data').append(`<div class='noscroll friend-item'><a class='noscroll link' href='https://source-chunk.github.io/chunk-picker-rs3/?${friendMid.toLowerCase()}' target='_blank'>${friends[friendMid]} (${friendMid})</a><i class="friend-item-x fas fa-times noscrollhard" onclick="removeFriend('${friendMid}')"></i></div>`);
+        $('.friends-list-data').append(`<div class='noscroll friend-item'><a class='noscroll link' href='https://source-chunk.github.io/chunk-picker-rs3-dev/?${friendMid.toLowerCase()}' target='_blank'>${friends[friendMid]} (${friendMid})</a><i class="friend-item-x fas fa-times noscrollhard" onclick="removeFriend('${friendMid}')"></i></div>`);
     });
     $('#myModal26').show();
     document.getElementById('friends-list-data').scrollTop = 0;
@@ -7199,7 +7199,7 @@ var rollMID = function() {
         }).catch((error) => { console.error(error) });
 
         $('#newmid').text(charSet.toUpperCase());
-        $('.link').prop('href', 'https://source-chunk.github.io/chunk-picker-rs3/?' + charSet).text('https://source-chunk.github.io/chunk-picker-rs3/?' + charSet);
+        $('.link').prop('href', 'https://source-chunk.github.io/chunk-picker-rs3-dev/?' + charSet).text('https://source-chunk.github.io/chunk-picker-rs3-dev/?' + charSet);
     }).catch((error) => { console.error(error) });
 }
 
