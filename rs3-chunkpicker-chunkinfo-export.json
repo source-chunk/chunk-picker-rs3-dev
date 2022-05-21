@@ -54760,7 +54760,7 @@
 				"12087": true,
 				"12187": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "King's Ransom Jail"
 		},
 		"7492": {
 			"Object": {
@@ -55137,7 +55137,7 @@
 			"Monster": {
 				"Warped tortoise": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Toxic Waste Sewer"
 		},
 		"7748": {
 			"Object": {
@@ -55152,7 +55152,7 @@
 			"Object": {
 				"Spear trap": 32
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Pyramid Plunder"
 		},
 		"7750": {
 			"NPC": {
@@ -55161,7 +55161,7 @@
 			"Connect": {
 				"13099": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Pyramid Plunder"
 		},
 		"7751": {
 			"Object": {
@@ -67467,7 +67467,8 @@
 				"Copernicus Glyph": 1,
 				"Memstix": 1,
 				"Runestax": 1,
-				"Sheep": 6
+				"Sheep": 6,
+				"Tanya Hyde": 1
 			},
 			"Monster": {
 				"Cow": 7,
@@ -87725,6 +87726,17 @@
 				"Ringmaster": 1
 			}
 		},
+		"Pyramid Plunder": {
+			"Object": {
+				"Spear trap": 32
+			},
+			"NPC": {
+				"Guardian mummy": 1
+			},
+			"Connect": {
+				"13099": true
+			}
+		},
 		"Burthorpe Mine": {
 			"Object": {
 				"Burthorpe": 1,
@@ -90309,6 +90321,15 @@
 				"Willow": 3,
 				"Oak": 10,
 				"Tree": 23
+			}
+		},
+		"Toxic Waste Sewer": {
+			"Object": {
+				"Sewer exit": 6,
+				"Warped tree roots": 3
+			},
+			"Monster": {
+				"Warped tortoise": 2
 			}
 		},
 		"Fisher Realm": {
@@ -94182,6 +94203,31 @@
 			},
 			"Connect": {
 				"11828": true
+			}
+		},
+		"King's Ransom Jail": {
+			"Object": {
+				"Sir Palomedes": 1,
+				"Sir Lucan": 1,
+				"Sir Lancelot": 1,
+				"Vent": 1,
+				"Sir Tristram": 1
+			},
+			"Monster": {
+				"Rat": 3,
+				"Renegade knight": 2
+			},
+			"NPC": {
+				"Arthur": 1,
+				"Merlin": 1,
+				"Sir Pelleas": 1,
+				"Sir Gawain": 1,
+				"Sir Kay": 1,
+				"Guard": 1
+			},
+			"Connect": {
+				"12087": true,
+				"12187": true
 			}
 		}
 	},
@@ -98670,6 +98716,30 @@
 			["Off-hand bronze knife*"],
 			["Kayle's chargebow"]
 		],
+		"slayerTasks": {
+			"Birds": {
+				"Pekin": true,
+				"Undead pekin": true,
+				"Duckling": true,
+				"Duck": true,
+				"Chicken": true,
+				"Seagull": true,
+				"Undead chicken": true,
+				"Entranan firebird": true,
+				"Chompy bird": true,
+				"Rooster": true,
+				"Bird": true,
+				"Penguin": true,
+				"Mounted terrorbird": true,
+				"Terrorbird": true,
+				"Jubbly bird": true,
+				"Baby roc": true,
+				"Pernicious parrot": true,
+				"Evil chicken": true,
+				"Tenacious tucan": true,
+				"Oomlie bird": true
+			}
+		},
 		"magicTools": {},
 		"bossLogs": {},
 		"bossMonsters": {},
