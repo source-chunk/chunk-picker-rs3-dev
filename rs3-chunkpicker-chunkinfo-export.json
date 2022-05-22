@@ -126789,6 +126789,105 @@
 				"1": "Very rare",
 				"2": "Uncommon"
 			},
+			"Black bead": {
+				"1": "Uncommon"
+			},
+			"Red bead": {
+				"1": "Uncommon"
+			},
+			"White bead": {
+				"1": "Uncommon"
+			},
+			"Yellow bead": {
+				"1": "Uncommon"
+			},
+			"Mind rune": {
+				"5": "Common"
+			},
+			"Earth rune": {
+				"5": "Common"
+			},
+			"Water rune": {
+				"5": "Common"
+			},
+			"Fire rune": {
+				"5": "Common"
+			},
+			"Air rune": {
+				"5": "Common"
+			},
+			"Body rune": {
+				"5": "Common"
+			},
+			"Ashes": {
+				"1": "Uncommon"
+			},
+			"Burnt meat": {
+				"1": "Uncommon"
+			},
+			"Wheat": {
+				"1": "Uncommon"
+			},
+			"Grimy guam": {
+				"1": "Uncommon"
+			},
+			"Acne potion": {
+				"1": "Common"
+			},
+			"Flier": {
+				"1": "Uncommon"
+			},
+			"Imp Champion's scroll": {
+				"1": "1/5000"
+			}
+		},
+		"Imp (GWD)": {
+			"Impious ashes": {
+				"1": "Always"
+			},
+			"Imphide": {
+				"1": "Always"
+			},
+			"Wizard hat (blue)": {
+				"1": "Common"
+			},
+			"Chef's hat": {
+				"1": "Uncommon"
+			},
+			"Wizard robe top": {
+				"1": "Uncommon"
+			},
+			"Wizard robe skirt": {
+				"1": "Common"
+			},
+			"Bread": {
+				"2": "Common"
+			},
+			"Cabbage": {
+				"1": "Common"
+			},
+			"Egg": {
+				"1": "Uncommon"
+			},
+			"Air talisman": {
+				"1": "Very rare"
+			},
+			"Bucket of milk": {
+				"1": "Very rare"
+			},
+			"Gold stone spirit": {
+				"1": "Very rare"
+			},
+			"Oak stock": {
+				"1": "Very rare"
+			},
+			"Black wizard hat": {
+				"1": "Very rare"
+			},
+			"Clay": {
+				"1": "Very rare",
+				"2": "Uncommon"
+			},
 			"Frozen key piece (Zamorak)": {
 				"1": "Random"
 			},
