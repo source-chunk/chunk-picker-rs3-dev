@@ -60938,7 +60938,7 @@
 				"Death rune": 1,
 				"Bones": 9
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Feldip Hills"
 		},
 		"10031": {
 			"Object": {
@@ -61426,13 +61426,13 @@
 			"Monster": {
 				"Acheron mammoth": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South-East Acheron Mammoths"
 		},
 		"10047": {
 			"Monster": {
 				"Acheron mammoth": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North-West Acheron Mammoths"
 		},
 		"10055": {
 			"Object": {
@@ -61956,7 +61956,7 @@
 				"Barb-tailed kebbit": 15,
 				"Spined larupia": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Feldip Shore"
 		},
 		"10286": {
 			"Object": {
@@ -61986,7 +61986,7 @@
 				"Tomato": 1,
 				"Doogle leaves": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Feldip Hills"
 		},
 		"10287": {
 			"Object": {
@@ -62426,7 +62426,7 @@
 			"Monster": {
 				"Fenris wolf": 6
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lighthouse Bridge"
 		},
 		"10297": {
 			"Object": {
@@ -62444,7 +62444,7 @@
 				"Jarvald": 1,
 				"Lokar Searunner": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Rellekka"
 		},
 		"10300": {
 			"Object": {
@@ -62506,7 +62506,7 @@
 			"NPC": {
 				"Macaroni Penguin": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Penguin Island"
 		},
 		"10305": {
 			"Object": {
@@ -63021,7 +63021,7 @@
 			"Object": {
 				"Gangplank": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Oo'glog Ship"
 		},
 		"10542": {
 			"Object": {
@@ -63039,7 +63039,7 @@
 			"Spawn": {
 				"Equa leaves": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rantz' Cave"
 		},
 		"10544": {
 			"Object": {
@@ -63533,7 +63533,7 @@
 				"Knife": 1,
 				"Bronze hatchet": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rellekka Rocks"
 		},
 		"10558": {
 			"Object": {
@@ -64046,7 +64046,7 @@
 			"Connect": {
 				"11151": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Marim Entrance"
 		},
 		"10801": {
 			"Object": {
@@ -64064,7 +64064,7 @@
 			"Connect": {
 				"10901": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Brimhaven Dungeon"
 		},
 		"10802": {
 			"Object": {
@@ -64084,7 +64084,7 @@
 				"Cake": 2,
 				"Gold ore": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Horseshoe Mine"
 		},
 		"10803": {
 			"Object": {
@@ -64377,7 +64377,7 @@
 				"Svidi": 1,
 				"Herald": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Fremennik Mine"
 		},
 		"10810": {
 			"Object": {
@@ -64410,7 +64410,7 @@
 			"Spawn": {
 				"Seaweed": 9
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rellekka Peninsula"
 		},
 		"10811": {
 			"Object": {
@@ -64437,7 +64437,7 @@
 			"Shop": {
 				"Hunting Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rellekka Hunter Area"
 		},
 		"10812": {
 			"Object": {
@@ -64452,7 +64452,7 @@
 			"Connect": {
 				"11167": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Northern Banite Mine"
 		},
 		"10814": {
 			"Object": {
@@ -64467,7 +64467,7 @@
 			"NPC": {
 				"Penguin": 38
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Iceberg Island
 		},
 		"10819": {
 			"Object": {
@@ -87810,10 +87810,12 @@
 		},
 		"Burthorpe Mine": {
 			"Object": {
-				"Burthorpe": 1,
-				"Copper rock": 15,
-				"Tin rock": 12,
-				"Clay rock": 12
+				"Copper rock": 5,
+				"Tin rock": 5,
+				"Clay rock": 6,
+				"Iron rock": 9,
+				"Silver rock": 7,
+				"Common gem rock": 7
 			},
 			"NPC": {
 				"Tobias Bronzearms": 1
