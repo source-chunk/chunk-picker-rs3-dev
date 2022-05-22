@@ -381,6 +381,7 @@ let rules = {
     "All Shops": false,
     "Quest Skill Reqs": false,
 	"Token": false,
+	"Master skillscape": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -461,6 +462,7 @@ let ruleNames = {
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
     "Quest Skill Reqs": "Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
 	"Token": "Allow token xp drops to count as a primary training method",
+	"Master skillcape": "Must obtain master skillcapes for all skills <span class='rule-asterisk noscroll'>†</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -594,6 +596,7 @@ let rulePresets = {
         "Prayers": true,
         "All Droptables": true,
 		"Token": true,
+		"Master skillcape": true,
     },
 };                                                                              // List of rules that are part of each preset
 
@@ -612,7 +615,7 @@ let ruleStructure = {
     },
     "Overall Skill": {
         "Starting Items": true,
-        "Skillcape": true,
+        "Skillcape": ["Master skillcape"],
         "Highest Level": true,
         "Multi Step Processing": true,
         "Wield Crafted Items": true,
