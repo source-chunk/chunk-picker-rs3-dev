@@ -35036,9 +35036,8 @@
 				"Priority": 3
 			},
 			"Cast ~|Senntisten teleport|~": {
-				"Chunks": ["13365"],
+				"Chunks": ["13365", "Jaldraocht Pyramid"],
 				"Items": ["Soul rune", "Law rune"],
-				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 60,
 				"Primary": true,
 				"Priority": 4
@@ -35305,9 +35304,8 @@
 				"Priority": 2
 			},
 			"Cast ~|Kharyrll teleport|~": {
-				"Chunks": ["13878"],
+				"Chunks": ["13878", "Jaldraocht Pyramid"],
 				"Items": ["Blood rune", "Law rune"],
-				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 66,
 				"Primary": true,
 				"Priority": 3
