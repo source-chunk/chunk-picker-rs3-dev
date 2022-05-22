@@ -34353,6 +34353,7 @@
 				"Priority": 1
 			},
 			"Cast ~|south Feldip hills teleport|~": {
+				"Chunks": ["9516"],
 				"Items": ["Law rune", "Water rune+", "Air rune+"],
 				"Level": 10,
 				"Primary": true,
@@ -34413,6 +34414,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Taverley teleport|~": {
+				"Chunks": ["11573"],
 				"Items": ["Law rune", "Fire rune+", "Air rune+"],
 				"Level": 19,
 				"Primary": true,
@@ -34473,6 +34475,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Varrock teleport|~": {
+				"Chunks": ["12853"],
 				"Items": ["Law rune", "Fire rune+", "Air rune+"],
 				"Level": 25,
 				"Primary": true,
@@ -34609,6 +34612,7 @@
 				"Priority": 7
 			},
 			"Cast ~|Lumbridge teleport|~": {
+				"Chunks": ["12850"],
 				"Items": ["Law rune", "Earth rune+", "Air rune+"],
 				"Level": 31,
 				"Primary": true,
@@ -34628,12 +34632,14 @@
 				"Priority": 1
 			},
 			"Cast ~|Falador teleport|~": {
+				"Chunks": ["11828"],
 				"Items": ["Law rune", "Water rune+", "Air rune+"],
 				"Level": 37,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|house teleport|~": {
+				"Chunks": ["Player-owned house"],
 				"Items": ["Law rune", "Air rune+", "Earth rune+"],
 				"Level": 40,
 				"Primary": true,
@@ -34689,6 +34695,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Camelot teleport|~": {
+				"Chunks": ["11062"],
 				"Items": ["Law rune", "Air rune+"],
 				"Level": 45,
 				"Primary": true,
@@ -34869,6 +34876,7 @@
 				"Priority": 13
 			},
 			"Cast ~|Ardougne teleport|~": {
+				"Chunks": ["10547"],
 				"Items": ["Law rune", "Water rune+", "A magic scroll"],
 				"Level": 51,
 				"Primary": true,
@@ -34991,6 +34999,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Watchtower teleport|~": {
+				"Chunks": ["10032"],
 				"Items": ["Law rune", "Earth rune+", "Spell scroll"],
 				"Level": 58,
 				"Primary": true,
@@ -35027,6 +35036,7 @@
 				"Priority": 3
 			},
 			"Cast ~|Senntisten teleport|~": {
+				"Chunks": ["13365"],
 				"Items": ["Soul rune", "Law rune"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 60,
@@ -35109,12 +35119,14 @@
 				"Priority": 16
 			},
 			"Cast ~|god wars dungeon teleport|~": {
+				"Chunks": ["11578"],
 				"Items": ["Law rune", "Fire rune+"],
 				"Level": 61,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|Trollheim teleport|~": {
+				"Chunks": ["11577"],
 				"Items": ["Law rune", "Fire rune+"],
 				"Level": 61,
 				"Primary": true,
@@ -35143,6 +35155,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Ape Atoll teleport|~": {
+				"Chunks": ["11051"],
 				"Items": ["Law rune", "Fire rune+", "Water rune+", "Banana"],
 				"Level": 64,
 				"Primary": true,
@@ -35292,6 +35305,7 @@
 				"Priority": 2
 			},
 			"Cast ~|Kharyrll teleport|~": {
+				"Chunks": ["13878"],
 				"Items": ["Blood rune", "Law rune"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 66,
@@ -35378,8 +35392,8 @@
 				"Priority": 8
 			},
 			"Cast ~|Moonclan teleport|~": {
+				"Chunks": ["8253", "8508", "8509"],
 				"Items": ["Law rune", "Astral rune", "Earth rune+"],
-				"Chunks": ["8508"],
 				"Level": 69,
 				"Primary": true,
 				"Priority": 1
@@ -35400,8 +35414,8 @@
 				"Priority": 6
 			},
 			"Cast ~|tele-group Moonclan|~": {
+				"Chunks": ["8253", "8508", "8509"],
 				"Items": ["Law rune", "Astral rune", "Earth rune+"],
-				"Chunks": ["8508"],
 				"Level": 70,
 				"Primary": true,
 				"Priority": 7
@@ -35513,8 +35527,8 @@
 				"Priority": 1
 			},
 			"Cast ~|Ourania teleport|~": {
+				"Chunks": ["8508", "9778"],
 				"Items": ["Law rune", "Astral rune", "Earth rune+"],
-				"Chunks": ["8508"],
 				"Level": 71,
 				"Primary": true,
 				"Priority": 2
@@ -35527,22 +35541,22 @@
 				"Priority": 3
 			},
 			"Cast ~|Lassar teleport|~": {
+				"Chunks": ["11830", "Jaldraocht Pyramid"],
 				"Items": ["Law rune", "Water rune+"],
-				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 72,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|Waterbirth teleport|~": {
+				"Chunks": ["8508", "10042"],
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
 				"Level": 72,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|south Falador teleport|~": {
 				"Items": ["Law rune", "Astral rune", "Air rune+"],
-				"Chunks": ["8253", "8508", "8509"],
+				"Chunks": ["8253", "8508", "8509", "12083"],
 				"Level": 72,
 				"Primary": true,
 				"Priority": 3
@@ -35563,7 +35577,7 @@
 			},
 			"Cast ~|tele-group Waterbirth|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "10042"],
 				"Level": 73,
 				"Primary": true,
 				"Priority": 2
@@ -35606,7 +35620,7 @@
 			},
 			"Cast ~|barbarian teleport|~": {
 				"Items": ["Law rune", "Astral rune", "Fire rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "10039"],
 				"Level": 75,
 				"Primary": true,
 				"Priority": 2
@@ -35684,7 +35698,7 @@
 			},
 			"Cast ~|tele-group barbarian|~": {
 				"Items": ["Law rune", "Astral rune", "Fire rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "10039"],
 				"Level": 76,
 				"Primary": true,
 				"Priority": 2
@@ -35732,14 +35746,14 @@
 			},
 			"Cast ~|Dareeyak teleport|~": {
 				"Items": ["Law rune", "Fire rune+", "Air rune+"],
-				"Chunks": ["Jaldraocht Pyramid"],
+				"Chunks": ["11833", "Jaldraocht Pyramid"],
 				"Level": 78,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|Khazard teleport|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "10545"],
 				"Level": 78,
 				"Primary": true,
 				"Priority": 2
@@ -35772,7 +35786,7 @@
 			},
 			"Cast ~|tele-group Khazard|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "10545"],
 				"Level": 79,
 				"Primary": true,
 				"Priority": 2
@@ -36152,7 +36166,7 @@
 			},
 			"Cast ~|Carrallanger teleport|~": {
 				"Items": ["Soul rune", "Law rune"],
-				"Chunks": ["Jaldraocht Pyramid"],
+				"Chunks": ["12857", "Jaldraocht Pyramid"],
 				"Level": 84,
 				"Primary": true,
 				"Priority": 1
@@ -36180,7 +36194,7 @@
 			},
 			"Cast ~|fishing guild teleport|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "10292"],
 				"Level": 85,
 				"Primary": true,
 				"Priority": 2
@@ -36245,7 +36259,7 @@
 			},
 			"Cast ~|tele-group fishing guild|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "10292"],
 				"Level": 86,
 				"Primary": true,
 				"Priority": 2
@@ -36368,7 +36382,7 @@
 			},
 			"Cast ~|Catherby teleport|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "11061"],
 				"Level": 87,
 				"Primary": true,
 				"Priority": 12
@@ -36424,7 +36438,7 @@
 			},
 			"Cast ~|tele-group Catherby|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "11061"],
 				"Level": 88,
 				"Primary": true,
 				"Priority": 2
@@ -36463,7 +36477,7 @@
 			},
 			"Cast ~|ice plateau teleport|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "11837"],
 				"Level": 89,
 				"Primary": true,
 				"Priority": 1
@@ -36483,7 +36497,7 @@
 			},
 			"Cast ~|Annakarl teleport|~": {
 				"Items": ["Blood rune", "Law rune"],
-				"Chunks": ["Jaldraocht Pyramid"],
+				"Chunks": ["13116", "Jaldraocht Pyramid"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 2
@@ -36497,7 +36511,7 @@
 			},
 			"Cast ~|tele-group ice plateau|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "11837"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 4
@@ -36588,14 +36602,14 @@
 			},
 			"Cast ~|Trollheim farm teleport|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "11321"],
 				"Level": 92,
 				"Primary": true,
 				"Priority": 3
 			},
 			"Cast ~|tele-group Trollheim farm|~": {
 				"Items": ["Law rune", "Astral rune", "Water rune+"],
-				"Chunks": ["8508"],
+				"Chunks": ["8508", "11321"],
 				"Level": 92,
 				"Primary": true,
 				"Priority": 4
@@ -36697,7 +36711,7 @@
 			},
 			"Cast ~|Ghorrock teleport|~": {
 				"Items": ["Law rune", "Water rune+"],
-				"Chunks": ["Jaldraocht Pyramid"],
+				"Chunks": ["11836", "Jaldraocht Pyramid"],
 				"Level": 96,
 				"Primary": true,
 				"Priority": 1
