@@ -380,6 +380,7 @@ let rules = {
     "Herblore Unlocked Exception": false,
     "All Shops": false,
     "Quest Skill Reqs": false,
+	"Token": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -459,6 +460,7 @@ let ruleNames = {
     "Herblore Unlocked Exception": "Unlock Herblore immediately without Druidic Ritual (for accounts that make exceptions and complete the quest outside their chunks)",
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
     "Quest Skill Reqs": "Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
+	"Token": "Allow token xp drops to count as a primary training method",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -531,6 +533,7 @@ let rulePresets = {
         "Primary Spawns": true,
         "Tutor Ammo":  true,
         "Spells": true,
+		"Token": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -590,6 +593,7 @@ let rulePresets = {
         "Money Unlockables": true,
         "Prayers": true,
         "All Droptables": true,
+		"Token": true,
     },
 };                                                                              // List of rules that are part of each preset
 
@@ -614,7 +618,8 @@ let ruleStructure = {
         "Wield Crafted Items": true,
         "Secondary Primary": true,
         "CoX": true,
-        "Quest Skill Reqs": true
+        "Quest Skill Reqs": true,
+		"Token": true
     },
     "Agility": {
         "Shortcut": true,
@@ -786,7 +791,8 @@ let maybePrimary = [
     "Raking",
     "Sulphurous Fertiliser",
     "Shortcut",
-    "InsidePOH Primary"
+    "InsidePOH Primary",
+	"Token"
 ];                                                                              // Methods that are only primary if their respective rule is checked
 
 let randomLootChoices = [
