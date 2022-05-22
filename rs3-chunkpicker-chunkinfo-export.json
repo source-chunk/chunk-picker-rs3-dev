@@ -34185,12 +34185,14 @@
 				"Items": ["Air rune+*"],
 				"Level": 1,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 2
 			},
 			"Cast ~|confuse|~": {
 				"Items": ["Mind rune*"],
 				"Level": 1,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Wield a ~|staff|~": {
@@ -34264,6 +34266,7 @@
 				"Items": ["Water rune+", "Air rune+"],
 				"Level": 5,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Wield a ~|mindspike|~": {
@@ -34346,6 +34349,7 @@
 				"Items": ["Earth rune+", "Air rune+"],
 				"Level": 9,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|south Feldip hills teleport|~": {
@@ -34370,12 +34374,14 @@
 				"Items": ["Body rune"],
 				"Level": 11,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|fire strike|~": {
 				"Items": ["Fire rune+", "Air rune+"],
 				"Level": 13,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|enchant crossbow bolt (jade)|~": {
@@ -34396,12 +34402,14 @@
 				"Items": ["Air rune+"],
 				"Level": 17,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|curse|~": {
 				"Items": ["Chaos rune"],
 				"Level": 19,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|Taverley teleport|~": {
@@ -34414,6 +34422,7 @@
 				"Items": ["Nature rune"],
 				"Level": 20,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 7
 			},
 			"Wield a ~|spider wand|~": {
@@ -34453,6 +34462,7 @@
 				"Items": ["Water rune+", "Air rune+"],
 				"Level": 23,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|enchant crossbow bolt (pearl)|~": {
@@ -34555,6 +34565,7 @@
 				"Items": ["Earth rune+", "Air rune+"],
 				"Level": 29,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|enchant crossbow bolt (red topaz)|~": {
@@ -34613,6 +34624,7 @@
 				"Items": ["Fire rune+", "Air rune+"],
 				"Level": 35,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|Falador teleport|~": {
@@ -34667,6 +34679,7 @@
 				"Items": ["Air rune+"],
 				"Level": 41,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|superheat item|~": {
@@ -34700,6 +34713,7 @@
 				"Items": ["Water rune+", "Air rune+"],
 				"Level": 47,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Wield a ~|tome of frost|~": {
@@ -34778,6 +34792,7 @@
 				"Items": ["Slayer's Staff", "Air rune+", "Death rune"],
 				"Level": 50,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Skills": {
 					"Slayer": 55
 				},
@@ -34787,6 +34802,7 @@
 				"Items": ["AltSlayStaff+", "Death rune", "Air rune+"],
 				"Level": 50,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 4
 			},
 			"Cast ~|smoke rush|~": {
@@ -34794,12 +34810,14 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 50,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 5
 			},
 			"Cast ~|snare|~": {
 				"Items": ["Nature rune"],
 				"Level": 50,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 6
 			},
 			"Wield an ~|ancient staff|~": {
@@ -34867,12 +34885,14 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 52,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|earth blast|~": {
 				"Items": ["Earth rune+", "Air rune+"],
 				"Level": 53,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Wield a ~|nature staff|~": {
@@ -34917,6 +34937,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 56,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|charge water orb|~": {
@@ -34966,6 +34987,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 58,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|Watchtower teleport|~": {
@@ -34978,6 +35000,7 @@
 				"Items": ["Fire rune+", "Air rune+"],
 				"Level": 59,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|bones to peaches|~": {
@@ -35000,6 +35023,7 @@
 				"Chunks": ["12349"],
 				"Level": 60,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 3
 			},
 			"Cast ~|Senntisten teleport|~": {
@@ -35100,6 +35124,7 @@
 				"Items": ["Air rune+"],
 				"Level": 62,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|smoke burst|~": {
@@ -35107,6 +35132,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 62,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 2
 			},
 			"Cast ~|charge fire orb|~": {
@@ -35127,6 +35153,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 64,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 2
 			},
 			"Cast ~|bake pie|~ on an uncooked berry pie": {
@@ -35232,6 +35259,7 @@
 				"Items": ["Air rune+", "Water rune+"],
 				"Level": 65,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 10
 			},
 			"Wield a ~|lunar staff|~": {
@@ -35260,6 +35288,7 @@
 				"Items": ["Soul rune", "Chaos rune"],
 				"Level": 66,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 2
 			},
 			"Cast ~|Kharyrll teleport|~": {
@@ -35324,6 +35353,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 68,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 5
 			},
 			"Cast ~|cure other|~": {
@@ -35358,6 +35388,7 @@
 				"Items": ["Air rune+", "Earth rune+"],
 				"Level": 70,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 5
 			},
 			"Cast ~|ice burst|~": {
@@ -35365,6 +35396,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 70,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 6
 			},
 			"Cast ~|tele-group Moonclan|~": {
@@ -35526,6 +35558,7 @@
 				"Items": ["Soul rune", "Body rune"],
 				"Level": 73,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|tele-group Waterbirth|~": {
@@ -35540,6 +35573,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 74,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|tele-other Lumbridge|~": {
@@ -35560,12 +35594,14 @@
 				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
 				"Level": 74,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 4
 			},
 			"Cast ~|fire wave|~": {
 				"Items": ["Fire rune+", "Air rune+"],
 				"Level": 75,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|barbarian teleport|~": {
@@ -35643,6 +35679,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 76,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|tele-group barbarian|~": {
@@ -35670,6 +35707,7 @@
 				"Items": ["Armadyl rune"],
 				"Level": 77,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 2
 			},
 			"Cast ~|sapphire aurora|~": {
@@ -35729,6 +35767,7 @@
 				"Items": ["Nature rune"],
 				"Level": 79,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|tele-group Khazard|~": {
@@ -35757,6 +35796,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 80,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|string jewelry|~ on an unstrung symbol": {
@@ -35850,12 +35890,14 @@
 				"Items": ["Soul rune", "Mind rune"],
 				"Level": 80,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 13
 			},
 			"Cast ~|polypore strike|~": {
 				"Items": ["Fire rune+", "Polypore spore", "Polypore staff"],
 				"Level": 80,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 14
 			},
 			"Cast ~|prism of salvation|~": {
@@ -35965,6 +36007,7 @@
 				"Items": ["Air rune+"],
 				"Level": 81,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|ruby aurora|~": {
@@ -36000,6 +36043,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 82,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|tele-other Falador|~": {
@@ -36145,6 +36189,7 @@
 				"Items": ["Water rune+", "Air rune+"],
 				"Level": 85,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 3
 			},
 			"Cast ~|telekinetic grind|~": {
@@ -36195,6 +36240,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 86,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|tele-group fishing guild|~": {
@@ -36373,6 +36419,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 88,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|tele-group Catherby|~": {
@@ -36459,6 +36506,7 @@
 				"Items": ["Air rune+", "Earth rune+"],
 				"Level": 90,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 5
 			},
 			"Cast ~|disruption shield|~": {
@@ -36528,6 +36576,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 92,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|heal other|~": {
@@ -36595,6 +36644,7 @@
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 94,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 1
 			},
 			"Cast ~|vengeance|~": {
@@ -36622,6 +36672,7 @@
 				"Items": ["Fire rune+", "Air rune+"],
 				"Level": 95,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 2
 			},
 			"Cast ~|vengeance group|~": {
@@ -36670,6 +36721,7 @@
 				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
 				"Level": 96,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 4
 			},
 			"Cast ~|enchant bakriminel bolt (dragonstone)|~": {
@@ -36698,6 +36750,7 @@
 				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
 				"Level": 98,
 				"Primary": true,
+				"Monsters" : [ "Monster+" ],
 				"Priority": 2
 			},
 			"Cast ~|borrowed power|~": {
@@ -55499,7 +55552,7 @@
 				"Donnacha": 1,
 				"Ronan": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Xmas 2016"
 		},
 		"8007": {
 			"Object": {
@@ -55527,6 +55580,9 @@
 			"Monster": {
 				"Knight of Ardougne (Mourner)": 4,
 				"Dark beast": 19
+			},
+			"Connect": {
+				"10035": true
 			},
 			"Name": "Temple of Light"
 		},
@@ -55931,7 +55987,7 @@
 				"Prison Pete": 1,
 				"Balloon animal": 16
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "ScapeRune Party Room"
 		},
 		"8267": {
 			"Object": {
@@ -57247,7 +57303,7 @@
 				"Crawling hand": 11,
 				"Cave bug": 11
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Burthorpe Slayer Cave"
 		},
 		"8779": {
 			"Object": {
@@ -59993,7 +60049,7 @@
 			"Spawn": {
 				"Barrel": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Jorral's Outpost"
 		},
 		"9781": {
 			"Object": {
@@ -60128,7 +60184,7 @@
 			"Monster": {
 				"Cobalt skillchompa": 14
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Cobalt skillchompa Hunting Ground"
 		},
 		"9790": {
 			"Object": {
@@ -60137,13 +60193,13 @@
 			"Monster": {
 				"Acheron mammoth": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South-West Acheron Mammoths"
 		},
 		"9791": {
 			"Monster": {
 				"Acheron mammoth": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North-West Acheron Mammoths"
 		},
 		"9793": {
 			"Object": {
@@ -60750,7 +60806,7 @@
 				"Villager": 1,
 				"Sir Owen": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ashdale Chapel"
 		},
 		"10026": {
 			"Object": {
@@ -60761,7 +60817,7 @@
 			"NPC": {
 				"Quarry overseer": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ashdale Mine"
 		},
 		"10028": {
 			"Object": {
@@ -60845,7 +60901,7 @@
 				"Ocellus's Store": true,
 				"Hunting Supplies": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Feldip Hunter Area"
 		},
 		"10030": {
 			"Object": {
@@ -61071,6 +61127,7 @@
 				"Koftik": 2
 			},
 			"Connect": {
+				"8008": true,
 				"10136": true
 			},
 			"Spawn": {
@@ -88350,6 +88407,7 @@
 				"8007": true,
 				"8779": true,
 				"9369": true,
+				"10035": true,
 				"19044": true
 			}
 		},
@@ -88545,6 +88603,26 @@
 			},
 			"Monster": {
 				"Wizard": 1
+			}
+		},
+		"Xmas 2016": {
+			"Object": {
+				"Paintcans": 13,
+				"Decorations Box": 16,
+				"Puppet heads": 6,
+				"Puppet torsos": 6,
+				"Puppet arms": 6,
+				"Puppet legs": 6,
+				"Puppet box": 2
+			},
+			"NPC": {
+				"Rosie": 1,
+				"Sorcha": 1,
+				"Cait": 1,
+				"Cormac": 1,
+				"Fionn": 1,
+				"Donnacha": 1,
+				"Ronan": 1
 			}
 		},
 		"Hallowe'en 2006": {
@@ -90962,6 +91040,17 @@
 			}
 		},
 		"Ocean": {},
+		"ScapeRune Party Room": {
+			"Object": {
+				"Dead tree": 8,
+				"Lever": 1,
+				"Deposit box": 1
+			},
+			"NPC": {
+				"Prison Pete": 1,
+				"Balloon animal": 16
+			}
+		},
 		"Dragon forge": {
 			"Object": {
 				"Rough hewn steps": 2,
@@ -111004,23 +111093,282 @@
 			"Torstol seed": {
 				"1": "Very rare"
 			},
-			"Warpriest of Bandos helm": {
-				"1": "1/128"
+			"Long bone": {
+				"1": "1/400"
 			},
-			"Warpriest of Bandos cuirass": {
-				"1": "1/128"
+			"Curved bone": {
+				"1": "1/5000"
 			},
-			"Warpriest of Bandos greaves": {
-				"1": "1/128"
+			"Shoulder bone": {
+				"1": "Common"
 			},
-			"Warpriest of Bandos gauntlets": {
-				"1": "1/128"
+			"Sealed clue scroll (hard)": {
+				"1": "1/512"
 			},
-			"Warpriest of Bandos boots": {
-				"1": "1/128"
+			"Starved ancient effigy": {
+				"1": "Very rare"
 			},
-			"Warpriest of Bandos cape": {
-				"1": "1/128"
+			"Rare drop table": {
+				"1": "Rare"
+			}
+		},
+		"Cyclops (Warrior)": {
+			"Big bones": {
+				"1": "Always",
+				"2": "Always"
+			},
+			"Coins": {
+				"8": "Common",
+				"15": "Common",
+				"38": "Common",
+				"52": "Common",
+				"88": "Common",
+				"5-473": "Common"
+			},
+			"Water rune": {
+				"7": "Uncommon"
+			},
+			"Fire rune": {
+				"15": "Uncommon"
+			},
+			"Mind rune": {
+				"3": "Uncommon"
+			},
+			"Cosmic rune": {
+				"2": "Uncommon"
+			},
+			"Chaos rune": {
+				"2": "Rare"
+			},
+			"Nature rune": {
+				"6": "Uncommon"
+			},
+			"Death rune": {
+				"2": "Rare"
+			},
+			"Iron arrow": {
+				"3": "Common"
+			},
+			"Steel arrow": {
+				"10": "Uncommon"
+			},
+			"Beer": {
+				"1": "Common"
+			},
+			"Tiny spiky iron salvage": {
+				"1": "Uncommon"
+			},
+			"Small plated iron salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated iron salvage": {
+				"1": "Uncommon"
+			},
+			"Small bladed steel salvage": {
+				"1": "Uncommon"
+			},
+			"Limpwurt root": {
+				"1": "Common"
+			},
+			"Body talisman": {
+				"1": "Uncommon"
+			},
+			"Potato seed": {
+				"4": "Common"
+			},
+			"Onion seed": {
+				"4": "Uncommon"
+			},
+			"Cabbage seed": {
+				"4": "Uncommon"
+			},
+			"Barley seed": {
+				"4": "Rare"
+			},
+			"Tomato seed": {
+				"3": "Rare"
+			},
+			"Sweetcorn seed": {
+				"3": "Rare"
+			},
+			"Hammerstone seed": {
+				"3": "Rare"
+			},
+			"Asgarnian seed": {
+				"3": "Rare"
+			},
+			"Jute seed": {
+				"2": "Rare"
+			},
+			"Strawberry seed": {
+				"1": "Rare",
+				"2": "Rare"
+			},
+			"Yanillian seed": {
+				"2": "Rare"
+			},
+			"Watermelon seed": {
+				"1": "Very rare",
+				"2": "Rare"
+			},
+			"Krandorian seed": {
+				"2": "Rare"
+			},
+			"Wildblood seed": {
+				"1": "Very rare"
+			},
+			"Grimy guam": {
+				"1": "Rare"
+			},
+			"Grimy tarromin": {
+				"1": "Rare"
+			},
+			"Grimy marrentill": {
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy irit": {
+				"1": "Rare"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Very rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Black knife": {
+				"4-19": "Common"
+			},
+			"Off-hand black knife": {
+				"4-19": "Common"
+			},
+			"Black sword": {
+				"1": "Rare"
+			},
+			"Off-hand black sword": {
+				"1": "Rare"
+			},
+			"Black dagger": {
+				"1": "Rare"
+			},
+			"Off-hand black dagger": {
+				"1": "Rare"
+			},
+			"Black longsword": {
+				"1": "Rare"
+			},
+			"Off-hand black longsword": {
+				"1": "Rare"
+			},
+			"Black 2h sword": {
+				"1": "Rare"
+			},
+			"Medium bladed iron salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny spiky steel salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny blunt steel salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny plated steel salvage": {
+				"1": "Uncommon"
+			},
+			"Medium bladed steel salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated steel salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny spiky mithril salvage": {
+				"1": "Rare"
+			},
+			"Small bladed mithril salvage": {
+				"1": "Rare"
+			},
+			"Tiny blunt adamant salvage": {
+				"1": "Rare"
+			},
+			"Medium bladed adamant salvage": {
+				"1": "Rare"
+			},
+			"Limpwurt seed": {
+				"1": "Rare"
+			},
+			"Jangerberry seed": {
+				"1": "Very rare"
+			},
+			"Whiteberry seed": {
+				"1": "Very rare"
+			},
+			"Poison ivy seed": {
+				"1": "Very rare"
+			},
+			"Bittercap mushroom spore": {
+				"1": "Very rare"
+			},
+			"Cactus seed": {
+				"1": "Very rare"
+			},
+			"Belladonna seed": {
+				"1": "Very rare"
+			},
+			"Marrentill seed": {
+				"1": "Rare"
+			},
+			"Tarromin seed": {
+				"1": "Very rare"
+			},
+			"Harralander seed": {
+				"1": "Very rare"
+			},
+			"Ranarr seed": {
+				"1": "Very rare"
+			},
+			"Spirit weed seed": {
+				"1": "Very rare"
+			},
+			"Toadflax seed": {
+				"1": "Very Rare"
+			},
+			"Irit seed": {
+				"1": "Very rare"
+			},
+			"Avantoe seed": {
+				"1": "Very rare"
+			},
+			"Kwuarm seed": {
+				"1": "Very rare"
+			},
+			"Snapdragon seed": {
+				"1": "Very rare"
+			},
+			"Cadantine seed": {
+				"1": "Very rare"
+			},
+			"Lantadyme seed": {
+				"1": "Very rare"
+			},
+			"Dwarf weed seed": {
+				"1": "Very rare"
+			},
+			"Torstol seed": {
+				"1": "Very rare"
 			},
 			"Bronze defender": {
 				"1": "uncommon"
@@ -111045,6 +111393,301 @@
 			},
 			"Dragon defender": {
 				"1": "Uncommon"
+			},
+			"Long bone": {
+				"1": "1/400"
+			},
+			"Curved bone": {
+				"1": "1/5000"
+			},
+			"Shoulder bone": {
+				"1": "Common"
+			},
+			"Sealed clue scroll (hard)": {
+				"1": "1/512"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			}
+		},
+		"Cyclops (GWD)": {
+			"Big bones": {
+				"1": "Always",
+				"2": "Always"
+			},
+			"Coins": {
+				"8": "Common",
+				"15": "Common",
+				"38": "Common",
+				"52": "Common",
+				"88": "Common",
+				"5-473": "Common"
+			},
+			"Water rune": {
+				"7": "Uncommon"
+			},
+			"Fire rune": {
+				"15": "Uncommon"
+			},
+			"Mind rune": {
+				"3": "Uncommon"
+			},
+			"Cosmic rune": {
+				"2": "Uncommon"
+			},
+			"Chaos rune": {
+				"2": "Rare"
+			},
+			"Nature rune": {
+				"6": "Uncommon"
+			},
+			"Death rune": {
+				"2": "Rare"
+			},
+			"Iron arrow": {
+				"3": "Common"
+			},
+			"Steel arrow": {
+				"10": "Uncommon"
+			},
+			"Beer": {
+				"1": "Common"
+			},
+			"Tiny spiky iron salvage": {
+				"1": "Uncommon"
+			},
+			"Small plated iron salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated iron salvage": {
+				"1": "Uncommon"
+			},
+			"Small bladed steel salvage": {
+				"1": "Uncommon"
+			},
+			"Limpwurt root": {
+				"1": "Common"
+			},
+			"Body talisman": {
+				"1": "Uncommon"
+			},
+			"Potato seed": {
+				"4": "Common"
+			},
+			"Onion seed": {
+				"4": "Uncommon"
+			},
+			"Cabbage seed": {
+				"4": "Uncommon"
+			},
+			"Barley seed": {
+				"4": "Rare"
+			},
+			"Tomato seed": {
+				"3": "Rare"
+			},
+			"Sweetcorn seed": {
+				"3": "Rare"
+			},
+			"Hammerstone seed": {
+				"3": "Rare"
+			},
+			"Asgarnian seed": {
+				"3": "Rare"
+			},
+			"Jute seed": {
+				"2": "Rare"
+			},
+			"Strawberry seed": {
+				"1": "Rare",
+				"2": "Rare"
+			},
+			"Yanillian seed": {
+				"2": "Rare"
+			},
+			"Watermelon seed": {
+				"1": "Very rare",
+				"2": "Rare"
+			},
+			"Krandorian seed": {
+				"2": "Rare"
+			},
+			"Wildblood seed": {
+				"1": "Very rare"
+			},
+			"Grimy guam": {
+				"1": "Rare"
+			},
+			"Grimy tarromin": {
+				"1": "Rare"
+			},
+			"Grimy marrentill": {
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy irit": {
+				"1": "Rare"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Very rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Black knife": {
+				"4-19": "Common"
+			},
+			"Off-hand black knife": {
+				"4-19": "Common"
+			},
+			"Black sword": {
+				"1": "Rare"
+			},
+			"Off-hand black sword": {
+				"1": "Rare"
+			},
+			"Black dagger": {
+				"1": "Rare"
+			},
+			"Off-hand black dagger": {
+				"1": "Rare"
+			},
+			"Black longsword": {
+				"1": "Rare"
+			},
+			"Off-hand black longsword": {
+				"1": "Rare"
+			},
+			"Black 2h sword": {
+				"1": "Rare"
+			},
+			"Medium bladed iron salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny spiky steel salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny blunt steel salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny plated steel salvage": {
+				"1": "Uncommon"
+			},
+			"Medium bladed steel salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated steel salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny spiky mithril salvage": {
+				"1": "Rare"
+			},
+			"Small bladed mithril salvage": {
+				"1": "Rare"
+			},
+			"Tiny blunt adamant salvage": {
+				"1": "Rare"
+			},
+			"Medium bladed adamant salvage": {
+				"1": "Rare"
+			},
+			"Limpwurt seed": {
+				"1": "Rare"
+			},
+			"Jangerberry seed": {
+				"1": "Very rare"
+			},
+			"Whiteberry seed": {
+				"1": "Very rare"
+			},
+			"Poison ivy seed": {
+				"1": "Very rare"
+			},
+			"Bittercap mushroom spore": {
+				"1": "Very rare"
+			},
+			"Cactus seed": {
+				"1": "Very rare"
+			},
+			"Belladonna seed": {
+				"1": "Very rare"
+			},
+			"Marrentill seed": {
+				"1": "Rare"
+			},
+			"Tarromin seed": {
+				"1": "Very rare"
+			},
+			"Harralander seed": {
+				"1": "Very rare"
+			},
+			"Ranarr seed": {
+				"1": "Very rare"
+			},
+			"Spirit weed seed": {
+				"1": "Very rare"
+			},
+			"Toadflax seed": {
+				"1": "Very Rare"
+			},
+			"Irit seed": {
+				"1": "Very rare"
+			},
+			"Avantoe seed": {
+				"1": "Very rare"
+			},
+			"Kwuarm seed": {
+				"1": "Very rare"
+			},
+			"Snapdragon seed": {
+				"1": "Very rare"
+			},
+			"Cadantine seed": {
+				"1": "Very rare"
+			},
+			"Lantadyme seed": {
+				"1": "Very rare"
+			},
+			"Dwarf weed seed": {
+				"1": "Very rare"
+			},
+			"Torstol seed": {
+				"1": "Very rare"
+			},
+			"Warpriest of Bandos helm": {
+				"1": "1/128"
+			},
+			"Warpriest of Bandos cuirass": {
+				"1": "1/128"
+			},
+			"Warpriest of Bandos greaves": {
+				"1": "1/128"
+			},
+			"Warpriest of Bandos gauntlets": {
+				"1": "1/128"
+			},
+			"Warpriest of Bandos boots": {
+				"1": "1/128"
+			},
+			"Warpriest of Bandos cape": {
+				"1": "1/128"
 			},
 			"Long bone": {
 				"1": "1/400"
@@ -130320,6 +130963,17 @@
 			}
 		},
 		"Knight of Ardougne": {
+			"Court summons": {
+				"1": "Uncommon"
+			},
+			"Bones": {
+				"1": "Always"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Knight of Ardougne (Mourner)": {
 			"Court summons": {
 				"1": "Uncommon"
 			},
@@ -160403,7 +161057,7 @@
 		"Jatix's Herblore Shop": {
 			"Vial of water": true,
 			"Eye of newt": true,
-			"Grimy guam": true,
+			"Grimy guam": false,
 			"Vial": true,
 			"Vial pack": true,
 			"Vial of water pack": true,
