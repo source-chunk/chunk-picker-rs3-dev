@@ -17865,6 +17865,14 @@
 				"Level": 48,
 				"Primary": false,
 				"Priority": 4
+			},
+			"Spin flax into ~|bowstring|~": {
+				"Items": ["Flax"],
+				"Objects": ["Spinning wheel"],
+				"Level": 1,
+				"Output": "Bowstring",
+				"Primary": true,
+				"Priority": 34
 			}
 		},
 		"Defence": {
