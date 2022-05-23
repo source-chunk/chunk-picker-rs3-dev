@@ -1978,7 +1978,7 @@ var calcChallengesWork = function(chunks, baseChunkData) {
                 return;
             }
             if (chunkInfo['challenges'][skill][name].hasOwnProperty('QuestPointsNeeded')) {
-                if (questPointTotal < chunkInfo['challenges'][skill][name]['QuestPointsNeeded']) {
+                if (!questPointTotal || (questPointTotal < chunkInfo['challenges'][skill][name]['QuestPointsNeeded'])) {
                     validChallenge = false;
                     wrongThings.push('QPS');
                     nonValids[name] = wrongThings;
@@ -2295,8 +2295,7 @@ var calcChallengesWork = function(chunks, baseChunkData) {
                             !tempTempValid && (wrongThings.push(item));
                             if (!tempTempValid) {
                                 nonValids[name] = wrongThings;
-                                tempMultiStepSkill[skill][name] = true;
-                                return
+                                return;
                             };
                         }
                     }

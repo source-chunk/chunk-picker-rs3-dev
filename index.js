@@ -4116,11 +4116,9 @@ var checkPrimaryMethod = function(skill, valids, baseChunkData, wantMethods) {
     } else if (!!manualTasks[skill] && Object.keys(manualTasks[skill]).length > 0) {
         hardValid = true;
         methods['Manually added skill'] = 1;
-    } else if (!!passiveSkill && passiveSkill.hasOwnProperty(skill)) {
-        hardValid = true;
+    } else if (!!passiveSkill && passiveSkill.hasOwnProperty(skill) && passiveSkill[skill] > 1) {
         methods['Passive Leveling'] = 1;
     } else if (!!skillQuestXp && skillQuestXp.hasOwnProperty(skill)) {
-        hardValid = true;
         methods['Quest Xp Rewards'] = 1;
     } else if (!!completedChallenges[skill] && Object.keys(completedChallenges[skill]).length > 0) {
         hardValid = true;
@@ -4131,7 +4129,7 @@ var checkPrimaryMethod = function(skill, valids, baseChunkData, wantMethods) {
         if (line === 'Primary+') {
             let primaryValid = false;
             !!valids[skill] && Object.keys(valids[skill]).forEach(challenge => {
-                if (((chunkInfo['challenges'][skill][challenge]['Primary'] && (!chunkInfo['challenges'][skill][challenge]['Secondary'] || rules['Secondary Primary'])) && (chunkInfo['challenges'][skill][challenge]['Level'] === 1 || (!!passiveSkill && passiveSkill.hasOwnProperty(skill) && chunkInfo['challenges'][skill][challenge]['Level'] <= passiveSkill[skill]) || ((skillQuestXp.hasOwnProperty(skill) && chunkInfo['challenges'][skill][challenge]['Level'] <= skillQuestXp[skill]['level'])) || wantMethods) && (!backlog[skill] || !backlog[skill].hasOwnProperty(challenge))) || chunkInfo['challenges'][skill][challenge]['Manual']) {
+                if (((chunkInfo['challenges'][skill][challenge]['Primary'] && (!chunkInfo['challenges'][skill][challenge]['Secondary'] || rules['Secondary Primary'])) && (chunkInfo['challenges'][skill][challenge]['Level'] === 1 || (!!passiveSkill && passiveSkill.hasOwnProperty(skill) && passiveSkill[skill] > 1 && chunkInfo['challenges'][skill][challenge]['Level'] <= passiveSkill[skill]) || ((skillQuestXp.hasOwnProperty(skill) && chunkInfo['challenges'][skill][challenge]['Level'] <= skillQuestXp[skill]['level'])) || wantMethods) && (!backlog[skill] || !backlog[skill].hasOwnProperty(challenge))) || chunkInfo['challenges'][skill][challenge]['Manual']) {
                     if (skill !== 'Smithing' || rules['Smithing by Smelting'] || baseChunkData['objects'].hasOwnProperty('Anvil')) {
                         primaryValid = true;
                         methods[challenge] = chunkInfo['challenges'][skill][challenge]['Level'];
@@ -6768,7 +6766,7 @@ var checkMID = function(mid) {
             } else {
                 databaseRef.child('maps/' + mid).once('value', function(snap) {
                     if (!snap.val()) {
-                        window.history.replaceState(window.location.href.split('?')[0], 'Chunk Picker RS3', window.location.href.split('?')[0]);
+                        window.location.replace(window.location.href.split('?')[0]);
                         atHome = true;
                         $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9, .menu10, .settings-menu, .topnav, #beta, .hiddenInfo, #entry-menu, #highscore-menu, #highscore-menu2, #import-menu, #help-menu, .canvasDiv').hide();
                         $('.loading, .ui-loader-header').remove();
@@ -6824,6 +6822,9 @@ var setCodeItems = function() {
 
 // Loads data from Firebase
 var loadData = function(startup) {
+    if (!myRef) {
+        return;
+    }
     $.getJSON('./rs3-chunkpicker-chunkinfo-export.json', function(data) {
         gotData = true;
         chunkInfo = data;
