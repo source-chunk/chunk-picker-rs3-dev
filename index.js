@@ -963,7 +963,7 @@ let processingSkill = {
     "Constitution": false,
     "Ranged": false,
     "Prayer": false,
-    "Runecrafting": false,
+    "Runecrafting": true,
     "Magic": true,
     "Farming": false,
     "Herblore": true,
