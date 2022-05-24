@@ -7454,6 +7454,7 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Plank*", "Nails+*"],
 				"Level": 7,
+				"Output": "Beer",
 				"Skills": {
 					"Cooking": 1
 				},
@@ -7547,6 +7548,7 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Plank*", "Nails+*", "Cider*"],
 				"Level": 12,
+				"Output": "Cider",
 				"Skills": {
 					"Cooking": 14
 				},
@@ -7695,6 +7697,7 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Asgarnian ale*"],
 				"Level": 18,
+				"Output": "Asgarnian ale",
 				"Skills": {
 					"Cooking": 24
 				},
@@ -7898,11 +7901,12 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Build a ~|Greenman's Ale barrel|~": {
+			"Build a ~|Greenman's ale barrel|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Greenman's ale*"],
 				"Level": 26,
+				"Output": "Greenman's ale",
 				"Skills": {
 					"Cooking": 29
 				},
@@ -9000,6 +9004,7 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Chef's delight*", "Steel bar*"],
 				"Level": 48,
+				"Output": "Chef's delight",
 				"Skills": {
 					"Cooking": 54
 				},
