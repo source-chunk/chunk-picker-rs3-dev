@@ -310,7 +310,6 @@ let rules = {
     "Construction Milestone": false,
     "Boss": false,
     "Slayer Equipment": false,
-    "Extra implings": false,
     "Normal Farming": false,
     "Raking": false,
     "Sulphurous Fertiliser": false,
@@ -341,6 +340,7 @@ let rules = {
     "Multi Step Processing": false,
     "Shooting Star": false,
     "Puro-Puro": false,
+    "Extra implings": false,
     "Collection Log Bosses": false,
     "Collection Log Raids": false,
     "Collection Log Clues": false,
@@ -393,7 +393,6 @@ let ruleNames = {
     "Construction Milestone": "Miscellaneous Construction milestones (e.g. House location/style, servants, etc) can count for chunk tasks",
     "Boss": "Killing a boss can be used for a chunk task (item on droptable, Slayer level to kill, etc.)",
     "Slayer Equipment": "Using Slayer equipment can count for chunk tasks",
-    "Extra implings": "Include implings that have non-guaranteed spawns in Puro-Puro as chunk tasks",
     "Normal Farming": "Allow normal farming to count as a primary method for training Farming",
     "Raking": "Allow raking patches to count as a primary method for training Farming <span class='rule-asterisk noscroll'>*</span>",
     "Sulphurous Fertiliser": "Allow making sulphurous fertiliser (2xp each) to count as a primary method for training Farming",
@@ -424,6 +423,7 @@ let ruleNames = {
     "Multi Step Processing": "Items must be fully processed, even multiple times within the same skill if needed (e.g. Ore -> Bar -> Smithed Item) <span class='rule-asterisk noscroll'>*</span>",
     "Shooting Star": "Getting the level to mine all tiers of shooting stars count as Mining skill tasks <span class='rule-asterisk noscroll'>*</span>",
     "Puro-Puro": "Allow implings from Puro-Puro & their drops to count towards chunk tasks",
+    "Extra implings": "Include implings that have non-guaranteed spawns in Puro-Puro as chunk tasks",
     "Collection Log Bosses": "<b class='noscroll'>[Collection log]</b> Obtain items in the 'Bosses' tab",
     "Collection Log Raids": "<b class='noscroll'>[Collection log]</b> Obtain items in the 'Raids' tab",
     "Collection Log Clues": "<b class='noscroll'>[Collection log]</b> Obtain items in the 'Clues' tab when each tier of clue is 100% completable within your chunks <span class='rule-asterisk noscroll'>†</span>",
@@ -493,7 +493,6 @@ let rulePresets = {
         "Construction Milestone": true,
         "Boss": true,
         "Slayer Equipment": true,
-        "Extra implings": true,
         "Normal Farming": true,
         "Raking": true,
         "Sulphurous Fertiliser": true,
@@ -515,6 +514,7 @@ let rulePresets = {
         "Multi Step Processing": true,
         "Shooting Star": true,
         "Puro-Puro": true,
+        "Extra implings": true,
         "Herblore Unlocked": true,
         "Farming Primary": true,
         "Tertiary Keys": true,
@@ -546,7 +546,6 @@ let rulePresets = {
         "Construction Milestone": true,
         "Boss": true,
         "Slayer Equipment": true,
-        "Extra implings": true,
         "Normal Farming": true,
         "Raking": true,
         "Sulphurous Fertiliser": true,
@@ -568,6 +567,7 @@ let rulePresets = {
         "Multi Step Processing": true,
         "Shooting Star": true,
         "Puro-Puro": true,
+        "Extra implings": true,
         "Herblore Unlocked": true,
         "Farming Primary": true,
         "Tertiary Keys": true,
@@ -6370,17 +6370,81 @@ var resetDefaultStickerColor = function() {
 // Shows chunk history
 var showChunkHistory = function() {
     chunkHistoryModalOpen = true;
-    $('#chunkhistory-data').empty();
+    $('#chunkhistory-data-inner').empty();
     let tempDate = new Date();
     let newChunkOrder = {};
     Object.keys(chunkOrder).sort(function(a, b) { return b - a }).forEach(time => {
         if (!newChunkOrder.hasOwnProperty(chunkOrder[time])) {
             newChunkOrder[chunkOrder[time]] = time;
             tempDate.setTime(time);
-            $('#chunkhistory-data').append(`<div class="history-item ${chunkOrder[time] + '-chunk-history-item'} noscroll"><span class='noscroll item1'>${"<b class='noscroll'>" + tempDate.toLocaleDateString([], { year: 'numeric', month: 'long', day: '2-digit' }) + '</b> (' + tempDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }) + ') '}</span><span class='noscroll item2'>${"<b class='noscroll'>" + ((chunkInfo['chunks'].hasOwnProperty(parseInt(chunkOrder[time])) && chunkInfo['chunks'][parseInt(chunkOrder[time])].hasOwnProperty('Nickname')) ? chunkInfo['chunks'][parseInt(chunkOrder[time])]['Nickname'] : 'Unknown chunk') + '</b>' + ' (' + chunkOrder[time] + ')'}</span></div>`);
+            $('#chunkhistory-data-inner').append(`<div class="history-item ${chunkOrder[time] + '-chunk-history-item'} noscroll"><span class='noscroll item1'>${"<b class='noscroll'>" + tempDate.toLocaleDateString([], { year: 'numeric', month: 'long', day: '2-digit' }) + '</b> (' + tempDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }) + ') '}</span><span class='noscroll item2'>${"<b class='noscroll'>" + ((chunkInfo['chunks'].hasOwnProperty(parseInt(chunkOrder[time])) && chunkInfo['chunks'][parseInt(chunkOrder[time])].hasOwnProperty('Nickname')) ? chunkInfo['chunks'][parseInt(chunkOrder[time])]['Nickname'] : 'Unknown chunk') + '</b>' + ' (' + chunkOrder[time] + ')'}</span></div>`);
         }
     });
-    document.getElementById('chunkhistory-data').scrollTop = 0;
+    // Graph
+    if (Object.keys(newChunkOrder).length >= 3 && (Date.now() - Object.keys(chunkOrder).sort(function(a, b) { return a - b })[0] >= 300000 && !!tempChunks['unlocked'] && Object.keys(tempChunks['unlocked']).length >= 3)) {
+        $('.canvas-graph-outer').show();
+        let canvasGraph = document.getElementById('canvas-graph');
+        let ctxGraph = canvasGraph.getContext('2d');
+        let padding = 35;
+        ctxGraph.fillStyle = "white";
+        ctxGraph.fillRect(0, 0, canvasGraph.width, canvasGraph.height);
+        let startingWidth = Object.keys(chunkOrder).sort(function(a, b) { return a - b })[0];
+        let fullWidth = Date.now() - Object.keys(chunkOrder).sort(function(a, b) { return a - b })[0];
+        let fullHeight = Object.keys(newChunkOrder).length * 1.1;
+        let count = 0;
+        let prevY = canvasGraph.height - padding - 2;
+        ctxGraph.beginPath();
+        ctxGraph.strokeStyle = "black";
+        ctxGraph.lineWidth = 3;
+        ctxGraph.moveTo(padding, padding);
+        ctxGraph.lineTo(padding, canvasGraph.height - padding);
+        ctxGraph.lineTo(canvasGraph.width - padding, canvasGraph.height - padding);
+        ctxGraph.stroke();
+        ctxGraph.beginPath();
+        ctxGraph.strokeStyle = "grey";
+        ctxGraph.lineWidth = 1;
+        for (let lineNum = 1; lineNum <= 3; lineNum++) {
+            ctxGraph.moveTo(padding, canvasGraph.height - padding - ((canvasGraph.height - padding * 2) * (Math.floor(fullHeight / 3) * lineNum / fullHeight)));
+            ctxGraph.lineTo(canvasGraph.width - padding, canvasGraph.height - padding - ((canvasGraph.height - padding * 2) * (Math.floor(fullHeight / 3) * lineNum / fullHeight)));
+        }
+        for (let lineNum = 0; lineNum <= 5; lineNum++) {
+            ctxGraph.moveTo(canvasGraph.width - padding - ((canvasGraph.width - padding * 2) * (Math.floor(fullWidth / 6) * lineNum / fullWidth)), padding);
+            ctxGraph.lineTo(canvasGraph.width - padding - ((canvasGraph.width - padding * 2) * (Math.floor(fullWidth / 6) * lineNum / fullWidth)), canvasGraph.height - padding);
+        }
+        ctxGraph.stroke();
+        ctxGraph.font = '16px Calibri, Roboto Condensed, sans-serif';
+        ctxGraph.fillStyle = "black";
+        ctxGraph.textAlign = "right";
+        let offset = Object.keys(tempChunks['unlocked']).length - Object.keys(newChunkOrder).length;
+        for (let lineNum = 0; lineNum <= 3; lineNum++) {
+            ctxGraph.fillText(Math.floor(fullHeight / 3) * lineNum + offset, padding - 5, canvasGraph.height - padding + 4 - ((canvasGraph.height - padding * 2) * (Math.floor(fullHeight / 3) * lineNum / fullHeight)));
+        }
+        ctxGraph.textAlign = "center";
+        for (let lineNum = 1; lineNum <= 6; lineNum++) {
+            let tempDate = new Date();
+            tempDate.setTime(parseInt(startingWidth) + (Math.floor(fullWidth / 6) * lineNum));
+            ctxGraph.fillText(tempDate.toDateString().split(' ')[1] + ' ' + tempDate.toDateString().split(' ')[2], padding + ((canvasGraph.width - padding * 2) * (Math.floor(fullWidth / 6) * lineNum / fullWidth)), canvasGraph.height - 20);
+        }
+        ctxGraph.beginPath();
+        ctxGraph.strokeStyle = "rgb(66, 133, 244)";
+        ctxGraph.lineWidth = 3;
+        ctxGraph.moveTo((((Object.keys(chunkOrder).sort(function(a, b) { return a - b })[0] - startingWidth) / fullWidth) * canvasGraph.width) + padding + 3, prevY);
+        newChunkOrder = {};
+        Object.keys(chunkOrder).sort(function(a, b) { return a - b }).forEach(time => {
+            if (!newChunkOrder.hasOwnProperty(chunkOrder[time])) {
+                newChunkOrder[chunkOrder[time]] = time;
+                count++;
+                ctxGraph.lineTo((((time - startingWidth) / fullWidth) * (canvasGraph.width - (padding * 2) - 3)) + padding + 3, prevY);
+                ctxGraph.lineTo((((time - startingWidth) / fullWidth) * (canvasGraph.width - (padding * 2) - 3)) + padding + 3, (canvasGraph.height - ((count / fullHeight) * (canvasGraph.height - (padding * 2) - 2))) - padding - 2);
+                prevY = (canvasGraph.height - ((count / fullHeight) * (canvasGraph.height - (padding * 2) - 2))) - padding - 2;
+            }
+        });
+        ctxGraph.lineTo((((Date.now() - startingWidth) / fullWidth) * (canvasGraph.width - (padding * 2) - 3)) + padding + 3, prevY);
+        ctxGraph.stroke();
+    } else {
+        $('.canvas-graph-outer').hide();
+    }
+    document.getElementById('chunkhistory-data-inner').scrollTop = 0;
     $('#myModal18').show();
     settingsMenu();
 }

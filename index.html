@@ -325,7 +325,12 @@
       <i class="manual-close pic fas fa-times noscrollhard" onclick="closeChunkHistory()"></i>
       <div id="chunkhistory-title" class="chunkhistory-title noscroll">Chunk-roll History</div>
       <div id="chunkhistory-subtitle" class="chunkhistory-subtitle noscroll">Explore the entire list of your previously rolled chunks. Useful for helping track the order your map unlocked in or remember what chunks you unlocked last week.</div>
-      <div id="chunkhistory-data" class="chunkhistory-data noscroll"></div>
+      <div id="chunkhistory-data" class="chunkhistory-data noscroll">
+        <div class="canvas-graph-outer">
+          <canvas id="canvas-graph" width=550 height=300></canvas>
+        </div>
+        <div id="chunkhistory-data-inner" class="chunkhistory-data-inner noscroll"></div>
+      </div>
     </div>
   </div>
   <div id="myModal19" class="modal">
