@@ -7454,6 +7454,7 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Plank*", "Nails+*"],
 				"Level": 7,
+				"Output": "Beer",
 				"Skills": {
 					"Cooking": 1
 				},
@@ -7547,6 +7548,7 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Plank*", "Nails+*", "Cider*"],
 				"Level": 12,
+				"Output": "Cider",
 				"Skills": {
 					"Cooking": 14
 				},
@@ -7695,6 +7697,7 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Asgarnian ale*"],
 				"Level": 18,
+				"Output": "Asgarnian ale",
 				"Skills": {
 					"Cooking": 24
 				},
@@ -7898,11 +7901,12 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Build a ~|Greenman's Ale barrel|~": {
+			"Build a ~|Greenman's ale barrel|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Greenman's ale*"],
 				"Level": 26,
+				"Output": "Greenman's ale",
 				"Skills": {
 					"Cooking": 29
 				},
@@ -9000,6 +9004,7 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Chef's delight*", "Steel bar*"],
 				"Level": 48,
+				"Output": "Chef's delight",
 				"Skills": {
 					"Cooking": 54
 				},
@@ -55823,7 +55828,8 @@
 				"Spikes": 7,
 				"Girders": 9,
 				"Tent": 10,
-				"Tower": 2
+				"Tower": 2,
+				"Training dummy": 2
 			},
 			"NPC": {
 				"Harlan": 1,
@@ -55832,9 +55838,6 @@
 				"Saradominist crusader": 4,
 				"Zamorakian footsoldier": 4,
 				"Faintly glowing pool": 8
-			},
-			"Monster": {
-				"Training dummy": 2
 			}
 		},
 		"8037": {
@@ -56245,7 +56248,8 @@
 				"Spikes": 7,
 				"Girders": 11,
 				"Tent": 9,
-				"Tower": 2
+				"Tower": 2,
+				"Training dummy": 2
 			},
 			"NPC": {
 				"Harlan": 1,
@@ -56254,9 +56258,6 @@
 				"Saradominist crusader": 4,
 				"Zamorakian footsoldier": 4,
 				"Faintly glowing pool": 8
-			},
-			"Monster": {
-				"Training dummy": 2
 			}
 		},
 		"8293": {
@@ -56866,7 +56867,8 @@
 				"Spikes": 7,
 				"Girders": 11,
 				"Tent": 7,
-				"Tower": 2
+				"Tower": 2,
+				"Training dummy": 2
 			},
 			"NPC": {
 				"Harlan": 1,
@@ -56875,9 +56877,6 @@
 				"Saradominist crusader": 4,
 				"Zamorakian footsoldier": 4,
 				"Faintly glowing pool": 8
-			},
-			"Monster": {
-				"Training dummy": 2
 			}
 		},
 		"8549": {
@@ -57499,7 +57498,8 @@
 				"Spikes": 7,
 				"Girders": 11,
 				"Tent": 7,
-				"Tower": 2
+				"Tower": 2,
+				"Training dummy": 2
 			},
 			"NPC": {
 				"Harlan": 1,
@@ -57508,9 +57508,6 @@
 				"Saradominist crusader": 4,
 				"Zamorakian footsoldier": 4,
 				"Faintly glowing pool": 8
-			},
-			"Monster": {
-				"Training dummy": 2
 			}
 		},
 		"8805": {
@@ -58811,16 +58808,14 @@
 				"Spikes": 8,
 				"Girders": 9,
 				"Tent": 9,
-				"Tower": 2
+				"Tower": 2,
+				"Training dummy": 2
 			},
 			"NPC": {
 				"Harlan": 1,
 				"Hank": 1,
 				"Kara-Meir": 1,
 				"Faintly glowing pool": 8
-			},
-			"Monster": {
-				"Training dummy": 2
 			}
 		},
 		"9316": {
@@ -67597,7 +67592,8 @@
 				"Cooking range": 2,
 				"Bookcase": 10,
 				"Clan flag": 1,
-				"Anvil": 1
+				"Anvil": 1,
+				"Training dummy": 2
 			},
 			"NPC": {
 				"Gaius": 1,
@@ -67663,7 +67659,6 @@
 				"Cosmic Billy": 1
 			},
 			"Monster": {
-				"Training dummy": 2,
 				"Rabbit": 7
 			},
 			"Connect": {
@@ -71320,16 +71315,14 @@
 				"Tower": 1,
 				"Memorial fountain": 1,
 				"Anvil": 2,
-				"Forge": 2
+				"Forge": 2,
+				"Training dummy": 2
 			},
 			"NPC": {
 				"Harlan": 1,
 				"Hank": 1,
 				"Saradominist preacher": 1,
 				"Common brown rabbit": 11
-			},
-			"Monster": {
-				"Training dummy": 2
 			},
 			"Shop": {
 				"Lumbridge Fishing Supplies": true
@@ -74094,9 +74087,7 @@
 				"Altar of War": 1,
 				"Adrenaline crystal": 2,
 				"Reaper portal": 1,
-				"Fateful portal (Kerapac)": 1
-			},
-			"Monster": {
+				"Fateful portal (Kerapac)": 1,
 				"Training dummy": 3
 			},
 			"NPC": {
@@ -94216,9 +94207,7 @@
 				"Altar of War": 1,
 				"Adrenaline crystal": 2,
 				"Reaper portal": 1,
-				"Fateful portal (Kerapac)": 1
-			},
-			"Monster": {
+				"Fateful portal (Kerapac)": 1,
 				"Training dummy": 3
 			},
 			"NPC": {
