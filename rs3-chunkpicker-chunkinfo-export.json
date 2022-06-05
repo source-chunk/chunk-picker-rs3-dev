@@ -15179,7 +15179,7 @@
 				"Priority": 2
 			},
 			"Craft a ~|batwing wand|~": {
-				"Items": ["Batwing wand*", "Thread*", "Logs*"],
+				"Items": ["Batwing*", "Thread*", "Logs*"],
 				"Level": 37,
 				"Output": "Batwing wand",
 				"Skills":{
