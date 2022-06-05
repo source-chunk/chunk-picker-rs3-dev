@@ -22017,6 +22017,7 @@
 		},
 		"Farming": {
 			"Pick ~|flax|~": {
+				"Category": ["Token"],
 				"Objects": ["Flax"],
 				"Level": 1,
 				"Output": "Flax",
