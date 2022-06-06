@@ -12048,6 +12048,7 @@
 				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on an uncooked berry pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Uncooked berry pie*"],
 				"Chunks": ["8508"],
 				"Level": 10,
@@ -12362,6 +12363,7 @@
 				"Priority": 3
 			},
 			"Cast ~|bake pie|~ on an uncooked meat pie ": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Uncooked meat pie*"],
 				"Chunks": ["8508"],
 				"Level": 20,
@@ -12723,6 +12725,7 @@
 				"Priority": 5
 			},
 			"Cast ~|bake pie|~ on a raw mud pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw mud pie*"],
 				"Chunks": ["8508"],
 				"Level": 29,
@@ -12791,6 +12794,7 @@
 				"Priority": 3
 			},
 			"Cast ~|bake pie|~ on an uncooked apple pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Uncooked apple pie*"],
 				"Chunks": ["8508"],
 				"Level": 30,
@@ -13012,6 +13016,7 @@
 				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw garden pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw garden pie*"],
 				"Chunks": ["8508"],
 				"Level": 34,
@@ -13397,6 +13402,7 @@
 				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw fish pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw fish pie*"],
 				"Chunks": ["8508"],
 				"Level": 47,
@@ -13710,6 +13716,7 @@
 				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw admiral pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw admiral pie*"],
 				"Chunks": ["8508"],
 				"Level": 70,
@@ -13934,6 +13941,7 @@
 				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw wild pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw wild pie*"],
 				"Chunks": ["8508"],
 				"Level": 85,
@@ -14153,6 +14161,7 @@
 				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw summer pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw summer pie*"],
 				"Chunks": ["8508"],
 				"Level": 95,
@@ -34265,12 +34274,14 @@
 				"Priority": 4
 			},
 			"Cast ~|air strike|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|confuse|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Mind rune*"],
 				"Level": 1,
 				"Primary": true,
@@ -34337,6 +34348,7 @@
 				"Priority": 12
 			},
 			"Cast ~|enchant crossbow bolt (opal)|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Opal bolts*"],
 				"Level": 4,
 				"Output": "Opal bolts (e)",
@@ -34344,6 +34356,7 @@
 				"Priority": 1
 			},
 			"Cast ~|water strike|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Water rune+*", "Air rune+*"],
 				"Level": 5,
 				"Primary": true,
@@ -34356,6 +34369,7 @@
 				"Priority": 2
 			},
 			"Cast ~|enchant crossbow bolt (sapphire)|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Mind rune*", "Water rune+*", "Sapphire bolts*"],
 				"Level": 7,
 				"Output": "Sapphire bolts (e)",
@@ -34363,6 +34377,7 @@
 				"Priority": 1
 			},
 			"Cast ~|lvl-1 enchant|~ on a sapphire ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Sapphire ring*"],
 				"Level": 7,
 				"Output": "Ring of recoil",
@@ -34370,6 +34385,7 @@
 				"Priority": 2
 			},
 			"Cast ~|lvl-1 enchant|~ on a spphiire necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Sapphire necklace*"],
 				"Level": 7,
 				"Output": "Games necklace",
@@ -34377,6 +34393,7 @@
 				"Priority": 3
 			},
 			"Cast ~|lvl-1 enchant|~ on a sapphire bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Sapphire bracelet*"],
 				"Level": 7,
 				"Output": "Bracelet of clay",
@@ -34384,6 +34401,7 @@
 				"Priority": 4
 			},
 			"Cast ~|lvl-1 enchant|~ on a sapphire amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Sapphire amulet*"],
 				"Level": 7,
 				"Output": "Amulet of magic",
@@ -34391,6 +34409,7 @@
 				"Priority": 5
 			},
 			"Cast ~|lvl-1 enchant|~ on an opal ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Opal ring*"],
 				"Level": 7,
 				"Output": "Ring of metamorphosis",
@@ -34398,6 +34417,7 @@
 				"Priority": 6
 			},
 			"Cast ~|lvl-1 enchant|~ on an opal necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Opal necklace*"],
 				"Level": 7,
 				"Output": "Featherfingered necklace",
@@ -34405,6 +34425,7 @@
 				"Priority": 7
 			},
 			"Cast ~|lvl-1 enchant|~ on an opal bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Opal bracelet*"],
 				"Level": 7,
 				"Output": "Headhunter's sacrifice",
@@ -34412,6 +34433,7 @@
 				"Priority": 8
 			},
 			"Cast ~|lvl-1 enchant|~ on an opal amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Opal amulet*"],
 				"Level": 7,
 				"Output": "Amulet of bountiful harvest",
@@ -34419,6 +34441,7 @@
 				"Priority": 9
 			},
 			"Cast ~|lvl-1 enchant|~ on a lapis lazuli ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Lapis lazuli ring*"],
 				"Level": 7,
 				"Output": "Ring of luck",
@@ -34426,12 +34449,14 @@
 				"Priority": 10
 			},
 			"Cast ~|earth strike|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Earth rune+*", "Air rune+*"],
 				"Level": 9,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|south Feldip hills teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["9516"],
 				"Items": ["Law rune*", "Water rune+*", "Air rune+*"],
 				"Level": 10,
@@ -34451,18 +34476,21 @@
 				"Priority": 3
 			},
 			"Cast ~|weaken|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Body rune*"],
 				"Level": 11,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|fire strike|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Fire rune+*", "Air rune+*"],
 				"Level": 13,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|enchant crossbow bolt (jade)|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Earth rune+*", "Jade bolts*"],
 				"Level": 14,
 				"Output": "Jade bolts (e)",
@@ -34470,6 +34498,7 @@
 				"Priority": 1
 			},
 			"Cast ~|bones to bananas|~": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Earth rune+*", "Water rune+*", "BananaBones+*"],
 				"Level": 15,
 				"Output": "Banana",
@@ -34477,18 +34506,21 @@
 				"Priority": 1
 			},
 			"Cast ~|air bolt|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*"],
 				"Level": 17,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|curse|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Chaos rune*"],
 				"Level": 19,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|Taverley teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["11573"],
 				"Items": ["Law rune*", "Fire rune+*", "Air rune+*"],
 				"Level": 19,
@@ -34496,6 +34528,7 @@
 				"Priority": 2
 			},
 			"Cast ~|bind|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Nature rune*"],
 				"Level": 20,
 				"Primary": true,
@@ -34529,18 +34562,21 @@
 				"Priority": 11
 			},
 			"Cast ~|low level alchemy|~": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Fire rune+*"],
 				"Level": 21,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|water bolt|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Water rune+*", "Air rune+*"],
 				"Level": 23,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|enchant crossbow bolt (pearl)|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Pearl bolts*"],
 				"Level": 24,
 				"Output": "Pearl bolts (e)",
@@ -34548,6 +34584,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Varrock teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["12853"],
 				"Items": ["Law rune*", "Fire rune+*", "Air rune+*"],
 				"Level": 25,
@@ -34561,6 +34598,7 @@
 				"Priority": 2
 			},
 			"Cast ~|lvl-2 enchant|~ on an emerald ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Emerald ring*"],
 				"Level": 27,
 				"Output": "Ring of duelling",
@@ -34568,6 +34606,7 @@
 				"Priority": 1
 			},
 			"Cast ~|lvl-2 enchant|~ on an emerald necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Emerald necklace*"],
 				"Level": 27,
 				"Output": "Binding necklace",
@@ -34575,6 +34614,7 @@
 				"Priority": 2
 			},
 			"Cast ~|lvl-2 enchant|~ on an emerald bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Emerald bracelet*"],
 				"Level": 27,
 				"Output": "Castle wars brace",
@@ -34582,6 +34622,7 @@
 				"Priority": 3
 			},
 			"Cast ~|lvl-2 enchant|~ on an emerald amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Emerald amulet*"],
 				"Level": 27,
 				"Output": "Amulet of defence",
@@ -34589,6 +34630,7 @@
 				"Priority": 4
 			},
 			"Cast ~|lvl-2 enchant|~ on a pre-nature amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Pre-nature amulet*"],
 				"Level": 27,
 				"Output": "Amulet of nature",
@@ -34596,6 +34638,7 @@
 				"Priority": 5
 			},
 			"Cast ~|lvl-2 enchant|~ on a silver sickle emerald (b)": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Silver sickle emerald (b)*"],
 				"Level": 27,
 				"Output": "Enchanted sickle emerald (b)",
@@ -34603,6 +34646,7 @@
 				"Priority": 6
 			},
 			"Cast ~|lvl-2 enchant|~ on a jade ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Jade ring*"],
 				"Level": 27,
 				"Output": "Ring of respawn",
@@ -34610,6 +34654,7 @@
 				"Priority": 7
 			},
 			"Cast ~|lvl-2 enchant|~ on a jade necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Jade necklace*"],
 				"Level": 27,
 				"Output": "Traveller's necklace",
@@ -34617,6 +34662,7 @@
 				"Priority": 8
 			},
 			"Cast ~|lvl-2 enchant|~ on a jade bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Jade bracelet*"],
 				"Level": 27,
 				"Output": "Flamtear bracelet",
@@ -34624,6 +34670,7 @@
 				"Priority": 9
 			},
 			"Cast ~|lvl-2 enchant|~ on a jade amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Jade amulet*"],
 				"Level": 27,
 				"Output": "Botanist's amulet",
@@ -34631,6 +34678,7 @@
 				"Priority": 10
 			},
 			"Cast ~|enchant crossbow bolt (emerald)|~": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Cosmic rune*", "Air rune+*", "Emerald bolts*"],
 				"Level": 27,
 				"Output": "Emerald bolts (e)",
@@ -34638,12 +34686,14 @@
 				"Priority": 2
 			},
 			"Cast ~|earth bolt|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Earth rune+*", "Air rune+*"],
 				"Level": 29,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|enchant crossbow bolt (red topaz)|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Topaz bolts*"],
 				"Level": 29,
 				"Output": "Topaz bolts (e)",
@@ -34684,6 +34734,7 @@
 				"Priority": 7
 			},
 			"Cast ~|Lumbridge teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["12850"],
 				"Items": ["Law rune*", "Earth rune+*", "Air rune+*"],
 				"Level": 31,
@@ -34691,18 +34742,21 @@
 				"Priority": 1
 			},
 			"Cast ~|telekinetic grab|~": {
+				"Category": ["Spells"],
 				"Items": ["Law rune*", "Air rune+*"],
 				"Level": 33,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|fire bolt|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Fire rune+*", "Air rune+*"],
 				"Level": 35,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|Falador teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["11828"],
 				"Items": ["Law rune*", "Water rune+*", "Air rune+*"],
 				"Level": 37,
@@ -34710,6 +34764,7 @@
 				"Priority": 1
 			},
 			"Cast ~|house teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["Player-owned house"],
 				"Items": ["Law rune*", "Air rune+*", "Earth rune+*"],
 				"Level": 40,
@@ -34753,18 +34808,21 @@
 				"Priority": 8
 			},
 			"Cast ~|air blast|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*"],
 				"Level": 41,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|superheat item|~": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Fire rune+*"],
 				"Level": 43,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|Camelot teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["11062"],
 				"Items": ["Law rune*", "Air rune+*"],
 				"Level": 45,
@@ -34787,6 +34845,7 @@
 				"Priority": 3
 			},
 			"Cast ~|water blast|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Water rune+*", "Air rune+*"],
 				"Level": 47,
 				"Primary": true,
@@ -34802,6 +34861,7 @@
 				"Priority": 1
 			},
 			"Cast ~|enchant crossbow bolt (ruby)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Fire rune+*", "Ruby bolts*"],
 				"Level": 49,
 				"Output": "Ruby bolts (e)",
@@ -34809,6 +34869,7 @@
 				"Priority": 1
 			},
 			"Cast ~|lvl-3 enchant|~ on a ruby ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Ruby ring*"],
 				"Level": 49,
 				"Output": "Ring of forging",
@@ -34816,6 +34877,7 @@
 				"Priority": 2
 			},
 			"Cast ~|lvl-3 enchant|~ on a ruby bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Ruby bracelet*"],
 				"Level": 49,
 				"Output": "Inoculation brace",
@@ -34823,6 +34885,7 @@
 				"Priority": 3
 			},
 			"Cast ~|lvl-3 enchant|~ on a ruby amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Ruby amulet*"],
 				"Level": 49,
 				"Output": "Amulet of strength",
@@ -34830,6 +34893,7 @@
 				"Priority": 4
 			},
 			"Cast ~|lvl-3 enchant|~ on a topaz ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Topaz ring*"],
 				"Level": 49,
 				"Output": "Columbarium ring",
@@ -34837,6 +34901,7 @@
 				"Priority": 5
 			},
 			"Cast ~|lvl-3 enchant|~ on a topaz necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Topaz necklace*"],
 				"Level": 49,
 				"Output": "Necklace of gluttony",
@@ -34844,6 +34909,7 @@
 				"Priority": 6
 			},
 			"Cast ~|lvl-3 enchant|~ on a topaz bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Topaz bracelet*"],
 				"Level": 49,
 				"Output": "Headhunter's thrill",
@@ -34851,6 +34917,7 @@
 				"Priority": 7
 			},
 			"Cast ~|lvl-3 enchant|~ on a topaz amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Topaz amulet*"],
 				"Level": 49,
 				"Output": "Englightened amulet",
@@ -34858,6 +34925,7 @@
 				"Priority": 8
 			},
 			"Cast ~|lvl-3 enchant|~ on a ruby necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Ruby necklace*"],
 				"Level": 49,
 				"Output": "Dig Site pendant",
@@ -34865,6 +34933,7 @@
 				"Priority": 9
 			},
 			"Cast ~|slayer dart|~ with a slayer's staff": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Slayer's Staff", "Air rune+*", "Death rune*"],
 				"Level": 50,
 				"Primary": true,
@@ -34874,12 +34943,14 @@
 				"Priority": 3
 			},
 			"Cast ~|Slayer dart|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["AltSlayStaff+", "Death rune*", "Air rune+*"],
 				"Level": 50,
 				"Primary": true,
 				"Priority": 4
 			},
 			"Cast ~|smoke rush|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Air rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 50,
@@ -34887,6 +34958,7 @@
 				"Priority": 5
 			},
 			"Cast ~|snare|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Nature rune*"],
 				"Level": 50,
 				"Primary": true,
@@ -34941,6 +35013,7 @@
 				"Priority": 13
 			},
 			"Cast ~|Ardougne teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["10547"],
 				"Items": ["Law rune*", "Water rune+*", "A magic scroll"],
 				"Level": 51,
@@ -34948,12 +35021,14 @@
 				"Priority": 1
 			},
 			"Cast ~|manor farm teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["10548"],
 				"Level": 51,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|Shadow rush|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Earth rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 52,
@@ -34961,6 +35036,7 @@
 				"Priority": 1
 			},
 			"Cast ~|earth blast|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Earth rune+*", "Air rune+*"],
 				"Level": 53,
 				"Primary": true,
@@ -34976,6 +35052,7 @@
 				"Priority": 2
 			},
 			"Cast ~|Paddewwa teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Fire rune+*", "Air rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 54,
@@ -34983,6 +35060,7 @@
 				"Priority": 1
 			},
 			"Cast ~|high level alchemy|~": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Fire rune+*"],
 				"Level": 55,
 				"Primary": true,
@@ -35004,6 +35082,7 @@
 				"Priority": 3
 			},
 			"Cast ~|blood rush|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Fire rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 56,
@@ -35011,6 +35090,7 @@
 				"Priority": 1
 			},
 			"Cast ~|charge water orb|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune+*", "Unpowered orb*"],
 				"Objects": ["Water obelisk"],
 				"Level": 56,
@@ -35018,6 +35098,7 @@
 				"Priority": 2
 			},
 			"Cast ~|enchant crossbow bolt (diamond)|~": {
+				"Category": ["Spells"],
 				"Items": ["Law rune*", "Cosmic rune*", "Earth rune+*", "Diamond bolts*"],
 				"Level": 57,
 				"Output": "Diamond bolts (e)",
@@ -35025,6 +35106,7 @@
 				"Priority": 1
 			},
 			"Cast ~|lvl-4 enchant|~ on a diamond ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Earth rune+*", "Diamond ring*"],
 				"Level": 57,
 				"Output": "Ring of life",
@@ -35032,6 +35114,7 @@
 				"Priority": 2
 			},
 			"Cast ~|lvl-4 enchant|~ on a diamond necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Earth rune+*", "Diamond necklace*"],
 				"Level": 57,
 				"Output": "Phoenix necklace",
@@ -35039,6 +35122,7 @@
 				"Priority": 3
 			},
 			"Cast ~|lvl-4 enchant|~ on a diamond bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Earth rune+*", "Diamond bracelet*"],
 				"Level": 57,
 				"Output": "Forinthry bracelet",
@@ -35046,6 +35130,7 @@
 				"Priority": 4
 			},
 			"Cast ~|lvl-4 enchant|~ on a diamond amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Earth rune+*", "Diamond amulet*"],
 				"Level": 57,
 				"Output": "Amulet of power",
@@ -35053,6 +35138,7 @@
 				"Priority": 5
 			},
 			"Cast ~|ice rush|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 58,
@@ -35060,6 +35146,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Watchtower teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["10032"],
 				"Items": ["Law rune*", "Earth rune+*", "Spell scroll"],
 				"Level": 58,
@@ -35067,12 +35154,14 @@
 				"Priority": 2
 			},
 			"Cast ~|fire blast|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Fire rune+*", "Air rune+*"],
 				"Level": 59,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|bones to peaches|~": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Earth rune+*", "Water rune+*", "BananaBones+*"],
 				"Chunks": ["13363"],
 				"Level": 60,
@@ -35081,6 +35170,7 @@
 				"Priority": 1
 			},
 			"Cast ~|charge earth orb|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Earth rune+*", "Unpowered orb*"],
 				"Objects": ["Earth obelisk"],
 				"Level": 60,
@@ -35088,6 +35178,7 @@
 				"Priority": 2
 			},
 			"Cast ~|divine storm|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*"],
 				"Chunks": ["12349"],
 				"Level": 60,
@@ -35095,6 +35186,7 @@
 				"Priority": 3
 			},
 			"Cast ~|Senntisten teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["13365", "Jaldraocht Pyramid"],
 				"Items": ["Soul rune*", "Law rune*"],
 				"Level": 60,
@@ -35177,6 +35269,7 @@
 				"Priority": 16
 			},
 			"Cast ~|god wars dungeon teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["11578"],
 				"Items": ["Law rune*", "Fire rune+*"],
 				"Level": 61,
@@ -35184,6 +35277,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Trollheim teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["11577"],
 				"Items": ["Law rune*", "Fire rune+*"],
 				"Level": 61,
@@ -35191,12 +35285,14 @@
 				"Priority": 2
 			},
 			"Cast ~|air wave|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*"],
 				"Level": 62,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|smoke burst|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Air rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 62,
@@ -35204,6 +35300,7 @@
 				"Priority": 2
 			},
 			"Cast ~|charge fire orb|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune*", "Unpowered orb*"],
 				"Objects": ["Fire obelisk"],
 				"Level": 63,
@@ -35211,6 +35308,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Ape Atoll teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["11051"],
 				"Items": ["Law rune*", "Fire rune+*", "Water rune+*", "Banana*"],
 				"Level": 64,
@@ -35218,6 +35316,7 @@
 				"Priority": 1
 			},
 			"Cast ~|shadow burst|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Earth rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 64,
@@ -35225,6 +35324,7 @@
 				"Priority": 2
 			},
 			"Cast ~|bake pie|~ on an uncooked berry pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Uncooked berry pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35236,6 +35336,7 @@
 				"Priority": 1
 			},
 			"Cast ~|bake pie|~ on an uncooked meat pie ": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Uncooked meat pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35247,6 +35348,7 @@
 				"Priority": 2
 			},
 			"Cast ~|bake pie|~ on a raw mud pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw mud pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35258,6 +35360,7 @@
 				"Priority": 3
 			},
 			"Cast ~|bake pie|~ on an uncooked apple pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Uncooked apple pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35269,6 +35372,7 @@
 				"Priority": 4
 			},
 			"Cast ~|bake pie|~ on a raw garden pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw garden pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35280,6 +35384,7 @@
 				"Priority": 5
 			},
 			"Cast ~|bake pie|~ on a raw fish pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw fish pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35291,6 +35396,7 @@
 				"Priority": 6
 			},
 			"Cast ~|bake pie|~ on a raw admiral pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw admiral pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35302,6 +35408,7 @@
 				"Priority": 7
 			},
 			"Cast ~|bake pie|~ on a raw wild pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw wild pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35313,6 +35420,7 @@
 				"Priority": 8
 			},
 			"Cast ~|bake pie|~ on a raw summer pie": {
+				"Category": ["Spells"],
 				"Items": ["Water rune+*", "Fire rune+*", "Astral rune*", "Raw summer pie*"],
 				"Chunks": ["8508"],
 				"Level": 65,
@@ -35324,6 +35432,7 @@
 				"Priority": 9
 			},
 			"Cast ~|water wave|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*", "Water rune+*"],
 				"Level": 65,
 				"Primary": true,
@@ -35345,6 +35454,7 @@
 				"Priority": 12
 			},
 			"Cast ~|charge air orb|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune+*", "Unpowered orb*"],
 				"Objects": ["Air obelisk"],
 				"Level": 66,
@@ -35352,27 +35462,22 @@
 				"Priority": 1
 			},
 			"Cast ~|vulnerability|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Chaos rune*"],
 				"Level": 66,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|Kharyrll teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["13878", "Jaldraocht Pyramid"],
 				"Items": ["Blood rune*", "Law rune*"],
 				"Level": 66,
 				"Primary": true,
 				"Priority": 3
 			},
-			"Cast ~|cure plant|~": {
-				"Items": ["Astral rune*", "Earth rune+*"],
-				"Chunks": ["8508"],
-				"Objects": ["CurePatch+"],
-				"Level": 66,
-				"Primary": true,
-				"Priority": 4
-			},
 			"Cast ~|monster examine|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Astral rune*", "Mind rune*"],
 				"Chunks": ["8508"],
 				"Level": 66,
@@ -35380,6 +35485,7 @@
 				"Priority": 5
 			},
 			"Cast ~|NPC contact|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Astral rune*", "Air rune+*"],
 				"Chunks": ["8508"],
 				"Level": 67,
@@ -35387,6 +35493,7 @@
 				"Priority": 1
 			},
 			"Cast ~|lvl-5 enchant|~ on a dragonstone ring": {
+				"Category": ["Spells"],
 				"Items": ["Earth rune+*", "Water rune+*", "Cosmic rune*", "Dragonstone ring*"],
 				"Level": 68,
 				"Output": "Ring of wealth",
@@ -35394,6 +35501,7 @@
 				"Priority": 1
 			},
 			"Cast ~|lvl-5 enchant|~ on a dragonstone necklace": {
+				"Category": ["Spells"],
 				"Items": ["Earth rune+*", "Water rune+*", "Cosmic rune*", "Dragonstone necklace*"],
 				"Level": 68,
 				"Output": "Skills necklace",
@@ -35401,6 +35509,7 @@
 				"Priority": 2
 			},
 			"Cast ~|lvl-5 enchant|~ on a dragonstone bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Earth rune+*", "Water rune+*", "Cosmic rune*", "Dragonstone Bracelet*"],
 				"Level": 68,
 				"Output": "Combat bracelet",
@@ -35408,6 +35517,7 @@
 				"Priority": 3
 			},
 			"Cast ~|lvl-5 enchant|~ on a dragonstone amulet": {
+				"Category": ["Spells"],
 				"Items": ["Earth rune+*", "Water rune+*", "Cosmic rune*", "Dragonstone amulet*"],
 				"Level": 68,
 				"Output": "Amulet of glory",
@@ -35415,6 +35525,7 @@
 				"Priority": 4
 			},
 			"Cast ~|blood burst|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Fire rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 68,
@@ -35422,6 +35533,7 @@
 				"Priority": 5
 			},
 			"Cast ~|cure other|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*"],
 				"Chunks": ["8508"],
 				"Level": 68,
@@ -35429,6 +35541,7 @@
 				"Priority": 6
 			},
 			"Cast ~|enchant crossbow bolt (dragonstone)|~": {
+				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Cosmic rune*", "Earth rune+*", "Dragon bolts*"],
 				"Level": 68,
 				"Output": "Dragon bolts (e)",
@@ -35436,6 +35549,7 @@
 				"Priority": 7
 			},
 			"Cast ~|humidify|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Fire rune+*", "Water rune+*"],
 				"Chunks": ["8508"],
 				"Level": 68,
@@ -35443,6 +35557,7 @@
 				"Priority": 8
 			},
 			"Cast ~|Moonclan teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Items": ["Law rune*", "Astral rune*", "Earth rune+*"],
 				"Level": 69,
@@ -35450,12 +35565,14 @@
 				"Priority": 1
 			},
 			"Cast ~|earth wave|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*", "Earth rune+*"],
 				"Level": 70,
 				"Primary": true,
 				"Priority": 5
 			},
 			"Cast ~|ice burst|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 70,
@@ -35463,6 +35580,7 @@
 				"Priority": 6
 			},
 			"Cast ~|tele-group Moonclan|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Items": ["Law rune*", "Astral rune*", "Earth rune+*"],
 				"Level": 70,
@@ -35470,6 +35588,7 @@
 				"Priority": 7
 			},
 			"Cast ~|Mazcab teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Law rune*", "Cosmic rune*", "Mazcab teleport codex"],
 				"Level": 70,
 				"Primary": true,
@@ -35569,6 +35688,7 @@
 				"Priority": 21
 			},
 			"Cast ~|cure me|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Cosmic rune*"],
 				"Chunks": ["8508"],
 				"Level": 71,
@@ -35576,6 +35696,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Ourania teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["8508", "9778"],
 				"Items": ["Law rune*", "Astral rune*", "Earth rune+*"],
 				"Level": 71,
@@ -35583,6 +35704,7 @@
 				"Priority": 2
 			},
 			"Cast ~|hunter kit (spell)|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*"],
 				"Chunks": ["8508"],
 				"Level": 71,
@@ -35590,6 +35712,7 @@
 				"Priority": 3
 			},
 			"Cast ~|Lassar teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["11830", "Jaldraocht Pyramid"],
 				"Items": ["Law rune*", "Water rune+*"],
 				"Level": 72,
@@ -35597,6 +35720,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Waterbirth teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["8508", "10042"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Level": 72,
@@ -35604,6 +35728,7 @@
 				"Priority": 2
 			},
 			"Cast ~|south Falador teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Air rune+*"],
 				"Chunks": ["8253", "8508", "8509", "12083"],
 				"Level": 72,
@@ -35611,6 +35736,7 @@
 				"Priority": 3
 			},
 			"Cast ~|Anachronia teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Nature rune*", "Earth rune+*"],
 				"Chunks": ["15936", "16453"],
 				"Level": 72,
@@ -35618,12 +35744,14 @@
 				"Priority": 4
 			},
 			"Cast ~|enfeeble|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Body rune*"],
 				"Level": 73,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|tele-group Waterbirth|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "10042"],
 				"Level": 73,
@@ -35631,6 +35759,7 @@
 				"Priority": 2
 			},
 			"Cast ~|smoke blitz|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Air rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 74,
@@ -35638,12 +35767,14 @@
 				"Priority": 1
 			},
 			"Cast ~|tele-other Lumbridge|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Law rune*", "Earth rune+*"],
 				"Level": 74,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|cure group|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Astral rune+*"],
 				"Chunks": ["8508"],
 				"Level": 74,
@@ -35651,6 +35782,7 @@
 				"Priority": 3
 			},
 			"Cast ~|smoke cloud|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Blood rune*", "Chaos rune*", "Air rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
 				"Level": 74,
@@ -35658,12 +35790,14 @@
 				"Priority": 4
 			},
 			"Cast ~|fire wave|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Fire rune+*", "Air rune+*"],
 				"Level": 75,
 				"Primary": true,
 				"Priority": 13
 			},
 			"Cast ~|barbarian teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Fire rune+*"],
 				"Chunks": ["8508", "10039"],
 				"Level": 75,
@@ -35671,6 +35805,7 @@
 				"Priority": 2
 			},
 			"Cast ~|stat spy|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Astral rune*", "Body rune*"],
 				"Chunks": ["8508"],
 				"Level": 75,
@@ -35678,6 +35813,7 @@
 				"Priority": 3
 			},
 			"Cast ~|repair rune pouch|~": {
+				"Category": ["Spells"],
 				"Items": ["Law rune*", "Cosmic rune*", "Astral rune*", "RunePouch+"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 75,
@@ -35685,6 +35821,7 @@
 				"Priority": 4
 			},
 			"Cast ~|opal aurora|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Air rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 75,
@@ -35734,6 +35871,7 @@
 				"Priority": 12
 			},
 			"Cast ~|shadow blitz|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Earth rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 76,
@@ -35741,6 +35879,7 @@
 				"Priority": 1
 			},
 			"Cast ~|tele-group barbarian|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Fire rune+*"],
 				"Chunks": ["8508", "10039"],
 				"Level": 76,
@@ -35748,6 +35887,7 @@
 				"Priority": 2
 			},
 			"Cast ~|prism of restoration|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Blood rune*", "Astral rune*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 76,
@@ -35755,6 +35895,7 @@
 				"Priority": 3
 			},
 			"Cast ~|superglass make|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Fire rune+*", "Air rune+*", "GlassSecondary+*"],
 				"Chunks": ["8508"],
 				"Level": 77,
@@ -35762,12 +35903,14 @@
 				"Priority": 1
 			},
 			"Cast ~|storm of Armadyl|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Armadyl rune*"],
 				"Level": 77,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|sapphire aurora|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 77,
@@ -35775,6 +35918,7 @@
 				"Priority": 3
 			},
 			"Cast ~|intercept|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Earth rune+*", "Air rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 77,
@@ -35788,6 +35932,7 @@
 				"Priority": 5
 			},
 			"Cast ~|Dareeyak teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Fire rune+*", "Air rune+*"],
 				"Chunks": ["11833", "Jaldraocht Pyramid"],
 				"Level": 78,
@@ -35795,6 +35940,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Khazard teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "10545"],
 				"Level": 78,
@@ -35802,6 +35948,7 @@
 				"Priority": 2
 			},
 			"Cast ~|remote farm|~": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Astral rune*", "Earth rune+*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 78,
@@ -35821,12 +35968,14 @@
 				"Priority": 5
 			},
 			"Cast ~|entangle|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Nature rune*"],
 				"Level": 79,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|tele-group Khazard|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "10545"],
 				"Level": 79,
@@ -35834,6 +35983,7 @@
 				"Priority": 2
 			},
 			"Cast ~|dream|~": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Astral rune*", "Body rune*"],
 				"Chunks": ["8508"],
 				"Level": 79,
@@ -35841,6 +35991,7 @@
 				"Priority": 3
 			},
 			"Cast ~|emerald aurora|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Earth rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 79,
@@ -35848,6 +35999,7 @@
 				"Priority": 4
 			},
 			"Cast ~|blood blitz|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Fire rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 80,
@@ -35855,6 +36007,7 @@
 				"Priority": 1
 			},
 			"Cast ~|string jewelry|~ on an unstrung symbol": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung symbol*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35863,6 +36016,7 @@
 				"Priority": 2
 			},
 			"Cast ~|string jewelry|~ on an unstrung opal amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung opal amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35871,6 +36025,7 @@
 				"Priority": 3
 			},
 			"Cast ~|string jewelry|~ on an unstrung jade amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung jade amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35879,6 +36034,7 @@
 				"Priority": 4
 			},
 			"Cast ~|string jewelry|~ on an unstrung topaz amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung topaz amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35887,6 +36043,7 @@
 				"Priority": 5
 			},
 			"Cast ~|string jewelry|~ on an unstrung gold amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung gold amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35895,6 +36052,7 @@
 				"Priority": 6
 			},
 			"Cast ~|string jewelry|~ on an unstrung sapphire amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung sapphire amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35903,6 +36061,7 @@
 				"Priority": 7
 			},
 			"Cast ~|string jewelry|~ on an unstrung emerald amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung emerald amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35911,6 +36070,7 @@
 				"Priority": 8
 			},
 			"Cast ~|string jewelry|~ on an unstrung ruby amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung ruby amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35919,6 +36079,7 @@
 				"Priority": 9
 			},
 			"Cast ~|string jewelry|~ on an unstrung diamond amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung diamond amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35927,6 +36088,7 @@
 				"Priority": 10
 			},
 			"Cast ~|string jewelry|~ on an unstrung dragonstone amulet": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*", "Unstrung dragonstone amulet*"],
 				"Chunks": ["8508"],
 				"Level": 80,
@@ -35935,6 +36097,7 @@
 				"Priority": 11
 			},
 			"Cast ~|spiritual healing|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Cosmic rune*", "Astral rune*", "Body rune*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 80,
@@ -35942,18 +36105,21 @@
 				"Priority": 12
 			},
 			"Cast ~|stagger|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Mind rune*"],
 				"Level": 80,
 				"Primary": true,
 				"Priority": 13
 			},
 			"Cast ~|polypore strike|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Fire rune+*", "Polypore spore*", "Polypore staff"],
 				"Level": 80,
 				"Primary": true,
 				"Priority": 14
 			},
 			"Cast ~|prism of salvation|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Blood rune*", "Astral rune*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 80,
@@ -36057,12 +36223,14 @@
 				"Priority": 27
 			},
 			"Cast ~|air surge|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*"],
 				"Level": 81,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|ruby aurora|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Fire rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 81,
@@ -36070,6 +36238,7 @@
 				"Priority": 2
 			},
 			"Cast ~|spin flax|~": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Astral rune*", "Air rune+*", "Flax*"],
 				"Chunks": ["8508"],
 				"Level": 81,
@@ -36078,6 +36247,7 @@
 				"Priority": 3
 			},
 			"Cast ~|potion share|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*"],
 				"Chunks": ["8508"],
 				"Level": 81,
@@ -36091,6 +36261,7 @@
 				"Priority": 5
 			},
 			"Cast ~|ice blitz|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 82,
@@ -36098,12 +36269,14 @@
 				"Priority": 1
 			},
 			"Cast ~|tele-other Falador|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Law rune*", "Water rune+*"],
 				"Level": 82,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|magic imbue|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Fire rune+*", "Water rune+*"],
 				"Chunks": ["8508"],
 				"Level": 82,
@@ -36111,6 +36284,7 @@
 				"Priority": 3
 			},
 			"Cast ~|prism of loyalty|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Blood rune*", "Astral rune*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 82,
@@ -36118,6 +36292,7 @@
 				"Priority": 4
 			},
 			"Cast ~|fire urn|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Fire rune+*", "Earth rune+*", "Water rune+*", "UnfiredUrn+*"],
 				"Chunks": ["8508"],
 				"Level": 82,
@@ -36130,14 +36305,8 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Cast ~|fertile soil|~": {
-				"Items": ["Nature rune*", "Astral rune*", "Earth rune+*"],
-				"Chunks": ["8508"],
-				"Level": 83,
-				"Primary": true,
-				"Priority": 1
-			},
 			"Cast ~|make leather|~ on cowhide": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Body rune*", "Fire rune+*", "Cowhide*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 83,
@@ -36146,6 +36315,7 @@
 				"Priority": 2
 			},
 			"Cast ~|make leather|~ on snake hide": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Body rune*", "Fire rune+*", "SnikeHide+*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 83,
@@ -36154,6 +36324,7 @@
 				"Priority": 3
 			},
 			"Cast ~|make leather|~ on green dragonhide": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Body rune*", "Fire rune+*", "Green dragonhide*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 83,
@@ -36162,6 +36333,7 @@
 				"Priority": 4
 			},
 			"Cast ~|make leather|~ on blue dragonhide": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Body rune*", "Fire rune+*", "Blue dragonhide*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 83,
@@ -36170,6 +36342,7 @@
 				"Priority": 5
 			},
 			"Cast ~|make leather|~ on red dragonhide": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Body rune*", "Fire rune+*", "Red dragonhide*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 83,
@@ -36178,6 +36351,7 @@
 				"Priority": 6
 			},
 			"Cast ~|make leather|~ on black dragonhide": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Body rune*", "Fire rune+*", "Black dragonhide*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 83,
@@ -36186,6 +36360,7 @@
 				"Priority": 7
 			},
 			"Cast ~|make leather|~ on royal dragonhide": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Body rune*", "Fire rune+*", "Royal dragonhide*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 83,
@@ -36194,6 +36369,7 @@
 				"Priority": 8
 			},
 			"Cast ~|make leather|~ on dinosaur hide": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Body rune*", "Fire rune+*", "Dinosaur hide*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 83,
@@ -36202,6 +36378,7 @@
 				"Priority": 9
 			},
 			"Cast ~|Carrallanger teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Law rune*"],
 				"Chunks": ["12857", "Jaldraocht Pyramid"],
 				"Level": 84,
@@ -36209,6 +36386,7 @@
 				"Priority": 1
 			},
 			"Cast ~|shield dome|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Earth rune+*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 84,
@@ -36216,6 +36394,7 @@
 				"Priority": 2
 			},
 			"Cast ~|animate dead|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Blood rune*", "Death rune*", "Earth rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
 				"Level": 84,
@@ -36223,6 +36402,7 @@
 				"Priority": 3
 			},
 			"Cast ~|teleport block|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Death rune*", "Chaos rune*"],
 				"Chunks": ["PVP+"],
 				"Level": 85,
@@ -36230,6 +36410,7 @@
 				"Priority": 1
 			},
 			"Cast ~|fishing guild teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "10292"],
 				"Level": 85,
@@ -36237,12 +36418,14 @@
 				"Priority": 2
 			},
 			"Cast ~|water surge|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Water rune+*", "Air rune+*"],
 				"Level": 85,
 				"Primary": true,
 				"Priority": 3
 			},
 			"Cast ~|telekinetic grind|~": {
+				"Category": ["Spells"],
 				"Items": ["Law rune*", "Astral rune*"],
 				"Chunks": ["8508"],
 				"Level": 85,
@@ -36286,6 +36469,7 @@
 				"Priority": 10
 			},
 			"Cast ~|smoke barrage|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Air rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 86,
@@ -36293,6 +36477,7 @@
 				"Priority": 1
 			},
 			"Cast ~|tele-group fishing guild|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "10292"],
 				"Level": 86,
@@ -36300,6 +36485,7 @@
 				"Priority": 2
 			},
 			"Cast ~|plank make|~ on logs": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Astral rune*", "Earth rune+*", "Logs*"],
 				"Chunks": ["8508"],
 				"Level": 86,
@@ -36308,6 +36494,7 @@
 				"Priority": 3
 			},
 			"Cast ~|plank make|~ on oak logs": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Astral rune*", "Earth rune+*", "Oak logs*"],
 				"Chunks": ["8508"],
 				"Level": 86,
@@ -36316,6 +36503,7 @@
 				"Priority": 4
 			},
 			"Cast ~|plank make|~ on teak logs": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Astral rune*", "Earth rune+*", "Teak logs*"],
 				"Chunks": ["8508"],
 				"Level": 86,
@@ -36324,6 +36512,7 @@
 				"Priority": 5
 			},
 			"Cast ~|plank make|~ on mahogany logs": {
+				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Astral rune*", "Earth rune+*", "Mahogany logs*"],
 				"Chunks": ["8508"],
 				"Level": 86,
@@ -36332,6 +36521,7 @@
 				"Priority": 6
 			},
 			"Cast ~|prism of dowsing|~": {
+				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Nature rune*", "Fire rune+*", "Earth rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 86,
@@ -36339,6 +36529,7 @@
 				"Priority": 7
 			},
 			"Cast ~|lvl-6 enchant|~ on an onyx ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Onyx ring*"],
 				"Level": 87,
 				"Output": "Ring of fortune",
@@ -36346,6 +36537,7 @@
 				"Priority": 1
 			},
 			"Cast ~|lvl-6 enchant|~ on an onyx necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Onyx necklace*"],
 				"Level": 87,
 				"Output": "Berserker necklace",
@@ -36353,6 +36545,7 @@
 				"Priority": 2
 			},
 			"Cast ~|lvl-6 enchant|~ on an onyx bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Onyx bracelet*"],
 				"Level": 87,
 				"Output": "Regen bracelet",
@@ -36360,6 +36553,7 @@
 				"Priority": 3
 			},
 			"Cast ~|lvl-6 enchant|~ on an onyx amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Onyx amulet*"],
 				"Level": 87,
 				"Output": "Amulet of fury",
@@ -36367,6 +36561,7 @@
 				"Priority": 4
 			},
 			"Cast ~|lvl-6 enchant|~ on an alchemical onyx ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Alchemical onyx ring*"],
 				"Level": 87,
 				"Output": "Luck of the dwarves",
@@ -36374,6 +36569,7 @@
 				"Priority": 5
 			},
 			"Cast ~|lvl-6 enchant|~ on an alchemical onyx necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Alchemical onyx necklace*"],
 				"Level": 87,
 				"Output": "Grace of the elves",
@@ -36381,6 +36577,7 @@
 				"Priority": 6
 			},
 			"Cast ~|lvl-6 enchant|~ on a hydrix ring": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Hydrix ring*"],
 				"Level": 87,
 				"Output": "Ring of death",
@@ -36388,6 +36585,7 @@
 				"Priority": 7
 			},
 			"Cast ~|lvl-6 enchant|~ on a hydrix necklace": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Hydrix necklace*"],
 				"Level": 87,
 				"Output": "Reaper necklace",
@@ -36395,6 +36593,7 @@
 				"Priority": 8
 			},
 			"Cast ~|lvl-6 enchant|~ on a hydrix bracelet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Hydrix bracelet*"],
 				"Level": 87,
 				"Output": "Deathtouch bracelet",
@@ -36402,6 +36601,7 @@
 				"Priority": 9
 			},
 			"Cast ~|lvl-6 enchant|~ on a hydrix amulet": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Hydrix amulet*"],
 				"Level": 87,
 				"Output": "Amulet of souls",
@@ -36409,6 +36609,7 @@
 				"Priority": 10
 			},
 			"Cast ~|lvl-6 enchant|~ on an alchemical hydrix brooch": {
+				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune+*", "Earth rune+*", "Alchemical hydrix brooch*"],
 				"Level": 87,
 				"Output": "Brooch of the gods",
@@ -36416,6 +36617,7 @@
 				"Priority": 11
 			},
 			"Cast ~|Catherby teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "11061"],
 				"Level": 87,
@@ -36423,6 +36625,7 @@
 				"Priority": 12
 			},
 			"Cast ~|enchant crossbow bolt (onyx)|~": {
+				"Category": ["Spells"],
 				"Items": ["Death rune*", "Cosmic rune*", "Fire rune+*", "Onyx bolts*"],
 				"Level": 87,
 				"Output": "Onyx bolts (e)",
@@ -36430,6 +36633,7 @@
 				"Priority": 13
 			},
 			"Cast ~|tune banite ore|~ to make abyssalbanite ore": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Banite ore*", "Tune banite ore scroll", "Abyssal head"],
 				"Level": 87,
 				"Output": "Abyssalbanite ore",
@@ -36437,6 +36641,7 @@
 				"Priority": 14
 			},
 			"Cast ~|tune banite ore|~ to make basiliskbanite ore": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Banite ore*", "Tune banite ore scroll", "Basilisk head"],
 				"Level": 87,
 				"Output": "Basiliskbanite ore",
@@ -36444,6 +36649,7 @@
 				"Priority": 15
 			},
 			"Cast ~|tune banite ore|~ to make dragonbanite ore": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Banite ore*", "Tune banite ore scroll", "DragonFocus+"],
 				"Level": 87,
 				"Output": "Dragonbanite ore",
@@ -36451,6 +36657,7 @@
 				"Priority": 16
 			},
 			"Cast ~|tune banite ore|~ to make wallasalkibanite ore": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Banite ore*", "Tune banite ore scroll", "WallasalkiFocus+"],
 				"Level": 87,
 				"Output": "Wallasalkibanite ore",
@@ -36464,6 +36671,7 @@
 				"Priority": 18
 			},
 			"Cast ~|shadow barrage|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Earth rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 88,
@@ -36471,6 +36679,7 @@
 				"Priority": 1
 			},
 			"Cast ~|tele-group Catherby|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "11061"],
 				"Level": 88,
@@ -36478,6 +36687,7 @@
 				"Priority": 2
 			},
 			"Cast ~|rapid growth|~": {
+				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Nature rune*", "Earth rune+*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 88,
@@ -36485,6 +36695,7 @@
 				"Priority": 3
 			},
 			"Cast ~|crystallise|~": {
+				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Chaos rune*", "Fire rune+*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 88,
@@ -36510,6 +36721,7 @@
 				"Priority": 7
 			},
 			"Cast ~|ice plateau teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "11837"],
 				"Level": 89,
@@ -36517,6 +36729,7 @@
 				"Priority": 1
 			},
 			"Cast ~|enchant bakriminel bolt (opal)|~": {
+				"Category": ["Spells"],
 				"Items": ["Air rune+*", "Cosmic rune*", "Blood rune*", "Opal bakriminel bolts*"],
 				"Level": 89,
 				"Output": "Opal bakriminel bolts (e)",
@@ -36524,12 +36737,14 @@
 				"Priority": 2
 			},
 			"Cast ~|tele-other Camelot|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Law rune*"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cast ~|Annakarl teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Law rune*"],
 				"Chunks": ["13116", "Jaldraocht Pyramid"],
 				"Level": 90,
@@ -36537,6 +36752,7 @@
 				"Priority": 2
 			},
 			"Cast ~|enchant crossbow bolt (onyx)|~ on an ascendri bolt": {
+				"Category": ["Spells"],
 				"Items": ["Fire rune+*", "Death rune*", "Cosmic rune*", "Ascendri bolts*"],
 				"Level": 90,
 				"Output": "Ascendri bolts (e)",
@@ -36544,6 +36760,7 @@
 				"Priority": 3
 			},
 			"Cast ~|tele-group ice plateau|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "11837"],
 				"Level": 90,
@@ -36551,12 +36768,14 @@
 				"Priority": 4
 			},
 			"Cast ~|earth surge|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Air rune+*", "Earth rune+*"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 5
 			},
 			"Cast ~|disruption shield|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Astral rune*", "Body rune*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 90,
@@ -36564,6 +36783,7 @@
 				"Priority": 6
 			},
 			"Cast ~|crystal mask|~": {
+				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Body rune*", "Fire rune+*", "Earth rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "9268"],
 				"Level": 90,
@@ -36571,6 +36791,7 @@
 				"Priority": 7
 			},
 			"Cast ~|enchant bakriminel bolt (sapphire)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Mind rune*", "Water rune+*", "Sapphire bakriminel bolts*"],
 				"Level": 90,
 				"Output": "Sapphire bakriminel bolts (e)",
@@ -36605,6 +36826,7 @@
 				"Priority": 12
 			},
 			"Cast ~|enchant bakriminel bolt (jade)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Earth rune+*", "Jade bakriminel bolts*"],
 				"Level": 91,
 				"Output": "Jade bakriminel bolts (e)",
@@ -36612,6 +36834,7 @@
 				"Priority": 1
 			},
 			"Cast ~|sift soil|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Earth rune+*", "Water rune+*"],
 				"Chunks": ["8508"],
 				"Level": 91,
@@ -36619,6 +36842,7 @@
 				"Priority": 2
 			},
 			"Cast ~|blood barrage|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Fire rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 92,
@@ -36626,6 +36850,7 @@
 				"Priority": 1
 			},
 			"Cast ~|heal other|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Law rune*", "Astral rune*"],
 				"Chunks": ["8508"],
 				"Level": 92,
@@ -36633,6 +36858,7 @@
 				"Priority": 2
 			},
 			"Cast ~|Trollheim farm teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "11321"],
 				"Level": 92,
@@ -36640,6 +36866,7 @@
 				"Priority": 3
 			},
 			"Cast ~|tele-group Trollheim farm|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune+*"],
 				"Chunks": ["8508", "11321"],
 				"Level": 92,
@@ -36647,6 +36874,7 @@
 				"Priority": 4
 			},
 			"Cast ~|enchant bakriminel bolt (pearl)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Water rune+*", "Pearl bakriminel bolts*"],
 				"Level": 92,
 				"Output": "Pearl bakriminel bolts (e)",
@@ -36672,6 +36900,7 @@
 				"Priority": 8
 			},
 			"Cast ~|vengeance other|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Astral rune*", "Earth rune+*"],
 				"Chunks": ["8508"],
 				"Level": 93,
@@ -36679,6 +36908,7 @@
 				"Priority": 1
 			},
 			"Cast ~|enchant bakriminel bolt (emerald)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Nature rune*", "Cosmic rune*", "Air rune+*", "Emerald bakriminel bolt*"],
 				"Level": 93,
 				"Output": "Emerald bakriminel bolt (e)",
@@ -36686,6 +36916,7 @@
 				"Priority": 2
 			},
 			"Cast ~|ice barrage|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid"],
 				"Level": 94,
@@ -36693,6 +36924,7 @@
 				"Priority": 1
 			},
 			"Cast ~|vengeance|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Astral rune*", "Earth rune+*"],
 				"Chunks": ["8508"],
 				"Level": 94,
@@ -36700,6 +36932,7 @@
 				"Priority": 2
 			},
 			"Cast ~|enchant bakriminel bolt (red topaz)|~": {
+				"Category": ["Spells"],
 				"Items": ["Fire rune+*", "Cosmic rune*", "Blood rune*", "Red topaz bakriminel bolts*"],
 				"Level": 94,
 				"Output": "Red topaz bakriminel bolts (e)",
@@ -36707,6 +36940,7 @@
 				"Priority": 3
 			},
 			"Cast ~|heal group|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Law rune*", "Astral rune*"],
 				"Chunks": ["8508"],
 				"Level": 95,
@@ -36714,12 +36948,14 @@
 				"Priority": 1
 			},
 			"Cast ~|fire surge|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Fire rune+*", "Air rune+*"],
 				"Level": 95,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|vengeance group|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Astral rune*", "Earth rune+*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 95,
@@ -36727,6 +36963,7 @@
 				"Priority": 3
 			},
 			"Cast ~|enchant bakriminel bolt (ruby)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Fire rune+*", "Ruby bakriminel bolts*"],
 				"Level": 95,
 				"Output": "Rube bakriminel bolts (e)",
@@ -36740,6 +36977,7 @@
 				"Priority": 5
 			},
 			"Cast ~|Ghorrock teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Water rune+*"],
 				"Chunks": ["11836", "Jaldraocht Pyramid"],
 				"Level": 96,
@@ -36747,6 +36985,7 @@
 				"Priority": 1
 			},
 			"Cast ~|spellbook swap|~": {
+				"Category": ["Spells"],
 				"Items": ["Law rune*", "Cosmic rune*", "Astral rune*"],
 				"Chunks": ["Lunar/Ancients+"],
 				"Level": 96,
@@ -36754,6 +36993,7 @@
 				"Priority": 2
 			},
 			"Cast ~|enchant bakriminel bolt (diamond)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Law rune*", "Cosmic rune*", "Earth rune+*", "Diamond bakriminel bolts*"],
 				"Level": 96,
 				"Output": "Diamond bakriminel bolts (e)",
@@ -36761,6 +37001,7 @@
 				"Priority": 3
 			},
 			"Cast ~|exsanguinate|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Fire rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
 				"Level": 96,
@@ -36768,6 +37009,7 @@
 				"Priority": 4
 			},
 			"Cast ~|enchant bakriminel bolt (dragonstone)|~": {
+				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Blood rune*", "Cosmic rune*", "Earth rune+*", "Dragonstone bakriminel bolts*"],
 				"Level": 97,
 				"Output": "Dragonstone bakriminel bolts (e)",
@@ -36775,6 +37017,7 @@
 				"Priority": 1
 			},
 			"Cast ~|trap telekinesis|~": {
+				"Category": ["Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Air rune+*", "LunarTraps+*"],
 				"Chunks": ["8508"],
 				"Level": 97,
@@ -36782,6 +37025,7 @@
 				"Priority": 2
 			},
 			"Cast ~|enchant bakriminel bolt (onyx)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Death rune*", "Cosmic rune*", "Fire rune+*", "Onyx bakriminel bolts*"],
 				"Level": 98,
 				"Output": "Onyx bakriminel bolts (e)",
@@ -36789,6 +37033,7 @@
 				"Priority": 1
 			},
 			"Cast ~|incite fear|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Blood rune*", "Water rune+*"],
 				"Chunks": ["Jaldraocht Pyramid", "Senntisten Temple"],
 				"Level": 98,
@@ -36796,6 +37041,7 @@
 				"Priority": 2
 			},
 			"Cast ~|borrowed power|~": {
+				"Category": ["Spells"],
 				"Items": ["Astral rune*"],
 				"Chunks": ["8253", "8508", "8509"],
 				"Level": 99,
@@ -36803,6 +37049,7 @@
 				"Priority": 1
 			},
 			"Cast ~|enchant bakriminel bolt (hydrix)|~": {
+				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Death rune*", "Cosmic rune*", "Fire rune+*", "Hydrix bakriminel bolts*"],
 				"Level": 99,
 				"Output": "Hydrix bakriminel bolts (e)",
@@ -36831,6 +37078,7 @@
 				"Priority": 1
 			},
 			"Cast ~|Cure Plant|~ on a diseased farming patch": {
+				"Category": ["Spells"],
 				"Items": ["Earth rune+*", "Astral rune*"],
 				"Objects": ["FarmingPatch+"],
 				"Chunks": ["8508"],
@@ -36842,6 +37090,7 @@
 				"Priority": 4
 			},
 			"Cast ~|Fertile Soil|~ on a farming patch": {
+				"Category": ["Spells"],
 				"Items": ["Earth rune+*", "Astral rune*", "Nature rune*"],
 				"Objects": ["FarmingPatch+"],
 				"Chunks": ["8508"],
@@ -42012,6 +42261,7 @@
 				}
 			},
 			"Cast ~|slayer dart|~ with a slayer's staff": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Slayer's Staff", "Air rune+", "Death rune"],
 				"Level": 55,
 				"Primary": true,
