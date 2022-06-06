@@ -92186,7 +92186,6 @@
 				"13360": true
 			}
 		},
-		"Sophanem Dungeon": {},
 		"Ogre enclave": {
 			"Object": {
 				"Rock of Dalgroth": 1,
@@ -93066,7 +93065,7 @@
 			},
 			"Connect": {
 				"11829": true
-			},
+			}
 		},
 		"The Sanctum": {
 			"Object": {
