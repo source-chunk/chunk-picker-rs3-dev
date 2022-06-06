@@ -17695,7 +17695,7 @@
 				"Priority": 1
 			},
 			"Unlock ~|Invention|~": {
-				"Chunks": ["11829"],
+				"Chunks": ["Invention Guild"],
 				"Level": 80,
 				"Skills": {
 					"Divination": 80,
@@ -21231,7 +21231,7 @@
 				"Priority": 1
 			},
 			"Unlock ~|Invention|~": {
-				"Chunks": ["11829"],
+				"Chunks": ["Invention Guild"],
 				"Level": 80,
 				"Skills": {
 					"Crafting": 80,
@@ -44206,7 +44206,7 @@
 				"Priority": 1
 			},
 			"Unlock ~|Invention|~": {
-				"Chunks": ["11829"],
+				"Chunks": ["Invention Guild"],
 				"Level": 80,
 				"Skills": {
 					"Divination": 80,
@@ -49401,7 +49401,7 @@
 	},
 	"chunks": {
 		"1": {
-			"Name": "Giant Mole Lair"
+			"Name": "Falador Mole Lair"
 		},
 		"258": {
 			"Spawn": {
@@ -65711,7 +65711,8 @@
 			},
 			"Connect": {
 				"13099": true
-			}
+			},
+			"Name": "Sophanem Dungeon"
 		},
 		"11094": {
 			"Object": {
@@ -68733,7 +68734,9 @@
 			},
 			"Connect": {
 				"10307": true,
-				"11927": true
+				"11927": true,
+				"12127": true,
+				"24592": true
 			},
 			"Shop": {
 				"Stanley Limelight Traders": true
@@ -69963,6 +69966,9 @@
 			"NPC": {
 				"Vorago": 1,
 				"Sliske": 1
+			},
+			"Connect": {
+				"11829": true
 			},
 			"Name": "Borehole entrance"
 		},
@@ -81204,8 +81210,6 @@
 				"Young tree": 2,
 				"Bush": 2,
 				"Dimensional portal": 1,
-				"Invention guild": 1,
-				"Falador": 1,
 				"Gunnarsgone": 1,
 				"Trolley and Trollthorpe": 1
 			},
@@ -85004,7 +85008,8 @@
 			},
 			"Shop": {
 				"Invention skillcape (shop)": true
-			}
+			},
+			"Name": "Invention Guild"
 		},
 		"24929": {
 			"Object": {
@@ -89668,6 +89673,18 @@
 				"Furnace": 1
 			}
 		},
+		"Sophanem Dungeon": {
+			"Object": {
+				"Bank booth": 4
+			},
+			"NPC": {
+				"Banker": 4,
+				"Sophanem guard": 4
+			},
+			"Connect": {
+				"13099": true
+			}
+		},
 		"Captain Barnaby's Ship": {},
 		"Tzhaar Caves": {
 			"Object": {
@@ -93031,6 +93048,26 @@
 				"9268": true
 			}
 		},
+		"Invention Guild": {
+			"Object": {
+				"Inventor's workbench": 2,
+				"Parts bin": 1,
+				"Exit": 1,
+				"Bank chest": 1,
+				"Technology noticeboard": 1
+			},
+			"NPC": {
+				"Doc": 2,
+				"Grubfoot": 1,
+				"Mind-controlled monkey butler": 1
+			},
+			"Shop": {
+				"Invention skillcape (shop)": true
+			},
+			"Connect": {
+				"11829": true
+			},
+		},
 		"The Sanctum": {
 			"Object": {
 				"Opening": 2,
@@ -94304,7 +94341,7 @@
 				"6994": true
 			}
 		},
-		"Giant Mole Lair": {
+		"Falador Mole Lair": {
 			"Monster": {
 				"Giant mole": 1
 			},
@@ -170559,7 +170596,7 @@
 				"Bone dagger": "Very rare",
 				"Earth talisman": "Very rare",
 				"Fire talisman": "Very rare",
-				"Dorgesk-Kaan sphere": "Very rare",
+				"Dorgesh-Kaan sphere": "Very rare",
 				"Sealed clue scroll (easy)": "Very rare"
 			},
 			"Oldak chest": {
@@ -170712,6 +170749,6 @@
 	"slayerMonsters": {},
 	"walkableChunks": [],
 	"walkableChunksF2P": [],
-	"unnotingChunks": [],
+	"unnotingChunks": ["8253", "8500", "8748", "8755", "8756", "8757", "9011", "9015", "9265", "9273", "9275", "9516", "9531", "9776", "9781", "9782", "10028", "10039", "10288", "10292", "10293", "10300", "10537", "10545", "10547", "10548", "10804", "10806", "11061", "11310", "11317", "11319", "11575", "11827", "11828", "11834", "11836", "12084", "12088", "12089", "12335", "12338", "12342", "12347", "12586", "12593", "12594", "12597", "12598", "12841", "12843", "12850", "12852", "12853", "12854", "12856", "12860", "13104", "13105", "13363", "13364", "13372", "13613", "13626", "13874", "13878", "14388", "14638", "14642", "14646", "15939", "Dominion Tower", "Sophanem Dungeon", "Dorgesh-Kaan", "Mage arena cave", "War's Retreat", "Mazcab", "Gamer's Grotto", "The Arc", "Invention Guild", "TzHaar City", "Keldagrim", "Ourania Cave"],
 	"equipment": {}
 }
