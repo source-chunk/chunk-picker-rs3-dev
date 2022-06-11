@@ -65330,7 +65330,7 @@
 			"Connect": {
 				"11153": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Khazari Jungle"
 		},
 		"11054": {
 			"Object": {
@@ -65695,7 +65695,7 @@
 			"Spawn": {
 				"Egg": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Sinclair Lake"
 		},
 		"11064": {
 			"Object": {
@@ -65774,7 +65774,7 @@
 			"Spawn": {
 				"Chaos rune": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mountain Slope South"
 		},
 		"11067": {
 			"Object": {
@@ -65787,7 +65787,7 @@
 				"Bones": 1,
 				"Sled": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Mountain Slope North"
 		},
 		"11068": {
 			"Object": {
@@ -65809,7 +65809,7 @@
 				"Big bones": 1,
 				"Uncut sapphire": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Trollweiss Mountain"
 		},
 		"11074": {
 			"Object": {
@@ -66319,7 +66319,7 @@
 				"Jungle forester": 4,
 				"Baby gecko": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Central Khazari Jungle"
 		},
 		"11310": {
 			"Object": {
@@ -66391,7 +66391,7 @@
 			"Connect": {
 				"9547": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Karamja Jungle Mine"
 		},
 		"11312": {
 			"Object": {
@@ -66421,7 +66421,7 @@
 				"Bronze hatchet": 2,
 				"Iron hatchet": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Pothole Dungeon"
 		},
 		"11313": {
 			"Object": {
@@ -66708,7 +66708,7 @@
 			"Spawn": {
 				"Bucket": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Death Plateau"
 		},
 		"11321": {
 			"Object": {
@@ -66725,7 +66725,7 @@
 			"Connect": {
 				"11421": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Troll Stronghold"
 		},
 		"11322": {
 			"Object": {
@@ -66743,7 +66743,7 @@
 			"Connect": {
 				"11167": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ice Gate"
 		},
 		"11323": {
 			"Object": {
@@ -66753,7 +66753,7 @@
 				"Troll father": 1,
 				"Troll mother": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ice Path"
 		},
 		"11324": {
 			"Object": {
@@ -66774,7 +66774,7 @@
 			"Connect": {
 				"11168": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Zemouregal's Fort"
 		},
 		"11325": {
 			"Object": {
@@ -66783,7 +66783,7 @@
 				"Cavern": 1,
 				"Dead tree covered in snow": 10
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ritual Site Coast"
 		},
 		"11330": {
 			"Object": {
@@ -67401,7 +67401,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Khazari Jungle"
 		},
 		"11566": {
 			"Object": {
@@ -67935,7 +67935,7 @@
 				"Troll spectator": 7,
 				"Dad": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Troll Arena"
 		},
 		"11577": {
 			"Object": {
@@ -67953,7 +67953,7 @@
 				"Thistle": 1,
 				"Egg": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Trollheim"
 		},
 		"11578": {
 			"Object": {
@@ -67968,7 +67968,10 @@
 				"Knight": 1,
 				"Nanuq": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Connect": {
+				"11601": true
+			},
+			"Nickname": "God Wars Dungeon"
 		},
 		"11579": {
 			"Object": {
@@ -67986,7 +67989,7 @@
 			"Connect": {
 				"12189": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lucien's Camp"
 		},
 		"11580": {
 			"Object": {
@@ -68000,7 +68003,7 @@
 			"Connect": {
 				"16729": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ritual Site"
 		},
 		"11581": {
 			"Object": {
@@ -68015,7 +68018,7 @@
 				"Iron dragon": 7,
 				"Steel dragon": 7
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ghorrock"
 		},
 		"11586": {
 			"Object": {
@@ -68537,7 +68540,7 @@
 				"Exiled kalphite guardian": 10,
 				"Exiled kalphite marauder": 7
 			},
-			"Name": "Exiled kalphite hive"
+			"Name": "Exiled Kalphite Hive"
 		},
 		"11802": {
 			"Object": {
@@ -68547,12 +68550,17 @@
 				"Exiled kalphite guardian": 2,
 				"Exiled kalphite marauder": 2,
 				"Exiled Kalphite Queen": 1
-			}
+			},
+			"Name": "Exiled Kalphite Hive"
 		},
 		"11803": {
+			"Monser": {
+				"Kalphite King": 1
+			},
 			"Object": {
 				"Tunnel": 1
-			}
+			},
+			"Name": "Exiled Kalphite Hive"
 		},
 		"11821": {
 			"Object": {
@@ -68611,7 +68619,7 @@
 				"Seaweed": 2,
 				"Premade Blurberry Special": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Gandius' Glider"
 		},
 		"11823": {
 			"Object": {
@@ -68764,7 +68772,8 @@
 			"Connect": {
 				"4707": true,
 				"7503": true,
-				"10307": true
+				"10307": true,
+				"12614": true
 			},
 			"Spawn": {
 				"Bronze pickaxe": 1,
@@ -69058,7 +69067,7 @@
 			"Spawn": {
 				"Skull": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Wildy Ditch"
 		},
 		"11832": {
 			"Object": {
@@ -69070,7 +69079,7 @@
 			"NPC": {
 				"Crate": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Green Dragons"
 		},
 		"11833": {
 			"Object": {
@@ -69107,7 +69116,7 @@
 				"Seed dibber": 1,
 				"Coins": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Dareeyak Ruins"
 		},
 		"11834": {
 			"Object": {
@@ -69115,7 +69124,7 @@
 			},
 			"Monster": {
 				"Skeleton": 2,
-				"Ghost": 6
+				"Ghost (Wildy)": 6
 			},
 			"NPC": {
 				"Ian (cape merchant)": 1,
@@ -69145,7 +69154,7 @@
 			"NPC": {
 				"Mysterious ghost": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Chaos Altar"
 		},
 		"11836": {
 			"Monster": {
@@ -69163,7 +69172,7 @@
 			"Shop": {
 				"Darren's Wilderness Cape Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Western Obelisk"
 		},
 		"11837": {
 			"Object": {
@@ -69191,7 +69200,7 @@
 			"Spawn": {
 				"Bones": 5
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Frozen Waste Plateau"
 		},
 		"11842": {
 			"Object": {
@@ -69449,7 +69458,13 @@
 			"NPC": {
 				"Portmaster Kags": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Sunken Pyramid"
+		},
+		"12076": {
+			"Nickname": "South-West Desert Peninsula"
+		},
+		"12077": {
+			"Nickname": "North-West Desert Peninsula"
 		},
 		"12078": {
 			"Object": {
@@ -69468,7 +69483,7 @@
 			"Spawn": {
 				"Tin cup": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "The Rock Island Prison"
 		},
 		"12081": {
 			"Object": {
@@ -69751,7 +69766,7 @@
 			"Shop": {
 				"Nulodion's Multicannon Parts": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Asgarnian Road"
 		},
 		"12086": {
 			"Object": {
@@ -69859,7 +69874,8 @@
 			},
 			"Connect": {
 				"7490": true,
-				"9033": true
+				"9033": true,
+				"12629": true
 			},
 			"Spawn": {
 				"Tinderbox": 1
@@ -69930,13 +69946,19 @@
 				"Bandit Duty Free": true,
 				"Neil's Wilderness Cape Shop": true
 			},
+			"Connect": {
+				"12190": true
+			},
 			"Nickname": "Bandit Camp"
 		},
 		"12090": {
 			"Monster": {
 				"Chaos dwarf": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Connect": {
+				"12190": true
+			},
+			"Nickname": "Forinthry Dungeon"
 		},
 		"12091": {
 			"Object": {
@@ -69975,7 +69997,7 @@
 			"Spawn": {
 				"Gold necklace": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Lava Maze"
 		},
 		"12093": {
 			"Object": {
@@ -70498,7 +70520,13 @@
 				"Menaphite gardener": 1,
 				"Menaphite guard": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Menaphos Worker District Beach"
+		},
+		"12332": {
+			"Nickname": "Peninsula Entrance"
+		},
+		"12333": {
+			"Nickname": "Tuska's Head"
 		},
 		"12334": {
 			"Object": {
@@ -70925,7 +70953,8 @@
 			},
 			"Connect": {
 				"12107": true,
-				"12443": true
+				"12443": true,
+				"12629": true
 			},
 			"Spawn": {
 				"Coins": 6
@@ -70947,7 +70976,10 @@
 			"Spawn": {
 				"Bronze arrow": 9
 			},
-			"Nickname": "RuneScape Surface"
+			"Connect": {
+				"12629": true
+			},
+			"Nickname": "Ancient Statue Hill"
 		},
 		"12345": {
 			"Object": {
@@ -70984,7 +71016,7 @@
 			"Shop": {
 				"Edmond's Wilderness Cape Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South-East Lava Maze"
 		},
 		"12348": {
 			"Object": {
@@ -71002,7 +71034,7 @@
 				"Steel platebody": 1,
 				"Coins": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North-East Lava Maze"
 		},
 		"12349": {
 			"Object": {
@@ -71025,7 +71057,7 @@
 				"Gublinch jailmate": 5,
 				"Gublinchette jailmate": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Stronghold of Player Safety"
 		},
 		"12355": {
 			"Object": {
@@ -71455,7 +71487,7 @@
 				"The Postcat": 1,
 				"Jess the human": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Crimson Skillchompa Hunting Area"
 		},
 		"12589": {
 			"Object": {
@@ -71526,7 +71558,7 @@
 				"Shattered Worlds portal": 1,
 				"Shattered Worlds challenger portal": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Shattered Worlds Portals"
 		},
 		"12593": {
 			"Object": {
@@ -71562,7 +71594,7 @@
 			"Spawn": {
 				"Swamp tar": 7
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Lumbridge Swamp"
 		},
 		"12594": {
 			"Object": {
@@ -71638,7 +71670,7 @@
 			"Connect": {
 				"10307": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lumbridge Mill"
 		},
 		"12596": {
 			"Object": {
@@ -71812,7 +71844,10 @@
 			"NPC": {
 				"Waldo": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Connect": {
+				"12629": true
+			},
+			"Nickname": "Center Wildy Ditch"
 		},
 		"12600": {
 			"Object": {
@@ -71828,7 +71863,10 @@
 			"NPC": {
 				"Goblin musician": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Connect": {
+				"12629": true
+			},
+			"Nickname": "Wilderness Drakolith Mine"
 		},
 		"12601": {
 			"Object": {
@@ -71885,7 +71923,7 @@
 				"Vial": 1,
 				"Burnt bones": 6
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Center North Wildy"
 		},
 		"12605": {
 			"Object": {
@@ -71900,7 +71938,7 @@
 			"Connect": {
 				"11076": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Deserted Keep"
 		},
 		"12610": {
 			"Object": {
@@ -71913,13 +71951,13 @@
 				"Cockroach soldier": 22,
 				"Mugger": 9
 			},
-			"Name": "Stronghold of player safety"
+			"Name": "Stronghold of Player Safety"
 		},
 		"12614": {
 			"NPC": {
 				"Gus": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Hetty's Basement"
 		},
 		"12615": {
 			"Object": {
@@ -71936,7 +71974,7 @@
 				"Skeleton": 24,
 				"Zombie": 37
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Tarn Razorlor's Lair"
 		},
 		"12616": {
 			"Object": {
@@ -71944,7 +71982,8 @@
 			},
 			"Monster": {
 				"Terror dog": 9
-			}
+			},
+			"Name": "Tarn Razorlor's Lair"
 		},
 		"12619": {
 			"Object": {
@@ -72299,7 +72338,10 @@
 				"Monkey": 1,
 				"Grand Vizier Hassan": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Connect": {
+				"11801": true
+			},
+			"Nickname": "Exiled Kalphite Hive"
 		},
 		"12845": {
 			"Object": {
@@ -72346,7 +72388,7 @@
 				"General Store (Monkey colony)": true,
 				"Banana Store": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Bandit Camp Lodestone"
 		},
 		"12847": {
 			"Object": {
@@ -72360,7 +72402,7 @@
 			"Connect": {
 				"14228": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Rocky Desert"
 		},
 		"12848": {
 			"Object": {
@@ -72385,7 +72427,7 @@
 				"13716": true,
 				"13971": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Kalphite Hive"
 		},
 		"12849": {
 			"Object": {
@@ -72893,7 +72935,7 @@
 				"Body rune": 3,
 				"Coins": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Varrock Ditch"
 		},
 		"12856": {
 			"Object": {
@@ -72969,7 +73011,7 @@
 				"Skull": 5,
 				"Gold ore": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Eastern Ruins"
 		},
 		"12859": {
 			"Object": {
@@ -72988,7 +73030,7 @@
 				"Iron kiteshield": 1,
 				"Coins": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South-East Red Dragon Isle"
 		},
 		"12860": {
 			"NPC": {
@@ -72997,7 +73039,7 @@
 			"Shop": {
 				"William's Wilderness Cape Shop": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North-East Red Dragon Isle"
 		},
 		"12861": {
 			"Monster": {
@@ -73009,7 +73051,7 @@
 				"Bones": 3,
 				"Headless arrow": 3
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Scorpion Pit"
 		},
 		"12865": {
 			"NPC": {
@@ -73448,7 +73490,7 @@
 				"Goat": 4,
 				"Billy Goat": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Desert Wanderer Tent"
 		},
 		"13101": {
 			"Object": {
@@ -73471,7 +73513,7 @@
 				"Lara": 1,
 				"Penguin henchman": 6
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "T.A.R.D.I.S. Site"
 		},
 		"13102": {
 			"Object": {
@@ -73486,7 +73528,7 @@
 			"Connect": {
 				"12946": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Tumeken's Remnant"
 		},
 		"13103": {
 			"Object": {
@@ -73882,13 +73924,13 @@
 			"NPC": {
 				"Orry": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Lumberyard Ditch"
 		},
 		"13112": {
 			"NPC": {
 				"Will o' the wisp": 10
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Wilderness Lever Forest"
 		},
 		"13113": {
 			"Object": {
@@ -73909,7 +73951,7 @@
 				"Plank": 2,
 				"Tile": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Black Salamander Hunting Area"
 		},
 		"13114": {
 			"Object": {
@@ -73920,13 +73962,13 @@
 				"Plank": 2,
 				"Tile": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Wilderness Lava Pond"
 		},
 		"13115": {
 			"Monster": {
 				"Black demon": 7
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Southern Demonic Ruins"
 		},
 		"13116": {
 			"Objects": {
@@ -73942,7 +73984,7 @@
 				"Blood rune": 1,
 				"Burnt bones": 8
 			},
-			"Nickname": "DEmonic Ruins of Annakarl"
+			"Nickname": "Demonic Ruins of Annakarl"
 		},
 		"13117": {
 			"Object": {
@@ -74399,7 +74441,7 @@
 			"Monster": {
 				"Camel Warrior": 7
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "West Camel Warrior Island"
 		},
 		"13355": {
 			"Object": {
@@ -74537,7 +74579,7 @@
 			"NPC": {
 				"Ali the Wise": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Muspah Statue"
 		},
 		"13360": {
 			"Object": {
@@ -75016,7 +75058,7 @@
 			"Monster": {
 				"Camel Warrior": 4
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Camel Warrior Island"
 		},
 		"13611": {
 			"Object": {
@@ -75035,7 +75077,7 @@
 				"Lead archaeologist Abigail": 1,
 				"Assistant archaeologist Kerner": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ullek Marsh"
 		},
 		"13612": {
 			"Monster": {
@@ -75052,7 +75094,7 @@
 				"13712": true,
 				"13968": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ullek Plateau"
 		},
 		"13613": {
 			"Object": {
@@ -75112,7 +75154,7 @@
 				"Desert snake": 2,
 				"Jackal": 7
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Nardah Desert"
 		},
 		"13615": {
 			"Object": {
@@ -75142,7 +75184,7 @@
 				"Golden warbler": 4,
 				"Orange salamander": 11
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Desert Hunter Area"
 		},
 		"13617": {
 			"Object": {
@@ -75197,7 +75239,7 @@
 				"11079": true,
 				"13718": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Abandoned Mine"
 		},
 		"13619": {
 			"Object": {
@@ -75248,7 +75290,7 @@
 				"Swamp tar": 10,
 				"Washing bowl": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Nature Grotto"
 		},
 		"13621": {
 			"Object": {
@@ -75403,7 +75445,7 @@
 			"NPC": {
 				"Cormorant": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Daemonheim North-West Coast"
 		},
 		"13634": {
 			"Object": {
@@ -75640,7 +75682,7 @@
 				"5963": true,
 				"5965": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Uzer Mastaba"
 		},
 		"13872": {
 			"Object": {
@@ -75663,7 +75705,7 @@
 			"Spawn": {
 				"Letter (The Golem)": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Uzer"
 		},
 		"13873": {
 			"Object": {
@@ -75786,7 +75828,7 @@
 			"Spawn": {
 				"Swamp tar": 8
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "The Hallows"
 		},
 		"13877": {
 			"Object": {
@@ -76185,7 +76227,7 @@
 			"Spawn": {
 				"Bronze pickaxe": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Burgh de Rott"
 		},
 		"14131": {
 			"Object": {
@@ -76241,7 +76283,7 @@
 				"Bruise Blamish Snail": 1,
 				"Bark Blamish Snail": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Morytania Graveyard"
 		},
 		"14134": {
 			"Object": {
@@ -76313,7 +76355,7 @@
 				"Easter Bunny": 1,
 				"Dwarven engineer": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Easter"
 		},
 		"14148": {
 			"Object": {
@@ -76660,7 +76702,7 @@
 				"Bucket": 2,
 				"Bucket of water": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Meiyerditch Beach"
 		},
 		"14386": {
 			"Object": {
@@ -76704,7 +76746,7 @@
 			"Shop": {
 				"Trader Sven's Black Market Goods": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Meiyerditch"
 		},
 		"14387": {
 			"Object": {
@@ -76733,7 +76775,7 @@
 				"Tinderbox": 1,
 				"Bucket of water": 10
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "North Meiyerditch"
 		},
 		"14388": {
 			"Object": {
@@ -76784,7 +76826,7 @@
 				"Vyrelord": 9,
 				"Ranis Drakan": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Darkmeyer"
 		},
 		"14389": {
 			"Object": {
@@ -76802,7 +76844,7 @@
 			"Monster": {
 				"Vyrewatch": 8
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "South Haunted Woods"
 		},
 		"14390": {
 			"Object": {
@@ -77041,7 +77083,7 @@
 			"Shop": {
 				"Trader Stan's Trading Post": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Pirate Pier"
 		},
 		"14638": {
 			"Object": {
@@ -77111,7 +77153,7 @@
 			"Monster": {
 				"Seagull": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Icyene Graveyard"
 		},
 		"14642": {
 			"Object": {
@@ -77123,7 +77165,10 @@
 				"Archaeologist": 1,
 				"Vanescula Drakan": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Everlight Camp"
+		},
+		"14643": {
+			"Nickname": "Sanguinesti woods"
 		},
 		"14644": {
 			"Object": {
@@ -77144,7 +77189,7 @@
 			"Shop": {
 				"Trader's Goods": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "East Darkmeyer"
 		},
 		"14645": {
 			"Object": {
@@ -77172,7 +77217,7 @@
 				"18018": true,
 				"18785": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Araxyte Lair"
 		},
 		"14646": {
 			"Object": {
@@ -77237,14 +77282,14 @@
 			"Connect": {
 				"8527": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Ectofuntus"
 		},
 		"14658": {
 			"Object": {
 				"Nest of eggs": 6,
 				"Cave": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Name": "Egg cave?"
 		},
 		"14659": {
 			"Object": {
@@ -77547,7 +77592,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "K'Chunk's Chunk"
 		},
 		"14894": {
 			"Object": {
@@ -77586,7 +77631,7 @@
 			"NPC": {
 				"Tarddiad Firefly": 2
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Everlight Digsite Acropolis Coast"
 		},
 		"14897": {
 			"Object": {
@@ -77631,7 +77676,7 @@
 				"Tarddiad Firefly": 17,
 				"Archaeologist": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Everlight Digsite Amphitheater"
 		},
 		"14902": {
 			"Object": {
@@ -78149,7 +78194,7 @@
 			"NPC": {
 				"Tarddiad Firefly": 12
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Everlight Digsite Amphitheater Statues"
 		},
 		"15159": {
 			"Object": {
@@ -78531,7 +78576,7 @@
 			"NPC": {
 				"Hooded pirate": 1
 			},
-			"Nickname": "RuneScape Surface"
+			"Nickname": "Hooded Pirate coast"
 		},
 		"15426": {
 			"Object": {
@@ -85967,7 +86012,10 @@
 			},
 			"NPC": {
 				"Ashuelot Reis": 1
-			}
+			},
+			"Connect": {
+				"11578": true
+			},
 		},
 		"Gemstone cavern": {
 			"Object": {
@@ -86358,15 +86406,12 @@
 				"Exit": 5
 			},
 			"Connect": {
-				"4934": true,
-				"12374": true,
-				"12625": true,
-				"12629": 2,
-				"12630": 3,
-				"12885": 3,
-				"12886": 3,
-				"13141": 2,
-				"13142": 2
+				"12087": true,
+				"12343": true,
+				"12344": true,
+				"12599": true,
+				"12600": true,
+				"12625": true
 			},
 			"Monster": {
 				"Monk of Zamorak": 22,
@@ -86418,7 +86463,7 @@
 				"Boulder": 16
 			}
 		},
-		"Stronghold of player safety": {
+		"Stronghold of Player Safety": {
 			"Object": {
 				"Tunnel": 1,
 				"Rope": 1
@@ -86566,7 +86611,26 @@
 				"9778": true
 			}
 		},
-		"Lair of Tarn Razorlor": {},
+		"Tarn Razorlor's Lair": {
+			"Object": {
+				"Passageway": 59,
+				"Pillar": 18,
+				"Ledge": 12,
+				"Floor": 80
+			},
+			"NPC": {
+				"Odovacar": 1
+			},
+			"Monster": {
+				"Giant skeleton": 2,
+				"Skeleton": 24,
+				"Zombie": 37
+				"Terror dog": 9
+			},
+			"Connect": {
+				"10821": true
+			},
+		},
 		"Tutorial cellar": {},
 		"Living Rock Caverns": {
 			"Object": {
@@ -86807,17 +86871,23 @@
 		},
 		"Exiled Kalphite Hive": {
 			"Object": {
-				"Tunnel": 2,
+				"Tunnel": 3,
 				"Exit": 1,
-				"Small obelisk": 1
+				"Small obelisk": 1,
+				"Slope": 1
 			},
 			"Monster": {
 				"Exiled kalphite worker": 30,
 				"Exiled kalphite soldier": 6,
 				"Exiled kalphite paragon": 5,
-				"Exiled kalphite guardian": 10,
-				"Exiled kalphite marauder": 7
-			}
+				"Exiled kalphite guardian": 12,
+				"Exiled kalphite marauder": 9,
+				"Exiled Kalphite Queen": 1,
+				"Kalphite King": 1
+			},
+			"Connect": {
+				"12844": true
+			},
 		},
 		"The Runespan": {
 			"Object": {
@@ -86963,6 +87033,12 @@
 			}
 		},
 		"Chasm": {},
+		"Egg cave?": {
+			"Object": {
+				"Nest of eggs": 6,
+				"Cave": 1
+			}
+		},
 		"Crossroad": {},
 		"Grotworm Lair 1": {
 			"Object": {
@@ -89133,7 +89209,14 @@
 			}
 		},
 		"Crypt": {},
-		"Hetty's basement": {},
+		"Hetty's basement": {
+			"NPC": {
+				"Gus": 1
+			},
+			"Connect": {
+				"11826": true
+			},
+		},
 		"Betty's basement": {
 			"Object": {
 				"Blackbird pen": 1,
@@ -89653,7 +89736,8 @@
 				"Innocent-looking key": 1
 			},
 			"Connect": {
-				"13618": 2
+				"12615": true,
+				"13618": true
 			}
 		},
 		"Movario's base": {
@@ -92811,7 +92895,8 @@
 				"Elite Black Knight": 1
 			},
 			"Connect": {
-				"11579": true,
+				"12089": true,
+				"12090": true,
 				"12188": true
 			}
 		},
@@ -94100,6 +94185,32 @@
 			}
 		},
 		"Shattered Worlds": {},
+		"Easter": {
+			"Object": {
+				"Nest caves": 1,
+				"Hunting caves": 1,
+				"Surface tunnel": 1,
+				"Cave": 1,
+				"Combining machine cave": 1,
+				"Stats board": 3,
+				"Bank chest": 1,
+				"Water tank": 1,
+				"Broken machine": 2,
+				"Broken bird perch": 1,
+				"Peanut crates": 9,
+				"Egg crates": 3,
+				"Chocolate container": 3,
+				"Milk churn": 2,
+				"Chocolate bars": 1,
+				"Rock": 1
+			},
+			"NPC": {
+				"Ringleader Vyvyan": 1,
+				"Imp": 9,
+				"Easter Bunny": 1,
+				"Dwarven engineer": 1
+			}
+		},
 		"Shifting tombs": {},
 		"Sunken pyramid": {},
 		"Sophanem Slayer Dungeon": {},
@@ -119808,6 +119919,29 @@
 			}
 		},
 		"Ghost": {
+			"Ghost hunter goggles": {
+				"1": "Very rare"
+			},
+			"Ghost hunter body": {
+				"1": "Very rare"
+			},
+			"Ghost hunter legs": {
+				"1": "Very rare"
+			},
+			"Ghost hunter backpack": {
+				"1": "Very rare"
+			},
+			"Ectoplasmator": {
+				"1": "Very rare"
+			},
+			"Deployable herb burner": {
+				"1": "Very rare"
+			},
+			"Cremation": {
+				"1": "1/1000"
+			}
+		},
+		"Ghost (Wildy)": {
 			"Coins": {
 				"31-238": "Common"
 			},
@@ -119858,6 +119992,27 @@
 			},
 			"Grimy avantoe": {
 				"1": "Rare"
+			},
+			"Ghost hunter goggles": {
+				"1": "Very rare"
+			},
+			"Ghost hunter body": {
+				"1": "Very rare"
+			},
+			"Ghost hunter legs": {
+				"1": "Very rare"
+			},
+			"Ghost hunter backpack": {
+				"1": "Very rare"
+			},
+			"Ectoplasmator": {
+				"1": "Very rare"
+			},
+			"Deployable herb burner": {
+				"1": "Very rare"
+			},
+			"Cremation": {
+				"1": "1/1000"
 			}
 		},
 		"Ghost (Melzar's Maze)": {
