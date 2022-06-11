@@ -71589,6 +71589,7 @@
 				"Abyssal Knight": 6
 			},
 			"Connect": {
+				"12693": true,
 				"13899": true
 			},
 			"Spawn": {
@@ -86015,7 +86016,7 @@
 			},
 			"Connect": {
 				"11578": true
-			},
+			}
 		},
 		"Gemstone cavern": {
 			"Object": {
@@ -86624,12 +86625,12 @@
 			"Monster": {
 				"Giant skeleton": 2,
 				"Skeleton": 24,
-				"Zombie": 37
+				"Zombie": 37,
 				"Terror dog": 9
 			},
 			"Connect": {
 				"10821": true
-			},
+			}
 		},
 		"Tutorial cellar": {},
 		"Living Rock Caverns": {
@@ -86887,7 +86888,7 @@
 			},
 			"Connect": {
 				"12844": true
-			},
+			}
 		},
 		"The Runespan": {
 			"Object": {
@@ -89215,7 +89216,7 @@
 			},
 			"Connect": {
 				"11826": true
-			},
+			}
 		},
 		"Betty's basement": {
 			"Object": {
@@ -92971,6 +92972,7 @@
 				"Sergeant Slimetoes": 1
 			},
 			"Connect": {
+				"12593": true,
 				"12948": true,
 				"12950": true
 			}
