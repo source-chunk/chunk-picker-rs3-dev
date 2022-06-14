@@ -382,6 +382,7 @@ let rules = {
     "Quest Skill Reqs": false,
 	"Token": false,
 	"Master skillscape": false,
+	"Golden fish egg": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
