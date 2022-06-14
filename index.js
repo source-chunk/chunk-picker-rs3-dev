@@ -463,6 +463,7 @@ let ruleNames = {
     "Quest Skill Reqs": "Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
 	"Token": "Allow token xp drops to count as a primary training method",
 	"Master skillcape": "Must obtain master skillcapes for all skills <span class='rule-asterisk noscroll'>†</span>",
+	"Golden fish egg": "Must obtain all available golden fish eggs <span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -536,6 +537,7 @@ let rulePresets = {
         "Tutor Ammo":  true,
         "Spells": true,
 		"Token": true,
+		"Golden fish egg": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -644,6 +646,9 @@ let ruleStructure = {
         "Sulphurous Fertiliser": true,
         "Farming Primary": true
     },
+	"Fishing": {
+		"Golden fish egg": true
+	},
     "Herblore": {
         "Herblore Unlocked Snake Weed": true,
         "Herblore Unlocked": true,
