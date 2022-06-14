@@ -88739,7 +88739,7 @@
 			},
 			"Monster": {
 				"Shadow": 94,
-				"Knight of Ardougne": 4,
+				"Knight of Ardougne (Mourner)": 4,
 				"Dark beast": 19
 			},
 			"NPC": {
@@ -99223,6 +99223,82 @@
 			["Kayle's chargebow"]
 		],
 		"slayerTasks": {
+			"Aberrant spectres": {
+				"Aberrant spectre": true,
+				"Aberrant spectre champion": true
+			},
+			"Abyssal demons": {
+				"Abyssal demon": true,
+				"Abyssal demon (HoG)": true,
+				"Abyssal savage": true,
+				"Abyssal beast": true,
+				"Abyssal lord": true
+			},
+			"Acheron mammoths": {
+				"Acheron mammoths": true
+			},
+			"Adamant dragons": {
+				"Adamant dragon": true
+			},
+			"Airut": {
+				"Airut": true
+			},
+			"Ankou": {
+				"Ankou": true
+			},
+			"Aquanites": {
+				"Aquanite": true
+			},
+			"Ascension members": {
+				"Rorarius": true,
+				"Gladius": true,
+				"Capsarius": true,
+				"Scutarius": true,
+				"Legio Primus": true,
+				"Legio Secundus": true,
+				"Legio Quartus": true,
+				"Legio Tertius": true,
+				"Legio Sextus": true,
+				"Legio Quintus": true
+			},
+			"Automatons": {
+				"Automaton guardian": true,
+				"Automaton tracer": true,
+				"Automaton generator": true
+			},
+			"Aviansies": {
+				"Aviansie": true,
+				"Spiritual mage": true,
+				"Spiritual ranger": true,
+				"Spiritual warrior": true,
+				"Wingman Skree": true,
+				"Flockleader Geerin": true,
+				"Flight Kilisa": true,
+				"Kree'arra": true
+			},
+			"Banshees": {
+				"Banshee": true,
+				"Banshee champion": true,
+				"Mighty banshee": true,
+				"Banshee mistress": true
+			},
+			"Basilisks": {
+				"Basilisk": true,
+				"Basilisk boss": true
+			},
+			"Bats": {
+				"Bat": true,
+				"Warped bat": true,
+				"Giant bat": true,
+				"Albino bat": true
+			},
+			"Bears": {
+				"Bear cub": true,
+				"Black bear": true,
+				"Grizzly bear cub": true,
+				"Grizzly bear": true,
+				"Angry bear": true
+			},
 			"Birds": {
 				"Pekin": true,
 				"Undead pekin": true,
@@ -99244,6 +99320,864 @@
 				"Evil chicken": true,
 				"Tenacious tucan": true,
 				"Oomlie bird": true
+			},
+			"Black demons": {
+				"Black demon": true,
+				"Balfrug Kreeyath": true
+			},
+			"Black dragon": {
+				"Baby black dragon": true,
+				"Black dragon": true,
+				"Verak Little": true,
+				"Alanogard the Black": true,
+				"King black dragon": true,
+				"Queen black dragon": true,
+				"Verak Lith": true
+			},
+			"Bloodveld": {
+				"Bloodveld": true,
+				"Mutated bloodveld": true,
+				"Bloodveld (GWD)": true
+			},
+			"Blue dragons": {
+				"Baby blue dragon": true,
+				"Blue dragon": true
+			},
+			"Brine rats": {
+				"Brine rat": true
+			},
+			"Bronze dragons": {
+				"Bronze dragon": true
+			},
+			"Camel warriors": {
+				"Camel warrior": true
+			},
+			"Catablepon": {
+				"Catablepon": true
+			},
+			"Cave bugs": {
+				"Cave bug": true
+			},
+			"Cave crawlers": {
+				"Cave crawler": true,
+				"Monstrous cave crawler": true
+			},
+			"Cave horrors": {
+				"Cave horror": true,
+				"Unspeakable horror": true
+			},
+			"Cave slimes": {
+				"Cave slime": true
+			},
+			"Celestial dragons": {
+				"Celestial dragon": true,
+				"Elegorn the Celestial": true,
+				"Astellarn": true
+			},
+			"Chaos giants": {
+				"Chaos giant": true
+			},
+			"Cockatrice": {
+				"Cockatrice": true
+			},
+			"Cockroaches": {
+				"Cockroach drone": true,
+				"Cockroach worker": true,
+				"Cockroach soldier": true
+			},
+			"Corrupted creatures": {
+				"Corrupted scorpion": true,
+				"Corrupted scarab": true,
+				"Corrupted lizard": true,
+				"Corrupted dust devil": true,
+				"Corrupted kalphite guardian": true,
+				"Corrupted kalphite marauder": true,
+				"Corrupted worker": true
+			},
+			"Cows": {
+				"Cow calf": true,
+				"Cow": true,
+				"Undead cow": true
+			},
+			"Crawling hands": {
+				"Crawling hand": true,
+				"Skeletal hand": true,
+				"Zombie hand": true
+			},
+			"Creatures of Daemonheim": {
+				"Seeker": true,
+				"Frost dragon": true,
+				"Edimmu": true,
+				"Kal'gerion demon": true,
+				"Soulgazer": true
+			},
+			"Crocodiles": {
+				"Crocodile": true,
+				"Sea crocodile": true,
+				"Crocodile akh": true,
+				"Ol' Sawtooth": true
+			},
+			"Crystal shapeshifters": {
+				"Crystal shapeshifter": true
+			},
+			"Cyclopes": {
+				"Cyclops": true,
+				"Cyclossus": true,
+				"Cyclops (GWD)": true
+			},
+			"Dagannoth": {
+				"Dagannoth spawn": true,
+				"Dagannoth fledgeling": true,
+				"Dagannoth (Lighthouse)": true,
+				"Dagannoth (Waterbirth)": true,
+				"Dagannoth sentinel": true,
+				"Dagannoth guardian": true,
+				"Dagannoth (Horror from the Deep)": true,
+				"Dagannoth mother": true,
+				"Dagnnoth Prime": true,
+				"Dagannoth Rex": true,
+				"Dagannoth Supreme": true
+			},
+			"Dark beasts": {
+				"Dark beast": true,
+				"Revenant dark beast": true
+			},
+			"Demons": {
+				"Imp (GWD)": true,
+				"Imp": true,
+				"Lesser demon": true,
+				"Greater demon": true,
+				"Gargoyle": true,
+				"Abyssal demon": true,
+				"Black demon": true,
+				"K'ril Tsutsaroth": true,
+				"Tstanon Karlak": true,
+				"Balfrug Kreeyath": true,
+				"Zakl'n gritch": true,
+				"Abyssal savage": true,
+				"Kal'gerion demon": true,
+				"Abyssal beast": true,
+				"Tormented demon": true,
+				"Gargoyle sentinal": true,
+				"Ripper demon": true,
+				"Abyssal lord": true,
+				"Yol'Ger the Deceiver": true
+			},
+			"Desert lizards": {
+				"Small lizard": true,
+				"Desert lizard": true,
+				"Lizard": true,
+				"Corrupted lizard": true
+			},
+			"Desert strykewyrms": {
+				"Desert strykewyrms": true
+			},
+			"Dinosaurs": {
+				"Feral dinosaur": true,
+				"Brutish dinosaur": true,
+				"Venomous dinosaur": true,
+				"Ripper dinosaur": true,
+				"Orikalka": true,
+				"Pthentraken": true,
+				"Rathis": true
+			},
+			"Dogs": {
+				"Guard dog": true,
+				"Cerberus": true,
+				"Wild dog": true,
+				"Jackal": true,
+				"Shadow hound": true
+			},
+			"Dragons": {
+				"Baby blue dragon": true,
+				"Baby red dragon": true,
+				"Green dragon": true,
+				"Blue dragon": true,
+				"Red dragon": true,
+				"Bronze dragon": true,
+				"Iron dragon": true,
+				"Black dragon": true,
+				"Steel dragon": true,
+				"Brutal green dragon": true,
+				"Red dragon (Dragonkin Laboratory)": true,
+				"Verak Little": true,
+				"Black dragon (Dragonkin Laboratory)": true,
+				"Dragonstone dragon (Dragonkin Laboratory)": true,
+				"Mithril dragon": true,
+				"Frost dragon": true,
+				"Celestial dragon (Dragonkin Laboratory)": true,
+				"Elegorn the Celestial": true,
+				"Onyx dragon (Dragonkin Laboratory)": true,
+				"Adamant dragon": true,
+				"Alanogard the Black": true,
+				"Hydrix dragon (Dragonkin Laboratory)": true,
+				"Dragonstone dragon": true,
+				"Nodon hunter": true,
+				"Nodon guard": true,
+				"Nodon artificer": true,
+				"Onyx dragon": true,
+				"Celestial dragon": true,
+				"Rune dragon": true,
+				"Sangri the Red": true,
+				"Hydrix dragon": true,
+				"Siege engine": true,
+				"Nodon engineer": true,
+				"King black dragon": true,
+				"Queen black dragon": true,
+				"Astellarn": true,
+				"Verak Lith": true,
+				"Black stone dragon": true
+			},
+			"Dust devils": {
+				"Dust devil": true,
+				"Corrupted dust devil": true
+			},
+			"Earth warriors": {
+				"Earth warrior": true
+			},
+			"Edimmu": {
+				"Edimmu": true
+			},
+			"Elves": {
+				"Knight of Ardougne": true,
+				"Knight of Ardougne (Mourner)": true,
+				"Elf warrior": true,
+				"Mourner": true,
+				"Seren archer": true,
+				"Seren mage": true,
+				"Seren warrior": true,
+				"Cadarn ranger": true,
+				"Cadarn magus": true,
+				"Iorweth guard": true,
+				"Iorwerth scout": true
+			},
+			"Fever spiders": {
+				"Fever spider": true
+			},
+			"Fire giants": {
+				"Fire giant": true
+			},
+			"Fleshcrawlers": {
+				"Fleshcrawler": true
+			},
+			"Frogs": {
+				"Swamp frog": true,
+				"Plague frog": true,
+				"Big frog": true,
+				"Giant frog": true,
+				"Frogeel": true,
+				"Frog": true
+			},
+			"Fungal magi": {
+				"Fungal mage": true
+			},
+			"Ganodermic creatures": {
+				"Ganodermic runt": true,
+				"Ganodermic beast": true
+			},
+			"Gargoyles": {
+				"Gargoyle": true,
+				"Gargoyle sentinel": true
+			},
+			"Gelatinous abominations": {
+				"Gelatinous abomination": true
+			},
+			"Gemstone dragons": {
+				"Dragonstone dragon (Dragonkin Laboratory)": true,
+				"Onyx dragon (Dragonkin Laboratory)": true,
+				"Hydrix dragon (Dragonkin Laboratory)": true,
+				"Dragonstone dragon": true,
+				"Onyx dragon": true,
+				"Hydrix dragon": true,
+				"Black stone dragon": true
+			},
+			"Ghosts": {
+				"Ghost (Melzar's maze)": true,
+				"Revenant imp": true,
+				"Revenant goblin": true,
+				"Ghost": true,
+				"Revenant icefiend": true,
+				"Revenant pyrefiend": true,
+				"Revenant hobgoblin": true,
+				"Revenant vampyre": true,
+				"Tortured soul": true,
+				"Revenant werewolf": true,
+				"Revenant cyclops": true,
+				"Ghostly warrior": true,
+				"Revenant hellhound": true,
+				"Spectral tender": true,
+				"Spectral cultivator": true,
+				"Spectral worshipper": true,
+				"Spectral attendant": true,
+				"Revenant demon": true,
+				"Revenant ork": true,
+				"Revenant dark beast": true,
+				"Revenant knight": true,
+				"Revenant dragon": true
+			},
+			"Ghouls": {
+				"Ghoul (Paterdomus)": true,
+				"Ghoul": true,
+				"Ravenous ghoul": true
+			},
+			"Glacor": {
+				"Glacyte": true,
+				"Glacor": true,
+				"Unstable glacyte": true,
+				"Enduring glacyte": true,
+				"Sapping glacyte": true,
+				"Bolstered glacyte": true,
+				"Arch-Glacor": true
+			},
+			"Goblins": {
+				"Cave goblin": true,
+				"Wormbrain": true,
+				"Goblin": true,
+				"Lumpnose": true,
+				"Brokeface": true,
+				"Stinkears": true,
+				"Cave goblin miner": true,
+				"Skoblin": true,
+				"Cave goblin guard": true,
+				"Goblin guard": true,
+				"Hollowtoof": true,
+				"Goblin (GWD)": true,
+				"Sergeant Grimspike": true,
+				"Sergeant Steelwill": true,
+				"Segeant Strongstack": true
+			},
+			"goraks": {
+				"Gorak": true,
+				"Gorak (GWD)": true
+			},
+			"Greater demons": {
+				"Greater demon": true,
+				"Tstanon Karlak": true,
+				"Butcher demon": true,
+				"Champion of Infernus": true,
+				"K'ril tsutsaroth": true
+			},
+			"Green dragons": {
+				"Green dragon": true,
+				"Elvarg": true,
+				"Brutal green dragon": true
+			},
+			"Grifolapines": {
+				"Grifolapine": true
+			},
+			"Grifolaroos": {
+				"Grifolaroo": true
+			},
+			"Grotworms": {
+				"Young grotworm": true,
+				"Grotworm": true,
+				"Giant worm": true,
+				"Mature grotworm": true
+			},
+			"Harpie bug swarms": {
+				"Harpie bug swarm": true
+			},
+			"Hellhounds": {
+				"Revenant hellhound": true,
+				"Hellhound": true,
+				"Hellhound (GWD)": true,
+				"Hellhound (HoG)":true
+			},
+			"Hill giants": {
+				"Hill giant": true
+			},
+			"Hobgoblins": {
+				"Hobgoblin": true,
+				"Hobgoblin (GWD)": true
+			},
+			"Ice giants": {
+				"Ice giant": true
+			},
+			"Ice strykewyrms": {
+				"Ice strykewyrm": true
+			},
+			"Ice warriors": {
+				"Icelord": true,
+				"Ice warrior": true,
+				"Kamil": true
+			},
+			"Icefiends": {
+				"Icefiend": true,
+				"Revenant icefiend": true,
+				"Icefiend (GWD)": true,
+				"Icefiend (Ghorrock)": true
+			},
+			"Infernal mages": {
+				"Infernal mage": true
+			},
+			"Iron dragons": {
+				"Iron dragon": true
+			},
+			"Jellies": {
+				"Jelly (Soul Wars)": true,
+				"Jelly": true
+			},
+			"Jungle horrors": {
+				"Jungle horror": true,
+				"Quetzathog": true,
+				"Sea horror": true
+			},
+			"Jungle strykewyrms": {
+				"Jungle strykewyrm": true
+			},
+			"Kal'gerion demons": {
+				"Kal'gerion demon": true,
+				"Kal'gerion demon (The Shadow Reef)": true,
+				"Yor'Ger the Deceiver": true
+			},
+			"Kalphites": {
+				"Kalphite worker": true,
+				"Kalphite soldier": true,
+				"Kalphite guardian": true,
+				"Exiled kalphite worker": true,
+				"Exiled kalphite paragon": true,
+				"Exiled kalphite soldier": true,
+				"Exiled kalphite marauder": true,
+				"Exiled kalphite guardian": true,
+				"Corrupted kalphite guardian": true,
+				"Corrupted kalphite marauder": true,
+				"Kalphite Queen": true,
+				"Exiled kalphite queen": true,
+				"Kalphite king": true
+			},
+			"Killerwatts": {
+				"Killerwatt": true
+			},
+			"Kurasks": {
+				"Kurask minion": true,
+				"Kurask": true,
+				"Kurask overlord": true
+			},
+			"Lava strykewyrms": {
+				"Lava strykewyrm (Dragonkin Laboratory)": true,
+				"Engorged lava strykewyrm": true,
+				"Lava strykewyrm": true,
+				"WildyWyrm": true
+			},
+			"Lesser demons": {
+				"Lesser demon (Melzar's Maze)": true,
+				"Lesser demon (Wizards' Tower)": true,
+				"Lesser demon": true,
+				"Zakl'n Gritch": true
+			},
+			"Living rock creatures": {
+				"Living rock protector": true,
+				"Living rock striker": true,
+				"Living rock patriarch": true
+			},
+			"Living wyverns": {
+				"Wyvern": true
+			},
+			"Lost Grove creatures": {
+				"Vinecrawler": true,
+				"Bulbous crawler": true,
+				"Moss golem": true
+			},
+			"Minotaurs": {
+				"Minotaur": true
+			},
+			"Mithril dragons": {
+				"Mithril dragon": true
+			},
+			"Mogres": {
+				"Mogre": true
+			},
+			"Molanisks": {
+				"Molanisk": true
+			},
+			"Moss giants": {
+				"Moss giant": true
+			},
+			"Muspah": {
+				"Throwing muspah": true,
+				"Bladed muspah": true,
+				"Force muspah": true,
+				"Grand force muspah": true
+			},
+			"Mutated jadinkos": {
+				"Mutated jadinko baby": true,
+				"Mutated jadinko guard": true,
+				"Mutated jadinko male": true
+			},
+			"Mutated zygomites": {
+				"Mutated zygomite": true
+			},
+			"Nechryael": {
+				"Nechryael": true,
+				"Nechryael (HoG)": true
+			},
+			"Nightmare creatures": {
+				"Nightmare": true
+			},
+			"Nihil": {
+				"Smoke nihil": true,
+				"Ice nihil": true,
+				"Blood nihil": true,
+				"Shadow nihil": true
+			},
+			"Nodon dragonkin": {
+				"Nodon artificer": true,
+				"Nodon guard": true,
+				"Nodon hunter": true,
+				"Nodon engineer": true,
+				"Siege engine": true,
+				"Nodon enforcer": true,
+				"Kerapac, the bound": true
+			},
+			"Ogres": {
+				"Gorad": true,
+				"Mogre": true,
+				"Ogre": true,
+				"Zogre": true,
+				"Skogre": true,
+				"Ogress": true,
+				"Ogress warrior": true,
+				"Ogress champion": true,
+				"Ogre chieftain": true,
+				"Enclave guard": true,
+				"Ogre (GWD)": true
+			},
+			"Otherworldly beings": {
+				"Otherworldly being": true
+			},
+			"Pyrefiends": {
+				"Revenant pyrefiend": true,
+				"Pyrefiend": true,
+				"Pyrefiend (Soul wars)": true,
+				"Smoulders": true
+			},
+			"Rats": {
+				"Rat": true,
+				"Zombie rat": true,
+				"Sewer rat": true,
+				"Giant rat": true,
+				"Dungeon rat": true,
+				"Warped rat": true,
+				"Blessed giant rat": true,
+				"Angry giant rat": true,
+				"Brine rat": true,
+				"Crypt rat": true,
+				"Giant crypt rat": true
+			},
+			"Red dragons": {
+				"Baby red dragon": true,
+				"Red dragon": true,
+				"Red dragon (Dragonkin Laboratory)": true,
+				"Sangry the Red": true
+			},
+			"Revenants": {
+				"Revenant imp": true,
+				"Revenant goblin": true,
+				"Revenant icefiend": true,
+				"Revenant pyrefiend": true,
+				"Revenant hobgoblin": true,
+				"Revenant vampyre": true,
+				"Revenant werewolf": true,
+				"Revenant cyclops": true,
+				"Revenant hellhound": true,
+				"Revenant demon": true,
+				"Revenant ork": true,
+				"Revenant dark beast": true,
+				"Revenant knight": true,
+				"Revenant dragon": true
+			},
+			"Ripper demons": {
+				"Ripper demon": true,
+				"Slasher demon": true
+			},
+			"Rock slugs": {
+				"Rock slug": true
+			},
+			"Rune dragons": {
+				"Rune dragon": true
+			},
+			"Scabarites": {
+				"Scarab swarm": true,
+				"Small scarab": true,
+				"Scabaras": true,
+				"Scarab mage": true,
+				"Locust rider": true,
+				"Scabaras ranger": true,
+				"Scabaras mage": true,
+				"Scabaras lancer": true,
+				"Locust ranger": true,
+				"Locust lancer": true,
+				"Insectoid assassin": true,
+				"Scarabs": true,
+				"Giant scarab": true,
+				"High Priest of Scabaras": true,
+				"Corrupted scarab": true,
+				"Scarab akh": true
+			},
+			"Scorpions": {
+				"Grave scorpion": true,
+				"Scorpion": true,
+				"Scorpion (Ape Atoll)": true,
+				"King scorpion": true,
+				"Giant lobster": true,
+				"Giant lobster (Ghosts ahoy)": true,
+				"Poison scorpion": true,
+				"Pit scorpion": true,
+				"Corrupted scorpion": true
+			},
+			"Sea snakes": {
+				"Sea snake hatchling": true,
+				"Sea snake young": true
+			},
+			"Shades": {
+				"Shade (Temple Trekking)": true,
+				"Loar shade": true,
+				"Shade": true,
+				"Phrin shade": true,
+				"Riyl shade": true,
+				"Asyn shade": true,
+				"Fiyr shade": true
+			},
+			"Shadow creatures": {
+				"Shadow (Temple of Light)": true,
+				"Truthful shadow": true,
+				"Greater shadow": true,
+				"Blissful shadow": true,
+				"Manifest shadow": true
+			},
+			"Shadow warriors": {
+				"Shadow warrior": true
+			},
+			"Skeletal wyverns": {
+				"Skeletal wyverns": true
+			},
+			"Skeletons": {
+				"Skeleton warrior": true,
+				"Skeleton mage": true,
+				"Skeleton (demon slayer)": true,
+				"Fabricated skeleton archer": true,
+				"Fabricated giant skeleton": true,
+				"Skeleton warlock": true,
+				"Skeleton": true,
+				"Skeleton (Melzar's maze)": true,
+				"Skoblin": true,
+				"Snothead": true,
+				"Skeleton fremennik": true,
+				"Snailfeet": true,
+				"Mosschin": true,
+				"Redeyes": true,
+				"Strongbones": true,
+				"Undead one (skeleton)": true,
+				"Skeleton (Tarn's lair)": true,
+				"Skeletal miner": true,
+				"Ulfric": true,
+				"Skeleton archer": true,
+				"Skogre": true,
+				"Skeletal hand": true,
+				"skeleton hero": true,
+				"Skeleton (Ape Atoll)": true,
+				"Giant skeleton (Tarn's lair)": true,
+				"Giant skeleton (Shadow dungeon)": true,
+				"Skeleton thug": true,
+				"Skeleton brute": true,
+				"Skeleton heavy": true,
+				"Skeleton warlord": true,
+				"Skeleton (HoG)": true,
+				"Huge skeleton": true,
+				"Bossy McBossFace's First mate": true
+			},
+			"Soul devourers": {
+				"Salawa akh": true,
+				"Feline akh": true,
+				"Gorilla akh": true,
+				"Crocodile akh": true,
+				"Scarab akh": true,
+				"Imperial warrior akh": true,
+				"Imperial ranger akh": true,
+				"Imperial mage akh": true,
+				"Oreb, the Magister": true,
+				"The Magister": true
+			},
+			"Spiders": {
+				"Spider": true,
+				"Giant spider": true,
+				"Corpse spider": true,
+				"Poison spider": true,
+				"Jungle spider": true,
+				"Blessed spider": true,
+				"Ice spider": true,
+				"Shadow spider": true,
+				"Crypt spider": true,
+				"Fever spider": true,
+				"Giant crypt spider": true,
+				"Deadly red spider": true,
+				"Lava spider": true,
+				"Spyndra": true
+			},
+			"Spiritual mages": {
+				"Spiritual mage": true
+			},
+			"Spiritual warriors": {
+				"Spiritual warrior": true
+			},
+			"Stalker creatures": {
+				"Seeker": true,
+				"Soulgazer": true,
+				"Veil-ripper Ozharakha": true
+			},
+			"Steel dragons": {
+				"Steel dragon": true
+			},
+			"Strykewyrms": {
+				"Jungle strykewyrm": true,
+				"Lava strykewyrm (Dragonkin Laboratory)": true,
+				"Desert strykewyrm": true,
+				"Ice strykewyrm": true,
+				"Lava strykewyrm": true,
+				"Wildywyrm": true
+			},
+			"Sumona's challenge": {
+				"Kalphite Queen": true
+			},
+			"Suqahs": {
+				"Suqah": true
+			},
+			"Terror dogs": {
+				"Terror dog": true
+			},
+			"Tormented demons": {
+				"Tormented demon": true
+			},
+			"Trolls": {
+				"River troll": true,
+				"Troll runt": true,
+				"Unnatural big troll": true,
+				"Troll chucker": true,
+				"Troll shaman": true,
+				"Troll brute": true,
+				"The map": true,
+				"Troll commando": true,
+				"Mountain troll (well)": true,
+				"Mountain troll": true,
+				"Ice troll runt": true,
+				"Troll spectator": true,
+				"Ice troll grunt": true,
+				"Ice troll female": true,
+				"Ice troll male": true,
+				"Twig": true,
+				"Berry": true,
+				"Arrg": true,
+				"Thrower troll": true,
+				"Dad": true,
+				"Kraka": true,
+				"Pee Hat": true,
+				"Ice troll": true,
+				"Ice troll King": true,
+				"Troll general": true
+			},
+			"Turoth": {
+				"Turoth": true,
+				"Swarming turoth": true,
+				"Mightiest turoth": true
+			},
+			"TzHaar": {
+				"TzHaar-Xil": true,
+				"TokHaar-Hur": true,
+				"TokHaar-Yt-MejKot": true,
+				"TokHaar-Ket-Zek": true,
+				"TokHaar-Mej": true,
+				"TokHaar-Ket": true,
+				"TokHaar-Xil": true,
+				"TokHaar-Tok-Xil": true,
+				"TzHaar-Hur": true,
+				"TzHaar-Ket": true,
+				"TzHaar-Mej": true
+			},
+			"Vampyres": {
+				"Revenant vampyre": true,
+				"Vampyre juvenile": true,
+				"Angry vampyre": true,
+				"Vampyre juvinate": true,
+				"Feral vampyre": true,
+				"Dessous": true,
+				"Vampyre": true
+			},
+			"Vile blooms": {
+				"Lampenflora": true,
+				"Devil's snare": true,
+				"Luminous snaggler": true,
+				"Liverworts": true
+			},
+			"Vyrewatch": {
+				"Vyrewatch": true,
+				"Vyrewatch guard": true,
+				"Wyrd": true,
+				"Vyrelord": true,
+				"Vyrelady": true
+			},
+			"Wall beasts": {
+				"Wall beast": true
+			},
+			"Warped terrorbirds": {
+				"Warped terrorbird": true
+			},
+			"Warped tortoises": {
+				"Warped tortoise": true
+			},
+			"Waterfiends": {
+				"Waterfiend (Ghorrock)": true,
+				"Waterfiend (Temple of aminishi)": true,
+				"Waterfiend": true
+			},
+			"Werewolves": {
+				"Werewolf": true,
+				"Zamorakian werewolf": true,
+				"Werewolf (GWD)": true
+			},
+			"Wights": {
+				"Wight": true,
+				"Wight ranger": true
+			},
+			"Wolves": {
+				"White wolf (Burthorpe)": true,
+				"Adolescent white wolf": true,
+				"Desert wolf": true,
+				"Wolf": true,
+				"White wolf": true,
+				"Fenris wolf": true,
+				"Big wolf": true,
+				"Dire wolf": true,
+				"Ice wolf": true,
+				"Jungle wolf": true
+			},
+			"Zombies": {
+				"Black knight zombie": true,
+				"Zombie cow": true,
+				"Undead chicken": true,
+				"Zombie rat": true,
+				"Corpse spider": true,
+				"Undead cow": true,
+				"Crawling corpse torse": true,
+				"Zombie": true,
+				"Summoned zombie": true,
+				"Corpse archer": true,
+				"Corpse mage": true,
+				"Zombie pirate": true,
+				"Zombie (zogre flesh eaters)": true,
+				"Armoured zombie": true,
+				"Zombie swab": true,
+				"Sorebones": true,
+				"Undead lumberjack": true,
+				"Zogre": true,
+				"Dried zombie": true,
+				"Monkey zombie": true,
+				"Zombie (Tarn's lair)": true,
+				"Zombie hand": true,
+				"Undead troll": true,
+				"General malpractioner": true,
+				"Ulthven Keith": true,
+				"Bossy McBossFace": true,
+				"Undead witch": true
 			}
 		},
 		"magicTools": {},
