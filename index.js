@@ -599,6 +599,7 @@ let rulePresets = {
         "All Droptables": true,
 		"Token": true,
 		"Master skillcape": true,
+		"Golden fish egg": true,
     },
 };                                                                              // List of rules that are part of each preset
 
