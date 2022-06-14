@@ -48921,6 +48921,3442 @@
 				"Tasks": {
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|goblin mail|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Goblin mail"]
+			},
+			"(Asgarnia & Misthalin) Obtain the ~|goblin book|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Goblin book"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|cornucopia|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Cornucopia"]
+			},
+			"(Asgarnia & Misthalin) Obtain an ~|off-hand rubber chicken|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Off-hand rubber chicken"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|crunchy claw token|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Crunchy claw token"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|mudskipper hat|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Mudskipper hat"]
+			},
+			"(Asgarnia & Misthalin) Obtain ~|flippers|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Flippers"]
+			},
+			"(Asgarnia & Misthalin) Obtain ~|granite legs|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Granite legs"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|royal cape|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Royal cape"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|right skull half|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Right skull half"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|left skull half|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Left skull half"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|top of sceptre|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Top of sceptre"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|bottom of sceptre|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Bottom of sceptre"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|shade robe (top)|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Shade robe (top)"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|shade robe (bottom)|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Shade robe (bottom)"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|bronze defender|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Bronze defender"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|iron defender|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Iron defender"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|steel defender|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Steel defender"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|black defender|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black defender"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|mithril defender|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Mithril defender"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|adamant defender|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Adamant defender"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|rune defender|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Rune defender"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|dragon defender|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon defender"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|Raptor key part 1|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Raptor key part 1"]
+			},
+			"(Asgarnia & Misthalin) Obtain a ~|wyvern crossbow|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Wyvern crossbow"]
+			},
+			"(Daemonheim) Obtain an ~|adrenaline urn|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Adrenaline urn"]
+			},
+			"(Daemonheim) Obtain a ~|demon slayer circlet|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Demon slayer circlet"]
+			},
+			"(Daemonheim) Obtain a ~|demon slayer torso|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Demon slayer torso"]
+			},
+			"(Daemonheim) Obtain a ~|demon slayer skirt|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Demon slayer skirt"]
+			},
+			"(Daemonheim) Obtain ~|demon slayer boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Demon slayer boots"]
+			},
+			"(Daemonheim) Obtain ~|demon slayer gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Demon slayer gloves"]
+			},
+			"(Daemonheim) Obtain a ~|demon slayer crossbow|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Demon slayer crossbow"]
+			},
+			"(Daemonheim) Obtain an ~|off-hand demon slayer crossbow|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Off-hand demon slayer crossbow"]
+			},
+			"(Daemonheim) Obtain a ~|Kal'gerion battle commendation|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Kal'gerion battle commendation"]
+			},
+			"(Daemonheim) Obtain a ~|seeker's charm|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["seeker's charm"]
+			},
+			"(Daemonheim) Obtain a ~|hexhunter bow|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Hexhunter bow"]
+			},
+			"(Daemonheim) Obtain a ~|soulgazer's charm|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Soulgazer's charm"]
+			},
+			"(Daemonheim) Obtain a ~|blood necklace shard|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Blood necklace shard"]
+			},
+			"(Daemonheim) Obtain an ~|Edimmu (item)|~": {
+				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
+				"Label": "Slayer Pets",
+				"Items": ["Edimmu (item)"]
+			},
+			"(Feldip Hills) Obtain a ~|hexcrest|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Hexcrest"]
+			},
+			"(Feldip Hills) Obtain an ~|Ascension Keystone Primus|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ascension Keystone Primus"]
+			},
+			"(Feldip Hills) Obtain an ~|Ascension Keystone Secundus|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ascension Keystone Secundus"]
+			},
+			"(Feldip Hills) Obtain an ~|Ascension Keystone Tertius|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ascension Keystone Tertius"]
+			},
+			"(Feldip Hills) Obtain an ~|Ascension Keystone Quartus|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ascension Keystone Quartus"]
+			},
+			"(Feldip Hills) Obtain an ~|Ascension Keystone Quintus|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ascension Keystone Quintus"]
+			},
+			"(Feldip Hills) Obtain an ~|Ascension Keystone Sextus|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ascension Keystone Sextus"]
+			},
+			"(Feldip Hills) Obtain ~|ascension grips|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ascension grips"]
+			},
+			"(Fremennik Provice) Obtain a ~|light mystic hat|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Light mystic hat"]
+			},
+			"(Fremennik Provice) Obtain a ~|light mystic robe top|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Light mystic robe top"]
+			},
+			"(Fremennik Provice) Obtain a ~|light mystic robe bottom|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Light mystic robe bottom"]
+			},
+			"(Fremennik Provice) Obtain ~|light mystic gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Light mystic gloves"]
+			},
+			"(Fremennik Provice) Obtain ~|light mystic boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Light mystic boots"]
+			},
+			"(Fremennik Provice) Obtain ~|basilisk boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Basilisk boots"]
+			},
+			"(Fremennik Provice) Obtain ~|kurask boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Kurask boots"]
+			},
+			"(Fremennik Provice) Obtain ~|turoth boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Turoth boots"]
+			},
+			"(Fremennik Provice) Obtain an ~|amulet of ranging|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Amulet of ranging"]
+			},
+			"(Fremennik Provice) Obtain a ~|leaf-bladed sword|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Leaf-bladed sword"]
+			},
+			"(Fremennik Provice) Obtain an ~|off-hand leaf-bladed sword|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Off-hand leaf-bladed sword"]
+			},
+			"(Fremennik Provice) Obtain a ~|brine sabre|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Brine sabre"]
+			},
+			"(Fremennik Provice) Obtain a ~|circular hide|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Circular hide"]
+			},
+			"(Fremennik Provice) Obtain a ~|flattened hide|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Flattened hide"]
+			},
+			"(Fremennik Provice) Obtain a ~|stretched hide|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Stretched hide"]
+			},
+			"(Fremennik Provice) Obtain ~|spined boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Spined boots"]
+			},
+			"(Fremennik Provice) Obtain ~|spined gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Spined gloves"]
+			},
+			"(Fremennik Provice) Obtain a ~|kurask head|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Kurask head"]
+			},
+			"(Fremennik Provice) Obtain a ~|cockatrice head|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Cockatrice head"]
+			},
+			"(Fremennik Provice) Obtain a ~|basilisk head|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Basilisk head"]
+			},
+			"(Fremennik Provice) Obtain a ~|staff of light|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Staff of light"]
+			},
+			"(Fremennik Provice) Obtain a ~|Raptor key part 4|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Raptor key part 4"]
+			},
+			"(Fremennik Provice) Obtain a ~|mammoth tusk|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Mammoth tusk"]
+			},
+			"(Kandarin) Obtain a ~|tortoise shell|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tortoise shell"]
+			},
+			"(Kandarin) Obtain a ~|perfect shell|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Perfect shell"]
+			},
+			"(Kandarin) Obtain a ~|dragon full helm|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon full helm"]
+			},
+			"(Kandarin) Obtain ~|chewed bones|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Chewed bones"]
+			},
+			"(Kandarin) Obtain a ~|Cresbot (unpoked)|~": {
+				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
+				"Label": "Slayer Pets",
+				"Items": ["Cresbot (unpoked)"]
+			},
+			"(Kandarin) Obtain ~|static gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Static gloves"]
+			},
+			"(Kandarin) Obtain ~|pneumatic gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Pneumatic gloves"]
+			},
+			"(Kandarin) Obtain ~|tracking gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tracking gloves"]
+			},
+			"(Kandarin) Obtain a ~|dark bow|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dark bow"]
+			},
+			"(Kandarin) Obtain ~|razorback gauntlets|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Razorback gauntlets"]
+			},
+			"(Kandarin) Obtain ~|Kaigi's journal pages|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Kaigi's journal pages"]
+			},
+			"(Kandarin) Obtain a ~|Tuska mask upper tusks|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tuska mask upper tusks"]
+			},
+			"(Kandarin) Obtain a ~|Tuska mask lower tusks|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tuska mask lower tusks"]
+			},
+			"(Kandarin) Obtain a ~|Tuska mask headpiece|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tuska mask headpiece"]
+			},
+			"(Kandarin) Obtain a ~|Tuska mask plate|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tuska mask plate"]
+			},
+			"(Kandarin) Obtain a ~|Tuska mask top|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tuska mask top"]
+			},
+			"(Karamja) Obtain ~|dragon platelegs|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon platelegs"]
+			},
+			"(Karamja) Obtain a ~|dragon plateskirt|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon plateskirt"]
+			},
+			"(Karamja) Obtain a ~|whip vine|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Whip vine"]
+			},
+			"(Karamja) Obtain a ~|Toktz-mej-tal|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Toktz-mej-tal"]
+			},
+			"(Karamja) Obtain a ~|Toktz-xil-ul|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Toktz-xil-ul"]
+			},
+			"(Karamja) Obtain a ~|Toktz-xil-ak|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Toktz-xil-ak"]
+			},
+			"(Karamja) Obtain a ~|Toktz-xil-ek|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Toktz-xil-ek"]
+			},
+			"(Karamja) Obtain a ~|Toktz-ket-om|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Toktz-ket-om"]
+			},
+			"(Karamja) Obtain a ~|Toktz-ket-xil|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Toktz-ket-xil"]
+			},
+			"(Karamja) Obtain an ~|obsidian cape|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Obsidian cape"]
+			},
+			"(Karamja) Obtain a ~|ring of stone|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ring of stone"]
+			},
+			"(Karamja) Obtain a ~|gemstone hauberk|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Gemstone hauberk"]
+			},
+			"(Karamja) Obtain ~|gemstone boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Gemstone boots"]
+			},
+			"(Karamja) Obtain ~|gemstone gauntlets|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Gemstone gauntlets"]
+			},
+			"(Karamja) Obtain a ~|gemstone helm|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Gemstone helm"]
+			},
+			"(Karamja) Obtain a ~|gemstone greaves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Gemstone greaves"]
+			},
+			"(Keldagrim) Obtain a ~|granite shield|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Granite shield"]
+			},
+			"(Keldagrim) Obtain a ~|hand cannon|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Hand cannon"]
+			},
+			"(Keldagrim) Obtain a ~|hand cannon shot|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Hand cannon shot"]
+			},
+			"(Keldagrim) Obtain a ~|dragon throwing axe|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon throwing axe"]
+			},
+			"(Keldagrim) Obtain an ~|off-hand dragon throwing axe|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Off-hand dragon throwing axe"]
+			},
+			"(Keldagrim) Obtain a ~|dragon pickaxe|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon pickaxe"]
+			},
+			"(Kharidian Desert) Obtain a ~|focus sight|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Focus sight"]
+			},
+			"(Kharidian Desert) Obtain a ~|dragon chainbody|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon chainbody"]
+			},
+			"(Kharidian Desert) Obtain a ~|vital spark|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Vital spark"]
+			},
+			"(Kharidian Desert) Obtain a ~|corrupted gem|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupted gem"]
+			},
+			"(Kharidian Desert) Obtain a ~|Khopesh of the Kharidian|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Khopesh of the Kharidian"]
+			},
+			"(Kharidian Desert) Obtain a ~|Key of the Crossing|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Key of the Crossing"]
+			},
+			"(Kharidian Desert) Obtain a ~|Raptor key part 2|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Raptor key part 2"]
+			},
+			"(Kharidian Desert) Obtain a ~|Raptor key part 3|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Raptor key part 3"]
+			},
+			"(Kharidian Desert) Obtain a ~|camel staff|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Camel staff"]
+			},
+			"(Kharidian Desert) Obtain a ~|ripper claw|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ripper claw"]
+			},
+			"(Kharidian Desert) Obtain an ~|off-hand ripper claw|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Off-hand ripper claw"]
+			},
+			"(Kharidian Desert) Obtain a ~|parasitic orb|~": {
+				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
+				"Label": "Slayer Pets",
+				"Items": ["Parasitic orb"]
+			},
+			"(Lost Lands and Dungeons) Obtain a ~|black mask (10)|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black mask (10)"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|Scare Tactics|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Scare Tactics"]
+			},
+			"(Lost Lands and Dungeons) Obtain a ~|brackish blade|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Brackish blade"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|dragon boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon boots"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|dragon gauntlets|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon gauntlets"]
+			},
+			"(Lost Lands and Dungeons) Obtain a ~|ruined dragon armour lump|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ruined dragon armour lump"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|dragon limbs|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon limbs"]
+			},
+			"(Lost Lands and Dungeons) Obtain a ~|ruined dragon armour shard|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ruined dragon armour shard"]
+			},
+			"(Lost Lands and Dungeons) Obtain a ~|ruined dragon armour slice|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ruined dragon armour slice"]
+			},
+			"(Lost Lands and Dungeons) Obtain a ~|dragon claw|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon claw"]
+			},
+			"(Lost Lands and Dungeons) Obtain an ~|off-hand dragon claw|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Off-hand dragon claw"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|steadfast boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Steadfast boots"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|glaiven boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Glaiven boots"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|ragefire boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ragefire boots"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|shards of Armadyl|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Shards of Armadyl"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|Penny|~": {
+				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
+				"Label": "Slayer Pets",
+				"Items": ["Dark soul", "Dark mind", "Dark body"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|Seiryu's claw|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Seiryu's claw"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|The Path of the Monk|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["The Path of the Monk"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|The Path of the Elemental|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["The Path of the Elemental"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|The Path of the Dragon|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["The Path of the Dragon"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|cinderbane gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Cinderbane gloves"]
+			},
+			"(Lost Lands and Dungeons) Obtain an ~|ancient elven ritual shard|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ancient elven ritual shard"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|blowpipe chitin|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Blowpipe chitin"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|blowpipe feathers|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Blowpipe feathers"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|blowpipe fins|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Blowpipe fins"]
+			},
+			"(Lost Lands and Dungeons) Obtain a ~|bone blowpipe|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Bone blowpipe"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|laceration boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Laceration boots"]
+			},
+			"(Lost Lands and Dungeons) Obtain ~|blast diffusion boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Blast diffusion boots"]
+			},
+			"(Morytania) Obtain ~|congealed blood|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Congealed blood"]
+			},
+			"(Morytania) Obtain ~|black boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black boots"]
+			},
+			"(Morytania) Obtain a ~|black mystic hat|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black mystic hat"]
+			},
+			"(Morytania) Obtain a ~|black mystic robe top|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black mystic robe top"]
+			},
+			"(Morytania) Obtain a ~|black mystic robe bottom|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black mystic robe bottom"]
+			},
+			"(Morytania) Obtain ~|black mystic gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black mystic gloves"]
+			},
+			"(Morytania) Obtain ~|black mystic boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black mystic boots"]
+			},
+			"(Morytania) Obtain a ~|lava battlestaff|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Lava battlestaff"]
+			},
+			"(Morytania) Obtain a ~|granite maul|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Granite maul"]
+			},
+			"(Morytania) Obtain a ~|granite helm|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Granite helm"]
+			},
+			"(Morytania) Obtain an ~|abyssal wand|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Abyssal wand"]
+			},
+			"(Morytania) Obtain an ~|abyssal orb|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Abyssal orb"]
+			},
+			"(Morytania) Obtain an ~|abyssal whip|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Abyssal whip"]
+			},
+			"(Morytania) Obtain a ~|crawling hand (item)|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Crawling hand (item)"]
+			},
+			"(Morytania) Obtain an ~|abyssal head|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Abyssal head"]
+			},
+			"(Morytania) Obtain ~|ganodermic gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ganodermic gloves"]
+			},
+			"(Morytania) Obtain ~|ganodermic boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ganodermic boots"]
+			},
+			"(Morytania) Obtain a ~|Polypore stick|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Polypore stick"]
+			},
+			"(Morytania) Obtain a ~|grifolic shield|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Grifolic shield"]
+			},
+			"(Morytania) Obtain a ~|grifolic wand|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Grifolic wand"]
+			},
+			"(Morytania) Obtain a ~|grifolic orb|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Grifolic orb"]
+			},
+			"(Morytania) Obtain ~|grifolic gloves|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Grifolic gloves"]
+			},
+			"(Morytania) Obtain ~|celestial handwraps|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Celestial handwraps"]
+			},
+			"(Morytania) Obtain a ~|Dragon Rider helm|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon Rider helm"]
+			},
+			"(Morytania) Obtain a ~|Dragon Rider body|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon Rider body"]
+			},
+			"(Morytania) Obtain a ~|Dragon Rider chaps|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon Rider chaps"]
+			},
+			"(Morytania) Obtain a ~|Dragon Rider cape|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon Rider cape"]
+			},
+			"(Morytania) Obtain a ~|Dragon Rider kit|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon Rider kit"]
+			},
+			"(Other Worlds) Obtain a ~|dragon ward|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon ward"]
+			},
+			"(Other Worlds) Obtain a ~|dragon hasta|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon hasta"]
+			},
+			"(Other Worlds) Obtain a ~|dragon knife|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon knife"]
+			},
+			"(Other Worlds) Obtain an ~|off-hand dragon knife|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Off-hand dragon knife"]
+			},
+			"(Other Worlds) Obtain ~|vampyre fangs|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Vampyre fangs"]
+			},
+			"(Other Worlds) Obtain an ~|Icyene feather|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Icyene feather"]
+			},
+			"(Other Worlds) Obtain a ~|demon horn|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Demon horn"]
+			},
+			"(Other Worlds) Obtain ~|aviansie talons|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Aviansie talons"]
+			},
+			"(Other Worlds) Obtain an ~|attuned crystal weapon seed|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Attuned crystal weapon seed"]
+			},
+			"(Other Worlds) Obtain an ~|attuned crystal armour seed|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Attuned crystal armour seed"]
+			},
+			"(Other Worlds) Obtain an ~|ancient elven wedding ring|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ancient elven wedding ring"]
+			},
+			"(Other Worlds) Obtain ~|nightmare gauntlets|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Nightmare gauntlets"]
+			},
+			"(Other Worlds) Obtain a ~|steadfast scale|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Steadfast scale"]
+			},
+			"(Other Worlds) Obtain a ~|glaiven wing-tip|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Glaiven wing-tip"]
+			},
+			"(Other Worlds) Obtain a ~|ragefire gland|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["ragefire gland"]
+			},
+			"(Other Worlds) Obtain a ~|Kethsi ring (5)|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Kethsi ring (5)"]
+			},
+			"(Other Worlds) Obtain a ~|Kethsi outfit scroll|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Kethsi outfit scroll"]
+			},
+			"(Senntisten) Obtain a ~|dwarf multicannon upgrade kit|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dwarf multicannon upgrade kit"]
+			},
+			"(Senntisten) Obtain a ~|kinetic cyclone upgrade kit|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Kinetic cyclone upgrade kit"]
+			},
+			"(Senntisten) Obtain an ~|Oldak coil upgrade kit|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Oldak coil upgrade kit"]
+			},
+			"(Senntisten) Obtain ~|steadfast boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Steadfast boots"]
+			},
+			"(Senntisten) Obtain ~|glaiven boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Glaiven boots"]
+			},
+			"(Senntisten) Obtain ~|ragefire boots|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ragefire boots"]
+			},
+			"(Senntisten) Obtain the ~|Jaws of the Abyss|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Jaws of the Abyss"]
+			},
+			"(Senntisten) Obtain an ~|abyssal scourge|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Abyssal scourge"]
+			},
+			"(Wilderness) Obtain a ~|dragon chainbody|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Dragon chainbody"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon helm|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon helm"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon chainbody|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon chainbody"]
+			},
+			"(Wilderness) Obtain ~|corrupt dragon platelegs|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon platelegs"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon plateskirt|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon plateskirt"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon battleaxe|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon battleaxe"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon dagger|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon dagger"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon longsword|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon longsword"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon mace|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon mace"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon scimitar|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon scimitar"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon spear|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon spear"]
+			},
+			"(Wilderness) Obtain a ~|corrupt dragon sq shield|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Corrupt dragon sq shield"]
+			},
+			"(Wilderness) Obtain ~|Statius's full helm|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Statius's full helm"]
+			},
+			"(Wilderness) Obtain ~|Statius's platebody|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Statius's platebody"]
+			},
+			"(Wilderness) Obtain ~|Statius's platelegs|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Statius's platelegs"]
+			},
+			"(Wilderness) Obtain ~|Statius's warhammer|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Statius's warhammer"]
+			},
+			"(Wilderness) Obtain ~|Vesta's chainbody|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Vesta's chainbody"]
+			},
+			"(Wilderness) Obtain ~|Vesta's plateskirt|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Vesta's plateskirt"]
+			},
+			"(Wilderness) Obtain ~|Vesta's longsword|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Vesta's longsword"]
+			},
+			"(Wilderness) Obtain ~|Vesta's warhammer|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Vesta's warhammer"]
+			},
+			"(Wilderness) Obtain ~|Zuriel's hood|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Zuriel's hood"]
+			},
+			"(Wilderness) Obtain ~|Zuriel's robe top|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Zuriel's robe top"]
+			},
+			"(Wilderness) Obtain ~|Zuriel's robe bottom|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Zuriel's robe bottom"]
+			},
+			"(Wilderness) Obtain ~|Zuriel's staff|~r": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Zuriel's staff"]
+			},
+			"(Wilderness) Obtain ~|Morrigan's coif|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Morrigan's coif"]
+			},
+			"(Wilderness) Obtain ~|Morrigan's leather body|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Morrigan's leather body"]
+			},
+			"(Wilderness) Obtain ~|Morrigan's leather chaps|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Morrigan's leather chaps"]
+			},
+			"(Wilderness) Obtain ~|Morrigan's javelin|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Morrigan's javelin"]
+			},
+			"(Wilderness) Obtain ~|Morrigan's throwing axe|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Morrigan's javelin"]
+			},
+			"(Wilderness) Obtain ~|Ancient warriors' equipment patch|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ancient warriors' equipment patch"]
+			},
+			"(Wilderness) Obtain ~|Fremmenik equipment patch|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Fremmenik equipment patch"]
+			},
+			"(Wilderness) Obtain a ~|revenant drop enchancer|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Revenant drop enhancer"]
+			},
+			"(Wilderness) Obtain a ~|Wilderness hilt|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Wilderness hilt"]
+			},
+			"(Wilderness) Obtain an ~|adrenaline crystal|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Adrenaline crystal"]
+			},
+			"(Wilderness) Obtain a ~|Revenant Spirit|~": {
+				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
+				"Label": "Slayer Pets",
+				"Items": ["Revenant Spirit"]
+			},
+			"(Wilderness) Obtain a ~|wyrm spike|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Wyrm spike"]
+			},
+			"(Wilderness) Obtain a ~|wyrm heart|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Wyrm heart"]
+			},
+			"(Wilderness) Obtain a ~|wyrm scalp|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Wyrm scalp"]
+			},
+			"(General drops) Obtain a ~|tooth half of a key|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tooth half of a key"]
+			},
+			"(General drops) Obtain a ~|loop half of a key|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Loop half of a key"]
+			},
+			"(General drops) Obtain ~|ghostly essence|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ghostly essence"]
+			},
+			"(General drops) Obtain a ~|crystal triskelion fragment 1|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Crystal triskelion fragment 1"]
+			},
+			"(General drops) Obtain a ~|crystal triskelion fragment 2|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Crystal triskelion fragment 2"]
+			},
+			"(General drops) Obtain a ~|crystal triskelion fragment 3|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Crystal triskelion fragment 3"]
+			},
+			"(General drops) Obtain a ~|starved ancient effigy|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Starved ancient effigy"]
+			},
+			"(General drops) Obtain a ~|ferocious ring (5)|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ferocious ring (5)"]
+			},
+			"(General drops) Obtain a ~|sirenic scale|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Sirenic scale"]
+			},
+			"(General drops) Obtain a ~|cursed amascut sand|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Cursed amascut sand"]
+			},
+			"(General drops) Obtain a ~|draconic visage|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Draconic visage"]
+			},
+			"(General drops) Obtain a ~|red dragon egg|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Red dragon egg"]
+			},
+			"(General drops) Obtain a ~|blue dragon egg|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Blue dragon egg"]
+			},
+			"(General drops) Obtain a ~|green dragon egg|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Green dragon egg"]
+			},
+			"(General drops) Obtain a ~|black dragon egg|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Black dragon egg"]
+			},
+			"(General drops) Obtain an ~|ectoplasmator|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Ectoplasmator"]
+			},
+			"(General drops) Obtain the ~|cremation ability|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Cremation ability"]
+			},
+			"(General drops) Obtain a ~|deployable herb burner|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Deployable herb burner"]
+			},
+			"(Araxxi) Obtain a ~|spider leg top|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Spider leg top"]
+			},
+			"(Araxxi) Obtain a ~|spider leg middle|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Spider leg middle"]
+			},
+			"(Araxxi) Obtain a ~|spider leg bottom|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Spider leg bottom"]
+			},
+			"(Araxxi) Obtain ~|Araxxi's fang|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Araxxi's fang"]
+			},
+			"(Araxxi) Obtain ~|Araxxi's web|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Araxxi's web"]
+			},
+			"(Araxxi) Obtain ~|Araxxi's eye|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Araxxi's eye"]
+			},
+			"(Araxxi) Obtain ~|Araxyte pheromone|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Araxyte pheromone"]
+			},
+			"(Araxxi) Obtain ~|Bill|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Araxyte pet"]
+			},
+			"(Araxxi) Obtain ~|Lana|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Araxyte pet"]
+			},
+			"(Araxxi) Obtain ~|Pete|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Araxyte pet"]
+			},
+			"(Araxxi) Obtain ~|Dave|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Araxyte pet"]
+			},
+			"(Araxxi) Obtain ~|Steve|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Araxyte pet"]
+			},
+			"(Araxxi) Obtain ~|Gavin|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Araxyte pet"]
+			},
+			"(Araxxi) Obtain ~|Barry|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Araxyte egg"]
+			},
+			"(Araxxi) Obtain ~|Mallory|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Araxyte egg"]
+			},
+			"(Arch-Glacor) Obtain ~|Glacor remnants|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Glacor remnants"]
+			},
+			"(Arch-Glacor) Obtain ~|dark nilas|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dark nilas"]
+			},
+			"(Arch-Glacor) Obtain the ~|frozen core of Leng|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Frozen core of Leng"]
+			},
+			"(Arch-Glacor) Obtain a ~|Leng artefact|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Leng artefact"]
+			},
+			"(Arch-Glacor) Obtain a ~|dark ice shard|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dark ice shard"]
+			},
+			"(Arch-Glacor) Obtain a ~|Dark Shard of Leng|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dark Shard of Leng"]
+			},
+			"(Arch-Glacor) Obtain a ~|dark ice sliver|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dark ice sliver"]
+			},
+			"(Arch-Glacor) Obtain a ~|Dark Sliver of Leng|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dark Sliver of Leng"]
+			},
+			"(Arch-Glacor) Obtain the ~|Scripture of Wen|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Scripture of Wen"]
+			},
+			"(Arch-Glacor) Obtain the ~|Glacor's Adornment|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Glacor's Adornmen"]
+			},
+			"(Arch-Glacor) Obtain the ~|Arch-Glacor's Adornment|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Arch-Glacor's Adornmen"]
+			},
+			"(Arch-Glacor) Obtain the ~|Ur-Glacor's Adornment|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ur-Glacor's Adornmen"]
+			},
+			"(Arch-Glacor) Obtain ~|Gladys|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Glacor core"]
+			},
+			"(Barrows) Obtain a ~|corruption sigil|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corruption sigil"]
+			},
+			"(Barrows) Obtain ~|Ahrim's hood|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ahrim's hood"]
+			},
+			"(Barrows) Obtain ~|Ahrim's robe top|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ahrim's robe top"]
+			},
+			"(Barrows) Obtain ~|Ahrim's robe skirt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ahrim's robe skirt"]
+			},
+			"(Barrows) Obtain ~|Ahrim's staff|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ahrim's staff"]
+			},
+			"(Barrows) Obtain ~|Ahrim's wand|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ahrim's wand"]
+			},
+			"(Barrows) Obtain ~|Ahrim's book of magic|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ahrim's book of magic"]
+			},
+			"(Barrows) Obtain ~|Akrisae's hood|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Akrisae's hood"]
+			},
+			"(Barrows) Obtain ~|Akrisae's robe top|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Akrisae's robe top"]
+			},
+			"(Barrows) Obtain ~|Akrisae's robe skirt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Akrisae's robe skirt"]
+			},
+			"(Barrows) Obtain ~|Akrisae's war mace|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Akrisae's war mace"]
+			},
+			"(Barrows) Obtain ~|Dharok's helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dharok's helm"]
+			},
+			"(Barrows) Obtain ~|Dharok's platebody|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dharok's platebody"]
+			},
+			"(Barrows) Obtain ~|Dharok's platelegs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dharok's platelegs"]
+			},
+			"(Barrows) Obtain ~|Dharok's greataxe|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dharok's greataxe"]
+			},
+			"(Barrows) Obtain ~|Guthan's helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Guthan's helm"]
+			},
+			"(Barrows) Obtain ~|Guthan's platebody|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Guthan's platebody"]
+			},
+			"(Barrows) Obtain ~|Guthan's chainskirt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Guthan's chainskirt"]
+			},
+			"(Barrows) Obtain ~|Guthan's warspear|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Guthan's warspear"]
+			},
+			"(Barrows) Obtain ~|Karil's coif|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Karil's coif"]
+			},
+			"(Barrows) Obtain ~|Karil's top|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Karil's top"]
+			},
+			"(Barrows) Obtain ~|Karil's skirt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Karil's skirt"]
+			},
+			"(Barrows) Obtain ~|Karil's crossbow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Karil's crossbow"]
+			},
+			"(Barrows) Obtain ~|Karil's pistol crossbow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Karil's pistol crossbow"]
+			},
+			"(Barrows) Obtain ~|Karil's off-hand pistol crossbow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Karil's off-hand pistol crossbow"]
+			},
+			"(Barrows) Obtain ~|Torag's helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torag's helm"]
+			},
+			"(Barrows) Obtain ~|Torag's platebody|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torag's platebody"]
+			},
+			"(Barrows) Obtain ~|Torag's platelegs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torag's platelegs"]
+			},
+			"(Barrows) Obtain ~|Torag's hammer|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torag's hammer"]
+			},
+			"(Barrows) Obtain ~|Verac's helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Verac's helm"]
+			},
+			"(Barrows) Obtain ~|Verac's brassard|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Verac's brassard"]
+			},
+			"(Barrows) Obtain ~|Verac's plateskirt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Verac's plateskirt"]
+			},
+			"(Barrows) Obtain ~|Verac's flail|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Verac's flail"]
+			},
+			"(Barrows) Obtain ~|Linza's helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Linza's helm"]
+			},
+			"(Barrows) Obtain ~|Linza's cuirass|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Linza's cuirass"]
+			},
+			"(Barrows) Obtain ~|Linza's greaves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Linza's greaves"]
+			},
+			"(Barrows) Obtain ~|Linza's hammer|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Linza's hammer"]
+			},
+			"(Barrows) Obtain ~|Linza's shield|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Linza's shield"]
+			},
+			"(Barrows) Obtain the ~|amulet of the forsaken|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Amulet of the forsaken"]
+			},
+			"(Rise of the Six) Obtain a ~|malevolent kiteshield|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Malevolent kiteshield"]
+			},
+			"(Rise of the Six) Obtain a ~|merciless kiteshield|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Merciless kiteshield"]
+			},
+			"(Rise of the Six) Obtain a ~|vengeful kiteshield|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Vengeful kiteshield"]
+			},
+			"(Rise of the Six) Obtain ~|malevolent energy|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Malevolent energy"]
+			},
+			"(Rise of the Six) Obtain the ~|Ahrim bobblehead|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Malevolent energy", "Barrow - Ahrim's set"]
+			},
+			"(Rise of the Six) Obtain the ~|Dharok bobblehead|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Barrows - Dharok's set", "Malevolent energy"]
+			},
+			"(Rise of the Six) Obtain the ~|Guthan bobblehead|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Barrows - Guthan's set", "Malevolent energy"]
+			},
+			"(Rise of the Six) Obtain the ~|Karil bobblehead|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Barrows - Karil's set", "Malevolent energy"]
+			},
+			"(Rise of the Six) Obtain the ~|Torag bobblehead|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Barrows - Torag's set", "Malevolent energy"]
+			},
+			"(Rise of the Six) Obtain the ~|Verac bobblehead|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Collection Log",
+				"Items": ["Barrows - Verac's set", "Malevolent energy"]
+			},
+			"(Chaos Elemental) Obtain a ~|dragon 2h sword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon 2h sword"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon helm"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon chainbody|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon chainbody"]
+			},
+			"(Chaos Elemental) Obtain ~|corrupt dragon platelegs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon platelegs"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon plateskirt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon plateskirt"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon battleaxe|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon battleaxe"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon dagger|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon dagger"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon longsword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon longsword"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon mace|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon mace"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon scimitar|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon scimitar"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon spear|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon spear"]
+			},
+			"(Chaos Elemental) Obtain a ~|corrupt dragon sq shield|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Corrupt dragon sq shield"]
+			},
+			"(Chaos Elemental) Obtain ~|Statius's full helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Statius's full helm"]
+			},
+			"(Chaos Elemental) Obtain ~|Statius's platebody|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Statius's platebody"]
+			},
+			"(Chaos Elemental) Obtain ~|Statius's platelegs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Statius's platelegs"]
+			},
+			"(Chaos Elemental) Obtain ~|Statius's warhammer|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Statius's warhammer"]
+			},
+			"(Chaos Elemental) Obtain ~|Vesta's chainbody|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Vesta's chainbody"]
+			},
+			"(Chaos Elemental) Obtain ~|Vesta's plateskirt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Vesta's plateskirt"]
+			},
+			"(Chaos Elemental) Obtain ~|Vesta's longsword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Vesta's longsword"]
+			},
+			"(Chaos Elemental) Obtain ~|Vesta's warhammer|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Vesta's warhammer"]
+			},
+			"(Chaos Elemental) Obtain ~|Zuriel's hood|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zuriel's hood"]
+			},
+			"(Chaos Elemental) Obtain ~|Zuriel's robe top|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zuriel's robe top"]
+			},
+			"(Chaos Elemental) Obtain ~|Zuriel's robe bottom|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zuriel's robe bottom"]
+			},
+			"(Chaos Elemental) Obtain ~|Zuriel's staff|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zuriel's staff"]
+			},
+			"(Chaos Elemental) Obtain ~|Morrigan's coif|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Morrigan's coif"]
+			},
+			"(Chaos Elemental) Obtain ~|Morrigan's leather body|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Morrigan's leather body"]
+			},
+			"(Chaos Elemental) Obtain ~|Morrigan's leather chaps|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Morrigan's leather chaps"]
+			},
+			"(Chaos Elemental) Obtain ~|Morrigan's javelin|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Morrigan's javelin"]
+			},
+			"(Chaos Elemental) Obtain ~|Morrigan's throwing axe|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Morrigan's javelin"]
+			},
+			"(Chaos Elemental) Obtain ~|Ellie|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Ribs of chaos"]
+			},
+			"(Commander Zilyana) Obtain ~|Saradomin's hiss|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Saradomin's hiss"]
+			},
+			"(Commander Zilyana) Obtain ~|Saradomin's murmur|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Saradomin's murmur"]
+			},
+			"(Commander Zilyana) Obtain ~|Saradomin's whisper|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Saradomin's whisper"]
+			},
+			"(Commander Zilyana) Obtain a ~|Saradomin hilt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Saradomin hilt"]
+			},
+			"(Commander Zilyana) Obtain a ~|godword shard 1|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 1"]
+			},
+			"(Commander Zilyana) Obtain a ~|godword shard 2|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 2"]
+			},
+			"(Commander Zilyana) Obtain a ~|godword shard 3|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 3"]
+			},
+			"(Commander Zilyana) Obtain a ~|Saradomin sword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Saradomin sword"]
+			},
+			"(Commander Zilyana) Obtain an ~|Armadyl crossbow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl crossbow"]
+			},
+			"(Commander Zilyana) Obtain an ~|off-hand Armadyl crossbow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Off-hand Armadyl crossbow"]
+			},
+			"(Commander Zilyana) Obtain a ~|warpriest of Saradomin helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Saradomin helm"]
+			},
+			"(Commander Zilyana) Obtain a ~|warpriest of Saradomin cape|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Saradomin cape"]
+			},
+			"(Commander Zilyana) Obtain a ~|warpriest of Saradomin cuirass|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Saradomin cuirass"]
+			},
+			"(Commander Zilyana) Obtain ~|warpriest of Saradomin greaves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Saradomin greaves"]
+			},
+			"(Commander Zilyana) Obtain ~|warpriest of Saradomin gauntlets|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Saradomin gauntlets"]
+			},
+			"(Commander Zilyana) Obtain ~|warpriest of Saradomin boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Saradomin boots"]
+			},
+			"(Commander Zilyana) Obtain ~|Zilyana's Notes|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zilyana's Notes"]
+			},
+			"(Commander Zilyana) Obtain ~|Commander Miniana|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Auburn lock"]
+			},
+			"(Corporeal Beast) Obtain a ~|spirit shield|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Spirit shield"]
+			},
+			"(Corporeal Beast) Obtain a ~|spectral sigil|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Spectral sigil"]
+			},
+			"(Corporeal Beast) Obtain a ~|arcane sigil|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Arcane sigil"]
+			},
+			"(Corporeal Beast) Obtain a ~|elysian sigil|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Elysian sigil"]
+			},
+			"(Corporeal Beast) Obtain a ~|divine sigil|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Divine sigil"]
+			},
+			"(Corporeal Beast) Obtain a ~|holy elixir|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Holy elixir"]
+			},
+			"(Corporeal Beast) Obtain the ~|Corporeal Puppy|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Corporeal bone"]
+			},
+			"(Croesus) Obtain a ~|cryptbloom helm (incomplete)|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Cryptbloom helm (incomplete)"]
+			},
+			"(Croesus) Obtain a ~|cryptbloom top (incomplete)|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Cryptbloom top (incomplete)"]
+			},
+			"(Croesus) Obtain ~|cryptbloom bottoms (incomplete)|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Cryptbloom bottoms (incomplete)"]
+			},
+			"(Croesus) Obtain ~|cryptbloom gloves (incomplete)|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Cryptbloom gloves (incomplete)"]
+			},
+			"(Croesus) Obtain ~|cryptbloom boots (incomplete)|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Cryptbloom boots (incomplete)"]
+			},
+			"(Croesus) Obtain a ~|Croesus sporehammer|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Croesus sporehammer"]
+			},
+			"(Croesus) Obtain a ~|Croesus foultorch|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Croesus foultorch"]
+			},
+			"(Croesus) Obtain a ~|Croesus spore sack|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Croesus spore sack"]
+			},
+			"(Croesus) Obtain the ~|Scripture of Bik|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Scripture of Bik"]
+			},
+			"(Croesus) Obtain ~|Little Sus|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Croesus's enriched root"]
+			},
+			"(Dagannoth Kings) Obtain a ~|seers' ring|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Seers' ring"]
+			},
+			"(Dagannoth Kings) Obtain a ~|archers' ring|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Archers' ring"]
+			},
+			"(Dagannoth Kings) Obtain a ~|warrior ring|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warrior ring"]
+			},
+			"(Dagannoth Kings) Obtain a ~|beserker ring|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Beserker ring"]
+			},
+			"(Dagannoth Kings) Obtain a ~|mud battlestaff|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Mud battlestaff"]
+			},
+			"(Dagannoth Kings) Obtain a ~|dragon hatchet|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon hatchet"]
+			},
+			"(Dagannoth Kings) Obtain the ~|seercull|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Seercull"]
+			},
+			"(Dagannoth Kings) Obtain a ~|Prime hatchling|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Dagannoth egg"]
+			},
+			"(Dagannoth Kings) Obtain a ~|Rex hatchling|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Shrivelled dagannoth claw"]
+			},
+			"(Dagannoth Kings) Obtain a ~|Supreme hatchling|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Dagannoth scale"]
+			},
+			"(Dragonkin Laboratory) Obtain ~|draconic energy|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Draconic energy"]
+			},
+			"(Dragonkin Laboratory) Obtain the ~|Redacted Dragonkin Research|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Redacted Dragonkin Research"]
+			},
+			"(Dragonkin Laboratory) Obtain the ~|Diary of an Overzealous Gnome|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Diary of an Overzealous Gnome"]
+			},
+			"(Dragonkin Laboratory) Obtain the ~|Greater Fury ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Greater Fury ability codex"]
+			},
+			"(Dragonkin Laboratory) Obtain the ~|Greater Flurry ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Greater Flurry ability codex"]
+			},
+			"(Dragonkin Laboratory) Obtain the ~|Greater Barge ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Greater Barge ability codex"]
+			},
+			"(Dragonkin Laboratory) Obtain ~|Bisdi|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Chunks": ["The Arc", "13881"],
+				"Items": ["Inert black stone crystal"]
+			},
+			"(General Graardor) Obtain a ~|Bandos helmet|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Bandos helmet"]
+			},
+			"(General Graardor) Obtain a ~|Bandos chestplate|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Bandos chestplate"]
+			},
+			"(General Graardor) Obtain ~|Bandos tassets|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Bandos tassets"]
+			},
+			"(General Graardor) Obtain ~|Bandos gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Bandos gloves"]
+			},
+			"(General Graardor) Obtain ~|Bandos boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Bandos boots"]
+			},
+			"(General Graardor) Obtain a ~|Bandos warshield|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Bandos warshield"]
+			},
+			"(General Graardor) Obtain a ~|Bandos hilt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Bandos hilt"]
+			},
+			"(General Graardor) Obtain a ~|godword shard 1|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 1"]
+			},
+			"(General Graardor) Obtain a ~|godword shard 2|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 2"]
+			},
+			"(General Graardor) Obtain a ~|godword shard 3|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 3"]
+			},
+			"(General Graardor) Obtain a ~|warpriest of Bandos helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Bandos helm"]
+			},
+			"(General Graardor) Obtain a ~|warpriest of Bandos cape|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Bandos cape"]
+			},
+			"(General Graardor) Obtain a ~|warpriest of Bandos cuirass|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Bandos cuirass"]
+			},
+			"(General Graardor) Obtain ~|warpriest of Bandos greaves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Bandos greaves"]
+			},
+			"(General Graardor) Obtain ~|warpriest of Bandos gauntlets|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Bandos gauntlets"]
+			},
+			"(General Graardor) Obtain ~|warpriest of Bandos boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Bandos boots"]
+			},
+			"(General Graardor) Obtain ~|The Glory of General Graardor|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Glory of General Graardor"]
+			},
+			"(General Graardor) Obtain ~|General Awwdor|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Decaying tooth"]
+			},
+			"(Giant Mole) Obtain a ~|dragon 2h sword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon 2h sword"]
+			},
+			"(Giant Mole) Obtain a ~|clingy mole|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Clingy mole"]
+			},
+			"(Giant Mole) Obtain ~|Molly|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Rotten fang"]
+			},
+			"(Gregorovic) Obtain a ~|crest of Sliske|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Crest of Sliske"]
+			},
+			"(Gregorovic) Obtain a ~|dormant anima core helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core helm"]
+			},
+			"(Gregorovic) Obtain a ~|dormant anima core body|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core body"]
+			},
+			"(Gregorovic) Obtain ~|dormant anima core legs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core legs"]
+			},
+			"(Gregorovic) Obtain ~|sliskean essence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Sliskean essence"]
+			},
+			"(Gregorovic) Obtain a ~|shadow glaive|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Shadow glaive"]
+			},
+			"(Gregorovic) Obtain an ~|off-hand shadow glaive|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Off-hand shadow glaive"]
+			},
+			"(Gregorovic) Obtain ~|Greg|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Faceless mask"]
+			},
+			"(Helwyr) Obtain a ~|crest of Seren|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Crest of Seren"]
+			},
+			"(Helwyr) Obtain ~|serenic essence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Serenic essence"]
+			},
+			"(Helwyr) Obtain a ~|dormant anima core helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core helm"]
+			},
+			"(Helwyr) Obtain a ~|dormant anima core body|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core body"]
+			},
+			"(Helwyr) Obtain ~|dormant anima core legs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core legs"]
+			},
+			"(Helwyr) Obtain a ~|wand of the Cywir elders|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Wand of the Cywir elders"]
+			},
+			"(Helwyr) Obtain an ~|Orb of the Cywir elders|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Orb of the Cywir elders"]
+			},
+			"(Helwyr) Obtain ~|Lilwyr|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Twisted antler"]
+			},
+			"(Kalphite King) Obtain a ~|drygore longsword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Drygore longsword"]
+			},
+			"(Kalphite King) Obtain an ~|off-hand drygore longsword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Off-hand drygore longsword"]
+			},
+			"(Kalphite King) Obtain a ~|drygore mace|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Drygore mace"]
+			},
+			"(Kalphite King) Obtain an ~|off-hand drygore mace|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Off-hand drygore mace"]
+			},
+			"(Kalphite King) Obtain a ~|drygore rapier|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Drygore rapier"]
+			},
+			"(Kalphite King) Obtain an ~|off-hand drygore rapier|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Off-hand drygore rapier"]
+			},
+			"(Kalphite King) Obtain a ~|perfect chitin|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Perfect chitin"]
+			},
+			"(Kalphite King) Obtain the ~|Kalphite Grubling|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Kalphite claw"]
+			},
+			"(Kalphite Queen) Obtain a ~|dragon chainbody|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon chainbody"]
+			},
+			"(Kalphite Queen) Obtain a ~|dragon 2h sword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon 2h sword"]
+			},
+			"(Kalphite Queen) Obtain a ~|kalphite queen head|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Pets",
+				"Items": ["Kalphite queen head"]
+			},
+			"(Kalphite Queen) Obtain the ~|Kalphite Grublet|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Kalphite egg"]
+			},
+			"(Kerapac) Obtain a ~|fractured Armadyl symbol|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Fractured Armadyl symbol"]
+			},
+			"(Kerapac) Obtain a ~|fractured stabilisation gem|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Fractured stabilisation gem"]
+			},
+			"(Kerapac) Obtain the ~|Staff of Armadyl's fractured shaft|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Staff of Armadyl's fractured shaft"]
+			},
+			"(Kerapac) Obtain ~|Kerapac's wrist wraps|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Kerapac's wrist wraps"]
+			},
+			"(Kerapac) Obtain the ~|Greater Concentrated blast ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Greater Concentrated blast ability codex"]
+			},
+			"(Kerapac) Obtain the ~|Scripture of Jas|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Scripture of Jas"]
+			},
+			"(Kerapac) Obtain ~|Kerry|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Kerapac's mask piece"]
+			},
+			"(King Black Dragon) Obtain ~|Dragon Rider gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon Rider gloves"]
+			},
+			"(King Black Dragon) Obtain ~|Dragon Rider boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon Rider boots"]
+			},
+			"(King Black Dragon) Obtain a ~|king black dragon head|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["King black dragon head"]
+			},
+			"(King Black Dragon) Obtain a ~|draconic visage|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Draconic visage"]
+			},
+			"(King Black Dragon) Obtain ~|Last riders|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Last riders"]
+			},
+			"(King Black Dragon) Obtain a ~|dragon kite ornament kit (or)|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon kite ornament kit (or)"]
+			},
+			"(King Black Dragon) Obtain a ~|dragon kite ornament kit (sp)|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon kite ornament kit (sp)"]
+			},
+			"(King Black Dragon) Obtain the ~|King Black Dragonling|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["King black dragon scale"]
+			},
+			"(Kree'arra) Obtain an ~|Armadyl helmet|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl helmet"]
+			},
+			"(Kree'arra) Obtain an ~|Armadyl chestplate|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl chestplate"]
+			},
+			"(Kree'arra) Obtain an ~|Armadyl chainskirt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl chainskirt"]
+			},
+			"(Kree'arra) Obtain ~|Armadyl gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl gloves"]
+			},
+			"(Kree'arra) Obtain ~|Armadyl boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl boots"]
+			},
+			"(Kree'arra) Obtain an ~|Armadyl buckler|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl buckler"]
+			},
+			"(Kree'arra) Obtain an ~|Armadyl hilt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl hilt"]
+			},
+			"(Kree'arra) Obtain a ~|godword shard 1|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 1"]
+			},
+			"(Kree'arra) Obtain a ~|godword shard 2|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 2"]
+			},
+			"(Kree'arra) Obtain a ~|godword shard 3|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 3"]
+			},
+			"(Kree'arra) Obtain a ~|warpriest of Armadyl helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Armadyl helm"]
+			},
+			"(Kree'arra) Obtain a ~|warpriest of Armadyl cape|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Armadyl cape"]
+			},
+			"(Kree'arra) Obtain a ~|warpriest of Armadyl cuirass|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Armadyl cuirass"]
+			},
+			"(Kree'arra) Obtain ~|warpriest of Armadyl greaves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Armadyl greaves"]
+			},
+			"(Kree'arra) Obtain ~|warpriest of Armadyl gauntlets|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Armadyl gauntlets"]
+			},
+			"(Kree'arra) Obtain ~|warpriest of Armadyl boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Armadyl boots"]
+			},
+			"(Kree'arra) Obtain ~|Armadyl's Assault|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Armadyl's Assault"]
+			},
+			"(Kree'arra) Obtain ~|Chick'arra|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Giant feather"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|hood of subjugation|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Hood of subjugation"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|garb of subjugation|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Garb of subjugation"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|gown of subjugation|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Gown of subjugation"]
+			},
+			"(K'ril Tsutsaroth) Obtain ~|gloves of subjugation|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Gloves of subjugation"]
+			},
+			"(K'ril Tsutsaroth) Obtain ~|boots of subjugation|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Boots of subjugation"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|ward of subjugation|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ward of subjugation"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|Zamorak hilt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zamorak hilt"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|godword shard 1|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 1"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|godword shard 2|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 2"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|godword shard 3|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Godsword shard 3"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|warpriest of Zamorak helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Zamorak helm"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|warpriest of Zamorak cape|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Zamorak cape"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|warpriest of Zamorak cuirass|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Zamorak cuirass"]
+			},
+			"(K'ril Tsutsaroth) Obtain ~|warpriest of Zamorak greaves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Zamorak greaves"]
+			},
+			"(K'ril Tsutsaroth) Obtain ~|warpriest of Zamorak gauntlets|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Zamorak gauntlets"]
+			},
+			"(K'ril Tsutsaroth) Obtain ~|warpriest of Zamorak boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Warpriest of Zamorak boots"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|Zamorak spear|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zamorak spear"]
+			},
+			"(K'ril Tsutsaroth) Obtain a ~|steam battlestaff|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Steam battlestaff"]
+			},
+			"(K'ril Tsutsaroth) Obtain ~|Razulei's Tale|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Razulei's Tale"]
+			},
+			"(K'ril Tsutsaroth) Obtain ~|K'ril Tinyroth|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Severed hoof"]
+			},
+			"(Legiones) Obtain an ~|ascension signet I|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ascension signet I"]
+			},
+			"(Legiones) Obtain an ~|ascension signet II|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ascension signet II"]
+			},
+			"(Legiones) Obtain an ~|ascension signet III|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ascension signet III"]
+			},
+			"(Legiones) Obtain an ~|ascension signet IV|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ascension signet IV"]
+			},
+			"(Legiones) Obtain an ~|ascension signet V|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ascension signet V"]
+			},
+			"(Legiones) Obtain an ~|ascension signet VI|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ascension signet VI"]
+			},
+			"(Legiones) Obtain ~|Legio Primulus|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Corrupted Ascension signet I"]
+			},
+			"(Legiones) Obtain ~|Legio Secundulus|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Corrupted Ascension signet II"]
+			},
+			"(Legiones) Obtain ~|Legio Tertiolus|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Corrupted Ascension signet III"]
+			},
+			"(Legiones) Obtain ~|Legio Quartulus|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Corrupted Ascension signet IV"]
+			},
+			"(Legiones) Obtain ~|Legio Quintulus|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Corrupted Ascension signet V"]
+			},
+			"(Legiones) Obtain ~|Legio Sextulus|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Corrupted Ascension signet VI"]
+			},
+			"(Liberation of Mazcab) Obtain an ~|Achto Primeval mask|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Primeval mask"]
+			},
+			"(Liberation of Mazcab) Obtain an ~|Achto Primeval robe top|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Primeval robe top"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Primeval robe legs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Primeval robe legs"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Primeval gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Primeval gloves"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Primeval boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Primeval boots"]
+			},
+			"(Liberation of Mazcab) Obtain an ~|Achto Tempest cowl|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Tempest cowl"]
+			},
+			"(Liberation of Mazcab) Obtain an ~|Achto Tempest body|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Tempest body"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Tempest chaps|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Tempest chaps"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Tempest gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Tempest gloves"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Tempest boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Tempest boots"]
+			},
+			"(Liberation of Mazcab) Obtain an ~|Achto Teralith helmet|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Teralith helmet"]
+			},
+			"(Liberation of Mazcab) Obtain an ~|Achto Teralith cuirass|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Teralith cuirass"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Teralith leggings|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Teralith leggings"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Teralith gauntlets|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Teralith gauntlets"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Achto Teralith boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Achto Teralith boots"]
+			},
+			"(Liberation of Mazcab) Obtain the ~|Mazcab ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Mazcab ability codex"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Lil' Tuzzy|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Lil' Tuzzy"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Diddyzag|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Durzag's helmet"]
+			},
+			"(Liberation of Mazcab) Obtain ~|Yakaminu|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Yakamaru's helmet"]
+			},
+			"(The Magister) Obtain a ~|phylactery|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Phylactery"]
+			},
+			"(The Magister) Obtain ~|gloves of passage|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Gloves of passage"]
+			},
+			"(The Magister) Obtain ~|The Minister|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Soul fragment"]
+			},
+			"(The Magister) Obtain ~|The Magister's Journal 1|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Magister's Journal 1"]
+			},
+			"(The Magister) Obtain ~|The Magister's Journal 2|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Magister's Journal 2"]
+			},
+			"(The Magister) Obtain ~|The Magister's Journal 3|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Magister's Journal 3"]
+			},
+			"(The Magister) Obtain ~|The Magister's Journal 4|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Magister's Journal 4"]
+			},
+			"(The Magister) Obtain ~|The Magister's Journal 5|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Magister's Journal 5"]
+			},
+			"(Nex) Obtain a ~|Torva full helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torva full helm"]
+			},
+			"(Nex) Obtain a ~|Torva platebody|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torva platebody"]
+			},
+			"(Nex) Obtain ~|Torva platelegs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torva platelegs"]
+			},
+			"(Nex) Obtain ~|Torva gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torva gloves"]
+			},
+			"(Nex) Obtain ~|Torva boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torva boots"]
+			},
+			"(Nex) Obtain a ~|Pernix cowl|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Pernix cowl"]
+			},
+			"(Nex) Obtain a ~|Pernix body|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Pernix body"]
+			},
+			"(Nex) Obtain ~|Pernix chaps|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Pernix chaps"]
+			},
+			"(Nex) Obtain ~|Pernix gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Pernix gloves"]
+			},
+			"(Nex) Obtain ~|Pernix boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Pernix boots"]
+			},
+			"(Nex) Obtain a ~|zaryte bow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zaryte bow"]
+			},
+			"(Nex) Obtain a ~|Virtus mask|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Virtus mask"]
+			},
+			"(Nex) Obtain a ~|Virtus robe top|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Virtus robe top"]
+			},
+			"(Nex) Obtain ~|Virtus robe legs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Virtus robe legs"]
+			},
+			"(Nex) Obtain ~|Virtus gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Virtus gloves"]
+			},
+			"(Nex) Obtain ~|Virtus boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Virtus boots"]
+			},
+			"(Nex) Obtain a ~|Virtus wand|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Virtus wand"]
+			},
+			"(Nex) Obtain a ~|Virtus book|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Virtus book"]
+			},
+			"(Nex) Obtain an ~|ancient emblem|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ancient emblem"]
+			},
+			"(Nex) Obtain ~|Nex's Followers|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Nex's Followers"]
+			},
+			"(Nex) Obtain ~|Nexterminator|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Blood-soaked feather"]
+			},
+			"(Nex: Angel of Death) Obtain the ~|praesul codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Praesul codex"]
+			},
+			"(Nex: Angel of Death) Obtain a ~|wand of the praesul|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Wand of the praesul"]
+			},
+			"(Nex: Angel of Death) Obtain an ~|imperium core|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Imperium core"]
+			},
+			"(Nex: Angel of Death) Obtain ~|Reeves|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Blood tentacle"]
+			},
+			"(Nex: Angel of Death) Obtain ~|The Praesul|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Praesul"]
+			},
+			"(Nex: Angel of Death) Obtain ~|The Promised Gift|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Promised Gift"]
+			},
+			"(Nex: Angel of Death) Obtain an ~|intricate shadow chest|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Intricate shadow chest"]
+			},
+			"(Nex: Angel of Death) Obtain an ~|intricate blood stained chest|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Intricate blood stained chest"]
+			},
+			"(Nex: Angel of Death) Obtain an ~|intricate ice chest|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Intricate ice chest"]
+			},
+			"(Nex: Angel of Death) Obtain an ~|intricate smoke-shrouded chest|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Intricate smoke-shrouded chest"]
+			},
+			"(Queen Black Dragon) Obtain a ~|dragon kiteshield|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon kiteshield"]
+			},
+			"(Queen Black Dragon) Obtain a ~|royal bolt stabiliser|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Royal bolt stabiliser"]
+			},
+			"(Queen Black Dragon) Obtain a ~|royal frame|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Royal frame"]
+			},
+			"(Queen Black Dragon) Obtain a ~|royal sight|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Royal sight"]
+			},
+			"(Queen Black Dragon) Obtain a ~|royal torsion spring|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Royal torsion spring"]
+			},
+			"(Queen Black Dragon) Obtain a ~|dragonbone upgrade kit|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragonbone upgrade kit"]
+			},
+			"(Queen Black Dragon) Obtain a ~|draconic visage|~ from the Queen Black Dragon": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Draconic visage"]
+			},
+			"(Queen Black Dragon) Obtain the ~|Queen Black Dragonling|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Queen Black Dragon scale"]
+			},
+			"(Queen Black Dragon) Obtain the ~|first dragonkin journal|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["First dragonkin journal"]
+			},
+			"(Queen Black Dragon) Obtain the ~|second dragonkin journal|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Second dragonkin journal"]
+			},
+			"(Queen Black Dragon) Obtain the ~|third dragonkin journal|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Third dragonkin journal"]
+			},
+			"(Queen Black Dragon) Obtain the ~|fourth dragonkin journal|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Fourth dragonkin journal"]
+			},
+			"(Raksha) Obtain ~|fleeting boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Fleeting boots"]
+			},
+			"(Raksha) Obtain ~|laceration boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Laceration boots"]
+			},
+			"(Raksha) Obtain ~|blast diffusion boots|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Blast diffusion boots"]
+			},
+			"(Raksha) Obtain a ~|shadow spike|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Shadow spike"]
+			},
+			"(Raksha) Obtain the ~|Greater Ricochet ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Greater Ricochet ability codex"]
+			},
+			"(Raksha) Obtain the ~|Greater Chain ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Greater Chain ability codex"]
+			},
+			"(Raksha) Obtain the ~|Divert ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Divert ability codex"]
+			},
+			"(Raksha) Obtain ~|Raklette|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Broken shackle"]
+			},
+			"(Rex Matriarchs) Obtain a ~|savage spear tip|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Savage spear tip"]
+			},
+			"(Rex Matriarchs) Obtain a ~|savage spear shaft|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Savage spear shaft"]
+			},
+			"(Rex Matriarchs) Obtain a ~|savage spear cap|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Savage spear cap"]
+			},
+			"(Rex Matriarchs) Obtain a ~|savage plume|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Savage plume"]
+			},
+			"(Rex Matriarchs) Obtain the ~|Heart of the Archer|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Heart of the Archer"]
+			},
+			"(Rex Matriarchs) Obtain the ~|Heart of the Seer|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Heart of the Seer"]
+			},
+			"(Rex Matriarchs) Obtain the ~|Heart of the Warrior|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Heart of the Warrior"]
+			},
+			"(Rex Matriarchs) Obtain the ~|Heart of the Berserker|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Heart of the Berserker"]
+			},
+			"(Rex Matriarchs) Obtain ~|Bagra|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Pristine Bagrada rex egg"]
+			},
+			"(Rex Matriarchs) Obtain ~|Corbi|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Pristine Corbicula rex egg"]
+			},
+			"(Rex Matriarchs) Obtain ~|Pavo|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Pristine Pavosaurus rex egg"]
+			},
+			"(The Shadow Reef) Obtain an ~|eldritch crossbow limb|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Eldritch crossbow limb"]
+			},
+			"(The Shadow Reef) Obtain an ~|eldritch crossbow mechanism|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Eldritch crossbow mechanism"]
+			},
+			"(The Shadow Reef) Obtain an ~|eldritch crossbow stock|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Eldritch crossbow stock"]
+			},
+			"(The Shadow Reef) Obtain a ~|black stone heart|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Black stone heart"]
+			},
+			"(The Shadow Reef) Obtain ~|The Last Offering|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Last Offering"]
+			},
+			"(The Shadow Reef) Obtain ~|Kranon's Ancient Journal|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Kranon's Ancient Journal"]
+			},
+			"(The Shadow Reef) Obtain ~|Ambi|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Umbral urn"]
+			},
+			"(Solak) Obtain a ~|blightbound crossbow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Blightbound crossbow"]
+			},
+			"Obtain an ~|off-hand blightbound crossbow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Off-hand blightbound crossbow"]
+			},
+			"Obtain ~|Erethdor's grimoire (token)|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Erethdor's grimoire (token)"]
+			},
+			"(Solak) Obtain a ~|purple mushroom|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Purple mushroom"]
+			},
+			"(Solak) Obtain ~|Merethiel's stave|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Merethiel's stave"]
+			},
+			"(Solak) Obtain ~|Solly|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Imbued bark shard"]
+			},
+			"(Solak) Obtain a ~|torn grimoire page|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Torn grimoire page"]
+			},
+			"(Telos) Obtain an ~|orb of corrupted anima|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Orb of corrupted anima"]
+			},
+			"(Telos) Obtain an ~|orb of volcanic anima|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Orb of volcanic anima"]
+			},
+			"(Telos) Obtain an ~|orb of pure anima|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Orb of pure anima"]
+			},
+			"(Telos) Obtain a ~|dormant Seren godbow|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant Seren godbow"]
+			},
+			"(Telos) Obtain a ~|dormant Zaros godsword|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant Zaros godsword"]
+			},
+			"(Telos) Obtain a ~|dormant staff of Sliske|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant staff of Sliske"]
+			},
+			"(Telos) Obtain the ~|Reprisal ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Reprisal ability codex"]
+			},
+			"(Telos) Obtain ~|Tess|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Telos' tendril"]
+			},
+			"(Temple of Amanishi) Obtain a ~|fishy treat|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Fishy treat"]
+			},
+			"(Temple of Amanishi) Obtain the ~|Crassian Allegiance|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Crassian Allegiance"]
+			},
+			"(Temple of Amanishi) Obtain ~|Masuta's warspear|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Masuta's warspear"]
+			},
+			"(Temple of Amanishi) Obtain ~|Himiko's Vision|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Himiko's Vision"]
+			},
+			"(Temple of Amanishi) Obtain an ~|ancient scale|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ancient scale"]
+			},
+			"(Temple of Amanishi) Obtain ~|Kuroryu|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Chipped black stone crystal"]
+			},
+			"(Twin Furies) Obtain a ~|crest of Zamorak|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Crest of Zamorak"]
+			},
+			"(Twin Furies) Obtain a ~|dormant anima core helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core helm"]
+			},
+			"(Twin Furies) Obtain a ~|dormant anima core body|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core body"]
+			},
+			"(Twin Furies) Obtain ~|dormant anima core legs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core legs"]
+			},
+			"(Twin Furies) Obtain ~|zamorakian essence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zamorakian essence"]
+			},
+			"(Twin Furies) Obtain the ~|blade of Nymora|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Blade of Nymora"]
+			},
+			"(Twin Furies) Obtain the ~|blade of Avaryss|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Blade of Avaryss"]
+			},
+			"(Twin Furies) Obtain ~|Nylessa|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Nymora's braid"]
+			},
+			"(Twin Furies) Obtain ~|Ava (pet)|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Avaryss' Braid"]
+			},
+			"(TzHaar) Obtain the ~|fire cape|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Fire cape"]
+			},
+			"(TzHaar) Obtain the ~|TokHaar-Kal-Ket|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["TokHaar-Kal-Ket"]
+			},
+			"(TzHaar) Obtain the ~|TokHaar-Kal-Mej|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["TokHaar-Kal-Mej"]
+			},
+			"(TzHaar) Obtain the ~|TokHaar-Kal-Xil|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["TokHaar-Kal-Xil"]
+			},
+			"(TzHaar) Obtain ~|Shrimpy|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Volcanic shard"]
+			},
+			"(TzKal-Zuk) Obtain an ~|obsidian blade|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Obsidian blade"]
+			},
+			"(TzKal-Zuk) Obtain a ~|magma core|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Magma core"]
+			},
+			"(TzKal-Zuk) Obtain an ~|ancient hilt|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ancient hilt"]
+			},
+			"(TzKal-Zuk) Obtain an ~|igneous stone|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Igneous stone"]
+			},
+			"(TzKal-Zuk) Obtain the ~|Magma Tempest ability codex|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Magma Tempest ability codex"]
+			},
+			"(TzKal-Zuk) Obtain the ~|Scripture of Ful|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Scripture of Ful"]
+			},
+			"(TzKal-Zuk) Obtain ~|Little Zuk|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["TzKal-Zuk's armour piece"]
+			},
+			"(Vindicta & Gorvek) Obtain a ~|crest of Zaros|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Crest of Zaros"]
+			},
+			"(Vindicta & Gorvek) Obtain a ~|dormant anima core helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core helm"]
+			},
+			"(Vindicta & Gorvek) Obtain a ~|dormant anima core body|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core body"]
+			},
+			"(Vindicta & Gorvek) Obtain ~|dormant anima core legs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dormant anima core legs"]
+			},
+			"(Vindicta & Gorvek) Obtain ~|zarosian essence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Zarosian essence"]
+			},
+			"(Vindicta & Gorvek) Obtain the ~|Dragon Rider lance|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon Rider lance"]
+			},
+			"(Vindicta & Gorvek) Obtain ~|Rawrvek|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Glimmering scale"]
+			},
+			"(Vindicta & Gorvek) Obtain ~|Vindiddy|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Imbued blade slice"]
+			},
+			"(Vorago) Obtain a ~|seismic wand|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Seismic wand"]
+			},
+			"(Vorago) Obtain a ~|seismic singularity|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Seismic singularity"]
+			},
+			"(Vorago) Obtain ~|tectonic energy|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Tectonic energy"]
+			},
+			"(Vorago) Obtain an ~|Omens Helm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Omens Helm"]
+			},
+			"(Vorago) Obtain an ~|Omens Torso|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Omens Torso"]
+			},
+			"(Vorago) Obtain ~|Omens Legs|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Omens Legs"]
+			},
+			"(Vorago) Obtain ~|Omens Gloves|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Omens Gloves"]
+			},
+			"(Vorago) Obtain ~|Omens Feet|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Omens Feet"]
+			},
+			"(Vorago) Obtain a ~|Maul of Omens|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Maul of omens"]
+			},
+			"(Vorago) Obtain ~|Vitalis (pet)|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Ancient summoning stone"]
+			},
+			"(Vorago) Obtain ~|Bombi|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Pets",
+				"Items": ["Ancient artefact"]
 			}
 		},
 		"Nonskill": {
