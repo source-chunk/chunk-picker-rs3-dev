@@ -128,6 +128,7 @@ var rulesPanelVis = {
     combat: false,
     construction: false,
     farming: false,
+	fishing: false,
     herblore: false,
     hunter: false,
     magic: false,
