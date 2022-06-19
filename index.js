@@ -382,7 +382,7 @@ let rules = {
     "All Shops": false,
     "Quest Skill Reqs": false,
 	"Token": false,
-	"Master skillscape": false,
+	"Master skillcape": false,
 	"Golden fish egg": false,
 };                                                                              // List of rules and their on/off state
 
