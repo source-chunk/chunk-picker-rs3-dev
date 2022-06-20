@@ -89410,12 +89410,12 @@
 				"Ancient ranger": 10,
 				"Blood reaver": 6,
 				"Ancient mage": 3,
-				"Icefiend": 5,
-				"Werewolf": 35,
-				"Vampyre": 13,
-				"Bloodveld": 14,
-				"Pyrefiend": 4,
-				"Gorak": 11,
+				"Icefiend (GWD)": 5,
+				"Werewolf (GWD)": 35,
+				"Vampyre (GWD)": 13,
+				"Bloodveld (GWD)": 14,
+				"Pyrefiend (GWD)": 4,
+				"Gorak (GWD)": 11,
 				"Spiritual ranger": 34,
 				"Kree'arra": 1,
 				"Wingman Skree": 1,
@@ -89425,7 +89425,7 @@
 				"Spiritual mage": 46,
 				"Aviansie": 36,
 				"Ogre (GWD)": 3,
-				"Hellhound": 5,
+				"Hellhound (GWD)": 5,
 				"Imp (GWD)": 8,
 				"General Graardor": 1,
 				"Sergeant Strongstack": 1,
@@ -110189,6 +110189,89 @@
 			},
 			"Starved ancient effigy": {
 				"1": "Very rare"
+			}
+		},
+		"Bloodveld (GWD)": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Black boots": {
+				"1": "12/128"
+			},
+			"Medium plated mithril salvage": {
+				"1": "6/128"
+			},
+			"Huge plated steel salvage": {
+				"1": "4/128"
+			},
+			"Small bladed mithril salvage": {
+				"1": "3/128"
+			},
+			"Medium bladed steel salvage": {
+				"1": "4/128"
+			},
+			"Mithril arrow": {
+				"40": "8/128"
+			},
+			"Grimy guam": {
+				"1": "3/128"
+			},
+			"Grimy tarromin": {
+				"1": "2/128"
+			},
+			"Grimy marrentill": {
+				"1": "2/128"
+			},
+			"Grimy harralander": {
+				"1": "3/256"
+			},
+			"Grimy irit": {
+				"1": "3/512"
+			},
+			"Grimy kwuarm": {
+				"1": "1/256"
+			},
+			"Grimy avantoe": {
+				"1": "1/256"
+			},
+			"Grimy ranarr": {
+				"1": "2/256"
+			},
+			"Grimy lantadyme": {
+				"1": "1/512"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/512"
+			},
+			"Iron stone spirit": {
+				"2": "8/128"
+			},
+			"Coal stone spirit": {
+				"2": "12/128"
+			},
+			"Coins": {
+				"486-5356": "14/128"
+			},
+			"Big bones": {
+				"4(noted)": "16/128"
+			},
+			"Meat pizza": {
+				"1": "14/128"
+			},
+			"Uncut sapphire": {
+				"1": "1/128"
+			},
+			"Uncut emerald": {
+				"1": "1/128"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			},
+			"Congealed blood": {
+				"3-11": "6/128"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
 			},
 			"Frozen key piece (Zamorak)": {
 				"1": "Random"
@@ -127049,6 +127132,96 @@
 			"Large plated rune salvage": {
 				"1": "1/128"
 			},
+			"Medium bladed iron salvage": {
+				"1": "3/128"
+			},
+			"Iron halberd": {
+				"1": "3/128"
+			},
+			"Steel throwing axe": {
+				"1": "3/128"
+			},
+			"Medium bladed steel salvage": {
+				"1": "1/128"
+			},
+			"Mithril throwing axe": {
+				"1": "3/128"
+			},
+			"Grimy guam": {
+				"1": "4/128"
+			},
+			"Grimy marrentill": {
+				"1": "3/128"
+			},
+			"Grimy tarromin": {
+				"1": "2/128"
+			},
+			"Grimy harralander": {
+				"1": "2/128"
+			},
+			"Grimy ranarr": {
+				"1": "1/128"
+			},
+			"Grimy irit": {
+				"1": "1/128"
+			},
+			"Grimy avantoe": {
+				"1": "1/128"
+			},
+			"Grimy kwuarm": {
+				"1": "1/128"
+			},
+			"Grimy cadantine": {
+				"1": "1/256"
+			},
+			"Grimy lantadyme": {
+				"1": "1/512"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/512"
+			},
+			"Coins": {
+				"27": "112/128",
+				"97": "112/128",
+				"104": "112/128",
+				"132": "112/128",
+				"286": "112/128"
+			},
+			"Gorak claws": {
+				"1": "37/128"
+			},
+			"Ring of life": {
+				"1": "1/128"
+			},
+			"Long,sharp claws": {
+				"1": "Common"
+			},
+			"Sealed clue scroll (hard)": {
+				"1": "1/128"
+			},
+			"Court summons": {
+				"1": "Rare"
+			},
+			"Long bone": {
+				"1": "1/400"
+			},
+			"Curved bone": {
+				"1": "1/5000"
+			}
+		},
+		"Gorak (GWD)": {
+			"Big bones": {
+				"1": "Always"
+			},
+			"Medium plated adamant salvage": {
+				"1": "1/128"
+			},
+			"Medium plated steel salvage": {
+				"1": "4/128"
+			},
+			"Large plated rune salvage": {
+				"1": "1/128"
+			},
 			"Warpriest of Zamorak helm": {
 				"1": "1/128"
 			},
@@ -129162,6 +129335,23 @@
 			}
 		},
 		"Hellhound": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Ferocious ring": {
+				"1": "rare"
+			},
+			"Tiny plated rune salvage": {
+				"1": "1/128"
+			},
+			"Sealed clue scroll (hard)": {
+				"1": "1/64"
+			},
+			"Starved ancient effigy": {
+				"1": "1/20000"
+			}
+		},
+		"Hellhound (GWD)": {
 			"Bones": {
 				"1": "Always"
 			},
@@ -131914,6 +132104,83 @@
 			}
 		},
 		"Icefiend": {
+			"Impious ashes": {
+				"1": "Always"
+			},
+			"Coins": {
+				"80": "Common",
+				"150": "Common",
+				"1-30": "Common"
+			},
+			"Water rune": {
+				"5": "Common",
+				"1-5": "Uncommon"
+			},
+			"Iron arrow": {
+				"8": "Common"
+			},
+			"Steel arrow": {
+				"6": "Common"
+			},
+			"Staff of water": {
+				"1": "Rare"
+			},
+			"Monk's robe (top)": {
+				"1": "Uncommon"
+			},
+			"Monk's robe (bottom)": {
+				"1": "Uncommon"
+			},
+			"Medium spiky steel salvage": {
+				"1": "Uncommon"
+			},
+			"Clay": {
+				"1 (noted)": "Uncommon"
+			},
+			"Iron stone spirit": {
+				"1": "Uncommon"
+			},
+			"Silver stone spirit": {
+				"1": "Uncommon"
+			},
+			"Cake": {
+				"1": "Uncommon"
+			},
+			"Potato seed": {
+				"4": "Common"
+			},
+			"Onion seed": {
+				"4": "Common"
+			},
+			"Cabbage seed": {
+				"4": "Uncommon"
+			},
+			"Tomato seed": {
+				"3": "Uncommon"
+			},
+			"Sweetcorn seed": {
+				"3": "Rare"
+			},
+			"Strawberry seed": {
+				"2": "Rare"
+			},
+			"Watermelon seed": {
+				"2": "Rare"
+			},
+			"Air rune": {
+				"1-5": "Rare"
+			},
+			"Sealed clue scroll (easy)": {
+				"1": "1/128"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			}
+		},
+		"Icefiend (GWD)": {
 			"Impious ashes": {
 				"1": "Always"
 			},
@@ -144814,6 +145081,54 @@
 			}
 		},
 		"Pyrefiend": {
+			"Impious ashes": {
+				"1": "Always"
+			},
+			"Grimy guam": {
+				"1": "5/128"
+			},
+			"Grimy harralander": {
+				"1": "5/128"
+			},
+			"Medium plated mithril salvage": {
+				"1": "6/128"
+			},
+			"Tiny plated steel salvage": {
+				"1": "6/128"
+			},
+			"Tiny plated adamant salvage": {
+				"1": "4/128"
+			},
+			"Mithril arrow": {
+				"10": "12/128"
+			},
+			"Coins": {
+				"200": "38/128",
+				"450": "38/128"
+			},
+			"Gold stone spirit": {
+				"1": "14/128"
+			},
+			"Ashes": {
+				"1": "16/128"
+			},
+			"Redberries": {
+				"1": "4/128"
+			},
+			"Fire rune": {
+				"10": "6/128"
+			},
+			"Rare drop table": {
+				"1": "Very rare"
+			},
+			"Sealed clue scroll (medium)": {
+				"1": "1/128"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Pyrefiend (GWD)": {
 			"Impious ashes": {
 				"1": "Always"
 			},
@@ -157996,6 +158311,140 @@
 			"Blood rune": {
 				"1-2": "Uncommon"
 			},
+			"Belladonna seed": {
+				"1": "Uncommon"
+			},
+			"Harralander seed": {
+				"1": "Uncommon"
+			},
+			"Irit seed": {
+				"1": "Uncommon"
+			},
+			"Jangerberry seed": {
+				"1": "Uncommon"
+			},
+			"Limpwurt seed": {
+				"1": "Uncommon"
+			},
+			"Marrentill seed": {
+				"1": "Uncommon"
+			},
+			"Bittercap mushroom spore": {
+				"1-2": "Uncommon"
+			},
+			"Poison ivy seed": {
+				"1": "Uncommon"
+			},
+			"Strawberry seed": {
+				"1": "Uncommon"
+			},
+			"Tarromin seed": {
+				"1": "Uncommon"
+			},
+			"Toadflax seed": {
+				"1": "Uncommon"
+			},
+			"Whiteberry seed": {
+				"1": "Uncommon"
+			},
+			"Wildblood seed": {
+				"1": "Uncommon"
+			},
+			"Cactus seed": {
+				"1": "Rare"
+			},
+			"Avantoe seed": {
+				"1": "Rare"
+			},
+			"Morchella mushroom spore": {
+				"2": "Rare"
+			},
+			"Watermelon seed": {
+				"1": "Rare"
+			},
+			"Spirit weed seed": {
+				"1": "Rare"
+			},
+			"Kwuarm seed": {
+				"1": "Rare"
+			},
+			"Dwarf weed seed": {
+				"1": "Rare"
+			},
+			"Lantadyme seed": {
+				"1": "Very rare"
+			},
+			"Cadantine seed": {
+				"1": "Very rare"
+			},
+			"Ranarr seed": {
+				"1": "Very rare"
+			},
+			"Grimy marrentill": {
+				"1": "Common"
+			},
+			"Grimy ranarr": {
+				"1": "Uncommon"
+			},
+			"Grimy tarromin": {
+				"1": "Uncommon"
+			},
+			"Grimy guam": {
+				"1": "Uncommon"
+			},
+			"Grimy harralander": {
+				"1": "Uncommon"
+			},
+			"Grimy irit": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Coins": {
+				"15": "Common"
+			},
+			"Black hatchet": {
+				"1": "Uncommon"
+			},
+			"Earth talisman": {
+				"1": "Rare"
+			},
+			"Sealed clue scroll (medium)": {
+				"1": "1/128"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Vampyre (GWD)": {
+			"Vampyre dust": {
+				"1": "Always"
+			},
+			"Chaos rune": {
+				"3": "Common"
+			},
+			"Death rune": {
+				"2": "Common"
+			},
+			"Earth rune": {
+				"4": "Uncommon"
+			},
+			"Blood rune": {
+				"1-2": "Uncommon"
+			},
 			"Warpriest of Zamorak helm": {
 				"1": "1/128"
 			},
@@ -160186,6 +160635,136 @@
 			}
 		},
 		"Werewolf": {
+			"Wolf bones": {
+				"1": "Always"
+			},
+			"Raw chicken": {
+				"5": "Common"
+			},
+			"Raw beef": {
+				"5": "Common"
+			},
+			"Raw bear meat": {
+				"1-5": "Common"
+			},
+			"Jug of wine": {
+				"1": "Common"
+			},
+			"Small bladed steel salvage": {
+				"1": "Common"
+			},
+			"Tiny bladed steel salvage": {
+				"1": "Common"
+			},
+			"Steel arrow": {
+				"50": "Uncommon"
+			},
+			"Small plated steel salvage": {
+				"1": "Uncommon"
+			},
+			"Small bladed mithril salvage": {
+				"1": "Uncommon"
+			},
+			"Small plated mithril salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated mithril salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny plated rune salvage": {
+				"1": "Uncommon"
+			},
+			"Rune javelin": {
+				"1": "Uncommon"
+			},
+			"Grimy tarromin": {
+				"1": "Common"
+			},
+			"Grimy guam": {
+				"1": "Common"
+			},
+			"Grimy marrentill": {
+				"1": "Common"
+			},
+			"Grimy ranarr": {
+				"1": "Uncommon"
+			},
+			"Grimy avantoe": {
+				"1": "Uncommon"
+			},
+			"Grimy cadantine": {
+				"1": "Uncommon"
+			},
+			"Grimy harralander": {
+				"1": "Uncommon"
+			},
+			"Grimy irit": {
+				"1": "Uncommon"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Rare"
+			},
+			"Coins": {
+				"10": "Common",
+				"90": "Common",
+				"120": "Common",
+				"222": "Common",
+				"364": "Common",
+				"400": "Common"
+			},
+			"Fur": {
+				"1": "Common"
+			},
+			"Grey wolf fur": {
+				"1": "Common"
+			},
+			"Iron stone spirit": {
+				"1-5": "Uncommon"
+			},
+			"Coal stone spirit": {
+				"1-2": "Uncommon"
+			},
+			"Tinderbox": {
+				"1": "Uncommon"
+			},
+			"Morchella mushroom spore": {
+				"2": "Uncommon"
+			},
+			"Brass key": {
+				"1": "Rare"
+			},
+			"White berries": {
+				"1": "Rare"
+			},
+			"Bucket": {
+				"1": "Rare"
+			},
+			"Vial of water": {
+				"1": "Rare"
+			},
+			"Wine of Zamorak": {
+				"1": "Rare"
+			},
+			"Werewolf bone": {
+				"1": "Common"
+			},
+			"Sealed clue scroll (medium)": {
+				"1": "1/512"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			}
+		},
+		"Werewolf (GWD)": {
 			"Wolf bones": {
 				"1": "Always"
 			},
