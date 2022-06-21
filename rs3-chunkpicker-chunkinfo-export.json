@@ -5321,6 +5321,15 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Gain access to the ~|Warrior's guild|~": {
+				"Chunks": ["11319"],
+				"Level": 65,
+				"Skills": {
+					"Strength": 65
+				},
+				"Primary": false,
+				"Priority": 2
+			},
 			"Wield ~|Dharok's greataxe|~": {
 				"Items": ["Dharok's greataxe"],
 				"Level": 70,
@@ -44599,6 +44608,15 @@
 				"Primary": false,
 				"Priority": 2
 			},
+			"Gain access to the ~|Warrior's guild|~": {
+				"Chunks": ["11319"],
+				"Level": 65,
+				"Skills": {
+					"Attack": 65
+				},
+				"Primary": false,
+				"Priority": 1
+			},
 			"Wield ~|Torag's hammers|~": {
 				"Items": ["Torag's hammer"],
 				"Level": 70,
@@ -50714,7 +50732,7 @@
 			},
 			"~|Hard Fremennik tasks|~ How to Maim Your Dragon": {
 				"Description": "Kill a mithril dragon.",
-				"Chunks": ["Ancient cavern"],
+				"Chunks": ["Ancient Cavern"],
 				"Tasks": {
 					"~|Medium Fremennik tasks|~ Complete the Medium Area Tasks": "Diary"
 				},
@@ -64570,6 +64588,9 @@
 				"Stanley Limelight Traders": true,
 				"Runecrafting Guild Rewards": true
 			},
+			"Connect": {
+				"12337": true
+			},
 			"Name": "Runecrafting Guild"
 		},
 		"6743": {
@@ -64855,7 +64876,7 @@
 			"Shop": {
 				"Slayer Equipment": true
 			},
-			"Name": "Ancient cavern"
+			"Name": "Ancient Cavern"
 		},
 		"7000": {
 			"Object": {
@@ -65079,7 +65100,7 @@
 			"NPC": {
 				"Dragon head": 3
 			},
-			"Name": "Ancient cavern"
+			"Name": "Ancient Cavern"
 		},
 		"7259": {
 			"Object": {
@@ -67003,7 +67024,8 @@
 			"Shop": {
 				"Construction Supplies": true,
 				"Summoning Shop": true,
-				"Crafting Supplies": true
+				"Crafting Supplies": true,
+				"Estate agent": true
 			},
 			"Nickname": "West Prifddinas"
 		},
@@ -71364,7 +71386,8 @@
 			},
 			"Shop": {
 				"Ocellus's Store": true,
-				"Hunting Supplies": true
+				"Hunting Supplies": true,
+				"Hunting expert": true
 			},
 			"Nickname": "Feldip Hunter Area"
 		},
@@ -72814,7 +72837,7 @@
 				"Big fishing net": 1
 			},
 			"Shop": {
-				"Fishing cape": true,
+				"Master fisher": true,
 				"Fishing Guild Shop": true
 			},
 			"Nickname": "Fishing Guild"
@@ -73666,7 +73689,8 @@
 				"Ardougne Gem stall": true,
 				"Ardougne Silver stall": true,
 				"Ardougne Spice stall": true,
-				"Zenesha's Platebody Shop": true
+				"Zenesha's Platebody Shop": true,
+				"Estate agent": true
 			},
 			"Nickname": "Ardougne Market"
 		},
@@ -74650,7 +74674,8 @@
 				"Knife": 1
 			},
 			"Shop": {
-				"Ignatius's Hot Deals": true
+				"Ignatius's Hot Deals": true,
+				"Estate agent": true
 			},
 			"Nickname": "Sorcerer's Tower"
 		},
@@ -77938,7 +77963,8 @@
 				"Mess Sergeant Ramsey's Cooking Supplies Shop": true,
 				"Pikkupstix's Summoning Shop": true,
 				"Pet shop": true,
-				"The Pick and Lute": true
+				"The Pick and Lute": true,
+				"Pikkupstix": true
 			},
 			"Connect": {
 				"7503": true,
@@ -78008,7 +78034,7 @@
 				"Head Farmer Jones's Farming Shop": true,
 				"Happy Heroes' H'Emporium": true,
 				"Jack Oval's Crafting Shop": true,
-				"Herblore cape": true,
+				"Kaqemeex": true,
 				"Nicholas Angle's Shop": true
 			},
 			"Nickname": "North Taverley"
@@ -78901,7 +78927,8 @@
 			"Shop": {
 				"Rommik's Crafty Supplies": true,
 				"Brian's Archery Supplies": true,
-				"Trader Stan's Trading Post": true
+				"Trader Stan's Trading Post": true,
+				"Thurgo": true
 			},
 			"Connect": {
 				"11031": true
@@ -79136,7 +79163,8 @@
 				"Proselyte Temple Knight Armoury": true,
 				"White Knight Master Armoury": true,
 				"Slayer Equipment (Burthorpe)": true,
-				"Sir Renitee's Construction Supplies": true
+				"Sir Renitee's Construction Supplies": true,
+				"Estate agent": true
 			},
 			"Nickname": "West Falador"
 		},
@@ -79193,7 +79221,8 @@
 				"24592": true
 			},
 			"Shop": {
-				"Stanley Limelight Traders": true
+				"Stanley Limelight Traders": true,
+				"Wilfred": true
 			},
 			"Nickname": "Invention Guild"
 		},
@@ -79920,7 +79949,7 @@
 			},
 			"Shop": {
 				"Cashes in Metal item tokens for equipment or salvage%2E": true,
-				"Mining cape": true,
+				"Gadrin": true,
 				"Garden Centre": true,
 				"Party Pete's Emporium": true
 			},
@@ -80014,7 +80043,7 @@
 				"Monk's robe (bottom)": 1
 			},
 			"Shop": {
-				"Prayer cape": true,
+				"Brother Jered": true,
 				"Mami Rimba's Shop": true,
 				"Oziach's Armour": true
 			},
@@ -80791,6 +80820,7 @@
 				"Spellwisp": 6
 			},
 			"Connect": {
+				"6741": true,
 				"6751": true,
 				"9541": true,
 				"11595": true,
@@ -80887,7 +80917,9 @@
 			"Shop": {
 				"Diango's Toy Store": true,
 				"Fortunato's Fine Wine": true,
-				"Draynor Seed Market": true
+				"Draynor Seed Market": true,
+				"Orla Fairweather": true,
+				"Martin the Master Gardener": true
 			},
 			"Nickname": "South Draynor"
 		},
@@ -81811,7 +81843,8 @@
 				"Common brown rabbit": 11
 			},
 			"Shop": {
-				"Lumbridge Fishing Supplies": true
+				"Lumbridge Fishing Supplies": true,
+				"Harlan": true
 			},
 			"Nickname": "Lumbridge Crater"
 		},
@@ -83104,6 +83137,9 @@
 				"Aeonisig Raispher": 1,
 				"Sir Amik Varze": 1
 			},
+			"shop": {
+				"Estate agent": true
+			},
 			"Connect": {
 			},
 			"Spawn": {
@@ -83914,7 +83950,8 @@
 				"Farming supplies": true,
 				"Faruq's Tools for Games": true,
 				"Ali's Discount Wares": true,
-				"Gem Trader stall": true
+				"Gem Trader stall": true,
+				"Surgeon General Tafani": true
 			},
 			"Nickname": "North Al Kharid"
 		},
@@ -83994,7 +84031,8 @@
 			},
 			"Shop": {
 				"Archaeology Guild Shop": true,
-				"Matty Ock's Mattock Shop": true
+				"Matty Ock's Mattock Shop": true,
+				"Acting Guildmaster Reiniger": true
 			},
 			"Nickname": "Varrock South-East Mine"
 		},
@@ -85617,7 +85655,9 @@
 				"Archaeologist": 1
 			},
 			"Shop": {
-				"Elite Dungeon Reward Shop": true
+				"Elite Dungeon Reward Shop": true,
+				"Thok of Daemonheim": true,
+				"Dungeoneering Reward Shop": true
 			},
 			"Nickname": "Daemonheim Fremennik Camp"
 		},
@@ -96878,7 +96918,8 @@
 				"10037": true
 			},
 			"Shop": {
-				"Slayer Equipment": true
+				"Slayer Equipment": true,
+				"Kuradal": true
 			}
 		},
 		"Spirit Plane": {
@@ -97537,7 +97578,11 @@
 			"Shop": {
 				"Runecrafting skillcape": true,
 				"Stanley Limelight Traders": true,
-				"Runecrafting Guild Rewards": true
+				"Runecrafting Guild Rewards": true,
+				"Runecrafting skillcape (shop)": true
+			},
+			"Connect": {
+				"12337": true
 			}
 		},
 		"Varrock": {
@@ -100771,14 +100816,6 @@
 				"11314": true
 			}
 		},
-		"Baxtorian Falls": {
-			"Monster": {
-				"Fire giant": 11
-			},
-			"Connect": {
-				"10394": true
-			}
-		},
 		"Mining Guild": {
 			"Object": {
 				"Luminite rock": 5,
@@ -103268,7 +103305,6 @@
 				"Fire giant": 11
 			},
 			"Connect": {
-				"4935": true,
 				"10038": true
 			}
 		},
@@ -172439,6 +172475,76 @@
 		"Drogo's Mining Emporium": {
 			"Hammer": true,
 			"Bronze pickaxe": true
+		},
+		"Dungeoneering Reward Shop": {
+			"Bonecrusher": true,
+			"Herbicide": true,
+			"Charming imp": true,
+			"Scroll of life": true,
+			"Gem bag": true,
+			"Arcane pulse necklace": true,
+			"Farsight quick shot necklace": true,
+			"Brawler's jab necklace": true,
+			"Twisted bird skull necklace": true,
+			"Smithing autoheater": true,
+			"Advanced smithing autoheater": true,
+			"Gem bag (upgraded)": true,
+			"Shieldbow sight": true,
+			"Law staff": true,
+			"Gravite rapier": true,
+			"Off-hand gravite rapier": true,
+			"Gravite longsword": true,
+			"Off-hand gravite longsword": true,
+			"Gravite 2h sword": true,
+			"Gravite wand": true,
+			"Gravite orb": true,
+			"Gravite staff": true,
+			"Gravite knife": true,
+			"Off-hand gravite knife": true,
+			"Gravite chargebow": true,
+			"Tome of frost": true,
+			"Amulet of zealots": true,
+			"Scroll of cleansing": true,
+			"Spirit cape": true,
+			"Nature staff": true,
+			"Scroll of efficiency": true,
+			"Arcane blast necklace": true,
+			"Farsight snap shot necklace": true,
+			"Brawler's hook necklace": true,
+			"Split dragontooth nekclace": true,
+			"Anti-poison totem": true,
+			"Scroll of proficiency": true,
+			"Scroll of dexterity": true,
+			"Gold accumulator": true,
+			"Advanced gold accumulator": true,
+			"Ring of vigour": true,
+			"Scroll of renewal": true,
+			"Scroll of Daemonheim": true,
+			"Mercenary's gloves": true,
+			"Chaotic spike": true,
+			"Chaotic gatestone": true,
+			"Chaotic remnant": true,
+			"Chaotic rapier": true,
+			"Off-hand chaotic rapier": true,
+			"Chaotic longsword": true,
+			"Off-hand chaotic longsword": true,
+			"Chaotic claw": true,
+			"Off-hand chaotic claw": true,
+			"Chaotic maul": true,
+			"Chaotic spear": true,
+			"Chaotic staff": true,
+			"Chaotic crossbow": true,
+			"Off-hand chaotic crossbow": true,
+			"Chaotic kiteshield": true,
+			"Eagle-eye kiteshieild": true,
+			"Farseer kiteshield": true,
+			"Demon horn necklace": true,
+			"Frosty": true,
+			"Mini-Blink": true,
+			"Hope Nibbler": true,
+			"Meilyr potion recipe": true,
+			"Scroll of quick teleportation": true,
+			"Scroll of gathering": true
 		},
 		"Dwarven Shopping Store": {
 			"Empty pot": true,
