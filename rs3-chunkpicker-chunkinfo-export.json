@@ -48299,7 +48299,7 @@
 			"~|Easy Ardougne tasks|~ Yoink!": {
 				"Description": "Attempt to steal from any stall in Ardougne Market, or from any guard.",
 				"Tasks": {
-					"Yoink!": "Nonskill"
+					"Yoink!+": "Nonskill"
 				},
 				"BaseQuest": "Ardougne Area Tasks"
 			},
@@ -48804,7 +48804,7 @@
 			},
 			"~|Hard Ardougne tasks|~ Blood Bank Withdrawal": {
 				"Description": "Attempt to steal blood runes from the chest in the chaos druid tower's dungeon.",
-				"Chunks": ["9778"],
+				"Chunks": ["Chaos Druid Tower Dungeon"],
 				"Skills": {
 					"Thieving": 59
 				},
@@ -109219,11 +109219,11 @@
 			"Wisp+": "Any level 1 wisp"
 		},
 		"tasksPlus": {
-			"A Taste of the Exotic+": ["~|Ardougne Area Tasks%2FEasy|~ A Taste of the Exotic (Coconut)", "~|Ardougne Area Tasks%2FEasy|~ A Taste of the Exotic (Papaya)"],
+			"A Taste of the Exotic+": ["~|Hard Ardougne tasks|~ A Taste of the Exotic (Coconut)", "~|Hard Ardougne tasks|~ A Taste of the Exotic (Papaya)"],
 			"It Spoiled My View+": ["~|Hard Falador tasks|~ It Spoiled My View (Yew)", "~|Hard Falador tasks|~ It Spoiled My View (Magic)"],
 			"More Fletcher than Sumona+": ["~|Easy Desert tasks|~ More Fletcher than Sumona (Arrows)", "~|Easy Desert tasks|~ More Fletcher than Sumona (Bolts)"],
 			"Setting Up+": ["~|Easy Daemonheim tasks|~ Setting Up (Crafting)", "~|Easy Daemonheim tasks|~ Setting Up (Smithing)"],
-			"Yoink!+": ["~|Ardougne Area Tasks%2FEasy|~ Yoink! (Guard)", "~|Ardougne Area Tasks%2FEasy|~ Yoink! (Stall)"]
+			"Yoink!+": ["~|Easy Ardougne tasks|~ Yoink! (Guard)", "~|Easy Ardougne tasks|~ Yoink! (Stall)"]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic+": "Any subtasks for A Taste of the Exotic",
