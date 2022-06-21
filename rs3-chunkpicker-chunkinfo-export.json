@@ -48573,7 +48573,7 @@
 				"Description": "Pickpocket the master farmre north of Ardougne.",
 				"Chunks": ["10292"],
 				"Skills": {
-					"Theiving": 38
+					"Thieving": 38
 				},
 				"Tasks": {
 					"~|Easy Ardougne tasks|~ Complete the Easy Area Tasks": "Diary"
