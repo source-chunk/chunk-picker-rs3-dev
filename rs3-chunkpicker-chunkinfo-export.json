@@ -8805,41 +8805,17 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Create a ~|spirit war pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "War pig tooth", "Oak plank", "Steel bar", "Nails+"],
+			"Upgrade the ~|spirit pig machine|~ to (tier 2)": {
+				"Items": ["Oak plank", "Steel bar", "Nails+"],
 				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit war pig pouch (tier 2)",
-				"Primary": true,
+				"Objects": ["Pig machine"],
+				"Output Object": "Pig machine (tier 2)",
+				"Primary": false,
 				"skills": {
 					"Summoning": 44,
 					"Crafting": 44
 				},
 				"Priority": 10
-			},
-			"Create a ~|spirit prayer pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "Prayer pig tooth", "Oak plank", "Steel bar", "Nails+"],
-				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit prayer pig pouch (tier 2)",
-				"Primary": true,
-				"skills": {
-					"Summoning": 44,
-					"Crafting": 44
-				},
-				"Priority": 11
-			},
-			"Create a ~|spirit pack pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "Pack pig tooth", "Oak plank", "Steel bar", "Nails+"],
-				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit pack pig pouch (tier 2)",
-				"Primary": true,
-				"skills": {
-					"Summoning": 44,
-					"Crafting": 44
-				},
-				"Priority": 12
 			},
 			"Build a ~|carved teak table|~": {
 				"Category": ["InsidePOH Primary"],
@@ -10966,41 +10942,17 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Create a ~|spirit war pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "War pig tooth", "Teak plank", "Mithril bar", "Nails+"],
+			"Upgrade the ~|spirit pig machine|~ to (tier 3)": {
+				"Items": ["Teak plank", "Mithril bar", "Nails+"],
 				"Level": 84,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit war pig pouch (tier 3)",
-				"Primary": true,
+				"Objects": ["Pig machine (tier 2)"],
+				"Output Object": "Pig machine (tier 3)",
+				"Primary": false,
 				"skills": {
 					"Summoning": 84,
 					"Crafting": 84
 				},
 				"Priority": 7
-			},
-			"Create a ~|spirit prayer pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "Prayer pig tooth", "Teak plank", "Mithril bar", "Nails+"],
-				"Level": 84,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit prayer pig pouch (tier 3)",
-				"Primary": true,
-				"skills": {
-					"Summoning": 84,
-					"Crafting": 84
-				},
-				"Priority": 8
-			},
-			"Create a ~|spirit pack pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "Pack pig tooth", "Teak plank", "Mithril bar", "Nails+"],
-				"Level": 84,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit pack pig pouch (tier 3)",
-				"Primary": true,
-				"skills": {
-					"Summoning": 84,
-					"Crafting": 84
-				},
-				"Priority": 9
 			},
 			"Build a ~|gilded clock|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14300,78 +14252,30 @@
 					"Magic": 70
 				},
 				"Priority": 1
-			},
-			"Create a ~|spirit war pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "War pig tooth", "Oak plank", "Steel bar", "Nails+"],
+			},			
+			"Upgrade the ~|spirit pig machine|~ to (tier 2)": {
+				"Items": ["Oak plank", "Steel bar", "Nails+"],
 				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit war pig pouch (tier 2)",
-				"Primary": true,
+				"Objects": ["Pig machine"],
+				"Output Object": "Pig machine (tier 2)",
+				"Primary": false,
 				"skills": {
-					"Construction": 44,
-					"Summoning": 44
+					"Summoning": 44,
+					"Construction": 44
+				},
+				"Priority": 7
+			},
+			"Upgrade the ~|spirit pig machine|~ to (tier 3)": {
+				"Items": ["Teak plank", "Mithril bar", "Nails+"],
+				"Level": 84,
+				"Objects": ["Pig machine (tier 2)"],
+				"Output Object": "Pig machine (tier 3)",
+				"Primary": false,
+				"skills": {
+					"Summoning": 84,
+					"Construction": 84
 				},
 				"Priority": 1
-			},
-			"Create a ~|spirit prayer pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "Prayer pig tooth", "Oak plank", "Steel bar", "Nails+"],
-				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit prayer pig pouch (tier 2)",
-				"Primary": true,
-				"skills": {
-					"Construction": 44,
-					"Summoning": 44
-				},
-				"Priority": 2
-			},
-			"Create a ~|spirit pack pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "Pack pig tooth", "Oak plank", "Steel bar", "Nails+"],
-				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit pack pig pouch (tier 2)",
-				"Primary": true,
-				"skills": {
-					"Construction": 44,
-					"Summoning": 44
-				},
-				"Priority": 3
-			},
-			"Create a ~|spirit war pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "War pig tooth", "Teak plank", "Mithril bar", "Nails+"],
-				"Level": 84,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit war pig pouch (tier 3)",
-				"Primary": true,
-				"skills": {
-					"Construction": 84,
-					"Summoning": 84
-				},
-				"Priority": 1
-			},
-			"Create a ~|spirit prayer pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "Prayer pig tooth", "Teak plank", "Mithril bar", "Nails+"],
-				"Level": 84,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit prayer pig pouch (tier 3)",
-				"Primary": true,
-				"skills": {
-					"Construction": 84,
-					"Summoning": 84
-				},
-				"Priority": 2
-			},
-			"Create a ~|spirit pack pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "Pack pig tooth", "Teak plank", "Mithril bar", "Nails+"],
-				"Level": 84,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit pack pig pouch (tier 3)",
-				"Primary": true,
-				"skills": {
-					"Construction": 84,
-					"Summoning": 84
-				},
-				"Priority": 3
 			},
 			"Craft a ~|feather headdress (blue)|~": {
 				"Items": ["Studded leather coif*", "Blue feather*"],
@@ -45716,7 +45620,7 @@
 			"Create a ~|spirit war pig|~ (tier 1) pouch": {
 				"Items": ["Gold charm*", "War pig tooth*"],
 				"Level": 14,
-				"Chunks": ["Pig machine"],
+				"Objects": ["Pig machine"],
 				"Output": "Spirit war pig pouch (tier 1)",
 				"Primary": true,
 				"Priority": 1
@@ -45724,7 +45628,7 @@
 			"Create a ~|spirit prayer pig|~ (tier 1) pouch": {
 				"Items": ["Gold charm*", "Prayer pig tooth*"],
 				"Level": 14,
-				"Chunks": ["Pig machine"],
+				"Objects": ["Pig machine"],
 				"Output": "Spirit prayer pig pouch (tier 1)",
 				"Primary": true,
 				"Priority": 2
@@ -45732,81 +45636,81 @@
 			"Create a ~|spirit pack pig|~ (tier 1) pouch": {
 				"Items": ["Gold charm*", "Pack pig tooth*"],
 				"Level": 14,
-				"Chunks": ["Pig machine"],
+				"Objects": ["Pig machine"],
 				"Output": "Spirit pack pig pouch (tier 1)",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|spirit war pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "War pig tooth", "Oak plank", "Steel bar", "Nails+"],
+			"Upgrade the ~|spirit pig machine|~ to (tier 2)": {
+				"Items": ["Oak plank", "Steel bar", "Nails+"],
 				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit war pig pouch (tier 2)",
-				"Primary": true,
+				"Objects": ["Pig machine"],
+				"Output Object": "Pig machine (tier 2)",
+				"Primary": false,
 				"skills": {
-					"Construction": 44,
-					"Crafting": 44
+					"Summoning": 44,
+					"Construction": 44
 				},
 				"Priority": 1
 			},
-			"Create a ~|spirit prayer pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "Prayer pig tooth", "Oak plank", "Steel bar", "Nails+"],
+			"Create a ~|spirit war pig|~ (tier 2) pouch": {
+				"Items": ["Gold charm", "War pig tooth"],
 				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit prayer pig pouch (tier 2)",
+				"Objects": ["Pig machine (tier 2)"],
+				"Output": "Spirit war pig pouch (tier 2)",
 				"Primary": true,
-				"skills": {
-					"Construction": 44,
-					"Crafting": 44
-				},
 				"Priority": 2
 			},
-			"Create a ~|spirit pack pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "Pack pig tooth", "Oak plank", "Steel bar", "Nails+"],
+			"Create a ~|spirit prayer pig|~ (tier 2) pouch": {
+				"Items": ["Gold charm", "Prayer pig tooth"],
 				"Level": 44,
-				"Chunks": ["Pig machine"],
-				"Output": "Spirit pack pig pouch (tier 2)",
+				"Objects": ["Pig machine (tier 2)"],
+				"Output": "Spirit prayer pig pouch (tier 2)",
 				"Primary": true,
-				"skills": {
-					"Construction": 44,
-					"Crafting": 44
-				},
 				"Priority": 3
 			},
-			"Create a ~|spirit war pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "War pig tooth", "Teak plank", "Mithril bar", "Nails+"],
+			"Create a ~|spirit pack pig|~ (tier 2) pouch": {
+				"Items": ["Gold charm", "Pack pig tooth"],
+				"Level": 44,
+				"Objects": ["Pig machine (tier 2)"],
+				"Output": "Spirit pack pig pouch (tier 2)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Upgrade the ~|spirit pig machine|~ to (tier 3)": {
+				"Items": ["Teak plank", "Mithril bar", "Nails+"],
 				"Level": 84,
-				"Chunks": ["Pig machine"],
+				"Objects": ["Pig machine (tier 2)"],
+				"Output Object": "Pig machine (tier 3)",
+				"Primary": false,
+				"skills": {
+					"Summoning": 84,
+					"Construction": 84
+				},
+				"Priority": 7
+			},
+			"Create a ~|spirit war pig|~ (tier 3) pouch": {
+				"Items": ["Gold charm", "War pig tooth"],
+				"Level": 84,
+				"Objects": ["Pig machine (tier 3)"],
 				"Output": "Spirit war pig pouch (tier 3)",
 				"Primary": true,
-				"skills": {
-					"Construction": 84,
-					"Crafting": 84
-				},
 				"Priority": 1
 			},
 			"Create a ~|spirit prayer pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "Prayer pig tooth", "Teak plank", "Mithril bar", "Nails+"],
+				"Items": ["Gold charm", "Prayer pig tooth"],
 				"Level": 84,
-				"Chunks": ["Pig machine"],
+				"Objects": ["Pig machine (tier 3)"],
 				"Output": "Spirit prayer pig pouch (tier 3)",
 				"Primary": true,
-				"skills": {
-					"Construction": 84,
-					"Crafting": 84
-				},
 				"Priority": 2
 			},
 			"Create a ~|spirit pack pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "Pack pig tooth", "Teak plank", "Mithril bar", "Nails+"],
+				"Items": ["Gold charm", "Pack pig tooth"],
 				"Level": 84,
-				"Chunks": ["Pig machine"],
+				"Objects": ["Pig machine (tier 3)"],
 				"Output": "Spirit pack pig pouch (tier 3)",
 				"Primary": true,
-				"skills": {
-					"Construction": 84,
-					"Crafting": 84
-				},
 				"Priority": 3
 			},
 			"Create a ~|spirit wolf scroll (howl)|~": {
@@ -76963,7 +76867,8 @@
 				"Warriors' Guild Armoury": true,
 				"Freda's Boots": true,
 				"Warriors' Guild Food Shop": true,
-				"Warriors' Guild Potion Shop": true
+				"Warriors' Guild Potion Shop": true,
+				"Strength cape": true
 			},
 			"Nickname": "Warrior's Guild"
 		},
@@ -79226,12 +79131,12 @@
 				"Flynn's Mace Market": true,
 				"Herquin's Gems": true,
 				"Farming supplies": true,
-				"Strength cape": true,
 				"Falador General Store": true,
 				"Initiate Temple Knight Armoury": true,
 				"Proselyte Temple Knight Armoury": true,
 				"White Knight Master Armoury": true,
-				"Slayer Equipment (Burthorpe)": true
+				"Slayer Equipment (Burthorpe)": true,
+				"Sir Renitee's Construction Supplies": true
 			},
 			"Nickname": "West Falador"
 		},
@@ -97253,7 +97158,7 @@
 			}
         },
         "Falador Farm storm cellar": {
-            "Objects": {
+            "Object": {
 				"Pig machine": 1
 			},
 			"NPC": {
@@ -175010,6 +174915,36 @@
 			"Team-29 cape": true,
 			"Team-39 cape": true,
 			"Team-49 cape": true
+		},
+		"Sir Renitee's Construction Supplies": {
+			"Small map": true,
+			"Medium map": true,
+			"Large map": true,
+			"Arthur portrait": true,
+			"Elena portrait": true,
+			"Keldagrim portrait": true,
+			"Misc. portrait": true,
+			"Lumbridge painting": true,
+			"Desert painting": true,
+			"Morytania painting": true,
+			"Karamja painting": true,
+			"Isafdar painting": true,
+			"Arrav heraldry": true,
+			"Asgarnia heraldry": true,
+			"Dorgeshuun heraldry": true,
+			"Dragon heraldry": true,
+			"Fairy heraldry": true,
+			"Guthix heraldry": true,
+			"H.A.M. heraldry": true,
+			"Horse heraldry": true,
+			"Jogre heraldry": true,
+			"Kandarin heraldry": true,
+			"Misthalin heraldry": true,
+			"Money heraldry": true,
+			"Saradomin heraldry": true,
+			"Skull heraldry": true,
+			"Varrock heraldry": true,
+			"Zamorak heraldry": true
 		},
 		"Skulgrimen's Battle Gear": {
 			"Bronze warhammer": true,
