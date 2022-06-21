@@ -103734,6 +103734,10 @@
 			}
 		},
 		"Araxyte lair": {
+			"Monster": {
+				"Araxxor": 1,
+				"Araxxi": 1
+			},
 			"Object": {
 				"Rope": 1,
 				"Gap": 1
