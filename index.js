@@ -807,7 +807,8 @@ let maybePrimary = [
     "Sulphurous Fertiliser",
     "Shortcut",
     "InsidePOH Primary",
-	"Token"
+	"Token",
+	"Cleaning herbs"
 ];                                                                              // Methods that are only primary if their respective rule is checked
 
 let randomLootChoices = [
