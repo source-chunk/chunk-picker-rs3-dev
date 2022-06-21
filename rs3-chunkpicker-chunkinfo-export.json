@@ -82438,7 +82438,7 @@
 			"Monster": {
 				"H%2EA%2EM%2E Guard": 23
 			},
-			"Name": "H.A.M. cave"
+			"Name": "H.A.M. Cave"
 		},
 		"12696": {
 			"Object": {
@@ -99843,7 +99843,7 @@
 				"Guard (H.A.M.)": 5
 			},
 			"Connect": {
-				"12625": true
+				"12694": true
 			}
 		},
 		"Soul Wars": {
@@ -102224,7 +102224,7 @@
 				"Rat": 30
 			}
 		},
-		"H.A.M. cave": {
+		"H.A.M. Cave": {
 			"Object": {
 				"Crate": 14,
 				"Chest": 4,
@@ -102234,7 +102234,8 @@
 			"NPC": {
 				"Johanhus Ulsbrecht": 1,
 				"H.A.M. Deacon": 1,
-				"H.A.M. Member": 31,
+				"H.A.M. member (male)": 16,
+				"H.A.M. member (female)": 15,
 				"Jimmy the Chisel": 1,
 				"Sigmund": 1
 			},
