@@ -48448,7 +48448,7 @@
 			},
 			"~|Medium Ardougne tasks|~ I Wonder What This Does": {
 				"Description": "Teleport to the Wilderness using the lever in Ardougne.",
-				"Chunks": ["10291"],
+				"Chunks": ["10291", "12605"],
 				"Tasks": {
 					"~|Easy Ardougne tasks|~ Complete the Easy Area Tasks": "Diary"
 				},
