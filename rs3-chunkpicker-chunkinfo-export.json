@@ -109218,14 +109218,14 @@
 			"Tanner+": "Any hide tanner",
 			"Wisp+": "Any level 1 wisp"
 		},
-		"taskPlus": {
+		"tasksPlus": {
 			"A Taste of the Exotic+": ["~|Ardougne Area Tasks%2FEasy|~ A Taste of the Exotic (Coconut)", "~|Ardougne Area Tasks%2FEasy|~ A Taste of the Exotic (Papaya)"],
 			"It Spoiled My View+": ["~|Hard Falador tasks|~ It Spoiled My View (Yew)", "~|Hard Falador tasks|~ It Spoiled My View (Magic)"],
 			"More Fletcher than Sumona+": ["~|Easy Desert tasks|~ More Fletcher than Sumona (Arrows)", "~|Easy Desert tasks|~ More Fletcher than Sumona (Bolts)"],
 			"Setting Up+": ["~|Easy Daemonheim tasks|~ Setting Up (Crafting)", "~|Easy Daemonheim tasks|~ Setting Up (Smithing)"],
 			"Yoink!+": ["~|Ardougne Area Tasks%2FEasy|~ Yoink! (Guard)", "~|Ardougne Area Tasks%2FEasy|~ Yoink! (Stall)"]
 		},
-		"taskPlusNames": {
+		"tasksPlusNames": {
 			"A Taste of the Exotic+": "Any subtasks for A Taste of the Exotic",
 			"It Spoiled My View+": "Any subtask for It Spoiled My View",
 			"More Fletcher than Sumona+": "Any subtask for More Fletcher than Sumona",
