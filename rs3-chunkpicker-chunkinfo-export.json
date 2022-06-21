@@ -102233,13 +102233,13 @@
 			},
 			"NPC": {
 				"Johanhus Ulsbrecht": 1,
-				"H%2EA%2EM%2E Deacon": 1,
-				"H%2EA%2EM%2E Member": 31,
+				"H.A.M. Deacon": 1,
+				"H.A.M. Member": 31,
 				"Jimmy the Chisel": 1,
 				"Sigmund": 1
 			},
 			"Monster": {
-				"H%2EA%2EM%2E Guard": 23
+				"H.A.M. Guard": 23
 			},
 			"Connect": {
 				"10321": true,
