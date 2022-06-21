@@ -59884,6 +59884,10 @@
 					"Farming": 75,
 					"Woodcutting": 75
 				}
+			},
+			"Empty a ~|potion|~": {
+				"Items": ["Potion+"],
+				"Output": "Vial"
 			}
 		}
 	},
@@ -107222,6 +107226,37 @@
 				"Divine maple tree",
 				"Divine willow tree"
 			],
+			"Potion+": [
+				"Strength potion (1)",
+				"Strength potion (2)",
+				"Strength potion (3)",
+				"Strength potion (4)",
+				"Attack potion (1)",
+				"Attack potion (2)",
+				"Attack potion (3)",
+				"Attack potion (4)",
+				"Defence potion (1)",
+				"Defence potion (2)",
+				"Defence potion (3)",
+				"Defence potion (4)",
+				"Energy potion (1)",
+				"Energy potion (2)",
+				"Energy potion (3)",
+				"Energy potion (4)",
+				"Energy potion ()",
+				"Super strength potion (1)",
+				"Super strength potion (2)",
+				"Super strength potion (3)",
+				"Super strength potion (4)",
+				"Super attack potion (1)",
+				"Super attack potion (2)",
+				"Super attack potion (3)",
+				"Super attack potion (4)",
+				"Super defence potion (1)",
+				"Super defence potion (2)",
+				"Super defence potion (3)",
+				"Super defence potion (4)"
+			],
 			"PrayerPotion+": [
 				"Prayer potion (1)",
 				"Prayer potion (2)",
@@ -108839,6 +108874,7 @@
 			"PineappleRing+": "Any pineapple item that can be used to top pizza",
 			"PolarCamo+": "Any piece of the polar camo outfit",
 			"PoorDivine+": "Any divine location that can be used to make a poor locator",
+			"Potion+": "Any potion that can be emptied to create a vial",
 			"PrayerPotion+": "Any prayer potion",
 			"PrayerRenewalPotion+": "Any prayer renewal potion",
 			"PrimalFruit+": "Any fruit that can be used to make primal fruit pulp",
