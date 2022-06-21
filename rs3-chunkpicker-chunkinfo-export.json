@@ -30203,6 +30203,7 @@
 		},
 		"Herblore": {
 			"Clean a ~|grimy guam|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy guam*"],
 				"Level": 1,
 				"Output": "Clean guam",
@@ -30343,6 +30344,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy rogue's purse|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy rogue's purse*"],
 				"Level": 3,
 				"Output": "Clean rogue's purse",
@@ -30350,6 +30352,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy snake weed|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy snake weed*"],
 				"Level": 3,
 				"Output": "Clean snake weed",
@@ -30372,6 +30375,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy tarromin|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy tarromin*"],
 				"Level": 5,
 				"Output": "Clean tarromin",
@@ -30431,6 +30435,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy marrentill|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy marrentill*"],
 				"Level": 9,
 				"Output": "Clean marrentill",
@@ -30514,6 +30519,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy harralander|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy harralander*"],
 				"Level": 20,
 				"Output": "Clean harralander",
@@ -30574,6 +30580,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy ranarr|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy ranarr*"],
 				"Level": 25,
 				"Output": "Clean ranarr",
@@ -30604,6 +30611,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy toadflax|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy toadflax*"],
 				"Level": 30,
 				"Output": "Clean toadflax",
@@ -30647,6 +30655,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy spirit weed|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy spirit weed*"],
 				"Level": 35,
 				"Output": "Clean spirit weed",
@@ -30705,6 +30714,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy irit|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy irit*"],
 				"Level": 40,
 				"Output": "Clean irit",
@@ -30728,6 +30738,7 @@
 				"Priority": 4
 			},
 			"Clean a ~|grimy wergali|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy wergali*"],
 				"Level": 41,
 				"Output": "Clean wergali",
@@ -30794,6 +30805,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy avantoe|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy avantoe*"],
 				"Level": 48,
 				"Output": "Clean avantoe",
@@ -30893,6 +30905,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy erzille|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy erzille*"],
 				"Level": 54,
 				"Output": "Clean erzille",
@@ -30915,6 +30928,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy kwuarm|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy kwuarm*"],
 				"Level": 54,
 				"Output": "Clean kwuarm",
@@ -30944,6 +30958,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy ugune|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy ugune*"],
 				"Level": 55,
 				"Output": "Clean ugune",
@@ -30958,6 +30973,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy argway|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy argway*"],
 				"Level": 56,
 				"Output": "Clean argway",
@@ -30988,6 +31004,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy shengo|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy shengo*"],
 				"Level": 57,
 				"Output": "Clean shengo",
@@ -30995,6 +31012,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy bloodweed|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy bloodweed*"],
 				"Level": 57,
 				"Output": "Clean bloodweed",
@@ -31024,6 +31042,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy samaden|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy samaden*"],
 				"Level": 58,
 				"Output": "Clean samaden",
@@ -31054,6 +31073,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy snapdragon|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy snapdragon*"],
 				"Level": 59,
 				"Output": "Clean snapdragon",
@@ -31157,6 +31177,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy cadantine|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy cadantine*"],
 				"Level": 65,
 				"Output": "Clean cadantine",
@@ -31201,6 +31222,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy lantadyme|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy lantadyme*"],
 				"Level": 67,
 				"Output": "Clean lantadyme",
@@ -31252,6 +31274,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy dwarf weed|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy dwarf weed*"],
 				"Level": 70,
 				"Output": "Clean dwarf weed",
@@ -31384,6 +31407,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy torstol|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy torstol*"],
 				"Level": 75,
 				"Output": "Clean torstol",
@@ -31488,6 +31512,7 @@
 				"Priority": 4
 			},
 			"Clean a ~|grimy arbuck|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy arbuck*"],
 				"Level": 77,
 				"Output": "Clean arbuck",
@@ -31819,6 +31844,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy fellstalk|~": {
+				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy fellstalk*"],
 				"Level": 91,
 				"Output": "Clean fellstalk",

@@ -384,6 +384,7 @@ let rules = {
 	"Token": false,
 	"Master skillcape": false,
 	"Golden fish egg": false,
+	"Cleaning herbs": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -466,6 +467,7 @@ let ruleNames = {
 	"Token": "Allow token xp drops to count as a primary training method",
 	"Master skillcape": "Must obtain master skillcapes for all skills <span class='rule-asterisk noscroll'>†</span>",
 	"Golden fish egg": "Must obtain all available golden fish eggs <span class='rule-asterisk noscroll'>*</span>",
+	"Cleaning herbs": "Cleaning herbs counts as primary herblore training <span class='rule-asterisk noscroll'>†</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -602,6 +604,7 @@ let rulePresets = {
 		"Token": true,
 		"Master skillcape": true,
 		"Golden fish egg": true,
+		"Cleaning herbs": true,
     },
 };                                                                              // List of rules that are part of each preset
 
@@ -655,7 +658,8 @@ let ruleStructure = {
     "Herblore": {
         "Herblore Unlocked Snake Weed": true,
         "Herblore Unlocked": true,
-        "Herblore Unlocked Exception": true
+        "Herblore Unlocked Exception": true,
+		"Cleaning herbs": true
     },
     "Hunter": {
         "Puro-Puro": ["Extra implings"],
