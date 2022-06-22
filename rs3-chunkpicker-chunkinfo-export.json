@@ -51629,6 +51629,7 @@
 			},
 			"~|Easy Lumbridge tasks|~ And It Was THIS Big!": {
 				"Description": "Catch a pike in the river to the east of Lumbridge Castle.",
+				"Items": ["Fishing bait"],
 				"Chunks": ["12850"],
 				"Skills": {
 					"Fishing": 25
