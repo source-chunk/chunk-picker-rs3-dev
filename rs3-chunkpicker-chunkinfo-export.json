@@ -73144,7 +73144,7 @@
 			"Monster": {
 				"Guard (H.A.M.)": 5
 			},
-			"Name": "H.A.M. store rooms"
+			"Name": "H%2EA%2EM%2E store rooms"
 		},
 		"10322": {
 			"Object": {
@@ -82438,7 +82438,7 @@
 			"Monster": {
 				"H%2EA%2EM%2E Guard": 23
 			},
-			"Name": "H.A.M. Cave"
+			"Name": "H%2EA%2EM%2E Cave"
 		},
 		"12696": {
 			"Object": {
@@ -99833,7 +99833,7 @@
 			}
 		},
 		"Oo'glog": {},
-		"H.A.M. store rooms": {
+		"H%2EA%2EM%2E store rooms": {
 			"Object": {
 				"Crate": 3,
 				"Small chest": 7,
