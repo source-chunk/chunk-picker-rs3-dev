@@ -59896,6 +59896,18 @@
 		"1": {
 			"Name": "Falador Mole Lair"
 		},
+		"2": {
+			"Name": "Kharid-Et Main Fortress"
+		},
+		"3": {
+			"Name": "Kharid-Et Prison"
+		},
+		"4": {
+			"Name": "Kharid-Et Praetorium"
+		},
+		"5": {
+			"Name": "Camdozaal"
+		},
 		"258": {
 			"Spawn": {
 				"Broken glass": 8
@@ -67505,7 +67517,8 @@
 		"8752": {
 			"Object": {
 				"Small obelisk": 1,
-				"Tree": 25
+				"Tree": 25,
+				"Mushroom patch": 1
 			},
 			"NPC": {
 				"Trevelian": 1
@@ -67600,7 +67613,8 @@
 				"Mithril rock": 6,
 				"Prifddinas gem rock": 6,
 				"Seren stone": 5,
-				"Forge": 2
+				"Forge": 2,
+				"Tree patch": 1
 			},
 			"NPC": {
 				"Iorwerth herald": 1,
@@ -67649,7 +67663,8 @@
 				"Small obelisk": 1,
 				"Adamantite rock": 8,
 				"Runite rock": 2,
-				"Crystal tree": 1
+				"Crystal tree": 1,
+				"Crystal tree patch": 1
 			},
 			"NPC": {
 				"Challenge Mistress Heriau": 1,
@@ -67696,7 +67711,9 @@
 				"Meilyr": 2,
 				"Amlodd": 2,
 				"Crwys": 2,
-				"Hefin": 2
+				"Hefin": 2,
+				"Harmony pillar": 4,
+				"Fruit tree patch": 1
 			},
 			"NPC": {
 				"Meilyr herald": 1,
@@ -68313,7 +68330,10 @@
 				"Spinning wheel": 1,
 				"Water pool": 1,
 				"Meilyr": 2,
-				"Ivy": 9
+				"Ivy": 9,
+				"Herb patch": 1,
+				"Bush patch": 1,
+				"Elder tree patch": 1
 			},
 			"Monster": {
 				"Cadarn ranger": 12,
@@ -68829,7 +68849,8 @@
 				"Counter": 4,
 				"Spinning wheel": 1,
 				"Water barrel": 1,
-				"Cooking range": 2
+				"Cooking range": 2,
+				"Fruit tree patch": 1
 			},
 			"NPC": {
 				"Sheep": 3,
@@ -70445,7 +70466,8 @@
 				"Tree": 34,
 				"Dead tree": 9,
 				"Water barrel": 1,
-				"Fishing spot (lure/bait)": 5
+				"Fishing spot (lure/bait)": 5,
+				"Fruit tree patch": 1
 			},
 			"Monster": {
 				"Grizzly bear": 2
@@ -70594,7 +70616,9 @@
 				"Pawya portal": 1,
 				"Nyriki's portal": 1,
 				"Nyriki's crate": 1,
-				"Water barrel": 1
+				"Water barrel": 1,
+				"Tree patch": 1,
+				"Fruit tree patch": 1
 			},
 			"Monster": {
 				"Gnome": 3,
@@ -72560,7 +72584,8 @@
 				"Inventor's workbench": 2,
 				"Anvil": 2,
 				"Forge": 2,
-				"Ivy": 6
+				"Ivy": 6,
+				"Hops patch": 1
 			},
 			"Monster": {
 				"Man": 2,
@@ -72660,7 +72685,8 @@
 				"Tower of Life": 1,
 				"Ardougne Monastery": 1,
 				"Clocktower, Ardougne": 1,
-				"Silver rock": 4
+				"Silver rock": 4,
+				"Bush patch": 1
 			},
 			"NPC": {
 				"Brother Kojo": 1,
@@ -72890,7 +72916,7 @@
 			"Monster": {
 				"Rat": 3,
 				"Giant bat": 7,
-				"Guard": 2,
+				"Guard (dwarf)": 2,
 				"Goblin": 1
 			},
 			"NPC": {
@@ -72967,7 +72993,9 @@
 				"Mahogany": 3,
 				"Evergreen": 11,
 				"Water barrel": 1,
-				"Fishing spot (kingdom)": 4
+				"Fishing spot (kingdom)": 4,
+				"Bush patch": 1,
+				"Spirit tree patch": 1
 			},
 			"NPC": {
 				"Gull": 4,
@@ -73665,7 +73693,8 @@
 				"Geoff": 1,
 				"Vault access lever": 1,
 				"Ornate cuckoo clock": 1,
-				"Dead tree": 10
+				"Dead tree": 10,
+				"Jade vine patch": 1
 			},
 			"Monster": {
 				"Warrior woman": 2,
@@ -73741,7 +73770,11 @@
 				"Breeding paddock": 1,
 				"Remote farm device": 2,
 				"Mystical tree": 1,
-				"Bloodwood tree": 1
+				"Bloodwood tree": 1,
+				"Allotment patch": 2,
+				"Flower patch": 1,
+				"Herb patch": 1,
+				"Spirit tree patch": 1
 			},
 			"NPC": {
 				"Milton the Miller": 1,
@@ -73885,7 +73918,8 @@
 				"Tree": 19,
 				"Maple Tree": 25,
 				"Dead tree": 7,
-				"Water barrel": 1
+				"Water barrel": 1,
+				"Hops patch": 1
 			},
 			"NPC": {
 				"Rhonen": 1,
@@ -75657,7 +75691,8 @@
 				"Rotten village fence": 16,
 				"Crate": 1,
 				"Anvil": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Calquat patch": 1
 			},
 			"Monster": {
 				"Jungle spider": 6,
@@ -75765,7 +75800,9 @@
 			"Object": {
 				"Gangplank": 4,
 				"Travel cart": 1,
-				"Wheat": 12
+				"Wheat": 12,
+				"Fruit tree patch": 1,
+				"Spirit tree patch": 1
 			},
 			"Monster": {
 				"Jungle spider": 2,
@@ -75819,7 +75856,8 @@
 				"Well": 1,
 				"Dead tree": 17,
 				"Sink": 1,
-				"Tree": 6
+				"Tree": 6,
+				"Hops patch": 1
 			},
 			"Monster": {
 				"Black bear": 1
@@ -75907,7 +75945,10 @@
 				"Statue": 1,
 				"Oak": 5,
 				"Tree": 11,
-				"Evergreen": 15
+				"Evergreen": 15,
+				"Allotment patch": 2,
+				"Flower patch": 1,
+				"Herb patch": 1
 			},
 			"Monster": {
 				"Unicorn": 1,
@@ -75982,7 +76023,8 @@
 				"Ancient Rock": 1,
 				"Shining pool": 32,
 				"Tree": 2,
-				"Cliffside": 1
+				"Cliffside": 1,
+				"Herb patch": 1
 			},
 			"NPC": {
 				"Guard": 2,
@@ -76802,7 +76844,8 @@
 				"Fishing spot (net(big)/harpoon)": 3,
 				"Fishing spot (cage/harpoon)": 2,
 				"Fishing spot (net(small)/bait)": 2,
-				"Water obelisk": 1
+				"Water obelisk": 1,
+				"Fruit tree patch": 1
 			},
 			"Monster": {
 				"Adolescent White wolf": 3
@@ -77794,7 +77837,8 @@
 				"Tree": 14,
 				"Bookcase": 5,
 				"Fractionation still": 1,
-				"Elder tree": 1
+				"Elder tree": 1,
+				"Bush patch": 1
 			},
 			"Monster": {
 				"Rat": 6,
@@ -78022,7 +78066,9 @@
 				"Altar": 1,
 				"Anvil": 2,
 				"Forge": 1,
-				"Fishing spot (crayfish)": 4
+				"Fishing spot (crayfish)": 4,
+				"Potato patch": 1,
+				"Tree patch": 1
 			},
 			"NPC": {
 				"Austri": 1,
@@ -78824,7 +78870,11 @@
 				"Jungle plant": 18,
 				"Burrow": 2,
 				"Bush": 4,
-				"Climbable vine": 3
+				"Climbable vine": 3,
+				"Fruit tree patch": 1,
+				"Vine herb patch": 2,
+				"Vine bush patch": 1,
+				"Vine blossom patch": 1
 			},
 			"NPC": {
 				"Tool leprechaun": 1,
@@ -79106,7 +79156,8 @@
 				"Tree": 12,
 				"Memorial Plaque": 1,
 				"Furnace": 1,
-				"Sack of duck food": 1
+				"Sack of duck food": 1,
+				"Tree patch": 1
 			},
 			"Monster": {
 				"Guard": 9,
@@ -79342,7 +79393,8 @@
 				"Crate": 20,
 				"Sack": 11,
 				"Anvil": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Flower patch": 1
 			},
 			"Monster": {
 				"Rat": 4,
@@ -79787,7 +79839,8 @@
 				"Cooking range+": 1,
 				"Sink": 1,
 				"Anvil": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Spirit tree patch": 1
 			},
 			"Monster": {
 				"Man": 1,
@@ -79883,7 +79936,10 @@
 				"Stile": 2,
 				"Dairy churn": 1,
 				"Elder tree": 1,
-				"Ivy": 7
+				"Ivy": 7,
+				"Allotment patch": 2,
+				"Flower patch": 1,
+				"Herb patch": 1
 			},
 			"Monster": {
 				"Duck": 2,
@@ -80068,6 +80124,9 @@
 				"Sir Owen": 1,
 				"Saradomin": 1,
 				"Herald": 1
+			},
+			"Connect": {
+				"5": true
 			},
 			"Spawn": {
 				"Monk's robe (top)": 1,
@@ -81020,7 +81079,8 @@
 				"Candle sconce": 1,
 				"Crate": 1,
 				"Bookcase": 1,
-				"Belladonna patch": 1
+				"Belladonna patch": 1,
+				"Evil turnip patch": 1
 			},
 			"Monster": {
 				"Rat": 2,
@@ -81695,7 +81755,8 @@
 				"Clay rock": 4,
 				"Anvil": 1,
 				"Forge": 1,
-				"Fishing spot (menaphos)": 1
+				"Fishing spot (menaphos)": 1,
+				"Cactus patch": 1
 			},
 			"NPC": {
 				"Fisherman": 1,
@@ -81945,7 +82006,8 @@
 				"Copper rock": 3,
 				"Tin rock": 2,
 				"Iron rock": 4,
-				"Mithril rock": 3
+				"Mithril rock": 3,
+				"Bush patch": 1
 			},
 			"Monster": {
 				"Chicken": 5,
@@ -82767,7 +82829,8 @@
 				"Fishing spot (lure/bait)": 5,
 				"Canoe": 1,
 				"Vegetable stall": 2,
-				"Fishing spot (crayfish)": 5
+				"Fishing spot (crayfish)": 5,
+				"Tree patch": 1
 			},
 			"NPC": {
 				"Hans": 1,
@@ -82875,7 +82938,8 @@
 				"Prized dairy cow": 1,
 				"Bakery stall": 1,
 				"Wine stall": 1,
-				"Crafting stall": 1
+				"Crafting stall": 1,
+				"Hops patch": 1
 			},
 			"Monster": {
 				"Farmer": 3,
@@ -83132,7 +83196,8 @@
 				"Crate": 1,
 				"Bank chest": 1,
 				"Lift": 1,
-				"Ivy": 9
+				"Ivy": 9,
+				"Tree patch": 1
 			},
 			"Monster": {
 				"Warrior woman": 2,
@@ -83950,7 +84015,8 @@
 				"Lumbridge": 1,
 				"Cooking range+": 1,
 				"Boxes": 2,
-				"Scoreboard": 1
+				"Scoreboard": 1,
+				"Cactus patch": 1
 			},
 			"Monster": {
 				"Man": 2,
@@ -84872,7 +84938,10 @@
 				"Dark Tunnel": 1,
 				"Archaeologist's workbench": 1,
 				"Bank chest": 1,
-				"Material cache (samite silk)": 6
+				"Material cache (samite silk)": 6,
+				"Venator remains": 1,
+				"Legionary remains": 1,
+				"Fort debris": 1
 			},
 			"NPC": {
 				"Mound": 12,
@@ -84886,6 +84955,7 @@
 				"Dr Nabanik": 1
 			},
 			"Connect": {
+				"2": true,
 				"20598": true
 			},
 			"Nickname": "Kharid-et Digsite"
@@ -84895,7 +84965,12 @@
 				"Bank chest": 2,
 				"Scoreboard": 1,
 				"Altar": 1,
-				"Material cache (samite silk)": 2
+				"Material cache (samite silk)": 2,
+				"Cactus patch": 1,
+				"Rose bush": 1,
+				"Iris bush": 1,
+				"Hydrangea bush": 1,
+				"Hollyhock bush": 1
 			},
 			"NPC": {
 				"A'abla": 1,
@@ -85001,7 +85076,8 @@
 				"Museum donation bin": 1,
 				"Material cache (Third Age iron)": 3,
 				"Bank chest": 1,
-				"Lift": 1
+				"Lift": 1,
+				"Centurion remains": 1
 			},
 			"NPC": {
 				"Dig Site workman": 3,
@@ -85590,7 +85666,8 @@
 				"Tree": 1,
 				"Altar": 1,
 				"Broken Saradomin statue": 1,
-				"Rope": 2
+				"Rope": 2,
+				"Mushroom patch": 1
 			},
 			"Monster": {
 				"Monk of Zamorak": 10
@@ -87146,7 +87223,10 @@
 				"Boxes": 8,
 				"Waterpump": 1,
 				"Swamp tree": 4,
-				"Slayer Tower, Canifis": 1
+				"Slayer Tower, Canifis": 1,
+				"Allotment patch": 2,
+				"Flower patch": 1,
+				"Herb patch": 1
 			},
 			"Monster": {
 				"Undead cow": 4,
@@ -88360,7 +88440,8 @@
 				"Cabbage": 32,
 				"Hopper": 1,
 				"Lever": 1,
-				"Water barrel": 1
+				"Water barrel": 1,
+				"Allotment patch": 1
 			},
 			"NPC": {
 				"Monk": 8,
@@ -89321,7 +89402,8 @@
 		},
 		"15942": {
 			"Object": {
-				"Portal": 1
+				"Portal": 1,
+				"Cactus patch": 1
 			},
 			"Connect": {
 			},
@@ -90132,11 +90214,9 @@
 		},
 		"16708": {
 			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
+				"Fertile soil (patch)": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia East River"
 		},
 		"16709": {
 			"Object": {
@@ -98173,6 +98253,14 @@
 				"15942": true
 			}
 		},
+		"Camdozaal": {
+			"Objects": {
+				"Material cache (goldrune)": 1
+			},
+			"Connects": {
+				"12086": true
+			}
+		},
 		"King Black Dragon's Lair": {
 			"Object": {
 				"Artefact": 1,
@@ -104785,9 +104873,45 @@
 				"Masterwork fanatic": 1
 			}
 		},
-		"Dig Site: Kharid-et": {
+		"Kharid-Et Main Fortress": {
+			"Objects": {
+				"Material cache (Zarosian insignia)": 1,
+				"Material cache (imperial steel)": 1,
+				"Material cache (ancient vis)": 1,
+				"Material cache (tyrian purple vis)": 1,
+				"Material cache (blood of orcus)": 1,
+				"Castra debris": 1,
+				"Administratum debris": 1,
+				"Kharid-et chapel debris": 1,
+				"Pontifex remains": 1,
+				"Orcus altar": 1,
+				"Armarium debris": 1,
+				"Culinarum debris": 1
+			},
+			"Connect": {
+				"13361": true
+			},
 			"Spawn": {
 				"Broken glass": 8
+			}
+		},
+		"Kharid-Et Prison": {
+			"Objects": {
+				"Praesidio remains": 1,
+				"Carcerem debris": 1
+			},
+			"Connect": {
+				"2": true
+			}
+		},
+		"Kharid-Et Praetorium": {
+			"Objects": {
+				"Ancient magick munitions": 1,
+				"Praetorian remains": 1,
+				"War table debris": 1
+			},
+			"Connect": {
+				"2": true
 			}
 		},
 		"Dig Site: Everlight": {},
