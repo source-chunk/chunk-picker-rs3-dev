@@ -59908,6 +59908,51 @@
 		"5": {
 			"Name": "Camdozaal"
 		},
+		"6": {
+			"Name": "Infernal Source"
+		},
+		"7": {
+			"Name": "Star Lodge"
+		},
+		"8": {
+			"Name": "Dungeon of Disorder"
+		},
+		"9": {
+			"Name": "Underwater Cave"
+		},
+		"10": {
+			"Name": "Senntisten"
+		},
+		"11": {
+			"Name": "Stormguard Citadel"
+		},
+		"12": {
+			"Name": "Howl's Workshop"
+		},
+		"13": {
+			"Name": "Warforge Crucible"
+		},
+		"14": {
+			"Name": "Warforge Tunnels"
+		},
+		"15": {
+			"Name": "Thalmund's Forge"
+		},
+		"16": {
+			"Name": "Bandos's Sanctum"
+		},
+		"17": {
+			"Name": "Crypt of Vanarus"
+		},
+		"18": {
+			"Name": "Observation Outpost"
+		},
+		"19": {
+			"Name": "Xolo City"
+		},
+		"20": {
+			"Name": "Moksha Ritual Site"
+		},
 		"258": {
 			"Spawn": {
 				"Broken glass": 8
@@ -69578,6 +69623,9 @@
 				"Archaeologist": 1,
 				"Zanik": 1
 			},
+			"Connect": {
+				"13": true
+			},
 			"Nickname": "The Warforge"
 		},
 		"9519": {
@@ -73836,7 +73884,8 @@
 				"Archaeologist's workbench": 1,
 				"Bank chest": 1,
 				"Stormguard portal": 1,
-				"Fishing spot (contest)": 4
+				"Fishing spot (contest)": 4,
+				"Ikovian memorial": 1
 			},
 			"Monster": {
 				"Chicken": 4,
@@ -73863,6 +73912,7 @@
 				"Gee'ka": 1
 			},
 			"Connect": {
+				"11": true,
 				"10649": true
 			},
 			"Spawn": {
@@ -83237,6 +83287,7 @@
 				"Estate agent": true
 			},
 			"Connect": {
+				"7": true,
 				"12953": true
 			},
 			"Spawn": {
@@ -85094,6 +85145,7 @@
 				"Museum guard": 1
 			},
 			"Connect": {
+				"10": true,
 				"11461": true,
 				"12633": true
 			},
@@ -87492,7 +87544,8 @@
 		"14641": {
 			"Object": {
 				"Material cache (white marble)": 2,
-				"Cliff": 1
+				"Cliff": 1,
+				"Statue of Tromple": 1
 			},
 			"NPC": {
 				"Safalaan": 1,
@@ -87990,11 +88043,19 @@
 				"Broken doorway": 1,
 				"Plank": 1,
 				"Fishing spot (net(big)/harpoon)": 1,
-				"Fishing spot (cage/harpoon)": 2
+				"Fishing spot (cage/harpoon)": 2,
+				"Oikos studio debris": 1,
+				"Oikos fishing hut remnants": 1,
+				"Acropolis debris": 1,
+				"Bibliotheke debris": 1,
+				"Statue of Hebe": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 31,
 				"Archaeologist": 8
+			},
+			"Connect": {
+				"9": true
 			},
 			"Nickname": "Everlight Digsite Acropolis"
 		},
@@ -88018,7 +88079,10 @@
 		"14899": {
 			"Object": {
 				"Materials cart": 1,
-				"Material cache (cobalt blue)": 2
+				"Material cache (cobalt blue)": 2,
+				"Amphitheatre debris": 1,
+				"Ceramics studio debris": 1,
+				"Statue of Mesomedes": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 17,
@@ -88316,7 +88380,9 @@
 				"Button": 1,
 				"Plaque": 1,
 				"Anvil": 3,
-				"Forge": 2
+				"Forge": 2,
+				"Prodromoi remains": 1,
+				"Monoceros remains": 1
 			},
 			"NPC": {
 				"Benny": 1,
@@ -88520,7 +88586,8 @@
 				"Golden hoop": 2,
 				"Material cache (Everlight silvthril)": 2,
 				"Fishing spot (net(big)/harpoon)": 2,
-				"Fishing spot (cage/harpoon)": 1
+				"Fishing spot (cage/harpoon)": 1,
+				"Stadio debris": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 17,
@@ -88531,7 +88598,10 @@
 		"15154": {
 			"Object": {
 				"Material cache (white marble)": 2,
-				"Cliff": 1
+				"Cliff": 1,
+				"Dominion Games podium": 1,
+				"Icyene weapon rack": 1,
+				"Statue of Padosan": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 26,
@@ -88589,6 +88659,9 @@
 				"Banker": 1
 			},
 			"Name": "Tutorial Island"
+		},
+		"15171": {
+			"Nickname": "Totem of the Abyss West"
 		},
 		"15172": {
 			"Object": {
@@ -88940,7 +89013,15 @@
 			},
 			"Name": "Tutorial Island"
 		},
-		"15427": {},
+		"15427": {
+			"Nickname": "Arcane Apoterrasaur Hunting Ground"
+		},
+		"15428": {
+			"Connect": {
+				"17": true
+			},
+			"Nickname": "Crypt of Varanus"
+		},
 		"15433": {
 			"Object": {
 				"Tunnel": 2,
@@ -89124,14 +89205,14 @@
 				"Tent": 1,
 				"Noticeboard": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Bagrada Rex Hunting Ground"
 		},
 		"15683": {
 			"Object": {
 				"Bench": 60,
 				"Podium": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Base Camp Entrance"
 		},
 		"15684": {
 			"Object": {
@@ -89139,7 +89220,7 @@
 				"Tent": 1,
 				"Noticeboard": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "North Base Camp"
 		},
 		"15685": {
 			"Object": {
@@ -89370,13 +89451,13 @@
 				"Bench": 68,
 				"Lever": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Scimitops Hunting Ground"
 		},
 		"15938": {
 			"Object": {
 				"Portal": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "East Base Camp"
 		},
 		"15939": {
 			"Object": {
@@ -89390,7 +89471,7 @@
 			"Object": {
 				"Portal": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Malletops Hunting Grounds"
 		},
 		"15941": {
 			"Object": {
@@ -89403,7 +89484,8 @@
 		"15942": {
 			"Object": {
 				"Portal": 1,
-				"Cactus patch": 1
+				"Cactus patch": 1,
+				"Material cache (orthenglass)": 1
 			},
 			"Connect": {
 			},
@@ -89629,11 +89711,11 @@
 			"Name": "Clan Citadel"
 		},
 		"16193": {
-			"Object": {
-				"Bench": 68,
-				"Podium": 1
+			"Object": {},
+			"Connect": {
+				"20": true
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Moksha Ritual Site"
 		},
 		"16194": {
 			"Object": {
@@ -89641,14 +89723,14 @@
 				"Tent": 1,
 				"Noticeboard": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Spicati Apoterrasaur Hunting Ground"
 		},
 		"16195": {
 			"Object": {
 				"Bench": 60,
 				"Podium": 1
 			},
-			"Name": "Clan Citadel"
+			"Name": "Rex Matriarchs"
 		},
 		"16196": {
 			"Object": {
@@ -89663,7 +89745,7 @@
 				"Bench": 60,
 				"Podium": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Pavosaurus Rex Hunting Ground"
 		},
 		"16198": {
 			"Object": {
@@ -89862,7 +89944,7 @@
 			"Object": {
 				"Portal": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Asciatops Hunting Ground"
 		},
 		"16451": {
 			"Object": {
@@ -89876,7 +89958,7 @@
 			"Object": {
 				"Portal": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Oculi Apoterrasaur Hunting Ground"
 		},
 		"16453": {
 			"Object": {
@@ -89890,7 +89972,10 @@
 			"Object": {
 				"Portal": 1
 			},
-			"Name": "Clan Citadel"
+			"Connect": {
+				"19": true
+			},
+			"Nickname": "Xolo City Ruins"
 		},
 		"16455": {
 			"Object": {
@@ -90188,14 +90273,17 @@
 				"Tent": 1,
 				"Noticeboard": 1
 			},
-			"Name": "Clan Citadel"
+			"Connect": {
+				"18": true
+			},
+			"Nickname": "Observation Outpost"
 		},
 		"16705": {
 			"Object": {
 				"Bench": 68,
 				"Podium": 1
 			},
-			"Name": "Clan Citadel"
+			"Name": "Totem of the Abyss East"
 		},
 		"16706": {
 			"Object": {
@@ -90210,7 +90298,7 @@
 				"Bench": 60,
 				"Podium": 1
 			},
-			"Name": "Clan Citadel"
+			"Nickname": "Corbicula Rex Hunting Ground"
 		},
 		"16708": {
 			"Object": {
@@ -97005,7 +97093,10 @@
 				"Aged log": 2,
 				"Rough hewn steps": 3,
 				"Skeleton": 3,
-				"Mithril rock": 16
+				"Mithril rock": 16,
+				"Material cache (fossilised bone)": 1,
+				"Material cache (compass rose)": 1,
+				"Material cache (dragon metal)": 1
 			},
 			"Monster": {
 				"Angry barbarian spirit": 1,
@@ -100214,6 +100305,49 @@
 				"11574": true
 			}
 		},
+		"Infernal Source": {
+			"Objects": {
+				"Material cache (cadmium red)": 1,
+				"Material cache (chaotic brimstone)": 1,
+				"Material cache (demonhide)": 1,
+				"Material cache (hellfire metal)": 1,
+				"Infernal art": 1,
+				"Shakroth remains": 1,
+				"Animal trophies": 1,
+				"Dis overspill": 1,
+				"Byzroth remains": 1,
+				"Hellfire forge": 1,
+				"Chthonian trophies": 1,
+				"Tsutsaroth remains": 1
+			},
+			"Connect": {
+				"8": true
+			}
+		},
+		"Star Lodge": {
+			"Objects": {
+				"Material cache (cadmium red)": 1,
+				"Lodge bar storage": 1,
+				"Lodge art storage": 1
+			},
+			"Connect": {
+				"8": true,
+				"12854": true
+			}
+		},
+		"Dungeon of Disorder": {
+			"Objects": {
+				"Material cache (Eye of Dagon)": 1,
+				"Material cache (hellfire metal)": 1,
+				"Cultist footlocker": 1,
+				"Sacrificial altar": 1,
+				"Dis dungeon debris": 1
+			},
+			"Connect": {
+				"6": true,
+				"7": true
+			}
+		},
 		"Shredflesh's Cave": {
 			"Object": {
 				"Fairy ring": 1
@@ -100864,6 +100998,27 @@
 			},
 			"Shop": {
 				"Slayer Equipment": true
+			}
+		},
+		"Underwater Cave": {
+			"Objects": {
+				"Stockpiled art": 1,
+				"Optimatoi remains": 1
+			},
+			"Connect": {
+				"14897": true
+			}
+		},
+		"Senntisten": {
+			"Objects": {
+				"Ministry remains": 1,
+				"Cathedral debris": 1,
+				"Marketplace debris": 1,
+				"Inquisitor remains": 1,
+				"Citizen remains": 1
+			},
+			"Connect": {
+				"13365": true
 			}
 		},
 		"Dwarven Mine": {
@@ -101764,6 +101919,87 @@
 			}
 		},
 		"Ocean": {},
+		"Stormguard Citadel": {
+			"Objects": {
+				"Material cache (Stormguard steel)": 1,
+				"Material cache (Wings of War)": 1,
+				"Material cache (Armadylean yellow)": 1,
+				"Material cache (aetherium alloy)": 1,
+				"Material cache (quintessence)": 1,
+				"Keshik ger": 1,
+				"Tailory debris": 1,
+				"Weapons research debris": 1,
+				"Gravitron research debris": 1,
+				"Kashik tower debris": 1,
+				"Destroyed golem": 1,
+				"Keshik weapon rack": 1,
+				"Flight research debris": 1
+			},
+			"Connect": {
+				"12": true
+				"10549": true
+			}
+		},
+		"Howl's Workshop": {
+			"Objects": {
+				"Material cache (quintessence)": 1,
+				"Aetherium forge": 1,
+				"Howl's workshop debris": 1
+			},
+			"Connect": {
+				"11": true
+			}
+		},
+		"Warforge Crucible": {
+			"Objects": {
+				"Material cache (malachite green)": 1,
+				"Material cache (warforged bronze)": 1,
+				"Gladiatorial goblin remains": 1,
+				"Crucible stand debris": 1,
+				"Barricade (Archaeology)": 1
+			},
+			"Connect": {
+				"14": true,
+				"16": true,
+				"9516": true
+			}
+		},
+		"Warforge Tunnels": {
+			"Objects": {
+				"Material cache (malachite green)": 1,
+				"Material cache (Mark of the Kyzaj)": 1,
+				"Material cache (vulcanised rubber)": 1,
+				"Material cache (warforged bronze)": 1,
+				"Material cache (Yu'biusk clay)": 1,
+				"Goblin dorm debris": 1,
+				"Big High War God shrine": 1,
+				"Yu'biusk animal pen": 1,
+				"Goblin trainee remains": 1,
+				"Kyzaj champion's boudoir": 1,
+				"Warforge scrap pile": 1
+			},
+			"Connect": {
+				"13": true,
+				"15": true
+			}
+		},
+		"Thalmund's Forge": {
+			"Objects": {
+				"Warforge weapon rack": 1,
+				"Makeshift pie oven": 1
+			},
+			"Connect": {
+				"14": true
+			}
+		},
+		"Bandos's Sanctuary": {
+			"Objects": {
+				"Bandos's sanctum debris": 1
+			},
+			"Connect": {
+				"13": true
+			}
+		},
 		"ScapeRune Party Room": {
 			"Object": {
 				"Dead tree": 8,
@@ -103718,6 +103954,52 @@
 			}
 		},
 		"Myreque Hideout": {},
+		"Crypt of Vanarus": {
+			"Objects": {
+				"Material cache (compass rose)": 1,
+				"Material cache (felt)": 1,
+				"Varanusaur remains": 1,
+				"Dragonkin reliquary": 1,
+				"Dragonkin coffin": 1
+			},
+			"Connect": {
+				"15428": true
+			}
+		},
+		"Observation Outpost": {
+			"Objects": {
+				"Material cache (felt)": 1,
+				"Material cache (dragon metal)": 1,
+				"Outopsy table": 1,
+				"Experiment workbench": 1
+			},
+			"Connect": {
+				"16454": true
+			}
+		},
+		"Xolo City": {
+			"Objects": {
+				"Material cache (dragon metal)": 1,
+				"Material cache (orgone)": 1,
+				"Xolo mine": 1,
+				"Xolo remains": 1,
+				"Saurthen debris": 1
+			},
+			"Connect": {
+				"16704": true
+			}
+		},
+		"Moksha Ritual Site": {
+			"Objects": {
+				" Material cache (carbon black)": 1,
+				"Material cache (orgone)": 1,
+				"Aughra remains": 1,
+				"Moksha device": 1
+			},
+			"Connect": {
+				"16193": true
+			}
+		},
 		"The Approach": {
 			"Object": {
 				"Ledge": 4,
