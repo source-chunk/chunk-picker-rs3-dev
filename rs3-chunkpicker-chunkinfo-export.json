@@ -74852,6 +74852,9 @@
 				"Knife": 1,
 				"Garlic": 1
 			},
+			"Connect": {
+				"10906": true
+			},
 			"Nickname": "Seers' Village"
 		},
 		"10807": {
@@ -101528,6 +101531,9 @@
 				"Earth elemental": 10,
 				"Air elemental": 7,
 				"Water elemental": 7
+			},
+			"Connect": {
+				"10806": true
 			}
 		},
 		"Mogre camp": {
