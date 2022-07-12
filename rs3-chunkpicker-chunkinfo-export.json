@@ -30282,7 +30282,7 @@
 				"Priority": 10
 			},
 			"Grind ~|ground ashes|~": {
-				"Category": ["Token"],
+				"Category": ["Cleaning herbs"],
 				"Items": ["Ashes*"],
 				"Level": 1,
 				"Output": "Ground ashes",
