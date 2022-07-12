@@ -73819,7 +73819,7 @@
 				"Remote farm device": 2,
 				"Mystical tree": 1,
 				"Bloodwood tree": 1,
-				"Allotment patch": 2,
+				"Allotment": 2,
 				"Flower patch": 1,
 				"Herb patch": 1,
 				"Spirit tree patch": 1
@@ -75996,7 +75996,7 @@
 				"Oak": 5,
 				"Tree": 11,
 				"Evergreen": 15,
-				"Allotment patch": 2,
+				"Allotment": 2,
 				"Flower patch": 1,
 				"Herb patch": 1
 			},
@@ -79987,7 +79987,7 @@
 				"Dairy churn": 1,
 				"Elder tree": 1,
 				"Ivy": 7,
-				"Allotment patch": 2,
+				"Allotment": 2,
 				"Flower patch": 1,
 				"Herb patch": 1
 			},
@@ -87276,7 +87276,7 @@
 				"Waterpump": 1,
 				"Swamp tree": 4,
 				"Slayer Tower, Canifis": 1,
-				"Allotment patch": 2,
+				"Allotment": 2,
 				"Flower patch": 1,
 				"Herb patch": 1
 			},
@@ -88507,7 +88507,7 @@
 				"Hopper": 1,
 				"Lever": 1,
 				"Water barrel": 1,
-				"Allotment patch": 1
+				"Allotment": 1
 			},
 			"NPC": {
 				"Monk": 8,
@@ -109573,7 +109573,7 @@
 		"objectsPlus": {
 			"Cooking object+": ["Fire", "Cooking range", "Cooking range+", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire"],
 			"Cooking range+": ["Cooking range", "Cooking range+", "Stove", "Clay oven"],
-			"CurePatch+": ["Allotment patch", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
+			"CurePatch+": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"FarmingPatch+": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Belladonna patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
 			"Fire+": ["Fire", "Fireplace", "Player fire", "Campfire"],
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"],
@@ -109587,7 +109587,7 @@
 		"objectsPlusNames": {
 			"Cooking object+": "Any object that counts for cooking",
 			"Cooking range+": "Any object that counts as a range for cooking",
-			"CurePatch+": ["Allotment patch", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
+			"CurePatch+": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"FarmingPatch+": "Any farming patch",
 			"Fire+": "Any fire that can be cooked on",
 			"Fish+": "Any level 1 fishing spot",
