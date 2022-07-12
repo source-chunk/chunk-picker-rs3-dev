@@ -101015,7 +101015,18 @@
 				"Cathedral debris": 1,
 				"Marketplace debris": 1,
 				"Inquisitor remains": 1,
-				"Citizen remains": 1
+				"Citizen remains": 1,
+				"Chest": 1,
+				"Investigator's notes": 1,
+				"Spade": 2,
+				"Suspicious dial": 1,
+				"Materials cart": 2,
+				"Spades": 2,
+				"Petruccio's feather": 1,
+				"Archaeologist's workbench": 1,
+				"Bank chest": 1,
+				"Dig sites map": 1,
+				"Pulley": 1
 			},
 			"Connect": {
 				"13365": true
@@ -101936,7 +101947,7 @@
 				"Flight research debris": 1
 			},
 			"Connect": {
-				"12": true
+				"12": true,
 				"10549": true
 			}
 		},
@@ -105237,21 +105248,6 @@
 		"Orthen Oubliette": {
 			"Object": {
 				"Stairway": 1
-			}
-		},
-		"Senntisten": {
-			"Object": {
-				"Chest": 1,
-				"Investigator's notes": 1,
-				"Spade": 2,
-				"Suspicious dial": 1,
-				"Materials cart": 2,
-				"Spades": 2,
-				"Petruccio's feather": 1,
-				"Archaeologist's workbench": 1,
-				"Bank chest": 1,
-				"Dig sites map": 1,
-				"Pulley": 1
 			}
 		},
 		"Senntisten Colosseum": {},
