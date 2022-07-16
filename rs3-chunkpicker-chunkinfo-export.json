@@ -70696,7 +70696,8 @@
 				"Knife": 1
 			},
 			"Shop": {
-				"Farming supplies": true
+				"Farming supplies": true,
+				"Nyriki's crate": true
 			},
 			"Nickname": "Tree Gnome Stronghold"
 		},
@@ -75060,6 +75061,9 @@
 			},
 			"NPC": {
 				"Penguin": 38
+			},
+			"Shops": {
+				"Ruined boat": true
 			},
 			"Nickname": "Iceberg Island"
 		},
@@ -174701,6 +174705,13 @@
 			"Holy mould": true,
 			"Rope": true
 		},
+		"Nyriki's crate": {
+			"Driftwood (Hunter)": true,
+			"Rope": true,
+			"Small fishing net": true,
+			"Box trap": true,
+			"Knife": true
+		},
 		"Nulodion's Multicannon Parts": {
 			"Cannon stand": true,
 			"Cannon base": true,
@@ -175282,6 +175293,13 @@
 			"Raw chicken": true,
 			"Raw rat meat": true,
 			"Raw bear meat": true
+		},
+		"Ruined boat": {
+			"Driftwood (Hunter)": true,
+			"Rope": true,
+			"Small fishing net": true,
+			"Box trap": true,
+			"Knife": true
 		},
 		"Rune Shop (Anachronia)": {
 			"Fire rune": true,
