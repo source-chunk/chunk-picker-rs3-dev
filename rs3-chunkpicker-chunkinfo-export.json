@@ -52840,7 +52840,7 @@
 			"~|Medium Seers' Village tasks|~ King Coal": {
 				"Description": "Transport a full load (224 pieces) of coal to Seers' Village.",
 				"Chunks": ["10294"],
-				"Item": ["Coal"],
+				"Items": ["Coal"],
 				"Tasks": {
 					"~|Easy Seers' Village tasks|~ Complete the Easy Area Tasks": "Diary"
 				},
