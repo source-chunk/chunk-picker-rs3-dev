@@ -59085,744 +59085,744 @@
 			}
 		},
 		"Nonskill": {
-			"Create a ~|super explosive shaker|~": {
+			"Create a super explosive shaker*": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
 			},
-			"Create an ~|airtight pot|~": {
+			"Create an airtight pot*": {
 				"Items": ["Pot lid", "Empty pot"],
 				"Output": "Airtight pot"
 			},
-			"Create ~|robust glass|~": {
+			"Create robust glass*": {
 				"Items": ["Red sandstone"],
 				"Objects": ["Robust glass machine"],
 				"Output": "Robust glass"
 			},
-			"Create ~|crystal glass|~": {
+			"Create crystal glass*": {
 				"Items": ["Crystal-flecked sandstone (ore)"],
 				"Objects": ["Robust glass machine"],
 				"Output": "Crystal glass"
 			},
-			"Tan ~|leather|~": {
+			"Tan leather*": {
 				"Items": ["Cowhide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Leahter"
 			},
-			"Tan ~|hard leather|~": {
+			"Tan hard leather*": {
 				"Items": ["Cowhide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Hard leather"
 			},
-			"Tan ~|snakeskin|~ from snake hide": {
+			"Tan snakeskin from snake hide": {
 				"Items": ["Snake hide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Snakeskin"
 			},
-			"Tan ~|snakeskin|~ from snake hide (swamp)": {
+			"Tan snakeskin from snake hide (swamp)*": {
 				"Items": ["Snake hide (swamp)"],
 				"NPCs": ["Tanner+"],
 				"Output": "Snakeskin"
 			},
-			"Tan ~|green dragon leather|~": {
+			"Tan green dragon leather*": {
 				"Items": ["Green dragonhide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Green dragon leather"
 			},
-			"Tan ~|blue dragon leather|~": {
+			"Tan blue dragon leather*": {
 				"Items": ["Blue dragonhide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Blue dragon leather"
 			},
-			"Tan ~|red dragon leather|~": {
+			"Tan red dragon leather*": {
 				"Items": ["Red dragonhide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Red dragon leather"
 			},
-			"Tan ~|black dragon leather|~": {
+			"Tan black dragon leather*": {
 				"Items": ["Black dragonhide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Black dragon leather"
 			},
-			"Tan ~|royal dragon leather|~": {
+			"Tan royal dragon leather*": {
 				"Items": ["Royal dragonhide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Royal dragon leather"
 			},
-			"Tan ~|dinosaur leather|~": {
+			"Tan dinosaur leather*": {
 				"Items": ["Dinosaur hide"],
 				"NPCs": ["Tanner+"],
 				"Output": "Dinosaur leather"
 			},
-			"Cure ~|yak-hide|~": {
+			"Cure yak-hide*": {
 				"Items": ["Yak-hide"],
 				"NPCs": ["Thakkrad Sigmundson"],
 				"Output": "Cured yak-hide"
 			},
-			"Create ~|sacred oil|~": {
+			"Create sacred oil*": {
 				"Items": ["OliveOil+"],
 				"Objects": ["Flamtaer shrine"],
 				"Output": "SacredOils"
 			},
-			"Fill a ~|bowl of water|~": {
+			"Fill a bowl of water*": {
 				"Items": ["Bowl"],
 				"Objects": ["WaterObject+"],
 				"Output": "Bowl of water"
 			},
-			"Fill a ~|bucket of water|~": {
+			"Fill a bucket of water*": {
 				"Items": ["Empty bucket"],
 				"Objects": ["WaterObject+"],
 				"Output": "Bucket of water"
 			},
-			"Fill a ~|jug of water|~": {
+			"Fill a jug of water*": {
 				"Items": ["Jug"],
 				"Objects": ["WaterObject+"],
 				"Output": "Jug of water"
 			},
-			"Fill a ~|vial of water|~": {
+			"Fill a vial of water*": {
 				"Items": ["Vial"],
 				"Objects": ["WaterObject+"],
 				"Output": "Vial of water"
 			},
-			"Fill a ~|bucket of milk|~": {
+			"Fill a bucket of milk*": {
 				"Items": ["Empty bucket"],
 				"Objects": ["Dairy cow"],
 				"Output": "Bucket of milk"
 			},
-			"Fill a ~|pot of vinegar|~": {
+			"Fill a pot of vinegar*": {
 				"Items": ["Empty pot", "Jug of vinegar"],
 				"Output": "Pot of vinegar"
 			},
-			"Pick ~|wheat|~": {
+			"Pick wheat*": {
 				"Objects": ["Wheat"],
 				"Output": "Wheat"
 			},
-			"Make a ~|hangover cure|~": {
+			"Make a hangover cure*": {
 				"Items": ["Chocolatey milk", "Snape grass"],
 				"Output": "Hangover cure"
 			},
-			"Heat a ~|bowl of hot water|~ on a range": {
+			"Heat a bowl of hot water* on a range": {
 				"Items": ["Bowl of water"],
 				"Objects": ["Cooking object+"],
 				"Output": "Bowl of hot water"
 			},
-			"Heat a ~|bowl of hot water|~ on a Geyser titan": {
+			"Heat a bowl of hot water* on a Geyser titan": {
 				"Items": ["Bowl of water", "Geyser titan pouch"],
 				"Output": "Bowl of hot water"
 			},
-			"Make a ~|cup of hot water|~": {
+			"Make a cup of hot water*": {
 				"Items": ["Bowl of water", "Empty cup"],
 				"Output": "Cup of hot water"
 			},
-			"Burn ~|burned meat|~": {
+			"Burn burned meat*": {
 				"Items": ["Cooked meat"],
 				"Objects": ["Cooking object+"],
 				"Output": "Burned meat"
 			},
-			"Take a ~|bucket of water|~": {
+			"Take a bucket of water*": {
 				"Objects": ["Buckets"],
 				"Output": "Bucket of water"
 			},
-			"Create a ~|corrupted defender|~": {
+			"Create a corrupted defender*": {
 				"Items": ["BarrowsWeapons+"],
 				"Output": "Corrupted defender"
 			},
-			"Create an ~|ancient defender|~": {
+			"Create an ancient defender*": {
 				"Items": ["Ancient emblem", "Chaotic splint"],
 				"Output": "Ancient defender"
 			},
-			"Create a ~|kalphite defender|~": {
+			"Create a kalphite defender*": {
 				"Items": ["DrygoreWeapon+", "Perfect chitin"],
 				"Output": "Kalphite defender"
 			},
-			"Create ~|Laniakea's spear|~": {
+			"Create Laniakea's spear*": {
 				"Items": ["Savage spear shaft", "Savage spear tip", "Savage spear cap", "Savage plume"],
 				"Output": "Laniakea's spear"
 			},
-			"Acquire the ~|anti-dragon shield|~": {
+			"Acquire the anti-dragon shield*": {
 				"NPCs": ["Duke Horacio"],
 				"Output": "Anti-dragon shield"
 			},
-			"Craft the ~|unsullied ability codex|~": {
+			"Craft the unsullied ability codex*": {
 				"Items": ["Vital spark"],
 				"Output": "Unsullied ability codex"
 			},
-			"Craft the ~|superior skeletal helm|~": {
+			"Craft the superior skeletal helm*": {
 				"Items": ["Fremennik equipment patch", "Skeletal helm"],
 				"Output": "Superior skeletal helm"
 			},
-			"Craft the ~|superior skeletal top|~": {
+			"Craft the superior skeletal top*": {
 				"Items": ["Fremennik equipment patch", "Skeletal top"],
 				"Output": "Superior skeletal top"
 			},
-			"Craft the ~|superior skeletal bottoms|~": {
+			"Craft the superior skeletal bottoms*": {
 				"Items": ["Fremennik equipment patch", "Skeletal bottoms"],
 				"Output": "Superior skeletal bottom"
 			},
-			"Craft the ~|superior skeletal gloves|~": {
+			"Craft the superior skeletal gloves*": {
 				"Items": ["Fremennik equipment patch", "Skeletal gloves"],
 				"Output": "Superior skeletal gloves"
 			},
-			"Craft the ~|superior skeletal boots|~": {
+			"Craft the superior skeletal boots*": {
 				"Items": ["Fremennik equipment patch", "Skeletal boots"],
 				"Output": "Superior skeletal boots"
 			},
-			"Craft the ~|superior spined helm|~": {
+			"Craft the superior spined helm*": {
 				"Items": ["Fremennik equipment patch", "Spined helm"],
 				"Output": "Superior spined helm"
 			},
-			"Craft the ~|superior spined body|~": {
+			"Craft the superior spined body*": {
 				"Items": ["Fremennik equipment patch", "Spined body"],
 				"Output": "Superior spined body"
 			},
-			"Craft the ~|superior spined chaps|~": {
+			"Craft the superior spined chaps*": {
 				"Items": ["Fremennik equipment patch", "Spined chaps"],
 				"Output": "Superior spined chaps"
 			},
-			"Craft the ~|superior spined gloves|~": {
+			"Craft the superior spined gloves*": {
 				"Items": ["Fremennik equipment patch", "Spined gloves"],
 				"Output": "Superior spined gloves"
 			},
-			"Craft the ~|superior spined boots|~": {
+			"Craft the superior spined boots*": {
 				"Items": ["Fremennik equipment patch", "Spined boots"],
 				"Output": "Superior spined boots"
 			},
-			"Craft the ~|superior rock-shell helm|~": {
+			"Craft the superior rock-shell helm*": {
 				"Items": ["Fremennik equipment patch", "Rock-shell helm"],
 				"Output": "Superior rock-shell helm"
 			},
-			"Craft the ~|superior rock-shell plate|~": {
+			"Craft the superior rock-shell plate*": {
 				"Items": ["Fremennik equipment patch", "Rock-shell plate"],
 				"Output": "Superior rock-shell plate"
 			},
-			"Craft the ~|superior rock-shell legs|~": {
+			"Craft the superior rock-shell legs*": {
 				"Items": ["Fremennik equipment patch", "Rock-shell legs"],
 				"Output": "Superior rock-shell legs"
 			},
-			"Craft the ~|superior rock-shell gloves|~": {
+			"Craft the superior rock-shell gloves*": {
 				"Items": ["Fremennik equipment patch", "Rock-shell gloves"],
 				"Output": "Superior rock-shell gloves"
 			},
-			"Craft the ~|superior rock-shell boots|~": {
+			"Craft the superior rock-shell boots*": {
 				"Items": ["Fremennik equipment patch", "Rock-shell boots"],
 				"Output": "Superior rock-shell boots"
 			},
-			"Craft the ~|superior Dragon Rider boots|~": {
+			"Craft the superior Dragon Rider boots*": {
 				"Items": ["Dragon Rider kit", "Dragon Rider boots"],
 				"Output": "Superior Dragon Rider boots"
 			},
-			"Craft the ~|superior Dragon Rider gloves|~": {
+			"Craft the superior Dragon Rider gloves*": {
 				"Items": ["Dragon Rider kit", "Dragon Rider gloves"],
 				"Output": "Superior Dragon Rider gloves"
 			},
-			"Get a ~|polar camo top|~ made": {
+			"Get a polar camo top made*": {
 				"Items": ["Polar kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Polar camo top"
 			},
-			"Get ~|polar camo legs|~ made": {
+			"Get polar camo legs made*": {
 				"Items": ["Polar kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Polar camo legs"
 			},
-			"Get a ~|woodland camo top|~ made": {
+			"Get a woodland camo top made*": {
 				"Items": ["Common kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Woodland camo top"
 			},
-			"Get ~|woodland camo legs|~ made": {
+			"Get woodland camo legs made*": {
 				"Items": ["Common kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Woodland camo legs"
 			},
-			"Get a ~|jungle camo top|~ made": {
+			"Get a jungle camo top made*": {
 				"Items": ["Feldip weasel fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Jungle camo top"
 			},
-			"Get ~|jungle camo legs|~ made": {
+			"Get jungle camo legs made*": {
 				"Items": ["Feldip weasel fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Jungle camo legs"
 			},
-			"Get a ~|desert camo top|~ made": {
+			"Get a desert camo top made*": {
 				"Items": ["Desert devil fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Desert camo top"
 			},
-			"Get ~|desert camo legs|~ made": {
+			"Get desert camo legs made*": {
 				"Items": ["Desert devil fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Desert camo legs"
 			},
-			"Open a ~|baby impling jar|~": {
+			"Open a baby impling jar*": {
 				"Items": ["Baby impling jar"],
 				"Output": "BabyImpling"
 			},
-			"Open a ~|young impling jar|~": {
+			"Open a young impling jar*": {
 				"Items": ["Young impling jar"],
 				"Output": "YoungImpling"
 			},
-			"Open a ~|gourmet impling jar|~": {
+			"Open a gourmet impling jar*": {
 				"Items": ["Gourmet impling jar"],
 				"Output": "GourmetImpling"
 			},
-			"Get a ~|larupia top|~ made": {
+			"Get a larupia top made*": {
 				"Items": ["LarupiaFur+"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Larupia top"
 			},
-			"Get ~|larupia legs|~ made": {
+			"Get larupia legs made*": {
 				"Items": ["LarupiaFur+"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Larupia legs"
 			},
-			"Get a ~|larupia hat|~ made": {
+			"Get a larupia hat made*": {
 				"Items": ["Larupia fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Larupia hat"
 			},
-			"Open an ~|earth impling jar|~": {
+			"Open an earth impling jar*": {
 				"Items": ["Earth impling jar"],
 				"Output": "EarthImpling"
 			},
-			"Get a ~|graahk top|~ made": {
+			"Get a graahk top made*": {
 				"Items": ["GraahkFur+"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Graahk top"
 			},
-			"Get ~|graahk legs|~ made": {
+			"Get graahk legs made*": {
 				"Items": ["GraahkFur+"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Graahk legs"
 			},
-			"Get a ~|graahk headdress|~ made": {
+			"Get a graahk headdress made*": {
 				"Items": ["Graahk fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Graahk headdress"
 			},
-			"Light a ~|lit torch|~": {
+			"Light a lit torch*": {
 				"Items": ["Unlit torch"],
 				"Output": "Lit torch"
 			},
-			"Get a ~|spotted cape|~ made": {
+			"Get a spotted cape made*": {
 				"Items": ["Spotted kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Spotted cape"
 			},
-			"Transform a proto-tool into a ~|sacred clay butterfly net|~": {
+			"Transform a proto-tool into a sacred clay butterfly net*": {
 				"Items": ["Proto-tool"],
 				"Output": "Sacred clay butterfly net"
 			},
-			"Transform a volatile tool into a ~|volatile clay butterfly net|~": {
+			"Transform a volatile tool into a volatile clay butterfly net*": {
 				"Items": ["Volatile tool"],
 				"Output": "Volatile clay butterfly net"
 			},
-			"Open an ~|essence impling jar|~": {
+			"Open an essence impling jar*": {
 				"Items": ["Essence impling jar"],
 				"Output": "EssenceImpling"
 			},
-			"Pick ~|lavender|~": {
+			"Pick lavender*": {
 				"Objects": ["Lavender"],
 				"Output": "Lavender"
 			},
-			"Light ~|smouldering lavender|~": {
+			"Light smouldering lavender*": {
 				"Items": ["Lavender"],
 				"Output": "Smouldering lavender"
 			},
-			"Open an ~|eclectic impling jar|~": {
+			"Open an eclectic impling jar*": {
 				"Items": ["Eclectic impling jar"],
 				"Output": "EclecticImpling"
 			},
-			"Get a ~|kyatt top|~ made": {
+			"Get a kyatt top made*": {
 				"Items": ["KyattFur+"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Kyatt top"
 			},
-			"Get ~|kyatt legs|~ made": {
+			"Get kyatt legs made*": {
 				"Items": ["KyattFur+"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Kyatt legs"
 			},
-			"Get a ~|kyatt hat|~ made": {
+			"Get a kyatt hat made*": {
 				"Items": ["Kyatt fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Kyatt hat"
 			},
-			"Open a ~|spirit impling jar|~": {
+			"Open a spirit impling jar*": {
 				"Items": ["Spirit impling jar"],
 				"Output": "SpiritImpling"
 			},
-			"Get ~|gloves of silence|~ made": {
+			"Get gloves of silence made*": {
 				"Items": ["Dark kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Gloves of silence"
 			},
-			"Open a ~|nature impling jar|~": {
+			"Open a nature impling jar*": {
 				"Items": ["Nature impling jar"],
 				"Output": "NatureImpling"
 			},
-			"Open a ~|magpie impling jar|~": {
+			"Open a magpie impling jar*": {
 				"Items": ["Magpie impling jar"],
 				"Output": "MagpieImpling"
 			},
-			"Loot the ~|sinister chest|~": {
+			"Loot the sinister chest*": {
 				"Chunks": ["Yanille Agility Dungeon"],
 				"Items": ["Sinister key"],
 				"Output": "SinisterChest"
 			},
-			"Get a ~|spottier cape|~ made": {
+			"Get a spottier cape made*": {
 				"Items": ["Dashing kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Spottier cape"
 			},
-			"Receive a ~|witchdoctor mask|~": {
+			"Receive a witchdoctor mask*": {
 				"NPCs": ["Papa Mambo"],
 				"Output": "Witchdoctor mask"
 			},
-			"Receive ~|witchdoctor legs|~": {
+			"Receive witchdoctor legs*": {
 				"NPCs": ["Papa Mambo"],
 				"Output": "Witchdoctor legs"
 			},
-			"Receive ~|witchdoctor robes|~": {
+			"Receive witchdoctor robes*": {
 				"NPCs": ["Papa Mambo"],
 				"Output": "Witchdoctor robes"
 			},
-			"Create a gold charm": {
+			"Create a gold charm*": {
 				"Items": ["Gold charm slice"],
 				"Output": "Gold charm"
 			},
-			"Create a green charm": {
+			"Create a green charm*": {
 				"Items": ["Green charm slice"],
 				"Output": "Green charm"
 			},
-			"Create a crimson charm": {
+			"Create a crimson charm*": {
 				"Items": ["Crimson charm slice"],
 				"Output": "Crimson charm"
 			},
-			"Create a blue charm": {
+			"Create a blue charm*": {
 				"Items": ["Blue charm slice"],
 				"Output": "Blue charm"
 			},
-			"Open a ~|ninja impling jar|~": {
+			"Open a ninja impling jar*": {
 				"Items": ["Ninja impling jar"],
 				"Output": "NinjaImpling"
 			},
-			"Open a ~|pirate impling jar|~": {
+			"Open a pirate impling jar*": {
 				"Items": ["Pirate impling jar"],
 				"Output": "PirateImpling"
 			},
-			"Open a ~|divine impling jar|~": {
+			"Open a divine impling jar*": {
 				"Items": ["Divine impling jar"],
 				"Output": "DivineImpling"
 			},
-			"Open a ~|dragon impling jar|~": {
+			"Open a dragon impling jar*": {
 				"Items": ["Dragon impling jar"],
 				"Output": "DragonImpling"
 			},
-			"Open a ~|zombie impling jar|~": {
+			"Open a zombie impling jar*": {
 				"Items": ["Zombie impling jar"],
 				"Output": "ZombieImpling"
 			},
-			"Open a ~|kingly impling jar|~": {
+			"Open a kingly impling jar*": {
 				"Items": ["Kingly impling jar"],
 				"Output": "KinglyImpling"
 			},
-			"Open a ~|crystal impling jar|~": {
+			"Open a crystal impling jar*": {
 				"Items": ["Crystal impling jar"],
 				"Output": "CrystalImpling"
 			},
-			"Fill a ~|watering can|~ from a cannister": {
+			"Fill a watering can from a cannister*": {
 				"Items": ["Watering can", "WaterItem+"],
 				"Output": "Watering can (8)"
 			},
-			"Fill a ~|watering can|~ from a water source": {
+			"Fill a watering can from a water source*": {
 				"Items": ["Watering can"],
 				"Objects": ["WaterObject+"],
 				"Output": "Watering can (8)"
 			},
-			"Fill a ~|plant pot|~": {
+			"Fill a plant pot*": {
 				"Items": ["Plant pot (empty)"],
 				"Objects": ["FarmingPatch+"],
 				"Output": "Plant pot"
 			},
-			"Carve an ~|evil turnip|~": {
+			"Carve an evil turnip*": {
 				"Items": ["Evil turnip"],
 				"Output": "Carved evil turnip"
 			},
-			"Carve an ~|calquat keg|~": {
+			"Carve an calquat keg*": {
 				"Items": ["Calquat fruit"],
 				"Output": "Calquat keg"
 			},
-			"Open a ~|toad egg sac|~": {
+			"Open a toad egg sac*": {
 				"Items": ["Toad egg sac"],
 				"Output": "Swamp toad"
 			},
-			"Pick ~|troll thistle|~": {
+			"Pick troll thistle*": {
 				"Chunks": ["11577"],
 				"Output": "Troll thistle"
 			},
-			"Dry a ~|troll thistle|~": {
+			"Dry a troll thistle*": {
 				"Items": ["Troll thistle"],
 				"Objects": ["Fire+"],
 				"Output": "Dried thistle"
 			},
-			"Crush ~|ground thistle|~": {
+			"Crush ground thistle*": {
 				"Items": ["Dried thistle"],
 				"Output": "Ground thistle"
 			},
-			"Fill a ~|juju vial of water|~": {
+			"Fill a juju vial of water*": {
 				"Items": ["Juju vial"],
 				"Objects": ["WaterObject+"],
 				"Output": "Juju vial of water"
 			},
-			"Create the ~|Hand of Glory (Ring of Luck)|~": {
+			"Create the Hand of Glory (Ring of Luck)*": {
 				"Items": ["Hand of glory (Infernal Source)", "Ring of Luck"],
 				"Output": "Hand of Glory (Ring of Luck)"
 			},
-			"Create the ~|Hand of Glory (Ring of Wealth)|~": {
+			"Create the Hand of Glory (Ring of Wealth)*": {
 				"Items": ["Hand of glory (Everlight)", "Ring of Wealth"],
 				"Output": "Hand of Glory (Ring of Wealth)"
 			},
-			"Create the ~|Hand of Glory (Ring of Fortune)|~": {
+			"Create the Hand of Glory (Ring of Fortune)*": {
 				"Items": ["Hand of glory (Kharid-et)", "Ring of Fortune"],
 				"Output": "Hand of Glory (Ring of Fortune)"
 			},
-			"Create the ~|Hand of Glory (Luck of the Dwarves)|~": {
+			"Create the Hand of Glory (Luck of the Dwarves)*": {
 				"Items": ["Hand of glory (Warforge)", "Luck of the Dwarves"],
 				"Output": "Hand of Glory (Luck of the Dwarves)"
 			},
-			"Pick a ~|black mushroom|~": {
+			"Pick a black mushroom*": {
 				"Objects": ["Black mushroom"],
 				"Output": "Black mushroom"
 			},
-			"Craft ~|black mushroom ink|~": {
+			"Craft black mushroom ink*": {
 				"Items": ["Black mushroom"],
 				"Output": "Black mushroom ink"
 			},
-			"Get the ~|Seal of the Praefecus Praetorio|~ from Soran": {
+			"Get the Seal of the Praefecus Praetorio from Soran*": {
 				"NPCs": ["Soran, Emissary of Zaros"],
 				"Items": ["Venator dagger", "Venator light crossbow", "Legionary gladius", "Legionary square shield", "Primis Elementis standard", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
 				"Output": "Seal of the Praefectus Praetorio"
 			},
-			"Get the ~|Abyssal thread|~ from Isaura": {
+			"Get the Abyssal thread from Isaura*": {
 				"NPCs": ["Isaura"],
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"Output": "Abyssal thread"
 			},
-			"Get the ~|lock of hair|~ from Sir Atcha": {
+			"Get the lock of hair from Sir Atcha*": {
 				"NPCs": ["Sir Atcha"],
 				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
 				"Output": "Lock of hair"
 			},
-			"Get the ~|Oo'glog Wellspring|~ from Chief Tess": {
+			"Get the Oo'glog Wellspring from Chief Tess*": {
 				"NPCs": ["Chief Tess"],
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Everlight trumpet", "Dominion torch", "Pontifex censer"],
 				"Output": "Oo'glog Wellspring"
 			},
-			"Get ~|King Oberon's moonschroom spores|~ from Lowse": {
+			"Get King Oberon's moonschroom spores from Lowse*": {
 				"NPCs": ["Lowse"],
 				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
 				"Output": "King Oberon's moonschroom spores"
 			},
-			"Get ~|Queen Mab's Moonstone|~ from the Fairy Queen": {
+			"Get Queen Mab's Moonstone from the Fairy Queen*": {
 				"NPCs": ["Fairy Queen"],
 				"Items": ["King Oberon's moonschroom spores"],
 				"Output": "Queen Mab's Moonstone"
 			},
-			"Get the ~|Ring of Solomon|~ from Armadyl": {
+			"Get the Ring of Solomon from Armadyl*": {
 				"NPCs": ["Armadyl"],
 				"Items": ["Aviansie dreamcoat"],
 				"Output": "Ring of Solomon"
 			},
-			"Find the ~|Seed of the Charyou Tree (inactive)|~": {
+			"Find the Seed of the Charyou Tree (inactive)*": {
 				"Objects": ["Imcando anvil"],
 				"Output": "Seed of the Charyou Tree (inactive)"
 			},
-			"Activate the ~|Seed of the Charyou Tree|~": {
+			"Activate the Seed of the Charyou Tree*": {
 				"Items": ["Seed of the Charyou Tree (inactive)", "Flame gloves"],
 				"Output": "Seed of the Charyou Tree"
 			},
-			"Get the ~|Andvaranaut|~ from Reldo": {
+			"Get the Andvaranaut from Reldo*": {
 				"NPCs": ["Reldo"],
 				"Items": ["Dominarian device"],
 				"Output": "Andvaranaut"
 			},
-			"Get ~|Koschei's needle|~ from the Wise Old Man": {
+			"Get Koschei's needle from the Wise Old Man*": {
 				"NPCs": ["Wise Old Man"],
 				"Items": ["Everlight harp", "Everlight trumpet", "Everlight violin", "Avian song-egg player", "Keshik drum", "Morin khuur", "Songbird recorder"],
 				"Output": "Koschei's needle"
 			},
-			"Get ~|Koschei's Death Egg|~ from Koschei the deathless": {
+			"Get Koschei's Death Egg from Koschei the deathless*": {
 				"Chunks": ["10553"],
 				"Items": ["Koschei's needle"],
 				"Output": "Koschei's Death Egg"
 			},
-			"Get the ~|Red hand cave painting|~ from the northern tunnel in the Warforge": {
+			"Get the Red hand cave painting from the northern tunnel in the Warforge*": {
 				"Chunks": ["9516"],
 				"Items": ["Thorobshuun battle standard"],
 				"Output": "Red hand cave painting"
 			},
-			"Get the ~|Green skull cave painting|~ from the southern tunnel in the Warforge": {
+			"Get the Green skull cave painting from the southern tunnel in the Warforge*": {
 				"Chunks": ["9516"],
 				"Items": ["Garagorshuun anchor"],
 				"Output": "Green skull cave painting"
 			},
-			"Get the ~|Cres Framework|~ from a Guthixian Cache": {
+			"Get the Cres Framework from a Guthixian Cache*": {
 				"Items": ["Golem framework"],
 				"Objects": ["Energy rift"],
 				"Output": "Cres Framework"
 			},
-			"Get ~|The Rings of Razulei|~ from Dagon": {
+			"Get The Rings of Razulei from Dagon*": {
 				"Items": ["Hellfire katar"],
 				"NPCs": ["Dagon the Gatekeeper"],
 				"Output": "The Rings of Razulei"
 			},
-			"Get ~|Evil Bob's Catspaw|~ from Bob": {
+			"Get Evil Bob's Catspaw from Bob*": {
 				"Items": ["Death mask", "CatspeakAmulet+"],
 				"NPCs": ["Bob"],
 				"Output": "Evil Bob's Catspaw"
 			},
-			"Get the ~|Kaladanda|~ from Sharrigan": {
+			"Get the Kaladanda from Sharrigan*": {
 				"Items": ["Death mask", "Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
 				"NPCs": ["Sharrigan"],
 				"Output": "Kalanda"
 			},
-			"Get ~|Ariadne's Diadem|~ from Isaura": {
+			"Get Ariadne's Diadem from Isaura*": {
 				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
 				"NPCs": ["Isaura"],
 				"Output": "Ariadne's Diadem"
 			},
-			"Get the ~|Petasos|~ from Sir Atcha": {
+			"Get the Petasos from Sir Atcha*": {
 				"Items": ["'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Pride of Padosan' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
 				"NPCs": ["Sir Atcha"],
 				"Output": "Petasos"
 			},
-			"Get ~|Howl's Thinking Cap|~ from Lowse": {
+			"Get Howl's Thinking Cap from Lowse*": {
 				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
 				"NPCs": ["Lowse"],
 				"Output": "Howl's Thinking Cap"
 			},
-			"Get ~|Amascut's Enchanted Gem|~ from the Wise Old Man": {
+			"Get Amascut's Enchanted Gem from the Wise Old Man*": {
 				"Items": ["Crest of Dagon", "Ikovian gerege", "Necromantic focus", "Golem instruction", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "'Da Boss Man' sculpture"],
 				"NPCs": ["Wise Old Man"],
 				"Output": "Amascut's Enchanted Gem"
 			},
-			"Get the ~|Helm of Terror (inside)|~ from General Bentnoze": {
+			"Get the Helm of Terror (inside) from General Bentnoze*": {
 				"Items": ["Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Bentnoze"],
 				"Output": "Helm of Terror (inside)"
 			},
-			"Get the ~|Helm of Terror (outside)|~ from General Wartface": {
+			"Get the Helm of Terror (outside) from General Wartface*": {
 				"Items": ["Dorgeshuun spear", "Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Horogothar cooking pot", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Wartface"],
 				"Output": "Helm of Terror (outside)"
 			},
-			"Make the ~|Helm of Terror|~": {
+			"Make the Helm of Terror*": {
 				"Items": ["Helm of Terror (inside)", "Helm of Terror (outside)"],
 				"Output": "Helm of Terror"
 			},
-			"Get the ~|Mask of Aurelius|~ from Aurelius": {
+			"Get the Mask of Aurelius from Aurelius*": {
 				"Items": ["Inquisitor's Memoirs (page 1)", "Inquisitor's Memoirs (page 2)", "Inquisitor's Memoirs (page 3)", "Inquisitor's Memoirs (page 4)", "Inquisitor's Memoirs (page 5)", "Inquisitor's Memoirs (page 6)", "Inquisitor's Memoirs (page 7)", "Inquisitor's Memoirs (page 8)"],
 				"NPCs": ["Aurelius"],
 				"Output": "Mask of Aurelius"
 			},
-			"Stuff a ~|big bass|~": {
+			"Stuff a big bass*": {
 				"Items": ["Big bass"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Big bass (stuffed)"
 			},
-			"Stuff a ~|crawling hand|~": {
+			"Stuff a crawling hand*": {
 				"Items": ["Crawling hand (item)"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Crawling hand (stuffed)"
 			},
-			"Stuff a ~|cockatrice head|~": {
+			"Stuff a cockatrice head*": {
 				"Items": ["Cockatrice head"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Cockatrice head (stuffed)"
 			},
-			"Stuff a ~|basilisk head|~": {
+			"Stuff a basilisk head*": {
 				"Items": ["Basilisk head"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Basilisk head (stuffed)"
 			},
-			"Stuff a ~|big swordfish|~": {
+			"Stuff a big swordfish*": {
 				"Items": ["Big swordfish"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Big swordfish (stuffed)"
 			},
-			"Stuff a ~|kurask head|~": {
+			"Stuff a kurask head*": {
 				"Items": ["Kurask head"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Kurask head (stuffed)"
 			},
-			"Stuff an ~|abyssal head|~": {
+			"Stuff an abyssal head*": {
 				"Items": ["Abyssal head"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Abyssal head (stuffed)"
 			},
-			"Stuff a ~|big shark|~": {
+			"Stuff a big shark*": {
 				"Items": ["Big shark"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Big shark (stuffed)"
 			},
-			"Stuff a ~|king black dragon head|~": {
+			"Stuff a king black dragon head*": {
 				"Items": ["King black dragon head"],
 				"NPCs": ["Taxidermist"],
 				"Output": "King black dragon head (stuffed)"
 			},
-			"Stuff a ~|kalphite queen head|~": {
+			"Stuff a kalphite queen head*": {
 				"Items": ["Kalphite Queen head"],
 				"NPCs": ["Taxidermist"],
 				"Output": "Kalphite Queen head (stuffed)"
 			},
-			"Create a Chaotic claw": {
+			"Create a Chaotic claw*": {
 				"Items": ["Dragon claw", "Chaotic spike"],
 				"Output": "Chaotic claw"
 			},
-			"Create a Off-hand chaotic claw": {
+			"Create a Off-hand chaotic claw*": {
 				"Items": ["Off-hand dragon claw", "Chaotic spike"],
 				"Output": "Off-hand chaotic claw"
 			},
-			"Create a Chaotic spear": {
+			"Create a Chaotic spear*": {
 				"Items": ["Zamorakian spear", "Chaotic spike"],
 				"Output": "Chaotic Spear"
 			},
-			"Make ~|planks|~": {
+			"Make planks*": {
 				"NPCs": ["SawmillOperator+"],
 				"Items": ["Logs"],
 				"Output": "Plank"
 			},
-			"Make ~|oak planks|~": {
+			"Make oak planks*": {
 				"NPCs": ["SawmillOperator+"],
 				"Items": ["Oak logs"],
 				"Output": "Oak plank"
 			},
-			"Make ~|teak planks|~": {
+			"Make teak planks*": {
 				"NPCs": ["SawmillOperator+"],
 				"Items": ["Teak logs"],
 				"Output": "Teak plank"
 			},
-			"Make ~|mahogany planks|~": {
+			"Make mahogany planks*": {
 				"NPCs": ["SawmillOperator+"],
 				"Items": ["Mahogany logs"],
 				"Output": "Mahogany plank"
 			},
-			"~|Easy Ardougne tasks|~ Yoink! (Stall)": {
+			"Easy Ardougne tasks Yoink! (Stall)*": {
 				"Description": "Attempt to steal from any stall in Ardougne Market.",
 				"Chunks": ["10547"],
 				"Skills": {
 					"Thieving": 5
 				}
 			},
-			"~|Easy Ardougne tasks|~ Yoink! (Guard)": {
+			"Easy Ardougne tasks Yoink! (Guard)*": {
 				"Description": "Attempt to pickpocket any guard in Ardougne.",
 				"Chunks": ["ArdougneGuardChunks+"],
 				"Skills": {
 					"Thieving": 40
 				}
 			},
-			"~|Hard Ardougne tasks|~ A Taste of the Exotic (Papaya)": {
+			"Hard Ardougne tasks A Taste of the Exotic (Papaya)*": {
 				"Description": "Pick a papaya fruit or coconut from the fruit tree patch near Tree Gnome Village.",
 				"Chunks": ["9777"],
 				"Items": ["Papaya seed"],
@@ -59830,7 +59830,7 @@
 					"Farming": 57
 				}
 			},
-			"~|Hard Ardougne tasks|~ A Taste of the Exotic (Coconut)": {
+			"Hard Ardougne tasks A Taste of the Exotic (Coconut)*": {
 				"Description": "Pick a papaya fruit or coconut from the fruit tree patch near Tree Gnome Village.",
 				"Chunks": ["9777"],
 				"Items": ["Palm tree seed"],
@@ -59838,21 +59838,21 @@
 					"Farming": 68
 				}
 			},
-			"~|Easy Daemonheim tasks|~ Setting Up (Smithing)": {
+			"Easy Daemonheim tasks Setting Up (Smithing)*": {
 				"Description": "Make a full suit of tier 1 melee armour (helm, body, legs, boots, gloves).",
 				"Chunks": ["13626"],
 				"Skills": {
 					"Smithing": 7
 				}
 			},
-			"~|Easy Daemonheim tasks|~ Setting Up (Crafting)": {
+			"Easy Daemonheim tasks Setting Up (Crafting)*": {
 				"Description": "Make a full suit of tier 1 ranged or magic armour (helm, body, legs, boots, gloves).",
 				"Chunks": ["13626"],
 				"Skills": {
 					"Crafting": 8
 				}
 			},
-			"~|Easy Desert tasks|~ More Fletcher than Sumona (Arrows)": {
+			"Easy Desert tasks More Fletcher than Sumona (Arrows)*": {
 				"Description": "Fletch some broad arrows in Sumona's house.",
 				"Chunks": ["13358"],
 				"Items": ["Broad arrowheads", "Headless arrow"],
@@ -59860,7 +59860,7 @@
 					"Fletching": 52
 				}
 			},
-			"~|Easy Desert tasks|~ More Fletcher than Sumona (Bolts)": {
+			"Easy Desert tasks More Fletcher than Sumona (Bolts)*": {
 				"Description": "Fletch some broad bolts in Sumona's house.",
 				"Chunks": ["13358"],
 				"Items": ["Unfinished broad bolts", "Feathers+"],
@@ -59868,7 +59868,7 @@
 					"Fletching": 55
 				}
 			},
-			"~|Hard Falador tasks|~ It Spoiled My View (Yew)": {
+			"Hard Falador tasks It Spoiled My View (Yew)*": {
 				"Description": "Cut down a yew tree that you grew in Falador Park.",
 				"Chunks": ["11828"],
 				"Items": ["Yew seed", "Plant pot", "WateringCan+"],
@@ -59877,7 +59877,7 @@
 					"Woodcutting": 60
 				}
 			},
-			"~|Hard Falador tasks|~ It Spoiled My View (Magic)": {
+			"Hard Falador tasks It Spoiled My View (Magic)*": {
 				"Description": "Cut down a magic tree that you grew in Falador Park.",
 				"Chunks": ["11828"],
 				"Items": ["Magic seed", "Plant pot", "WateringCan+"],
@@ -59886,7 +59886,7 @@
 					"Woodcutting": 75
 				}
 			},
-			"Empty a ~|potion|~": {
+			"Empty a potion*": {
 				"Items": ["Potion+"],
 				"Output": "Vial"
 			}
