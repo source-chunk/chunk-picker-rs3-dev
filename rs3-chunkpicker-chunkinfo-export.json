@@ -51506,7 +51506,7 @@
 			},
 			"~|Beginner Lumbridge tasks|~ Grinding My Gears": {
 				"Description": "Grind some flour in Lumbridge's mill.",
-				"Chunks": ["12339"],
+				"Chunks": ["12595"],
 				"BaseQuest": "Lumbridge Area Tasks"
 			},
 			"~|Beginner Lumbridge tasks|~ Sage Advice": {
