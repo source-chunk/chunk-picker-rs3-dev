@@ -59894,7 +59894,7 @@
 				"Items": ["Empty bucket"],
 				"Objects": ["Sand pit"],
 				"Output": "Bucket of sand"
-			},
+			}
 		}
 	},
 	"chunks": {
