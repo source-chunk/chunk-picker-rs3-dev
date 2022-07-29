@@ -59889,7 +59889,12 @@
 			"Empty a potion*": {
 				"Items": ["Potion+"],
 				"Output": "Vial"
-			}
+			},
+			"Fill a bucket with sand*": {
+				"Items": ["Empty bucket"],
+				"Objects": ["Sand pit"],
+				"Output": "Bucket of sand"
+			},
 		}
 	},
 	"chunks": {
