@@ -27673,7 +27673,7 @@
 		},
 		"Fishing": {
 			"Catch a ~|leaping trout|~": {
-				"Items": ["Barbarian bait+"],
+				"Items": ["Barbarian bait+*"],
 				"Level": 48,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -27685,7 +27685,7 @@
 				"Priority": 1
 			},
 			"Catch ~|golden leaping trout eggs|~": {
-				"Items": ["Barbarian bait+"],
+				"Items": ["Barbarian bait+*"],
 				"Level": 48,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -27697,7 +27697,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|leaping salmon|~": {
-				"Items": ["Barbarian bait+"],
+				"Items": ["Barbarian bait+*"],
 				"Level": 58,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -27709,7 +27709,7 @@
 				"Priority": 1
 			},
 			"Catch ~|golden leaping salmon eggs|~": {
-				"Items": ["Barbarian bait+"],
+				"Items": ["Barbarian bait+*"],
 				"Level": 58,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -27721,7 +27721,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|leaping sturgeon|~": {
-				"Items": ["Barbarian bait+"],
+				"Items": ["Barbarian bait+*"],
 				"Level": 70,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -27733,7 +27733,7 @@
 				"Priority": 1
 			},
 			"Catch ~|golden leaping sturgeon eggs|~": {
-				"Items": ["Barbarian bait+"],
+				"Items": ["Barbarian bait+*"],
 				"Level": 70,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
@@ -27759,7 +27759,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|raw minnow|~": {
-				"Items": ["Fishing bait"],
+				"Items": ["Fishing bait*"],
 				"Level": 1,
 				"Objects": ["Fishing spot (minnow)"],
 				"Primary": true,
@@ -27781,7 +27781,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|raw sardine|~": {
-				"Items": ["Fishing bait"],
+				"Items": ["Fishing bait*"],
 				"Level": 5,
 				"Objects": ["Fishing spot (net(small)/bait)"],
 				"Primary": true,
@@ -27789,7 +27789,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|raw herring|~": {
-				"Items": ["Fishing bait"],
+				"Items": ["Fishing bait*"],
 				"Level": 10,
 				"Objects": ["Fishing spot (net(small)/bait)"],
 				"Primary": true,
@@ -27811,7 +27811,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|raw trout|~": {
-				"Items": ["Feathers+"],
+				"Items": ["Feathers+*"],
 				"Level": 20,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
@@ -27819,7 +27819,7 @@
 				"Priority": 1
 			},
 			"Catch ~|golden trout eggs|~": {
-				"Items": ["Feathers+"],
+				"Items": ["Feathers+*"],
 				"Level": 20,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
@@ -27834,7 +27834,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|raw pike|~": {
-				"Items": ["Fishing bait"],
+				"Items": ["Fishing bait*"],
 				"Level": 25,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
@@ -27866,7 +27866,7 @@
 				"Priority": 3
 			},
 			"Catch a ~|raw salmon|~": {
-				"Items": ["Feathers+"],
+				"Items": ["Feathers+*"],
 				"Level": 30,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
@@ -27874,7 +27874,7 @@
 				"Priority": 1
 			},
 			"Catch ~|golden salmon eggs|~": {
-				"Items": ["Feathers+"],
+				"Items": ["Feathers+*"],
 				"Level": 30,
 				"Objects": ["Fishing spot (lure/bait)"],
 				"Primary": true,
