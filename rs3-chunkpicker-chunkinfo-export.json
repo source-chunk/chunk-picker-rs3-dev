@@ -59958,6 +59958,15 @@
 		"20": {
 			"Name": "Moksha Ritual Site"
 		},
+		"21": {
+			"Name": "Edgeville Hill Giant Resource Dungeon"
+		},
+		"22": {
+			"Name": "Edgeville Chaos Druids Resource Dungeon"
+		},
+		"23": {
+			"Name": "Varrock Sewer Moss Giant Resource Dungeon"
+		},
 		"258": {
 			"Spawn": {
 				"Broken glass": 8
@@ -83301,7 +83310,7 @@
 			},
 			"Connect": {
 				"7": true,
-				"12953": true
+				"5191": true
 			},
 			"Spawn": {
 				"Pie dish": 1,
@@ -100954,16 +100963,11 @@
 				"Moss giant": 4,
 				"Spider": 8,
 				"Ghost": 3,
-				"Scorpion": 2,
-				"Angry unicorn": 2,
-				"Angry giant rat": 2,
-				"Angry goblin": 2,
-				"Angry bear": 2,
-				"Fear reaper": 9,
-				"Confusion beast": 11,
-				"Hopeless creature": 11
+				"Scorpion": 2
 			},
 			"Connect": {
+				"21": true,
+				"22": true,
 				"4423": true,
 				"5191": true,
 				"12341": true,
@@ -101140,13 +101144,15 @@
 			}
 		},
 		"Varrock Sewers": {
-			"Object": {
-				"Magic tree": 6
-			},
 			"Monster": {
-				"Moss giant": 8
+				"Moss giant": 8,
+				"Moss giant": 4,
+				"Spider": 8,
+				"Ghost": 3,
+				"Scorpion": 2
 			},
 			"Connect": {
+				"23": true,
 				"12441": true,
 				"12854": true
 			}
@@ -101210,6 +101216,45 @@
 			"Connect": {
 				"10899": true
 			}
+		},
+		"Edgeville Hill Giant Resource Dungeon": {
+			"Monster": {
+				"Hill giant": 10
+			},
+			"Spawn": {
+				"Limpwurt root": 4
+			},
+			"Connect": {
+				"3911": true
+			}
+		},
+		"Edgeville Chaos Druids Resource Dungeon": {
+			"Monster": {
+				"Chaos druid": 15
+			},
+			"Spawn": {
+				"Grimy marrentill": 1,
+				"Grimy harralander": 1,
+				"Grimy irit": 1,
+				"Grimy Ranarr": 1
+			},
+			"Connect": {
+				"3911": true
+			}
+		},		
+		"Varrock Sewer Moss Giant Resource Dungeon": {
+			"Monster": {
+				"Moss giant": 10
+			},
+			"Object": {
+				"Magic tree": 5
+			},
+			"Spawn": {
+				"Limpwurt root": 4
+			},
+			"Connect": {
+				"5191": true
+			}		
 		},
 		"Brimhaven agility arena": {
 			"Object": {
@@ -109528,7 +109573,7 @@
 			"Tirannwn+": ["8754", "8753", "9010", "9009"],
 			"WarbandsChunks+": ["12088", "13114", "12347"],
 			"WildernessBloodwoodTreeChunks+": ["12093", "12856", "13116"],
-			"WildernessEntranceChunks+": ["13368", "13111", "12855", "12599", "12343", "1287", "11831", "12605", "12349", "13372", "12088", "13113", "11834", "11833", "11832", "12092", "12603", "12861", "13117", "12116", "11837", "11581", "13371", "13370"],
+			"WildernessEntranceChunks+": ["13368", "13111", "12855", "12599", "12343", "1287", "11831", "12605", "12349", "13372", "12088", "13113", "11834", "11833", "11832", "12092", "12603", "12861", "13117", "12116", "11837", "11581", "13371", "13370", "Edgeville Dungeon"],
 			"YakAttackChunks+": ["9276", "9532"]
 		},
 		"chunksPlusNames": {
