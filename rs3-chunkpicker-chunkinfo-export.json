@@ -80389,7 +80389,8 @@
 				"Pirate": 12
 			},
 			"NPC": {
-				"Mysterious ghost": 1
+				"Mysterious ghost": 1,
+				"Mandrith": 1
 			},
 			"Spawn": {
 				"Redberry pie": 1
@@ -81284,7 +81285,6 @@
 				"Hari": 1,
 				"Doris": 1,
 				"Mr Ex": 1,
-				"Mandrith": 1,
 				"Professor Henry": 1,
 				"Student": 2,
 				"Gjalp": 1,
