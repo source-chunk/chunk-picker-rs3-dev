@@ -54677,7 +54677,7 @@
 				"BaseQuest": "Wilderness Area Tasks"
 			},
 			"~|Easy Wilderness tasks|~ Ex-posing Yourself": {
-				"Description": "As Mr. Ex in Edgeville to skull you.",
+				"Description": "Find out about the history of the Wilderness from Vala",
 				"Chunks": ["12342"],
 				"BaseQuest": "Wilderness Area Tasks"
 			},
