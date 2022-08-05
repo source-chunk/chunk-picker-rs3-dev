@@ -30225,6 +30225,13 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Mix an ~|attack potion|~ from scratch": {
+				"Items": ["Grimy guam*", "Vial of water", "Eye of newt*"],
+				"Level": 1,
+				"Output": "Attack potion (3)",
+				"Primary": true,
+				"Priority": 19
+			},
 			"Grind ~|unicorn horn dust|~": {
 				"Category": ["Token"],
 				"Items": ["Unicorn horn*"],
@@ -30343,6 +30350,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|ranging potion|~ from scratch": {
+				"Items": ["Grimy guam*", "Vial of water", "Redberries*"],
+				"Level": 3,
+				"Output": "Ranging potion",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Clean a ~|grimy rogue's purse|~": {
 				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy rogue's purse*"],
@@ -30364,7 +30378,7 @@
 				"Level": 3,
 				"Output": "Neem oil",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 4
 			},
 			"Mix an ~|attack mix|~": {
 				"Items": ["AttackPotion+*", "Roe*"],
@@ -30397,6 +30411,13 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Mix a ~|magic potion|~ from scratch": {
+				"Items": ["Grimy tarromin*", "Vial of water", "ImpBead+*"],
+				"Level": 5,
+				"Output": "Magic potion (3)",
+				"Primary": true,
+				"Priority": 6
+			},
 			"Mix a ~|ranging mix|~": {
 				"Items": ["RangingPotion+*", "Roe*"],
 				"NPCs": ["Otto Godblessed"],
@@ -30419,6 +30440,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|strength potion|~ from scratch": {
+				"Items": ["Grimy tarromin*", "Vial of water", "Limpwurt root*"],
+				"Level": 7,
+				"Output": "Strength potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix a ~|magic mix|~": {
 				"Items": ["MagicPotion+*", "Roe*"],
 				"NPCs": ["Otto Godblessed"],
@@ -30428,7 +30456,7 @@
 				"Priority": 2
 			},
 			"Mix ~|Relicym's balm|~": {
-				"Items": ["Rogue's purse potion (unf)*", "Clean snake weed*"],
+				"Items": ["Grimy rogue's purse*", "Vial of water", "Clean snake weed*"],
 				"Level": 8,
 				"Output": "Relicym's balm (3)",
 				"Primary": true,
@@ -30456,6 +30484,13 @@
 				"Output": "Defence potion (3)",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Mix a ~|defence potion|~ from scratch": {
+				"Items": ["Grimy marrentill*", "Vial of water", "Bear fur*"],
+				"Level": 9,
+				"Output": "Defence potion (3)",
+				"Primary": true,
+				"Priority": 6
 			},
 			"Mix ~|Relicym's mix|~": {
 				"Items": ["RelicymBalm+*", "Roe*"],
@@ -30488,6 +30523,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix an ~|antipoison|~ from scratch": {
+				"Items": ["Marrentill potion (unf)*", "Unicorn horn*"],
+				"Level": 13,
+				"Output": "Antipoison (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix an ~|antipoison mix|~": {
 				"Items": ["AntipoisonPotion+*", "Roe*"],
 				"NPCs": ["Otto Godblessed"],
@@ -30504,6 +30546,14 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix ~|serum 207|~ from scratch": {
+				"Chunks": ["13875"],
+				"Items": ["Grimy tarromin*", "Vial of water", "Ashes*"],
+				"Level": 15,
+				"Output": "Serum 207 (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix a ~|Guthix rest|~": {
 				"Items": ["Harralander potion (unf)*", "Clean marrentill*"],
 				"Level": 18,
@@ -30511,8 +30561,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|Guthix rest|~ from scratch": {
+				"Items": ["Grimy harralander*", "Vial of water", "Clean marrentill*"],
+				"Level": 18,
+				"Output": "Guthix rest (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Make ~|guam tar|~": {
-				"Items": ["Clean guam", "Swamp tar"],
+				"Items": ["Grimy guam", "Swamp tar"],
 				"Level": 19,
 				"Output": "Guam tar",
 				"Primary": true,
@@ -30550,6 +30607,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|restore potion|~ from scratch": {
+				"Items": ["Grimy harralander*", "Red spiders' eggs*"],
+				"Level": 22,
+				"Output": "Restore potion (3)",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Mix a ~|Guthix balance (unf)|~": {
 				"Items": ["Restore potion (3)*", "Garlic*"],
 				"Level": 22,
@@ -30573,7 +30637,7 @@
 				"Priority": 1
 			},
 			"Mix ~|blamish oil|~": {
-				"Items": ["Harralander potion (unf)*", "Blamish snail slime*"],
+				"Items": ["Grimy harralander*", "Vial of water", "Blamish snail slime*"],
 				"Level": 25,
 				"Output": "Blamish oil",
 				"Primary": true,
@@ -30602,6 +30666,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix an ~|energy potion|~ from scratch": {
+				"Items": ["Grimy harralander*", "Vial of water", "Chocolate bar*"],
+				"Level": 26,
+				"Output": "Energy potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix an ~|energy mix|~": {
 				"Items": ["EnergyPotion+*", "Caviar*"],
 				"NPCs": ["Otto Godblessed"],
@@ -30627,21 +30698,21 @@
 				"Priority": 2
 			},
 			"Make ~|marrentill tar|~": {
-				"Items": ["Clean marrentill*", "Swamp tar*"],
+				"Items": ["Grimy marrentill*", "Swamp tar*"],
 				"Level": 31,
 				"Output": "Marrentill tar",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|super fishing explosive|~": {
-				"Items": ["Guam potion (unf)*", "Rubium*"],
+				"Items": ["Grime guam*", "Vial of water", "Rubium*"],
 				"Level": 31,
 				"Output": "Super fishing explosive",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|troll potion|~": {
-				"Items": ["Ranarr potion (unf)*", "Ground thistle*"],
+				"Items": ["Grimy ranarr*", "Vial of water", "Ground thistle*"],
 				"Level": 31,
 				"Output": "Troll potion",
 				"Primary": true,
@@ -30653,6 +30724,13 @@
 				"Output": "Agility potion (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix an ~|agility potion|~ from scratch": {
+				"Items": ["Grimy toadflax*", "Vial of water", "Toad's legs*"],
+				"Level": 34,
+				"Output": "Agility potion (3)",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Clean a ~|grimy spirit weed|~": {
 				"Category": ["Cleaning herbs"],
@@ -30677,6 +30755,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|combat potion|~ from scratch": {
+				"Items": ["Grimy harralander*", "Vial of water", "Goat horn*"],
+				"Level": 36,
+				"Output": "Combat potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix an ~|agility mix|~": {
 				"Items": ["AgilityPotion+*", "Caviar*"],
 				"NPCs": ["Otto Godblessed"],
@@ -30686,7 +30771,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|goblin potion|~": {
-				"Items": ["Toadflax potion (unf)*", "Pharmakos berries*"],
+				"Items": ["Grimy toadflax*", "Vial of water", "Pharmakos berries*"],
 				"Level": 37,
 				"Output": "Goblin potion (3)",
 				"Primary": true,
@@ -30699,8 +30784,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|prayer potion|~ from scratch": {
+				"Items": ["Grimy ranarr*", "Vial of water", "Snape grass*"],
+				"Level": 38,
+				"Output": "Prayer potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Make ~|tarromin tar|~": {
-				"Items": ["Clean tarromin*", "Swamp tar*"],
+				"Items": ["Grimy tarromin*", "Swamp tar*"],
 				"Level": 39,
 				"Output": "Tarromin tar",
 				"Primary": true,
@@ -30712,6 +30804,13 @@
 				"Output": "Summoning potion (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix a ~|summoning potion|~ from scratch": {
+				"Items": ["Grimy spirit weed*", "Vial of water", "Cockatrice egg*"],
+				"Level": 40,
+				"Output": "Summoning potion (3)",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Clean a ~|grimy irit|~": {
 				"Category": ["Cleaning herbs"],
@@ -30760,6 +30859,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|crafting potion|~ from scratch": {
+				"Items": ["Grimy wergali*", "Vial of water", "Frog spawn*"],
+				"Level": 42,
+				"Output": "Crafting potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix a ~|prayer mix|~": {
 				"Items": ["PrayerPotion+*", "Caviar*"],
 				"NPCs": ["Otto Godblessed"],
@@ -30775,8 +30881,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|divination potion|~ from scratch": {
+				"Items": ["Grimy spirit weed*", "Vial of water", "Rabbit foot*"],
+				"Level": 43,
+				"Output": "Divination potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Make ~|harralander tar|~": {
-				"Items": ["Clean harralander*", "Swamp tar*"],
+				"Items": ["Grimy harralander*", "Swamp tar*"],
 				"Level": 44,
 				"Output": "Harralander tar",
 				"Primary": true,
@@ -30789,8 +30902,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|super attack|~ from scratch": {
+				"Items": ["Grimy Irit*", "Vial of water", "Eye of newt*"],
+				"Level": 45,
+				"Output": "Super attack (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix a ~|vial of stench|~": {
-				"Items": ["Irit potion (unf)*", "Chopped onion*"],
+				"Items": ["Grimy irit*", "Vial of water", "Chopped onion*"],
 				"Level": 46,
 				"Output": "Vial of stench",
 				"Primary": true,
@@ -30827,6 +30947,13 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Mix a ~|super antipoison|~ from scratch": {
+				"Items": ["grimy irit*", "Vial of water", "Unicorn horn*"],
+				"Level": 48,
+				"Output": "Super antipoison (3)",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Read the ~|scroll of cleansing|~": {
 				"Items": ["Scroll of cleansing"],
 				"Level": 49,
@@ -30843,12 +30970,26 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix a ~|woodcutting potion|~ from scratch": {
+				"Items": ["Grimy avantoe*", "Vial of water", "Timber fungus*"],
+				"Level": 49,
+				"Output": "Woodcutting potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix a ~|fishing potion|~": {
 				"Items": ["Avantoe potion (unf)*", "Snape grass*"],
 				"Level": 50,
 				"Output": "Fishing potion (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix a ~|fishing potion|~ from scratch": {
+				"Items": ["Grimy avantoe*", "Vial of water", "Snape grass*"],
+				"Level": 50,
+				"Output": "Fishing potion (3)",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Wear ~|irit gloves|~": {
 				"Items": ["Irit gloves"],
@@ -30882,6 +31023,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix a ~|mining potion|~ from scratch": {
+				"Items": ["Grimy avantoe*", "Vial of water", "Calcified fungus*"],
+				"Level": 51,
+				"Output": "Mining potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix a ~|super energy|~": {
 				"Items": ["Avantoe potion (unf)*", "Mort myre fungus*"],
 				"Level": 52,
@@ -30889,12 +31037,26 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|super energy|~ from scratch": {
+				"Items": ["Grimy avantoe*", "Vial of water", "Mort myre fungus*"],
+				"Level": 52,
+				"Output": "Super energy (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix a ~|hunter potion|~": {
 				"Items": ["Avantoe potion (unf)*", "Kebbit teeth dust*"],
 				"Level": 53,
 				"Output": "Hunter potion (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix a ~|hunter potion|~ from scratch": {
+				"Items": ["Grimy avantoe*", "Vial of water", "Kebbit teeth*"],
+				"Level": 53,
+				"Output": "Hunter potion (3)",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Mix a ~|fishing mix|~": {
 				"Items": ["FishingPotion+*", "Caviar*"],
@@ -30927,6 +31089,13 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Mix a ~|juju hunter potion|~ from scratch": {
+				"Items": ["Grimy erzille*", "Vial of water", "Corrupt vine*"],
+				"Level": 54,
+				"Output": "Juju hunter potion (3)",
+				"Primary": true,
+				"Priority": 7
+			},
 			"Clean a ~|grimy kwuarm|~": {
 				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy kwuarm*"],
@@ -30950,12 +31119,26 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Mix a ~|runecrafting potion|~ from scratch": {
+				"Items": ["Grimy wergali*", "Vial of water", "SeasonalWool+*"],
+				"Level": 54,
+				"Output": "Runecrafting potion (3)",
+				"Primary": true,
+				"Priority": 8
+			},
 			"Mix a ~|super strength|~": {
 				"Items": ["Kwuarm potion (unf)*", "Limpwurt root*"],
 				"Level": 55,
 				"Output": "Super strength (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix a ~|super strength|~ from scratch": {
+				"Items": ["Grimy kwuarm*", "Vial of water", "Limpwurt root*"],
+				"Level": 55,
+				"Output": "Super strength (3)",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Clean a ~|grimy ugune|~": {
 				"Category": ["Cleaning herbs"],
@@ -30971,6 +31154,13 @@
 				"Output": "Cooking potion (3)",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Mix a ~|cooking potion|~ from scratch": {
+				"Items": ["Grimy harralander*", "Vial of water", "Swordfish*"],
+				"Level": 55,
+				"Output": "Cooking potion (3)",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Clean a ~|grimy argway|~": {
 				"Category": ["Cleaning herbs"],
@@ -31003,6 +31193,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix ~|magic essence|~ from scratch": {
+				"Items": ["Star flower*", "Vial of water", "Gorak claw*"],
+				"Level": 57,
+				"Output": "Magic essence (3)",
+				"Primary": true,
+				"Priority": 8
+			},
 			"Clean a ~|grimy shengo|~": {
 				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy shengo*"],
@@ -31034,12 +31231,26 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Mix a ~|luck potion|~ from scratch": {
+				"Items": ["Grimy bloodweed*", "Vial of water", "Dragonstone*"],
+				"Level": 57,
+				"Output": "Luck potion",
+				"Primary": true,
+				"Priority": 7
+			},
 			"Mix a ~|fletching potion|~": {
 				"Items": ["Wergali potion (unf)*", "Wimpy feather*"],
 				"Level": 58,
 				"Output": "Fletching potion (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix a ~|fletching potion|~ from scratch": {
+				"Items": ["Grimy wergali*", "Vial of water", "Wimpy feather*"],
+				"Level": 58,
+				"Output": "Fletching potion (3)",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Clean a ~|grimy samaden|~": {
 				"Category": ["Cleaning herbs"],
@@ -31071,6 +31282,13 @@
 				"Output": "Scentless potion (3)",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Mix a ~|scentless potion|~ from scratch": {
+				"Items": ["Grimy argway*", "Vial of water", "Shadow vine*"],
+				"Level": 59,
+				"Output": "Scentless potion (3)",
+				"Primary": true,
+				"Priority": 7
 			},
 			"Clean a ~|grimy snapdragon|~": {
 				"Category": ["Cleaning herbs"],
@@ -31110,6 +31328,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix ~|weapon poison|~ from scratch": {
+				"Items": ["Grimy kwuarm*", "Vial of water", "Blue dragon scale*"],
+				"Level": 60,
+				"Output": "Weapon poison (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Wear ~|avantoe gloves|~": {
 				"Items": ["Avantoe gloves"],
 				"Level": 60,
@@ -31131,6 +31356,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|super restore|~ from scratch": {
+				"Items": ["Grimy snapdragon*", "Vial of water", "Red spiders' eggs*"],
+				"Level": 63,
+				"Output": "Super restore (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix an ~|ugune potion (unf)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean ugune*", "Juju vial of water"],
@@ -31145,6 +31377,13 @@
 				"Output": "Juju farming potion (3)",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Mix a ~|juju farming potion|~ from scratch": {
+				"Items": ["Grimy ugune*", "Vial of water", "Marble vine*"],
+				"Level": 64,
+				"Output": "Juju farming potion (3)",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Mix a ~|super hunter|~": {
 				"Items": ["HunterPotion+*", "Rabbit teeth*"],
@@ -31199,12 +31438,26 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Mix a ~|camouflage potion|~ from scratch": {
+				"Items": ["Grimy bloodweed*", "Vial of water", "Black salamander*"],
+				"Level": 65,
+				"Output": "Camouflage potion (3)",
+				"Primary": true,
+				"Priority": 7
+			},
 			"Mix a ~|super defence|~": {
 				"Items": ["Cadantine potion (unf)*", "White berries*"],
 				"Level": 66,
 				"Output": "Super defence (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix a ~|super defence|~ from scratch": {
+				"Items": ["Grimy cadantine*", "Vial of water", "White berries*"],
+				"Level": 66,
+				"Output": "Super defence (3)",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Mix a ~|shengo potion (unf)|~": {
 				"Category": ["Token"],
@@ -31220,6 +31473,13 @@
 				"Output": "Juju cooking potion (3)",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Mix a ~|juju cooking potion|~ from scratch": {
+				"Items": ["Grimy shengo*", "Vial of water", "Plant teeth*"],
+				"Level": 67,
+				"Output": "Juju cooking potion (3)",
+				"Primary": true,
+				"Priority": 6
 			},
 			"Clean a ~|grimy lantadyme|~": {
 				"Category": ["Cleaning herbs"],
@@ -31259,6 +31519,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix an ~|antipoison+|~ from scratch": {
+				"Items": ["Coconut )open)*", "Vial", "Grimy toadflax*", "Yew roots*"],
+				"Level": 68,
+				"Output": "Antipoison+ (4)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix an ~|antifire|~": {
 				"Items": ["Lantadyme potion (unf)*", "Dragon scale dust*"],
 				"Level": 69,
@@ -31266,12 +31533,26 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix an ~|antifire|~ from scratch": {
+				"Items": ["Grimy lantadyme*", "Vial of water", "Blue dragon scale*"],
+				"Level": 69,
+				"Output": "Antifire (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix a ~|juju fishing potion|~": {
 				"Items": ["Shengo potion (unf)*", "Aquatic vine*"],
 				"Level": 70,
 				"Output": "Juju fishing potion (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix a ~|juju fishing potion|~ from scratch": {
+				"Items": ["Grimy shengo*", "Vial of water", "Aquatic vine*"],
+				"Level": 70,
+				"Output": "Juju fishing potion (3)",
+				"Primary": true,
+				"Priority": 8
 			},
 			"Clean a ~|grimy dwarf weed|~": {
 				"Category": ["Cleaning herbs"],
@@ -31327,6 +31608,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix a ~|juju woodcutting potion|~ from scratch": {
+				"Items": ["Grimy samaden*", "Vial of water", "Oily vine*"],
+				"Level": 71,
+				"Output": "Juju woodcutting potion (3)",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Mix a ~|super defence mix|~": {
 				"Items": ["SuperDefencePotion+*", "Caviar*"],
 				"NPCs": ["Otto Godblessed"],
@@ -31349,6 +31637,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|super ranging potion|~ from scratch": {
+				"Items": ["Grimy dwarf weed*", "Wine of Zamorak*"],
+				"Level": 72,
+				"Output": "Super ranging potion (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix a ~|weapon poison+ (unf)|~": {
 				"Items": ["Coconut milk*", "Cactus spine*"],
 				"Level": 73,
@@ -31363,12 +31658,26 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix a ~|weapon poison+|~ from scratch": {
+				"Items": ["Coconut (open)*", "Vial", "Cactus spine*", "Red spiders' eggs*"],
+				"Level": 73,
+				"Output": "Weapon poison+ (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix a ~|juju mining potion|~": {
 				"Items": ["Samaden potion (unf)*", "Draconic vine*"],
 				"Level": 74,
 				"Output": "Juju mining potion (3)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Mix a ~|juju mining potion|~ from scratch": {
+				"Items": ["Grimy Samaden*", "Draconic vine*"],
+				"Level": 74,
+				"Output": "Juju mining potion (3)",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Mix an ~|antipoison+ mix|~": {
 				"Items": ["Antipoison+Potion+*", "Caviar*"],
@@ -31392,6 +31701,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|Saradomin's blessing|~ from scratch": {
+				"Items": ["Grimy samaden", "Vial of water", "Saradomin vine*"],
+				"Level": 75,
+				"Output": "Saradomin's blessing (3)",
+				"Primary": true,
+				"Priority": 12
+			},
 			"Mix a ~|Guthix's gift|~": {
 				"Items": ["Samaden potion (unf)*", "Guthix vine*"],
 				"Level": 75,
@@ -31399,12 +31715,26 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix a ~|Guthix's gift|~ from scratch": {
+				"Items": ["Grimy samaden", "Vial of water", "Guthix vine*"],
+				"Level": 75,
+				"Output": "Guthix's gift (3)",
+				"Primary": true,
+				"Priority": 13
+			},
 			"Mix a ~|Zamorak's favour|~": {
 				"Items": ["Samaden potion (unf)*", "Zamorak vine*"],
 				"Level": 75,
 				"Output": "Zamorak's favour (3)",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Mix a ~|Zamorak's favour|~ from scratch": {
+				"Items": ["Grimy samaden", "Vial of water", "Zamorak vine*"],
+				"Level": 75,
+				"Output": "Zamorak's favour (3)",
+				"Primary": true,
+				"Priority": 14
 			},
 			"Clean a ~|grimy torstol|~": {
 				"Category": ["Cleaning herbs"],
@@ -31474,6 +31804,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|super magic potion|~ from scratch": {
+				"Items": ["Grimy lantadyme*", "Vial of water", "Potato cactus*"],
+				"Level": 76,
+				"Output": "Super magic potion (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix a ~|grand ranging potion|~": {
 				"Chunks": ["8757"],
 				"Items": ["SuperRangingPotion+*", "RangingPotion+*", "Crystal flask*"],
@@ -31511,6 +31848,13 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Mix an ~|invention potion|~ from scratch": {
+				"Items": ["Grimy snapdragon*", "Vial of water", "Chinchompa residue*"],
+				"Level": 77,
+				"Output": "Invention potion (3)",
+				"Primary": true,
+				"Priority": 8
+			},
 			"Clean a ~|grimy arbuck|~": {
 				"Category": ["Cleaning herbs"],
 				"Items": ["Grimy arbuck*"],
@@ -31541,6 +31885,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|Zamorak brew|~ from scratch": {
+				"Items": ["Grimy torstol*", "Vial of water", "Jangerberries*"],
+				"Level": 78,
+				"Output": "Zamorak brew (3)",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Mix a ~|grand attack potion|~": {
 				"Chunks": ["8757"],
 				"Items": ["SuperAttackPotion+*", "AttackPotion+*", "Crystal flask*"],
@@ -31556,6 +31907,13 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Mix an ~|archaeology potion|~ from scratch": {
+				"Items": ["Grimy avantoe*", "ArchaeologyDirt+*", "Archaeology potion recipe*"],
+				"Level": 78,
+				"Output": "Archaeology potion (3)",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Mix an ~|antipoison++ (unf)|~": {
 				"Items": ["Coconut milk*", "Clean irit*"],
 				"Level": 79,
@@ -31569,6 +31927,13 @@
 				"Output": "Antipoison++ (4)",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Mix an ~|antipoison++|~ from scratch": {
+				"Items": ["Coconut (open)*", "Vial", "Grimy irit", "Magic roots*"],
+				"Level": 79,
+				"Output": "Antipoison++ (4)",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Mix a ~|grand defence potion|~": {
 				"Chunks": ["8757"],
@@ -31620,6 +31985,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Mix a ~|Saradomin brew|~ from scratch": {
+				"Items": ["Grimy torstol*", "Crushed nest*"],
+				"Level": 81,
+				"Output": "Saradomin brew (3)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Mix a ~|super melee potion|~": {
 				"Chunks": ["8757", "13626", "13882"],
 				"Items": ["SuperAttackPotion+*", "SuperDefencePotion+*", "SuperStrengthPotion+*", "Crystal flask*"],
@@ -31642,6 +32014,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix a ~|weapon poison++|~ from scratch": {
+				"Items": ["Coconit )open)*", "Vial", "Cave nightshade", "Poison ivy berries*"],
+				"Level": 82,
+				"Output": "Weapon poison++ (3)",
+				"Primary": true,
+				"Priority": 6
+			},
 			"Mix a ~|perfect juju smithing potion|~": {
 				"Items": ["JujuHunterPotion+*", "Harmony moss*"],
 				"Level": 82,
@@ -31655,6 +32034,13 @@
 				"Output": "Aggression potion (3)",
 				"Primary": true,
 				"Priority": 4
+			},
+			"Mix an ~|aggression potion|~ from scratches": {
+				"Items": ["Grimy bloodweed*", "Searing ashes*"],
+				"Level": 82,
+				"Output": "Aggression potion (3)",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Mix a ~|super magic mix|~": {
 				"Items": ["SuperMagicPotion+*", "Caviar*"],
@@ -31750,11 +32136,18 @@
 				"Priority": 1
 			},
 			"Mix a ~|summoning renewal|~": {
-				"Items": ["Spirit weed potion (unf)*", "Tombshroom*", "Summoning renewal recipe*"],
+				"Items": ["Spirit weed potion (unf)*", "Tombshroom*", "Summoning renewal recipe"],
 				"Level": 88,
 				"Output": "Summoning renewal (3)",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Mix a ~|summoning renewal|~ from scratch": {
+				"Items": ["Grimy spirit weed*", "Tombshroom*", "Summoning renewal recipe"],
+				"Level": 88,
+				"Output": "Summoning renewal (3)",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Mix an ~|extreme strength|~": {
 				"Items": ["SuperStrengthPotion+*", "Clean dwarf weed*"],
@@ -32000,6 +32393,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix a ~|prayer renewal|~ from scratch": {
+				"Items": ["Grimy fellstalk*", "Morchella mushroom*"],
+				"Level": 94,
+				"Output": "Prayer renewal (3)",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Mix a ~|brightfire potion|~": {
 				"Chunks": ["8757"],
 				"Items": ["SuperAntifirePotion+*", "PrayerRenewalPotion+*", "Crystal flask*"],
@@ -32016,7 +32416,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|harvest potion|~": {
-				"Items": ["Primal extract*", "Clean arbuck*", "Watermelon*"],
+				"Items": ["Primal extract*", "Grimy arbuck*", "Watermelon*"],
 				"Level": 95,
 				"Output": "Harvest potion (3)",
 				"Primary": true,
@@ -32139,7 +32539,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|sticky bomb|~": {
-				"Items": ["Bomb vial*", "Primal extract*", "Beak snot*", "Dinosaur claws*", "Clean cadantine*"],
+				"Items": ["Bomb vial*", "Primal extract*", "Beak snot*", "Dinosaur claws*", "Grimy cadantine*"],
 				"Level": 101,
 				"Output": "Sticky bomb",
 				"Primary": true,
