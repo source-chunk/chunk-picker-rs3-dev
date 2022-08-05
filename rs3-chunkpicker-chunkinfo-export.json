@@ -30524,7 +30524,7 @@
 				"Priority": 1
 			},
 			"Mix an ~|antipoison|~ from scratch": {
-				"Items": ["Marrentill potion (unf)*", "Unicorn horn*"],
+				"Items": ["Grimy marrentill*", "Vial of water", "Unicorn horn*"],
 				"Level": 13,
 				"Output": "Antipoison (3)",
 				"Primary": true,
