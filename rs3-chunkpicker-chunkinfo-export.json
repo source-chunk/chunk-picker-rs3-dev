@@ -5881,7 +5881,7 @@
 				}
 			},
 			"Receive a slayer bounty from ~|Mandrith|~": {
-				"Chunks": ["12342"],
+				"Chunks": ["12093"],
 				"Level": 120,
 				"Primary": true,
 				"Priority": 2,
@@ -42495,7 +42495,7 @@
 				}
 			},
 			"Receive a slayer bounty from ~|Mandrith|~": {
-				"Chunks": ["12342"],
+				"Chunks": ["12093"],
 				"Level": 85,
 				"Primary": true,
 				"Priority": 3,
