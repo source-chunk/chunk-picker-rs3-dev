@@ -42513,6 +42513,7 @@
 				}
 			},
 			"Wield a ~|mirror shield|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Mirror shield"],
 				"Level": 25,
 				"Primary": false,
@@ -42522,6 +42523,7 @@
 				}
 			},
 			"Wield a ~|leaf-bladed spear|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Leaf-bladed spear"],
 				"Level": 55,
 				"Primary": false,
@@ -42549,6 +42551,7 @@
 				}
 			},
 			"Equip a ~|broad arrow|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Broad arrow"],
 				"Level": 55,
 				"Primary": false,
@@ -42558,6 +42561,7 @@
 				}
 			},
 			"Equip a ~|broad bolts|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Broad bolts"],
 				"Level": 55,
 				"Primary": false,
@@ -42567,30 +42571,35 @@
 				}
 			},
 			"Add a ~|salt shaker|~ to your toolbelt": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Salt shaker"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Equip a ~|face mask|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Face mask"],
 				"Level": 10,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Equip ~|earmuffs|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Earmuffs"],
 				"Level": 15,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Equip a ~|nose peg|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Nose peg"],
 				"Level": 60,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Wield a ~|slayer's staff|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Slayer's staff"],
 				"Level": 55,
 				"Primary": false,
@@ -42610,54 +42619,63 @@
 				"Priority": 7
 			},
 			"Add an ~|explosive shaker|~ to your toolbelt": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Explosive shaker"],
 				"Level": 32,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Add a ~|super explosive shaker|~ to your toolbelt": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Super explosive shaker"],
 				"Level": 32,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Add an ~|ice shaker|~ to your toolbelt": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Ice shaker"],
 				"Level": 22,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Equip ~|slayer gloves|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Slayer gloves"],
 				"Level": 42,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Wield a ~|Bug lantern|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["BugLantern+"],
 				"Level": 33,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Equip ~|insulated boots|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Insulated boots"],
 				"Level": 37,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Add a ~|fungicide shaker|~ to your toolbelt": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Fungicide shaker"],
 				"Level": 57,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Equip a ~|witchwood icon|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Witchwood icon"],
 				"Level": 35,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Equip ~|spiked gauntlets|~": {
+				"Category": ["Slayer Equipment"],
 				"Items": ["Spiked gauntlets"],
 				"Level": 1,
 				"Primary": false,
