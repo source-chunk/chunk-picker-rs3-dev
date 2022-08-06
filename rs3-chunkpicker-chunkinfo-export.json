@@ -65522,18 +65522,6 @@
 			},
 			"Name": "Senntisten"
 		},
-		"7218": {
-			"Object": {
-				"Blue barrier": 1,
-				"Neutral barrier": 1,
-				"Portal": 1
-			},
-			"Monster": {
-				"Avatar of Creation": 1,
-				"Pyrefiend": 6
-			},
-			"Name": "Soul Wars"
-		},
 		"7234": {
 			"Object": {
 				"Judge": 1,
@@ -65778,32 +65766,17 @@
 			},
 			"Name": "The Arc"
 		},
+		"7472": {
+			"Nickname": "South-West Lost Grove"
+		},
 		"7473": {
-			"Object": {
-				"Blue barrier": 1,
-				"Red barrier": 1,
-				"Balance portal": 1,
-				"Bank chest": 1,
-				"Edgeville portal": 1
-			},
-			"NPC": {
-				"Nomad": 1,
-				"Zanik": 1,
-				"Stanley Limelight": 1,
-				"Myself": 1,
-				"A memory": 1
-			},
-			"Shop": {
-				"Cashes in Zeal points for rewards%2E": true,
-				"Stanley Limelight Traders": true
-			},
-			"Name": "Soul Wars"
+			"Nickname": "West Lost Grove"
 		},
 		"7474": {
 			"Monster": {
-				"Jelly": 12
+				
 			},
-			"Name": "Soul Wars"
+			"Nickname": "North-West Lost Grove"
 		},
 		"7490": {
 			"Object": {
@@ -66186,17 +66159,17 @@
 			},
 			"Name": "The Arc"
 		},
+		"7727": {
+			"Nickname": "Lost Grove Entrance"
+		},
+		"7728": {
+			"Nickname": "South Lost Grove"
+		},
+		"7729": {
+			"Nickname": "Central Lost Grove"
+		},
 		"7730": {
-			"Object": {
-				"Red barrier": 1,
-				"Neutral barrier": 1,
-				"Portal": 1
-			},
-			"Monster": {
-				"Avatar of Destruction": 1,
-				"Pyrefiend": 6
-			},
-			"Name": "Soul Wars"
+			"Nickname": "North Lost Grove"
 		},
 		"7745": {
 			"Object": {
@@ -66496,6 +66469,15 @@
 				"Sea Witch Kaula": 1
 			},
 			"Name": "The Arc"
+		},
+		"7984": {
+			"Nickname": "South-East Lost Grove"
+		},
+		"7985": {
+			"Nickname": "East Lost Grove"
+		},
+		"7986": {
+			"Nickname": "North-East Lost Grove"
 		},
 		"7995": {
 			"Object": {
@@ -67436,6 +67418,18 @@
 			},
 			"Name": "The Arc"
 		},
+		"8493": {
+			"Object": {
+				"Blue barrier": 1,
+				"Neutral barrier": 1,
+				"Portal": 1
+			},
+			"Monster": {
+				"Avatar of Creation": 1,
+				"Pyrefiend": 6
+			},
+			"Nickname": "Soul Wars Avatar of Creation"
+		},
 		"8495": {
 			"Object": {
 				"Tree": 3
@@ -67977,6 +67971,33 @@
 				"Temple of Aminishi": 1
 			},
 			"Name": "The Arc"
+		},
+		"8748": {
+			"Object": {
+				"Blue barrier": 1,
+				"Red barrier": 1,
+				"Balance portal": 1,
+				"Bank chest": 1,
+				"Edgeville portal": 1
+			},
+			"NPC": {
+				"Nomad": 1,
+				"Zanik": 1,
+				"Stanley Limelight": 1,
+				"Myself": 1,
+				"A memory": 1
+			},
+			"Shop": {
+				"Cashes in Zeal points for rewards%2E": true,
+				"Stanley Limelight Traders": true
+			},
+			"Nickname": "Soul Wars Lobby"
+		},
+		"8749": {
+			"Monster": {
+				"Jelly": 12
+			},
+			"Nickname": "Soul Wars Centre"
 		},
 		"8751": {
 			"Object": {
@@ -68666,6 +68687,18 @@
 			"NPC": {
 				"Nightmare": 18
 			}
+		},
+		"9005": {
+			"Object": {
+				"Red barrier": 1,
+				"Neutral barrier": 1,
+				"Portal": 1
+			},
+			"Monster": {
+				"Avatar of Destruction": 1,
+				"Pyrefiend": 6
+			},
+			"Nickname": "Soul Wars Avatar of Destruction"
 		},
 		"9007": {
 			"Object": {
