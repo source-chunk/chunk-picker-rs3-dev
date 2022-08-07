@@ -60385,6 +60385,12 @@
 		"23": {
 			"Name": "Varrock Sewer Moss Giant Resource Dungeon"
 		},
+		"24": {
+			"Name": "Dwarven Mine Hidden Mine"
+		},
+		"25": {
+			"Name": "Mining Guild Hidden Mine"
+		},
 		"258": {
 			"Spawn": {
 				"Broken glass": 8
@@ -101538,6 +101544,7 @@
                 "Dwarf gang member": 3
 			},
 			"Connect": {
+				"24": true,
 				"4166": true,
 				"12084": true,
 				"12085": true
@@ -101582,6 +101589,7 @@
 				"Drakolith rock": 4
 			},
 			"Connect": {
+				"25": true
 				"12084": true,
 				"12184": true
 			}
@@ -101711,6 +101719,29 @@
 			"Connect": {
 				"5191": true
 			}		
+		},
+		"Dwarven Mine Hidden Mine": {
+			"Objects": {
+				"Gold rock": 7,
+				"Mithril rock": 4
+				"Bank deposit box": 1,
+				"Phasmatite rock": 4
+			},
+			"Monster": {
+				"Dwarf": 6
+			},
+			"Connect": {
+				"4167": true
+			}
+		},
+		"Mining Guild Hidden Mine": {
+			"Objects": {
+				"Luminite rock": 5,
+				"Drakolith rock": 4
+			},
+			"Connect": {
+				"4166": true
+			}
 		},
 		"Brimhaven agility arena": {
 			"Object": {
