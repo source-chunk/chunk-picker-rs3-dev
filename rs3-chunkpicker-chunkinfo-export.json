@@ -110134,7 +110134,7 @@
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"PotatoPatch+": ["Allotment", "Potato patch"],
 			"SnowPile+": ["Snow pile", "Snow drift"],
-			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "swamp tree"],
+			"Tree+": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "Swamp tree"],
 			"WaterObject+": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough"]
 		},
 		"objectsPlusNames": {
