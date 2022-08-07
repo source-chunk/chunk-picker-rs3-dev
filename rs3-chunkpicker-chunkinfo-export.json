@@ -14435,16 +14435,16 @@
 				"Priority": 7
 			},
 			"Craft ~|leather gloves|~": {
-				"Items": ["Leather"],
+				"Items": ["Leather*"],
 				"Level": 1,
-				"Output": "Leather gloves*",
+				"Output": "Leather gloves",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft ~|leather boots|~": {
-				"Items": ["Leather"],
+				"Items": ["Leather*"],
 				"Level": 1,
-				"Output": "Leather boots*",
+				"Output": "Leather boots",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -14475,6 +14475,13 @@
 				"Output": "Leather vambraces",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Craft a ~|snelm|~": {
+				"Items": ["SnailShell+"],
+				"Level": 15,
+				"Output": "Snelm+",
+				"Primary": true,
+				"Priority": 8
 			},
 			"Craft a ~|leather shield|~": {
 				"Items": ["Leather*"],
@@ -108660,7 +108667,7 @@
 				"Anima core helm of Sliske",
 				"Anima core legs of Sliske"
 			],
-			"SnailShell+": ["Blamish myre shell", "Blamish blue shell", "Blamish red shell", "Blamish ochre shell", "Blamish bark shell"],
+			"SnailShell+": ["Blamish myre shell (pointed)", "Blamish myre shell (round)", "Blamish blue shell (pointed)", "Blamish blue shell (round)", "Blamish red shell (pointed)", "Blamish red shell (round)", "Blamish ochre shell (pointed)", "Blamish ochre shell (round)", "Blamish bark shell"],
 			"SnakeHide+": [
 				"Snake hide (swamp)",
 				"Snake hide"
@@ -179935,6 +179942,17 @@
 				"Essential oils": "Very rare",
 				"Reinforced dinosaur pelt": "Very rare",
 				"Necklace of Salamancy": "1/500"
+			},
+			"Snelm+": {
+				"Blood'n'tar snelm (pointed": "Always",
+				"Blood'n'tar snelm (round)": "Always",
+				"Broken bark snelm (round)": "Always",
+				"Bruise blue snelm (pointed)": "Always",
+				"Bruise blue snelm (round)": "Always",
+				"Myre snelm (pointed)": "Always",
+				"Myre snelm (round)": "Always",
+				"Ochre snelm (pointed)": "Always",
+				"Ochre snelm (round)": "Always"
 			}
 		},
 		"Divination": {
