@@ -50783,7 +50783,7 @@
 			},
 			"~|Elite Falador tasks|~ When This Cavern's Rockin'...": {
 				"Description": "Catch a rocktail in the Living Rock Caverns.",
-				"Chunks": ["Dwarven Mine"],
+				"Chunks": ["Living Rock Caverns"],
 				"Skills": {
 					"Fishing": 90
 				},
@@ -50805,7 +50805,7 @@
 			},
 			"~|Elite Falador tasks|~ Concentration Is Key": {
 				"Description": "Mine concentrated gold in the Living Rock Caverns.",
-				"Chunks": ["Dwarven Mine"],
+				"Chunks": ["Living Rock Caverns"],
 				"Skills": {
 					"Mining": 80
 				},
@@ -97578,6 +97578,9 @@
 				"Rock critter": 8,
 				"Fisherman": 1,
 				"Farli": 1
+			},
+			"Connect": {
+				"4167": true
 			}
 		},
 		"Ancient Cavern": {
@@ -101552,7 +101555,8 @@
 				"24": true,
 				"4166": true,
 				"12084": true,
-				"12085": true
+				"12085": true,
+				"14415": true
 			},
 			"NPC": {
 				"Dwarf": 1,
