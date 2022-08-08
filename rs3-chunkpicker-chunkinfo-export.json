@@ -85665,6 +85665,9 @@
 				"Maria": 1,
 				"Archaeologist": 1
 			},
+			"Connect": {
+				"15176": true
+			},
 			"Nickname": "Silvarea Pass"
 		},
 		"13368": {
@@ -88177,14 +88180,20 @@
 			},
 			"Nickname": "Ectofuntus"
 		},
-		"14658": {
+		"14659": {
+			"Nickname": "Dinosaur Farm South"
+		},
+		"14660": {
+			"Nickname": "Dinosaur Farm North"
+		},
+		"14664": {
 			"Object": {
 				"Nest of eggs": 6,
 				"Cave": 1
 			},
 			"Name": "Egg cave?"
-		},
-		"14659": {
+		},	
+		"14665": {
 			"Object": {
 				"Furnace": 1,
 				"Copper rock": 5,
@@ -88606,7 +88615,13 @@
 			},
 			"Name": "Tutorial Island"
 		},
+		"14915": {
+			"Nickname": "Dinosaur Farm Entrance"
+		},
 		"14916": {
+			"Nickname": "Dinosaur Farm East"
+		},
+		"14917": {
 			"Object": {
 				"Storage crate": 1
 			},
@@ -89124,54 +89139,23 @@
 			},
 			"Nickname": "Dragontooth Island"
 		},
+		"15168": {
+			"Nickname": "Anachronia Peninsula West Corner"
+		},
 		"15169": {
-			"Object": {
-				"Tree": 6
-			},
-			"Name": "Tutorial Island"
+			"Nickname": "Anachronia Peninsula West"
 		},
 		"15170": {
-			"Object": {
-				"Closed chest": 2,
-				"Tree": 69,
-				"Sink": 1,
-				"Cooking range+": 1,
-				"Bank booth": 1,
-				"Calendar": 1,
-				"Altar": 1,
-				"Fishing spot (tutorial)": 1
-			},
-			"NPC": {
-				"RuneScape guide": 1,
-				"Survival expert": 1,
-				"Master chef": 1,
-				"Quest guide": 1,
-				"Financial advisor": 1,
-				"Prayer instructor": 1,
-				"Banker": 1
-			},
-			"Name": "Tutorial Island"
+			"Nickname": "Anachronia West Beach"
 		},
 		"15171": {
-			"Nickname": "Totem of the Abyss West"
+			"Nickname": "Anachronia Western Totem"
 		},
 		"15172": {
-			"Object": {
-				"Drop": 1,
-				"Statue of Death": 1,
-				"Material cache (Armadylean yellow)": 3,
-				"Material cache (aetherium alloy)": 3,
-				"Material cache (quintessence)": 3
-			},
-			"NPC": {
-				"Sliske": 1,
-				"Moia": 1,
-				"Janus": 1
-			},
-			"Connect": {
-				"13366": true
-			},
-			"Name": "Armadyl's Citadel"
+			"Nickname": "Anachronia North-Western Coast"
+		},
+		"15173": {
+			"Nickname": "Anachronia North-Western Cliffs"
 		},
 		"15174": {
 			"Object": {
@@ -89215,6 +89199,24 @@
 			"Object": {
 				"Shadow Caster": 4,
 				"Viewing panel": 1
+			},
+			"Name": "Armadyl's Citadel"
+		},
+		"15176": {
+			"Object": {
+				"Drop": 1,
+				"Statue of Death": 1,
+				"Material cache (Armadylean yellow)": 3,
+				"Material cache (aetherium alloy)": 3,
+				"Material cache (quintessence)": 3
+			},
+			"NPC": {
+				"Sliske": 1,
+				"Moia": 1,
+				"Janus": 1
+			},
+			"Connect": {
+				"13366": true
 			},
 			"Name": "Armadyl's Citadel"
 		},
@@ -89492,18 +89494,14 @@
 			},
 			"Nickname": "Hooded Pirate coast"
 		},
+		"15423": {
+			"Nickname": "Anachronia Peninsula South"
+		},
+		"15424": {
+			"Nickname": "Anachronia Peninsula"
+		},
 		"15426": {
-			"Object": {
-				"Hay bale": 2,
-				"Tree": 11
-			},
-			"NPC": {
-				"Magic instructor": 1
-			},
-			"Monster": {
-				"Chicken": 4
-			},
-			"Name": "Tutorial Island"
+			"Nickname": "Anachronia Agility Course Section A"
 		},
 		"15427": {
 			"Nickname": "Arcane Apoterrasaur Hunting Ground"
@@ -89676,6 +89674,9 @@
 				"Teleportation device": 1
 			}
 		},
+		"15679": {
+			"Nickname": "Anachronia Peninsula Tig"
+		},
 		"15680": {
 			"Object": {
 				"Gear crate": 1,
@@ -89685,11 +89686,7 @@
 			"Name": "Clan Citadel"
 		},
 		"15681": {
-			"Object": {
-				"Bench": 68,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Agility Course Section B Start"
 		},
 		"15682": {
 			"Object": {
@@ -89700,11 +89697,7 @@
 			"Nickname": "Bagrada Rex Hunting Ground"
 		},
 		"15683": {
-			"Object": {
-				"Bench": 60,
-				"Podium": 1
-			},
-			"Nickname": "Base Camp Entrance"
+			"Nickname": "Anachronia Base Camp Entrance"
 		},
 		"15684": {
 			"Object": {
@@ -89722,12 +89715,7 @@
 			"Name": "Clan Citadel"
 		},
 		"15686": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia North Excavation Site"
 		},
 		"15687": {
 			"Object": {
@@ -89932,10 +89920,7 @@
 			"Name": "Clan Citadel"
 		},
 		"15936": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Yellow Salamander hunting Area"
 		},
 		"15937": {
 			"Object": {
@@ -89952,12 +89937,7 @@
 			"Nickname": "East Base Camp"
 		},
 		"15939": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 60,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Base Camp"
 		},
 		"15940": {
 			"Object": {
@@ -89966,12 +89946,7 @@
 			"Nickname": "Malletops Hunting Grounds"
 		},
 		"15941": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 60,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Agility Course Section G Tunnel"
 		},
 		"15942": {
 			"Object": {
@@ -89984,11 +89959,7 @@
 			"Nickname": "North Anachronia Pass"
 		},
 		"15943": {
-			"Object": {
-				"Bench": 56,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Northern Totem"
 		},
 		"15944": {
 			"Object": {
@@ -90222,7 +90193,7 @@
 				"Bench": 60,
 				"Podium": 1
 			},
-			"Name": "Rex Matriarchs"
+			"Nickname": "Rex Matriarchs Entrance"
 		},
 		"16196": {
 			"Object": {
@@ -90419,18 +90390,10 @@
 			"Name": "Mazcab"
 		},
 		"16448": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Swamp Mine"
 		},
 		"16449": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 68,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Xolo City Delta"
 		},
 		"16450": {
 			"Object": {
@@ -90453,12 +90416,7 @@
 			"Nickname": "Oculi Apoterrasaur Hunting Ground"
 		},
 		"16453": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 60,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Herby Werby Entrance"
 		},
 		"16454": {
 			"Object": {
@@ -90467,7 +90425,7 @@
 			"Connect": {
 				"19": true
 			},
-			"Nickname": "Xolo City Ruins"
+			"Nickname": "Observation Outpost"
 		},
 		"16455": {
 			"Object": {
@@ -90768,22 +90726,13 @@
 			"Connect": {
 				"18": true
 			},
-			"Nickname": "Observation Outpost"
+			"Nickname": "Xolo City Ruins"
 		},
 		"16705": {
-			"Object": {
-				"Bench": 68,
-				"Podium": 1
-			},
-			"Name": "Totem of the Abyss East"
+			"Nickname": "Anachronia South-Eastern Totem"
 		},
 		"16706": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Agility Course Section D Start"
 		},
 		"16707": {
 			"Object": {
@@ -90799,11 +90748,7 @@
 			"Nickname": "Anachronia East River"
 		},
 		"16709": {
-			"Object": {
-				"Bench": 60,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Canyon Mine"
 		},
 		"16710": {
 			"Object": {
@@ -91059,12 +91004,7 @@
 			"Name": "Clan Citadel"
 		},
 		"16963": {
-			"Object": {
-				"Bench": 60,
-				"Altar": 1,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Agility Course Section D"
 		},
 		"16964": {
 			"Object": {
