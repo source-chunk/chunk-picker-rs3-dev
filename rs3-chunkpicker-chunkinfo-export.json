@@ -89143,7 +89143,7 @@
 			"Nickname": "Anachronia Peninsula West Corner"
 		},
 		"15169": {
-			"Nickname": "Anachronia Peninsula West"
+			"Nickname": "Anachronia West Excavation Site"
 		},
 		"15170": {
 			"Nickname": "Anachronia West Beach"
@@ -89152,7 +89152,7 @@
 			"Nickname": "Anachronia Western Totem"
 		},
 		"15172": {
-			"Nickname": "Anachronia North-Western Coast"
+			"Nickname": "Anachronia Luminous Snagglers"
 		},
 		"15173": {
 			"Nickname": "Anachronia North-Western Cliffs"
@@ -89500,8 +89500,11 @@
 		"15424": {
 			"Nickname": "Anachronia Peninsula"
 		},
+		"15425": {
+			"Nickname": "Anachronia Stormbreaker Landing"
+		},
 		"15426": {
-			"Nickname": "Anachronia Agility Course Section A"
+			"Nickname": "Anachronia South-West Mine"
 		},
 		"15427": {
 			"Nickname": "Arcane Apoterrasaur Hunting Ground"
@@ -89511,6 +89514,12 @@
 				"17": true
 			},
 			"Nickname": "Crypt of Varanus"
+		},
+		"15429": {
+			"Nickname": "West Anachronia Volcano Pass"
+		},
+		"15430": {
+			"Nickname": "Cannibal Jadinko Hunting Spot"
 		},
 		"15433": {
 			"Object": {
@@ -89708,14 +89717,10 @@
 			"Nickname": "North Base Camp"
 		},
 		"15685": {
-			"Object": {
-				"Bench": 60,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "East Anachronia Volcano"
 		},
 		"15686": {
-			"Nickname": "Anachronia North Excavation Site"
+			"Nickname": "North Anachronia Pass"
 		},
 		"15687": {
 			"Object": {
@@ -89946,7 +89951,7 @@
 			"Nickname": "Malletops Hunting Grounds"
 		},
 		"15941": {
-			"Nickname": "Anachronia Agility Course Section G Tunnel"
+			"Nickname": "Camouflaged Jadinko Hunting Spot"
 		},
 		"15942": {
 			"Object": {
@@ -89956,7 +89961,7 @@
 			},
 			"Connect": {
 			},
-			"Nickname": "North Anachronia Pass"
+			"Nickname": "Anachronia North Excavation Site"
 		},
 		"15943": {
 			"Nickname": "Anachronia Northern Totem"
