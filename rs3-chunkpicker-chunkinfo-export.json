@@ -6920,7 +6920,7 @@
 				"Items": ["Wild pie"],
 				"Level": 85,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Unlock the ~|Guthix's Blessing|~ ability": {
