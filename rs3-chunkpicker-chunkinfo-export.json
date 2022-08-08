@@ -59531,7 +59531,7 @@
 			"Tan leather*": {
 				"Items": ["Cowhide"],
 				"NPCs": ["Tanner+"],
-				"Output": "Leahter"
+				"Output": "Leather"
 			},
 			"Tan hard leather*": {
 				"Items": ["Cowhide"],
