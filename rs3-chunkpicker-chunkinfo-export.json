@@ -89495,10 +89495,10 @@
 			"Nickname": "Hooded Pirate coast"
 		},
 		"15423": {
-			"Nickname": "Anachronia Peninsula South"
+			"Nickname": "Anachronia Western Peninsula Tip"
 		},
 		"15424": {
-			"Nickname": "Anachronia Peninsula"
+			"Nickname": "Anachronia Western Peninsula"
 		},
 		"15425": {
 			"Nickname": "Anachronia Stormbreaker Landing"
@@ -89684,15 +89684,10 @@
 			}
 		},
 		"15679": {
-			"Nickname": "Anachronia Peninsula Tig"
+			"Nickname": "Anachronia Western Peninsula Tig"
 		},
 		"15680": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Southern Bay Entrance"
 		},
 		"15681": {
 			"Nickname": "Anachronia Agility Course Section B Start"
@@ -89916,13 +89911,7 @@
 			}
 		},
 		"15935": {
-			"Object": {
-				"Woodchip": 48,
-				"Stewing Pot": 26,
-				"Large Chopping Board": 26,
-				"Grill": 26
-			},
-			"Name": "Clan Citadel"
+			"Name": "Strange Bird Peninsula"
 		},
 		"15936": {
 			"Nickname": "Anachronia Yellow Salamander hunting Area"
@@ -89936,10 +89925,7 @@
 			"Nickname": "Scimitops Hunting Ground"
 		},
 		"15938": {
-			"Object": {
-				"Portal": 1
-			},
-			"Nickname": "East Base Camp"
+			"Nickname": "West Common Jadinko Hunting Spot"
 		},
 		"15939": {
 			"Nickname": "Anachronia Base Camp"
@@ -90171,12 +90157,7 @@
 			"Name": "Clan Citadel"
 		},
 		"16192": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Carrion Jadinko West Hunting Spot"
 		},
 		"16193": {
 			"Object": {},
@@ -90198,15 +90179,10 @@
 				"Bench": 60,
 				"Podium": 1
 			},
-			"Nickname": "Rex Matriarchs Entrance"
+			"Nickname": "Anachronia Spirit Grove"
 		},
 		"16196": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Spirit Grove River"
 		},
 		"16197": {
 			"Object": {
@@ -90216,19 +90192,10 @@
 			"Nickname": "Pavosaurus Rex Hunting Ground"
 		},
 		"16198": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia Brutish Dinosaurs"
 		},
 		"16199": {
-			"Object": {
-				"Bench": 56,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "OBservation Outpost Pass"
 		},
 		"16200": {
 			"Object": {
@@ -90394,11 +90361,14 @@
 			},
 			"Name": "Mazcab"
 		},
+		"16447": {
+			"Nickname": "Anachronia South-West Cliffs"
+		},
 		"16448": {
 			"Nickname": "Anachronia Swamp Mine"
 		},
 		"16449": {
-			"Nickname": "Xolo City Delta"
+			"Nickname": "Anachronia Swamp"
 		},
 		"16450": {
 			"Object": {
@@ -90407,12 +90377,7 @@
 			"Nickname": "Asciatops Hunting Ground"
 		},
 		"16451": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 60,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Poison Frog Area"
 		},
 		"16452": {
 			"Object": {
@@ -90433,11 +90398,7 @@
 			"Nickname": "Observation Outpost"
 		},
 		"16455": {
-			"Object": {
-				"Bench": 56,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Observation Outpost Pass Corner"
 		},
 		"16456": {
 			"Object": {
@@ -90722,6 +90683,9 @@
 			},
 			"Name": "Clan Citadel"
 		},
+		"16703": {
+			"Nickname": "Anachronia South-East Cliffs"
+		},
 		"16704": {
 			"Object": {
 				"Gear crate": 1,
@@ -90756,12 +90720,7 @@
 			"Nickname": "Anachronia Canyon Mine"
 		},
 		"16710": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia North-East Coast"
 		},
 		"16711": {
 			"Object": {
@@ -90989,47 +90948,25 @@
 			"Name": "Clan Citadel"
 		},
 		"16960": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia East Swamp Cliffs"
 		},
 		"16961": {
-			"Object": {
-				"Bench": 68,
-				"Altar": 1,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "South Anachronia Isle"
 		},
 		"16962": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
+			"Name": "Shadow Jadinko Hunting Spot"
 		},
 		"16963": {
-			"Nickname": "Anachronia Agility Course Section D"
+			"Nickname": "Kingdra Counsil Meeting Pool"
 		},
 		"16964": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
+			"Name": "East Common Jadinko Hunting Spot"
 		},
 		"16965": {
-			"Object": {
-				"Bench": 60,
-				"Altar": 1,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia North-East Isles"
 		},
 		"16966": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
+			"Nickname": "Anachronia North-East Corner"
 		},
 		"16967": {
 			"Object": {
