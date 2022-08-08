@@ -1127,6 +1127,13 @@
 				},
 				"Primary": false,
 				"Priority": 7
+			},
+			"Cross the ~|Nature Grotto|~ bridge": {
+				"Category": ["Shortcut"],
+				"Chunks": ["13620"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 9
 			}
 		},
 		"Archaeology": {
@@ -88151,6 +88158,7 @@
 				"Philipe Carnillean": 1
 			},
 			"Connect": {
+				"14746": true,
 				"14747": true
 			},
 			"Shop": {
@@ -88465,6 +88473,9 @@
 			"Object": {
 				"Pool of Slime": 78
 			},
+			"Connect": {
+				"14646": true
+			},
 			"Name": "Ectofuntus"
 		},
 		"14747": {
@@ -88482,7 +88493,8 @@
 			},
 			"Shop": {
 				"Ale yeast": true
-			}
+			},
+			"Name": "Port Phasmatys Basement Brewery"
 		},
 		"14893": {
 			"Object": {
