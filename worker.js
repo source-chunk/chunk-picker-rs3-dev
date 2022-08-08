@@ -255,7 +255,7 @@ onmessage = function(e) {
         postMessage('10%');
         globalValids = calcChallenges(chunks, baseChunkData);
         postMessage('90%');
-        calcBIS();
+        //calcBIS();
         postMessage('100%');
         //console.log(globalValids);
 
