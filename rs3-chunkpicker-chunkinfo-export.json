@@ -14435,42 +14435,42 @@
 				"Priority": 7
 			},
 			"Craft ~|leather gloves|~": {
-				"Items": ["Leather*"],
+				"Items": ["Leather*", "Thread*"],
 				"Level": 1,
 				"Output": "Leather gloves",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft ~|leather boots|~": {
-				"Items": ["Leather*"],
+				"Items": ["Leather*", "Thread*"],
 				"Level": 1,
 				"Output": "Leather boots",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Craft a ~|leather cowl|~": {
-				"Items": ["Leather*"],
+				"Items": ["Leather*", "Thread*"],
 				"Level": 1,
 				"Output": "Leather cowl",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Craft a ~|leather body|~": {
-				"Items": ["Leather*"],
+				"Items": ["Leather*", "Thread*"],
 				"Level": 1,
 				"Output": "Leather body",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Craft ~|leather chaps|~": {
-				"Items": ["Leather*"],
+				"Items": ["Leather*", "Thread*"],
 				"Level": 1,
 				"Output": "Leather chaps",
 				"Primary": true,
 				"Priority": 5
 			},
 			"Craft ~|leather vambraces|~": {
-				"Items": ["Leather*"],
+				"Items": ["Leather*", "Thread*"],
 				"Level": 11,
 				"Output": "Leather vambraces",
 				"Primary": true,
@@ -14484,7 +14484,7 @@
 				"Priority": 8
 			},
 			"Craft a ~|leather shield|~": {
-				"Items": ["Leather*"],
+				"Items": ["Leather*", "Thread*"],
 				"Level": 19,
 				"Output": "Leather shield",
 				"Primary": true,
