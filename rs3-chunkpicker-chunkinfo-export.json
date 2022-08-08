@@ -6920,7 +6920,7 @@
 				"Items": ["Wild pie"],
 				"Level": 85,
 				"Primary": false,
-				"Not Equip": false,
+				"Not Equip": true,
 				"Priority": 2
 			},
 			"Unlock the ~|Guthix's Blessing|~ ability": {
@@ -7068,7 +7068,7 @@
 				"Items": ["Rocktail"],
 				"Level": 92,
 				"Primary": false,
-				"Not Equip": false,
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|primal starter|~s": {
