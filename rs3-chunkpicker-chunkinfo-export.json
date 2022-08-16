@@ -50850,7 +50850,7 @@
 			},
 			"~|Easy Falador tasks|~ Disarm and Embark": {
 				"Description": "Take the boat to Entrana.",
-				"Chunks": ["12082"],
+				"Chunks": ["11316", "12082"],
 				"BaseQuest": "Falador Area Tasks"
 			},
 			"~|Easy Falador tasks|~ Going Along With the 'Fro": {
