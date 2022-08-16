@@ -21967,6 +21967,7 @@
 				"Priority": 2
 			},
 			"Rake a ~|farming patch|~": {
+				"Category": ["Raking"],
 				"Objects": ["FarmingPatch+"],
 				"Level": 1,
 				"Output": "Weeds",
@@ -22019,6 +22020,7 @@
 				"Priority": 9
 			},
 			"Grow a ~|potato|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Potato seed"],
 				"Objects": ["PotatoPatch+"],
 				"Level": 1,
@@ -22502,6 +22504,7 @@
 				"Priority": 54
 			},
 			"Grow ~|marigolds|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Marigold seed"],
 				"Objects": ["Flower patch"],
 				"Level": 2,
@@ -22510,6 +22513,7 @@
 				"Priority": 1
 			},
 			"Grow ~|barley|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Barley seed"],
 				"Objects": ["Hops patch"],
 				"Level": 3,
@@ -22518,6 +22522,7 @@
 				"Priority": 1
 			},
 			"Grow ~|Hammerstone hops|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Hammerstone seed"],
 				"Objects": ["Hops patch"],
 				"Level": 4,
@@ -22526,6 +22531,7 @@
 				"Priority": 1
 			},
 			"Grow an ~|onion|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Onion seed"],
 				"Objects": ["Allotment"],
 				"Level": 5,
@@ -22534,6 +22540,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|cabbage|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Cabbage seed"],
 				"Objects": ["Allotment"],
 				"Level": 7,
@@ -22548,6 +22555,7 @@
 				"Priority": 2
 			},
 			"Grow ~|Asgarnian hops|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Asgarnian seed"],
 				"Objects": ["Hops patch"],
 				"Level": 8,
@@ -22556,6 +22564,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy guam|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Guam seed"],
 				"Objects": ["Herb patch"],
 				"Level": 9,
@@ -22571,6 +22580,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|redberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Redberry seed"],
 				"Objects": ["Bush patch"],
 				"Level": 10,
@@ -22579,6 +22589,7 @@
 				"Priority": 1
 			},
 			"Grow ~|rosemary|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Rosemary seed"],
 				"Objects": ["Flower patch"],
 				"Level": 11,
@@ -22587,6 +22598,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|tomato|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Tomato seed"],
 				"Objects": ["Allotment"],
 				"Level": 12,
@@ -22595,6 +22607,7 @@
 				"Priority": 1
 			},
 			"Grow ~|jute|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Jute seed"],
 				"Objects": ["Hops patch"],
 				"Level": 13,
@@ -22603,6 +22616,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy marrentill|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Marrentill seed"],
 				"Objects": ["Herb patch"],
 				"Level": 14,
@@ -22618,6 +22632,7 @@
 				"Priority": 2
 			},
 			"Plant an ~|oak seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Acorn"],
 				"Level": 15,
 				"Output": "Oak seedling",
@@ -22625,6 +22640,7 @@
 				"Priority": 1
 			},
 			"Water an ~|oak seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Oak seedling", "WateringCan+"],
 				"Level": 15,
 				"Output": "Oak sapling",
@@ -22632,6 +22648,7 @@
 				"Priority": 2
 			},
 			"Grow an ~|oak tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Oak sapling"],
 				"Objects": ["Tree patch"],
 				"Level": 15,
@@ -22646,6 +22663,7 @@
 				"Priority": 4
 			},
 			"Grow ~|Yanillian hops|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Yanillian seed"],
 				"Objects": ["Hops patch"],
 				"Level": 16,
@@ -22664,6 +22682,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|common brown rabbit|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Common brown rabbit (unchecked)"],
 				"Level": 17,
@@ -22671,6 +22690,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|Rellekkan cream rabbit|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Rellekkan cream rabbit (unchecked)"],
 				"Level": 17,
@@ -22679,6 +22699,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|Piscatorian cottontail rabbit|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Piscatorian cottontail rabbit (unchecked)"],
 				"Level": 17,
@@ -22687,6 +22708,7 @@
 				"Priority": 4
 			},
 			"Harvest a ~|delicious honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Marigolds"],
 				"Level": 17,
@@ -22695,6 +22717,7 @@
 				"Priority": 6
 			},
 			"Harvest a ~|dense honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Rosemary"],
 				"Level": 17,
@@ -22703,6 +22726,7 @@
 				"Priority": 7
 			},
 			"Harvest a ~|medicinal honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Woad leaf"],
 				"Level": 17,
@@ -22711,6 +22735,7 @@
 				"Priority": 8
 			},
 			"Harvest a ~|runny honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Nasturtiums"],
 				"Level": 17,
@@ -22719,6 +22744,7 @@
 				"Priority": 9
 			},
 			"Harvest a ~|sweet honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Snape grass"],
 				"Level": 17,
@@ -22727,6 +22753,7 @@
 				"Priority": 10
 			},
 			"Harvest a ~|fertile honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Roses"],
 				"Level": 17,
@@ -22735,6 +22762,7 @@
 				"Priority": 11
 			},
 			"Harvest a ~|candied honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Irises"],
 				"Level": 17,
@@ -22743,6 +22771,7 @@
 				"Priority": 12
 			},
 			"Harvest a ~|nutritious honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Hydrangeas"],
 				"Level": 17,
@@ -22751,6 +22780,7 @@
 				"Priority": 13
 			},
 			"Harvest a ~|moreish honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Hollylocks"],
 				"Level": 17,
@@ -22759,6 +22789,7 @@
 				"Priority": 14
 			},
 			"Harvest a ~|shimmering honeycomb|~ from a beehive": {
+				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
 				"Items": ["Golden roses"],
 				"Level": 17,
@@ -22767,6 +22798,7 @@
 				"Priority": 15
 			},
 			"Breed a ~|common brown rabbit|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantRabbit+"],
 				"Level": 17,
@@ -22775,6 +22807,7 @@
 				"Priority": 16
 			},
 			"Breed a ~|Rellekkan cream rabbit|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common brown rabbit (unchecked)", "Piscatorian cottontail rabbit (unchecked)"],
 				"Level": 17,
@@ -22783,6 +22816,7 @@
 				"Priority": 17
 			},
 			"Breed a ~|Piscatorian cottontail rabbit|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common brown rabbit (unchecked)", "Rellekkan cream rabbit (unchecked)"],
 				"Level": 17,
@@ -22791,6 +22825,7 @@
 				"Priority": 18
 			},
 			"Muck out ~|mammal droppings|~ from a rabbit": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["AllRabbits+"],
 				"Level": 17,
@@ -22798,6 +22833,7 @@
 				"Priority": 19
 			},
 			"Grow a ~|grimy tarromin|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Tarromin seed"],
 				"Objects": ["Herb patch"],
 				"Level": 19,
@@ -22813,6 +22849,7 @@
 				"Priority": 2
 			},
 			"Grow ~|sweetcorn|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Sweetcorn seed"],
 				"Objects": ["Allotment"],
 				"Level": 20,
@@ -22821,6 +22858,7 @@
 				"Priority": 1
 			},
 			"Grow ~|Krandorian hops|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Krandorian seed"],
 				"Objects": ["Hops patch"],
 				"Level": 21,
@@ -22829,6 +22867,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|cadavaberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Cadavaberry seed"],
 				"Objects": ["Bush patch"],
 				"Level": 22,
@@ -22843,6 +22882,7 @@
 				"Priority": 2
 			},
 			"Gather a ~|hay sack|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Empty sack"],
 				"Objects": ["Haystack+"],
 				"Level": 23,
@@ -22851,6 +22891,7 @@
 				"Priority": 1
 			},
 			"Make a ~|hay sack (spear)|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Hay sack", "Bronze spear"],
 				"Objects": ["Haystack+"],
 				"Level": 23,
@@ -22859,6 +22900,7 @@
 				"Priority": 2
 			},
 			"Construct a ~|scarecrow|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Hay sack (spear)", "Watermelon"],
 				"Objects": ["Haystack+"],
 				"Level": 23,
@@ -22867,6 +22909,7 @@
 				"Priority": 3
 			},
 			"Grow ~|nasturtiums|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Nasturtium seed"],
 				"Objects": ["Flower patch"],
 				"Level": 24,
@@ -22875,6 +22918,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|woad plant|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Woad seed"],
 				"Objects": ["Flower patch"],
 				"Level": 25,
@@ -22892,6 +22936,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|limpwurt plant|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Limpwurt seed"],
 				"Objects": ["Flower patch"],
 				"Level": 26,
@@ -22900,6 +22945,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy harralander|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Harralander seed"],
 				"Objects": ["Herb patch"],
 				"Level": 26,
@@ -22915,6 +22961,7 @@
 				"Priority": 2
 			},
 			"Plant an ~|apple seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Apple tree seed"],
 				"Level": 27,
 				"Output": "Apple seedling",
@@ -22922,6 +22969,7 @@
 				"Priority": 1
 			},
 			"Water an ~|apple seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Apple seedling", "WateringCan+"],
 				"Level": 27,
 				"Output": "Apple sapling",
@@ -22929,6 +22977,7 @@
 				"Priority": 2
 			},
 			"Grow an ~|apple tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Apple sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 27,
@@ -22937,6 +22986,7 @@
 				"Priority": 3
 			},
 			"Grow ~|wildblood hops|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Wildblood seed"],
 				"Objects": ["Hops patch"],
 				"Level": 28,
@@ -22956,6 +23006,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|common white hen|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["CommonWhiteHen+"],
 				"Level": 28,
@@ -22964,6 +23015,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|rooster|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Rooster+"],
 				"Level": 28,
@@ -22972,6 +23024,7 @@
 				"Priority": 4
 			},
 			"Raise a ~|bandosian bantam hen|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Bandosian bantam hen (unchecked)"],
 				"Level": 28,
@@ -22980,6 +23033,7 @@
 				"Priority": 5
 			},
 			"Raise a ~|varrockian red hen|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Varrockian red hen (unchecked)"],
 				"Level": 28,
@@ -22988,6 +23042,7 @@
 				"Priority": 6
 			},
 			"Raise a ~|oomlie hen|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Oomlie hen (unchecked)"],
 				"Level": 28,
@@ -22996,6 +23051,7 @@
 				"Priority": 7
 			},
 			"Breed a ~|common white hen|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantChicken+"],
 				"Level": 28,
@@ -23004,6 +23060,7 @@
 				"Priority": 8
 			},
 			"Breed a ~|bandosian bantam hen|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Rooster+", "CommonWhiteHen+"],
 				"Level": 28,
@@ -23012,6 +23069,7 @@
 				"Priority": 9
 			},
 			"Breed a ~|varrockian red hen|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Rooster+", "CommonWhiteHen+"],
 				"Level": 28,
@@ -23020,6 +23078,7 @@
 				"Priority": 10
 			},
 			"Breed a ~|oomlie hen|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Rooster+", "CommonWhiteHen+"],
 				"Level": 28,
@@ -23028,6 +23087,7 @@
 				"Priority": 11
 			},
 			"Muck out ~|bird droppings|~ from a chicken": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["AllChickens+"],
 				"Level": 28,
@@ -23035,6 +23095,7 @@
 				"Priority": 12
 			},
 			"Grow ~|goutweed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Gout tuber"],
 				"Objects": ["Hops patch"],
 				"Level": 29,
@@ -23043,6 +23104,7 @@
 				"Priority": 1
 			},
 			"Plant a ~|willow seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Willow seed"],
 				"Level": 30,
 				"Output": "Willow seedling",
@@ -23050,6 +23112,7 @@
 				"Priority": 1
 			},
 			"Water a ~|willow seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Willow seedling", "WateringCan+"],
 				"Level": 30,
 				"Output": "Willow sapling",
@@ -23057,6 +23120,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|willow tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Willow sapling"],
 				"Objects": ["Tree patch"],
 				"Level": 30,
@@ -23074,7 +23138,7 @@
 				"Objects": ["Rose bush"],
 				"Level": 30,
 				"Output": "CultivateHetBush",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 5
 			},
 			"Harvest a ~|rose bush|~": {
@@ -23085,6 +23149,7 @@
 				"Priority": 6
 			},
 			"Grow a ~|strawberry plant|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Strawberry seed"],
 				"Objects": ["Allotment"],
 				"Level": 31,
@@ -23093,6 +23158,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy ranarr|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Ranarr seed"],
 				"Objects": ["Herb patch"],
 				"Level": 32,
@@ -23108,6 +23174,7 @@
 				"Priority": 2
 			},
 			"Plant a ~|banana seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Banana tree seed"],
 				"Level": 33,
 				"Output": "Banana seedling",
@@ -23115,6 +23182,7 @@
 				"Priority": 1
 			},
 			"Water a ~|banana seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Banana seedling", "WateringCan+"],
 				"Level": 33,
 				"Output": "Banana sapling",
@@ -23122,6 +23190,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|banana tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Banana sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 33,
@@ -23141,6 +23210,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|white sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["WhiteSheep+"],
 				"Level": 35,
@@ -23149,6 +23219,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|black sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["BlackSheep+"],
 				"Level": 35,
@@ -23157,6 +23228,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|fallfaced sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["FallfacedSheep+"],
 				"Level": 35,
@@ -23165,6 +23237,7 @@
 				"Priority": 4
 			},
 			"Raise a ~|springsheared sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["SpringshearedSheep+"],
 				"Level": 35,
@@ -23173,6 +23246,7 @@
 				"Priority": 5
 			},
 			"Raise a ~|summerdown sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["SummerdownSheep+"],
 				"Level": 35,
@@ -23181,6 +23255,7 @@
 				"Priority": 6
 			},
 			"Raise a ~|winterwold sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["WinterwoldSheep+"],
 				"Level": 35,
@@ -23189,6 +23264,7 @@
 				"Priority": 7
 			},
 			"Breed a ~|white sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantEwe+", "VariantRam+"],
 				"Level": 35,
@@ -23197,6 +23273,7 @@
 				"Priority": 8
 			},
 			"Breed a ~|black sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
 				"Level": 35,
@@ -23205,6 +23282,7 @@
 				"Priority": 9
 			},
 			"Breed a ~|fallfaced sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
 				"Level": 35,
@@ -23213,6 +23291,7 @@
 				"Priority": 10
 			},
 			"Breed a ~|springsheared sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
 				"Level": 35,
@@ -23221,6 +23300,7 @@
 				"Priority": 11
 			},
 			"Breed a ~|summerdown sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
 				"Level": 35,
@@ -23229,6 +23309,7 @@
 				"Priority": 12
 			},
 			"Breed a ~|winterwold sheep|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["White ewe (unchecked)", "White ram (unchecked)"],
 				"Level": 35,
@@ -23237,6 +23318,7 @@
 				"Priority": 13
 			},
 			"Harvest ~|manure|~ from a sheep": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["ManureSheep+", "Empty bucket"],
 				"Level": 35,
@@ -23245,6 +23327,7 @@
 				"Priority": 14
 			},
 			"Muck out ~|manure|~ from a sheep": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["ManureSheep+"],
 				"Level": 35,
@@ -23252,6 +23335,7 @@
 				"Priority": 15
 			},
 			"Harvest ~|green manure|~ from a sheep": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["ManureSheep+", "Empty bucket"],
 				"Level": 35,
@@ -23260,6 +23344,7 @@
 				"Priority": 16
 			},
 			"Grow a ~|dwellberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Dwellberry seed"],
 				"Objects": ["Bush patch"],
 				"Level": 36,
@@ -23268,6 +23353,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy spirit weed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Spirit weed seed"],
 				"Objects": ["Herb patch"],
 				"Level": 36,
@@ -23289,6 +23375,7 @@
 				"Priority":1
 			},
 			"Grow a ~|grimy toadflax|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Toadflax seed"],
 				"Objects": ["Herb patch"],
 				"Level": 38,
@@ -23304,6 +23391,7 @@
 				"Priority": 2
 			},
 			"Plant an ~|orange seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Orange tree seed"],
 				"Level": 39,
 				"Output": "Orange seedling",
@@ -23311,6 +23399,7 @@
 				"Priority": 1
 			},
 			"Water an ~|orange seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Orange seedling", "WateringCan+"],
 				"Level": 39,
 				"Output": "Orange sapling",
@@ -23318,6 +23407,7 @@
 				"Priority": 2
 			},
 			"Grow an ~|orange tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Orange sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 39,
@@ -23326,6 +23416,7 @@
 				"Priority": 3
 			},
 			"Plant a ~|curry seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Curry tree seed"],
 				"Level": 42,
 				"Output": "Curry seedling",
@@ -23333,6 +23424,7 @@
 				"Priority": 1
 			},
 			"Water a ~|curry seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Curry seedling", "WateringCan+"],
 				"Level": 42,
 				"Output": "Curry sapling",
@@ -23340,6 +23432,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|curry tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Curry sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 42,
@@ -23348,6 +23441,7 @@
 				"Priority": 3
 			},
 			"Grow an ~|evil turnip|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Evil turnip seed"],
 				"Objects": ["Evil turnip patch"],
 				"Level": 42,
@@ -23373,6 +23467,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|common green frog|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
@@ -23381,6 +23476,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|phantasmal poison frog|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
 				"Items": ["Phantasmal poison frog (unchecked)"],
 				"Level": 42,
@@ -23389,6 +23485,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|sky-blue poison frog|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
 				"Items": ["Sky-blue poison frog (unchecked)"],
 				"Level": 42,
@@ -23397,6 +23494,7 @@
 				"Priority": 4
 			},
 			"Raise a ~|golden poison frog|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
 				"Items": ["Golden poison frog (unchecked)"],
 				"Level": 42,
@@ -23405,6 +23503,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|common green frog|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantFrog+"],
 				"Level": 42,
@@ -23413,6 +23512,7 @@
 				"Priority": 6
 			},
 			"Breed a ~|phantasmal poison frog|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
@@ -23421,6 +23521,7 @@
 				"Priority": 7
 			},
 			"Breed a ~|sky-blue poison frog|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
@@ -23429,6 +23530,7 @@
 				"Priority": 8
 			},
 			"Breed a ~|golden poison frog|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
@@ -23437,6 +23539,7 @@
 				"Priority": 9
 			},
 			"Grow a ~|grimy irit|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Irit seed"],
 				"Objects": ["Herb patch"],
 				"Level": 44,
@@ -23452,6 +23555,7 @@
 				"Priority": 2
 			},
 			"Plant a ~|maple seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Maple seed"],
 				"Level": 45,
 				"Output": "Maple seedling",
@@ -23459,6 +23563,7 @@
 				"Priority": 1
 			},
 			"Water a ~|maple seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Maple seedling", "WateringCan+"],
 				"Level": 45,
 				"Output": "Maple sapling",
@@ -23466,6 +23571,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|maple tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Maple sapling"],
 				"Objects": ["Tree patch"],
 				"Level": 45,
@@ -23474,6 +23580,7 @@
 				"Priority": 3
 			},
 			"Grow a ~|grimy wergali|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Wergali seed"],
 				"Objects": ["Herb patch"],
 				"Level": 46,
@@ -23489,6 +23596,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|watermelon|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Watermelon seed"],
 				"Objects": ["Allotment"],
 				"Level": 47,
@@ -23497,6 +23605,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|jangerberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Jangerberry seed"],
 				"Objects": ["Bush patch"],
 				"Level": 48,
@@ -23516,6 +23625,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|Kandarin cow|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["Kandarin cow (unchecked)"],
 				"Level": 49,
@@ -23524,6 +23634,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|chocolate cow|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["Chocolate cow (unchecked)"],
 				"Level": 49,
@@ -23532,6 +23643,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|strawberry cow|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["Strawberry cow (unchecked)"],
 				"Level": 49,
@@ -23540,6 +23652,7 @@
 				"Priority": 4
 			},
 			"Raise a ~|vanilla cow|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["Vanilla cow (unchecked)"],
 				"Level": 49,
@@ -23548,6 +23661,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|Kandarin cow|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantCow+"],
 				"Level": 49,
@@ -23556,6 +23670,7 @@
 				"Priority": 6
 			},
 			"Breed a ~|chocolate cow|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Kandarin Cow (unchecked)"],
 				"Level": 49,
@@ -23564,6 +23679,7 @@
 				"Priority": 7
 			},
 			"Breed a ~|strawberry cow|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Kandarin Cow (unchecked)"],
 				"Level": 49,
@@ -23572,6 +23688,7 @@
 				"Priority": 8
 			},
 			"Breed a ~|vanilla cow|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Kandarin Cow (unchecked)"],
 				"Level": 49,
@@ -23580,6 +23697,7 @@
 				"Priority": 9
 			},
 			"Harvest ~|manure|~ from a cow": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureCow+", "Empty bucket"],
 				"Level": 49,
@@ -23588,6 +23706,7 @@
 				"Priority": 10
 			},
 			"Muck out ~|manure|~ from a cow": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureCow+"],
 				"Level": 49,
@@ -23595,6 +23714,7 @@
 				"Priority": 11
 			},
 			"Harvest ~|green manure|~ from a cow": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureCow+", "Empty bucket"],
 				"Level": 49,
@@ -23603,6 +23723,7 @@
 				"Priority": 12
 			},
 			"Pick a ~|star flower|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Star flower"],
 				"Level": 49,
 				"Output": "Star flower",
@@ -23610,6 +23731,7 @@
 				"Priority": 13
 			},
 			"Grow a ~|grimy aventoe|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Aventoe seed"],
 				"Objects": ["Herb patch"],
 				"Level": 50,
@@ -23621,7 +23743,7 @@
 				"Objects": ["Iris bush"],
 				"Level": 50,
 				"Output": "CultivateHetBush",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 2
 			},
 			"Harvest an ~|iris bush|~": {
@@ -23639,6 +23761,7 @@
 				"Priority": 4
 			},
 			"Plant a ~|pineapple seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Pineapple seed"],
 				"Level": 51,
 				"Output": "Pineapple seedling",
@@ -23646,6 +23769,7 @@
 				"Priority": 1
 			},
 			"Water a ~|pineapple seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Pineapple seedling", "WateringCan+"],
 				"Level": 51,
 				"Output": "Pineapple sapling",
@@ -23653,6 +23777,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|pineapple plant|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Pineapple sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 51,
@@ -23661,6 +23786,7 @@
 				"Priority": 3
 			},
 			"Grow a ~|white lily|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["White lily seed"],
 				"Objects": ["Flower patch"],
 				"Level": 52,
@@ -23669,6 +23795,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|bittercap mushroom|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Bittercap mushroom spore"],
 				"Objects": ["Mushroom patch"],
 				"Level": 53,
@@ -23677,6 +23804,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|jade vine|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Jade vine seed"],
 				"Objects": ["Jade vine patch"],
 				"Level": 53,
@@ -23684,6 +23812,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|red vine blossom|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Red blossom seed"],
 				"Objects": ["Vine flower patch"],
 				"Level": 54,
@@ -23692,6 +23821,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|blue vine blossom|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Blue blossom seed"],
 				"Objects": ["Vine flower patch"],
 				"Level": 54,
@@ -23700,6 +23830,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|green vine blossom|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Green blossom seed"],
 				"Objects": ["Vine flower patch"],
 				"Level": 54,
@@ -23708,6 +23839,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|grey chinchompa|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Grey chinchompa (unchecked)"],
 				"Level": 54,
@@ -23716,6 +23848,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|carnivorous chinchompa|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Carnivorous chinchompa (unchecked)"],
 				"Level": 54,
@@ -23724,6 +23857,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|cobalt chinchompa|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Cobalt chinchompa (unchecked)"],
 				"Level": 54,
@@ -23732,6 +23866,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|viridian chinchompa|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Viridian chinchompa (unchecked)"],
 				"Level": 54,
@@ -23740,6 +23875,7 @@
 				"Priority": 4
 			},
 			"Raise a ~|azure chinchompa|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Azure chinchompa (unchecked)"],
 				"Level": 54,
@@ -23748,6 +23884,7 @@
 				"Priority": 5
 			},
 			"Raise a ~|crimson chinchompa|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Crimson chinchompa (unchecked)"],
 				"Level": 54,
@@ -23756,6 +23893,7 @@
 				"Priority": 6
 			},
 			"Raise a ~|crystal chinchompa|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["Crystal chinchompa (unchecked)"],
 				"Level": 54,
@@ -23764,6 +23902,7 @@
 				"Priority": 7
 			},
 			"Muck out ~|mammal droppings|~ from a chinchompa": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small animal pen"],
 				"Items": ["AllChins+"],
 				"Level": 54,
@@ -23771,6 +23910,7 @@
 				"Priority": 8
 			},
 			"Grow a ~|cactus|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Cactus seed"],
 				"Objects": ["Cactus patch"],
 				"Level": 55,
@@ -23779,6 +23919,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy kwuarm|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Kwuarm seed"],
 				"Objects": ["Herb patch"],
 				"Level": 56,
@@ -23794,6 +23935,7 @@
 				"Priority": 2
 			},
 			"Plant a ~|papaya seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Papaya tree seed"],
 				"Level": 57,
 				"Output": "Papaya seedling",
@@ -23801,6 +23943,7 @@
 				"Priority": 1
 			},
 			"Water a ~|papaya seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Papaya seedling", "WateringCan+"],
 				"Level": 57,
 				"Output": "Papaya sapling",
@@ -23808,6 +23951,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|papaya tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Papaya sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 57,
@@ -23816,6 +23960,7 @@
 				"Priority": 3
 			},
 			"Grow a ~|grimy bloodweed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Kwuarm seed"],
 				"Objects": ["Herb patch"],
 				"Chunks": ["12603"],
@@ -23825,6 +23970,7 @@
 				"Priority": 4
 			},
 			"Grow a ~|grimy erzille|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Erzille seed"],
 				"Objects": ["Vine herb patch"],
 				"Level": 58,
@@ -23833,6 +23979,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|whiteberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["White berry seed"],
 				"Objects": ["Bush patch"],
 				"Level": 59,
@@ -23841,6 +23988,7 @@
 				"Priority": 1
 			},
 			"Plant a ~|yew seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Yew seed"],
 				"Level": 60,
 				"Output": "Yew seedling",
@@ -23848,6 +23996,7 @@
 				"Priority": 1
 			},
 			"Water a ~|yew seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Yew seedling", "WateringCan+"],
 				"Level": 60,
 				"Output": "Yew sapling",
@@ -23855,6 +24004,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|yew tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Yew sapling"],
 				"Objects": ["Tree patch"],
 				"Level": 60,
@@ -23875,6 +24025,7 @@
 				"Priority": 4
 			},
 			"Grow a ~|lergberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Lergberry seed"],
 				"Objects": ["Vine bush patch"],
 				"Level": 61,
@@ -23883,6 +24034,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy snapdragon|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Snapdragon seed"],
 				"Objects": ["Herb patch"],
 				"Level": 62,
@@ -23898,6 +24050,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|belladonna|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Belladonna seed"],
 				"Objects": ["Belladonna patch"],
 				"Level": 63,
@@ -23917,6 +24070,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|spirit spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["SpiritSpider+"],
 				"Level": 64,
@@ -23925,6 +24079,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|night spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Night spider (unchecked)"],
 				"Level": 64,
@@ -23933,6 +24088,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|corpse spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Corpse spider (unchecked)"],
 				"Level": 64,
@@ -23941,6 +24097,7 @@
 				"Priority": 4
 			},
 			"Raise an ~|ice spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Ice spider (unchecked)"],
 				"Level": 64,
@@ -23949,6 +24106,7 @@
 				"Priority": 5
 			},
 			"Raise a ~|fever spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Fever spider (unchecked)"],
 				"Level": 64,
@@ -23957,6 +24115,7 @@
 				"Priority": 6
 			},
 			"Raise a ~|giant spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Giant spider (unchecked)"],
 				"Level": 64,
@@ -23965,6 +24124,7 @@
 				"Priority": 7
 			},
 			"Breed a ~|spirit spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantSpider+"],
 				"Level": 64,
@@ -23973,6 +24133,7 @@
 				"Priority": 8
 			},
 			"Breed a ~|night spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["SpiritSpider+"],
 				"Level": 64,
@@ -23981,6 +24142,7 @@
 				"Priority": 9
 			},
 			"Breed a ~|corpse spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["SpiritSpider+"],
 				"Level": 64,
@@ -23989,6 +24151,7 @@
 				"Priority": 10
 			},
 			"Breed an ~|ice spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["SpiritSpider+"],
 				"Level": 64,
@@ -23997,6 +24160,7 @@
 				"Priority": 11
 			},
 			"Breed a ~|fever spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["SpiritSpider+"],
 				"Level": 64,
@@ -24005,6 +24169,7 @@
 				"Priority": 12
 			},
 			"Breed a ~|giant spider|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["SpiritSpider+"],
 				"Level": 64,
@@ -24013,6 +24178,7 @@
 				"Priority": 13
 			},
 			"Grow a ~|grimy argway|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Argway seed"],
 				"Objects": ["Vine herb patch"],
 				"Level": 65,
@@ -24021,6 +24187,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy cadantine|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Cadantine seed"],
 				"Objects": ["Herb patch"],
 				"Level": 67,
@@ -24036,6 +24203,7 @@
 				"Priority": 2
 			},
 			"Plant a ~|palm seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Palm tree seed"],
 				"Level": 68,
 				"Output": "Palm seedling",
@@ -24043,6 +24211,7 @@
 				"Priority": 1
 			},
 			"Water a ~|palm seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Palm seedling", "WateringCan+"],
 				"Level": 68,
 				"Output": "Palm sapling",
@@ -24050,6 +24219,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|palm tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Palm sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 68,
@@ -24058,6 +24228,7 @@
 				"Priority": 3
 			},
 			"Grow a ~|poison ivy bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Poison ivy seed"],
 				"Objects": ["Bush patch"],
 				"Level": 70,
@@ -24066,6 +24237,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy ugune|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Ugune seed"],
 				"Objects": ["Vine herb patch"],
 				"Level": 70,
@@ -24074,6 +24246,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|devil's snare|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Devil's snare seed"],
 				"Objects": ["Fertile soil patch"],
 				"Level": 70,
@@ -24085,7 +24258,7 @@
 				"Objects": ["Hydrangea bush"],
 				"Level": 70,
 				"Output": "CultivateHetBush",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 4
 			},
 			"Harvest a ~|hydrangea bush|~": {
@@ -24107,6 +24280,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|Fremennik yak|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["Fremennik yak (unchecked)"],
 				"Level": 71,
@@ -24115,6 +24289,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|spirit yak|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["Spirit yak (unchecked)"],
 				"Level": 71,
@@ -24123,6 +24298,7 @@
 				"Priority": 3
 			},
 			"Breed a ~|Fremennik yak|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Spirit yak (unchecked)"],
 				"Level": 71,
@@ -24131,6 +24307,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|spirit yak|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Fremennik yak (unchecked)"],
 				"Level": 71,
@@ -24139,6 +24316,7 @@
 				"Priority": 5
 			},
 			"Harvest ~|manure|~ from a yak": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureYak+", "Empty bucket"],
 				"Level": 71,
@@ -24147,6 +24325,7 @@
 				"Priority": 6
 			},
 			"Muck out ~|manure|~ from a yak": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureYak+"],
 				"Level": 71,
@@ -24154,6 +24333,7 @@
 				"Priority": 7
 			},
 			"Harvest ~|green manure|~ from a yak": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureYak+", "Empty bucket"],
 				"Level": 71,
@@ -24162,6 +24342,7 @@
 				"Priority": 8
 			},
 			"Plant a ~|calquat seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Calquat tree seed"],
 				"Level": 72,
 				"Output": "Calquat seedling",
@@ -24169,6 +24350,7 @@
 				"Priority": 1
 			},
 			"Water a ~|calquat seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Calquat seedling", "WateringCan+"],
 				"Level": 72,
 				"Output": "Calquat sapling",
@@ -24176,6 +24358,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|calquat tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Calquat sapling"],
 				"Objects": ["Calquat patch"],
 				"Level": 72,
@@ -24184,6 +24367,7 @@
 				"Priority": 3
 			},
 			"Grow a ~|grimy lantadyme|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Lantadyme seed"],
 				"Objects": ["Herb patch"],
 				"Level": 73,
@@ -24199,6 +24383,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|morchella mushroom|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Morchella mushroom spore"],
 				"Objects": ["Mushroom patch"],
 				"Level": 74,
@@ -24207,6 +24392,7 @@
 				"Priority": 1
 			},
 			"Plant a ~|magic seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Magic seed"],
 				"Level": 75,
 				"Output": "Magic seedling",
@@ -24214,6 +24400,7 @@
 				"Priority": 1
 			},
 			"Water a ~|magic seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Magic seedling", "WateringCan+"],
 				"Level": 75,
 				"Output": "Magic sapling",
@@ -24221,6 +24408,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|magic tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Magic sapling"],
 				"Objects": ["Tree patch"],
 				"Level": 75,
@@ -24229,6 +24417,7 @@
 				"Priority": 3
 			},
 			"Grow ~|harmony moss|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Harmony moss seed"],
 				"Objects": ["Harmony pillar"],
 				"Level": 75,
@@ -24237,6 +24426,7 @@
 				"Priority": 4
 			},
 			"Grow a ~|luminous snaggler|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Luminous snaggler seed"],
 				"Objects": ["Fertile soil patch"],
 				"Level": 75,
@@ -24256,6 +24446,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|common jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24264,6 +24455,7 @@
 				"Priority": 2
 			},
 			"Raise an ~|amphibious jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Amphibious jadinko (unchecked)"],
 				"Level": 76,
@@ -24272,6 +24464,7 @@
 				"Priority": 3
 			},
 			"Raise an ~|aquatic jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Aquatic jadinko (unchecked)"],
 				"Level": 76,
@@ -24280,6 +24473,7 @@
 				"Priority": 4
 			},
 			"Raise a ~|camouflaged jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Camouflaged jadinko (unchecked)"],
 				"Level": 76,
@@ -24288,6 +24482,7 @@
 				"Priority": 5
 			},
 			"Raise a ~|cannibal jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Cannibal jadinko (unchecked)"],
 				"Level": 76,
@@ -24296,6 +24491,7 @@
 				"Priority": 6
 			},
 			"Raise a ~|carrion jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Carrion jadinko (unchecked)"],
 				"Level": 76,
@@ -24304,6 +24500,7 @@
 				"Priority": 7
 			},
 			"Raise a ~|diseased jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Diseased jadinko (unchecked)"],
 				"Level": 76,
@@ -24312,6 +24509,7 @@
 				"Priority": 8
 			},
 			"Raise a ~|draconic jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Draconic jadinko (unchecked)"],
 				"Level": 76,
@@ -24320,6 +24518,7 @@
 				"Priority": 9
 			},
 			"Raise an ~|igneous jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Igenous jadinko (unchecked)"],
 				"Level": 76,
@@ -24328,6 +24527,7 @@
 				"Priority": 10
 			},
 			"Raise a ~|shadow jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Shadow jadinko (unchecked)"],
 				"Level": 76,
@@ -24336,6 +24536,7 @@
 				"Priority": 11
 			},
 			"Breed a ~|common jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantJadinko+"],
 				"Level": 76,
@@ -24344,6 +24545,7 @@
 				"Priority": 12
 			},
 			"Breed an ~|amphibious jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24352,6 +24554,7 @@
 				"Priority": 13
 			},
 			"Breed an ~|aquatic jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24360,6 +24563,7 @@
 				"Priority": 14
 			},
 			"Breed a ~|camouflaged jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24368,6 +24572,7 @@
 				"Priority": 15
 			},
 			"Breed a ~|cannibal jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24376,6 +24581,7 @@
 				"Priority": 16
 			},
 			"Breed a ~|carrion jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24384,6 +24590,7 @@
 				"Priority": 17
 			},
 			"Breed a ~|diseased jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24392,6 +24599,7 @@
 				"Priority": 18
 			},
 			"Breed a ~|draconic jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24400,6 +24608,7 @@
 				"Priority": 19
 			},
 			"Breed an ~|igneous jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24408,6 +24617,7 @@
 				"Priority": 20
 			},
 			"Breed a ~|shadow jadinko|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
@@ -24416,6 +24626,7 @@
 				"Priority": 21
 			},
 			"Grow a ~|grimy shengo|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Shengo seed"],
 				"Objects": ["Vine herb patch"],
 				"Level": 76,
@@ -24424,6 +24635,7 @@
 				"Priority": 22
 			},
 			"Grow a ~|prickly pear|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Prickly pear seed"],
 				"Objects": ["Cactus patch"],
 				"Level": 76,
@@ -24434,6 +24646,7 @@
 				"Priority": 23
 			},
 			"Grow a ~|grimy arbuck|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Arbuck seed"],
 				"Objects": ["Herb patch"],
 				"Level": 77,
@@ -24442,6 +24655,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|kalferberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Kalferberry seed"],
 				"Objects": ["Vine bush patch"],
 				"Level": 77,
@@ -24450,6 +24664,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|barberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Barberry seed"],
 				"Objects": ["Bush patch"],
 				"Level": 77,
@@ -24460,6 +24675,7 @@
 				"Priority": 3
 			},
 			"Grow ~|reeds|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Kalferberry seed"],
 				"Objects": ["Hops patch"],
 				"Level": 78,
@@ -24468,6 +24684,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|grimy dwarf weed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Dwarf weed seed"],
 				"Objects": ["Herb patch"],
 				"Level": 79,
@@ -24483,6 +24700,7 @@
 				"Priority": 2
 			},
 			"Grow ~|snape grass|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Snape grass seed"],
 				"Objects": ["Allotment"],
 				"Level": 80,
@@ -24498,6 +24716,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|grimy samaden|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Samaden seed"],
 				"Objects": ["Vine herb patch"],
 				"Level": 80,
@@ -24506,6 +24725,7 @@
 				"Priority": 3
 			},
 			"Create a piece of any ~|farmer outfit|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Master farmer fragment"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 80,
@@ -24517,6 +24737,7 @@
 				"Priority": 4
 			},
 			"Raise a ~|gloomshroom zygomite|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Gloomshroom zygomite (unchecked)"],
 				"Level": 81,
@@ -24525,6 +24746,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|zanarian zygomite|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Zanarian zygomite (unchecked)"],
 				"Level": 81,
@@ -24533,6 +24755,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|daemoncap zygomite|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Daemoncap zygomite (unchecked)"],
 				"Level": 81,
@@ -24541,6 +24764,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|arcspore zygomite|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
 				"Items": ["Arcspore zygomite (unchecked)"],
 				"Level": 81,
@@ -24549,6 +24773,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|zanarian zygomite|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["ZanarianZygoParents"],
 				"Level": 81,
@@ -24557,6 +24782,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|daemoncap zygomite|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["DaemonZygoParents"],
 				"Level": 81,
@@ -24565,6 +24791,7 @@
 				"Priority": 6
 			},
 			"Breed a ~|arcspore zygomite|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["ArcZygoParents"],
 				"Level": 81,
@@ -24573,6 +24800,7 @@
 				"Priority": 7
 			},
 			"Grow a ~|lampenflora|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Lampenflora seed"],
 				"Objects": ["Fertile soil patch"],
 				"Level": 82,
@@ -24581,6 +24809,7 @@
 				"Priority": 1
 			},
 			"Plant a ~|spirit seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Spirit seed"],
 				"Level": 83,
 				"Output": "Spirit seedling",
@@ -24588,6 +24817,7 @@
 				"Priority": 1
 			},
 			"Water a ~|spirit seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Spirit seedling", "WateringCan+"],
 				"Level": 83,
 				"Output": "Spirit sapling",
@@ -24595,6 +24825,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|spirit tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Spirit sapling"],
 				"Objects": ["Sprit tree patch"],
 				"Level": 83,
@@ -24603,6 +24834,7 @@
 				"Priority": 3
 			},
 			"Grow a ~|grimy torstol|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Torstol seed"],
 				"Objects": ["Herb patch"],
 				"Level": 85,
@@ -24618,6 +24850,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|potato cactus|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Potato cactus seed"],
 				"Objects": ["Cactus patch"],
 				"Level": 86,
@@ -24626,6 +24859,7 @@
 				"Priority": 1
 			},
 			"Forage a ~|wild rumberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Rumberry bush"],
 				"Level": 86,
 				"Output": "WildRumberryBush",
@@ -24633,6 +24867,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|rumberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Rumberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24641,6 +24876,7 @@
 				"Priority": 2
 			},
 			"Forage a ~|wild exuberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Exuberry bush"],
 				"Level": 86,
 				"Output": "WildExuberryBush",
@@ -24648,6 +24884,7 @@
 				"Priority": 3
 			},
 			"Grow an ~|exuberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Exuberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24656,6 +24893,7 @@
 				"Priority": 4
 			},
 			"Cross-pollinate a ~|fireberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Exuberry seed", "Rumberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24664,6 +24902,7 @@
 				"Priority": 4
 			},
 			"Grow a ~|fireberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Fireberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24672,6 +24911,7 @@
 				"Priority": 5
 			},
 			"Cross-pollinate a ~|blisterberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Fireberry seed", "Rumberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24680,6 +24920,7 @@
 				"Priority": 6
 			},
 			"Grow a ~|blisterberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Blisterberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24688,6 +24929,7 @@
 				"Priority": 7
 			},
 			"Cross-pollinate a ~|mournberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Fireberry seed", "Exuberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24696,6 +24938,7 @@
 				"Priority": 8
 			},
 			"Grow a ~|mournberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Mournberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24704,6 +24947,7 @@
 				"Priority": 9
 			},
 			"Grow a ~|stoneberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Stoneberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24712,6 +24956,7 @@
 				"Priority": 10
 			},
 			"Grow a ~|stormberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Stormberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24720,6 +24965,7 @@
 				"Priority": 11
 			},
 			"Cross-pollinate a ~|rosaberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Rumberry seed", "Stoneberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24728,6 +24974,7 @@
 				"Priority": 12
 			},
 			"Grow a ~|rosaberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Rosaberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24736,6 +24983,7 @@
 				"Priority": 13
 			},
 			"Cross-pollinate a ~|squiffberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Rumberry seed", "Blisterberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24744,6 +24992,7 @@
 				"Priority": 14
 			},
 			"Grow a ~|squiffberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Squiffberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24752,6 +25001,7 @@
 				"Priority": 15
 			},
 			"Cross-pollinate a ~|meloberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Rumberry seed", "Mournberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24760,6 +25010,7 @@
 				"Priority": 16
 			},
 			"Grow a ~|meloberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Meloberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24768,6 +25019,7 @@
 				"Priority": 17
 			},
 			"Cross-pollinate a ~|jitterberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Exuberry seed", "Blisterberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24776,6 +25028,7 @@
 				"Priority": 18
 			},
 			"Grow a ~|jitterberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Jitterberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24784,6 +25037,7 @@
 				"Priority": 19
 			},
 			"Cross-pollinate a ~|cocoaberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Exuberry seed", "Mournberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24792,6 +25046,7 @@
 				"Priority": 18
 			},
 			"Grow a ~|cocoaberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Cocoaberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24800,6 +25055,7 @@
 				"Priority": 19
 			},
 			"Cross-pollinate a ~|smoulderberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Blisterberry seed", "Fireberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24808,6 +25064,7 @@
 				"Priority": 20
 			},
 			"Grow a ~|smoulderberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Smoulderberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24816,6 +25073,7 @@
 				"Priority": 21
 			},
 			"Cross-pollinate a ~|sourberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Mournberry seed", "Fireberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24824,6 +25082,7 @@
 				"Priority": 22
 			},
 			"Grow a ~|sourberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Sourberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24832,6 +25091,7 @@
 				"Priority": 23
 			},
 			"Cross-pollinate a ~|gloomberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Mournberry seed", "Blisterberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24840,6 +25100,7 @@
 				"Priority": 24
 			},
 			"Grow a ~|gloomberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Gloomberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24848,6 +25109,7 @@
 				"Priority": 25
 			},
 			"Cross-pollinate a ~|musaberry seed|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Exuberry seed", "Stormberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24856,6 +25118,7 @@
 				"Priority": 26
 			},
 			"Grow a ~|musaberry bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Musaberry seed"],
 				"Objects": ["Berry planter"],
 				"Level": 86,
@@ -24864,6 +25127,7 @@
 				"Priority": 27
 			},
 			"Grow a ~|sunchoke|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Sunchoke seed"],
 				"Objects": ["Allotment"],
 				"Level": 87,
@@ -24874,6 +25138,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|butterfly flower|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Butterfly flower seed"],
 				"Objects": ["Flower patch"],
 				"Level": 88,
@@ -24882,6 +25147,7 @@
 				"Priority": 1
 			},
 			"Plant an ~|elder seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Elder seed"],
 				"Level": 90,
 				"Output": "Elder seedling",
@@ -24889,6 +25155,7 @@
 				"Priority": 1
 			},
 			"Water an ~|elder seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Elder seedling", "WateringCan+"],
 				"Level": 90,
 				"Output": "Elder sapling",
@@ -24896,6 +25163,7 @@
 				"Priority": 2
 			},
 			"Grow an ~|elder tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Elder sapling"],
 				"Objects": ["Elder tree patch"],
 				"Level": 90,
@@ -24904,6 +25172,7 @@
 				"Priority": 3
 			},
 			"Harvest a ~|mushroom cluster|~ on The Islands That Once Were Turtles": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Mushroom cluster"],
 				"Level": 90,
 				"Output": "TITOWTMushroomYield",
@@ -24911,6 +25180,7 @@
 				"Priority": 2
 			},
 			"Harvest a ~|mushroom cluster|~ on Goshima": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Mushroom cluster"],
 				"Level": 90,
 				"Output": "GoshimaMushroomYield",
@@ -24918,6 +25188,7 @@
 				"Priority": 2
 			},
 			"Make ~|sliced mushrooms (The Arc)|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["ArcMushrooms+"],
 				"Level": 90,
 				"Skills": {
@@ -24928,6 +25199,7 @@
 				"Priority": 3
 			},
 			"Grow a ~|liverwort|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Liverwort seed"],
 				"Objects": ["Fertile soil patch"],
 				"Level": 90,
@@ -24939,7 +25211,7 @@
 				"Objects": ["Hollyhock bush"],
 				"Level": 90,
 				"Output": "CultivateHetBush",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 5
 			},
 			"Harvest a ~|hollyhock bush|~": {
@@ -24950,6 +25222,7 @@
 				"Priority": 6
 			},
 			"Grow a ~|grimy fellstalk|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Fellstalk seed"],
 				"Objects": ["Herb patch"],
 				"Level": 91,
@@ -24965,6 +25238,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|green dragon|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["GreenDragonEgg+"],
 				"Level": 92,
@@ -24973,6 +25247,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|blue dragon|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["BlueDragonEgg+"],
 				"Level": 92,
@@ -24981,6 +25256,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|red dragon|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["RedDragonEgg+"],
 				"Level": 92,
@@ -24989,6 +25265,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|black dragon|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["BlackDragonEgg+"],
 				"Level": 92,
@@ -24997,6 +25274,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|green dragon|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantDragon+"],
 				"Level": 92,
@@ -25005,6 +25283,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|blue dragon|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["GreenDragonEgg+"],
 				"Level": 92,
@@ -25013,6 +25292,7 @@
 				"Priority": 6
 			},
 			"Breed a ~|red dragon|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["GreenDragonEgg+"],
 				"Level": 92,
@@ -25021,6 +25301,7 @@
 				"Priority": 7
 			},
 			"Breed a ~|black dragon|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["GreenDragonEgg+"],
 				"Level": 92,
@@ -25029,6 +25310,7 @@
 				"Priority": 8
 			},
 			"Harvest ~|green manure|~ from a baby dragon": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureDragon+", "Empty bucket"],
 				"Level": 92,
@@ -25037,6 +25319,7 @@
 				"Priority": 9
 			},
 			"Muck out ~|manure|~ from a dragon": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureDragon+"],
 				"Level": 92,
@@ -25044,6 +25327,7 @@
 				"Priority": 10
 			},
 			"Harvest ~|dragon manure|~ from a dragon": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
 				"Items": ["ManureDragon+", "Empty bucket"],
 				"Level": 92,
@@ -25052,6 +25336,7 @@
 				"Priority": 11
 			},
 			"Grow a ~|fly trap|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Fly trap seed"],
 				"Objects": ["Allotment"],
 				"Level": 93,
@@ -25069,6 +25354,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|crystal tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Crystal acorn"],
 				"Objects": ["Crystal tree patch"],
 				"Level": 94,
@@ -25077,6 +25363,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|grapevine|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Grapevine seed"],
 				"Objects": ["Hops patch"],
 				"Level": 95,
@@ -25085,6 +25372,7 @@
 				"Priority": 1
 			},
 			"Grow a ~|dragonfruit cactus|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Dragonfruit seed"],
 				"Objects": ["Cactus patch"],
 				"Level": 95,
@@ -25093,6 +25381,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|feral dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Feral dinosaur (unchecked)"],
 				"Level": 97,
@@ -25101,6 +25390,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|venomous dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Venomous dinosaur (unchecked)"],
 				"Level": 97,
@@ -25109,6 +25399,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|ripper dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Medium dinosaur pen"],
 				"Items": ["Ripper dinosaur (unchecked)"],
 				"Level": 97,
@@ -25117,6 +25408,7 @@
 				"Priority": 3
 			},
 			"Breed a ~|feral dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantVaranusaur+"],
 				"Level": 97,
@@ -25125,6 +25417,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|venomous dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Feral dinosaur (unchecked)"],
 				"Level": 97,
@@ -25133,6 +25426,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|ripper dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantVaranusaur+"],
 				"Level": 97,
@@ -25152,6 +25446,7 @@
 				"Priority": 1
 			},
 			"Raise an ~|arcane apoterrasaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Arcane apoterrasaur (unchecked)"],
 				"Level": 98,
@@ -25160,6 +25455,7 @@
 				"Priority": 2
 			},
 			"Raise an ~|arcane apoterrasaur natura|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Arcane apoterrasaur natura (unchecked)"],
 				"Level": 98,
@@ -25168,6 +25464,7 @@
 				"Priority": 3
 			},
 			"Raise an ~|arcane apoterrasaur iratum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Arcane apoterrasaur iratum (unchecked)"],
 				"Level": 98,
@@ -25176,6 +25473,7 @@
 				"Priority": 4
 			},
 			"Breed an ~|arcane apoterrasaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantApoterrasaur+"],
 				"Level": 98,
@@ -25184,6 +25482,7 @@
 				"Priority": 5
 			},
 			"Breed an ~|arcane apoterrasaur natura|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Arcane apoterrasaur (unchecked)"],
 				"Level": 98,
@@ -25192,6 +25491,7 @@
 				"Priority": 6
 			},
 			"Breed an ~|arcane apoterrasaur iratum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Arcane apoterrasaur (unchecked)"],
 				"Level": 98,
@@ -25200,6 +25500,7 @@
 				"Priority": 7
 			},
 			"Grow an ~|avocado bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Dragonfruit seed"],
 				"Objects": ["Bush patch"],
 				"Level": 99,
@@ -25222,6 +25523,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|brutish dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Brutish dinosaur (unchecked)"],
 				"Level": 100,
@@ -25230,6 +25532,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|beach dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Beach dinosaur (unchecked)"],
 				"Level": 100,
@@ -25238,6 +25541,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|forest dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Forest dinosaur (unchecked)"],
 				"Level": 100,
@@ -25246,6 +25550,7 @@
 				"Priority": 3
 			},
 			"Breed a ~|brutish dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantBrutishDino+"],
 				"Level": 100,
@@ -25254,6 +25559,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|beach dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Brutish dinosaur (unchecked)"],
 				"Level": 100,
@@ -25262,6 +25568,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|forest dinosaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Brutish dinosaur (unchecked)"],
 				"Level": 100,
@@ -25270,6 +25577,7 @@
 				"Priority": 6
 			},
 			"Plant a ~|ciku seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Ciku seed"],
 				"Level": 101,
 				"Output": "Ciku seedling",
@@ -25277,6 +25585,7 @@
 				"Priority": 1
 			},
 			"Water a ~|ciku seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Ciku seedling", "WateringCan+"],
 				"Level": 101,
 				"Output": "Ciku sapling",
@@ -25284,6 +25593,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|ciku tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Ciku sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 101,
@@ -25292,6 +25602,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|green salamander|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
@@ -25300,6 +25611,7 @@
 				"Priority": 1
 			},
 			"Raise an ~|orange salamander|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
 				"Items": ["Orange salamander (unchecked)"],
 				"Level": 102,
@@ -25308,6 +25620,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|red salamander|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
 				"Items": ["Red salamander (unchecked)"],
 				"Level": 102,
@@ -25316,6 +25629,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|black salamander|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
 				"Items": ["Black salamander (unchecked)"],
 				"Level": 102,
@@ -25324,6 +25638,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|green salamander|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantSalamander+"],
 				"Level": 102,
@@ -25332,6 +25647,7 @@
 				"Priority": 5
 			},
 			"Breed an ~|orange salamander|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
@@ -25340,6 +25656,7 @@
 				"Priority": 6
 			},
 			"Breed a ~|red salamander|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
@@ -25348,6 +25665,7 @@
 				"Priority": 7
 			},
 			"Breed a ~|black salamander|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
@@ -25356,6 +25674,7 @@
 				"Priority": 8
 			},
 			"Grow a ~|stinkshroom|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Stinkshroom spore"],
 				"Objects": ["Mushroom patch"],
 				"Level": 103,
@@ -25375,6 +25694,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|scimitops|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Scimitops (unchecked)"],
 				"Level": 104,
@@ -25383,6 +25703,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|scimitops palus|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Scimitops palus (unchecked)"],
 				"Level": 104,
@@ -25391,6 +25712,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|scimitops blavum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Scimitops blavum (unchecked)"],
 				"Level": 104,
@@ -25399,6 +25721,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|scimitops|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantScimitops+"],
 				"Level": 104,
@@ -25407,6 +25730,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|scimitops palus|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Scimitops (unchecked)"],
 				"Level": 104,
@@ -25415,6 +25739,7 @@
 				"Priority": 6
 			},
 			"Breed a ~|scimitops blavum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Scimitops (unchecked)"],
 				"Level": 104,
@@ -25423,6 +25748,7 @@
 				"Priority": 7
 			},
 			"Grow a ~|mango bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Mango seed"],
 				"Objects": ["Bush patch"],
 				"Level": 105,
@@ -25431,6 +25757,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|bagrada rex|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Bagrada rex (unchecked)"],
 				"Level": 106,
@@ -25439,6 +25766,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|bagrada nemus|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Bagrada nemus (unchecked)"],
 				"Level": 106,
@@ -25447,6 +25775,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|bagrada purpura|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Bagrada purpura (unchecked)"],
 				"Level": 106,
@@ -25455,6 +25784,7 @@
 				"Priority": 3
 			},
 			"Breed a ~|bagrada rex|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantBagrada+"],
 				"Level": 106,
@@ -25463,6 +25793,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|bagrada nemus|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Bagrada rex (unchecked)"],
 				"Level": 106,
@@ -25471,6 +25802,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|bagrada purpura|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Bagrada rex (unchecked)"],
 				"Level": 106,
@@ -25479,6 +25811,7 @@
 				"Priority": 6
 			},
 			"Plant a ~|guarana seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Guarana seed"],
 				"Level": 107,
 				"Output": "Guarana seedling",
@@ -25486,6 +25819,7 @@
 				"Priority": 1
 			},
 			"Water a ~|guarana seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Guarana seedling", "WateringCan+"],
 				"Level": 107,
 				"Output": "Guarana sapling",
@@ -25493,6 +25827,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|guarana tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Guarana sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 107,
@@ -25501,6 +25836,7 @@
 				"Priority": 3
 			},
 			"Raise a ~|spicati apoterrasaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Spicati apoterrasaur (unchecked)"],
 				"Level": 108,
@@ -25509,6 +25845,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|spicati apoterrasaur tilia|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Spicati apoterrasaur tilia (unchecked)"],
 				"Level": 108,
@@ -25517,6 +25854,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|spicati apoterrasaur purpura|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Spicati apoterrasaur purpura (unchecked)"],
 				"Level": 108,
@@ -25525,6 +25863,7 @@
 				"Priority": 3
 			},
 			"Breed a ~|spicati apoterrasaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantSpicatiApoterrasaur+"],
 				"Level": 108,
@@ -25533,6 +25872,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|spicati apoterrasaur tilia|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Spicati apoterrasaur (unchecked)"],
 				"Level": 108,
@@ -25541,6 +25881,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|spicati apoterrasaur purpura|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Spicati apoterrasaur (unchecked)"],
 				"Level": 108,
@@ -25549,6 +25890,7 @@
 				"Priority": 6
 			},
 			"Grow a ~|tombshroom|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Tombshroom spore"],
 				"Objects": ["Mushroom patch"],
 				"Level": 109,
@@ -25557,6 +25899,7 @@
 				"Priority": 1
 			},
 			"Raise an ~|asciatops|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Asciatops (unchecked)"],
 				"Level": 110,
@@ -25565,6 +25908,7 @@
 				"Priority": 1
 			},
 			"Raise an ~|asciatops acta|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Asciatops acta (unchecked)"],
 				"Level": 110,
@@ -25573,6 +25917,7 @@
 				"Priority": 2
 			},
 			"Raise an ~|asciatops aurum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Asciatops aurum (unchecked)"],
 				"Level": 110,
@@ -25581,6 +25926,7 @@
 				"Priority": 3
 			},
 			"Breed an ~|asciatops|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantAsciatops+"],
 				"Level": 110,
@@ -25589,6 +25935,7 @@
 				"Priority": 4
 			},
 			"Breed an ~|asciatops acta|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Asciatops (unchecked)"],
 				"Level": 110,
@@ -25597,6 +25944,7 @@
 				"Priority": 5
 			},
 			"Breed an ~|asciatops aurum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Asciatops (unchecked)"],
 				"Level": 110,
@@ -25605,6 +25953,7 @@
 				"Priority": 6
 			},
 			"Grow a ~|lychee bush|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Lychee seed"],
 				"Objects": ["Bush patch"],
 				"Level": 111,
@@ -25613,6 +25962,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|corbicula rex|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Corbicula rex (unchecked)"],
 				"Level": 112,
@@ -25621,6 +25971,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|corbicula gelum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Corbicula gelum (unchecked)"],
 				"Level": 112,
@@ -25629,6 +25980,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|corbicula malum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Corbicula malum (unchecked)"],
 				"Level": 112,
@@ -25637,6 +25989,7 @@
 				"Priority": 3
 			},
 			"Breed a ~|corbicula rex|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantCorbicula+"],
 				"Level": 112,
@@ -25645,6 +25998,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|corbicula gelum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Corbicula rex (unchecked)"],
 				"Level": 112,
@@ -25653,6 +26007,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|corbicula malum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Corbicula rex (unchecked)"],
 				"Level": 112,
@@ -25661,6 +26016,7 @@
 				"Priority": 6
 			},
 			"Plant a ~|carambola seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Plant pot", "Carambola seed"],
 				"Level": 113,
 				"Output": "Carambola seedling",
@@ -25668,6 +26024,7 @@
 				"Priority": 1
 			},
 			"Water a ~|carambola seedling|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Carambola seedling", "WateringCan+"],
 				"Level": 113,
 				"Output": "Carambola sapling",
@@ -25675,6 +26032,7 @@
 				"Priority": 2
 			},
 			"Grow a ~|carambola tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Carambola sapling"],
 				"Objects": ["Fruit tree patch"],
 				"Level": 113,
@@ -25683,6 +26041,7 @@
 				"Priority": 3
 			},
 			"Raise an ~|oculi apoterrasaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Oculi apoterrasaur (unchecked)"],
 				"Level": 115,
@@ -25691,6 +26050,7 @@
 				"Priority": 1
 			},
 			"Raise an ~|oculi apoterrasaur oceanum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Oculi apoterrasaur oceanum (unchecked)"],
 				"Level": 115,
@@ -25699,6 +26059,7 @@
 				"Priority": 2
 			},
 			"Raise an ~|oculi apoterrasaur glacies|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Oculi apoterrasaur glacies (unchecked)"],
 				"Level": 115,
@@ -25707,6 +26068,7 @@
 				"Priority": 3
 			},
 			"Breed an ~|oculi apoterrasaur|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantOculiApoterrasaur+"],
 				"Level": 115,
@@ -25715,6 +26077,7 @@
 				"Priority": 4
 			},
 			"Breed an ~|oculi apoterrasaur oceanum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Oculi apoterrasaur (unchecked)"],
 				"Level": 115,
@@ -25723,6 +26086,7 @@
 				"Priority": 5
 			},
 			"Breed an ~|oculi apoterrasaur glacies|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Oculi apoterrasaur (unchecked)"],
 				"Level": 115,
@@ -25731,6 +26095,7 @@
 				"Priority": 6
 			},
 			"Grow a ~|golden dragonfruit cactus|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Golden dragonfruit sapling"],
 				"Objects": ["Cactus patch"],
 				"Level": 116,
@@ -25739,6 +26104,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|malletops|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Malletops (unchecked)"],
 				"Level": 117,
@@ -25747,6 +26113,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|malletops palus|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Malletops palus (unchecked)"],
 				"Level": 117,
@@ -25755,6 +26122,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|malletops purpura|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Malletops purpura (unchecked)"],
 				"Level": 117,
@@ -25763,6 +26131,7 @@
 				"Priority": 3
 			},
 			"Breed a ~|malletops|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantMalletops+"],
 				"Level": 117,
@@ -25771,6 +26140,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|malletops palus|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Malletops (unchecked)"],
 				"Level": 117,
@@ -25779,6 +26149,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|malletops purpura|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Malletops (unchecked)"],
 				"Level": 117,
@@ -25787,6 +26158,7 @@
 				"Priority": 6
 			},
 			"Raise a ~|pavosaurus rex|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Pavosaurus rex (unchecked)"],
 				"Level": 112,
@@ -25795,6 +26167,7 @@
 				"Priority": 1
 			},
 			"Raise a ~|pavosaurus nemus|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Pavosaurus nemus (unchecked)"],
 				"Level": 118,
@@ -25803,6 +26176,7 @@
 				"Priority": 2
 			},
 			"Raise a ~|pavosaurus desertum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Large dinosaur pen"],
 				"Items": ["Pavosaurus desertum (unchecked)"],
 				"Level": 118,
@@ -25811,6 +26185,7 @@
 				"Priority": 3
 			},
 			"Breed a ~|pavosaurus rex|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["VariantPavosaurus+"],
 				"Level": 118,
@@ -25819,6 +26194,7 @@
 				"Priority": 4
 			},
 			"Breed a ~|pavosaurus nemus|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Pavosaurus rex (unchecked)"],
 				"Level": 118,
@@ -25827,6 +26203,7 @@
 				"Priority": 5
 			},
 			"Breed a ~|pavosaurus desertum|~": {
+				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
 				"Items": ["Pavosaurus rex (unchecked)"],
 				"Level": 118,
@@ -25835,6 +26212,7 @@
 				"Priority": 6
 			},
 			"Grow a ~|money tree|~": {
+				"Category": ["Normal Farming"],
 				"Items": ["Money tree seed"],
 				"Objects": ["Money tree patch"],
 				"Level": 119,
