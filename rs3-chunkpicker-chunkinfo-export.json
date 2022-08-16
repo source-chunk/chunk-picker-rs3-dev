@@ -44805,6 +44805,13 @@
 				"Primary": false,
 				"Priority": 4
 			},
+			"Repair the climbing pegs in burthorpe to reach the ~|Beacon Network|~ beacon": {
+				"Chunks": ["11575"],
+				"Items": ["Iron bar"],
+				"Level": 56,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Buy the ~|Smithing cape|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Smithing cape"],
