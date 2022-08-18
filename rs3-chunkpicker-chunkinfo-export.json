@@ -28576,7 +28576,7 @@
 				"Level": 90,
 				"Objects": ["Rocktail shoal"],
 				"Primary": true,
-				"Output": "golden rocktail eggs",
+				"Output": "Golden rocktail eggs",
 				"Priority": 2
 			},
 			"Catch a ~|raw tarpon|~": {
@@ -49245,7 +49245,7 @@
 			"~|Medium Ardougne tasks|~ Volatile Valuables": {
 				"Description": "Sell some rubium to Ezekial Lovecraft in Witchaven.",
 				"Chunks": ["10803"],
-				"Items": "Rubium",
+				"Items": ["Rubium"],
 				"Skills": {
 					"Mining": 36
 				},
@@ -71536,7 +71536,8 @@
 				"Nyriki's crate": 1,
 				"Water barrel": 1,
 				"Tree patch": 1,
-				"Fruit tree patch": 1
+				"Fruit tree patch": 1,
+				"Spinning wheel": 1
 			},
 			"Monster": {
 				"Gnome": 3,
