@@ -48206,6 +48206,7 @@
 				"Priority": 1
 			},
 			"Steal from an ~|arrowhead chest|~": {
+				"Items": ["Lockpick"],
 				"Level": 47,
 				"Chunks": ["Arrowhead chest+"],
 				"Output": "Steel arrowheads",
