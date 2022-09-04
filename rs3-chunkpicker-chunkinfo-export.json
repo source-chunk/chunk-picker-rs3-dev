@@ -60712,6 +60712,10 @@
 				"Items": ["Empty bucket"],
 				"Objects": ["Sand pit"],
 				"Output": "Bucket of sand"
+			},
+			"Empty a plant cure*": {
+				"Items": ["Plant cure"],
+				"Output": "Vial"
 			}
 		}
 	},
