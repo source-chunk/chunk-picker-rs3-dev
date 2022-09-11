@@ -51180,6 +51180,8 @@
 				"Skills": {
 					"Fishing": 90
 				},
+				"Items": ["Living minerals"],
+				"Objects": ["Rocktail shoal"],
 				"Tasks": {
 					"~|Hard Falador tasks|~ Complete the Hard Area Tasks": "Diary"
 				},
@@ -51188,6 +51190,7 @@
 			"~|Elite Falador tasks|~ ...You'd Best Come A-cookin'": {
 				"Description": "Cook a rocktail on a range in the Falador area.",
 				"Chunks": ["FaladorChunks+"],
+				"Items": ["Raw rocktail"],
 				"Skills": {
 					"Cooking": 93
 				},
