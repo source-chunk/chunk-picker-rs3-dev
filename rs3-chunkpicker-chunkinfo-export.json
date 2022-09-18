@@ -97552,7 +97552,8 @@
 				"8792": true,
 				"9814": true,
 				"10061": true,
-                "11166": true
+                "11166": true,
+				"11929": true
 			},
 			"Shop": {
 				"Agmundi Quality Clothes": true,
@@ -101845,6 +101846,7 @@
 			"Connect": {
 				"24": true,
 				"4166": true,
+				"11422": true,
 				"12084": true,
 				"12085": true,
 				"14415": true
