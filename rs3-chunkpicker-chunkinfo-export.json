@@ -42103,7 +42103,7 @@
 			},
 			"Craft ~|steam runes|~ at the fire rune temple": {
 				"Chunks": ["Fire Rune Temple"],
-				"Items": ["Pure essence*", "water rune*", "Water talisman*"],
+				"Items": ["Pure essence*", "Water rune*", "Water talisman*"],
 				"Level": 19,
 				"Output": "Steam rune",
 				"Primary": true,
