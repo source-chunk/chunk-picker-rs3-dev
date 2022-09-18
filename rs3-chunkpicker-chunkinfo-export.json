@@ -97436,7 +97436,8 @@
                 "Apple Barrel": 1,
                 "Valve": 1,
                 "Crossbow stall": 1,
-                "Coal rock": 6
+                "Coal rock": 6,
+				"Furnace": 1
 			},
 			"NPC": {
 				"Dwarven Engineer": 1,
