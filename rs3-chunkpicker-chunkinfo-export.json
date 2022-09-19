@@ -86075,7 +86075,7 @@
 			"Nickname": "Silvarea Pass"
 		},
 		"13367": {
-			"Nickname": "South-East wilderness"
+			"Nickname": "South-East Wilderness"
 		},
 		"13368": {
 			"Monster": {
@@ -86962,6 +86962,12 @@
 				"Lectern": 1
 			},
 			"Name": "Columbarium"
+		},
+		"13869": {
+			"Nickname": "East of Nardah"
+		},
+		"13870": {
+			"Nickname": "Desert East Coast"
 		},
 		"13871": {
 			"Object": {
