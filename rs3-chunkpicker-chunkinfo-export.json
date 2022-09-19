@@ -24640,7 +24640,7 @@
 				"Objects": ["Cactus patch"],
 				"Level": 76,
 				"Skills": {
-					"Defense": 1
+					"Defence": 1
 				},
 				"Primary": false,
 				"Priority": 23
