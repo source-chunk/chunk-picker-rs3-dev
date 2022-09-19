@@ -21813,7 +21813,7 @@
 				},
 				"Priority": 3
 			},
-			"Wear a piece of ~|chaotic armor|~": {
+			"Wear a piece of ~|chaotic armour|~": {
 				"Items": ["ChaoticArmor+"],
 				"Level": 80,
 				"Skills": {
@@ -181450,7 +181450,7 @@
 				"Studded chaps": "Rare",
 				"Small plated steel salvage": "Rare",
 				"Oak plank": "Rare",
-				"Defense potion (3)": "Rare",
+				"Defence potion (3)": "Rare",
 				"Mithril stone spirit": "Rare",
 				"Yew shieldbow": "Rare",
 				"Garden pie": "Rare",
