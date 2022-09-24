@@ -7272,49 +7272,49 @@
 				"Priority": 6
 			},
 			"Change the walls in your ~|house style|~ to basic wood": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 7
 			},
 			"Change the ground in your ~|house style|~ to green floor": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 8
 			},
 			"Change the ground in your ~|house style|~ to blue floor": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 9
 			},
 			"Change the ground in your ~|house style|~ to rough grass": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 10
 			},
 			"Change the dungeon in your ~|house style|~ to rough stone": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 11
 			},
 			"Change the lighting in your ~|house style|~ to day": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 12
 			},
 			"Move your ~|player-owned house|~ to Rimmington": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Chunks": ["11826"],
 				"Level": 1,
@@ -7322,7 +7322,7 @@
 				"Priority": 13
 			},
 			"Move your ~|player-owned house|~ to Taverley": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Chunks": ["11573"],
 				"Level": 1,
@@ -7530,14 +7530,14 @@
 				"Priority": 3
 			},
 			"Change the walls in your ~|house style|~ to basic stone": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 10,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Change the dungeon in your ~|house style|~ to smooth stone": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 10,
 				"Primary": false,
@@ -7761,35 +7761,35 @@
 				"Priority": 2
 			},
 			"Change the walls in your ~|house style|~ to whitewashed stone": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 20,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Change the ground in your ~|house style|~ to desert": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 20,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Change the dungeon in your ~|house style|~ to desert dungeon": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 20,
 				"Primary": false,
 				"Priority": 5
 			},
 			"Hire ~|Rick|~ as a servant": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["10548"],
 				"Level": 20,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Move your ~|player-owned house|~ to Pollnivneach": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["13358"],
 				"Level": 20,
 				"Primary": false,
@@ -7903,7 +7903,7 @@
 				"Priority": 3
 			},
 			"Hire the ~|Maid|~ as a servant": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["10548"],
 				"Level": 25,
 				"Primary": false,
@@ -8101,35 +8101,35 @@
 				"Priority": 2
 			},
 			"Hire the ~|Cook|~ as a servant": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["10548"],
 				"Level": 30,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Change the walls in your ~|house style|~ to Fremennik-style wood": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 30,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Change the ground in your ~|house style|~ to barren earth": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 30,
 				"Primary": false,
 				"Priority": 5
 			},
 			"Change the dungeon in your ~|house style|~ to mountain mine": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 30,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Move your ~|player-owned house|~ to Rellekka": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["10552"],
 				"Level": 30,
 				"Primary": false,
@@ -8509,35 +8509,35 @@
 				"Priority": 4
 			},
 			"Hire the ~|Butler|~ as a servant": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["10548"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 5
 			},
 			"Change the walls in your ~|house style|~ to tropical wood": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Change the ground in your ~|house style|~ to mown grass": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 7
 			},
 			"Change the dungeon in your ~|house style|~ to tropical cave": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 8
 			},
 			"Move your ~|player-owned house|~ to Brimhaven": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["11057"],
 				"Level": 40,
 				"Primary": false,
@@ -9139,35 +9139,35 @@
 				"Priority": 6
 			},
 			"Hire the ~|Demon butler|~ as a servant": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["10548"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 7
 			},
 			"Change the walls in your ~|house style|~ to fancy stone": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 8
 			},
 			"Change the dungeon in your ~|house style|~ to stone blocks": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 9
 			},
 			"Move your ~|player-owned house|~ to Yanille": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["10032"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 10
 			},
 			"Gain access to oak planks in ~|Construction Contracts|~": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Items": ["Oak plank*", "Nails+*"],
 				"Level": 50,
@@ -9175,7 +9175,7 @@
 				"Priority": 11
 			},
 			"Move your ~|player-owned house|~ to Menaphos": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["12329"],
 				"Level": 50,
 				"Primary": false,
@@ -9631,7 +9631,7 @@
 				"Priority": 7
 			},
 			"Gain access to teak planks in ~|Construction Contracts|~": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Items": ["Teak plank*", "Nails+*"],
 				"Level": 60,
@@ -9639,7 +9639,7 @@
 				"Priority": 8
 			},
 			"Move your ~|player-owned house|~ to Otot": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["Mazcab"],
 				"Level": 60,
 				"Primary": false,
@@ -10093,7 +10093,7 @@
 				"Priority": 7
 			},
 			"Change the walls in your ~|house style|~ to dark stone": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 68,
 				"Primary": false,
@@ -10194,14 +10194,14 @@
 				"Priority": 5
 			},
 			"Change the ground in your ~|house style|~ to tundra": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 70,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Gain access to mahogany planks in ~|Construction Contracts|~": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Items": ["Teak plank*", "Nails+*"],
 				"Level": 70,
@@ -10479,14 +10479,14 @@
 				"Priority": 8
 			},
 			"Change the lighting in your ~|house style|~ to dusk": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 75,
 				"Primary": false,
 				"Priority": 9
 			},
 			"Move your ~|player-owned house|~ to Prifddinas": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"Chunks": ["8500"],
 				"Level": 75,
 				"Primary": false,
@@ -10994,7 +10994,7 @@
 				"Priority": 3
 			},
 			"Change the lighting in your ~|house style|~ to night": {
-				"Category": ["Construction Milestones"],
+				"Category": ["Construction Milestone"],
 				"NPCs": ["Estate agent"],
 				"Level": 85,
 				"Primary": false,
