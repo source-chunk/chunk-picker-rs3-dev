@@ -83726,7 +83726,8 @@
 				"Giant rat": 8
 			},
 			"Connect": {
-				"9797": true
+				"9797": true,
+				"15958": true
 			},
 			"Spawn": {
 				"Leather gloves": 1
@@ -99457,6 +99458,9 @@
 				"Myself": 1,
 				"Dragith Nurn": 1,
 				"A memory": 1
+			},
+			"Connect": {
+				"12849": true
 			}
 		},
 		"Crucible lobby": {
