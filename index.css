@@ -4707,14 +4707,15 @@ input#searchMonsters {
     padding-left: 10px;
     font-size: 18px;
     font-weight: bold;
-    width: 88%;
+    width: 75%;
     border-left: solid 1px var(--color8);
 }
 
 .step-step {
     font-size: 20px;
-    width: 12%;
+    width: 25%;
     text-align: center;
+    padding-right: 5px;
 }
 
 .step-description {
