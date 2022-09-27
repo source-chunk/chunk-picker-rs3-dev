@@ -57275,7 +57275,8 @@
 			"(Morytania) Obtain ~|black boots|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Black boots"]
+				"Items": ["Black boots"],
+				"NonShop": true
 			},
 			"(Morytania) Obtain a ~|black mystic hat|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
