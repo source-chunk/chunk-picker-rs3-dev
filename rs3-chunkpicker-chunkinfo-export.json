@@ -56005,7 +56005,7 @@
 			"Obtain a ~|strange egg|~": {
 				"Items": ["Strange egg"]
 			},
-			"~|Hide-hole|~: Lumbridge Swamp shed": {
+			"~|hidey-hole|~: Lumbridge Swamp shed": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12849"],
@@ -56014,7 +56014,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Wizard tower bridge": {
+			"~|hidey-hole|~: Wizard tower bridge": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12337"],
@@ -56023,7 +56023,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Draynor Village market": {
+			"~|hidey-hole|~: Draynor Village market": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12338"],
@@ -56032,7 +56032,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Silvarea quarry": {
+			"~|hidey-hole|~: Silvarea quarry": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13366"],
@@ -56041,7 +56041,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: outside the Legends' Guild gate": {
+			"~|hidey-hole|~: outside the Legends' Guild gate": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10804"],
@@ -56050,7 +56050,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Mudskipper point": {
+			"~|hidey-hole|~: Mudskipper point": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11824"],
@@ -56059,7 +56059,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: near the Entrana ferry in Port Sarim": {
+			"~|hidey-hole|~: near the Entrana ferry in Port Sarim": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12082"],
@@ -56068,7 +56068,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: south of the Al Kharid mine": {
+			"~|hidey-hole|~: south of the Al Kharid mine": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13107"],
@@ -56077,7 +56077,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Draynor manor fountain": {
+			"~|hidey-hole|~: Draynor manor fountain": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12340"],
@@ -56086,7 +56086,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Lumbridge windmill": {
+			"~|hidey-hole|~: Lumbridge windmill": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12595"],
@@ -56095,7 +56095,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: crossroads north of Draynor village": {
+			"~|hidey-hole|~: crossroads north of Draynor village": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12339"],
@@ -56104,7 +56104,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Rimmington mine": {
+			"~|hidey-hole|~: Rimmington mine": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11826"],
@@ -56113,7 +56113,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Varrack palace library": {
+			"~|hidey-hole|~: Varrack palace library": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12854"],
@@ -56122,7 +56122,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Windmill north-west of the Manor farm": {
+			"~|hidey-hole|~: Windmill north-west of the Manor farm": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10548"],
@@ -56131,7 +56131,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Falador party room": {
+			"~|hidey-hole|~: Falador party room": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12084"],
@@ -56140,7 +56140,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Taverley stone circle": {
+			"~|hidey-hole|~: Taverley stone circle": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11574"],
@@ -56149,7 +56149,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Catherby beehives": {
+			"~|hidey-hole|~: Catherby beehives": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11061"],
@@ -56158,7 +56158,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: monkey cage in Ardougne zoo": {
+			"~|hidey-hole|~: monkey cage in Ardougne zoo": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10291"],
@@ -56167,7 +56167,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: crossroads north of Rimmington": {
+			"~|hidey-hole|~: crossroads north of Rimmington": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11826"],
@@ -56176,7 +56176,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Fishing guild entrance": {
+			"~|hidey-hole|~: Fishing guild entrance": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10292"],
@@ -56185,7 +56185,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: entrance to Keep Le Faye": {
+			"~|hidey-hole|~: entrance to Keep Le Faye": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11061"],
@@ -56194,7 +56194,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: junction south of Sinclair mansion": {
+			"~|hidey-hole|~: junction south of Sinclair mansion": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10807"],
@@ -56203,7 +56203,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Varrock digsite exam centre": {
+			"~|hidey-hole|~: Varrock digsite exam centre": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13364"],
@@ -56212,7 +56212,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: near the lumberyard sawmill operator": {
+			"~|hidey-hole|~: near the lumberyard sawmill operator": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13110"],
@@ -56221,7 +56221,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: entrance to Het's oasis": {
+			"~|hidey-hole|~: entrance to Het's oasis": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13106"],
@@ -56230,7 +56230,7 @@
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: outside the Hair of the Dog tavern in Canifis": {
+			"~|hidey-hole|~: outside the Hair of the Dog tavern in Canifis": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13878"],
@@ -56239,7 +56239,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: mausoleum off the northern Morytania coast": {
+			"~|hidey-hole|~: mausoleum off the northern Morytania coast": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13879"],
@@ -56248,7 +56248,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: east of the barbarian village bridge": {
+			"~|hidey-hole|~: east of the barbarian village bridge": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12341"],
@@ -56257,7 +56257,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Tai Bwo Wannai village": {
+			"~|hidey-hole|~: Tai Bwo Wannai village": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11056"],
@@ -56266,7 +56266,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Castle Wars lobby": {
+			"~|hidey-hole|~: Castle Wars lobby": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["9776"],
@@ -56275,7 +56275,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: barbarian outpost agility course": {
+			"~|hidey-hole|~: barbarian outpost agility course": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10039"],
@@ -56284,7 +56284,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Gnome stronghold agility course": {
+			"~|hidey-hole|~: Gnome stronghold agility course": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["9781"],
@@ -56293,7 +56293,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Yanille bank": {
+			"~|hidey-hole|~: Yanille bank": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10288"],
@@ -56302,7 +56302,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: top floor of the Kandarin observatory": {
+			"~|hidey-hole|~: top floor of the Kandarin observatory": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["9777"],
@@ -56311,7 +56311,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: combat training camp north of West Ardougne": {
+			"~|hidey-hole|~: combat training camp north of West Ardougne": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10036"],
@@ -56320,7 +56320,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Varrock digstie north-eastern winch": {
+			"~|hidey-hole|~: Varrock digstie north-eastern winch": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13365"],
@@ -56329,7 +56329,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Hickton's Archery emporium in Catherby": {
+			"~|hidey-hole|~: Hickton's Archery emporium in Catherby": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11317", "11318"],
@@ -56338,7 +56338,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Shantay pass": {
+			"~|hidey-hole|~: Shantay pass": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13104"],
@@ -56347,7 +56347,7 @@
 					"Build a medium ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Chaos temple in level 12 wilderness": {
+			"~|hidey-hole|~: Chaos temple in level 12 wilderness": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12856"],
@@ -56356,7 +56356,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Fishing guild bank": {
+			"~|hidey-hole|~: Fishing guild bank": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10293"],
@@ -56365,7 +56365,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: top of the Kandarin lighthouse": {
+			"~|hidey-hole|~: top of the Kandarin lighthouse": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10040"],
@@ -56374,7 +56374,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Jamila's craft stall in Sophanem": {
+			"~|hidey-hole|~: Jamila's craft stall in Sophanem": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13099"],
@@ -56383,7 +56383,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: obelisk north of the wilderness bandit camp": {
+			"~|hidey-hole|~: obelisk north of the wilderness bandit camp": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12090"],
@@ -56392,7 +56392,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Musa Point banana plantation": {
+			"~|hidey-hole|~: Musa Point banana plantation": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11569"],
@@ -56401,7 +56401,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: mountain camp goat enclosure": {
+			"~|hidey-hole|~: mountain camp goat enclosure": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11065"],
@@ -56410,7 +56410,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: gnome glider on White Wolf Mountain": {
+			"~|hidey-hole|~: gnome glider on White Wolf Mountain": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11318"],
@@ -56419,7 +56419,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Shilo village bank": {
+			"~|hidey-hole|~: Shilo village bank": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11310"],
@@ -56428,7 +56428,7 @@
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: sulphur pit south-east of the Fight cave in Mor Ul Rek": {
+			"~|hidey-hole|~: sulphur pit south-east of the Fight cave in Mor Ul Rek": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["TzHaar City"],
@@ -56437,7 +56437,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: south-west of the charm sprite dolmen": {
+			"~|hidey-hole|~: south-west of the charm sprite dolmen": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["9524"],
@@ -56446,7 +56446,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: northern Waiko docks": {
+			"~|hidey-hole|~: northern Waiko docks": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["The Arc"],
@@ -56455,7 +56455,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Morytania slayer tower": {
+			"~|hidey-hole|~: Morytania slayer tower": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13623"],
@@ -56464,7 +56464,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Green Ghost Inn in Port Phasmatys": {
+			"~|hidey-hole|~: Green Ghost Inn in Port Phasmatys": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["14646"],
@@ -56473,7 +56473,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: grand library of Menaphos": {
+			"~|hidey-hole|~: grand library of Menaphos": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12586"],
@@ -56482,7 +56482,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: inside the invention guild": {
+			"~|hidey-hole|~: inside the invention guild": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["11829"],
@@ -56491,7 +56491,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: celestial dragon dungeon on Dragontooth Island": {
+			"~|hidey-hole|~: celestial dragon dungeon on Dragontooth Island": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["Celestial Dragon Dungeon"],
@@ -56500,7 +56500,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Lumbridge fishing supplies shop": {
+			"~|hidey-hole|~: Lumbridge fishing supplies shop": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12594"],
@@ -56509,7 +56509,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Hefin district agility course": {
+			"~|hidey-hole|~: Hefin district agility course": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["8757"],
@@ -56518,7 +56518,7 @@
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
 			},
-			"~|Hide-hole|~: Edgeville monastery": {
+			"~|hidey-hole|~: Edgeville monastery": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12086"],
