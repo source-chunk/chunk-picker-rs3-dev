@@ -70451,7 +70451,7 @@
 				"9266": true,
 				"18020": true
 			},
-			"Name": "Underground path"
+			"Name": "Underground Pass"
 		},
 		"9369": {
 			"Object": {
@@ -71199,7 +71199,7 @@
 			"NPC": {
 				"Boulder": 1
 			},
-			"Name": "Underground path"
+			"Name": "Underground Pass"
 		},
 		"9622": {
 			"Object": {
@@ -71229,7 +71229,7 @@
 			"Connect": {
 				"9623": true
 			},
-			"Name": "Underground path"
+			"Name": "Underground Pass"
 		},
 		"9623": {
 			"Object": {
@@ -71254,7 +71254,7 @@
 				"8521": true,
 				"9622": true
 			},
-			"Name": "Underground path"
+			"Name": "Underground Pass"
 		},
 		"9625": {
 			"Object": {
@@ -71546,6 +71546,7 @@
 				"Dark mage": 1
 			},
 			"Connect": {
+				"9622": true,
 				"10135": true
 			},
 			"Shop": {
@@ -72229,7 +72230,7 @@
 			"Connect": {
 				"9879": true
 			},
-			"Name": "Underground path"
+			"Name": "Underground Pass"
 		},
 		"9879": {
 			"Object": {
@@ -72253,7 +72254,7 @@
 			"Connect": {
 				"9878": true
 			},
-			"Name": "Underground path"
+			"Name": "Underground Pass"
 		},
 		"9882": {
 			"Object": {
@@ -104160,7 +104161,7 @@
 				"8521": true
 			}
 		},
-		"Underground path": {
+		"Underground Pass": {
 			"Object": {
 				"Protruding rocks": 20,
 				"Well": 3,
@@ -104189,14 +104190,8 @@
 				"Rope swing": 2
 			},
 			"Connect": {
-				"8009": true,
-				"8521": true,
 				"9266": true,
-				"9622": true,
-				"9623": true,
-				"9878": true,
-				"9879": true,
-				"18020": true
+				"9779": true
 			},
 			"NPC": {
 				"Boulder": 1,
