@@ -98332,18 +98332,9 @@
 				"Ethereal figure": 4,
 				"Dreaming soul": 3,
 				"Waylan's soul": 1
-			}
-		},
-		"Dreamer's Cave": {
-			"NPC": {
-				"Ethereal figure": 4,
-				"Dreaming soul": 3,
-				"Waylan's soul": 1
 			},
 			"Connect": {
-				"Connect": {
-					"11826": true
-				},
+				"11826": true
 			}
 		},
 		"Chasm": {},
