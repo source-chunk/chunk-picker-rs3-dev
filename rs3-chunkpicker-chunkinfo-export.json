@@ -80645,7 +80645,7 @@
 				"Mugger": 4,
 				"Pirate": 9
 			},
-			"Name": "Asgarnian ice dungeon"
+			"Name": "Asgarnian Ice Dungeon"
 		},
 		"11926": {
 			"Object": {
@@ -80830,6 +80830,9 @@
 			},
 			"Shop": {
 				"Trader Stan's Trading Post": true
+			},
+			"Connect": {
+				"12181": true
 			},
 			"Nickname": "Asgarnian Ice Dungeon"
 		},
@@ -81641,7 +81644,10 @@
 			"Connect": {
 				"5190": true
 			},
-			"Name": "Asgarnian ice dungeon"
+			"Name": "Asgarnian Ice Dungeon"
+		},
+		"12182": {
+			"Name": "Living Wyvern Cave"
 		},
 		"12184": {
 			"Object": {
@@ -97800,7 +97806,16 @@
             },
 			"Connect": {
 				"5190": true,
-				"12081": true
+				"12081": true,
+				"12182": true
+			}
+		},
+		"Living Wyvern Cave": {
+			"Monster": {
+				"Living Wyvern": 15
+			},
+			"Connect": {
+				"12181": true
 			}
 		},
 		"Asgarnian Ice Dungeon resource dungeon": {
