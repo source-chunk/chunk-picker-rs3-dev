@@ -20668,7 +20668,7 @@
 				"Priority": 1
 			},
 			"Create a ~|divine kebbit burrow|~": {
-				"Items": ["Pale energy*", "Raw kebbit meat*"],
+				"Items": ["Pale energy*", "Raw beast meat*"],
 				"Level": 4,
 				"Output": "Divine kebbit burrow",
 				"Primary": false,
