@@ -58201,7 +58201,8 @@
 			"(Chaos Elemental) Obtain a ~|dragon 2h sword|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Dragon 2h sword"]
+				"Items": ["Dragon 2h sword"],
+				"NonShop": true
 			},
 			"(Chaos Elemental) Obtain a ~|corrupt dragon helm|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -58702,7 +58703,8 @@
 			"(Giant Mole) Obtain a ~|dragon 2h sword|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Dragon 2h sword"]
+				"Items": ["Dragon 2h sword"],
+				"NonShop": true
 			},
 			"(Giant Mole) Obtain a ~|clingy mole|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -58842,7 +58844,8 @@
 			"(Kalphite Queen) Obtain a ~|dragon 2h sword|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Dragon 2h sword"]
+				"Items": ["Dragon 2h sword"],
+				"NonShop": true
 			},
 			"(Kalphite Queen) Obtain a ~|kalphite queen head|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -63907,7 +63910,7 @@
 			"Connect": {
 				"13107": true
 			},
-			"Name": "Al Kharid mining site"
+			"Name": "Al Kharid Resource Dungeon"
 		},
 		"4679": {
 			"Monster": {
@@ -102040,7 +102043,7 @@
 				"12630": true
 			}
 		},
-		"Al Kharid mining site": {
+		"Al Kharid Resource Dungeon": {
 			"Object": {
 				"Precious gem rock": 8,
 				"Drakolith rock": 5,
