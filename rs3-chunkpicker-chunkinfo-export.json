@@ -75606,7 +75606,7 @@
 			"Connect": {
 				"10901": true
 			},
-			"Nickname": "Brimhaven Dungeon"
+			"Nickname": "Brimhaven Dungeon Entrance"
 		},
 		"10802": {
 			"Object": {
@@ -77723,7 +77723,7 @@
 				"Bronze hatchet": 2,
 				"Iron hatchet": 2
 			},
-			"Nickname": "Pothole Dungeon"
+			"Name": "Pothole Dungeon"
 		},
 		"11313": {
 			"Object": {
