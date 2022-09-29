@@ -7732,7 +7732,6 @@
 				"Chunks": ["9270"],
 				"Items": ["Plank*", "Rope*", "Nails+*"],
 				"Level": 18,
-				"Output": "Rope",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -7869,7 +7868,6 @@
 				"Chunks": ["10038"],
 				"Items": ["Oak plank*", "Rope*"],
 				"Level": 24,
-				"Output": "Rope",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -8037,7 +8035,6 @@
 				"Chunks": ["11566"],
 				"Items": ["Oak plank*", "Rope*"],
 				"Level": 28,
-				"Output": "Rope",
 				"Primary": true,
 				"Priority": 8
 			},
@@ -8449,7 +8446,6 @@
 				"Chunks": ["10029"],
 				"Items": ["Teak plank*", "Rope*"],
 				"Level": 38,
-				"Output": "Rope",
 				"Primary": false,
 				"Priority": 7
 			},
@@ -8996,7 +8992,6 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Chef's delight*", "Steel bar*"],
 				"Level": 48,
-				"Output": "Chef's delight",
 				"Skills": {
 					"Cooking": 54
 				},
@@ -11897,7 +11892,6 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Plank*", "Nails+*"],
 				"Level": 1,
-				"Output": "Beer",
 				"Skills": {
 					"Construction": 7
 				},
@@ -12181,7 +12175,6 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Plank*", "Nails+*", "Cider*"],
 				"Level": 14,
-				"Output": "Cider",
 				"Skills": {
 					"Construction": 12
 				},
@@ -12490,7 +12483,6 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Asgarnian ale*"],
 				"Level": 24,
-				"Output": "Asgarnian ale",
 				"Skills": {
 					"Construction": 18
 				},
@@ -12731,7 +12723,6 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Greenman's ale*"],
 				"Level": 29,
-				"Output": "Greenman's ale",
 				"Skills": {
 					"Construction": 26
 				},
@@ -13169,7 +13160,6 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Dragon bitter*", "Steel bar*"],
 				"Level": 39,
-				"Output": "Dragon bitter",
 				"Skills": {
 					"Cooking": 36
 				},
@@ -13516,7 +13506,6 @@
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Chef's delight*", "Steel bar*"],
-				"Output": "Chef's delight",
 				"Level": 54,
 				"Skills": {
 					"Construction": 48
