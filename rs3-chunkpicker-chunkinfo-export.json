@@ -7920,7 +7920,6 @@
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Greenman's ale*"],
 				"Level": 26,
-				"Output": "Greenman's ale",
 				"Skills": {
 					"Cooking": 29
 				},
@@ -21843,7 +21842,7 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Obtain a ~|Forsty|~ pet": {
+			"Obtain a ~|Frosty|~ pet": {
 				"Category": ["Pet"],
 				"Level": 85,
 				"NPCs": ["Rewards trader"],
