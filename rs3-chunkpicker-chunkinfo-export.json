@@ -42665,7 +42665,7 @@
 				"Priority": 6
 			},
 			"Craft a ~|mystic wand|~": {
-				"Items": ["Mystic wand*", "Thread*", "Logs*"],
+				"Items": ["Mystic cloth*", "Thread*", "Logs*"],
 				"Level": 50,
 				"Output": "Mystic wand",
 				"Skills":{
