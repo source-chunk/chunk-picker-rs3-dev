@@ -80553,19 +80553,11 @@
 				"Cliffside": 1
 			},
 			"Monster": {
-				"Ice spider": 9,
-				"Skeleton": 3,
-				"White wolf": 8,
-				"Ice giant": 4,
-				"Ice warrior": 13,
 				"Glacor": 4,
 				"Acheron mammoth": 6
 			},
 			"NPC": {
 				"Talent scout": 1
-			},
-			"Connect": {
-				"11937": true
 			},
 			"Spawn": {
 				"Bones": 5
@@ -81400,6 +81392,9 @@
 			},
 			"Spawn": {
 				"Redberry pie": 1
+			},
+			"Connect": {
+				"12193": true
 			},
 			"Nickname": "Pirates' Hideout"
 		},
@@ -104097,10 +104092,9 @@
 				"Steps": 1
 			},
 			"Monster": {
-				"Shadow spider": 12,
-				"Fire giant": 5,
-				"Hill Giant": 6,
-				"Chaos dwarf (Wilderness)": 4
+				"Dragonstone dragon": 2,
+				"Onyx dragon": 2,
+				"Hydrix dragon": 4
 			}
 		},
 		"Jiggig Dungeon": {
