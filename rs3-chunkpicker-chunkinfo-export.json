@@ -14471,12 +14471,68 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Craft a ~|snelm|~": {
-				"Items": ["SnailShell+"],
+			"Craft an ~|ochre snelm (round)|~": {
+				"Items": ["Blamish ochre shell (round)"],
 				"Level": 15,
-				"Output": "Snelm+",
+				"Output": "Ochre snelm (round)",
 				"Primary": true,
 				"Priority": 8
+			},
+			"Craft a ~|blood'n'tar snelm (pointed)|~": {
+				"Items": ["Blamish red shell (pointed)"],
+				"Level": 15,
+				"Output": "Blood'n'tar snelm (pointed)",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Craft a ~|blood'n'tar snelm (round)|~": {
+				"Items": ["Blamish red shell (round)"],
+				"Level": 15,
+				"Output": "Blood'n'tar snelm (round)",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Craft a ~|broken bark snelm (round)|~": {
+				"Items": ["Blamish bark shell"],
+				"Level": 15,
+				"Output": "Broken bark snelm (round)",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Craft a ~|bruise blue snelm (pointed)|~": {
+				"Items": ["Blamish blue shell (pointed)"],
+				"Level": 15,
+				"Output": "Bruise blue snelm (pointed)",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Craft a ~|bruise blue snelm (round)|~": {
+				"Items": ["Blamish blue shell (round)"],
+				"Level": 15,
+				"Output": "Bruise blue snelm (round)",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Craft a ~|myre snelm (pointed)|~": {
+				"Items": ["Blamish myre shell (pointed)"],
+				"Level": 15,
+				"Output": "Myre snelm (pointed)",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Craft a ~|myre snelm (round)|~": {
+				"Items": ["Blamish myre shell (round)"],
+				"Level": 15,
+				"Output": "Myre snelm (round)",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Craft an ~|ochre snelm (pointed)|~": {
+				"Items": ["Blamish ochre shell (pointed)"],
+				"Level": 15,
+				"Output": "Ochre snelm (pointed)",
+				"Primary": true,
+				"Priority": 16
 			},
 			"Craft a ~|leather shield|~": {
 				"Items": ["Leather*", "Thread*"],
