@@ -80515,7 +80515,8 @@
 			},
 			"Monster": {
 				"Blue dragon": 8,
-				"Elite Black Knight": 4
+				"Elite Black Knight": 4,
+				"Black demon": 4
 			},
 			"NPC": {
 				"Mysterious ghost": 1
@@ -80525,7 +80526,9 @@
 		"11836": {
 			"Monster": {
 				"Ice giant": 6,
-				"Ice warrior": 9
+				"Ice warrior": 9,
+				"Ice strykewyrm": 5,
+				"Wyvern": 3
 			},
 			"NPC": {
 				"Darren": 1,
@@ -80555,7 +80558,9 @@
 				"Skeleton": 3,
 				"White wolf": 8,
 				"Ice giant": 4,
-				"Ice warrior": 13
+				"Ice warrior": 13,
+				"Glacor": 4,
+				"Acheron mammoth": 6
 			},
 			"NPC": {
 				"Talent scout": 1
@@ -81329,7 +81334,8 @@
 		},
 		"12090": {
 			"Monster": {
-				"Chaos dwarf (Wilderness)": 4
+				"Chaos dwarf (Wilderness)": 4,
+				"Abyssal demon": 5
 			},
 			"Connect": {
 				"12190": true
@@ -81343,7 +81349,8 @@
 			},
 			"Monster": {
 				"King Scorpion": 2,
-				"Hobgoblin": 26
+				"Hobgoblin": 26,
+				"Dark beast": 12
 			},
 			"NPC": {
 				"Mound": 12
@@ -81362,7 +81369,8 @@
 			"Monster": {
 				"Deadly red spider": 14,
 				"Black Knight": 9,
-				"Lesser demon": 4
+				"Lesser demon": 4,
+				"Hydrix dragon": 5
 			},
 			"NPC": {
 				"Mysterious ghost": 1
@@ -82391,7 +82399,8 @@
 		},
 		"12347": {
 			"Monster": {
-				"Green dragon": 5
+				"Abyssal beast": 10,
+				"Hellhound": 15
 			},
 			"NPC": {
 				"Edmond (cape merchant)": 1
@@ -83301,9 +83310,9 @@
 		},
 		"12604": {
 			"Monster": {
-				"Giant spider": 12,
-				"Spider": 17,
-				"Red dragon": 1
+				"Red dragon": 1,
+				"Abyssal beast": 10,
+				"Abyssal lord": 8
 			},
 			"Spawn": {
 				"Sapphire": 1,
@@ -84415,7 +84424,7 @@
 			},
 			"Monster": {
 				"Red dragon": 2,
-				"Chaos dwarf (Wilderness)": 3
+				"Onyx dragon": 4
 			},
 			"NPC": {
 				"Ghostly piper": 1
@@ -84429,6 +84438,9 @@
 			"Nickname": "South-East Red Dragon Isle"
 		},
 		"12860": {
+			"Monster": {
+				"Ripper demon": 12
+			},
 			"NPC": {
 				"William": 1
 			},
@@ -84441,7 +84453,8 @@
 			"Monster": {
 				"Wolf": 4,
 				"Scorpion": 7,
-				"Chaos Elemental": 1
+				"Chaos Elemental": 1,
+				"Abyssal savage": 5
 			},
 			"Spawn": {
 				"Bones": 3,
@@ -85315,6 +85328,9 @@
 			"Nickname": "Lumberyard"
 		},
 		"13111": {
+			"Monster": {
+				"Blue dragon": 12
+			},
 			"Object": {
 				"Oak": 1,
 				"Tree": 14,
@@ -85353,6 +85369,9 @@
 			"Nickname": "Black Salamander Hunting Area"
 		},
 		"13114": {
+			"Monster": {
+				"Soulgazer": 4
+			},
 			"Object": {
 				"Crate": 5,
 				"Sack": 1
@@ -86235,6 +86254,9 @@
 			"Nickname": "Charming Moths"
 		},
 		"13371": {
+			"Monster": {
+				"Hellhound": 12
+			},
 			"Object": {
 				"Fishing spot (cage/harpoon)": 3
 			},
