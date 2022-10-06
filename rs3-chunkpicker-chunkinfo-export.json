@@ -81327,7 +81327,8 @@
 			"Monster": {
 				"Abyssal beast": 5,
 				"Abyssal lord": 5,
-				"Abyssal savages": 2
+				"Abyssal savages": 2,
+				"Abyssal demon": 5
 			},
 			"Connect": {
 				"12190": true
@@ -83173,7 +83174,7 @@
 				"Doogle leaves": 5
 			},
 			"Shop": {
-				"Cooking cape": true,
+				"Head chef": true,
 				"Pie Shop": true,
 				"Gertrude's Food": true
 			},
