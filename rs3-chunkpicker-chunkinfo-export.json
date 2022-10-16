@@ -87594,7 +87594,8 @@
 				"Man": 1
 			},
 			"Connect": {
-				"10307": true
+				"10307": true,
+				"12952": true
 			},
 			"Spawn": {
 				"Iron dagger": 1,
@@ -88223,7 +88224,7 @@
 			"Connect": {
 				"12852": true
 			},
-			"Name": "Morytania underground"
+			"Name": "Phoenix Gang Hideout"
 		},
 		"12953": {
 			"Connect": {
@@ -89875,7 +89876,7 @@
 			"Connect": {
 				"13360": true
 			},
-			"Name": "Morytania underground"
+			"Name": "Water Ravine Dungeon"
 		},
 		"13461": {
 			"Object": {
@@ -90131,7 +90132,8 @@
 				"Sister Debora": 1
 			},
 			"Connect": {
-				"13717": true
+				"13717": true,
+				"13973": true
 			},
 			"Spawn": {
 				"Lyric sheet": 1,
@@ -90993,7 +90995,7 @@
 			"Connect": {
 				"12848": true
 			},
-			"Name": "Kalphite nursery"
+			"Name": "Kalphite Nursery"
 		},
 		"13972": {
 			"Object": {
@@ -91017,7 +91019,7 @@
 			"NPC": {
 				"Spirit of Saint Elspeth": 1
 			},
-			"Name": "Morytania underground"
+			"Name": "Abbey of St. Elspeth Citharede Cellar"
 		},
 		"13974": {
 			"Object": {
@@ -91035,7 +91037,7 @@
 			"Connect": {
 				"13874": true
 			},
-			"Name": "Morytania underground"
+			"Name": "Burgh de Rott Myreque Hideout"
 		},
 		"13975": {
 			"Object": {
@@ -91169,9 +91171,7 @@
 				"Archaeologist": 2
 			},
 			"Connect": {
-				"14229": true,
-				"14230": true,
-				"16217": true
+				"14231": true
 			},
 			"Spawn": {
 				"Crumbling tome": 1
@@ -91503,7 +91503,7 @@
 			"Connect": {
 				"4956": true
 			},
-			"Name": "Morytania underground"
+			"Name": "Kalphite Nursery"
 		},
 		"14228": {
 			"Object": {
@@ -91525,7 +91525,7 @@
 			"Connect": {
 				"14131": true
 			},
-			"Name": "Morytania underground"
+			"Name": "Barrows"
 		},
 		"14230": {
 			"Object": {
@@ -91534,7 +91534,7 @@
 			"Connect": {
 				"14131": true
 			},
-			"Name": "Morytania underground"
+			"Name": "Barrows"
 		},
 		"14231": {
 			"Object": {
@@ -91548,7 +91548,7 @@
 				"Giant crypt spider": 6,
 				"Skeleton": 6
 			},
-			"Name": "Meiyerditch laboratories"
+			"Name": "Barrows"
 		},
 		"14232": {
 			"Object": {
@@ -94325,7 +94325,8 @@
 			},
 			"Connect": {
 				"14131": true
-			}
+			},
+			"Name": "Barrows"
 		},
 		"16225": {
 			"Object": {
@@ -100636,6 +100637,23 @@
 				"Crossbow Shop": true
 			}
 		},
+		"Burgh de Rott Myreque Hideout": {
+			"Object": {
+				"Closed chest": 1
+			},
+			"NPC": {
+				"Radigad Ponfit": 1,
+				"Polmafi Ferdygris": 1,
+				"Ivan Strom": 2,
+				"Veliaf Hurtz": 1
+			},
+			"Monster": {
+				"Veliaf Hurtz": 1
+			},
+			"Connect": {
+				"13874": true
+			}
+		},
 		"Soul Wars Tutorial": {
 			"Object": {
 				"Blue barrier": 1,
@@ -101207,7 +101225,7 @@
                 "Vermundi's Clothes Stall": true
 			}
 		},
-		"Kalphite nursery": {
+		"Kalphite Nursery": {
 			"Object": {
 				"Tunnel": 2
 			},
@@ -101907,6 +101925,22 @@
 			}
 		},
 		"Chasm": {},
+		"Phoenix Gang Hideout": {
+			"Object": {
+				"Chest": 1,
+				"Closed chest": 2,
+				"Drawers": 2
+			},
+			"NPC": {
+				"Straven": 1
+			},
+			"Monster": {
+				"Thief": 6
+			},
+			"Connect": {
+				"12852": true
+			}
+		},
 		"Egg cave?": {
 			"Object": {
 				"Nest of eggs": 6,
@@ -102470,6 +102504,18 @@
 			}
 		},
 		"Beehive farm": {},
+		"Abbey of St. Elspeth Citharede Cellar": {
+			"Object": {
+				"Robe cabinet": 1,
+				"Shelves": 14
+			},
+			"NPC": {
+				"Spirit of Saint Elspeth": 1
+			},
+			"Connect": {
+				"13617": true
+			}
+		},
 		"Pinball": {},
 		"Graveyard": {},
 		"Church": {},
@@ -107675,7 +107721,8 @@
 		"Water Ravine Dungeon": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot (lure/bait)": 7
+				"Fishing spot (lure/bait)": 7,
+				"Cave exit": 1
 			},
 			"NPC": {
 				"Nirrie": 1,
@@ -107685,6 +107732,22 @@
 			},
 			"Connect": {
 				"13360": true
+			}
+		},
+		"Barrows": {
+			"Object": {
+				"Sarcophagus": 8
+			},
+			"Monster": {
+				"Bloodworm": 7,
+				"Crypt rat": 6,
+				"Giant crypt rat": 4,
+				"Crypt spider": 5,
+				"Giant crypt spider": 6,
+				"Skeleton": 6
+			},
+			"Connect": {
+				"14131": true
 			}
 		},
 		"Ogre enclave": {
