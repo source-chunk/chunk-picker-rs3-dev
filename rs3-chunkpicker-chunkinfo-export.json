@@ -64386,6 +64386,10 @@
 		"20": {
 			"Name": "Moksha Ritual Site"
 		},
+		"21": {},
+		"22": {},
+		"23": {},
+		"24": {},
 		"258": {
 			"Spawn": {
 				"Broken glass": 8
@@ -96035,7 +96039,8 @@
 				"TzHaar-Mej-Lor": 1,
 				"TzHaar-Mej": 3,
 				"TzHaar-Mej-Jeh": 1
-			}
+			},
+			"Name": "TzHaar City"
 		},
 		"17744": {
 			"Object": {
@@ -96046,7 +96051,8 @@
 		"17746": {
 			"Object": {
 				"Cave exit": 1
-			}
+			},
+			"Name": "Elder Kiln"
 		},
 		"17747": {
 			"Object": {
@@ -100701,7 +100707,8 @@
 				"Stone slab vein": 12,
 				"Coal rock": 16,
 				"Mithril rock": 6,
-				"Adamantite rock": 4
+				"Adamantite rock": 4,
+				"Bookcase": 17
 			},
 			"NPC": {
 				"TzHaar-Mej-Kah": 2,
@@ -100719,7 +100726,7 @@
 				"TzHaar-Mej-Jeh": 6,
 				"Ga'al": 12,
 				"TzHaar-Xil": 2,
-				"TzHaar-Mej": 2,
+				"TzHaar-Mej": 5,
 				"TzHaar-Hur-Tel": 2,
 				"TzHaar-Hur-Lek": 2,
 				"Ga'al-Xox": 2,
@@ -100737,7 +100744,8 @@
 				"TzHaar-Ket-Jok": 2,
 				"TzHaar-Xil-Mor": 2,
 				"TzHaar-Mej-Kol": 2,
-				"TzHaar-Hur-Klag": 2
+				"TzHaar-Hur-Klag": 2,
+				"TzHaar-Mej-Lor": 1
 			},
 			"Monster": {
 				"TzHaar-Mej": 24,
@@ -100748,7 +100756,10 @@
 			},
 			"Connect": {
 				"9541": true,
-				"11313": true
+				"11313": true,
+				"17744": true,
+				"17745": true,
+				"18002": true
 			}
 		},
 		"Karamja Underground": {
@@ -104105,10 +104116,37 @@
 				"Fame": 1
 			}
 		},
-		"Elder Kiln": {},
+		"Elder Kiln": {
+			"Monster": {
+				"TokHaar-Hur": 20,
+				"TokHaar-Xil": 8,
+				"TokHaar-Tok-Xil": 46,
+				"TokHaar-Mej": 27,
+				"TokHaar-Ket-Dill": 8,
+				"TokHaar-Yt-MejKot": 30,
+				"TokHaar-Ket-Zek": 23,
+				"TokHaar-Ket": 5,
+				"TokHaar-Jad": 7,
+				"Har-Aken": 1
+			},
+			"Connect": {
+				"19024": true
+			}
+		},
 		"Fight Cave": {
 			"Object": {
 				"Fight Cave": 1
+			},
+			"Monster": {
+				"Tz-kih": 48,
+				"Tz-Kek": 40,
+				"Tok-Xil": 36,
+				"Yt-MejKot": 34,
+				"TzTok-Jad": 1,
+				"Yt-HurKot": 4
+			},
+			"Connect": {
+				"18512": true
 			}
 		},
 		"TzHaar Theatre": {},
@@ -108840,8 +108878,22 @@
 			"Object": {
 				"Cave exit": 1
 			},
+			"Monster": {
+				"TokHaar-Hur": 1,
+				"TokHaar-Xil": 1,
+				"TokHaar-Tok-Xil": 1,
+				"TokHaar-Mej": 1,
+				"TokHaar-Yt-MejKot": 1,
+				"TokHaar-Ket-Zek": 1,
+				"TokHaar-Ket": 1,
+				"TokHaar-Ket Champion": 1,
+				"TokHaar-Hok": 1
+			},
 			"NPC": {
 				"TzHaar-Ket": 1
+			},
+			"Connect": {
+				"19024": true
 			}
 		},
 		"Silverlight Crypt": {},
