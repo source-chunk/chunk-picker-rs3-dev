@@ -58921,7 +58921,7 @@
 			},
 			"~|Varrock Achievements%2FElite|~ Stick a Bork In Him, He's Done": {
 				"Description": "Defeat Bork.",
-				"Chunks": ["Chaos tunnels"],
+				"Chunks": ["Chaos Tunnels"],
 				"Tasks": {
 					"~|Varrock Achievements%2FHard|~ Complete the Hard Achievements": "Diary",
 					"~|The Hunt for Surok|~ Complete the miniquest": "Quest"
@@ -64400,6 +64400,12 @@
 		},
 		"25": {
 			"Name": "Mining Guild Hidden Mine"
+		},
+		"26": {
+			"Name": "Karamja Volcano Resource Dungeon"
+		},
+		"27": {
+			"Name": "Chaos Tunnels Resource Dungeon"
 		},
 		"258": {
 			"Spawn": {
@@ -85982,7 +85988,7 @@
 			"Connect": {
 				"12630": true
 			},
-			"Name": "Chaos tunnels"
+			"Name": "Chaos Tunnels"
 		},
 		"12379": {
 			"Object": {
@@ -86932,7 +86938,7 @@
 				"12630": true,
 				"12885": true
 			},
-			"Name": "Chaos tunnels"
+			"Name": "Chaos Tunnels"
 		},
 		"12630": {
 			"Object": {
@@ -86958,7 +86964,7 @@
 				"12629": true,
 				"12886": true
 			},
-			"Name": "Chaos tunnels"
+			"Name": "Chaos Tunnels"
 		},
 		"12633": {
 			"Object": {
@@ -87999,7 +88005,7 @@
 				"12886": true,
 				"13141": true
 			},
-			"Name": "Chaos tunnels"
+			"Name": "Chaos Tunnels"
 		},
 		"12886": {
 			"Object": {
@@ -88023,7 +88029,7 @@
 				"12885": true,
 				"13142": true
 			},
-			"Name": "Chaos tunnels"
+			"Name": "Chaos Tunnels"
 		},
 		"12891": {
 			"Object": {
@@ -89036,7 +89042,7 @@
 				"12885": true,
 				"13142": true
 			},
-			"Name": "Chaos tunnels"
+			"Name": "Chaos Tunnels"
 		},
 		"13142": {
 			"Object": {
@@ -89059,7 +89065,7 @@
 				"12886": true,
 				"13141": true
 			},
-			"Name": "Chaos tunnels"
+			"Name": "Chaos Tunnels"
 		},
 		"13145": {
 			"Object": {
@@ -101266,12 +101272,13 @@
 				"12082": true
 			}
 		},
-		"Chaos tunnels": {
+		"Chaos Tunnels": {
 			"Object": {
 				"Portal": 131,
 				"Exit": 5
 			},
 			"Connect": {
+				"27": true,
 				"12087": true,
 				"12343": true,
 				"12344": true,
@@ -101327,6 +101334,14 @@
 			},
 			"NPC": {
 				"Boulder": 16
+			}
+		},
+		"Chaos Tunnels Resource Dungeon": {
+			"Monster": {
+				"Black demon": 9
+			},
+			"Connect": {
+				"4934": true
 			}
 		},
 		"Stronghold of Player Safety": {
@@ -105547,8 +105562,18 @@
 				"Skeleton": 5
 			},
 			"Connect": {
+				"26": true,
 				"11313": true,
 				"11314": true
+			}
+		},
+		"Karamja Volcano Resource Dungeon": {
+			"Monster": {
+				"Imp": 11,
+				"Lesser demon": 14
+			},
+			"Connect": {
+				"11413": true
 			}
 		},
 		"Mining Guild": {
