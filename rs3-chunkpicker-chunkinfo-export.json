@@ -86663,6 +86663,9 @@
 				"Pie Shop": true,
 				"Gertrude's Food": true
 			},
+			"Connect": {
+				"12697": true
+			},
 			"Nickname": "Cooking Guild"
 		},
 		"12598": {
@@ -87081,7 +87084,10 @@
 				"Brass necklace": 1,
 				"Gold ore": 1
 			},
-			"Name": "Edgeville Dungeon"
+			"Connect": {
+				"12597": true
+			},
+			"Name": "Varrock West Bank Cellar"
 		},
 		"12698": {
 			"Object": {
@@ -107021,6 +107027,22 @@
 			},
 			"Connect": {
 				"10033": true
+			}
+		},
+		"Varrock West Bank Cellar": {
+			"Object": {
+				"Closed chest": 8,
+				"Open chest": 3
+			},
+			"Spawn": {
+				"Gold bar": 1,
+				"Ruby ring": 1,
+				"Gold necklace": 1,
+				"Brass necklace": 1,
+				"Gold ore": 1
+			},
+			"Connect": {
+				"12597": true
 			}
 		},
 		"Skavid cave": {
