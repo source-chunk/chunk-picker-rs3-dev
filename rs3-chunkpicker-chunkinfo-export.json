@@ -11834,6 +11834,13 @@
 				"Primary": false,
 				"Priority": 9
 			},
+			"Repair the ~|abandoned siege engine|~": {
+				"Chunks": ["Senntisten"],
+				"Items": ["Siege engine parts"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 10
+			},
 			"Buy the ~|Max cape|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Max cape"],
@@ -29942,6 +29949,13 @@
 				"Output": "Golden cavefish eggs",
 				"Priority": 2
 			},
+			"Catch ~|fungal algae|~": {
+				"Objects": ["Colonised Varrock guard"],
+				"Level": 88,
+				"Output": "Fungal algae",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Catch a ~|raw rocktail|~": {
 				"Items": ["Living minerals"],
 				"Level": 90,
@@ -29988,6 +30002,13 @@
 				"Primary": true,
 				"Output": "Raw sillago",
 				"Priority": 1
+			},
+			"Catch ~|enriched fungal algae|~": {
+				"Objects": ["Colonised Lumbridge guard"],
+				"Level": 92,
+				"Output": "Enriched fungal algae",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Catch a ~|raw wobbegong|~": {
 				"Level": 96,
@@ -36272,6 +36293,13 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Catch ~|fungal spore|~": {
+				"Objects": ["Decaying Varrock guard"],
+				"Level": 88,
+				"Output": "Fungal spore",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Catch a ~|crimson skillchompa|~": {
 				"Items": ["Box trap"],
 				"Monsters": ["Crimson skillchompa"],
@@ -36426,6 +36454,13 @@
 				"Level": 91,
 				"Primary": false,
 				"Priority": 3
+			},
+			"Catch ~|enriched fungal spore|~": {
+				"Objects": ["Decaying Lumbridge guard"],
+				"Level": 92,
+				"Output": "Enriched fungal spore",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Hunt an ~|oculi apoterrasaur|~": {
 				"NPCs": ["Oculi apoterrasaur"],
@@ -40518,6 +40553,13 @@
 				"Output": "Crystal-flecked sandstone (ore)",
 				"Priority": 1
 			},
+			"Mine ~|calcified fungus|~": {
+				"Objects": ["Moulding Varrock guard"],
+				"Level": 88,
+				"Output": "Calcified fungus",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Mine a ~|Seren stone|~": {
 				"Level": 89,
 				"Objects": ["Seren stone"],
@@ -40545,6 +40587,13 @@
 				"Primary": true,
 				"Output": "Sea salt",
 				"Priority": 3
+			},
+			"Mine ~|enriched calcified fungus|~": {
+				"Objects": ["Moulding Lumbridge guard"],
+				"Level": 92,
+				"Output": "Enriched calcified fungus",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Mine an ~|alaea crablet|~": {
 				"Level": 97,
@@ -51902,6 +51951,13 @@
 				"Primary": false,
 				"Priority": 4
 			},
+			"Sabotage a ~|siege engine|~": {
+				"Chunks": ["Senntisten"],
+				"Items": ["Siege engine parts"],
+				"Level": 90,
+				"Primary": true,
+				"Priority": 5
+			},
 			"Buy the ~|Max cape|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Max cape"],
@@ -52165,7 +52221,14 @@
 				"Output": "Bloodwood logs",
 				"Primary": true,
 				"Priority": 1
-			},	
+			},
+			"Cut ~|timber fungus|~": {
+				"Objects": ["Dead Varrock guard"],
+				"Level": 88,
+				"Output": "Timber fungus",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Cut ~|elder logs|~": {
 				"Level": 90,
 				"Objects": ["Elder tree"],
@@ -52179,7 +52242,14 @@
 				"Output": "Bamboo",
 				"Primary": true,
 				"Priority": 2
-			},	
+			},
+			"Cut ~|enriched timber fungus|~": {
+				"Objects": ["Dead Lumbridge guard"],
+				"Level": 92,
+				"Output": "Enriched timber fungus",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Cut ~|crystal tree|~": {
 				"Level": 94,
 				"Objects": ["Crystal tree"],
@@ -64353,9 +64423,6 @@
 		"9": {
 			"Name": "Underwater Cave"
 		},
-		"10": {
-			"Name": "Senntisten"
-		},
 		"11": {
 			"Name": "Stormguard Citadel"
 		},
@@ -68982,6 +69049,9 @@
 			},
 			"Name": "Senntisten"
 		},
+		"6680": {
+			"Name": "Zamorakian Undercity"
+		},
 		"6722": {
 			"Object": {
 				"Crate": 6,
@@ -69228,6 +69298,9 @@
 				"Dig sites map": 1,
 				"Pulley": 1
 			},
+			"Name": "Senntisten"
+		},
+		"6941": {
 			"Name": "Senntisten"
 		},
 		"6976": {
@@ -89668,7 +89741,7 @@
 				"Museum guard": 1
 			},
 			"Connect": {
-				"10": true,
+				"6941": true,
 				"11461": true,
 				"12633": true
 			},
@@ -90922,6 +90995,9 @@
 				"Black Knight": 6,
 				"Bosun Higgs": 1,
 				"Quartermaster Gully": 1
+			},
+			"Connect": {
+				"21389": true
 			},
 			"Nickname": "Daemonheim Docks"
 		},
@@ -98737,6 +98813,9 @@
 			},
 			"Name": "Clan Citadel"
 		},
+		"21389": {
+			"Name": "The Shadow Reef"
+		},
 		"21536": {
 			"NPC": {
 				"Flower": 1
@@ -105596,10 +105675,92 @@
 				"Archaeologist's workbench": 1,
 				"Bank chest": 1,
 				"Dig sites map": 1,
-				"Pulley": 1
+				"Pulley": 1,
+				"Colonised Varrock guard": 1,
+				"Colonised Lumbridge guard": 1,
+				"Decaying Varrock guard": 1,
+				"Decaying Lumbridge guard": 1,
+				"Moulding Varrock guard": 1,
+				"Moulding Lumbridge guard": 1,
+				"Dead Varrock guard": 1,
+				"Dead Lumbridge guard": 1
+			},
+			"Monster": {
+				"Nodon artificer": 1,
+				"Nodon guard": 1,
+				"Nodon hunter": 1,
+				"Nodon engineer": 1,
+				"Nodon enforcer": 1,
+				"Siege engine": 1,
+				"Kerapac, the bound": 1,
+				"Glacor": 1,
+				"Glacyte (melee)": 1,
+				"Glacyte (ranged)": 1,
+				"Arch-Glacor": 1,
+				"TzekHaar-Hur": 1,
+				"TzekHaar-Mej": 1,
+				"TzekHaar-Mej Disciple": 1,
+				"TzekHaar-Xil": 1,
+				"TzekHaar-Kih": 1,
+				"TzKal-Zuk": 1,
+				"Croesus": 1
 			},
 			"Connect": {
+				"6680": true,
 				"13365": true
+			}
+		},
+		"Zamorakian Undercity": {
+			"Monster": {
+				"Chaos demon": 1,
+				"Chaos demon savage": 1,
+				"Chaos witch": 1,
+				"Chaos witch apprentice": 1,
+				"Chaos witch channeler": 1,
+				"Chaos witch lifeweaver": 1,
+				"Chaos witch magus": 1,
+				"Chaos witch mender": 1,
+				"Dark wizard": 1,
+				"Dark wizard elder": 1,
+				"Dark wizard master": 1,
+				"Fred": 1,
+				"Greater demon ash lord": 1,
+				"Greater demon berserker": 1,
+				"Greater demon brute": 1,
+				"Greater demon pyromancer": 1,
+				"Greater demon sage": 1,
+				"Greater demon savage": 1,
+				"Hellhound": 1,
+				"Hellhound Alpha": 1,
+				"Hellhound Hunter": 1,
+				"Imp scavenger": 1,
+				"Lifeweaver": 1,
+				"Monk of Chaos": 1,
+				"protector": 1,
+				"Pyrefiend": 1,
+				"Seething Pyrefiend": 1,
+				"Torrential Waterfiend": 1, 
+				"War priest of chaos": 1,
+				"War priestess of chaos": 1,
+				"Waterfiend": 1,
+				"Zamorakian archer": 1,
+				"Zamorakian cultist": 1,
+				"Zamorakian hound master": 1,
+				"Zamorakian hunter": 1,
+				"Zamorakian ritual keeper": 1,
+				"Berserk Archaelogist": 1,
+				"Cerberus Juvinile": 1,
+				"Denizen of Infernus": 1,
+				"Desha, Guardian of the Hounds": 1,
+				"Maelstrom, Raging Waterfiend": 1,
+				"Mazera, the dark": 1,
+				"Smoulders, the Revenger": 1,
+				"Mefis, the jailer": 1,
+				"Eterna, Ritual Leader": 1,
+				"Zamorak, Lord of Chaos": 1
+			},
+			"Connect": {
+				"6941": true
 			}
 		},
 		"Dwarven Mine": {
@@ -109827,12 +109988,52 @@
 				"Mast": 2,
 				"Exit": 1
 			},
-			"NPC": {
-				"Firefly": 14,
-				"Masterwork fanatic": 1
+			"Monster": {
+				"Zombie (The Shadow Reef)": 1,
+				"Armoured zombie (The Shadow Reef)": 1,
+				"Summoned armoured zombie": 1,
+				"Skeleton Archer (The Shadow Reef)": 1,
+				"Summoned skeleton (The Shadow Reef)": 1,
+				"Summoned skeleton archer (The Shadow Reef)": 1,
+				"Summoned zombie (The Shadow Reef)": 1,
+				"Huge skeleton": 1,
+				"Warped skeleton": 1,
+				"Bossy McBossFace's First mate": 1,
+				"Cloaked zealot": 1,
+				"Crassian scuttler": 1,
+				"Crassian scout (The Shadow Reef)": 1,
+				"Crassian warrior (The Shadow Reef)": 1,
+				"Death Lotus rogue": 1,
+				"Enlightened Sotapanna": 1,
+				"Kal'gerion demon (The Shadow Reef)": 1,
+				"Sea horror": 1,
+				"Ulthven necromancer": 1,
+				"Undead witch": 1,
+				"Bossy McBossFace": 1,
+				"Cooper": 1,
+				"Hanto (The Shadow Reef)": 1,
+				"Ulthven Keith": 1,
+				"Lady Himiko": 1,
+				"Tombi, Khan of Thalassia": 1,
+				"Masuta the Descended": 1,
+				"Quetzathog": 1,
+				"Yor'Ger the Deceiver": 1,
+				"Black Stone Scuttler": 1,
+				"Oreb, the Magister": 1,
+				"Shrine Maiden Elei": 1,
+				"Eye of Cythan": 1,
+				"Hand of Dagnath": 1,
+				"Maw of Kolthregar": 1,
+				"Boggoth": 1,
+				"The Crassian Leviathan": 1,
+				"Taraket the Necromancer": 1,
+				"The Ambassador": 1
 			},
-			"Spawn": {
-				"Broken glass": 8
+			"NPC": {
+				"Firefly": 14
+			},
+			"Connect": {
+				"13881": true
 			}
 		},
 		"Slayer Tower Resource Dungeon": {

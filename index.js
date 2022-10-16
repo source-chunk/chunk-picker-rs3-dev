@@ -402,7 +402,7 @@ let ruleNames = {
     "Wield Crafted Items": "Crafted items (e.g. bows, metal armour/weapons, etc.) can count as BiS gear <span class='rule-asterisk noscroll'>*</span>",
     "Multi Step Processing": "Items must be fully processed, even multiple times within the same skill if needed (e.g. Ore -> Bar -> Smithed Item) <span class='rule-asterisk noscroll'>*</span>",
     "Puro-Puro": "Allow implings from Puro-Puro & their drops to count towards chunk tasks",
-    "Extra implings": "Include implings that have non-guaranteed spawns in Puro-Puro as chunk tasks",
+    "Extra implings": "Include implings that have non-guaranteed spawns in Puro-Puro or the Al Kharid Resource Dungeon as chunk tasks",
     "Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks <span class='rule-asterisk noscroll'>*</span>",
     "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>*</span>",
     "Secondary Primary": "Allow secondary training methods to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing) <span class='rule-asterisk noscroll'>*</span>",
