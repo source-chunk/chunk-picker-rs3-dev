@@ -35026,6 +35026,15 @@
 				"Primary": false,
 				"Priority": 2
 			},
+			"Catch a ~|young impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 22,
+				"Output": "Young impling jar",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Catch a ~|wild kebbit|~": {
 				"NPCs": ["Wild kebbit"],
 				"Items": ["Logs"],
@@ -35135,6 +35144,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Catch a ~|gourmet impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 28,
+				"Output": "Gourmet impling jar",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Catch a ~|gourmet impling|~": {
 				"NPCs": ["Gourmet impling"],
 				"Level": 28,
@@ -35214,6 +35232,15 @@
 				"Output": "Earth impling jar",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch a ~|earth impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 36,
+				"Output": "Earth impling jar",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Catch an ~|earth impling|~": {
 				"NPCs": ["Earth impling"],
@@ -35298,6 +35325,15 @@
 				"Output": "Essence impling jar",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch an ~|essence impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 42,
+				"Output": "Essence impling jar",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Catch an ~|essence impling|~": {
 				"NPCs": ["Essence impling"],
@@ -35422,6 +35458,15 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Catch an ~|eclectic impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 50,
+				"Output": "Eclectic impling jar",
+				"Primary": true,
+				"Priority": 6
+			},
 			"Catch an ~|eclectic impling|~": {
 				"NPCs": ["Eclectic impling"],
 				"Level": 50,
@@ -35490,6 +35535,15 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Catch a ~|spirit impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 54,
+				"Output": "Spirit impling jar",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Catch a ~|spirit impling|~": {
 				"NPCs": ["Spirit impling"],
 				"Level": 54,
@@ -35544,6 +35598,15 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Catch a ~|nature impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 58,
+				"Output": "Nature impling jar",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Catch a ~|nature impling|~": {
 				"NPCs": ["Nature impling"],
 				"Level": 58,
@@ -35582,6 +35645,15 @@
 				"Output": "Magpie impling jar",
 				"Primary": false,
 				"Priority": 1
+			},
+			"Catch a ~|magpie impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 65,
+				"Output": "Magpie impling jar",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Catch a ~|magpie impling|~": {
 				"NPCs": ["Magpie impling"],
@@ -35747,6 +35819,15 @@
 				"Primary": false,
 				"Priority": 2
 			},
+			"Catch a ~|ninja impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 74,
+				"Output": "Ninja impling jar",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Catch a ~|ninja impling|~": {
 				"NPCs": ["Ninja impling"],
 				"Level": 74,
@@ -35830,6 +35911,15 @@
 				"Output": "Pirate impling jar",
 				"Primary": false,
 				"Priority": 2
+			},
+			"Catch a ~|pirate impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 76,
+				"Output": "Pirate impling jar",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Catch a ~|pirate impling|~": {
 				"NPCs": ["Pirate impling"],
@@ -35919,6 +36009,15 @@
 				"Output": "Divine impling jar",
 				"Primary": false,
 				"Priority": 2
+			},
+			"Catch a ~|divine impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 79,
+				"Output": "Divine impling jar",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Catch a ~|divine impling|~": {
 				"NPCs": ["Divine impling"],
@@ -36028,6 +36127,15 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Catch a ~|dragon impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 83,
+				"Output": "Dragon impling jar",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Catch a ~|dragon impling|~": {
 				"NPCs": ["Dragon impling"],
 				"Level": 83,
@@ -36110,6 +36218,15 @@
 				"Output": "Zombie impling jar",
 				"Primary": false,
 				"Priority": 1
+			},
+			"Catch a ~|zombie impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 87,
+				"Output": "Zombie impling jar",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Catch a ~|zombie impling|~": {
 				"NPCs": ["Zombie impling"],
@@ -36287,6 +36404,15 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Catch a ~|kingly impling|~ in the Al Kharid resource dungeon": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Al Kharid Resource Dungeon"],
+				"Items": ["Impling jar"],
+				"Level": 91,
+				"Output": "kingly impling jar",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Catch a ~|kingly impling|~": {
 				"NPCs": ["Kingly impling"],
 				"Level": 91,
@@ -36332,15 +36458,6 @@
 				"Output": "BlackWarlockAnachronia",
 				"Primary": true,
 				"Priority": 2
-			},
-			"Catch a ~|crystal impling|~ in Puro-Puro": {
-				"Category": ["Extra implings"],
-				"Chunks": ["Puro-Puro"],
-				"Items": ["Impling jar"],
-				"Level": 95,
-				"Output": "Crystal impling jar",
-				"Primary": false,
-				"Priority": 3
 			},
 			"Catch a ~|crystal impling|~": {
 				"NPCs": ["Crystal impling"],
@@ -105481,6 +105598,9 @@
 			}
 		},
 		"Al Kharid Resource Dungeon": {
+			"NPC": {
+				"Baby impling": 5
+			},
 			"Object": {
 				"Precious gem rock": 8,
 				"Drakolith rock": 5,
