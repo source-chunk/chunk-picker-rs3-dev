@@ -89247,7 +89247,7 @@
 			"Connect": {
 				"13109": true
 			},
-			"Name": "Edgeville Dungeon"
+			"Name": "Tolna's Rift"
 		},
 		"13210": {
 			"Object": {
@@ -100510,7 +100510,7 @@
 				"Hopeless creature": 22
 			},
 			"Connect": {
-				"13109": 2
+				"13109": true
 			}
 		},
 		"Fremennik Dungeon": {
