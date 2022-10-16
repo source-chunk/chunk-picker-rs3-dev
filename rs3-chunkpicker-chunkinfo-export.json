@@ -75387,7 +75387,7 @@
 				"Wizard": 1
 			},
 			"Connect": {
-				"11416": true
+				"14232": true
 			},
 			"Name": "Blood Rune Temple"
 		},
@@ -91072,7 +91072,7 @@
 			"Connect": {
 				"13875": true
 			},
-			"Name": "Meiyerditch laboratories"
+			"Name": "Shade Catacombs"
 		},
 		"13977": {
 			"Object": {
@@ -91098,7 +91098,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Name": "Meiyerditch laboratories"
+			"Name": "Hallows Myreque Hideout"
 		},
 		"13979": {
 			"Object": {
@@ -91557,7 +91557,7 @@
 			"Monster": {
 				"Bloodveld": 4
 			},
-			"Name": "Meiyerditch laboratories"
+			"Name": "Meiyerditch Laboratories"
 		},
 		"14234": {
 			"Object": {
@@ -91701,6 +91701,9 @@
 				"Bucket": 6,
 				"Tinderbox": 1,
 				"Bucket of water": 10
+			},
+			"Connect": {
+				"14232": true
 			},
 			"Nickname": "North Meiyerditch"
 		},
@@ -91989,7 +91992,7 @@
 			"NPC": {
 				"Sarius Guile": 1
 			},
-			"Name": "Meiyerditch laboratories"
+			"Name": "Meiyerditch Laboratories"
 		},
 		"14488": {
 			"Object": {
@@ -92001,7 +92004,7 @@
 				"Zombie hand": 6,
 				"Mutated bloodveld": 8
 			},
-			"Name": "Meiyerditch laboratories"
+			"Name": "Meiyerditch Laboratories"
 		},
 		"14637": {
 			"Object": {
@@ -107217,40 +107220,6 @@
 				"9520": true
 			}
 		},
-		"Shade Catacombs": {
-			"Object": {
-				"Bronze Chest (red)": 2,
-				"Bronze Chest (brown)": 2,
-				"Bronze Chest (crimson)": 2,
-				"Bronze Chest (black)": 2,
-				"Bronze Chest (purple)": 2,
-				"Steel Chest (red)": 6,
-				"Steel Chest (brown)": 6,
-				"Steel Chest (crimson)": 6,
-				"Steel Chest (black)": 6,
-				"Steel Chest (purple)": 6,
-				"Black Chest (red)": 10,
-				"Black Chest (brown)": 12,
-				"Black Chest (crimson)": 10,
-				"Black Chest (black)": 10,
-				"Black Chest (purple)": 10,
-				"Silver Chest (red)": 1,
-				"Silver Chest (brown)": 2,
-				"Silver Chest (crimson)": 2,
-				"Silver Chest (black)": 2,
-				"Silver Chest (purple)": 2,
-				"Gold Chest": 3
-			},
-			"Monster": {
-				"Phrin Shadow": 12,
-				"Riyl Shadow": 16,
-				"Asyn Shadow": 29,
-				"Fiyr Shadow": 8
-			},
-			"Connect": {
-				"13875": true
-			}
-		},
 		"Columbarium": {
 			"Object": {
 				"Funeral pyre (columbarium)": 7,
@@ -108016,7 +107985,35 @@
 				"13102": true
 			}
 		},
-		"Meiyerditch laboratories": {
+		"Hallows Myreque Hideout": {
+			"Object": {
+				"Stalagmite": 1
+			},
+			"Monster": {
+				"Rat": 17,
+				"Deadly red spider": 2,
+				"Giant rat": 7,
+				"Poison spider": 2,
+				"Goblin": 3,
+				"Hobgoblin": 2
+			},
+			"NPC": {
+				"Dog": 2,
+				"Veliaf Hurtz": 2,
+				"Sani Piliu": 1,
+				"Harold Evans": 1,
+				"Radigad Ponfit": 2,
+				"Polmafi Ferdygris": 2,
+				"Ivan Strom": 2
+			},
+			"Connect": {
+				"9541": true,
+				"13877": true,
+				"13878": true,
+				"13975": true
+			}
+		},
+		"Shade Catacombs": {
 			"Object": {
 				"Bronze Chest (red)": 2,
 				"Bronze Chest (brown)": 2,
@@ -108038,8 +108035,20 @@
 				"Silver Chest (crimson)": 2,
 				"Silver Chest (black)": 2,
 				"Silver Chest (purple)": 2,
-				"Gold Chest": 3,
-				"Stalagmite": 1,
+				"Gold Chest": 3
+			},
+			"Monster": {
+				"Phrin Shadow": 12,
+				"Riyl Shadow": 16,
+				"Asyn Shadow": 29,
+				"Fiyr Shadow": 8
+			},
+			"Connect": {
+				"13875": true
+			}
+		},
+		"Meiyerditch Laboratories": {
+			"Object": {
 				"Sarcophagus": 6,
 				"Corpse": 1,
 				"Broken rune case": 1,
@@ -108047,16 +108056,7 @@
 				"Fishing spot (meiyerditch)": 4
 			},
 			"Monster": {
-				"Phrin Shadow": 12,
-				"Riyl Shadow": 16,
-				"Asyn Shadow": 29,
-				"Fiyr Shadow": 8,
-				"Rat": 21,
-				"Deadly red spider": 2,
-				"Giant rat": 7,
-				"Poison spider": 2,
-				"Goblin": 3,
-				"Hobgoblin": 2,
+				"Rat": 4,
 				"Bloodworm": 7,
 				"Crypt rat": 6,
 				"Giant crypt rat": 4,
@@ -108069,20 +108069,11 @@
 				"Mutated bloodveld": 8
 			},
 			"Connect": {
-				"9541": true,
 				"9804": true,
-				"13877": true,
-				"13878": true,
+				"13977": true,
 				"14387": true
 			},
 			"NPC": {
-				"Dog": 2,
-				"Veliaf Hurtz": 2,
-				"Sani Piliu": 1,
-				"Harold Evans": 1,
-				"Radigad Ponfit": 2,
-				"Polmafi Ferdygris": 2,
-				"Ivan Strom": 2,
 				"Sarius Guile": 1
 			}
 		},
