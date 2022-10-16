@@ -67912,6 +67912,9 @@
 			"Monster": {
 				"Kal'gerion demon": 13
 			},
+			"Connect": {
+				"13625": true
+			},
 			"Name": "Kal'gerion Dungeon"
 		},
 		"5190": {
@@ -90348,6 +90351,9 @@
 				"Elite Dungeon Reward Shop": true,
 				"Thok of Daemonheim": true,
 				"Dungeoneering Reward Shop": true
+			},
+			"Connect": {
+				"5140": true
 			},
 			"Nickname": "Daemonheim Fremennik Camp"
 		},
