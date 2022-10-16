@@ -105487,24 +105487,12 @@
 			"Connect": {
 				"3911": true,
 				"4423": true,
-				"5191": true,
-				"12341": true,
 				"12342": true,
-				"12343": true,
-				"13109": true
+				"12343": true
 			},
 			"Spawn": {
-				"Grimy irit": 1,
-				"Grimy harralander": 1,
-				"Grimy marrentill": 1,
-				"Grimy ranarr": 1,
 				"Brass necklace": 2,
-				"Bronze arrow": 2,
-				"Gold bar": 1,
-				"Ruby ring": 1,
-				"Gold necklace": 1,
-				"Gold ore": 1,
-				"Knife": 1
+				"Bronze arrow": 2
 			},
 			"Object": {
 				"Crate": 22,
