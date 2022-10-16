@@ -91559,6 +91559,9 @@
 			},
 			"Name": "Meiyerditch Laboratories"
 		},
+		"14233": {
+			"Name": "Meiyerditch Laboratories"
+		},
 		"14234": {
 			"Object": {
 				"Hurdle": 9,
@@ -108010,7 +108013,7 @@
 				"9541": true,
 				"13877": true,
 				"13878": true,
-				"13975": true
+				"14233": true
 			}
 		},
 		"Shade Catacombs": {
