@@ -64386,7 +64386,9 @@
 		"20": {
 			"Name": "Moksha Ritual Site"
 		},
-		"21": {},
+		"21": {
+			"Name": "Temple of Aminishi"
+		},
 		"22": {},
 		"23": {},
 		"24": {},
@@ -84447,12 +84449,6 @@
 			},
 			"Connect": {
 				"7099": true,
-				"7350": true,
-				"8120": true,
-				"8368": true,
-				"9134": true,
-				"9138": true,
-				"9909": true,
 				"17781": true
 			},
 			"Spawn": {
@@ -89764,7 +89760,8 @@
 				"Bryll Thoksdottir": 1
 			},
 			"Connect": {
-				"12865": true
+				"12865": true,
+				"20112": true
 			},
 			"Shop": {
 				"Elite Dungeon Reward Shop": true,
@@ -96051,7 +96048,7 @@
 		},
 		"17745": {
 			"Name": "Elder Kiln"
-		}
+		},
 		"17746": {
 			"Object": {
 				"Cave exit": 1
@@ -96360,7 +96357,10 @@
 				"Armament log": 1,
 				"Discarded scraps": 1
 			},
-			"Name": "Aminishi Dungeon"
+			"Name": "Temple of Aminishi"
+		},
+		"18063": {
+			"Name": "Temple of Aminishi"
 		},
 		"18099": {
 			"Object": {
@@ -97976,7 +97976,8 @@
 		"20112": {
 			"Object": {
 				"Lift": 1
-			}
+			},
+			"Name": "Dragonkin Laboratory"
 		},
 		"20114": {
 			"Object": {
@@ -109473,7 +109474,8 @@
 				"Undead pekin": 8
 			},
 			"Connect": {
-				"12082": true
+				"12082": true,
+				"18063": true
 			},
 			"Shop": {
 				"Ani's Seed Store by the Sea Shore": true,
@@ -110007,19 +110009,79 @@
 		},
 		"Senntisten Colosseum": {},
 		"Temple of Aminishi": {
-			"Spawn": {
-				"Broken glass": 8
+			"Object": {
+				"Mysterious lectern": 1,
+				"Discarded pages": 1,
+				"Armament log": 1,
+				"Discarded scraps": 1
 			},
-			"NPC": {
-				"Masterwork fanatic": 1
+			"Monster": {
+				"Elite Sotapanna": 1,
+				"Elite Sakadagami": 1,
+				"Waterfiend (Temple of Aminishi)": 1,
+				"Anagami": 1,
+				"Arhat": 1,
+				"Cloaked zealot": 1,
+				"Crassian warrior": 1,
+				"Death Lotus rogue": 1,
+				"Defence Pylon": 1,
+				"Eastern mercenary": 1,
+				"Hanto sellsword": 1,
+				"Renegade Menaphite soldier": 1,
+				"Sea crocodile": 1,
+				"Ahoeitu the Chef": 1,
+				"Olivia the Chronicler": 1,
+				"Xiang the Water-shaper": 1,
+				"Sarkhan the Serpentspeaker": 1,
+				"Oyu the Quietest": 1,
+				"Goku the Unrelenting": 1,
+				"Yukimura of Hanto": 1,
+				"Jade the Unruly": 1,
+				"The Violet Lotus": 1,
+				"Arhat paragon": 1,
+				"Horrific crassian": 1,
+				"Menaphite guard captain": 1,
+				"Ol' Sawtooth": 1,
+				"The Sanctum Guardian": 1,
+				"Masuta the Ascended": 1,
+				"Seiryu the Azure Serpent": 1
+			},
+			"Connect": {
+				"8625": true
 			}
 		},
 		"Dragonkin Laboratory": {
-			"Spawn": {
-				"Broken glass": 8
+			"Monster": {
+				"Red dragon (Dragonkin Laboratory)": 1,
+				"Black dragon (Dragonkin Laboratory)": 1,
+				"Celestial dragon (Dragonkin Laboratory)": 1,
+				"Dragonstone dragon (Dragonkin Laboratory)": 1,
+				"Onyx dragon (Dragonkin Laboratory)": 1,
+				"Hydrix dragon (Dragonkin Laboratory)": 1,
+				"Animated book": 1,
+				"Laboratory slime": 1,
+				"Lava spider": 1,
+				"Lava strykewyrm (Dragonkin Laboratory)": 1,
+				"Magma golem": 1,
+				"Deathbreath": 1,
+				"Dragon wolf alpha": 1,
+				"Elegorn the Celestial": 1,
+				"Alanogard the Black": 1,
+				"Sangri the Red": 1,
+				"Emberbound Soul": 1,
+				"Engorged lava strykewyrm": 1,
+				"Firebelly": 1,
+				"Giant slime": 1,
+				"Shul the Molten": 1,
+				"Smoulders": 1,
+				"Spyndra": 1,
+				"Verak Little": 1,
+				"Astellarn": 1,
+				"Verak Lith": 1, 
+				"Black Stone Dragon": 1
 			},
-			"NPC": {
-				"Masterwork fanatic": 1
+			"Connect": {
+				"13372": true
 			}
 		},
 		"War's Retreat": {
