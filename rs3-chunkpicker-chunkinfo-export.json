@@ -75964,6 +75964,9 @@
 				"Hunting Supplies": true,
 				"Hunting expert": true
 			},
+			"Connect": {
+				"4361": true
+			},
 			"Nickname": "Feldip Hunter Area"
 		},
 		"10030": {
@@ -101739,7 +101742,16 @@
 				"Rorarius": 62,
 				"Gladius": 51,
 				"Capsarius": 19,
-				"Scutarius": 39
+				"Scutarius": 39,
+				"Legio Primus": 1,
+				"Legio Secundus": 1,
+				"Legio Tertius": 1,
+				"Legio Quartus": 1,
+				"Legio Quintus": 1,
+				"Legio Sextus": 1
+			},
+			"Connect": {
+				"10029": true
 			}
 		},
 		"Mountain camp cave": {
