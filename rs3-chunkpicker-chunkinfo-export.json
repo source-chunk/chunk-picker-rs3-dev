@@ -89202,7 +89202,7 @@
 			"Connect": {
 				"13103": true
 			},
-			"Name": "Mine"
+			"Name": "Desert Mining Camp Cave"
 		},
 		"13206": {
 			"Object": {
@@ -103629,6 +103629,29 @@
             },
 			"Connect": {
 				"11825": true
+			}
+		},
+		"Desert Mining Camp Cave": {
+			"Object": {
+				"Barrel": 11,
+				"Mine Cart": 2,
+				"Mine cave": 4,
+				"Punishment rock": 56,
+				"Mithril rock": 4,
+				"Adamantite rock": 8,
+				"Necrite rock": 3
+			},
+			"NPC": {
+				"Male slave": 29,
+				"Female slave": 24,
+				"Ana": 1
+			},
+			"Monster": {
+				"Rowdy slave": 2,
+				"Guard": 12
+			},
+			"Connect": {
+				"13103": true
 			}
 		},
 		"Iban's Lair": {
