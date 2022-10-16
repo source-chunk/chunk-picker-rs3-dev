@@ -87793,7 +87793,7 @@
 			},
 			"Connect": {
 				"7": true,
-				"5191": true
+				"12954": true
 			},
 			"Spawn": {
 				"Pie dish": 1,
@@ -88259,7 +88259,7 @@
 			"Spawn": {
 				"Knife": 1
 			},
-			"Name": "Edgeville Dungeon"
+			"Name": "Varrock Sewers"
 		},
 		"12956": {
 			"Object": {
@@ -105485,7 +105485,6 @@
 				"12341": true,
 				"12342": true,
 				"12343": true,
-				"12854": true,
 				"13109": true
 			},
 			"Spawn": {
@@ -105671,7 +105670,20 @@
 				"Moss giant": 8,
 				"Spider": 8,
 				"Ghost": 3,
-				"Scorpion": 2
+				"Scorpion": 2,
+				"Rat": 23,
+				"Giant spider": 5,
+				"Skeleton": 5,
+				"Zombie": 6,
+				"Giant rat": 4,
+				"Red deadly spider": 5
+			},
+			"NPC": {
+				"Grimesquit": 1,
+				"Phingspet": 1
+			},
+			"Spawn": {
+				"Knife": 1
 			},
 			"Connect": {
 				"5191": true,
@@ -105679,6 +105691,22 @@
 				"12854": true
 			}
 		},
+		"Object": {
+				"Barrel": 1,
+				"Crates": 1,
+				"Crate": 6,
+				"Spiderweb": 1
+			},
+			"Monster": {
+				"Rat": 23,
+				"Giant spider": 5,
+				"Spider": 8,
+				"Skeleton": 5,
+				"Ghost": 3,
+				"Scorpion": 2,
+				"Zombie": 6,
+				"Giant rat": 4
+			},
 		"Al Kharid Resource Dungeon": {
 			"NPC": {
 				"Baby impling": 5
