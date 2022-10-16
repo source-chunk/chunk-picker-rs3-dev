@@ -64386,27 +64386,6 @@
 		"20": {
 			"Name": "Moksha Ritual Site"
 		},
-		"21": {
-			"Name": "Edgeville Hill Giant Resource Dungeon"
-		},
-		"22": {
-			"Name": "Edgeville Chaos Druids Resource Dungeon"
-		},
-		"23": {
-			"Name": "Varrock Sewer Moss Giant Resource Dungeon"
-		},
-		"24": {
-			"Name": "Dwarven Mine Hidden Mine"
-		},
-		"25": {
-			"Name": "Mining Guild Hidden Mine"
-		},
-		"26": {
-			"Name": "Karamja Volcano Resource Dungeon"
-		},
-		"27": {
-			"Name": "Chaos Tunnels Resource Dungeon"
-		},
 		"258": {
 			"Spawn": {
 				"Broken glass": 8
@@ -66669,7 +66648,7 @@
 				"Grimy marrentill": 1,
 				"Grimy ranarr": 1
 			},
-			"Name": "Edgeville Dungeon"
+			"Name": "Edgeville Chaos Druids Resource Dungeon"
 		},
 		"3913": {
 			"NPC": {
@@ -66861,10 +66840,9 @@
 				"Drakolith rock": 4
 			},
 			"Connect": {
-				"12084": true,
 				"12184": true
 			},
-			"Name": "Mining Guild"
+			"Name": "Mining Guild Hidden Mine"
 		},
 		"4167": {
 			"Object": {
@@ -66880,7 +66858,7 @@
 			"Connect": {
 				"12184": true
 			},
-			"Name": "Dwarven Mine"
+			"Name": "Dwarven Mine Hidden Mine"
 		},
 		"4169": {
 			"Object": {
@@ -67119,7 +67097,8 @@
 			},
 			"Connect": {
 				"12441": true
-			}
+			},
+			"Name": "Edgeville Hill Giant Resource Dungeon"
 		},
 		"4436": {
 			"Object": {
@@ -67465,7 +67444,8 @@
 			},
 			"Connect": {
 				"11413": true
-			}
+			},
+			"Name": "Karamja Volcano Resource Dungeon"
 		},
 		"4680": {
 			"Object": {
@@ -67741,7 +67721,7 @@
 			"Connect": {
 				"12630": true
 			},
-			"Name": "Chaos Tunnels"
+			"Name": "Chaos Tunnels Resource Dungeon"
 		},
 		"4935": {
 			"Monster": {
@@ -67953,7 +67933,7 @@
 			"Connect": {
 				"12698": true
 			},
-			"Name": "Varrock Sewers"
+			"Name": "Varrock Sewer Moss Giant Resource Dungeon"
 		},
 		"5192": {
 			"Object": {
@@ -101278,7 +101258,7 @@
 				"Exit": 5
 			},
 			"Connect": {
-				"27": true,
+				"4934": true,
 				"12087": true,
 				"12343": true,
 				"12344": true,
@@ -105412,8 +105392,7 @@
 				"Scorpion": 2
 			},
 			"Connect": {
-				"21": true,
-				"22": true,
+				"3911": true,
 				"4423": true,
 				"5191": true,
 				"12341": true,
@@ -105525,8 +105504,7 @@
                 "Dwarf gang member": 3
 			},
 			"Connect": {
-				"24": true,
-				"4166": true,
+				"4167": true,
 				"11422": true,
 				"12084": true,
 				"12085": true,
@@ -105562,7 +105540,7 @@
 				"Skeleton": 5
 			},
 			"Connect": {
-				"26": true,
+				"4679": true,
 				"11313": true,
 				"11314": true
 			}
@@ -105582,7 +105560,7 @@
 				"Drakolith rock": 4
 			},
 			"Connect": {
-				"25": true,
+				"4166": true,
 				"12084": true,
 				"12184": true
 			}
@@ -105609,17 +105587,9 @@
 				"Scorpion": 2
 			},
 			"Connect": {
-				"23": true,
+				"5191": true,
 				"12441": true,
 				"12854": true
-			}
-		},
-		"Chaos Tunnels": {
-			"Monster": {
-				"Black demon": 9
-			},
-			"Connect": {
-				"12630": true
 			}
 		},
 		"Al Kharid Resource Dungeon": {
