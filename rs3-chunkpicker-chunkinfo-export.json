@@ -84442,7 +84442,8 @@
 				"Quartermaster Gully": 1,
 				"Navigator Jemi": 1,
 				"Bosun Higgs": 1,
-				"Gudrik": 1
+				"Gudrik": 1,
+				"Mister Gully": 1
 			},
 			"Connect": {
 				"7099": true,
@@ -96048,11 +96049,13 @@
 			},
 			"Name": "Fight Cave"
 		},
+		"17745": {
+			"Name": "Elder Kiln"
+		}
 		"17746": {
 			"Object": {
 				"Cave exit": 1
-			},
-			"Name": "Elder Kiln"
+			}
 		},
 		"17747": {
 			"Object": {
