@@ -19057,6 +19057,14 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Create a ~|body bar|~": {
+				"Chunks": ["Elemental Workshop Third Floor"],
+				"Items": ["Primed bar*"],
+				"Level": 33,
+				"Output": "Body bar",
+				"Primary": false,
+				"priority": 2
+			},
 			"Wear a piece of ~|druidic mage robes|~": {
 				"Items": ["DruidicMageRobes+"],
 				"Level": 35,
@@ -37241,6 +37249,14 @@
 				},
 				"Priority": 11
 			},
+			"Create a ~|mind bar|~": {
+				"Chunks": ["Elemental Workshop Third Floor"],
+				"Items": ["Primed bar*"],
+				"Level": 20,
+				"Output": "Mind bar",
+				"Primary": false,
+				"Priority": 12
+			},
 			"Cast ~|low level alchemy|~": {
 				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Fire rune+*"],
@@ -40120,6 +40136,13 @@
 				"Primary": true,
 				"Output": "Silver ore",
 				"Priority": 2
+			},
+			"Mine an ~|elemental rock|~": {
+				"Level": 20,
+				"Objects": ["Elemental rock"],
+				"Primary": true,
+				"Output": "Elemental ore",
+				"Priority": 8
 			},
 			"Mine a ~|Elemental rock|~": {
 				"Level": 20,
@@ -44647,6 +44670,14 @@
 				"Primary": false,
 				"Priority": 4
 			},
+			"Create a ~|cosmic bar|~": {
+				"Chunks": ["Elemental Workshop Third Floor"],
+				"Items": ["Primed bar*"],
+				"Level": 39,
+				"Output": "Cosmic bar",
+				"Primary": false,
+				"Priority": 1
+			},
 			"Craft ~|astral runes|~ at the astral altar": {
 				"Chunks": ["8508"],
 				"Items": ["Pure essence*"],
@@ -47194,6 +47225,30 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Smelt an ~|elemental bar|~": {
+				"Items": ["Elemental ore*", "Coal*"],
+				"Level": 20,
+				"Objects": ["Elemental furnace"],
+				"Output": "Steel ore box",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Forge a ~|crane claw|~": {
+				"Items": ["Elemental bar*", "Crane schematic"],
+				"Level": 20,
+				"Objects": ["Elemental anvil"],
+				"Output": "Crane claw",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Forge an ~|elemental shield|~": {
+				"Items": ["Elemental bar*"],
+				"Level": 20,
+				"Objects": ["Elemental anvil"],
+				"Output": "Elemental shield",
+				"Primary": true,
+				"Priority": 11
+			},
 			"Forge a ~|cannonball|~": {
 				"Items": ["Steel bar*"],
 				"Level": 35,
@@ -47253,6 +47308,126 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Forge a ~|mind shield|~": {
+				"Items": ["Mind bar*"],
+				"Level": 30,
+				"Objects": ["Elemental anvil"],
+				"Output": "Mind shield",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Forge a ~|mind helmet|~": {
+				"Items": ["Mind bar*"],
+				"Level": 30,
+				"Objects": ["Elemental anvil"],
+				"Output": "Mind helmet",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Forge an ~|elemental helmet|~": {
+				"Items": ["Elemental bar*"],
+				"Level": 30,
+				"Objects": ["Elemental anvil"],
+				"Output": "Elemental helmet",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Forge an ~|elemental body|~": {
+				"Items": ["Elemental bar*"],
+				"Level": 33,
+				"Objects": ["Elemental anvil"],
+				"Output": "Elemental body",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Forge a ~|mind body|~": {
+				"Items": ["Mind bar*"],
+				"Level": 33,
+				"Objects": ["Elemental anvil"],
+				"Output": "Mind body",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Forge a ~|body body|~": {
+				"Items": ["Body bar*"],
+				"Level": 33,
+				"Objects": ["Elemental anvil"],
+				"Output": "Body body",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Forge a ~|body helmet|~": {
+				"Items": ["Body bar*"],
+				"Level": 33,
+				"Objects": ["Elemental anvil"],
+				"Output": "Body helmet",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Forge a ~|body shield|~": {
+				"Items": ["Body bar*"],
+				"Level": 33,
+				"Objects": ["Elemental anvil"],
+				"Output": "Body shield",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Forge an ~|elemental gloves|~": {
+				"Items": ["Elemental bar*"],
+				"Level": 38,
+				"Objects": ["Elemental anvil"],
+				"Output": "Elemental gloves",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Forge a ~|mind gloves|~": {
+				"Items": ["Mind bar*"],
+				"Level": 38,
+				"Objects": ["Elemental anvil"],
+				"Output": "Mind gloves",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Forge a ~|body gloves|~": {
+				"Items": ["Body bar*"],
+				"Level": 38,
+				"Objects": ["Elemental anvil"],
+				"Output": "Body gloves",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Forge a ~|cosmic gloves|~": {
+				"Items": ["Cosmic bar*"],
+				"Level": 38,
+				"Objects": ["Elemental anvil"],
+				"Output": "Cosmic gloves",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Forge a ~|cosmic body|~": {
+				"Items": ["Cosmic bar*"],
+				"Level": 38,
+				"Objects": ["Elemental anvil"],
+				"Output": "Cosmic body",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Forge a ~|cosmic helmet|~": {
+				"Items": ["Cosmic bar*"],
+				"Level": 38,
+				"Objects": ["Elemental anvil"],
+				"Output": "Cosmic helmet",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Forge a ~|cosmic shield|~": {
+				"Items": ["Cosmic bar*"],
+				"Level": 38,
+				"Objects": ["Elemental anvil"],
+				"Output": "Cosmic shield",
+				"Primary": true,
+				"Priority": 7
+			},
 			"Forge ~|adamant|~": {
 				"Items": ["Adamant bar*"],
 				"Level": 40,
@@ -47284,6 +47459,78 @@
 				"Output": "Adamant ore box",
 				"Primary": true,
 				"Priority": 6
+			},
+			"Forge an ~|elemental boots|~": {
+				"Items": ["Elemental bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Elemental boots",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Forge a ~|mind boots|~": {
+				"Items": ["Mind bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Mind boots",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Forge a ~|body boots|~": {
+				"Items": ["Body bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Body boots",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Forge a ~|cosmic boots|~": {
+				"Items": ["Cosmic bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Cosmic boots",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Forge a ~|chaos boots|~": {
+				"Items": ["Chaos bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Chaos boots",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Forge a ~|chaos gloves|~": {
+				"Items": ["Chaos bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Chaos gloves",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Forge a ~|chaos body|~": {
+				"Items": ["Chaos bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Chaos body",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Forge a ~|chaos helmet|~": {
+				"Items": ["Chaos bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Chaos helmet",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Forge a ~|chaos shield|~": {
+				"Items": ["Chaos bar*"],
+				"Level": 42,
+				"Objects": ["Elemental anvil"],
+				"Output": "Chaos shield",
+				"Primary": true,
+				"Priority": 9
 			},
 			"Forge ~|rune|~": {
 				"Items": ["Rune bar*"],
@@ -51248,6 +51495,14 @@
 				"Chunks": ["12093"],
 				"Primary": true,
 				"Priority": 1
+			},
+			"Create a ~|chaos bar|": {
+				"Chunks": ["Elemental Workshop Third Floor"],
+				"Items": ["Primed bar*", "Cosmic gloves"],
+				"Level": 39,
+				"Output": "Chaos bar",
+				"Primary": false,
+				"Priority": 2
 			},
 			"Lockpick the door to the ~|chaos druid tower|~": {
 				"Level": 46,
@@ -63941,6 +64196,15 @@
 			"Empty a plant cure*": {
 				"Items": ["Plant cure"],
 				"Output": "Vial"
+			},
+			"Find a crane schematic": {
+				"Objects": ["Schematic crate"],
+				"Output": "Crane schematic"
+			},
+			"Prime an elemental bar": {
+				"Chunks": ["Elemental Workshop Second Floor"],
+				"Items": ["Elemental bar"],
+				"Output": "Primed bar"
 			}
 		}
 	},
@@ -69976,7 +70240,7 @@
 				"Extractor hat": 1,
 				"Schematic crate": 1
 			},
-			"Name": "Elemental Workshop"
+			"Name": "Elemental Workshop Second Floor"
 		},
 		"7762": {
 			"Object": {
@@ -79574,7 +79838,7 @@
 			"NPC": {
 				"Elemental rock": 47
 			},
-			"Name": "Elemental Workshop"
+			"Name": "Elemental Workshop first Floor"
 		},
 		"10907": {
 			"Monster": {
@@ -94156,7 +94420,7 @@
 				"Instruction cube (operate)": 1,
 				"Instruction cube (get)": 1
 			},
-			"Name": "Elemental Workshop"
+			"Name": "Elemental Workshop Third Floor"
 		},
 		"16471": {
 			"Object": {
@@ -94167,7 +94431,7 @@
 				"Crate": 4,
 				"Crates": 3
 			},
-			"Name": "Elemental Workshop"
+			"Name": "Elemental Workshop Third Floor"
 		},
 		"16473": {
 			"Object": {
@@ -105616,7 +105880,67 @@
 			}
 		},
 		"Ritual site cave": {},
-		"Elemental Workshop": {
+		"Elemental Workshop First Floor": {
+			"Object": {
+				"Crate": 44,
+				"Crates": 13,
+				"Stairwell": 1,
+				"Lever": 36,
+				"An old lever": 5,
+				"Junction box": 1,
+				"Water valve": 2,
+				"Corkscrew lever": 1,
+				"Schematic crate": 1,
+				"Reset Lever": 1,
+				"Undo Lever": 1,
+				"Boxes": 1,
+				"Workbench": 2,
+				"Sink": 1,
+				"Clay rock": 4,
+				"Elemental furnace": 1,
+				"Elemental anvil": 1
+			},
+			"NPC": {
+				"Elemental rock": 47
+			},
+			"Monster": {
+				"Fire elemental": 8,
+				"Earth elemental": 10,
+				"Air elemental": 7,
+				"Water elemental": 7
+			},
+			"Connect": {
+				"7760": true,
+				"10806": true
+			}
+		},
+		"Elemental Workshop Second Floor": {
+			"Object": {
+				"Crate": 44,
+				"Crates": 13,
+				"Stairwell": 1,
+				"Lever": 36,
+				"An old lever": 5,
+				"Junction box": 1,
+				"Water valve": 2,
+				"Corkscrew lever": 1,
+				"Extractor hat": 1,
+				"Schematic crate": 1,
+				"Reset Lever": 1,
+				"Undo Lever": 1,
+				"Scroll crate": 1,
+				"Boxes": 1,
+				"Workbench": 2,
+				"Sink": 1
+			},
+			"NPC": {},
+			"Monster": {},
+			"Connect": {
+				"10906": true,
+				"16471": true
+			}
+		},
+		"Elemental Workshop Third Floor": {
 			"Object": {
 				"Crate": 44,
 				"Crates": 13,
@@ -105634,8 +105958,7 @@
 				"CPU": 1,
 				"Boxes": 1,
 				"Workbench": 2,
-				"Sink": 1,
-				"Clay rock": 4
+				"Sink": 1
 			},
 			"NPC": {
 				"Address cube (air)": 1,
@@ -105652,17 +105975,11 @@
 				"Instruction cube (break)": 1,
 				"Instruction cube (put)": 1,
 				"Instruction cube (operate)": 1,
-				"Instruction cube (get)": 1,
-				"Elemental rock": 47
+				"Instruction cube (get)": 1
 			},
-			"Monster": {
-				"Fire elemental": 8,
-				"Earth elemental": 10,
-				"Air elemental": 7,
-				"Water elemental": 7
-			},
+			"Monster": {},
 			"Connect": {
-				"10806": true
+				"7760": true
 			}
 		},
 		"Mogre camp": {
