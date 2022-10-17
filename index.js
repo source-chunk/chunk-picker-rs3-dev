@@ -1020,14 +1020,6 @@ let onTestServer = false;
 let patreonMaps = {
     'test': true, // testing
     'temp': true, // testing
-    'dev': true, // testing
-    'yvl': true, // testing
-    'src': true, // Source Chunk
-    'kaa': true, // Chagohod
-    'jlo': true, // JLo
-    'pri': true, // invalidCards
-    'mory': true, // Pearion
-    'rob': true, // Oponn
 };
 
 let roll5Mid = 'rfr'; // Semanari
@@ -2401,7 +2393,7 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-const myWorker = new Worker("./worker.js?v=4.17.2");
+const myWorker = new Worker("./worker.js?v=4.17.3");
 myWorker.onmessage = function(e) {
     if (e.data[0] === 'error') {
         $('.panel-active > .calculating > .inner-loading-bar').css('background-color', 'red');
@@ -6762,26 +6754,13 @@ var checkMID = function(mid) {
             proceed();
         }
         databaseRef.child('mapids/' + mid).once('value', function(snap) {
-            if (snap.val() && (!onTestServer || patreonMaps[mid])) {
+            if (snap.val() && (patreonMaps.hasOwnProperty(mid))) {
                 myRef = firebase.database().ref('maps/' + mid);
                 atHome = false;
                 $('.background-img').hide();
                 inEntry = true && !viewOnly;
             } else {
-                databaseRef.child('maps/' + mid).once('value', function(snap) {
-                    if (!snap.val()) {
-                        window.location.replace(window.location.href.split('?')[0]);
-                        atHome = true;
-                        $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9, .menu10, .settings-menu, .topnav, #beta, .hiddenInfo, #entry-menu, #highscore-menu, #highscore-menu2, #import-menu, #help-menu, .canvasDiv').hide();
-                        $('.loading, .ui-loader-header').remove();
-                    } else {
-                        myRef = firebase.database().ref('maps/' + mid);
-                        atHome = false;
-                        $('.background-img').hide();
-                        inEntry = true && !viewOnly;
-                        databaseRef.child('mapids/' + mid).set(true);
-                    }
-                });
+                window.location.replace('https://source-chunk.github.io/chunk-picker-rs3/?' + window.location.href.split('?')[1]);
             }
             setupMap();
         });
